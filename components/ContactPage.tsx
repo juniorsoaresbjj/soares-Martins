@@ -39,7 +39,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
   };
 
   return (
-    <div className="relative min-h-screen pt-32 pb-24 px-[5%] md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+    <div className="relative min-h-screen pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-[5%] md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img 
@@ -53,65 +53,65 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
       <div className="relative z-10 max-w-7xl mx-auto">
         <button 
           onClick={onBack}
-          className="flex items-center gap-2 text-bronze text-xs font-bold uppercase tracking-widest mb-12 hover:text-white transition-colors group"
+          className="flex items-center gap-2 text-bronze text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-8 sm:mb-12 hover:text-white transition-colors group"
         >
-          <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
+          <ArrowLeft size={14} className="group-hover:-translate-x-1 transition-transform" />
           {t('nav.back_home')}
         </button>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-start">
           <div className="space-y-6">
             <div>
-              <span className="text-bronze text-sm font-bold uppercase tracking-widest block mb-4">{t('contact_page.tag')}</span>
-              <h1 className="font-serif text-white text-5xl md:text-7xl leading-tight mb-2">
+              <span className="text-bronze text-xs sm:text-sm font-bold uppercase tracking-widest block mb-3 sm:mb-4">{t('contact_page.tag')}</span>
+              <h1 className="font-serif text-white text-4xl sm:text-5xl md:text-7xl leading-tight mb-2">
                 {t('contact_page.title')} <br />
                 <span className="serif-italic text-bronze">{t('contact_page.titleHighlight')}</span>
               </h1>
               
-              <div className="space-y-8 pt-4">
-                <div className="flex gap-6 items-start border-l border-bronze/30 pl-8">
-                  <div className="w-12 h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
-                    <MapPin size={24} />
+              <div className="space-y-6 sm:space-y-8 pt-4">
+                <div className="flex gap-4 sm:gap-6 items-start border-l border-bronze/30 pl-6 sm:pl-8">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
+                    <MapPin size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold uppercase text-xs tracking-widest mb-2">{t('contact_page.location')}</h4>
-                    <p className="text-text-muted leading-relaxed text-sm">
+                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.location')}</h4>
+                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
                       {t('contact_page.city')}
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-6 items-start border-l border-white/5 pl-8">
-                  <div className="w-12 h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
-                    <Phone size={24} />
+                <div className="flex gap-4 sm:gap-6 items-start border-l border-white/5 pl-6 sm:pl-8">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
+                    <Phone size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold uppercase text-xs tracking-widest mb-2">{t('contact_page.phone_label')}</h4>
-                    <p className="text-text-muted leading-relaxed text-sm">
+                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.phone_label')}</h4>
+                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
                       +55 (21) 97954-9241
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-6 items-start border-l border-white/5 pl-8">
-                  <div className="w-12 h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
-                    <Mail size={24} />
+                <div className="flex gap-4 sm:gap-6 items-start border-l border-white/5 pl-6 sm:pl-8">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
+                    <Mail size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold uppercase text-xs tracking-widest mb-2">{t('contact_page.email_label')}</h4>
-                    <p className="text-text-muted leading-relaxed text-sm">
+                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.email_label')}</h4>
+                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
                       soaresmartinsadv@hotmail.com
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-6 items-start border-l border-white/5 pl-8">
-                  <div className="w-12 h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
-                    <Clock size={24} />
+                <div className="flex gap-4 sm:gap-6 items-start border-l border-white/5 pl-6 sm:pl-8">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
+                    <Clock size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold uppercase text-xs tracking-widest mb-2">{t('contact_page.hours_label')}</h4>
-                    <p className="text-text-muted leading-relaxed text-sm">
+                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.hours_label')}</h4>
+                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
                       {t('contact_page.hours_desc')}<br />
                       {t('contact_page.emergency')}
                     </p>
@@ -121,10 +121,10 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
             </div>
           </div>
 
-          <div className="bg-midnight-light/90 backdrop-blur-md border border-white/5 rounded-[40px] p-8 md:p-12 shadow-2xl mt-12 lg:mt-0">
-            <h3 className="text-white font-serif text-3xl mb-8">{t('contact_page.form_title')}</h3>
+          <div className="bg-midnight-light/90 backdrop-blur-md border border-white/5 rounded-[30px] sm:rounded-[40px] p-6 sm:p-8 md:p-12 shadow-2xl mt-8 lg:mt-0">
+            <h3 className="text-white font-serif text-2xl sm:text-3xl mb-6 sm:mb-8">{t('contact_page.form_title')}</h3>
             
-              <form className="space-y-6" onSubmit={handleSubmit}>
+              <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
                 <div className="space-y-2">
                   <label className="text-[10px] uppercase font-bold tracking-widest text-bronze block">{t('contact_page.form_name')}</label>
                   <input 
@@ -134,11 +134,11 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                     onChange={handleInputChange}
                     required
                     placeholder={t('contact_page.form_name_place')}
-                    className="w-full bg-midnight border border-white/10 rounded-xl px-6 py-4 text-white outline-none focus:border-bronze transition-colors"
+                    className="w-full bg-midnight border border-white/10 rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-white text-sm sm:text-base outline-none focus:border-bronze transition-colors"
                   />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
                   <div className="space-y-2">
                     <label className="text-[10px] uppercase font-bold tracking-widest text-bronze block">{t('contact_page.form_phone')}</label>
                     <input 
@@ -148,7 +148,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                       onChange={handleInputChange}
                       required
                       placeholder="(00) 00000-0000"
-                      className="w-full bg-midnight border border-white/10 rounded-xl px-6 py-4 text-white outline-none focus:border-bronze transition-colors"
+                      className="w-full bg-midnight border border-white/10 rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-white text-sm sm:text-base outline-none focus:border-bronze transition-colors"
                     />
                   </div>
                   <div className="space-y-2">
@@ -160,7 +160,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                       onChange={handleInputChange}
                       required
                       placeholder="email@exemplo.com"
-                      className="w-full bg-midnight border border-white/10 rounded-xl px-6 py-4 text-white outline-none focus:border-bronze transition-colors"
+                      className="w-full bg-midnight border border-white/10 rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-white text-sm sm:text-base outline-none focus:border-bronze transition-colors"
                     />
                   </div>
                 </div>
@@ -179,20 +179,20 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                     onChange={handleInputChange}
                     required
                     placeholder={t('contact_page.form_message_place')}
-                    className="w-full bg-midnight border border-white/10 rounded-xl px-6 py-4 text-white outline-none focus:border-bronze transition-colors resize-none"
+                    className="w-full bg-midnight border border-white/10 rounded-xl px-4 sm:px-6 py-3 sm:py-4 text-white text-sm sm:text-base outline-none focus:border-bronze transition-colors resize-none"
                   />
                 </div>
 
                 <button 
                   type="submit"
-                  className="w-full bg-bronze text-midnight py-5 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-white transition-all duration-300 flex items-center justify-center gap-3 shadow-xl"
+                  className="w-full bg-bronze text-midnight py-4 sm:py-5 rounded-xl font-bold uppercase tracking-widest text-[10px] sm:text-xs hover:bg-white transition-all duration-300 flex items-center justify-center gap-3 shadow-xl"
                 >
-                  <Send size={16} />
+                  <Send size={14} />
                   {t('contact_page.form_submit')}
                 </button>
               </form>
 
-            <div className="mt-8 pt-8 border-t border-white/5 flex items-center gap-4 text-text-muted">
+            <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/5 flex items-center gap-4 text-text-muted">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
               <p className="text-[10px] uppercase tracking-widest font-medium italic">{t('contact_page.response_time')}</p>
             </div>

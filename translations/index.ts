@@ -6,7 +6,7 @@ export const translations = {
     nav: {
       history: 'O ESCRITÓRIO',
       services: 'ÁREAS DE ATUAÇÃO',
-      team: 'EQUIPE',
+      team: 'CORPO JURÍDICO',
       contact: 'CONTATO',
       blog: 'BLOG',
       cta: 'FALE CONOSCO',
@@ -68,6 +68,7 @@ export const translations = {
       cta_banner_desc: 'Oferecemos soluções estruturadas para condomínios residenciais e comerciais que exigem precisão técnica, agilidade e visão preventiva.',
       cta_button: 'Falar com Especialista',
       penal_title: 'Direito Penal Patrimonial',
+      penal_desc: 'Proteção jurídica contra crimes patrimoniais, fraudes e apropriação indébita. Atuamos na esfera criminal para resguardar o patrimônio e a honra dos gestores e do condomínio.',
       details: {
         s1: ["Contratos de locação", "Cobrança de aluguéis", "Ação de despejo", "Revisional e renovatória", "Rescisão contratual", "Reintegração de posse", "Regularização patrimonial", "Direito de construção"],
         s2: ["Responsabilidade do síndico", "Vícios construtivos", "Conflitos de vizinhança", "Obrigação de fazer", "Anulação de assembleias", "Danos morais", "Gestão de multas", "Uso de áreas comuns"],
@@ -79,10 +80,10 @@ export const translations = {
       }
     },
     team_page: {
-      tag: 'Nossa Equipe',
+      tag: 'Corpo Jurídico',
       title: 'Corpo Jurídico de',
       titleHighlight: 'Alta Performance.',
-      description: 'Contamos com um corpo jurídico altamente qualificado, focado em entregar soluções estratégicas com rigor técnico e visão preventiva para a gestão condominial moderna.',
+      description: 'O escritório conta com estrutura jurídica organizada e atuação integrada entre profissionais especializados em diferentes áreas do Direito. Além do responsável técnico apresentado nesta seção, há uma rede de advogados colaboradores com comprovada experiência prática e atuação direcionada. Esses profissionais são acionados conforme a especificidade de cada demanda, garantindo abordagem técnica adequada e eficiente.\n\nA atuação conjunta permite análise multidisciplinar dos casos, com foco em segurança jurídica e mitigação de riscos. O escritório prioriza a seleção criteriosa de parceiros, observando qualificação técnica e alinhamento estratégico. Todos os serviços são prestados sob coordenação e supervisão direta do responsável pelo escritório.\n\nA gestão das demandas segue padrões internos de qualidade e controle, assegurando uniformidade na prestação jurídica. O modelo de atuação possibilita maior amplitude técnica sem comprometer a personalização do atendimento. A estrutura adotada visa conferir agilidade, precisão e assertividade na condução dos casos. Dessa forma, o cliente conta com suporte jurídico completo, alinhado às melhores práticas profissionais.',
       specialty_quote: 'Sólida experiência prática nas áreas cível e imobiliária.',
       bio: 'Advogado inscrito na OAB/RJ, com sólida experiência prática nas áreas cível e imobiliária, atuando tanto no contencioso quanto na esfera consultiva. Pós-graduado em Direito Civil e Processo Civil e Pós-graduado em Direito Imobiliário e Condominial. Especialista em demandas imobiliárias tradicionais e contemporâneas, como direitos reais, built to suit, coliving, coworking, locação em shopping center, incorporações imobiliárias e loteamentos. Além de forte base jurídica, conta com formação técnica em transações imobiliárias e seguros habitacionais.'
     },
@@ -123,6 +124,15 @@ export const translations = {
       team_label: 'Equipe Soares Martins',
       team_sub: 'Especialistas em Direito Condominial',
       cat_all: 'Todos',
+      cat_compliance: 'Compliance',
+      cat_jurisprudence: 'Jurisprudência',
+      cat_financial: 'Financeiro',
+      cat_management: 'Gestão',
+      cat_technology: 'Tecnologia',
+      cat_real_estate_law: 'Direito Imobiliário',
+      cat_airbnb: 'Airbnb',
+      cat_rental: 'Locação',
+      cat_coexistence: 'Convivência',
       read_time_suffix: 'de leitura'
     },
     quote: {
@@ -133,17 +143,17 @@ export const translations = {
       title: 'Gestão Jurídica de',
       titleHighlight: 'Alta Performance.',
       s1: 'Real Estate & Estruturação',
-      s1Desc: 'Atuação em litígios possessórios, contratos imobiliários complexos, locações e regularizações patrimoniais.',
+      s1Desc: 'Estruturação jurídica de negócios imobiliários, incorporações e loteamentos. Atuamos na regularização de ativos e na gestão estratégica de contratos complexos de posse e propriedade.',
       s2: 'Contencioso Estratégico',
-      s2Desc: 'Atuação em litígios críticos que impactam a estabilidade jurídica e financeira do condomínio.',
+      s2Desc: 'Defesa técnica em processos judiciais de alta complexidade. Focamos na mitigação de riscos e na obtenção de decisões favoráveis que preservem a estabilidade do condomínio.',
       s3: 'Recuperação de Ativos',
-      s3Desc: 'Metodologia para recomposição do fluxo de caixa e redução da inadimplência orientada por dados.',
+      s3Desc: 'Metodologia avançada para recuperação de cotas condominiais e ativos financeiros. Utilizamos inteligência investigativa para localização de bens e celeridade na satisfação do crédito.',
       s4: 'Consultoria Preventiva',
-      s4Desc: 'Pareceres técnicos e blindagem da gestão para evitar passivos e garantir decisões seguras.',
+      s4Desc: 'Orientação jurídica contínua para síndicos e conselhos. Elaboramos pareceres e análises de risco que evitam demandas judiciais e garantem segurança nas deliberações.',
       s5: 'Compliance Condominial',
-      s5Desc: 'Modernização normativa, adequação à LGPD e implementação de políticas de governança interna.',
+      s5Desc: 'Implementação de programas de integridade, adequação rigorosa à LGPD e revisão de normas internas para garantir uma gestão transparente e em conformidade legal.',
       s6: 'Trabalhista & Terceirização',
-      s6Desc: 'Gestão estratégica de relações trabalhistas e mitigação de responsabilidades solidárias.'
+      s6Desc: 'Gestão estratégica de relações de trabalho e fiscalização rigorosa de empresas terceirizadas. Atuamos na prevenção de passivos e na defesa em reclamações trabalhistas.'
     },
     data: {
       title: 'Saúde Financeira',
@@ -205,7 +215,7 @@ export const translations = {
     nav: {
       history: 'EL DESPACHO',
       services: 'ÁREAS DE ACTUACIÓN',
-      team: 'EQUIPO',
+      team: 'CUERPO JURÍDICO',
       contact: 'CONTACTO',
       blog: 'BLOG',
       cta: 'CONTÁCTENOS',
@@ -267,6 +277,7 @@ export const translations = {
       cta_banner_desc: 'Ofrecemos soluciones estructuradas para condominios residenciales y comerciales que exigen precisión técnica, agilidad y visión preventiva.',
       cta_button: 'Hablar con Especialista',
       penal_title: 'Derecho Penal Patrimonial',
+      penal_desc: 'Protección jurídica contra delitos patrimoniales, fraudes y apropiación indebida. Actuamos en la esfera penal para resguardar el patrimonio y el honor de los gestores y del condominio.',
       details: {
         s1: ["Contratos de alquiler", "Cobro de rentas", "Desalojos", "Revisión y renovación", "Rescisión contractual", "Reivindicación de posesión", "Regularización patrimonial", "Derecho de construcción"],
         s2: ["Responsabilidad del administrador", "Vicios de construcción", "Conflictos de vecindad", "Obligación de hacer", "Anulación de asambleas", "Daños morales", "Gestión de multas", "Uso de áreas comunes"],
@@ -278,10 +289,10 @@ export const translations = {
       }
     },
     team_page: {
-      tag: 'Nuestro Equipo',
+      tag: 'Cuerpo Jurídico',
       title: 'Cuerpo Jurídico de',
       titleHighlight: 'Alto Rendimiento.',
-      description: 'Contamos con un cuerpo jurídico altamente calificado, enfocado en entregar soluciones estratégicas con rigor técnico y visión preventiva para la gestión moderna.',
+      description: 'El despacho cuenta con una estructura jurídica organizada y una actuación integrada entre profesionales especializados en diferentes áreas del Derecho. Además del responsable técnico presentado en esta sección, existe una red de abogados colaboradores con comprobada experiencia práctica y actuación dirigida. Estos profesionales son activados según la especificidad de cada demanda, garantizando un enfoque técnico adecuado y eficiente.\n\nLa actuación conjunta permite un análisis multidisciplinario de los casos, con enfoque en la seguridad jurídica y la mitigación de riesgos. El despacho prioriza la selección cuidadosa de socios, observando la calificación técnica y la alineación estratégica. Todos los servicios se prestan bajo la coordinación y supervisión directa del responsable del despacho.\n\nLa gestión de las demandas sigue estándares internos de calidad y control, asegurando la uniformidad en la prestación jurídica. El modelo de actuación permite una mayor amplitud técnica sin comprometer la personalización de la atención. La estructura adoptada tiene como objetivo proporcionar agilidad, precisión y asertividad en la conducción de los casos. De esta manera, el cliente cuenta con un soporte jurídico completo, alineado con las mejores prácticas profesionales.',
       specialty_quote: 'Sólida experiencia práctica en las áreas civil e inmobiliaria.',
       bio: 'Abogado inscrito en la OAB/RJ, con sólida experiencia práctica en las áreas civil e inmobiliaria, actuando tanto en el contencioso como en la esfera consultiva. Posgrado en Direito Civil y Procesal Civil y Posgrado en Derecho Inmobiliario y Condominial. Especialista en demandas inmobiliarias tradicionales y contemporáneas, como derechos reales, built to suit, coliving, coworking, alquiler en centros comerciales, incorporaciones inmobiliarias y loteos. Además de fuerte base jurídica, cuenta con formación técnica en transacciones inmobiliarias y seguros habitacionales.'
     },
@@ -321,6 +332,15 @@ export const translations = {
       team_label: 'Equipo Soares Martins',
       team_sub: 'Especialistas en Derecho Condominial',
       cat_all: 'Todos',
+      cat_compliance: 'Cumplimiento',
+      cat_jurisprudence: 'Jurisprudencia',
+      cat_financial: 'Financiero',
+      cat_management: 'Gestión',
+      cat_technology: 'Tecnología',
+      cat_real_estate_law: 'Derecho Inmobiliario',
+      cat_airbnb: 'Airbnb',
+      cat_rental: 'Alquiler',
+      cat_coexistence: 'Convivencia',
       read_time_suffix: 'de lectura'
     },
     quote: {
@@ -331,17 +351,17 @@ export const translations = {
       title: 'Gestión Jurídica de',
       titleHighlight: 'Alto Rendimiento.',
       s1: 'Bienes Raíces y Estructuración',
-      s1Desc: 'Actuación en litigios posesorios, contratos inmobiliarios complejos, alquileres y regularizaciones patrimoniais.',
+      s1Desc: 'Estructuración jurídica de negocios inmobiliarios, incorporaciones y loteos. Actuamos en la regularización de activos y en la gestión estratégica de contratos complejos de posesión y propiedad.',
       s2: 'Litigio Estratégico',
-      s2Desc: 'Actuación en litigios críticos que impactan la estabilidad jurídica y financiera del condominio.',
-      s3: 'Recuperación de Ativos',
-      s3Desc: 'Metodología para la recomposición del flujo de caja y reducción de la morosidad orientada por datos.',
+      s2Desc: 'Defensa técnica en procesos judiciales de alta complejidad. Nos enfocamos en la mitigación de riesgos y en la obtención de decisiones favorables que preserven la estabilidad del condominio.',
+      s3: 'Recuperación de Activos',
+      s3Desc: 'Metodología avanzada para la recuperación de cuotas de condominios y activos financieros. Utilizamos inteligencia investigativa para la localización de bienes y celeridad en la satisfacción del crédito.',
       s4: 'Consultoría Preventiva',
-      s4Desc: 'Informes técnicos y protección de la gestión para evitar pasivos y garantizar decisiones seguras.',
+      s4Desc: 'Orientación jurídica continua para administradores y consejos. Elaboramos informes y análisis de riesgo que evitan demandas judiciales y garantizan seguridad en las deliberaciones.',
       s5: 'Compliance en Condominios',
-      s5Desc: 'Modernización normativa, adecuación a la protección de datos e implementación de políticas de gobernanza.',
+      s5Desc: 'Implementación de programas de integridad, adecuación rigurosa a la protección de datos y revisión de normas internas para garantizar una gestión transparente y en conformidad legal.',
       s6: 'Laboral y Tercerización',
-      s6Desc: 'Gestión estratégica de relaciones laborales y mitigación de responsabilidades solidarias.'
+      s6Desc: 'Gestión estratégica de relaciones laborales y fiscalización rigurosa de empresas tercerizadas. Actuamos en la prevención de pasivos y en la defensa en reclamaciones laborales.'
     },
     data: {
       title: 'Salud Financiera',
@@ -403,7 +423,7 @@ export const translations = {
     nav: {
       history: 'THE FIRM',
       services: 'PRACTICE AREAS',
-      team: 'OUR TEAM',
+      team: 'LEGAL TEAM',
       contact: 'CONTACT',
       blog: 'BLOG',
       cta: 'CONTACT US',
@@ -465,6 +485,7 @@ export const translations = {
       cta_banner_desc: 'We offer structured solutions for residential and commercial condominiums that require technical precision, agility and preventive vision.',
       cta_button: 'Talk to a Specialist',
       penal_title: 'Property Criminal Law',
+      penal_desc: 'Legal protection against property crimes, fraud, and embezzlement. We act in the criminal sphere to safeguard the assets and honor of managers and the condominium.',
       details: {
         s1: ["Lease contracts", "Rent collection", "Eviction actions", "Revision and renewal", "Contract termination", "Possession recovery", "Asset regularization", "Construction law"],
         s2: ["Manager responsibility", "Construction defects", "Neighbor conflicts", "Injunctions", "Assembly annulment", "Moral damages", "Fine management", "Common area use"],
@@ -476,10 +497,10 @@ export const translations = {
       }
     },
     team_page: {
-      tag: 'Our Team',
+      tag: 'Legal Team',
       title: 'Legal Body of',
       titleHighlight: 'High Performance.',
-      description: 'We have a highly qualified legal team focused on delivering strategic solutions with technical rigor and preventive vision for modern management.',
+      description: 'The firm has an organized legal structure and integrated action among professionals specialized in different areas of Law. In addition to the technical manager presented in this section, there is a network of collaborating lawyers with proven practical experience and targeted action. These professionals are called upon according to the specificity of each demand, ensuring an appropriate and efficient technical approach.\n\nJoint action allows for a multidisciplinary analysis of cases, focusing on legal security and risk mitigation. The firm prioritizes the careful selection of partners, observing technical qualification and strategic alignment. All services are provided under the direct coordination and supervision of the head of the firm.\n\nThe management of demands follows internal quality and control standards, ensuring uniformity in legal provision. The action model allows for greater technical breadth without compromising the personalization of service. The adopted structure aims to provide agility, precision, and assertiveness in the conduct of cases. Thus, the client has complete legal support, aligned with the best professional practices.',
       specialty_quote: 'Solid practical experience in civil and real estate law.',
       bio: 'Lawyer enrolled in OAB/RJ, with solid practical experience in civil and real estate law, acting in both litigation and consulting. Postgraduate in Civil Law and Civil Procedure and Postgraduate in Real Estate and Condominium Law. Specialist in traditional and contemporary real estate demands, such as real rights, built to suit, coliving, coworking, shopping center leasing, real estate incorporations and subdivisions.'
     },
@@ -519,6 +540,15 @@ export const translations = {
       team_label: 'Soares Martins Team',
       team_sub: 'Condominium Law Specialists',
       cat_all: 'All',
+      cat_compliance: 'Compliance',
+      cat_jurisprudence: 'Jurisprudence',
+      cat_financial: 'Financial',
+      cat_management: 'Management',
+      cat_technology: 'Technology',
+      cat_real_estate_law: 'Real Estate Law',
+      cat_airbnb: 'Airbnb',
+      cat_rental: 'Rental',
+      cat_coexistence: 'Coexistence',
       read_time_suffix: 'read'
     },
     quote: {
@@ -529,17 +559,17 @@ export const translations = {
       title: 'Legal Management of',
       titleHighlight: 'High Performance.',
       s1: 'Real Estate & Structuring',
-      s1Desc: 'Acting in possessory litigation, complex real estate contracts, leases and asset regularizations.',
+      s1Desc: 'Legal structuring of real estate deals, incorporations, and subdivisions. We act in asset regularization and strategic management of complex possession and property contracts.',
       s2: 'Strategic Litigation',
-      s2Desc: 'Acting in critical litigation that impacts the legal and financial stability of the condominium.',
+      s2Desc: 'Technical defense in high-complexity judicial processes. We focus on risk mitigation and obtaining favorable decisions that preserve the stability of the condominium.',
       s3: 'Asset Recovery',
-      s3Desc: 'Methodology for cash flow recomposition and data-driven delinquency reduction.',
+      s3Desc: 'Advanced methodology for recovering condominium fees and financial assets. We use investigative intelligence to locate assets and speed up credit satisfaction.',
       s4: 'Preventive Consulting',
-      s4Desc: 'Technical opinions and management shielding to avoid liabilities and ensure safe decisions.',
+      s4Desc: 'Continuous legal guidance for managers and boards. We prepare technical opinions and risk analyses that avoid lawsuits and ensure security in deliberations.',
       s5: 'Condo Compliance',
-      s5Desc: 'Normative modernization, data protection compliance and implementation of governance policies.',
+      s5Desc: 'Implementation of integrity programs, rigorous data protection compliance, and review of internal norms to ensure transparent management and legal compliance.',
       s6: 'Labor & Outsourcing',
-      s6Desc: 'Strategic management of labor relations and mitigation of joint liabilities.'
+      s6Desc: 'Strategic management of labor relations and rigorous monitoring of outsourced companies. We act in preventing liabilities and defending against labor claims.'
     },
     data: {
       title: 'Financial Health',
@@ -608,7 +638,7 @@ export type TranslationKeys =
   | 'services_page.details.s1' | 'services_page.details.s2' | 'services_page.details.s3' | 'services_page.details.s4' | 'services_page.details.s5' | 'services_page.details.s6' | 'services_page.details.penal'
   | 'team_page.tag' | 'team_page.title' | 'team_page.titleHighlight' | 'team_page.description' | 'team_page.specialty_quote' | 'team_page.bio'
   | 'contact_page.tag' | 'contact_page.title' | 'contact_page.titleHighlight' | 'contact_page.location' | 'contact_page.city' | 'contact_page.phone_label' | 'contact_page.email_label' | 'contact_page.hours_label' | 'contact_page.hours_desc' | 'contact_page.emergency' | 'contact_page.form_title' | 'contact_page.form_name' | 'contact_page.form_name_place' | 'contact_page.form_phone' | 'contact_page.form_email' | 'contact_page.form_message' | 'contact_page.form_message_place' | 'contact_page.form_submit' | 'contact_page.response_time'
-  | 'blog_page.tag' | 'blog_page.title' | 'blog_page.titleHighlight' | 'blog_page.search_placeholder' | 'blog_page.read_more' | 'blog_page.no_results' | 'blog_page.no_results_desc' | 'blog_page.clear_filters' | 'blog_page.share' | 'blog_page.print' | 'blog_page.other_news' | 'blog_page.team_label' | 'blog_page.team_sub' | 'blog_page.cat_all' | 'blog_page.read_time_suffix'
+  | 'blog_page.tag' | 'blog_page.title' | 'blog_page.titleHighlight' | 'blog_page.search_placeholder' | 'blog_page.read_more' | 'blog_page.no_results' | 'blog_page.no_results_desc' | 'blog_page.clear_filters' | 'blog_page.share' | 'blog_page.print' | 'blog_page.other_news' | 'blog_page.team_label' | 'blog_page.team_sub' | 'blog_page.cat_all' | 'blog_page.cat_compliance' | 'blog_page.cat_jurisprudence' | 'blog_page.cat_financial' | 'blog_page.cat_management' | 'blog_page.cat_technology' | 'blog_page.cat_real_estate_law' | 'blog_page.cat_airbnb' | 'blog_page.cat_rental' | 'blog_page.cat_coexistence' | 'blog_page.read_time_suffix'
   | 'quote.text'
   | 'services.tag' | 'services.title' | 'services.titleHighlight' | 'services.s1' | 'services.s1Desc' | 'services.s2' | 'services.s2Desc' | 'services.s3' | 'services.s3Desc' | 'services.s4' | 'services.s4Desc' | 'services.s5' | 'services.s5Desc' | 'services.s6' | 'services.s6Desc'
   | 'data.title' | 'data.titleHighlight' | 'data.desc' | 'data.stat1' | 'data.stat2' | 'data.label1' | 'data.drop' | 'data.footer'

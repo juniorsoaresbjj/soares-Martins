@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center px-[5%] md:px-[10%] pt-20 overflow-hidden bg-midnight">
+    <section id="home" className="relative min-h-screen flex items-center px-6 md:px-[10%] pt-24 pb-12 overflow-hidden bg-midnight">
       {/* Background Architectural Style */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-midnight via-midnight/40 to-midnight/80 z-10" />
@@ -23,20 +23,20 @@ const Hero: React.FC = () => {
         />
       </div>
       
-      <div className="relative z-20 max-w-4xl">
-        <h1 className="font-serif text-white text-6xl md:text-8xl leading-[1.1] mb-10 animate-fade-in-up stagger-1">
+      <div className="relative z-20 max-w-4xl w-full">
+        <h1 className="font-serif text-white text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-6 md:mb-10 animate-fade-in-up stagger-1">
           {t('hero.title')}
         </h1>
         
-        <p className="text-white/80 text-lg md:text-xl mb-12 max-w-2xl leading-relaxed animate-fade-in-up stagger-2 font-light">
+        <p className="text-white/80 text-base sm:text-lg md:text-xl mb-8 md:mb-12 max-w-2xl leading-relaxed animate-fade-in-up stagger-2 font-light">
           {t('hero.description')}
         </p>
         
-        <div className="flex flex-col md:flex-row gap-5 items-start md:items-center animate-fade-in-up stagger-3">
+        <div className="flex flex-col sm:flex-row gap-4 md:gap-5 items-stretch sm:items-center animate-fade-in-up stagger-3">
           <a 
             href="#history" 
             onClick={(e) => handleNav(e, '#history')}
-            className="bg-bronze text-midnight px-12 py-4 font-bold text-[11px] uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-lg text-center min-w-[240px]"
+            className="bg-bronze text-midnight px-8 md:px-12 py-4 font-bold text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-lg text-center sm:min-w-[200px] md:min-w-[240px]"
           >
             {t('hero.cta1')}
           </a>
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           <a 
             href="#services" 
             onClick={(e) => handleNav(e, '#services')}
-            className="border border-white/40 text-white px-12 py-4 font-bold text-[11px] uppercase tracking-widest hover:bg-white/10 transition-all duration-300 text-center min-w-[240px]"
+            className="border border-white/40 text-white px-8 md:px-12 py-4 font-bold text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white/10 transition-all duration-300 text-center sm:min-w-[200px] md:min-w-[240px]"
           >
             {t('hero.cta2')}
           </a>
