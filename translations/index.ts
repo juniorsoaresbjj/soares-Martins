@@ -12,7 +12,8 @@ export const translations = {
       cta: 'FALE CONOSCO',
       home: 'Início',
       back_home: 'Voltar para Início',
-      back_blog: 'Voltar para o Blog'
+      back_blog: 'Voltar para o Blog',
+      language: 'Idioma'
     },
     hero: {
       title: 'Soluções Jurídicas Para Condomínios.',
@@ -221,7 +222,8 @@ export const translations = {
       cta: 'CONTÁCTENOS',
       home: 'Inicio',
       back_home: 'Volver al Inicio',
-      back_blog: 'Volver al Blog'
+      back_blog: 'Volver al Blog',
+      language: 'Idioma'
     },
     hero: {
       title: 'Soluciones Jurídicas Para Condominios.',
@@ -429,7 +431,8 @@ export const translations = {
       cta: 'CONTACT US',
       home: 'Home',
       back_home: 'Back to Home',
-      back_blog: 'Back to Blog'
+      back_blog: 'Back to Blog',
+      language: 'Language'
     },
     hero: {
       title: 'Legal Solutions For Condominiums.',
@@ -630,7 +633,7 @@ export const translations = {
 };
 
 export type TranslationKeys = 
-  | 'nav.history' | 'nav.services' | 'nav.team' | 'nav.contact' | 'nav.blog' | 'nav.cta' | 'nav.home' | 'nav.back_home' | 'nav.back_blog'
+  | 'nav.history' | 'nav.services' | 'nav.team' | 'nav.contact' | 'nav.blog' | 'nav.cta' | 'nav.home' | 'nav.back_home' | 'nav.back_blog' | 'nav.language'
   | 'hero.title' | 'hero.description' | 'hero.cta1' | 'hero.cta2' | 'hero.online'
   | 'about.tag' | 'about.title' | 'about.titleHighlight' | 'about.desc1' | 'about.desc2' | 'about.card1' | 'about.card1Desc' | 'about.card2' | 'about.card2Desc' | 'about.exp'
   | 'history_page.title' | 'history_page.titleHighlight' | 'history_page.card1_title' | 'history_page.card1_desc' | 'history_page.card2_title' | 'history_page.card2_desc' | 'history_page.card3_title' | 'history_page.card3_desc' | 'history_page.pillars_title' | 'history_page.mission_title' | 'history_page.mission_desc' | 'history_page.vision_title' | 'history_page.vision_desc'

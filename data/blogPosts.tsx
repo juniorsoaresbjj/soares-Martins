@@ -88,7 +88,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         ),
         date: "April 25, 2026",
         category: "Management",
-        image: "https://images.unsplash.com/photo-1454165833767-027ff33027ef?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
       },
       {
         id: 5,
@@ -220,7 +220,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         ),
         date: "25 de abril de 2026",
         category: "Gestión",
-        image: "https://images.unsplash.com/photo-1454165833767-027ff33027ef?auto=format&fit=crop&w=800&q=80"
+        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
       },
       {
         id: 5,
@@ -354,7 +354,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       ),
       date: "25 Abr, 2026",
       category: "Gestão",
-      image: "https://images.unsplash.com/photo-1454165833767-027ff33027ef?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 5,
