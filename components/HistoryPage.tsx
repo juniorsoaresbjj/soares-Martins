@@ -42,8 +42,9 @@ const HistoryPage: React.FC<HistoryPageProps> = ({ onBack }) => {
               <span className="serif-italic text-bronze block uppercase">Excelência.</span>
             </h1>
             <div className="space-y-4 md:space-y-6 text-text-muted text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl">
-              <p>{t('about.desc1')}</p>
-              <p>{t('about.desc2')}</p>
+              {[t('about.desc1'), t('about.desc2'), t('about.desc3'), t('about.desc4'), t('about.desc5')].map((text, i) => (
+                text && <p key={i}>{text}</p>
+              ))}
             </div>
           </div>
           <div className="relative mt-8 lg:mt-0">

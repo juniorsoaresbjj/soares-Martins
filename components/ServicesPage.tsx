@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft, Scale, Gavel, ShieldCheck, FileText, Users, Building2, ChevronRight, Zap, Target, BarChart3, ShieldAlert } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -15,48 +16,65 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       title: t('services.s1'),
       description: t('services.s1Desc'),
       icon: <Building2 size={32} />,
-      details: t('services_page.details.s1') as unknown as string[]
+      details: t('services_page.details.s1') as unknown as string[],
+      slug: null
     },
     {
       title: t('services.s2'),
       description: t('services.s2Desc'),
       icon: <Gavel size={32} />,
-      details: t('services_page.details.s2') as unknown as string[]
+      details: t('services_page.details.s2') as unknown as string[],
+      slug: null
     },
     {
       title: t('services.s3'),
       description: t('services.s3Desc'),
       icon: <Scale size={32} />,
-      details: t('services_page.details.s3') as unknown as string[]
+      details: t('services_page.details.s3') as unknown as string[],
+      slug: 'cobranca-inadimplentes-condominio-rj'
     },
     {
       title: t('services.s4'),
       description: t('services.s4Desc'),
       icon: <ShieldCheck size={32} />,
-      details: t('services_page.details.s4') as unknown as string[]
+      details: t('services_page.details.s4') as unknown as string[],
+      slug: 'assessoria-juridica-sindico-rj'
     },
     {
       title: t('services.s6'),
       description: t('services.s6Desc'),
       icon: <Users size={32} />,
-      details: t('services_page.details.s6') as unknown as string[]
+      details: t('services_page.details.s6') as unknown as string[],
+      slug: 'trabalhista-condominio-rj'
     },
     {
       title: t('services.s5'),
       description: t('services.s5Desc'),
       icon: <FileText size={32} />,
-      details: t('services_page.details.s5') as unknown as string[]
+      details: t('services_page.details.s5') as unknown as string[],
+      slug: 'compliance-condominial'
     },
     {
       title: t('services_page.penal_title'),
       description: t('services_page.penal_desc'),
       icon: <ShieldAlert size={32} />,
-      details: t('services_page.details.penal') as unknown as string[]
+      details: t('services_page.details.penal') as unknown as string[],
+      slug: null
     }
   ];
 
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-x-hidden">
+      {/* Background Image Overlay */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <img 
+          src="https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?auto=format&fit=crop&w=1920&q=80" 
+          className="w-full h-full object-cover opacity-20 grayscale"
+          alt=""
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-midnight via-midnight/90 to-midnight" />
+      </div>
+
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="mb-16 md:mb-24">
           <button onClick={onBack} className="flex items-center gap-2 text-bronze text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-10 md:mb-12 hover:text-white group">
@@ -93,9 +111,19 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
                   ))}
                 </ul>
               </div>
-              <a href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest hover:text-white mt-auto">
-                {t('services_page.request_opinion')} <ChevronRight size={14} />
-              </a>
+              <div className="flex flex-col gap-4 mt-auto">
+                {area.slug && (
+                  <Link 
+                    to={`/${area.slug}`}
+                    className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest hover:text-white"
+                  >
+                    Ver página completa <ChevronRight size={14} />
+                  </Link>
+                )}
+                <a href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest hover:text-white">
+                  {t('services_page.request_opinion')} <ChevronRight size={14} />
+                </a>
+              </div>
             </div>
           ))}
         </div>

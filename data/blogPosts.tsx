@@ -409,6 +409,57 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       date: "03 Abr, 2026",
       category: "Convivência",
       image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 8,
+      title: "Como funciona a cobrança judicial de inadimplente em condomínio no RJ",
+      excerpt: "A inadimplência é um dos maiores desafios dos síndicos no Rio de Janeiro. Entenda o passo a passo jurídico para recuperar as cotas em atraso.",
+      readTime: `15 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>No Rio de Janeiro, a cobrança de cotas condominiais em atraso segue ritos processuais específicos que visam a celeridade e a proteção do caixa do condomínio. Desde a alteração do Código de Processo Civil, a cota condominial é título executivo extrajudicial, o que permite que o condomínio entre diretamente com uma ação de execução, sem a necessidade de uma fase prévia de conhecimento demorada.</p>
+          <p>O primeiro passo é a tentativa de conciliação extrajudicial. O escritório Soares Martins recomenda o envio de notificações formais e a tentativa de acordo, o que resolve cerca de 60% dos casos antes mesmo de chegar ao judiciário. Caso não haja sucesso, a ação de execução é protocolada. No RJ, os tribunais têm sido ágeis na determinação de penhora online de contas bancárias do devedor.</p>
+          <p>Um ponto crucial é a documentação. Para que a execução seja válida, o condomínio deve apresentar a ata da assembleia que aprovou a previsão orçamentária, a convenção do condomínio e o demonstrativo detalhado do débito. Falhas nessa documentação podem atrasar o processo por meses. Por isso, a assessoria jurídica especializada é fundamental para garantir que o título seja líquido, certo e exigível.</p>
+          <p>Em casos extremos, o próprio imóvel que gerou a dívida pode ir a leilão judicial para quitar o débito, mesmo que seja o único bem de família do devedor. Essa é uma exceção legal importante que garante que a coletividade não seja prejudicada pelo inadimplente. Nosso escritório acompanha todas as fases, desde a localização de bens até a arrematação em leilão, garantindo o retorno do capital ao condomínio.</p>
+        </div>
+      ),
+      date: "15 Abr, 2026",
+      category: "Financeiro",
+      image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 9,
+      title: "O que o síndico pode fazer com morador barulhento",
+      excerpt: "O barulho excessivo é a principal causa de brigas em condomínios. Saiba quais são os limites legais e como o síndico deve agir.",
+      readTime: `12 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>O direito ao sossego é um dos pilares do Direito de Vizinhança previsto no Código Civil. O síndico, como representante legal do condomínio, tem o dever de zelar pela paz e harmonia da edificação. Quando um morador excede os limites toleráveis de ruído, o síndico deve intervir de forma técnica e imparcial, seguindo a gradação de penalidades prevista no Regimento Interno.</p>
+          <p>A primeira ação deve ser sempre a conversa e a advertência verbal ou escrita. É importante documentar as reclamações de outros moradores para que a punição tenha base fática. Caso o barulho persista, a multa deve ser aplicada conforme os valores estabelecidos na convenção. Em casos de reincidência contumaz, o morador pode ser classificado como antissocial, o que permite multas de até 10 vezes o valor da cota condominial.</p>
+          <p>É importante ressaltar que a Lei do Silêncio (que varia conforme o município, como no Rio de Janeiro) estabelece limites de decibéis, mas o sossego deve ser respeitado em qualquer horário. Não existe um 'direito ao barulho' durante o dia. Se o ruído impede o trabalho ou o descanso de outros, ele é passível de sanção. O síndico deve evitar tomar partido e agir sempre com base em provas, como medições de decibéis ou testemunhos.</p>
+          <p>Em situações extremas, o condomínio pode ingressar com uma ação de obrigação de não fazer, com pedido de liminar para cessar o barulho sob pena de multa diária pesada. O escritório Soares Martins auxilia síndicos na mediação desses conflitos e na estruturação jurídica das punições, garantindo que elas não sejam anuladas judicialmente por falta de devido processo legal.</p>
+        </div>
+      ),
+      date: "12 Abr, 2026",
+      category: "Convivência",
+      image: "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 10,
+      title: "LGPD em condomínios: o que todo síndico precisa saber",
+      excerpt: "A Lei Geral de Proteção de Dados já está em vigor e condomínios que não se adequarem podem sofrer multas pesadas. Veja o guia prático.",
+      readTime: `18 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>A LGPD (Lei 13.709/2018) aplica-se a qualquer pessoa jurídica ou ente despersonalizado que realize o tratamento de dados pessoais. O condomínio coleta dados sensíveis diariamente: biometria na portaria, imagens de câmeras de segurança, placas de veículos e dados financeiros de condôminos. O síndico é o responsável direto por garantir que esses dados sejam tratados com segurança e finalidade específica.</p>
+          <p>O primeiro passo para a adequação é o mapeamento de dados (Data Mapping). É preciso saber quais dados são coletados, onde ficam guardados e quem tem acesso. Muitas vezes, empresas terceirizadas de portaria ou administradoras têm acesso a dados sem um contrato que preveja a responsabilidade compartilhada pela LGPD. O síndico deve revisar todos esses contratos para incluir cláusulas de proteção de dados.</p>
+          <p>A transparência é fundamental. O condomínio deve ter uma Política de Privacidade clara, informando aos moradores e visitantes para que seus dados são usados. Por exemplo, as imagens das câmeras só podem ser usadas para fins de segurança. O compartilhamento dessas imagens em grupos de moradores sem autorização é uma violação grave que pode gerar indenizações por danos morais.</p>
+          <p>Por fim, é recomendável a nomeação de um DPO (Data Protection Officer), que pode ser um consultor jurídico especializado. O escritório Soares Martins oferece o serviço de adequação completa à LGPD, realizando o inventário de dados, criando as políticas internas e treinando os funcionários para evitar vazamentos que possam comprometer a gestão do síndico.</p>
+        </div>
+      ),
+      date: "10 Abr, 2026",
+      category: "Compliance",
+      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80"
     }
   ];
 };

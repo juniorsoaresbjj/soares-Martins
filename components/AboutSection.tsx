@@ -13,7 +13,7 @@ const AboutSection: React.FC = () => {
           <img 
             src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80" 
             className="rounded-2xl shadow-2xl relative z-10 w-full grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
-            alt="Nosso Escritório"
+            alt="Escritório Soares Martins Advogados - Rio de Janeiro"
           />
           <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-midnight p-4 sm:p-8 text-white rounded-xl shadow-xl z-20 max-w-[200px] sm:max-w-[280px]">
             <span className="text-[8px] sm:text-[10px] uppercase font-bold tracking-widest text-bronze block leading-relaxed">
@@ -32,12 +32,13 @@ const AboutSection: React.FC = () => {
           </div>
           
           <div className="space-y-4 md:space-y-6">
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-              {t('about.desc1')}
-            </p>
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
-              {t('about.desc2')}
-            </p>
+            {[t('about.desc1'), t('about.desc2'), t('about.desc3'), t('about.desc4'), t('about.desc5')].map((text, i) => (
+              text && (
+                <p key={i} className="text-gray-600 text-base sm:text-lg leading-relaxed">
+                  {text}
+                </p>
+              )
+            ))}
           </div>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 pt-4 md:pt-6">

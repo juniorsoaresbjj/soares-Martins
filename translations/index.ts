@@ -17,7 +17,7 @@ export const translations = {
     },
     hero: {
       title: 'Soluções Jurídicas Para Condomínios.',
-      description: 'Advocacia estratégica 100% dedicada à gestão condominial, focada em solução de conflitos e segurança jurídica preventiva.',
+      description: 'Advocacia estratégica 100% dedicada à gestão condominial e patrimonial, focada em solução de conflitos e segurança jurídica preventiva.',
       cta1: 'CONHEÇA O ESCRITÓRIO',
       cta2: 'ÁREAS DE ATUAÇÃO',
       online: 'ATENDIMENTO ONLINE'
@@ -26,8 +26,11 @@ export const translations = {
       tag: 'O Escritório',
       title: 'A união entre tradição e o',
       titleHighlight: 'Direito Contemporâneo.',
-      desc1: 'O Soares Martins Advogados nasceu da observação prática e diária da realidade condominial brasileira, a partir da compreensão de que muitos conflitos poderiam ser evitados com orientação jurídica preventiva, técnica e estratégica.',
-      desc2: 'Nosso propósito sempre foi entregar mais do que processos judiciais: buscamos soluções que preservem a harmonia entre as pessoas e assegurem a saúde financeira dos patrimônios.',
+      desc1: 'A Soares Martins Advogados nasceu da observação prática e diária da realidade condominial brasileira, a partir da compreensão de que muitos conflitos poderiam ser evitados com orientação jurídica preventiva, técnica e estratégica.',
+      desc2: 'Com atuação consolidada na advocacia condominial no Rio de Janeiro, o escritório está inserido diretamente no contexto local, acompanhando de perto as dinâmicas e desafios enfrentados por síndicos, administradoras e condôminos. Essa proximidade permite uma leitura mais precisa das demandas regionais, possibilitando a aplicação de soluções jurídicas alinhadas à legislação vigente, à jurisprudência dos tribunais do Rio de Janeiro (RJ) e às práticas condominiais adotadas no estado.',
+      desc3: 'Ao longo da nossa trajetória, identificamos que grande parte dos problemas enfrentados pelos condomínios — como cobrança de inadimplentes, conflitos entre moradores, irregularidades em assembleias e falhas na gestão — decorrem da ausência de uma assessoria jurídica preventiva e especializada. Por isso, estruturamos nossa atuação com foco em assessoria jurídica condominial, priorizando a antecipação de riscos, a orientação contínua e a implementação de estratégias eficazes que evitem litígios desnecessários.',
+      desc4: 'Nosso propósito sempre foi entregar mais do que processos judiciais. Como escritório de advocacia especializado em direito condominial e patrimonial, buscamos soluções que preservem a harmonia entre os condôminos e assegurem a saúde financeira dos patrimônios. Atuamos de forma estratégica na redução da inadimplência condominial, na recuperação de créditos e na prevenção de passivos jurídicos, contribuindo para uma gestão mais eficiente e segura.',
+      desc5: 'Mais do que um escritório de advocacia, a Soares Martins Advogados se posiciona como um parceiro estratégico para condomínios, condôminos e administradoras em todo o Estado do Rio de Janeiro. Nosso compromisso é oferecer uma atuação próxima, transparente e orientada a resultados, transformando o Direito em uma ferramenta de organização, prevenção e crescimento sustentável.',
       card1: 'Comprometimento',
       card1Desc: '100% de dedicação em cada caso, com transparência total e proximidade com o cliente.',
       card2: 'Suporte Digital',
@@ -227,7 +230,7 @@ export const translations = {
     },
     hero: {
       title: 'Soluciones Jurídicas Para Condominios.',
-      description: 'Abogacía estratégica 100% dedicada a la gestión de condominios, enfocada en la resolución de conflictos y seguridad jurídica preventiva.',
+      description: 'Abogacía estratégica 100% dedicada a la gestión de condominios y patrimonial, enfocada en la resolución de conflictos y seguridad jurídica preventiva.',
       cta1: 'CONOZCA EL DESPACHO',
       cta2: 'ÁREAS DE ACTUACIÓN',
       online: 'ATENCIÓN ONLINE'
@@ -436,7 +439,7 @@ export const translations = {
     },
     hero: {
       title: 'Legal Solutions For Condominiums.',
-      description: 'Strategic law 100% dedicated to condominium management, focused on conflict resolution and preventive legal security.',
+      description: 'Strategic law 100% dedicated to condominium and asset management, focused on conflict resolution and preventive legal security.',
       cta1: 'MEET THE FIRM',
       cta2: 'PRACTICE AREAS',
       online: 'ONLINE SERVICE'
@@ -445,8 +448,11 @@ export const translations = {
       tag: 'The Firm',
       title: 'The union between tradition and',
       titleHighlight: 'Contemporary Law.',
-      desc1: 'Soares Martins Advogados was born from daily practical observation of Brazilian condominium reality, understanding that many conflicts could be avoided with preventive guidance.',
-      desc2: 'Our purpose has always been to deliver more than lawsuits: we seek solutions that preserve harmony and ensure financial health.',
+      desc1: 'Soares Martins Advogados was born from daily practical observation of Brazilian condominium reality, understanding that many conflicts could be avoided with preventive, technical, and strategic legal guidance.',
+      desc2: 'With a consolidated practice in condominium law in Rio de Janeiro, the firm is directly inserted into the local context, closely following the dynamics and challenges faced by managers and residents.',
+      desc3: 'Throughout our trajectory, we identified that most problems faced by condominiums stem from the absence of preventive legal advice. Therefore, we focus on risk anticipation.',
+      desc4: 'Our purpose has always been to deliver more than lawsuits. We seek solutions that preserve harmony and ensure the financial health of assets.',
+      desc5: 'More than a law firm, Soares Martins Advogados positions itself as a strategic partner for condominiums throughout the State of Rio de Janeiro.',
       card1: 'Commitment',
       card1Desc: '100% dedication in each case, with total transparency and proximity to the client.',
       card2: 'Digital Support',
@@ -635,7 +641,7 @@ export const translations = {
 export type TranslationKeys = 
   | 'nav.history' | 'nav.services' | 'nav.team' | 'nav.contact' | 'nav.blog' | 'nav.cta' | 'nav.home' | 'nav.back_home' | 'nav.back_blog' | 'nav.language'
   | 'hero.title' | 'hero.description' | 'hero.cta1' | 'hero.cta2' | 'hero.online'
-  | 'about.tag' | 'about.title' | 'about.titleHighlight' | 'about.desc1' | 'about.desc2' | 'about.card1' | 'about.card1Desc' | 'about.card2' | 'about.card2Desc' | 'about.exp'
+  | 'about.tag' | 'about.title' | 'about.titleHighlight' | 'about.desc1' | 'about.desc2' | 'about.desc3' | 'about.desc4' | 'about.desc5' | 'about.card1' | 'about.card1Desc' | 'about.card2' | 'about.card2Desc' | 'about.exp'
   | 'history_page.title' | 'history_page.titleHighlight' | 'history_page.card1_title' | 'history_page.card1_desc' | 'history_page.card2_title' | 'history_page.card2_desc' | 'history_page.card3_title' | 'history_page.card3_desc' | 'history_page.pillars_title' | 'history_page.mission_title' | 'history_page.mission_desc' | 'history_page.vision_title' | 'history_page.vision_desc'
   | 'services_page.tag' | 'services_page.title' | 'services_page.titleHighlight' | 'services_page.subtitle' | 'services_page.desc' | 'services_page.request_opinion' | 'services_page.methodology_title' | 'services_page.methodology_subtitle' | 'services_page.step1_title' | 'services_page.step1_desc' | 'services_page.step2_title' | 'services_page.step2_desc' | 'services_page.step3_title' | 'services_page.step3_desc' | 'services_page.cta_banner_title' | 'services_page.cta_banner_highlight' | 'services_page.cta_banner_desc' | 'services_page.cta_button' | 'services_page.penal_title'
   | 'services_page.details.s1' | 'services_page.details.s2' | 'services_page.details.s3' | 'services_page.details.s4' | 'services_page.details.s5' | 'services_page.details.s6' | 'services_page.details.penal'

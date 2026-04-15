@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 import Logo from './Logo';
 import { useLanguage } from '../context/LanguageContext';
@@ -15,6 +16,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   const [isLangOpen, setIsLangOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement>(null);
   const { language, setLanguage, t } = useLanguage();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -33,27 +35,19 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   }, []);
 
   const navLinks = [
-    { name: t('nav.history'), href: '#history', id: 'history' },
-    { name: t('nav.services'), href: '#services', id: 'services' },
-    { name: t('nav.team'), href: '#team', id: 'team' },
-    { name: t('nav.contact'), href: '#contact', id: 'contact' },
-    { name: t('nav.blog'), href: '#blog', id: 'blog' },
+    { name: t('nav.history'), href: '/historia', id: 'history' },
+    { name: t('nav.services'), href: '/servicos', id: 'services' },
+    { name: t('nav.team'), href: '/equipe', id: 'team' },
+    { name: t('nav.contact'), href: '/contato', id: 'contact' },
+    { name: t('nav.blog'), href: '/blog', id: 'blog' },
   ];
-
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, hash: string) => {
-    e.preventDefault();
-    e.stopPropagation();
-    window.location.hash = hash;
-    setIsMobileMenuOpen(false);
-  };
 
   const handleHomeClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    e.stopPropagation();
-    if (currentView === 'home') {
+    if (window.location.pathname === '/') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
-      window.location.hash = '';
+      navigate('/');
     }
     setIsMobileMenuOpen(false);
   };
@@ -70,22 +64,22 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
     <header className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-500 py-6 pl-[3%] pr-[5%] ${isScrolled || currentView !== 'home' ? 'glass py-4' : 'bg-transparent'}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* LOGO */}
-        <a href="#home" onClick={handleHomeClick} className="transition-transform hover:scale-105">
+        <Link to="/" onClick={handleHomeClick} className="transition-transform hover:scale-105">
           <Logo className="h-10 md:h-12" variant="light" />
-        </a>
+        </Link>
         
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-4 lg:space-x-8">
           {navLinks.map((item) => (
-            <a 
+            <Link 
               key={item.name} 
-              href={item.href}
-              onClick={(e) => handleNavClick(e, item.href)}
+              to={item.href}
+              onClick={() => setIsMobileMenuOpen(false)}
               className={`${currentView === item.id ? 'text-bronze' : 'text-white/90'} hover:text-bronze transition-colors text-[10px] lg:text-[11px] font-bold uppercase tracking-wider relative group whitespace-nowrap p-2`}
             >
               {item.name}
               <span className={`absolute bottom-0 left-0 h-[1px] bg-bronze transition-all duration-300 ${currentView === item.id ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
-            </a>
+            </Link>
           ))}
 
           {/* LANGUAGE SELECTOR */}
@@ -176,14 +170,14 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
       <div className={`fixed inset-0 bg-midnight/98 backdrop-blur-xl z-[-1] transition-all duration-500 md:hidden overflow-y-auto ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-10'}`}>
         <div className="flex flex-col items-center justify-start min-h-full py-24 px-10 space-y-8">
           {navLinks.map((item) => (
-            <a 
+            <Link 
               key={item.name} 
-              href={item.href}
-              onClick={(e) => handleNavClick(e, item.href)}
+              to={item.href}
+              onClick={() => setIsMobileMenuOpen(false)}
               className="text-2xl font-serif text-white text-center hover:text-bronze transition-colors py-2 uppercase tracking-widest w-full border-b border-white/5"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
 
           {/* Language Selector in Mobile Menu */}
