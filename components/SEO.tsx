@@ -29,13 +29,6 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content={type} />
       <meta property="og:locale" content="pt_BR" />
-      <meta property="og:image" content={`${siteUrl}/og-image.jpg`} />
-
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={`${siteUrl}/og-image.jpg`} />
       <meta name="twitter:url" content={canonicalUrl} />
     </Helmet>
   );

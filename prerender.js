@@ -35,12 +35,28 @@ async function start() {
     // Combine helmet object data with any leaked tags found in the body
     const helmetContent = `${helmet.title}${helmet.meta}${helmet.link}${leakedTags.join('')}`;
     
+    // Deduplicate tags (unique filtering by the full tag string)
+    // We split by closing tags then match openers to ensure we don't break tags
+    const dedupeTags = (str) => {
+      const tags = str.match(/<(title|meta|link)[^>]*>(.*?<\/\1>)?/g) || [];
+      const seen = new Set();
+      return tags.filter(tag => {
+        // Create a unique key based on tag name and critical attributes (property, name, rel, href)
+        const key = tag.replace(/\s+/g, ' ').trim();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      }).join('');
+    };
+    
+    const uniqueTags = dedupeTags(helmetContent);
+    
     // Remove leaked tags from the app HTML to ensure they don't stay in the body
     const cleanAppHtml = appHtml.replace(headTagsRegex, '');
 
     let html = template
       .replace(`<!--app-html-->`, cleanAppHtml)
-      .replace(`<script id="seo-head"></script>`, helmetContent)
+      .replace(`<script id="seo-head"></script>`, uniqueTags)
 
     // Construct file path
     let filePath;
