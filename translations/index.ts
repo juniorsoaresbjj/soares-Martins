@@ -16,7 +16,7 @@ export const translations = {
       language: 'Idioma'
     },
     hero: {
-      title: 'Soluções Jurídicas Para Condomínios.',
+      title: 'Soluções Jurídicas Para Condomínios e Patrimônios.',
       description: 'Advocacia estratégica 100% dedicada à gestão condominial e patrimonial, focada em solução de conflitos e segurança jurídica preventiva.',
       cta1: 'CONHEÇA O ESCRITÓRIO',
       cta2: 'ÁREAS DE ATUAÇÃO',
@@ -150,14 +150,128 @@ export const translations = {
       s1Desc: 'Estruturação jurídica de negócios imobiliários, incorporações e loteamentos. Atuamos na regularização de ativos e na gestão estratégica de contratos complexos de posse e propriedade.',
       s2: 'Contencioso Estratégico',
       s2Desc: 'Defesa técnica em processos judiciais de alta complexidade. Focamos na mitigação de riscos e na obtenção de decisões favoráveis que preservem a estabilidade do condomínio.',
-      s3: 'Recuperação de Ativos',
+      s3: 'Cobrança Condominial',
       s3Desc: 'Metodologia avançada para recuperação de cotas condominiais e ativos financeiros. Utilizamos inteligência investigativa para localização de bens e celeridade na satisfação do crédito.',
-      s4: 'Consultoria Preventiva',
+      s4: 'Assessoria Jurídica para Síndicos',
       s4Desc: 'Orientação jurídica contínua para síndicos e conselhos. Elaboramos pareceres e análises de risco que evitam demandas judiciais e garantem segurança nas deliberações.',
-      s5: 'Compliance Condominial',
-      s5Desc: 'Implementação de programas de integridade, adequação rigorosa à LGPD e revisão de normas internas para garantir uma gestão transparente e em conformidade legal.',
-      s6: 'Trabalhista & Terceirização',
-      s6Desc: 'Gestão estratégica de relações de trabalho e fiscalização rigorosa de empresas terceirizadas. Atuamos na prevenção de passivos e na defesa em reclamações trabalhistas.'
+      s5: 'Direito Condominial',
+      s5Desc: 'Consultoria especializada em normas internas, mediação de conflitos e segurança jurídica para condomínios residenciais e comerciais no Rio de Janeiro.',
+      s6: 'Assembleias, Convenção e Regimento',
+      s6Desc: 'Elaboração e revisão técnica de Convenções e Regimentos Internos, garantindo a validade jurídica das decisões e a harmonia na convivência.'
+    },
+    service_content: {
+      'direito-condominial': {
+        h1: 'Direito Condominial',
+        h2: 'Compliance Condominial e Governança',
+        sections: [
+          {
+            h2: 'Segurança Jurídica Preventiva',
+            p: 'Nossa atuação em Direito Condominial no RJ foca na prevenção de litígios. Realizamos a revisão minuciosa de contratos e normas internas para garantir que o condomínio opere dentro da legalidade vigente, evitando multas e processos desnecessários.'
+          },
+          {
+            h2: 'Mediação de Conflitos e Harmonia',
+            p: 'Atuamos na mediação estratégica entre condôminos, buscando soluções amigáveis que preservem a paz social. Nossa experiência nos tribunais do Rio de Janeiro permite uma abordagem técnica e humanizada em cada caso.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Qual a importância do compliance para o condomínio?',
+            a: 'O compliance garante que todas as normas, desde a LGPD até regulações locais do RJ, sejam seguidas, protegendo o patrimônio e a responsabilidade dos gestores.'
+          },
+          {
+            q: 'O escritório atende condomínios em todo o estado do Rio de Janeiro?',
+            a: 'Sim, realizamos atendimento presencial na capital e suporte virtual estruturado para condomínios em todo o estado.'
+          },
+          {
+            q: 'Como a assessoria jurídica auxilia na redução de custos?',
+            a: 'Através da revisão de contratos e prevenção de passivos trabalhistas e cíveis, reduzimos gastos imprevistos com indenizações e multas.'
+          }
+        ]
+      },
+      'assessoria-juridica-para-sindicos': {
+        h1: 'Assessoria Jurídica para Síndicos',
+        h2: 'Segurança e Blindagem na Gestão Predial',
+        sections: [
+          {
+            h2: 'Orientação nas Decisões Administrativas',
+            p: 'Oferecemos suporte contínuo ao síndico para que suas decisões tenham base legal sólida. Isso inclui desde a contratação de fornecedores até a aplicação de penalidades, garantindo que o gestor atue com tranquilidade.'
+          },
+          {
+            h2: 'Gestão de Riscos e Responsabilidade Civil',
+            p: 'Atuamos para mitigar a responsabilidade civil e criminal do síndico. Nossa assessoria jurídica preventiva identifica pontos críticos na gestão e propõe correções imediatas alinhadas à jurisprudência atual.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'O síndico pode ser responsabilizado pessoalmente por erros de gestão?',
+            a: 'Sim, caso atue com negligência ou excesso de poder. Nossa assessoria visa justamente documentar e fundamentar as decisões para evitar essa exposição.'
+          },
+          {
+            q: 'Qual o papel do advogado em assembleias de condomínio?',
+            a: 'O advogado garante que os quóruns sejam respeitados e que as votações sigam o rito legal, evitando a anulação judicial das decisões tomadas.'
+          },
+          {
+            q: 'A assessoria jurídica ajuda na mediação com moradores difíceis?',
+            a: 'Com certeza. Atuamos como um facilitador imparcial, enviando notificações técnicas e conduzindo reuniões para resolver impasses sem desgaste para o síndico.'
+          }
+        ]
+      },
+      'cobranca-condominial': {
+        h1: 'Cobrança Condominial',
+        h2: 'Recuperação de Ativos e Saúde Financeira',
+        sections: [
+          {
+            h2: 'Negociação Extrajudicial Estratégica',
+            p: 'Priorizamos a recuperação de valores através de acordos amigáveis e bem estruturados. Nossa abordagem é firme, porém respeitosa, preservando a relação entre o condomínio e o condômino sempre que possível.'
+          },
+          {
+            h2: 'Execução Judicial de Cotas',
+            p: 'Quando a via amigável se esgota, atuamos com agilidade na execução judicial. O Novo Código de Processo Civil permite ritos mais rápidos para o recebimento de taxas condominiais no Rio de Janeiro.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'A partir de quantas taxas em atraso o condomínio pode entrar na justiça?',
+            a: 'Não há um limite mínimo legal, mas recomendamos a análise caso a caso. Geralmente, após tentativas extrajudiciais sem sucesso, a ação deve ser iniciada para evitar a prescrição.'
+          },
+          {
+            q: 'O condomínio pode protestar o nome do devedor?',
+            a: 'Sim, o protesto em cartório é uma ferramenta eficaz disponibilizada ao condomínio para compelir o pagamento de forma mais rápida.'
+          },
+          {
+            q: 'Como funciona a divisão das custas de cobrança?',
+            a: 'Normalmente, as custas processuais e honorários são imputados ao devedor no momento da quitação, conforme previsto em lei ou convenção.'
+          }
+        ]
+      },
+      'assembleias-convencao-regimento': {
+        h1: 'Assembleias, Convenção e Regimento',
+        h2: 'Modernização de Normas e Validade Jurídica',
+        sections: [
+          {
+            h2: 'Atualização de Convenções Condominiais',
+            p: 'Muitos condomínios no RJ operam com convenções obsoletas. Atualizamos as normas internas para adequá-las ao Código Civil e às novas dinâmicas, como aluguéis por aplicativos e assembleias virtuais.'
+          },
+          {
+            h2: 'Redação Técnica de Regimentos Internos',
+            p: 'O Regimento Interno deve ser claro e aplicável. Elaboramos normas que regulam o uso de áreas comuns e a convivência, evitando interpretações dúbias que geram conflitos.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Qual o quórum necessário para alterar a convenção do condomínio?',
+            a: 'A regra geral do Código Civil exige o voto de 2/3 dos condôminos presentes e representados, salvo disposição específica da própria convenção.'
+          },
+          {
+            q: 'As assembleias virtuais ainda são válidas legalmente?',
+            a: 'Sim, desde que respeitados os requisitos da Lei 14.309/2022 e garantido o direito de voz e voto a todos.'
+          },
+          {
+            q: 'Uma multa pode ser anulada se não seguir o regimento?',
+            a: 'Sim. Se o procedimento de ampla defesa e contraditório previsto no regimento ou na lei não for seguido, a multa corre sério risco de anulação judicial.'
+          }
+        ]
+      }
     },
     data: {
       title: 'Saúde Financeira',
@@ -576,9 +690,13 @@ export const translations = {
       s4: 'Preventive Consulting',
       s4Desc: 'Continuous legal guidance for managers and boards. We prepare technical opinions and risk analyses that avoid lawsuits and ensure security in deliberations.',
       s5: 'Condo Compliance',
-      s5Desc: 'Implementation of integrity programs, rigorous data protection compliance, and review of internal norms to ensure transparent management and legal compliance.',
-      s6: 'Labor & Outsourcing',
-      s6Desc: 'Strategic management of labor relations and rigorous monitoring of outsourced companies. We act in preventing liabilities and defending against labor claims.'
+      s5Desc: 'Implementation of integrity programs, data protection compliance, and review of internal rules to ensure transparent and legal management.'
+    },
+    service_content: {
+      'direito-condominial': { h1: 'Condominium Law', h2: 'Compliance and Governance', sections: [], faqs: [] },
+      'assessoria-juridica-para-sindicos': { h1: 'Legal Support for Managers', h2: 'Management Security', sections: [], faqs: [] },
+      'cobranca-condominial': { h1: 'Condo Fee Collection', h2: 'Asset Recovery', sections: [], faqs: [] },
+      'assembleias-convencao-regimento': { h1: 'Assemblies & Bylaws', h2: 'Bylaw Review', sections: [], faqs: [] }
     },
     data: {
       title: 'Financial Health',

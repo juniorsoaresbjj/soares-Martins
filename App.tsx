@@ -17,6 +17,7 @@ import TeamPage from './components/TeamPage';
 import ContactPage from './components/ContactPage';
 import BlogPage from './components/BlogPage';
 import ServiceDetail from './components/ServiceDetail';
+import SEO from './components/SEO';
 
 type ViewType = 'home' | 'history' | 'services' | 'team' | 'contact' | 'blog';
 
@@ -62,6 +63,10 @@ const AppContent: React.FC = () => {
         <Routes>
           <Route path="/" element={
             <div className="animate-fade-in-up">
+              <SEO 
+                title="Especialistas em Direito Condominial no Rio de Janeiro" 
+                description="Soares Martins Advogados — Escritório corporativo focado em Direito Condominial e Patrimonial no RJ. Assessoria jurídica para síndicos e condomínios."
+              />
               <Hero />
               <AboutSection />
               <QuoteSection />

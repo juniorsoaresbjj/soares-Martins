@@ -24,25 +24,25 @@ const Services: React.FC = () => {
       title: t('services.s3'),
       description: t('services.s3Desc'),
       icon: <Scale size={28} strokeWidth={1.5} />,
-      slug: 'cobranca-inadimplentes-condominio-rj'
+      slug: 'cobranca-condominial'
     },
     {
       title: t('services.s4'),
       description: t('services.s4Desc'),
       icon: <ShieldCheck size={28} strokeWidth={1.5} />,
-      slug: 'assessoria-juridica-sindico-rj'
+      slug: 'assessoria-juridica-para-sindicos'
     },
     {
       title: t('services.s5'),
       description: t('services.s5Desc'),
       icon: <FileText size={28} strokeWidth={1.5} />,
-      slug: 'compliance-condominial'
+      slug: 'direito-condominial'
     },
     {
       title: t('services.s6'),
       description: t('services.s6Desc'),
       icon: <Users size={28} strokeWidth={1.5} />,
-      slug: 'trabalhista-condominio-rj'
+      slug: 'assembleias-convencao-regimento'
     }
   ];
 

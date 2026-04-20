@@ -12,14 +12,19 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>(() => {
-    const saved = localStorage.getItem('site_lang');
-    return (saved as Language) || 'pt';
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('site_lang');
+      return (saved as Language) || 'pt';
+    }
+    return 'pt';
   });
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem('site_lang', lang);
-    document.documentElement.lang = lang === 'pt' ? 'pt-br' : lang;
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('site_lang', lang);
+      document.documentElement.lang = lang === 'pt' ? 'pt-br' : lang;
+    }
   };
 
   const t = (key: TranslationKeys): string => {

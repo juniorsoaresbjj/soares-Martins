@@ -3,23 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Soares Martins Advogados | Especialistas em Condomínios</title>
     
-    <!-- SEO & Metadata -->
-    <meta name="description" content="Soares Martins Advogados — escritório especializado em direito condominial. Assessoria jurídica para síndicos, condôminos e administradoras no Rio de Janeiro." />
-    <link rel="canonical" href="https://soaresmartinsadv.com/" />
+    <script id="seo-head"></script>
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Soares Martins Advogados | Especialistas em Condomínios" />
-    <meta property="og:description" content="Soares Martins Advogados — escritório especializado em direito condominial. Assessoria jurídica para síndicos, condôminos e administradoras no Rio de Janeiro." />
-    <meta property="og:url" content="https://soaresmartinsadv.com/" />
-    <meta property="og:image" content="https://soaresmartinsadv.com/og-image.jpg" />
-    <meta property="og:locale" content="pt_BR" />
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
     
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -29,6 +15,9 @@
     <!-- Google Fonts Optimization -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1486406146926-c627a92ad11ab?auto=format&fit=crop&w=1200&q=80" referrerpolicy="no-referrer">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" referrerpolicy="no-referrer">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?auto=format&fit=crop&w=1920&q=80" referrerpolicy="no-referrer">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" media="print" onload="this.media='all'">
     <noscript>
@@ -40,21 +29,17 @@
     {
       "@context": "https://schema.org",
       "@type": "LegalService",
+      "@id": "https://soaresmartinsadv.com/#legalservice",
       "name": "Soares Martins Advogados",
-      "url": "https://soaresmartinsadv.com",
-      "logo": "https://soaresmartinsadv.com/favicon.png",
-      "image": "https://soaresmartinsadv.com/og-image.jpg",
-      "description": "Escritório especializado em direito condominial no Rio de Janeiro.",
-      "telephone": "+55-21-97954-9241",
+      "url": "https://soaresmartinsadv.com/",
+      "email": "soaresmartinsadv@hotmail.com",
+      "areaServed": { "@type": "AdministrativeArea", "name": "Rio de Janeiro - RJ" },
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Rio de Janeiro",
         "addressRegion": "RJ",
         "addressCountry": "BR"
-      },
-      "areaServed": "Rio de Janeiro",
-      "serviceType": "Direito Condominial",
-      "openingHours": "Mo-Fr 09:00-18:00"
+      }
     }
     </script>
 
@@ -79,11 +64,11 @@
   <body>
     <noscript>
       <div style="padding: 20px; text-align: center; font-family: sans-serif;">
-        <h1>Soares Martins Advogados</h1>
+        <div style="font-size: 2em; font-weight: bold; margin-bottom: 20px;">Soares Martins Advogados</div>
         <p>Este site requer JavaScript para funcionar corretamente.</p>
         <p>Para contato, envie um e-mail para: <a href="mailto:soaresmartinsadv@hotmail.com">soaresmartinsadv@hotmail.com</a></p>
       </div>
     </noscript>
-    <div id="root"></div>
+    <div id="root"><!--app-html--></div>
   </body>
 </html>

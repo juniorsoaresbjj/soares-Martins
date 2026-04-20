@@ -7,13 +7,14 @@ const AboutSection: React.FC = () => {
 
   return (
     <section id="escritorio" className="py-20 md:py-32 px-6 md:px-[10%] bg-off-white overflow-hidden">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        <div className="relative">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-stretch">
+        <div className="relative h-full min-h-[400px] lg:min-h-full">
           <div className="hidden sm:block absolute -top-10 -left-10 w-40 h-40 border-t-2 border-l-2 border-bronze/30 z-0" />
           <img 
-            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80" 
-            className="rounded-2xl shadow-2xl relative z-10 w-full grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
-            alt="Escritório Soares Martins Advogados - Rio de Janeiro"
+            src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" 
+            className="rounded-2xl shadow-2xl relative z-20 w-full aspect-[4/3] lg:aspect-auto lg:h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+            alt="Edifício corporativo moderno - Soares Martins Advogados"
+            referrerPolicy="no-referrer"
           />
           <div className="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 bg-midnight p-4 sm:p-8 text-white rounded-xl shadow-xl z-20 max-w-[200px] sm:max-w-[280px]">
             <span className="text-[8px] sm:text-[10px] uppercase font-bold tracking-widest text-bronze block leading-relaxed">

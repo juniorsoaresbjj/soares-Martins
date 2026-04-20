@@ -2,6 +2,7 @@
 import React from 'react';
 import { ArrowLeft, Mail } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from './SEO';
 
 interface TeamPageProps {
   onBack: () => void;
@@ -23,6 +24,10 @@ const TeamPage: React.FC<TeamPageProps> = ({ onBack }) => {
 
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+      <SEO 
+        title={t('nav.team')} 
+        description={t('team_page.bio').substring(0, 160)}
+      />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img 

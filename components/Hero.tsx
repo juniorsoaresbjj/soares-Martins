@@ -15,6 +15,7 @@ const Hero: React.FC = () => {
           src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1920&q=80" 
           className="w-full h-full object-cover opacity-50 grayscale-0"
           alt="Advogado condominial no Rio de Janeiro - Soares Martins"
+          referrerPolicy="no-referrer"
         />
       </div>
       

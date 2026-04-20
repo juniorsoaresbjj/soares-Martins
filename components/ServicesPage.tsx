@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Scale, Gavel, ShieldCheck, FileText, Users, Building2, ChevronRight, Zap, Target, BarChart3, ShieldAlert } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from './SEO';
 
 interface ServicesPageProps {
   onBack: () => void;
@@ -31,28 +32,28 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       description: t('services.s3Desc'),
       icon: <Scale size={32} />,
       details: t('services_page.details.s3') as unknown as string[],
-      slug: 'cobranca-inadimplentes-condominio-rj'
+      slug: 'cobranca-condominial'
     },
     {
       title: t('services.s4'),
       description: t('services.s4Desc'),
       icon: <ShieldCheck size={32} />,
       details: t('services_page.details.s4') as unknown as string[],
-      slug: 'assessoria-juridica-sindico-rj'
+      slug: 'assessoria-juridica-para-sindicos'
     },
     {
       title: t('services.s6'),
       description: t('services.s6Desc'),
       icon: <Users size={32} />,
       details: t('services_page.details.s6') as unknown as string[],
-      slug: 'trabalhista-condominio-rj'
+      slug: 'assembleias-convencao-regimento'
     },
     {
       title: t('services.s5'),
       description: t('services.s5Desc'),
       icon: <FileText size={32} />,
       details: t('services_page.details.s5') as unknown as string[],
-      slug: 'compliance-condominial'
+      slug: 'direito-condominial'
     },
     {
       title: t('services_page.penal_title'),
@@ -65,6 +66,10 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
 
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-x-hidden">
+      <SEO 
+        title={t('nav.services')} 
+        description={t('services_page.subtitle')}
+      />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img 

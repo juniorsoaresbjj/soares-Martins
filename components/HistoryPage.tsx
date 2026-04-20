@@ -2,6 +2,7 @@
 import React from 'react';
 import { ArrowLeft, Landmark, History, Target, ShieldCheck } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from './SEO';
 
 interface HistoryPageProps {
   onBack: () => void;
@@ -12,12 +13,17 @@ const HistoryPage: React.FC<HistoryPageProps> = ({ onBack }) => {
 
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+      <SEO 
+        title={t('nav.history')} 
+        description={t('about.desc1')}
+      />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img 
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad11ab?auto=format&fit=crop&w=1920&q=80" 
           className="w-full h-full object-cover opacity-20 grayscale"
           alt=""
+          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-midnight via-midnight/90 to-midnight" />
       </div>
@@ -53,6 +59,7 @@ const HistoryPage: React.FC<HistoryPageProps> = ({ onBack }) => {
               src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" 
               className="rounded-xl sm:rounded-2xl shadow-2xl relative z-10 w-full grayscale-[0.3] hover:grayscale-0 transition-all duration-700 aspect-[4/3] object-cover"
               alt="Prédios residenciais modernos"
+              referrerPolicy="no-referrer"
             />
           </div>
         </div>

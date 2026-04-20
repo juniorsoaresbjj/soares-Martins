@@ -5,27 +5,28 @@ import { useLanguage } from '../context/LanguageContext';
 import { ArrowLeft, ChevronRight, Building2, Gavel, Scale, ShieldCheck, FileText, Users, ShieldAlert } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import SEO from './SEO';
 
 const serviceData: Record<string, any> = {
-  'cobranca-inadimplentes-condominio-rj': {
+  'cobranca-condominial': {
     titleKey: 'services.s3',
     descKey: 'services.s3Desc',
     icon: <Scale size={48} />,
     detailsKey: 'services_page.details.s3'
   },
-  'assessoria-juridica-sindico-rj': {
+  'assessoria-juridica-para-sindicos': {
     titleKey: 'services.s4',
     descKey: 'services.s4Desc',
     icon: <ShieldCheck size={48} />,
     detailsKey: 'services_page.details.s4'
   },
-  'compliance-condominial': {
+  'direito-condominial': {
     titleKey: 'services.s5',
     descKey: 'services.s5Desc',
     icon: <FileText size={48} />,
     detailsKey: 'services_page.details.s5'
   },
-  'trabalhista-condominio-rj': {
+  'assembleias-convencao-regimento': {
     titleKey: 'services.s6',
     descKey: 'services.s6Desc',
     icon: <Users size={48} />,
@@ -35,7 +36,7 @@ const serviceData: Record<string, any> = {
 
 const ServiceDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   
   const service = slug ? serviceData[slug] : null;
 
@@ -54,10 +55,34 @@ const ServiceDetail: React.FC = () => {
     );
   }
 
+  // Determine content from translations or fallback
+  const getServiceContent = () => {
+    try {
+      // @ts-ignore - access nested translations
+      const content = (t('service_content') as any)?.[slug as string];
+      if (content && content.h1) return content;
+    } catch (e) {}
+    
+    return {
+      h1: t(service.titleKey),
+      h2: 'Especialidades e Atuação',
+      sections: [],
+      faqs: []
+    };
+  };
+
+  const content = getServiceContent();
   const details = t(service.detailsKey) as unknown as string[];
+
+  // Generate a concise description for SEO
+  const seoDescription = `${content.h1} no Rio de Janeiro/RJ. ${t(service.descKey)}`.substring(0, 160);
 
   return (
     <div className="min-h-screen bg-midnight text-white">
+      <SEO 
+        title={content.h1} 
+        description={seoDescription}
+      />
       <Navbar currentView="services" />
       
       <main className="pt-32 pb-20 px-6 md:px-[10%]">
@@ -72,13 +97,28 @@ const ServiceDetail: React.FC = () => {
               {service.icon}
             </div>
             <div>
-              <h1 className="text-4xl md:text-6xl font-serif mb-4">{t(service.titleKey)}</h1>
+              <h1 className="text-4xl md:text-6xl font-serif mb-4">{content.h1}</h1>
               <p className="text-xl text-text-muted font-light">{t(service.descKey)}</p>
             </div>
           </div>
 
+          {/* New Sections */}
+          {content.sections && content.sections.length > 0 && (
+            <div className="grid grid-cols-1 gap-12 mb-16">
+              {content.sections.map((sec: any, i: number) => (
+                <section key={i} className="space-y-4">
+                  <h2 className="text-2xl md:text-3xl font-serif text-bronze">{sec.h2}</h2>
+                  <p className="text-white/80 leading-relaxed text-lg">{sec.p}</p>
+                </section>
+              ))}
+            </div>
+          )}
+
+          {/* Previous Details as H2 if no custom sections */}
           <div className="bg-midnight-light/40 backdrop-blur-sm p-8 md:p-12 rounded-3xl border border-white/5 mb-16">
-            <h2 className="text-2xl font-serif mb-8 text-bronze">Especialidades e Atuação</h2>
+            <h2 className="text-2xl font-serif mb-8 text-bronze">
+              {content.h2 || "Especialidades e Atuação"}
+            </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {details.map((detail, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-sm text-white/70 leading-relaxed">
@@ -89,17 +129,45 @@ const ServiceDetail: React.FC = () => {
             </ul>
           </div>
 
+          {/* FAQ Block */}
+          {content.faqs && content.faqs.length > 0 && (
+            <div className="mb-16">
+              <h2 className="text-3xl font-serif mb-10 text-center border-b border-white/5 pb-6">Perguntas Frequentes (FAQ)</h2>
+              <div className="space-y-6">
+                {content.faqs.map((faq: any, i: number) => (
+                  <div key={i} className="bg-midnight-light/20 p-6 rounded-2xl border border-white/5 hover:border-bronze/30 transition-all">
+                    <h3 className="text-xl font-serif text-white mb-3 flex gap-3 italic">
+                      <span className="text-bronze not-italic">Q.</span> {faq.q}
+                    </h3>
+                    <p className="text-white/60 leading-relaxed ml-7">
+                      {faq.a}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="bg-bronze p-10 md:p-16 rounded-3xl text-midnight text-center">
             <h3 className="text-3xl font-serif mb-6">Precisa de assessoria especializada?</h3>
-            <p className="text-lg mb-10 opacity-80">Nossa equipe está pronta para oferecer a melhor solução jurídica para o seu condomínio no Rio de Janeiro.</p>
-            <a 
-              href={`https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20sobre%20${t(service.titleKey)}.`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-midnight text-white px-10 py-4 font-bold uppercase tracking-widest hover:bg-white hover:text-midnight transition-all"
-            >
-              Falar com Especialista
-            </a>
+            <p className="text-lg mb-10 opacity-80">Nosso escritório está à disposição para analisar suas necessidades jurídicas e propor soluções estratégicas para o seu condomínio.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href={`https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20sobre%20${content.h1}.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-midnight text-white px-10 py-4 font-bold uppercase tracking-widest hover:bg-white hover:text-midnight transition-all"
+              >
+                Atendimento WhatsApp
+              </a>
+              <a 
+                href="mailto:soaresmartinsadv@hotmail.com"
+                className="inline-block border-2 border-midnight text-midnight px-10 py-4 font-bold uppercase tracking-widest hover:bg-midnight hover:text-white transition-all"
+              >
+                Enviar E-mail
+              </a>
+            </div>
+            <p className="mt-6 text-[10px] uppercase tracking-tighter opacity-70">Atendimento especializado no Rio de Janeiro e suporte virtual em todo o Brasil.</p>
           </div>
         </div>
       </main>

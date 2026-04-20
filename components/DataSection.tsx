@@ -59,37 +59,39 @@ const DataSection: React.FC = () => {
           </div>
           
           <div className="h-[250px] sm:h-[350px] w-full">
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={data}>
-                <defs>
-                  <linearGradient id="colorInad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#C5A059" stopOpacity={0.3}/>
-                    <stop offset="95%" stopColor="#C5A059" stopOpacity={0}/>
-                  </linearGradient>
-                </defs>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(255,255,255,0.05)" />
-                <XAxis 
-                  dataKey="name" 
-                  axisLine={false} 
-                  tickLine={false} 
-                  tick={{fill: 'rgba(255,255,255,0.4)', fontSize: 10}} 
-                  dy={15}
-                />
-                <YAxis hide />
-                <Tooltip 
-                  contentStyle={{ backgroundColor: '#0A1526', border: '1px solid rgba(197, 160, 89, 0.2)', borderRadius: '12px', fontSize: '12px' }}
-                  itemStyle={{ color: '#C5A059' }}
-                />
-                <Area 
-                  type="monotone" 
-                  dataKey="inadimplencia" 
-                  stroke="#C5A059" 
-                  strokeWidth={3}
-                  fillOpacity={1} 
-                  fill="url(#colorInad)" 
-                />
-              </AreaChart>
-            </ResponsiveContainer>
+            {typeof window !== 'undefined' && (
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart data={data}>
+                  <defs>
+                    <linearGradient id="colorInad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#C5A059" stopOpacity={0.3}/>
+                      <stop offset="95%" stopColor="#C5A059" stopOpacity={0}/>
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(255,255,255,0.05)" />
+                  <XAxis 
+                    dataKey="name" 
+                    axisLine={false} 
+                    tickLine={false} 
+                    tick={{fill: 'rgba(255,255,255,0.4)', fontSize: 10}} 
+                    dy={15}
+                  />
+                  <YAxis hide />
+                  <Tooltip 
+                    contentStyle={{ backgroundColor: '#0A1526', border: '1px solid rgba(197, 160, 89, 0.2)', borderRadius: '12px', fontSize: '12px' }}
+                    itemStyle={{ color: '#C5A059' }}
+                  />
+                  <Area 
+                    type="monotone" 
+                    dataKey="inadimplencia" 
+                    stroke="#C5A059" 
+                    strokeWidth={3}
+                    fillOpacity={1} 
+                    fill="url(#colorInad)" 
+                  />
+                </AreaChart>
+              </ResponsiveContainer>
+            )}
           </div>
           <p className="text-center text-[10px] text-text-muted mt-8 italic">
             {t('data.footer')}
