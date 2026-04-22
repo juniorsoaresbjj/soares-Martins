@@ -11,6 +11,10 @@ interface SeoProps {
 
 const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
   const { pathname } = useLocation();
+  
+  // Prevent client-side execution to avoid duplicating tags already injected during SSG
+  if (typeof window !== 'undefined') return null;
+
   const siteUrl = 'https://soaresmartinsadv.com';
   const canonicalUrl = `${siteUrl}${pathname.endsWith('/') ? pathname : `${pathname}/`}`;
   const fullTitle = `${title} | Soares Martins Advogados`;

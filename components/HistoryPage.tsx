@@ -39,25 +39,23 @@ const HistoryPage: React.FC<HistoryPageProps> = ({ onBack }) => {
         </button>
 
         {/* Seção de Cabeçalho */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start mb-20 md:mb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-stretch mb-20 md:mb-32">
           <div className="flex flex-col items-start text-left">
             <span className="text-bronze text-xs font-bold uppercase tracking-widest mb-6 md:mb-8">{t('about.tag')}</span>
-            <h1 className="font-serif text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-8 md:mb-10 inline-flex flex-col items-start sm:items-center">
-              <span className="block uppercase">{t('history_page.title')}</span>
-              <span className="serif-italic text-bronze block text-2xl sm:text-3xl md:text-4xl my-2 italic">DE</span>
-              <span className="serif-italic text-bronze block uppercase">Excelência.</span>
+            <h1 className="font-serif text-bronze text-base sm:text-lg md:text-xl lg:text-2xl uppercase tracking-[0.15em] leading-[1.6] mb-8 md:mb-12 max-w-3xl">
+              {t('history_page.title')}
             </h1>
-            <div className="space-y-4 md:space-y-6 text-text-muted text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl">
+            <div className="space-y-4 md:space-y-6 text-text-muted text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl text-justify">
               {[t('about.desc1'), t('about.desc2'), t('about.desc3'), t('about.desc4'), t('about.desc5')].map((text, i) => (
-                text && <p key={i}>{text}</p>
+                text && <p key={i} className="first-letter:pl-0">{text}</p>
               ))}
             </div>
           </div>
-          <div className="relative mt-8 lg:mt-0">
+          <div className="relative mt-8 lg:mt-0 flex flex-col h-full">
             <div className="absolute -inset-2 sm:-inset-4 border border-bronze/20 rounded-2xl sm:rounded-3xl z-0" />
             <img 
               src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" 
-              className="rounded-xl sm:rounded-2xl shadow-2xl relative z-10 w-full grayscale-[0.3] hover:grayscale-0 transition-all duration-700 aspect-[4/3] object-cover"
+              className="rounded-xl sm:rounded-2xl shadow-2xl relative z-10 w-full h-full grayscale-[0.3] hover:grayscale-0 transition-all duration-700 object-cover min-h-[300px] lg:min-h-full"
               alt="Prédios residenciais modernos"
               referrerPolicy="no-referrer"
             />

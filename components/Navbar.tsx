@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate, Link, useLocation } from 'react-router-dom';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 import Logo from './Logo';
 import { useLanguage } from '../context/LanguageContext';
@@ -17,6 +17,12 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   const langMenuRef = useRef<HTMLDivElement>(null);
   const { language, setLanguage, t } = useLanguage();
   const navigate = useNavigate();
+  const location = useLocation();
+
+  // Close mobile menu on route change
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [location.pathname]);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -62,7 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
 
   return (
     <header className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-500 py-6 pl-[3%] pr-[5%] ${isScrolled || currentView !== 'home' ? 'glass py-4' : 'bg-transparent'}`}>
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex justify-between items-center relative z-[101]">
         {/* LOGO */}
         <Link to="/" onClick={handleHomeClick} className="transition-transform hover:scale-105">
           <Logo className="h-10 md:h-12" variant="light" />
@@ -167,7 +173,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-midnight/98 backdrop-blur-xl z-[-1] transition-all duration-500 md:hidden overflow-y-auto ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-10'}`}>
+      <div className={`fixed inset-0 bg-midnight/98 backdrop-blur-xl z-[100] transition-all duration-500 md:hidden overflow-y-auto ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-10'}`}>
         <div className="flex flex-col items-center justify-start min-h-full py-24 px-10 space-y-8">
           {navLinks.map((item) => (
             <Link 

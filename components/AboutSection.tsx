@@ -32,7 +32,7 @@ const AboutSection: React.FC = () => {
             </h2>
           </div>
           
-          <div className="space-y-4 md:space-y-6">
+          <div className="space-y-4 md:space-y-6 text-justify">
             {[t('about.desc1'), t('about.desc2'), t('about.desc3'), t('about.desc4'), t('about.desc5')].map((text, i) => (
               text && (
                 <p key={i} className="text-gray-600 text-base sm:text-lg leading-relaxed">

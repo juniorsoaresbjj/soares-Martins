@@ -83,7 +83,6 @@ const ServiceDetail: React.FC = () => {
         title={content.h1} 
         description={seoDescription}
       />
-      <Navbar currentView="services" />
       
       <main className="pt-32 pb-20 px-6 md:px-[10%]">
         <div className="max-w-4xl mx-auto">
@@ -171,8 +170,6 @@ const ServiceDetail: React.FC = () => {
           </div>
         </div>
       </main>
-      
-      <Footer />
     </div>
   );
 };
