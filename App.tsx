@@ -28,7 +28,10 @@ const AppContent: React.FC = () => {
   const [view, setView] = useState<ViewType>('home');
 
   useEffect(() => {
-    const path = location.pathname;
+    // Normalize path by removing trailing slash for comparison
+    const path = location.pathname.endsWith('/') && location.pathname !== '/' 
+      ? location.pathname.slice(0, -1) 
+      : location.pathname;
     const hash = location.hash.toLowerCase();
     
     if (path === '/historia' || hash === '#history' || hash === '#escritorio') {

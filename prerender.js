@@ -93,8 +93,10 @@ async function start() {
     if (url === '/') {
       filePath = '/index.html'
     } else {
-      // Use .html extension for better clean URL support on most hostings without trailing slash redirects
-      filePath = `${url.endsWith('/') ? url.slice(0, -1) : url}.html`
+      // Create a directory for each route with an index.html file
+      // This is the standard for clean URLs (e.g., /about -> /about/index.html)
+      const cleanUrl = url.endsWith('/') ? url.slice(0, -1) : url
+      filePath = `${cleanUrl}/index.html`
     }
 
     const fullPath = toAbsolute(`dist${filePath}`)

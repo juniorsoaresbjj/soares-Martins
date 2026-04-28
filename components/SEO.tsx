@@ -16,7 +16,8 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
   if (typeof window !== 'undefined') return null;
 
   const siteUrl = 'https://soaresmartinsadv.com';
-  const canonicalUrl = `${siteUrl}${pathname}`;
+  // Standardize canonical URLs to include trailing slashes (except for home)
+  const canonicalUrl = pathname === '/' ? siteUrl : `${siteUrl}${pathname.endsWith('/') ? pathname : `${pathname}/`}`;
   const fullTitle = `${title} | Soares Martins Advogados`;
 
   return (

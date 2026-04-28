@@ -13,14 +13,21 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   const { language, t } = useLanguage();
   const { slug } = useParams<{ slug?: string }>();
   const navigate = useNavigate();
-  const [selectedPost, setSelectedPost] = useState<Post | null>(null);
+  
+  // Memoize posts to prevent infinite re-renders
+  const posts = useMemo(() => getBlogPosts(language, t), [language, t]);
+
+  // DERIVE selectedPost directly from slug for SSR compatibility
+  // This ensures the content is available on the very first render (required for SSG)
+  const selectedPost = useMemo(() => {
+    if (!slug) return null;
+    return posts.find(p => p.slug === slug) || null;
+  }, [slug, posts]);
+
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('');
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
-
-  // Memoize posts to prevent infinite re-renders when passed to useEffect
-  const posts = useMemo(() => getBlogPosts(language, t), [language, t]);
 
   const categories = useMemo(() => [
     t('blog_page.cat_all'),
@@ -85,20 +92,6 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   useEffect(() => {
     setCurrentPage(1);
   }, [searchQuery]);
-
-  useEffect(() => {
-    if (slug) {
-      const post = posts.find(p => p.slug === slug);
-      if (post) {
-        setSelectedPost(post);
-        window.scrollTo(0, 0);
-      } else {
-        setSelectedPost(null);
-      }
-    } else {
-      setSelectedPost(null);
-    }
-  }, [slug, posts]);
 
   if (selectedPost) {
     return (
