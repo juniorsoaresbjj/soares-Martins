@@ -93,7 +93,8 @@ async function start() {
     if (url === '/') {
       filePath = '/index.html'
     } else {
-      filePath = `${url}/index.html`
+      // Use .html extension for better clean URL support on most hostings without trailing slash redirects
+      filePath = `${url.endsWith('/') ? url.slice(0, -1) : url}.html`
     }
 
     const fullPath = toAbsolute(`dist${filePath}`)
