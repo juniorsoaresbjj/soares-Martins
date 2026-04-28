@@ -93,6 +93,7 @@ const AppContent: React.FC = () => {
           <Route path="/equipe" element={<TeamPage onBack={navigateToHome} />} />
           <Route path="/contato" element={<ContactPage onBack={navigateToHome} />} />
           <Route path="/blog" element={<BlogPage onBack={navigateToHome} />} />
+          <Route path="/blog/:slug" element={<BlogPage onBack={navigateToHome} />} />
           
           {/* Novas páginas de serviços para SEO */}
           <Route path="/:slug" element={<ServiceDetail />} />

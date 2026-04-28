@@ -31,6 +31,24 @@ const serviceData: Record<string, any> = {
     descKey: 'services.s6Desc',
     icon: <Users size={48} />,
     detailsKey: 'services_page.details.s6'
+  },
+  'direito-patrimonial-sucessorio': {
+    titleKey: 'services.s1',
+    descKey: 'services.s1Desc',
+    icon: <ShieldCheck size={48} />,
+    detailsKey: 'services_page.details.s1'
+  },
+  'direito-imobiliario': {
+    titleKey: 'services.s2',
+    descKey: 'services.s2Desc',
+    icon: <Building2 size={48} />,
+    detailsKey: 'services_page.details.s2'
+  },
+  'compliance-condominial-penal': {
+    titleKey: 'services_page.penal_title',
+    descKey: 'services_page.penal_desc',
+    icon: <ShieldAlert size={48} />,
+    detailsKey: 'services_page.details.penal'
   }
 };
 

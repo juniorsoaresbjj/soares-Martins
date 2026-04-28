@@ -3,6 +3,7 @@ import React from 'react';
 
 export interface Post {
   id: number;
+  slug: string;
   title: string;
   excerpt: string;
   content: React.ReactNode;
@@ -17,6 +18,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     return [
       {
         id: 1,
+        slug: 'lgpd-condominiums-concierge-cameras',
         title: "LGPD in Condominiums: How to adapt the concierge and cameras?",
         excerpt: "The protection of personal data has become mandatory for condominiums. Learn how to handle visitor and resident information according to the law.",
         readTime: `12 min read`,
@@ -38,6 +40,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 2,
+        slug: 'stj-rules-animals-condominiums-what-changed',
         title: "STJ defines rules for animals in condominiums: what has changed?",
         excerpt: "Understand the limits of prohibitions in conventions and internal regulations after recent decisions by higher courts on pets.",
         readTime: `10 min read`,
@@ -56,6 +59,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 3,
+        slug: 'delinquency-recovery-legal-strategies',
         title: "Record delinquency? Legal strategies for cash recovery.",
         excerpt: "New procedural tools allow for greater speed in the execution of condominium fees. Discover how to protect the building's finances.",
         readTime: `14 min read`,
@@ -74,6 +78,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 4,
+        slug: 'condominium-management-budget-forecast',
         title: "Condominium Management: The importance of the Annual Budget Forecast",
         excerpt: "Planning is the key to a healthy management. Learn how to prepare a realistic budget forecast and avoid extra calls.",
         readTime: `11 min read`,
@@ -92,6 +97,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 5,
+        slug: 'technology-condominiums-remote-concierge',
         title: "Technology in Condominiums: Remote Concierge and Security",
         excerpt: "Discover how technology is transforming condominium security and reducing operational costs with remote concierge solutions.",
         readTime: `9 min read`,
@@ -110,6 +116,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 6,
+        slug: 'real-estate-law-due-diligence-property-purchase',
         title: "Real Estate Law: The importance of Due Diligence in property purchase",
         excerpt: "Buying a property is a high-value investment. Learn why due diligence is essential to avoid future legal problems.",
         readTime: `13 min read`,
@@ -128,6 +135,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 7,
+        slug: 'coexistence-condominiums-noise-common-areas',
         title: "Coexistence in Condominiums: How to handle noise and common areas",
         excerpt: "Conflicts between neighbors are common, but can be avoided with clear rules and mediation. Learn how to promote a healthy coexistence.",
         readTime: `10 min read`,
@@ -149,6 +157,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     return [
       {
         id: 1,
+        slug: 'lgpd-condominios-porteria-camaras',
         title: "LGPD en Condominios: ¿Cómo adaptar la portería y las cámaras?",
         excerpt: "La protección de datos personales se ha vuelto obligatoria para los condominios. Aprenda cómo tratar la información de visitantes y residentes según la ley.",
         readTime: `12 min de lectura`,
@@ -170,6 +179,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 2,
+        slug: 'stj-reglas-animales-condominios-que-ha-cambiado',
         title: "STJ define reglas para animales en condominios: ¿qué ha cambiado?",
         excerpt: "Entienda los límites de las prohibiciones en convenciones y reglamentos internos tras las recientes decisiones de los tribunales superiores sobre mascotas.",
         readTime: `10 min de lectura`,
@@ -188,6 +198,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 3,
+        slug: 'morosidad-estrategias-recuperacion-caja',
         title: "¿Morosidad récord? Estrategias jurídicas para la recuperación de caja.",
         excerpt: "Nuevas herramientas procesales permiten mayor rapidez en la ejecución de cuotas de condominios. Descubra cómo proteger las finanzas del edificio.",
         readTime: `14 min de lectura`,
@@ -206,6 +217,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 4,
+        slug: 'gestion-condominios-prevision-presupuestaria',
         title: "Gestión de Condominios: La importancia de la Previsión Presupuestaria Anual",
         excerpt: "La planificación es la clave para una gestión saludable. Aprenda cómo elaborar una previsión presupuestaria realista y evitar cuotas extras.",
         readTime: `11 min de lectura`,
@@ -224,6 +236,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 5,
+        slug: 'tecnologia-condominios-porteria-remota',
         title: "Tecnología en Condominios: Portería Remota y Seguridad",
         excerpt: "Descubra cómo la tecnología está transformando la seguridad de los condominios y reduciendo los costos operativos con soluciones de portería remota.",
         readTime: `9 min de lectura`,
@@ -242,6 +255,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 6,
+        slug: 'derecho-inmobiliario-due-diligence-compra',
         title: "Derecho Inmobiliario: La importancia de la Due Diligence en la compra de inmuebles",
         excerpt: "Comprar un inmueble es una inversión de alto valor. Aprenda por qué la due diligence es esencial para evitar problemas legales futuros.",
         readTime: `13 min de lectura`,
@@ -260,6 +274,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       },
       {
         id: 7,
+        slug: 'convivencia-condominios-ruido-areas-comunes',
         title: "Convivencia en Condominios: Cómo lidiar con el ruido y las áreas comunes",
         excerpt: "Los conflictos entre vecinos son comunes, pero pueden evitarse con reglas claras y mediación. Aprenda cómo promover una convivencia saludable.",
         readTime: `10 min de lectura`,
@@ -283,6 +298,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
   return [
     {
       id: 1,
+      slug: 'lgpd-condominios-portaria-cameras',
       title: "LGPD nos Condomínios: Como adequar a portaria e as câmeras?",
       excerpt: "A proteção de dados pessoais tornou-se obrigatória para condomínios. Saiba como tratar as informações dos visitantes e condôminos conforme a lei.",
       readTime: `12 min ${t('blog_page.read_time_suffix')}`,
@@ -304,6 +320,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 2,
+      slug: 'stj-regras-animais-condominios-o-que-mudou',
       title: "STJ define regras para animais em condomínios: o que mudou?",
       excerpt: "Entenda os limites das proibições em convenções e regimentos internos após as recentes decisões dos tribunais superiores sobre pets.",
       readTime: `10 min ${t('blog_page.read_time_suffix')}`,
@@ -322,6 +339,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 3,
+      slug: 'inadimplencia-recorde-recuperacao-caixa',
       title: "Inadimplência recorde? Estratégias jurídicas para recuperação de caixa.",
       excerpt: "Novas ferramentas processuais permitem maior rapidez na execução de cotas condominiais. Descubra como proteger as finanças do prédio.",
       readTime: `14 min ${t('blog_page.read_time_suffix')}`,
@@ -340,6 +358,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 4,
+      slug: 'gestao-condominial-previsao-orcamentaria',
       title: "Gestão Condominial: A importância da Previsão Orçamentária Anual",
       excerpt: "O planejamento é a chave para uma gestão saudável. Saiba como elaborar uma previsão orçamentária realista e evitar chamadas extras.",
       readTime: `11 min ${t('blog_page.read_time_suffix')}`,
@@ -358,6 +377,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 5,
+      slug: 'tecnologia-condominios-portaria-remota',
       title: "Tecnologia nos Condomínios: Portaria Remota e Segurança",
       excerpt: "Descubra como a tecnologia está transformando a segurança dos condomínios e reduzindo custos operacionais com soluções de portaria remota.",
       readTime: `9 min ${t('blog_page.read_time_suffix')}`,
@@ -376,6 +396,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 6,
+      slug: 'direito-imobiliario-due-diligence-compra',
       title: "Direito Imobiliário: A importância da Due Diligence na compra de imóveis",
       excerpt: "Comprar um imóvel é um investimento de alto valor. Saiba por que a due diligence é essencial para evitar problemas jurídicos futuros.",
       readTime: `13 min ${t('blog_page.read_time_suffix')}`,
@@ -394,6 +415,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 7,
+      slug: 'convivencia-condominios-barulho-areas-comuns',
       title: "Convivência em Condomínios: Como lidar com barulho e áreas comuns",
       excerpt: "Conflitos entre vizinhos são comuns, mas podem ser evitados com regras claras e mediação. Saiba como promover uma convivência saudável.",
       readTime: `10 min ${t('blog_page.read_time_suffix')}`,
@@ -412,6 +434,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 8,
+      slug: 'cobranca-judicial-inadimplente-condominio-rj',
       title: "Como funciona a cobrança judicial de inadimplente em condomínio no RJ",
       excerpt: "A inadimplência é um dos maiores desafios dos síndicos no Rio de Janeiro. Entenda o passo a passo jurídico para recuperar as cotas em atraso.",
       readTime: `15 min ${t('blog_page.read_time_suffix')}`,
@@ -429,6 +452,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 9,
+      slug: 'sindico-morador-barulhento',
       title: "O que o síndico pode fazer com morador barulhento",
       excerpt: "O barulho excessivo é a principal causa de brigas em condomínios. Saiba quais são os limites legais e como o síndico deve agir.",
       readTime: `12 min ${t('blog_page.read_time_suffix')}`,
@@ -446,6 +470,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     },
     {
       id: 10,
+      slug: 'lgpd-condominios-guia-sindico',
       title: "LGPD em condomínios: o que todo síndico precisa saber",
       excerpt: "A Lei Geral de Proteção de Dados já está em vigor e condomínios que não se adequarem podem sofrer multas pesadas. Veja o guia prático.",
       readTime: `18 min ${t('blog_page.read_time_suffix')}`,

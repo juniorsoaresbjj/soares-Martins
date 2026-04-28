@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Calendar, ChevronRight, Search, Clock, Share2, Printer } from 'lucide-react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { getBlogPosts, Post } from '../data/blogPosts';
 
@@ -10,6 +11,8 @@ interface BlogPageProps {
 
 const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   const { language, t } = useLanguage();
+  const { slug } = useParams<{ slug?: string }>();
+  const navigate = useNavigate();
   const [selectedPost, setSelectedPost] = useState<Post | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState(t('blog_page.cat_all'));
@@ -78,17 +81,31 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     setCurrentPage(1);
   }, [searchQuery]);
 
+  useEffect(() => {
+    if (slug) {
+      const post = posts.find(p => p.slug === slug);
+      if (post) {
+        setSelectedPost(post);
+        window.scrollTo(0, 0);
+      } else {
+        setSelectedPost(null);
+      }
+    } else {
+      setSelectedPost(null);
+    }
+  }, [slug, posts]);
+
   if (selectedPost) {
     return (
       <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
         <div className="relative z-10 max-w-4xl mx-auto">
-          <button 
-            onClick={() => setSelectedPost(null)}
+          <Link 
+            to="/blog"
             className="flex items-center gap-2 text-bronze text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-10 md:mb-12 hover:text-white transition-colors group"
           >
             <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
             {t('nav.back_blog')}
-          </button>
+          </Link>
           <article className="space-y-8 md:space-y-12">
             <header className="space-y-6 md:space-y-8">
               <div className="flex flex-wrap items-center gap-4 md:gap-6 text-[9px] sm:text-[11px] text-text-muted uppercase tracking-widest font-bold">
@@ -165,9 +182,9 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
           <>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
               {currentPosts.map((post) => (
-                <article 
+                <Link 
                   key={post.id} 
-                  onClick={() => setSelectedPost(post)}
+                  to={`/blog/${post.slug}`}
                   className="group cursor-pointer bg-midnight-light/60 rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 hover:border-bronze/30 transition-all flex flex-col h-full shadow-lg"
                 >
                   <div className="h-48 sm:h-56 overflow-hidden relative">
@@ -182,11 +199,11 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
                     </div>
                     <h3 className="font-serif text-white text-xl sm:text-2xl mb-3 sm:mb-4 group-hover:text-bronze transition-colors leading-snug">{post.title}</h3>
                     <p className="text-text-muted text-xs sm:text-sm leading-relaxed mb-6 md:mb-8 flex-grow">{post.excerpt}</p>
-                    <button className="flex items-center gap-2 text-bronze text-[9px] sm:text-[10px] font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform">
+                    <div className="flex items-center gap-2 text-bronze text-[9px] sm:text-[10px] font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform">
                       {t('blog_page.read_more')} <ChevronRight size={14} />
-                    </button>
+                    </div>
                   </div>
-                </article>
+                </Link>
               ))}
             </div>
 

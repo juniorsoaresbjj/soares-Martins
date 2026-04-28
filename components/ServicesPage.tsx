@@ -18,14 +18,14 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       description: t('services.s1Desc'),
       icon: <Building2 size={32} />,
       details: t('services_page.details.s1') as unknown as string[],
-      slug: null
+      slug: 'direito-patrimonial-sucessorio'
     },
     {
       title: t('services.s2'),
       description: t('services.s2Desc'),
       icon: <Gavel size={32} />,
       details: t('services_page.details.s2') as unknown as string[],
-      slug: null
+      slug: 'direito-imobiliario'
     },
     {
       title: t('services.s3'),
@@ -60,7 +60,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       description: t('services_page.penal_desc'),
       icon: <ShieldAlert size={32} />,
       details: t('services_page.details.penal') as unknown as string[],
-      slug: null
+      slug: 'compliance-condominial-penal'
     }
   ];
 

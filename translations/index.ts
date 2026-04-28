@@ -38,7 +38,7 @@ export const translations = {
       exp: 'EXCELÊNCIA EM ADVOCACIA IMOBILIÁRIA'
     },
     history_page: {
-      title: 'Especialistas em direito condominial no Rio de Janeiro, com atuação estratégica, preventiva e orientada a resultados.',
+      title: 'Advogados especialistas em direito condominial e imobiliário no Rio de Janeiro. Atuação estratégica, preventiva e orientada a resultados.',
       titleHighlight: 'DE Excelência.',
       card1_title: 'Atendimento Individualizado',
       card1_desc: 'Nossa abordagem prioriza a análise minuciosa de cada demanda, permitindo decisões juridicamente seguras.',
@@ -365,7 +365,7 @@ export const translations = {
       exp: 'EXCELENCIA EN ABOGACÍA INMOBILIARIA'
     },
     history_page: {
-      title: 'Especialistas en derecho de condominios en Río de Janeiro, con actuación estratégica, preventiva y orientada a resultados.',
+      title: 'Abogados especialistas en derecho de condominios e inmobiliario en Río de Janeiro. Actuación estratégica, preventiva y orientada a resultados.',
       titleHighlight: 'DE Excelencia.',
       card1_title: 'Atención Individualizada',
       card1_desc: 'Nuestro enfoque prioriza el análisis minucioso de cada demanda, permitiendo decisiones jurídicamente seguras.',
@@ -577,7 +577,7 @@ export const translations = {
       exp: 'EXCELLENCE IN REAL ESTATE LAW'
     },
     history_page: {
-      title: 'Specialists in condominium law in Rio de Janeiro, with strategic, preventive and result-oriented performance.',
+      title: 'Attorneys specializing in condominium and real estate law in Rio de Janeiro. Strategic, preventive and results-oriented performance.',
       titleHighlight: 'DE Excelência.',
       card1_title: 'Individualized Service',
       card1_desc: 'Our approach prioritizes a detailed analysis of each demand, allowing for legally secure decisions.',
