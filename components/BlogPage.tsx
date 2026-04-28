@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { ArrowLeft, Calendar, ChevronRight, Search, Clock, Share2, Printer } from 'lucide-react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
@@ -15,13 +15,14 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   const navigate = useNavigate();
   const [selectedPost, setSelectedPost] = useState<Post | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeCategory, setActiveCategory] = useState(t('blog_page.cat_all'));
+  const [activeCategory, setActiveCategory] = useState<string>('');
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 6;
 
-  const posts = getBlogPosts(language, t);
+  // Memoize posts to prevent infinite re-renders when passed to useEffect
+  const posts = useMemo(() => getBlogPosts(language, t), [language, t]);
 
-  const categories = [
+  const categories = useMemo(() => [
     t('blog_page.cat_all'),
     t('blog_page.cat_compliance'),
     t('blog_page.cat_jurisprudence'),
@@ -32,19 +33,23 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     t('blog_page.cat_airbnb'),
     t('blog_page.cat_rental'),
     t('blog_page.cat_coexistence')
-  ];
+  ], [t]);
 
-  const filteredPosts = posts.filter(post => {
-    const matchesSearch = 
-      post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
-    
-    // Map category back to translated version for comparison if needed, 
-    // but here we can just check if the translated category matches the active one.
-    // However, the posts data now has translated categories.
-    const matchesCategory = activeCategory === t('blog_page.cat_all') || post.category === activeCategory;
-    return matchesSearch && matchesCategory;
-  });
+  // Handle initial category and language changes
+  useEffect(() => {
+    setActiveCategory(t('blog_page.cat_all'));
+  }, [language, t]);
+
+  const filteredPosts = useMemo(() => {
+    return posts.filter(post => {
+      const matchesSearch = 
+        post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+      
+      const matchesCategory = activeCategory === t('blog_page.cat_all') || post.category === activeCategory || activeCategory === '';
+      return matchesSearch && matchesCategory;
+    });
+  }, [posts, searchQuery, activeCategory, t]);
 
   const handleShare = () => {
     if (selectedPost && navigator.share) {
@@ -98,6 +103,17 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   if (selectedPost) {
     return (
       <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+        {/* Background Image Overlay */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
+          <img 
+            src={selectedPost.image} 
+            className="w-full h-full object-cover opacity-5 grayscale blur-sm"
+            alt=""
+          />
+          <div className="absolute inset-0 bg-midnight/90" />
+        </div>
+        
         <div className="relative z-10 max-w-4xl mx-auto">
           <Link 
             to="/blog"
@@ -142,7 +158,13 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   }
 
   return (
-    <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight">
+    <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+      {/* Background Texture Overlay */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-midnight via-midnight/95 to-midnight" />
+      </div>
+
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 md:gap-12 mb-12 md:mb-20">
           <div className="max-w-2xl w-full">

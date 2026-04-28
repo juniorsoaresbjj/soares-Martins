@@ -42,12 +42,13 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
     <div className="relative min-h-screen pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-[5%] md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
         <img 
           src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1920&q=80" 
-          className="w-full h-full object-cover opacity-10 grayscale"
+          className="w-full h-full object-cover opacity-5 grayscale"
           alt=""
         />
-        <div className="absolute inset-0 bg-midnight/95" />
+        <div className="absolute inset-0 bg-gradient-to-r from-midnight via-midnight/95 to-midnight/90" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">

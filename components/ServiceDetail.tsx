@@ -96,13 +96,19 @@ const ServiceDetail: React.FC = () => {
   const seoDescription = `${content.h1} no Rio de Janeiro/RJ. ${t(service.descKey)}`.substring(0, 160);
 
   return (
-    <div className="min-h-screen bg-midnight text-white">
+    <div className="min-h-screen bg-midnight text-white relative overflow-hidden">
+      {/* Background Texture Overlay */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-midnight via-midnight/95 to-midnight" />
+      </div>
+
       <SEO 
         title={content.h1} 
         description={seoDescription}
       />
       
-      <main className="pt-32 pb-20 px-6 md:px-[10%]">
+      <main className="relative z-10 pt-32 pb-20 px-6 md:px-[10%]">
         <div className="max-w-4xl mx-auto">
           <Link to="/#services" className="flex items-center gap-2 text-bronze text-xs font-bold uppercase tracking-widest mb-12 hover:text-white group">
             <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />

@@ -27,7 +27,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     }
   };
 
-  const t = (key: TranslationKeys): string => {
+  const t = React.useCallback((key: TranslationKeys): string => {
     const keys = (key as string).split('.');
     let value: any = translations[language];
     
@@ -40,10 +40,12 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     }
     
     return value;
-  };
+  }, [language]);
+
+  const contextValue = React.useMemo(() => ({ language, setLanguage, t }), [language, t]);
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={contextValue}>
       {children}
     </LanguageContext.Provider>
   );
