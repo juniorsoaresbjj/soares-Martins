@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, ChevronRight, Search, Clock, Share2, Printer } fro
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { getBlogPosts, Post } from '../data/blogPosts';
+import SEO from './SEO';
 
 interface BlogPageProps {
   onBack: () => void;
@@ -23,6 +24,38 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     if (!slug) return null;
     return posts.find(p => p.slug === slug) || null;
   }, [slug, posts]);
+
+  // Structured Data for BlogPosting
+  const blogPostingSchema = useMemo(() => {
+    if (!selectedPost) return null;
+    const siteUrl = 'https://soaresmartinsadv.com';
+    const canonicalUrl = `${siteUrl}/blog/${selectedPost.slug}/`;
+    
+    return JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": selectedPost.title,
+      "description": selectedPost.excerpt,
+      "image": selectedPost.image,
+      "datePublished": "2024-01-01", // Placeholder, ideally should be in data
+      "author": {
+        "@type": "Organization",
+        "name": "Soares Martins Advogados"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Soares Martins Advogados",
+        "logo": {
+          "@type": "ImageObject",
+          "url": `${siteUrl}/favicon.svg`
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": canonicalUrl
+      }
+    });
+  }, [selectedPost]);
 
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('');
@@ -96,6 +129,16 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   if (selectedPost) {
     return (
       <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+        <SEO 
+          title={selectedPost.title} 
+          description={selectedPost.excerpt} 
+          type="article"
+        />
+        {blogPostingSchema && (
+          <script type="application/ld+json">
+            {blogPostingSchema}
+          </script>
+        )}
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0 pointer-events-none">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
@@ -152,6 +195,10 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
 
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+      <SEO 
+        title={t('blog_page.title')} 
+        description="Artigos e novidades jurídicas sobre direito condominial e imobiliário. Fique por dentro das atualizações legislativas e dicas para síndicos e condomínios."
+      />
       {/* Background Texture Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />

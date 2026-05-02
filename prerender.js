@@ -16,6 +16,7 @@ const routesToPrerender = [
   '/equipe/',
   '/contato/',
   '/blog/',
+  // Services
   '/direito-condominial/',
   '/assessoria-juridica-para-sindicos/',
   '/cobranca-condominial/',
@@ -58,43 +59,62 @@ async function start() {
   for (const url of routesToPrerender) {
     const { html: appHtml, helmet } = await render(url)
 
-    // Regex to capture leaked meta/title/link tags from body
+    // Scrap from body as fallback
     const headTagsRegex = /<(title|meta|link)[^>]*>(.*?<\/\1>)?/g;
-    const leakedTags = appHtml.match(headTagsRegex) || [];
+    const bodyTags = appHtml.match(headTagsRegex) || [];
+
+    // Combine helmet data ensuring strings
+    const helmetContent = `
+      ${helmet.title?.toString() || ''}
+      ${helmet.meta?.toString() || ''}
+      ${helmet.link?.toString() || ''}
+      ${bodyTags.join('\n    ')}
+    `.trim();
     
-    // Combine helmet object data with any leaked tags found in the body
-    const helmetContent = `${helmet.title}${helmet.meta}${helmet.link}${leakedTags.join('')}`;
-    
-    // Deduplicate tags (unique filtering by the full tag string)
-    // We split by closing tags then match openers to ensure we don't break tags
-    const dedupeTags = (str) => {
-      const tags = str.match(/<(title|meta|link)[^>]*>(.*?<\/\1>)?/g) || [];
+    // Deduplicate and process tags
+    const processHeadTags = (headStr) => {
+      const tags = headStr.match(/<(title|meta|link|script)[^>]*>(.*?<\/\1>)?/g) || [];
       const seen = new Set();
-      return tags.filter(tag => {
-        // Create a unique key based on tag name and critical attributes (property, name, rel, href)
-        const key = tag.replace(/\s+/g, ' ').trim();
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      }).join('');
+      const result = [];
+      
+      for (const tag of tags) {
+        // Simple dedupe by unique attributes or tag content
+        let key;
+        if (tag.startsWith('<title>')) {
+          key = 'title';
+        } else if (tag.includes('name=')) {
+          key = 'name:' + tag.match(/name="([^"]*)"/)?.[1];
+        } else if (tag.includes('property=')) {
+          key = 'property:' + tag.match(/property="([^"]*)"/)?.[1];
+        } else if (tag.includes('rel="canonical"')) {
+          key = 'canonical';
+        } else {
+          key = tag.replace(/\s+/g, ' ').trim();
+        }
+
+        if (!seen.has(key)) {
+          seen.add(key);
+          // Clean data-react-helmet if needed, or keep it
+          result.push(tag);
+        }
+      }
+      return result.join('\n    ');
     };
     
-    const uniqueTags = dedupeTags(helmetContent);
+    const finalHeadContent = processHeadTags(helmetContent);
     
-    // Remove leaked tags from the app HTML to ensure they don't stay in the body
+    // Aggressively remove these from body
     const cleanAppHtml = appHtml.replace(headTagsRegex, '');
 
     let html = template
       .replace(`<!--app-html-->`, cleanAppHtml)
-      .replace(`<script id="seo-head"></script>`, uniqueTags)
+      .replace(`<script id="seo-head"></script>`, finalHeadContent)
 
     // Construct file path
     let filePath;
     if (url === '/') {
       filePath = '/index.html'
     } else {
-      // Create a directory for each route with an index.html file
-      // This is the standard for clean URLs (e.g., /about -> /about/index.html)
       const cleanUrl = url.endsWith('/') ? url.slice(0, -1) : url
       filePath = `${cleanUrl}/index.html`
     }

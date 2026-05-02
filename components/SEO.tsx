@@ -12,9 +12,6 @@ interface SeoProps {
 const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
   const { pathname } = useLocation();
   
-  // Prevent client-side execution to avoid duplicating tags already injected during SSG
-  if (typeof window !== 'undefined') return null;
-
   const siteUrl = 'https://soaresmartinsadv.com';
   // Standardize canonical URLs to include trailing slashes (except for home)
   const canonicalUrl = pathname === '/' ? siteUrl : `${siteUrl}${pathname.endsWith('/') ? pathname : `${pathname}/`}`;
@@ -26,6 +23,7 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
+      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
 
       {/* Open Graph */}
       <meta property="og:site_name" content="Soares Martins Advogados" />
@@ -34,6 +32,9 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content={type} />
       <meta property="og:locale" content="pt_BR" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={description} />
       <meta name="twitter:url" content={canonicalUrl} />
     </Helmet>
   );

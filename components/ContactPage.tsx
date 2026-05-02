@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { ArrowLeft, MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import SEO from './SEO';
 
 interface ContactPageProps {
   onBack: () => void;
@@ -40,6 +41,10 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
 
   return (
     <div className="relative min-h-screen pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-[5%] md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
+      <SEO 
+        title={t('nav.contact')} 
+        description="Entre em contato com a Soares Martins Advogados. Escritório especializado em Direito Condominial e Imobiliário no Rio de Janeiro."
+      />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
