@@ -83,7 +83,7 @@ const Services: React.FC = () => {
               </p>
               {service.slug && (
                 <Link 
-                  to={`/${service.slug}`}
+                  to={`/${service.slug}/`}
                   className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform"
                 >
                   Saiba mais <ChevronRight size={14} />

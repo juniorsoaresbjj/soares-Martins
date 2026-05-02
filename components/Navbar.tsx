@@ -41,11 +41,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   }, []);
 
   const navLinks = [
-    { name: t('nav.history'), href: '/historia', id: 'history' },
-    { name: t('nav.services'), href: '/servicos', id: 'services' },
-    { name: t('nav.team'), href: '/equipe', id: 'team' },
-    { name: t('nav.contact'), href: '/contato', id: 'contact' },
-    { name: t('nav.blog'), href: '/blog', id: 'blog' },
+    { name: t('nav.history'), href: '/historia/', id: 'history' },
+    { name: t('nav.services'), href: '/servicos/', id: 'services' },
+    { name: t('nav.team'), href: '/equipe/', id: 'team' },
+    { name: t('nav.contact'), href: '/contato/', id: 'contact' },
+    { name: t('nav.blog'), href: '/blog/', id: 'blog' },
   ];
 
   const handleHomeClick = (e: React.MouseEvent) => {

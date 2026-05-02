@@ -2,92 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://soaresmartinsadv.com/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://soaresmartinsadv.com/historia/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://soaresmartinsadv.com/servicos/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://soaresmartinsadv.com/equipe/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://soaresmartinsadv.com/contato/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://soaresmartinsadv.com/blog/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+
   <!-- Services -->
-  <url>
-    <loc>https://soaresmartinsadv.com/direito-condominial/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://soaresmartinsadv.com/assessoria-juridica-para-sindicos/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://soaresmartinsadv.com/cobranca-condominial/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://soaresmartinsadv.com/assembleias-convencao-regimento/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://soaresmartinsadv.com/direito-patrimonial-sucessorio/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://soaresmartinsadv.com/direito-imobiliario/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://soaresmartinsadv.com/compliance-condominial-penal/</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://soaresmartinsadv.com/direito-condominial/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://soaresmartinsadv.com/assessoria-juridica-para-sindicos/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://soaresmartinsadv.com/cobranca-condominial/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://soaresmartinsadv.com/assembleias-convencao-regimento/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://soaresmartinsadv.com/direito-patrimonial-sucessorio/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://soaresmartinsadv.com/direito-imobiliario/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://soaresmartinsadv.com/compliance-condominial-penal/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
   <!-- Blog Posts -->
-  <url><loc>https://soaresmartinsadv.com/blog/lgpd-condominios-portaria-cameras/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/stj-regras-animais-condominios-o-que-mudou/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/inadimplencia-recorde-recuperacao-caixa/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/gestao-condominial-previsao-orcamentaria/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/tecnologia-condominios-portaria-remota/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/direito-imobiliario-due-diligence-compra/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/convivencia-condominios-barulho-areas-comuns/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/cobranca-judicial-inadimplente-condominio-rj/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/sindico-morador-barulhento/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://soaresmartinsadv.com/blog/lgpd-condominios-guia-sindico/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/lgpd-condominios-portaria-cameras/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/stj-regras-animais-condominios-o-que-mudou/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/inadimplencia-recorde-recuperacao-caixa/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/gestao-condominial-previsao-orcamentaria/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/tecnologia-condominios-portaria-remota/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/direito-imobiliario-due-diligence-compra/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/convivencia-condominios-barulho-areas-comuns/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/cobranca-judicial-inadimplente-condominio-rj/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/sindico-morador-barulhento/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</priority>0.6</priority></url>
+  <url><loc>https://soaresmartinsadv.com/blog/lgpd-condominios-guia-sindico/</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

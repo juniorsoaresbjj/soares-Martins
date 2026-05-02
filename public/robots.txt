@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+
+# Standardize indexing for high quality snippets
+Max-snippet: -1
+Max-image-preview: large
+Max-video-preview: -1
+
 Sitemap: https://soaresmartinsadv.com/sitemap.xml

@@ -109,7 +109,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
         
         <div className="relative z-10 max-w-4xl mx-auto">
           <Link 
-            to="/blog"
+            to="/blog/"
             className="flex items-center gap-2 text-bronze text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-10 md:mb-12 hover:text-white transition-colors group"
           >
             <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
@@ -199,7 +199,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
               {currentPosts.map((post) => (
                 <Link 
                   key={post.id} 
-                  to={`/blog/${post.slug}`}
+                  to={`/blog/${post.slug}/`}
                   className="group cursor-pointer bg-midnight-light/60 rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 hover:border-bronze/30 transition-all flex flex-col h-full shadow-lg"
                 >
                   <div className="h-48 sm:h-56 overflow-hidden relative">

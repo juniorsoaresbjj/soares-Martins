@@ -91,15 +91,15 @@ const AppContent: React.FC = () => {
             </div>
           } />
           
-          <Route path="/historia" element={<HistoryPage onBack={navigateToHome} />} />
-          <Route path="/servicos" element={<ServicesPage onBack={navigateToHome} />} />
-          <Route path="/equipe" element={<TeamPage onBack={navigateToHome} />} />
-          <Route path="/contato" element={<ContactPage onBack={navigateToHome} />} />
-          <Route path="/blog" element={<BlogPage onBack={navigateToHome} />} />
-          <Route path="/blog/:slug" element={<BlogPage onBack={navigateToHome} />} />
+          <Route path="/historia/" element={<HistoryPage onBack={navigateToHome} />} />
+          <Route path="/servicos/" element={<ServicesPage onBack={navigateToHome} />} />
+          <Route path="/equipe/" element={<TeamPage onBack={navigateToHome} />} />
+          <Route path="/contato/" element={<ContactPage onBack={navigateToHome} />} />
+          <Route path="/blog/" element={<BlogPage onBack={navigateToHome} />} />
+          <Route path="/blog/:slug/" element={<BlogPage onBack={navigateToHome} />} />
           
           {/* Novas páginas de serviços para SEO */}
-          <Route path="/:slug" element={<ServiceDetail />} />
+          <Route path="/:slug/" element={<ServiceDetail />} />
         </Routes>
       </main>
 

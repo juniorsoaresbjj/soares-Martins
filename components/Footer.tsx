@@ -29,15 +29,14 @@ const Footer: React.FC = () => {
           
           <div className="flex flex-wrap gap-6 sm:gap-10 justify-center">
             {[
-              { name: t('footer.links.office'), href: '#history' },
-              { name: t('footer.links.action'), href: '#services' },
-              { name: t('footer.links.contact'), href: '#contact' },
-              { name: t('footer.links.blog'), href: '#blog' }
+              { name: t('footer.links.office'), href: '/historia/' },
+              { name: t('footer.links.action'), href: '/servicos/' },
+              { name: t('footer.links.contact'), href: '/contato/' },
+              { name: t('footer.links.blog'), href: '/blog/' }
             ].map(item => (
               <a 
                 key={item.name} 
                 href={item.href} 
-                onClick={(e) => handleNavClick(e, item.href)}
                 className="text-[10px] sm:text-xs uppercase font-bold tracking-widest hover:text-bronze transition-colors"
               >
                 {item.name}
