@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { useLanguage } from '../context/LanguageContext';
 
 interface LogoProps {
   className?: string;
@@ -9,7 +8,6 @@ interface LogoProps {
 }
 
 const Logo: React.FC<LogoProps> = ({ className = "h-12", variant = 'light', showText = true }) => {
-  const { t } = useLanguage();
   const colors = {
     light: {
       monogram: '#C5A059',
@@ -53,7 +51,7 @@ const Logo: React.FC<LogoProps> = ({ className = "h-12", variant = 'light', show
             SOARES MARTINS
           </span>
           <span className="font-serif font-bold tracking-[0.2em] uppercase text-[10px] md:text-[12px] leading-none" style={{ color: color.subtext, opacity: 0.9 }}>
-            {t('common.advogados')}
+            ADVOGADOS
           </span>
         </div>
       )}

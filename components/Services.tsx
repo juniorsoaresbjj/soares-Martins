@@ -86,7 +86,7 @@ const Services: React.FC = () => {
                   to={`/${service.slug}/`}
                   className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest group-hover:translate-x-2 transition-transform"
                 >
-                  {t('common.read_more')} <ChevronRight size={14} />
+                  Saiba mais <ChevronRight size={14} />
                 </Link>
               )}
             </div>

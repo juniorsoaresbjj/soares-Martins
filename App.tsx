@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
-import { LanguageProvider, useLanguage } from './context/LanguageContext';
+import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
@@ -23,7 +23,6 @@ type ViewType = 'home' | 'history' | 'services' | 'team' | 'contact' | 'blog';
 
 const AppContent: React.FC = () => {
   const [isAIModalOpen, setIsAIModalOpen] = useState(false);
-  const { t } = useLanguage();
   const location = useLocation();
   const navigate = useNavigate();
   const [view, setView] = useState<ViewType>('home');
@@ -68,8 +67,8 @@ const AppContent: React.FC = () => {
           <Route path="/" element={
             <div className="animate-fade-in-up">
               <SEO 
-                title={t('seo.home_title')} 
-                description={t('seo.home_desc')}
+                title="Especialistas em Direito Condominial no Rio de Janeiro" 
+                description="Soares Martins Advogados — Escritório corporativo focado em Direito Condominial e Patrimonial no RJ. Assessoria jurídica para síndicos e condomínios."
               />
               <Hero />
               <AboutSection />
@@ -82,10 +81,10 @@ const AppContent: React.FC = () => {
               <button 
                 onClick={() => setIsAIModalOpen(true)}
                 className="fixed bottom-8 right-8 z-[500] bg-bronze text-midnight w-16 h-16 rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform group"
-                aria-label={t('diagnostic.fab_tip')}
+                aria-label="Abrir diagnóstico jurídico com IA"
               >
                 <span className="absolute right-20 bg-midnight text-white px-4 py-2 rounded-lg text-xs font-bold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity">
-                  {t('diagnostic.fab_label')}
+                  Diagnóstico IA
                 </span>
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
               </button>

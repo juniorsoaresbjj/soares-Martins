@@ -76,10 +76,9 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     t('blog_page.cat_coexistence')
   ], [t]);
 
-  // Reset category and page when language changes
+  // Handle initial category and language changes
   useEffect(() => {
     setActiveCategory(t('blog_page.cat_all'));
-    setCurrentPage(1);
   }, [language, t]);
 
   const filteredPosts = useMemo(() => {
@@ -88,41 +87,10 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
         post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
       
-      const matchesCategory = activeCategory === t('blog_page.cat_all') || 
-                            post.category === activeCategory || 
-                            activeCategory === '';
+      const matchesCategory = activeCategory === t('blog_page.cat_all') || post.category === activeCategory || activeCategory === '';
       return matchesSearch && matchesCategory;
     });
   }, [posts, searchQuery, activeCategory, t]);
-
-  // Pagination derived state
-  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
-  
-  // Reset page when filters change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchQuery, activeCategory]);
-
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = useMemo(() => {
-    // Safety check for bounds
-    const start = Math.max(0, indexOfFirstPost);
-    const end = Math.min(filteredPosts.length, indexOfLastPost);
-    return filteredPosts.slice(start, end);
-  }, [filteredPosts, indexOfFirstPost, indexOfLastPost]);
-
-  const handlePageChange = (newPage: number) => {
-    if (newPage >= 1 && newPage <= totalPages) {
-      setCurrentPage(newPage);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  };
-
-  const handleCategoryChange = (cat: string) => {
-    setActiveCategory(cat);
-    // Page reset is handled by useEffect above
-  };
 
   const handleShare = () => {
     if (selectedPost && navigator.share) {
@@ -139,6 +107,25 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   const handlePrint = () => {
     window.print();
   };
+
+  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+  const handlePageChange = (newPage: number) => {
+    setCurrentPage(newPage);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleCategoryChange = (cat: string) => {
+    setActiveCategory(cat);
+    setCurrentPage(1);
+  };
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery]);
 
   if (selectedPost) {
     return (
@@ -212,7 +199,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       <SEO 
         title={t('blog_page.title')} 
-        description={t('seo.blog_desc')}
+        description="Artigos e novidades jurídicas sobre direito condominial e imobiliário. Fique por dentro das atualizações legislativas e dicas para síndicos e condomínios."
       />
       {/* Background Texture Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
@@ -291,7 +278,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
                   <button
                     key={i + 1}
                     onClick={() => handlePageChange(i + 1)}
-                    className={`w-12 h-12 md:w-14 md:h-14 rounded-full border flex items-center justify-center font-bold text-[10px] md:text-sm transition-all ${
+                    className={`w-10 h-10 md:w-12 md:h-12 rounded-full border flex items-center justify-center font-bold text-[10px] md:text-xs transition-all ${
                       currentPage === i + 1
                         ? 'bg-bronze border-bronze text-midnight'
                         : 'border-white/10 text-white/50 hover:border-bronze hover:text-bronze'

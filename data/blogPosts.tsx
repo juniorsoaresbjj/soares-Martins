@@ -283,7 +283,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         ),
         date: "10 de abril de 2026",
         dateIso: "2026-04-10",
-        category: "Derecho Inmobiliario",
+        category: "Direito Imobiliário",
         image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
       },
       {
@@ -303,7 +303,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         ),
         date: "03 de abril de 2026",
         dateIso: "2026-04-03",
-        category: "Convivencia",
+        category: "Convivência",
         image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
       }
     ];
@@ -329,8 +329,8 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>O escritório Soares Martins oferece consultoria especializada para a implementação da LGPD em condomínios, incluindo o mapeamento de processos de dados, a criação de políticas internas e o treinamento de equipes. Nosso objetivo é garantir que o condomínio esteja protegido contra sanções e que a privacidade de todos os moradores seja respeitada, transformando a conformidade legal em uma vantagem competitiva e um fator de tranquilidade para toda a comunidade.</p>
         </div>
       ),
-      date: "15 Abr, 2026",
-      dateIso: "2026-04-15",
+      date: "15 Mai, 2026",
+      dateIso: "2026-05-15",
       category: "Compliance",
       image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
     },

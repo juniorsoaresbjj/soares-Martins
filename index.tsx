@@ -1,23 +1,30 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
 import './index.css';
 
 const rootElement = document.getElementById('root');
-if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
-}
+if (rootElement) {
+  const vdom = (
+    <React.StrictMode>
+      <HelmetProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </HelmetProvider>
+    </React.StrictMode>
+  );
 
-const root = ReactDOM.createRoot(rootElement);
-root.render(
-  <React.StrictMode>
-    <HelmetProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </HelmetProvider>
-  </React.StrictMode>
-);
+  const hasSSRContent = Array.from(rootElement.childNodes).some(
+    (node) => node.nodeType === 1 // Node.ELEMENT_NODE
+  );
+
+  if (hasSSRContent) {
+    hydrateRoot(rootElement, vdom);
+  } else {
+    createRoot(rootElement).render(vdom);
+  }
+}

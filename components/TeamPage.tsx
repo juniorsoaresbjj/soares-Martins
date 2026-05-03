@@ -14,7 +14,7 @@ const TeamPage: React.FC<TeamPageProps> = ({ onBack }) => {
   const team = [
     {
       name: "Dr. Oldenyr Soares",
-      role: t('common.founding_partner'),
+      role: "Sócio Fundador",
       oab: "OAB/RJ 267.267",
       specialty: t('team_page.specialty_quote'),
       bio: t('team_page.bio'),

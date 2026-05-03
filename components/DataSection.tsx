@@ -13,6 +13,11 @@ import { useLanguage } from '../context/LanguageContext';
 
 const DataSection: React.FC = () => {
   const { t } = useLanguage();
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const data = [
     { name: '1', inadimplencia: 45 },
@@ -59,7 +64,7 @@ const DataSection: React.FC = () => {
           </div>
           
           <div className="h-[250px] sm:h-[350px] w-full">
-            {typeof window !== 'undefined' && (
+            {mounted && (
               <ResponsiveContainer width="100%" height="100%">
                 <AreaChart data={data}>
                   <defs>
