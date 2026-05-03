@@ -8,6 +8,7 @@ export interface Post {
   excerpt: string;
   content: React.ReactNode;
   date: string;
+  dateIso: string;
   category: string;
   image: string;
   readTime: string;
@@ -35,6 +36,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "May 15, 2026",
+        dateIso: "2026-05-15",
         category: "Compliance",
         image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
       },
@@ -54,6 +56,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "May 08, 2026",
+        dateIso: "2026-05-08",
         category: "Jurisprudence",
         image: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=800&q=80"
       },
@@ -73,6 +76,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "May 02, 2026",
+        dateIso: "2026-05-02",
         category: "Financial",
         image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80"
       },
@@ -92,6 +96,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "April 25, 2026",
+        dateIso: "2026-04-25",
         category: "Management",
         image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
       },
@@ -111,6 +116,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "April 18, 2026",
+        dateIso: "2026-04-18",
         category: "Technology",
         image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
       },
@@ -130,6 +136,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "April 10, 2026",
+        dateIso: "2026-04-10",
         category: "Real Estate Law",
         image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
       },
@@ -149,6 +156,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "April 03, 2026",
+        dateIso: "2026-04-03",
         category: "Coexistence",
         image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
       }
@@ -174,6 +182,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "15 de mayo de 2026",
+        dateIso: "2026-05-15",
         category: "Cumplimiento",
         image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
       },
@@ -193,6 +202,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "08 de mayo de 2026",
+        dateIso: "2026-05-08",
         category: "Jurisprudencia",
         image: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=800&q=80"
       },
@@ -212,6 +222,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "02 de mayo de 2026",
+        dateIso: "2026-05-02",
         category: "Financiero",
         image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80"
       },
@@ -231,6 +242,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "25 de abril de 2026",
+        dateIso: "2026-04-25",
         category: "Gestión",
         image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
       },
@@ -250,6 +262,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "18 de abril de 2026",
+        dateIso: "2026-04-18",
         category: "Tecnología",
         image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
       },
@@ -269,6 +282,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "10 de abril de 2026",
+        dateIso: "2026-04-10",
         category: "Direito Imobiliário",
         image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
       },
@@ -288,6 +302,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           </div>
         ),
         date: "03 de abril de 2026",
+        dateIso: "2026-04-03",
         category: "Convivência",
         image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
       }
@@ -315,6 +330,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "15 Mai, 2026",
+      dateIso: "2026-05-15",
       category: "Compliance",
       image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
     },
@@ -334,6 +350,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "08 Mai, 2026",
+      dateIso: "2026-05-08",
       category: "Jurisprudência",
       image: "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&w=800&q=80"
     },
@@ -353,6 +370,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "02 Mai, 2026",
+      dateIso: "2026-05-02",
       category: "Financeiro",
       image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80"
     },
@@ -372,6 +390,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "25 Abr, 2026",
+      dateIso: "2026-04-25",
       category: "Gestão",
       image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
     },
@@ -391,6 +410,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "18 Abr, 2026",
+      dateIso: "2026-04-18",
       category: "Tecnologia",
       image: "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
     },
@@ -429,6 +449,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "03 Abr, 2026",
+      dateIso: "2026-04-03",
       category: "Convivência",
       image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
     },
@@ -447,6 +468,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "15 Abr, 2026",
+      dateIso: "2026-04-15",
       category: "Financeiro",
       image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80"
     },
@@ -465,6 +487,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "12 Abr, 2026",
+      dateIso: "2026-04-12",
       category: "Convivência",
       image: "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&w=800&q=80"
     },

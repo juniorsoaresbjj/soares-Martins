@@ -59,49 +59,57 @@ async function start() {
   for (const url of routesToPrerender) {
     const { html: appHtml, helmet } = await render(url)
 
-    // Scrap from body as fallback
-    const headTagsRegex = /<(title|meta|link)[^>]*>(.*?<\/\1>)?/g;
-    const bodyTags = appHtml.match(headTagsRegex) || [];
-
     // Combine helmet data ensuring strings
     const helmetContent = `
       ${helmet.title?.toString() || ''}
       ${helmet.meta?.toString() || ''}
       ${helmet.link?.toString() || ''}
-      ${bodyTags.join('\n    ')}
     `.trim();
+
+    // Scrap from body as fallback - only if NOT in helmet
+    const headTagsRegex = /<(title|meta|link)[^>]*>(.*?<\/\1>)?/g;
+    const bodyTags = appHtml.match(headTagsRegex) || [];
     
     // Deduplicate and process tags
-    const processHeadTags = (headStr) => {
-      const tags = headStr.match(/<(title|meta|link|script)[^>]*>(.*?<\/\1>)?/g) || [];
+    const processHeadTags = (helmetStr, bodyTagsArray) => {
+      const helmetTags = helmetStr.match(/<(title|meta|link|script)[^>]*>(.*?<\/\1>)?/g) || [];
       const seen = new Set();
       const result = [];
       
-      for (const tag of tags) {
-        // Simple dedupe by unique attributes or tag content
+      const addTag = (tag) => {
         let key;
         if (tag.startsWith('<title>')) {
           key = 'title';
         } else if (tag.includes('name=')) {
-          key = 'name:' + tag.match(/name="([^"]*)"/)?.[1];
+          key = 'name:' + tag.match(/name="([^"]*)"/)?.[1]?.toLowerCase();
         } else if (tag.includes('property=')) {
-          key = 'property:' + tag.match(/property="([^"]*)"/)?.[1];
+          key = 'property:' + tag.match(/property="([^"]*)"/)?.[1]?.toLowerCase();
         } else if (tag.includes('rel="canonical"')) {
           key = 'canonical';
+        } else if (tag.includes('rel=')) {
+          key = 'rel:' + tag.match(/rel="([^"]*)"/)?.[1]?.toLowerCase();
         } else {
           key = tag.replace(/\s+/g, ' ').trim();
         }
 
-        if (!seen.has(key)) {
+        if (key && !seen.has(key)) {
           seen.add(key);
-          // Clean data-react-helmet if needed, or keep it
           result.push(tag);
+          return true;
         }
-      }
+        return false;
+      };
+
+      // Priority 1: Helmet tags
+      helmetTags.forEach(addTag);
+      
+      // Priority 2: Body leaked tags (only if not seen)
+      bodyTagsArray.forEach(addTag);
+
       return result.join('\n    ');
     };
     
-    const finalHeadContent = processHeadTags(helmetContent);
+    const finalHeadContent = processHeadTags(helmetContent, bodyTags);
     
     // Aggressively remove these from body
     const cleanAppHtml = appHtml.replace(headTagsRegex, '');

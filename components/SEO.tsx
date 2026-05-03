@@ -7,12 +7,16 @@ interface SeoProps {
   title: string;
   description: string;
   type?: string;
+  image?: string;
 }
 
-const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
+const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image }) => {
   const { pathname } = useLocation();
   
   const siteUrl = 'https://soaresmartinsadv.com';
+  const defaultImage = `${siteUrl}/favicon.svg`; // Fallback image
+  const ogImage = image || defaultImage;
+  
   // Standardize canonical URLs to include trailing slashes (except for home)
   const canonicalUrl = pathname === '/' ? siteUrl : `${siteUrl}${pathname.endsWith('/') ? pathname : `${pathname}/`}`;
   const fullTitle = `${title} | Soares Martins Advogados`;
@@ -32,10 +36,12 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website' }) => {
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content={type} />
       <meta property="og:locale" content="pt_BR" />
+      <meta property="og:image" content={ogImage} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:url" content={canonicalUrl} />
+      <meta name="twitter:image" content={ogImage} />
     </Helmet>
   );
 };

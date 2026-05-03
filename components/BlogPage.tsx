@@ -37,7 +37,8 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
       "headline": selectedPost.title,
       "description": selectedPost.excerpt,
       "image": selectedPost.image,
-      "datePublished": "2024-01-01", // Placeholder, ideally should be in data
+      "datePublished": selectedPost.dateIso,
+      "dateModified": selectedPost.dateIso,
       "author": {
         "@type": "Organization",
         "name": "Soares Martins Advogados"
@@ -133,6 +134,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
           title={selectedPost.title} 
           description={selectedPost.excerpt} 
           type="article"
+          image={selectedPost.image}
         />
         {blogPostingSchema && (
           <script type="application/ld+json">
