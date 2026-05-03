@@ -2,6 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
 
 interface SeoProps {
   title: string;
@@ -12,6 +13,7 @@ interface SeoProps {
 
 const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image }) => {
   const { pathname } = useLocation();
+  const { t } = useLanguage();
   
   const siteUrl = 'https://soaresmartinsadv.com';
   const defaultImage = `${siteUrl}/favicon.svg`; // Fallback image
@@ -35,7 +37,7 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image }
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:type" content={type} />
-      <meta property="og:locale" content="pt_BR" />
+      <meta property="og:locale" content={t('common.locale')} />
       <meta property="og:image" content={ogImage} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />

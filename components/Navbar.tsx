@@ -15,6 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangOpen, setIsLangOpen] = useState(false);
   const langMenuRef = useRef<HTMLDivElement>(null);
+  const mobileLangMenuRef = useRef<HTMLDivElement>(null);
   const { language, setLanguage, t } = useLanguage();
   const navigate = useNavigate();
   const location = useLocation();
@@ -32,7 +33,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (langMenuRef.current && !langMenuRef.current.contains(event.target as Node)) {
+      const target = event.target as Node;
+      const isDesktopLangClicked = langMenuRef.current && langMenuRef.current.contains(target);
+      const isMobileLangClicked = mobileLangMenuRef.current && mobileLangMenuRef.current.contains(target);
+      
+      if (!isDesktopLangClicked && !isMobileLangClicked) {
         setIsLangOpen(false);
       }
     };
@@ -131,11 +136,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
         {/* Mobile Toggle */}
         <div className="flex items-center gap-2 md:hidden">
           {/* Mobile Lang Button (Quick Access) */}
-          <div className="relative">
+          <div className="relative" ref={mobileLangMenuRef}>
             <button 
               onClick={() => setIsLangOpen(!isLangOpen)}
               className="text-white/80 p-3 flex items-center justify-center min-w-[44px] min-h-[44px]"
-              aria-label="Trocar idioma"
+              aria-label={t('nav.language')}
             >
               <span className="text-lg">{currentLang.flag}</span>
             </button>

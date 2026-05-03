@@ -15,6 +15,19 @@ export const translations = {
       back_blog: 'Voltar para o Blog',
       language: 'Idioma'
     },
+    common: {
+      read_more: 'Saiba mais',
+      view_full_page: 'Ver página completa',
+      founding_partner: 'Sócio Fundador',
+      advogados: 'Advogados',
+      locale: 'pt_BR'
+    },
+    seo: {
+      home_title: 'Especialistas em Direito Condominial no Rio de Janeiro',
+      home_desc: 'Soares Martins Advogados — Escritório corporativo focado em Direito Condominial e Patrimonial no RJ. Assessoria jurídica para síndicos e condomínios.',
+      blog_desc: 'Artigos e novidades jurídicas sobre direito condominial e imobiliário. Fique por dentro das atualizações legislativas e dicas para síndicos e condomínios.',
+      contact_desc: 'Entre em contato com a Soares Martins Advogados. Escritório especializado em Direito Condominial e Imobiliário no Rio de Janeiro.'
+    },
     hero: {
       title: 'Soluções Jurídicas Para Condomínios e Patrimônios.',
       description: 'Advocacia estratégica 100% dedicada à gestão condominial e patrimonial, focada em solução de conflitos e segurança jurídica preventiva.',
@@ -313,6 +326,8 @@ export const translations = {
     },
     diagnostic: {
       title: 'Diagnóstico com Inteligência Jurídica',
+      fab_label: 'Diagnóstico IA',
+      fab_tip: 'Abrir diagnóstico jurídico com IA',
       desc: 'Descreva brevemente uma situação atual do condomínio. Nossa IA fará uma análise preliminar de risco.',
       place: 'Ex: Temos um condômino inadimplente...',
       btn: 'Iniciar Diagnóstico',
@@ -341,6 +356,19 @@ export const translations = {
       back_home: 'Volver al Inicio',
       back_blog: 'Volver al Blog',
       language: 'Idioma'
+    },
+    common: {
+      read_more: 'Leer más',
+      view_full_page: 'Ver página completa',
+      founding_partner: 'Socio Fundador',
+      advogados: 'Abogados',
+      locale: 'es_ES'
+    },
+    seo: {
+      home_title: 'Especialistas en Derecho de Condominios en Río de Janeiro',
+      home_desc: 'Soares Martins Advogados — Oficina corporativa enfocada en Derecho de Condominios y Patrimonial en RJ. Asesoría jurídica para síndicos y condominios.',
+      blog_desc: 'Artículos y novedades jurídicas sobre derecho de condominios e inmobiliario. Manténgase al tanto de las actualizaciones legislativas y consejos para síndicos y condominios.',
+      contact_desc: 'Póngase en contacto con Soares Martins Advogados. Oficina especializada en Derecho de Condominios e Inmobiliario en Río de Janeiro.'
     },
     hero: {
       title: 'Soluciones Jurídicas Para Condominios.',
@@ -525,6 +553,8 @@ export const translations = {
     },
     diagnostic: {
       title: 'Diagnóstico con Inteligencia Jurídica',
+      fab_label: 'Diagnóstico IA',
+      fab_tip: 'Abrir diagnóstico jurídico con IA',
       desc: 'Describa brevemente una situación del condominio. Nuestra IA hará un análisis preliminar de riesgo.',
       place: 'Ej: Tenemos un vecino moroso...',
       btn: 'Iniciar Diagnóstico',
@@ -553,6 +583,19 @@ export const translations = {
       back_home: 'Back to Home',
       back_blog: 'Back to Blog',
       language: 'Language'
+    },
+    common: {
+      read_more: 'Read more',
+      view_full_page: 'View full page',
+      founding_partner: 'Founding Partner',
+      advogados: 'Lawyers',
+      locale: 'en_US'
+    },
+    seo: {
+      home_title: 'Experts in Condominium Law in Rio de Janeiro',
+      home_desc: 'Soares Martins Advogados — Corporate law firm focused on Condominium and Real Estate Law in RJ. Legal advice for syndics and condominiums.',
+      blog_desc: 'Legal articles and news on condominium and real estate law. Stay up to date with legislative updates and tips for syndics and condominiums.',
+      contact_desc: 'Contact Soares Martins Advogados. Law firm specialized in Condominium and Real Estate Law in Rio de Janeiro.'
     },
     hero: {
       title: 'Legal Solutions For Condominiums.',
@@ -741,6 +784,8 @@ export const translations = {
     },
     diagnostic: {
       title: 'AI Legal Diagnosis',
+      fab_label: 'AI Diagnostic',
+      fab_tip: 'Open AI legal diagnostic',
       desc: 'Briefly describe a situation in the condo. Our AI will perform a preliminary risk analysis.',
       place: 'Ex: We have a non-paying resident...',
       btn: 'Start Diagnosis',
@@ -761,6 +806,8 @@ export const translations = {
 
 export type TranslationKeys = 
   | 'nav.history' | 'nav.services' | 'nav.team' | 'nav.contact' | 'nav.blog' | 'nav.cta' | 'nav.home' | 'nav.back_home' | 'nav.back_blog' | 'nav.language'
+  | 'common.read_more' | 'common.view_full_page' | 'common.founding_partner' | 'common.advogados'
+  | 'seo.blog_desc' | 'seo.contact_desc'
   | 'hero.title' | 'hero.description' | 'hero.cta1' | 'hero.cta2' | 'hero.online'
   | 'about.tag' | 'about.title' | 'about.titleHighlight' | 'about.desc1' | 'about.desc2' | 'about.desc3' | 'about.desc4' | 'about.desc5' | 'about.card1' | 'about.card1Desc' | 'about.card2' | 'about.card2Desc' | 'about.exp'
   | 'history_page.title' | 'history_page.titleHighlight' | 'history_page.card1_title' | 'history_page.card1_desc' | 'history_page.card2_title' | 'history_page.card2_desc' | 'history_page.card3_title' | 'history_page.card3_desc' | 'history_page.pillars_title' | 'history_page.mission_title' | 'history_page.mission_desc' | 'history_page.vision_title' | 'history_page.vision_desc'
@@ -775,4 +822,5 @@ export type TranslationKeys =
   | 'contact.tag' | 'contact.title' | 'contact.titleHighlight' | 'contact.desc' | 'contact.phone' | 'contact.email' | 'contact.disclaimer'
   | 'contact.form.name' | 'contact.form.namePlace' | 'contact.form.whatsapp' | 'contact.form.email' | 'contact.form.message' | 'contact.form.messagePlace' | 'contact.form.submit'
   | 'footer.links.office' | 'footer.links.action' | 'footer.links.contact' | 'footer.links.blog' | 'footer.copyright' | 'footer.info'
-  | 'diagnostic.title' | 'diagnostic.desc' | 'diagnostic.place' | 'diagnostic.btn' | 'diagnostic.analyzing' | 'diagnostic.risk' | 'diagnostic.risk_high' | 'diagnostic.risk_medium' | 'diagnostic.risk_low' | 'diagnostic.risk_unknown' | 'diagnostic.summary' | 'diagnostic.recs' | 'diagnostic.disclaimer' | 'diagnostic.new' | 'diagnostic.validate';
+  | 'diagnostic.title' | 'diagnostic.desc' | 'diagnostic.place' | 'diagnostic.btn' | 'diagnostic.analyzing' | 'diagnostic.risk' | 'diagnostic.risk_high' | 'diagnostic.risk_medium' | 'diagnostic.risk_low' | 'diagnostic.risk_unknown' | 'diagnostic.summary' | 'diagnostic.recs' | 'diagnostic.disclaimer' | 'diagnostic.new' | 'diagnostic.validate'
+  | 'diagnostic.fab_label' | 'diagnostic.fab_tip';

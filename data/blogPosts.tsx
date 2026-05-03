@@ -283,7 +283,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         ),
         date: "10 de abril de 2026",
         dateIso: "2026-04-10",
-        category: "Direito Imobiliário",
+        category: "Derecho Inmobiliario",
         image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
       },
       {
@@ -303,7 +303,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         ),
         date: "03 de abril de 2026",
         dateIso: "2026-04-03",
-        category: "Convivência",
+        category: "Convivencia",
         image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
       }
     ];
@@ -430,6 +430,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "10 Abr, 2026",
+      dateIso: "2026-04-10",
       category: "Direito Imobiliário",
       image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
     },
@@ -506,6 +507,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         </div>
       ),
       date: "10 Abr, 2026",
+      dateIso: "2026-04-10",
       category: "Compliance",
       image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80"
     }

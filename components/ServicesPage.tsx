@@ -123,7 +123,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
                     to={`/${area.slug}`}
                     className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest hover:text-white"
                   >
-                    Ver página completa <ChevronRight size={14} />
+                    {t('common.view_full_page')} <ChevronRight size={14} />
                   </Link>
                 )}
                 <a href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest hover:text-white">

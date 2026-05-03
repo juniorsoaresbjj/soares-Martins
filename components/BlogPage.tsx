@@ -79,6 +79,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   // Handle initial category and language changes
   useEffect(() => {
     setActiveCategory(t('blog_page.cat_all'));
+    setCurrentPage(1); // Reset page when language changes
   }, [language, t]);
 
   const filteredPosts = useMemo(() => {
@@ -91,6 +92,16 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
       return matchesSearch && matchesCategory;
     });
   }, [posts, searchQuery, activeCategory, t]);
+
+  // Ensure currentPage is still valid if filters/language changed
+  useEffect(() => {
+    const total = Math.ceil(filteredPosts.length / postsPerPage);
+    if (currentPage > total && total > 0) {
+      setCurrentPage(total);
+    } else if (total > 0 && currentPage < 1) {
+      setCurrentPage(1);
+    }
+  }, [filteredPosts, currentPage, postsPerPage]);
 
   const handleShare = () => {
     if (selectedPost && navigator.share) {
@@ -199,7 +210,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       <SEO 
         title={t('blog_page.title')} 
-        description="Artigos e novidades jurídicas sobre direito condominial e imobiliário. Fique por dentro das atualizações legislativas e dicas para síndicos e condomínios."
+        description={t('seo.blog_desc')}
       />
       {/* Background Texture Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
@@ -278,7 +289,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
                   <button
                     key={i + 1}
                     onClick={() => handlePageChange(i + 1)}
-                    className={`w-10 h-10 md:w-12 md:h-12 rounded-full border flex items-center justify-center font-bold text-[10px] md:text-xs transition-all ${
+                    className={`w-12 h-12 md:w-14 md:h-14 rounded-full border flex items-center justify-center font-bold text-[10px] md:text-sm transition-all ${
                       currentPage === i + 1
                         ? 'bg-bronze border-bronze text-midnight'
                         : 'border-white/10 text-white/50 hover:border-bronze hover:text-bronze'

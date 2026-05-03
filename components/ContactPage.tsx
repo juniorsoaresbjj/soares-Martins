@@ -43,7 +43,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
     <div className="relative min-h-screen pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-[5%] md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       <SEO 
         title={t('nav.contact')} 
-        description="Entre em contato com a Soares Martins Advogados. Escritório especializado em Direito Condominial e Imobiliário no Rio de Janeiro."
+        description={t('seo.contact_desc')}
       />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">

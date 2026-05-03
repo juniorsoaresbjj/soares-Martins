@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       
       <div className="relative z-20 max-w-4xl w-full">
         <h1 className="font-serif text-white text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-6 md:mb-10 animate-fade-in-up stagger-1">
-          Soluções Jurídicas Para Condomínios e Patrimônios.
+          {t('hero.title')}
         </h1>
         
         <p className="text-white/80 text-base sm:text-lg md:text-xl mb-8 md:mb-12 max-w-2xl leading-relaxed animate-fade-in-up stagger-2 font-light">
