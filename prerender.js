@@ -71,27 +71,32 @@ async function start() {
     const bodyTags = appHtml.match(headTagsRegex) || [];
     
     // Deduplicate and process tags
-    const processHeadTags = (helmetStr, bodyTagsArray) => {
-      const helmetTags = helmetStr.match(/<(title|meta|link|script)[^>]*>(.*?<\/\1>)?/g) || [];
+    const processHeadTags = (templateHead, helmetStr, bodyTagsArray) => {
+      const templateTags = templateHead.match(/<(title|meta|link|script|style)[^>]*>(.*?<\/\1>)?/g) || [];
+      const helmetTags = helmetStr.match(/<(title|meta|link|script|style)[^>]*>(.*?<\/\1>)?/g) || [];
       const seen = new Set();
       const result = [];
       
-      const addTag = (tag) => {
-        let key;
-        if (tag.startsWith('<title>')) {
-          key = 'title';
-        } else if (tag.includes('name=')) {
-          key = 'name:' + tag.match(/name="([^"]*)"/)?.[1]?.toLowerCase();
-        } else if (tag.includes('property=')) {
-          key = 'property:' + tag.match(/property="([^"]*)"/)?.[1]?.toLowerCase();
-        } else if (tag.includes('rel="canonical"')) {
-          key = 'canonical';
-        } else if (tag.includes('rel=')) {
-          key = 'rel:' + tag.match(/rel="([^"]*)"/)?.[1]?.toLowerCase();
-        } else {
-          key = tag.replace(/\s+/g, ' ').trim();
+      const getTagKey = (tag) => {
+        if (tag.includes('<title')) return 'title';
+        if (tag.includes('rel="canonical"')) return 'canonical';
+        if (tag.includes('name=')) {
+          const nameMatch = tag.match(/name="([^"]*)"/);
+          if (nameMatch) return 'name:' + nameMatch[1].toLowerCase();
         }
+        if (tag.includes('property=')) {
+          const propMatch = tag.match(/property="([^"]*)"/);
+          if (propMatch) return 'property:' + propMatch[1].toLowerCase();
+        }
+        if (tag.includes('charset=')) return 'charset';
+        if (tag.includes('viewport')) return 'viewport';
+        
+        // Fallback: use tag name and normalized content for non-meta/link tags
+        return tag.replace(/\s+/g, ' ').trim();
+      };
 
+      const addTag = (tag) => {
+        const key = getTagKey(tag);
         if (key && !seen.has(key)) {
           seen.add(key);
           result.push(tag);
@@ -100,23 +105,36 @@ async function start() {
         return false;
       };
 
-      // Priority 1: Helmet tags
+      // Priority 1: Mandatory/Structural from Template (Charset, Viewport)
+      const charsetTag = templateTags.find(t => t.includes('charset='));
+      if (charsetTag) addTag(charsetTag);
+      
+      const viewportTag = templateTags.find(t => t.includes('viewport'));
+      if (viewportTag) addTag(viewportTag);
+
+      // Priority 2: Helmet (Specific page SEO)
       helmetTags.forEach(addTag);
       
-      // Priority 2: Body leaked tags (only if not seen)
+      // Priority 3: Body leaks
       bodyTagsArray.forEach(addTag);
+
+      // Priority 4: Rest of template (favicon, fonts, scripts)
+      templateTags.forEach(addTag);
 
       return result.join('\n    ');
     };
     
-    const finalHeadContent = processHeadTags(helmetContent, bodyTags);
+    const headMatch = template.match(/<head>([\s\S]*?)<\/head>/i);
+    const templateHead = headMatch ? headMatch[1] : '';
+    const finalHeadContent = processHeadTags(templateHead, helmetContent, bodyTags);
     
-    // Aggressively remove these from body
+    // Aggressively remove these from body to avoid hydration flickering
     const cleanAppHtml = appHtml.replace(headTagsRegex, '');
 
     let html = template
+      .replace(/<head>([\s\S]*?)<\/head>/i, `<head>\n    ${finalHeadContent}\n  </head>`)
       .replace(`<!--app-html-->`, cleanAppHtml)
-      .replace(`<script id="seo-head"></script>`, finalHeadContent)
+      .replace(`<script id="seo-head"></script>`, '') // Clean up placeholder
 
     // Construct file path
     let filePath;
