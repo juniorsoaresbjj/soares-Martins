@@ -45,6 +45,17 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Close mobile menu on resize to desktop
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const navLinks = [
     { name: t('nav.history'), href: '/historia/', id: 'history' },
     { name: t('nav.services'), href: '/servicos/', id: 'services' },
@@ -73,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
 
   return (
     <header className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-500 py-6 pl-[3%] pr-[5%] ${isScrolled || currentView !== 'home' ? 'glass py-4' : 'bg-transparent'}`}>
-      <div className="max-w-7xl mx-auto flex justify-between items-center relative z-[101]">
+      <div className="max-w-7xl mx-auto flex justify-between items-center relative z-[100]">
         {/* LOGO */}
         <Link to="/" onClick={handleHomeClick} className="transition-transform hover:scale-105">
           <Logo className="h-10 md:h-12" variant="light" />
@@ -134,19 +145,22 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
         </nav>
 
         {/* Mobile Toggle */}
-        <div className="flex items-center gap-2 md:hidden">
+        <div className="flex items-center gap-1 sm:gap-2 md:hidden">
           {/* Mobile Lang Button (Quick Access) */}
           <div className="relative" ref={mobileLangMenuRef}>
             <button 
-              onClick={() => setIsLangOpen(!isLangOpen)}
-              className="text-white/80 p-3 flex items-center justify-center min-w-[44px] min-h-[44px]"
+              onClick={() => {
+                setIsLangOpen(!isLangOpen);
+                if (isMobileMenuOpen) setIsMobileMenuOpen(false);
+              }}
+              className="text-white/80 p-2 sm:p-3 flex items-center justify-center min-w-[40px] min-h-[40px]"
               aria-label={t('nav.language')}
             >
               <span className="text-lg">{currentLang.flag}</span>
             </button>
             
             {isLangOpen && (
-              <div className="absolute top-full right-0 mt-2 w-40 glass rounded-xl overflow-hidden shadow-2xl animate-fade-in-up">
+              <div className="absolute top-full right-0 mt-2 w-40 glass rounded-xl overflow-hidden shadow-2xl animate-fade-in-up z-[1100]">
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
@@ -165,7 +179,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
           </div>
           
           <button 
-            className="text-white p-3 flex items-center justify-center min-w-[44px] min-h-[44px]" 
+            className="text-white p-2 sm:p-3 flex items-center justify-center min-w-[40px] min-h-[40px]" 
             onClick={() => {
               setIsMobileMenuOpen(!isMobileMenuOpen);
               setIsLangOpen(false);
@@ -177,8 +191,8 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
         </div>
       </div>
 
-      {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-midnight/98 backdrop-blur-xl z-[100] transition-all duration-500 md:hidden overflow-y-auto ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-10'}`}>
+      {/* Mobile Menu Overlay - Move z-index below buttons */}
+      <div className={`fixed inset-0 bg-midnight/98 backdrop-blur-xl z-[90] transition-all duration-500 md:hidden overflow-y-auto ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-10'}`}>
         <div className="flex flex-col items-center justify-start min-h-full py-24 px-10 space-y-8">
           {navLinks.map((item) => (
             <Link 

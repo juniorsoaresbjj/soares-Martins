@@ -76,10 +76,10 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
     t('blog_page.cat_coexistence')
   ], [t]);
 
-  // Handle initial category and language changes
+  // Reset category and page when language changes
   useEffect(() => {
     setActiveCategory(t('blog_page.cat_all'));
-    setCurrentPage(1); // Reset page when language changes
+    setCurrentPage(1);
   }, [language, t]);
 
   const filteredPosts = useMemo(() => {
@@ -88,20 +88,41 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
         post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
       
-      const matchesCategory = activeCategory === t('blog_page.cat_all') || post.category === activeCategory || activeCategory === '';
+      const matchesCategory = activeCategory === t('blog_page.cat_all') || 
+                            post.category === activeCategory || 
+                            activeCategory === '';
       return matchesSearch && matchesCategory;
     });
   }, [posts, searchQuery, activeCategory, t]);
 
-  // Ensure currentPage is still valid if filters/language changed
+  // Pagination derived state
+  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+  
+  // Reset page when filters change
   useEffect(() => {
-    const total = Math.ceil(filteredPosts.length / postsPerPage);
-    if (currentPage > total && total > 0) {
-      setCurrentPage(total);
-    } else if (total > 0 && currentPage < 1) {
-      setCurrentPage(1);
+    setCurrentPage(1);
+  }, [searchQuery, activeCategory]);
+
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = useMemo(() => {
+    // Safety check for bounds
+    const start = Math.max(0, indexOfFirstPost);
+    const end = Math.min(filteredPosts.length, indexOfLastPost);
+    return filteredPosts.slice(start, end);
+  }, [filteredPosts, indexOfFirstPost, indexOfLastPost]);
+
+  const handlePageChange = (newPage: number) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setCurrentPage(newPage);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [filteredPosts, currentPage, postsPerPage]);
+  };
+
+  const handleCategoryChange = (cat: string) => {
+    setActiveCategory(cat);
+    // Page reset is handled by useEffect above
+  };
 
   const handleShare = () => {
     if (selectedPost && navigator.share) {
@@ -118,25 +139,6 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   const handlePrint = () => {
     window.print();
   };
-
-  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
-  const indexOfLastPost = currentPage * postsPerPage;
-  const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
-
-  const handlePageChange = (newPage: number) => {
-    setCurrentPage(newPage);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  const handleCategoryChange = (cat: string) => {
-    setActiveCategory(cat);
-    setCurrentPage(1);
-  };
-
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchQuery]);
 
   if (selectedPost) {
     return (
