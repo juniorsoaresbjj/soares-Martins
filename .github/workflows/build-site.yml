@@ -1,0 +1,45 @@
+name: Build static site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      # Se o seu prerender NÃO rodar dentro do build, habilite UMA das opções abaixo:
+      # - name: Prerender (npm script)
+      #   run: npm run prerender
+      #
+      # - name: Prerender (node file)
+      #   run: node prerender.js
+
+      - name: Detect output folder
+        run: |
+          if [ -d "dist" ]; then echo "OUT=dist" >> $GITHUB_ENV; exit 0; fi
+          if [ -d "build" ]; then echo "OUT=build" >> $GITHUB_ENV; exit 0; fi
+          if [ -d "out" ]; then echo "OUT=out" >> $GITHUB_ENV; exit 0; fi
+          echo "No output folder found (dist/build/out). Check package.json build script." && exit 1
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-output
+          path: ${{ env.OUT }}
