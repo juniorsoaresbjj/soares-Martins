@@ -132,7 +132,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
       <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
         <SEO 
           title={selectedPost.title} 
-          description={selectedPost.excerpt} 
+          description={selectedPost.excerpt.substring(0, 160)} 
           type="article"
           image={selectedPost.image}
         />
@@ -198,8 +198,8 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       <SEO 
-        title={t('blog_page.title')} 
-        description="Artigos e novidades jurídicas sobre direito condominial e imobiliário. Fique por dentro das atualizações legislativas e dicas para síndicos e condomínios."
+        title="Blog e Notícias Jurídicas | Soares Martins Advogados" 
+        description="Acompanhe as últimas notícias e artigos sobre Direito Condominial, LGPD e Jurisprudência no nosso blog. Informação jurídica atualizada por especialistas no RJ."
       />
       {/* Background Texture Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">

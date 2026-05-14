@@ -14,8 +14,8 @@ const HistoryPage: React.FC<HistoryPageProps> = ({ onBack }) => {
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       <SEO 
-        title={t('nav.history')} 
-        description={t('about.desc1')}
+        title="Nossa História | Soares Martins Advogados" 
+        description="Conheça a trajetória da Soares Martins Advogados, escritório especializado em Direito Condominial e Imobiliário com foco em excelência e segurança no RJ."
       />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
