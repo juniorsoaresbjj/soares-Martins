@@ -159,7 +159,96 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         dateIso: "2026-04-03",
         category: "Coexistence",
         image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 11,
+        slug: 'rental-guarantee-best-option',
+        title: "Rental Guarantee: What is the best option for your contract?",
+        excerpt: "Choosing the right guarantee is fundamental for the lessor's security and feasibility for the lessee. Know the permitted modalities.",
+        readTime: `12 min read`,
+        content: (
+          <div className="space-y-6">
+            <p>The Tenancy Law (Law 8.245/91) establishes four modalities of rental guarantee: security deposit, bond, guarantee insurance, and fiduciary assignment of investment fund shares. It is forbidden to demand more than one modality of guarantee in the same lease contract, under penalty of nullity and even criminal sanction.</p>
+            <h4 className="text-white text-xl font-serif">Main Modalities</h4>
+            <p>The cash deposit, limited to three months' rent, is the most common due to its ease, but it may be insufficient in lengthy evictions. The bond is traditional, requiring a guarantor with their own property, but it has fallen into disuse due to the difficulty of finding someone who accepts the burden. Guarantee insurance has grown a lot, as it guarantees payment to the lessor and excuses the lessee from seeking a guarantor, although it has an annual cost.</p>
+            <p>The Soares Martins office recommends a careful analysis of the parties' profile before choosing. For the lessor, guarantee insurance is usually the safest. For the lessee, the deposit can be more financially advantageous in the long run, as the value is returned with savings earnings at the end of the contract.</p>
+            <p>It is vital to emphasize that background checks and credit scoring do not replace the guarantee, but complement it. A good risk analysis drastically reduces the chance of needing to legally trigger the guarantee.</p>
+            <p>Having specialized legal advice in drafting the guarantee clause prevents formal defects from making the protection ineffective when needed, ensuring the liquidity of the rental credit.</p>
+            <p>Finally, we note that the market has evolved towards digital solutions, such as guarantees through credit cards and fintech services, which offer agility for the tenant and security for the landlord, often dispensing with the need for a traditional guarantor.</p>
+          </div>
+        ),
+        date: "May 20, 2026",
+        dateIso: "2026-05-20",
+        category: "Real Estate Law",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 12,
+        slug: 'fundamental-clauses-rental-contract',
+        title: "Fundamental Clauses: What cannot be missing from your rental contract",
+        excerpt: "A well-drafted contract is the best way to avoid judicial conflicts. See which clauses are indispensable to protect both parties.",
+        readTime: `14 min read`,
+        content: (
+          <div className="space-y-6">
+            <p>A "drawer" rental contract or one downloaded from the internet is usually an inexhaustible source of problems. There are clauses that are "classic", such as the rent amount and the readjustment index (usually IPCA or IGP-M), but others are equally vital for legal security.</p>
+            <h4 className="text-white text-xl font-serif">Security for Lessor and Lessee</h4>
+            <p>The term clause in case of alienation (sale of the property) is fundamental for the tenant: without it registered in the title deed, the new buyer can denounce the contract and ask for the property in 90 days. For the lessor, the clause that prohibits sub-leasing without prior written authorization is essential to maintain control over who occupies the asset.</p>
+            <p>In addition, a clear definition of the property's destination (residential or commercial) and responsibility for paying extra charges (such as the condominium reserve fund and extraordinary works) avoid future discussions. Our consultancy at Soares Martins focuses on drafting personalized contracts that provide for conflict scenarios.</p>
+            <p>A detailed inspection report with photos must be an integral part of the contract, signed by both parties. It is the only document capable of proving the real state of the property at the beginning of the lease for the purpose of charging for future damages.</p>
+            <p>Finally, the choice of an appropriate forum and the provision for alternative conflict resolution methods, such as mediation, can drastically accelerate the resolution of impasses without the need for years of waiting in the judiciary.</p>
+            <p>Digital signing of contracts is another point that has revolutionized the market, facilitating the process and ensuring the legal validity of the documents without the need for physical displacement, provided it is done through secure and recognized platforms.</p>
+          </div>
+        ),
+        date: "May 18, 2026",
+        dateIso: "2026-05-18",
+        category: "Real Estate Law",
+        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 13,
+        slug: 'termination-fine-exemption-rental',
+        title: "Termination Fine Exemption: When can the tenant leave without paying?",
+        excerpt: "Early termination does not always imply a fine. Understand the exemption clause and legal provisions for property return.",
+        readTime: `10 min read`,
+        content: (
+          <div className="space-y-6">
+            <p>The general rule is that the tenant can return the property at any time, paying the termination fine proportional to the time remaining on the contract. However, there are exemption situations that need to be known.</p>
+            <h4 className="text-white text-xl font-serif">Exemption Cases</h4>
+            <p>The first is legal: if the tenant is transferred by their employer to another location, they are exempt from the fine as long as they notify the lessor 30 days in advance. The second is contractual: many contracts provide for fine exemption after 12 or 15 months of duration in 30-month contracts.</p>
+            <p>It is important to emphasize that fine exemption does not untie the tenant from delivering the property in a perfect state of repair, according to the initial inspection report. The Soares Martins office guides both lessors and lessees in drafting and interpreting these clauses, seeking contractual balance.</p>
+            <p>Remember that the fine must always be proportional. If the tenant leaves with 5 months left to finish a 30-month contract, they do not pay the full fine, but only 5/30 of the amount stipulated in the document.</p>
+            <p>Discussions about the validity of professional transfer (whether it was at request or due to service necessity) are common and require technical analysis to avoid fraud aimed only at non-payment of the termination charge.</p>
+            <p>Open communication between the parties is always the best way to resolve an early termination. Often, a well-founded negotiation can result in an agreement that is beneficial to both parties, avoiding the strict application of the fine even when there is no legal exemption.</p>
+          </div>
+        ),
+        date: "May 16, 2026",
+        dateIso: "2026-05-16",
+        category: "Real Estate Law",
+        image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 14,
+        slug: 'handover-keys-final-inspection-rental',
+        title: "Handing Over Keys and Inspection: The final step of the rental",
+        excerpt: "Returning the property requires legal care to avoid undue repair charges. Learn how to formalize the handover safely.",
+        readTime: `11 min read`,
+        content: (
+          <div className="space-y-6">
+            <p>The moment keys are handed over is what legally ends the tenant's possession of the property. However, many mistakes made in this phase generate judicial collections months later. The "Key Handover Term" document is indispensable to prove the exact date of exit.</p>
+            <h4 className="text-white text-xl font-serif">The Importance of the Inspection</h4>
+            <p>The exit inspection must be strictly confronted with the entry inspection. The tenant has the obligation to return the property in the state they received it, except for natural wear and tear from use. Painting, holes in walls, and damage to cabinets are the most sensitive points.</p>
+            <p>If there are discrepancies, the lessor cannot refuse to receive the keys as a way of forcing the renovation. They must receive the keys and, subsequently, charge for the necessary repairs. Soares Martins acts in the formalization of this closure, ensuring that the termination is clear and secure.</p>
+            <p>The termination agreement with full release, after all rent and repair settlements, is the tenant's "passport to peace", avoiding "surprises" on their credit record after the end of the journey in that property.</p>
+            <p>In addition to physical keys, it is crucial to formalize the termination of the contract with utility companies (electricity, water, and gas) to prevent new bills in the lessee's name from being improperly generated.</p>
+            <p>At the end of the process, it is also essential to ensure that all administrative pendencies, such as the final reading of utility bills and the cleaning of the property, are properly formalized to avoid future disputes regarding the financial settlement of the lease.</p>
+          </div>
+        ),
+        date: "May 14, 2026",
+        dateIso: "2026-05-14",
+        category: "Real Estate Law",
+        image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
       }
+
     ];
   } else if (language === 'es') {
     return [
@@ -305,6 +394,94 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         dateIso: "2026-04-03",
         category: "Convivência",
         image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 11,
+        slug: 'garantia-locaticia-mejor-opcion',
+        title: "Garantía Locaticia: ¿Cuál es la mejor opción para su contrato?",
+        excerpt: "Elegir la garantía correcta es fundamental para la seguridad del arrendador y la viabilidad para el arrendatario. Conozca las modalidades permitidas.",
+        readTime: `12 min de lectura`,
+        content: (
+          <div className="space-y-6">
+            <p>La Ley del Inquilinato (Ley 8.245/91) establece cuatro modalidades de garantía locaticia: caución, fianza, seguro-fiança y cesión fiduciaria de cuotas de fondos de inversión. Está prohibida la exigencia de más de una modalidad de garantía en un mismo contrato de alquiler, bajo pena de nulidad e incluso sanción penal.</p>
+            <h4 className="text-white text-xl font-serif">Principales Modalidades</h4>
+            <p>La caución en efectivo, limitada a tres meses de alquiler, es la más común por su facilidad, pero puede ser insuficiente en desahucios prolongados. La fianza es la tradicional, exigiendo un fiador con inmueble propio, pero ha caído en desuso por la dificultad de encontrar a alguien que acepte el encargo. El seguro-fiança ha crecido mucho, ya que garantiza el pago al arrendador y exime al arrendatario de buscar un fiador, aunque tiene un costo anual.</p>
+            <p>La oficina Soares Martins recomienda el análisis critico del perfil de las partes antes de la elección. Para el arrendador, el seguro-fiança suele ser el más seguro. Para el arrendatario, la caución puede ser financieramente más ventajosa a largo plazo, ya que el valor se devuelve con rendimientos de ahorro al final del contrato.</p>
+            <p>Es vital resaltar que el análisis catastral y el "scoring" de crédito no sustituyen la garantía, sino que la complementan. Un buen análisis de riesgo reduce drásticamente la posibilidad de necesitar activar la garantía judicialmente.</p>
+            <p>Contar con una asesoría jurídica especializada en la redacción de la cláusula de garantía evita que vicios formales hagan que la protección sea ineficaz en el momento de necesidad, garantizando la liquidez del crédito de alquiler.</p>
+            <p>Finalmente, observamos que el mercado ha evolucionado hacia soluciones digitales, como garantías mediante tarjetas de crédito y servicios de fintech, que ofrecen agilidad para el inquilino y seguridad para el propietario, prescindiendo a menudo de la necesidad de un avalista tradicional.</p>
+          </div>
+        ),
+        date: "20 de mayo de 2026",
+        dateIso: "2026-05-20",
+        category: "Dereito Imobiliário",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 12,
+        slug: 'clausulas-fundamentales-contrato-alquiler',
+        title: "Cláusulas Fundamentales: Qué no puede faltar en su contrato de alquiler",
+        excerpt: "Un contrato bien redactado es la mejor forma de evitar conflictos judiciales. Vea qué cláusulas son indispensables para proteger a ambas partes.",
+        readTime: `14 min de lectura`,
+        content: (
+          <div className="space-y-6">
+            <p>Un contrato de alquiler "de gaveta" o bajado de internet suele ser una fuente inagotable de problemas. Existen cláusulas que son "clásicas", como el valor del alquiler y el índice de reajuste (generalmente el IPCA o IGP-M), pero otras son igualmente vitales para la seguridad jurídica.</p>
+            <h4 className="text-white text-xl font-serif">Seguridad para Arrendador y Arrendatario</h4>
+            <p>La cláusula de vigencia en caso de alienación (venta del inmueble) es fundamental para el inquilino: sin ella registrada en la matrícula, el nuevo comprador puede denunciar el contrato y pedir el inmueble en 90 días. Para el arrendador, la cláusula que prohíbe el subarriendo sin autorización previa y por escrito es esencial para mantener el control sobre quién ocupa el bien.</p>
+            <p>Además, la definición clara del destino del inmueble (residencial o comercial) y la responsabilidad del pago de cargos extras (como fondo de reserva del condominio y obras extraordinarias) evitan discusiones futuras. Nuestra consultoría en Soares Martins se enfoca en redactar contratos personalizados que prevean escenarios de conflicto.</p>
+            <p>El informe de inspección detallado y con fotos debe ser parte integrante del contrato, firmado por ambas partes. Es el único documento capaz de demostrar el estado real del inmueble al inicio del alquiler para fines de cobro de daños futuros.</p>
+            <p>Finalmente, la elección de un foro adecuado y la previsión de métodos alternativos de solución de conflictos, como la mediación, pueden acelerar drásticamente la resolución de impasses sin necesidad de años de espera en el poder judicial.</p>
+            <p>La firma digital de contratos es otro punto que ha revolucionado el mercado, facilitando el proceso y asegurando la validez legal de los documentos sin necesidad de desplazamientos físicos, siempre que se realice a través de plataformas seguras y reconocidas.</p>
+          </div>
+        ),
+        date: "18 de mayo de 2026",
+        dateIso: "2026-05-18",
+        category: "Dereito Imobiliário",
+        image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 13,
+        slug: 'exencion-multa-rescisoria-alquiler',
+        title: "Exención de Multa Rescisoria: ¿Cuándo puede el inquilino salir sin pagar?",
+        excerpt: "La rescisión anticipada no siempre implica una multa. Entenda la cláusula de exención y las previsiones legales para la devolución del inmueble.",
+        readTime: `10 min de lectura`,
+        content: (
+          <div className="space-y-6">
+            <p>La regla general es que el inquilino puede devolver el inmueble en cualquier momento, pagando la multa rescisoria proporcional al tiempo que queda de contrato. Sin embargo, existen situaciones de exención que deben conocerse.</p>
+            <h4 className="text-white text-xl font-serif">Casos de Exención</h4>
+            <p>La primera es legal: si el inquilino es trasladado por su empleador a otra localidad, queda exento de la multa siempre que notifique al arrendador con 30 días de antelación. La segunda es contractual: muchos contratos prevén la exención de multa después de 12 o 15 meses de vigencia en contratos de 30 meses.</p>
+            <p>Es importante resaltar que la exención de la multa no desobliga al inquilino de entregar el inmueble en perfecto estado de conservación, según el informe de inspección inicial. La oficina Soares Martins orienta tanto a arrendadores como a arrendatarios en la redacción e interpretación de estas cláusulas, buscando el equilibrio contractual.</p>
+            <p>Cabe recordar que la multa debe ser siempre proporcional. Si el inquilino sale faltando 5 meses para terminar un contrato de 30, no paga la multa completa, sino solo 5/30 del valor estipulado en el documento.</p>
+            <p>Las discusiones sobre la validez del traslado profesional (si fue a petición o por necesidad del servicio) son comunes y exigen un análisis técnico para evitar fraudes que buscan solo el no pago del cargo rescisorio.</p>
+            <p>La comunicación abierta entre las partes es siempre la mejor manera de resolver una rescisión anticipada. A menudo, una negociación bien fundamentada puede resultar en un acuerdo beneficioso para ambos, evitando la aplicación estricta de la multa incluso cuando no existe una exención legal.</p>
+          </div>
+        ),
+        date: "16 de mayo de 2026",
+        dateIso: "2026-05-16",
+        category: "Dereito Imobiliário",
+        image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        id: 14,
+        slug: 'entrega-llaves-inspeccion-final-alquiler',
+        title: "Entrega de Llaves e Inspección: El paso final del alquiler",
+        excerpt: "La devolución del inmueble exige cuidados jurídicos para evitar cobros indebidos de reparos. Sepa cómo formalizar la entrega con seguridad.",
+        readTime: `11 min de lectura`,
+        content: (
+          <div className="space-y-6">
+            <p>El momento de la entrega de las llaves es lo que pone fin jurídicamente a la posesión del inquilino sobre el inmueble. Sin embargo, muchos errores cometidos en esta fase generan cobros judiciales meses después. El documento de "Término de Entrega de Llaves" es indispensable para demostrar la fecha exacta de la salida.</p>
+            <h4 className="text-white text-xl font-serif">La Importancia de la Inspección</h4>
+            <p>La inspección de salida debe ser confrontada rigurosamente con la inspección de entrada. El inquilino tiene la obligación de devolver el inmueble en el estado en que lo recibió, salvo los desgastes naturales por el uso. Pintura, agujeros en las paredes y daños en los armarios son los puntos más sensibles.</p>
+            <p>En caso de divergencias, el arrendador no puede negarse a recibir las llaves como forma de forzar la reforma. Debe recibir las llaves y, posteriormente, cobrar las reparaciones debidas. Soares Martins actúa en la formalización de este cierre, garantizando que el distrato sea claro y seguro.</p>
+            <p>El distrato con pleno finiquito, después de todos los ajustes de alquiler y reparaciones, es el "pasaporte a la paz" del inquilino, evitando "sorpresas" en su historial de crédito después del cierre de la jornada en ese inmueble.</p>
+            <p>Además de las llaves físicas, es crucial formalizar el cierre del contrato ante las empresas de servicios públicos (luz, agua y gas) para evitar que se sigan generando indebidamente nuevas facturas a nombre del arrendatario.</p>
+            <p>Al finalizar el proceso, también es esencial asegurar que todos los pendientes administrativos, como las lecturas finales de los servicios públicos y la limpieza del inmueble, estén debidamente formalizados para evitar disputas futuras sobre la liquidación financiera del alquiler.</p>
+          </div>
+        ),
+        date: "14 de mayo de 2026",
+        dateIso: "2026-05-14",
+        category: "Dereito Imobiliário",
+        image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
       }
     ];
   }
@@ -463,7 +640,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       content: (
         <div className="space-y-6">
           <p>No Rio de Janeiro, a cobrança de cotas condominiais em atraso segue ritos processuais específicos que visam a celeridade e a proteção do caixa do condomínio. Desde a alteração do Código de Processo Civil, a cota condominial é título executivo extrajudicial, o que permite que o condomínio entre diretamente com uma ação de execução, sem a necessidade de uma fase prévia de conhecimento demorada.</p>
-          <p>O primeiro passo é a tentativa de conciliação extrajudicial. O escritório Soares Martins recomenda o envio de notificações formais e a tentativa de acordo, o que resolve cerca de 60% dos casos antes mesmo de chegar ao judiciário. Caso não haja sucesso, a ação de execução é protocolada. No RJ, os tribunais têm sido ágeis na determinação de penhora online de contas bancárias do devedor.</p>
+          <p>O primeiro passo é a tentativa de conciliação extrajudicial. O escritório Soares Martins recomenda o envio de notificações formais e a tentativa de acordo, o que resolve cerca de 60% dos casos antes mesmo de chegar ao judiciário. Caso não haja sucesso, a ação de execução é protocolada. No RJ, os tribunais têm sido ágeis na determinação de penhora online de ativos financeiros do devedor.</p>
           <p>Um ponto crucial é a documentação. Para que a execução seja válida, o condomínio deve apresentar a ata da assembleia que aprovou a previsão orçamentária, a convenção do condomínio e o demonstrativo detalhado do débito. Falhas nessa documentação podem atrasar o processo por meses. Por isso, a assessoria jurídica especializada é fundamental para garantir que o título seja líquido, certo e exigível.</p>
           <p>Em casos extremos, o próprio imóvel que gerou a dívida pode ir a leilão judicial para quitar o débito, mesmo que seja o único bem de família do devedor. Essa é uma exceção legal importante que garante que a coletividade não seja prejudicada pelo inadimplente. Nosso escritório acompanha todas as fases, desde a localização de bens até a arrematação em leilão, garantindo o retorno do capital ao condomínio.</p>
         </div>
@@ -483,14 +660,13 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         <div className="space-y-6">
           <p>O direito ao sossego é um dos pilares do Direito de Vizinhança previsto no Código Civil. O síndico, como representante legal do condomínio, tem o dever de zelar pela paz e harmonia da edificação. Quando um morador excede os limites toleráveis de ruído, o síndico deve intervir de forma técnica e imparcial, seguindo a gradação de penalidades prevista no Regimento Interno.</p>
           <p>A primeira ação deve ser sempre a conversa e a advertência verbal ou escrita. É importante documentar as reclamações de outros moradores para que a punição tenha base fática. Caso o barulho persista, a multa deve ser aplicada conforme os valores estabelecidos na convenção. Em casos de reincidência contumaz, o morador pode ser classificado como antissocial, o que permite multas de até 10 vezes o valor da cota condominial.</p>
-          <p>É importante ressaltar que a Lei do Silêncio (que varia conforme o município, como no Rio de Janeiro) estabelece limites de decibéis, mas o sossego deve ser respeitado em qualquer horário. Não existe um 'direito ao barulho' durante o dia. Se o ruído impede o trabalho ou o descanso de outros, ele é passível de sanção. O síndico deve evitar tomar partido e agir sempre com base em provas, como medições de decibéis ou testemunhos.</p>
-          <p>Em situações extremas, o condomínio pode ingressar com uma ação de obrigação de não fazer, com pedido de liminar para cessar o barulho sob pena de multa diária pesada. O escritório Soares Martins auxilia síndicos na mediação desses conflitos e na estruturação jurídica das punições, garantindo que elas não sejam anuladas judicialmente por falta de devido processo legal.</p>
+          <p>Além das multas, o condomínio pode buscar judicialmente a cessação do barulho por meio de obrigações de fazer, com fixação de multa diária (astreintes). A produção de provas, como medições por decibelímetro e testemunhos, é crucial para o sucesso da ação. O síndico deve agir sempre amparado pelo conselho e por especialistas jurídicos para evitar alegações de perseguição.</p>
         </div>
       ),
       date: "12 Abr, 2026",
       dateIso: "2026-04-12",
       category: "Convivência",
-      image: "https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 10,
@@ -501,15 +677,102 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       content: (
         <div className="space-y-6">
           <p>A LGPD (Lei 13.709/2018) aplica-se a qualquer pessoa jurídica ou ente despersonalizado que realize o tratamento de dados pessoais. O condomínio coleta dados sensíveis diariamente: biometria na portaria, imagens de câmeras de segurança, placas de veículos e dados financeiros de condôminos. O síndico é o responsável direto por garantir que esses dados sejam tratados com segurança e finalidade específica.</p>
-          <p>O primeiro passo para a adequação é o mapeamento de dados (Data Mapping). É preciso saber quais dados são coletados, onde ficam guardados e quem tem acesso. Muitas vezes, empresas terceirizadas de portaria ou administradoras têm acesso a dados sem um contrato que preveja a responsabilidade compartilhada pela LGPD. O síndico deve revisar todos esses contratos para incluir cláusulas de proteção de dados.</p>
-          <p>A transparência é fundamental. O condomínio deve ter uma Política de Privacidade clara, informando aos moradores e visitantes para que seus dados são usados. Por exemplo, as imagens das câmeras só podem ser usadas para fins de segurança. O compartilhamento dessas imagens em grupos de moradores sem autorização é uma violação grave que pode gerar indenizações por danos morais.</p>
-          <p>Por fim, é recomendável a nomeação de um DPO (Data Protection Officer), que pode ser um consultor jurídico especializado. O escritório Soares Martins oferece o serviço de adequação completa à LGPD, realizando o inventário de dados, criando as políticas internas e treinando os funcionários para evitar vazamentos que possam comprometer a gestão do síndico.</p>
+          <p>O primeiro passo para a adequação é o mapeamento de dados (Data Mapping). É preciso saber quais dados são coletados, onde ficam guardados e quem tem acesso. Muitas vezes, o condomínio retém dados desnecessários por tempo indeterminado, o que aumenta o risco em caso de vazamento.</p>
+          <p>A implementação de uma Política de Privacidade clara e o treinamento dos funcionários são pilares fundamentais. O Soares Martins oferece uma auditoria completa para condomínios, garantindo que o síndico esteja protegido juridicamente e que a privacidade dos moradores seja preservada conforme determina a lei.</p>
         </div>
       ),
-      date: "10 Abr, 2026",
-      dateIso: "2026-04-10",
+      date: "05 Abr, 2026",
+      dateIso: "2026-04-05",
       category: "Compliance",
-      image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      id: 11,
+      slug: 'garantia-locaticia-melhor-opcao',
+      title: "Garantia Locatícia: Qual a melhor opção para seu contrato?",
+      excerpt: "Escolher a garantia certa é fundamental para a segurança do locador e a viabilidade para o locatário. Conheça as modalidades permitidas.",
+      readTime: `12 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>A Lei do Inquilinato (Lei 8.245/91) estabelece quatro modalidades de garantia locatícia: caução, fiança, seguro-fiança e cessão fiduciária de quotas de fundo de investimento. É proibida a exigência de mais de uma modalidade de garantia num mesmo contrato de locação, sob pena de nulidade e até sanção criminal.</p>
+          <h4 className="text-white text-xl font-serif">Principais Modalidades</h4>
+          <p>A caução em dinheiro, limitada a três meses de aluguel, é a mais comum pela facilidade, mas pode ser insuficiente em despejos demorados. A fiança é a tradicional, exigindo um fiador com imóvel próprio, mas tem caído em desuso pela dificuldade de encontrar quem aceite o encargo. O seguro-fiança tem crescido muito, pois garante o pagamento ao locador e dispensa o locatário de buscar um fiador, embora tenha um custo anual.</p>
+          <p>O escritório Soares Martins recomenda a análise criteriosa do perfil de as partes antes da escolha. Para o locador, o seguro-fiança costuma ser a mais segura. Já para o locatário, a caução pode ser financeiramente mais vantajosa a longo prazo, já que o valor é devolvido com rendimentos de poupança ao final do contrato.</p>
+          <p>É vital ressaltar que a análise cadastral e o "scoring" de crédito não substituem a garantia, mas a complementam. Uma boa análise de risco reduz drasticamente a chance de precisar acionar a garantia judicialmente.</p>
+          <p>Contar com uma assessoria jurídica especializada na redação da cláusula de garantia evita que vícios formais tornem a proteção ineficaz no momento da necessidade, garantindo a liquidez do crédito locatício.</p>
+          <p>Por fim, notamos que o mercado tem evoluído para soluções digitais, como garantias via cartão de crédito e serviços de fintechs, que oferecem agilidade para o inquilino e segurança para o proprietário, muitas vezes dispensando a necessidade de um fiador tradicional.</p>
+        </div>
+      ),
+      date: "20 Mai, 2026",
+      dateIso: "2026-05-20",
+      category: "Direito Imobiliário",
+      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 12,
+      slug: 'clausulas-fundamentais-contrato-locacao',
+      title: "Cláusulas Fundamentais: O que não pode faltar no seu contrato de locação",
+      excerpt: "Um contrato bem redigido é a melhor forma de evitar conflitos judiciais. Veja quais cláusulas são indispensáveis para proteger ambas as partes.",
+      readTime: `14 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>Um contrato de locação "de gaveta" ou baixado da internet costuma ser uma fonte inesgotável de problemas. Existem cláusulas que são "clássicas", como o valor do aluguel e o índice de reajuste (geralmente o IPCA ou IGP-M), mas outras são igualmente vitais para a segurança jurídica.</p>
+          <h4 className="text-white text-xl font-serif">Segurança para Locador e Locatário</h4>
+          <p>A cláusula de vigência em caso de alienação (venda do imóvel) é fundamental para o inquilino: sem ela registrada na matrícula, o novo comprador pode denunciar o contrato e pedir o imóvel em 90 dias. Para o locador, a cláusula que proíbe a sublocação sem autorização prévia e por escrito é essencial para manter o controle sobre quem ocupa o bem.</p>
+          <p>Além disso, a definição clara da destinação do imóvel (residencial ou comercial) e a responsabilidade pelo pagamento de encargos extras (como fundo de reserva do condomínio e obras extraordinárias) evitam discussões futuras. Nossa consultoria no Soares Martins foca em redigir contratos personalizados que prevejam cenários de conflito.</p>
+          <p>O laudo de vistoria detalhado e com fotos deve ser parte integrante do contrato, assinado por ambas as partes. Ele é o único documento capaz de comprovar o estado real do imóvel no início da locação para fins de cobrança de danos futuros.</p>
+          <p>Por fim, a eleição de um foro adequado e a previsão de métodos alternativos de solução de conflitos, como a mediação, podem acelerar drasticamente a resolução de impasses sem a necessidade de anos de espera no judiciário.</p>
+          <p>A assinatura digital de contratos é outro ponto que tem revolucionado o mercado, facilitando o processo e garantindo a validade jurídica dos documentos sem a necessidade de deslocamento físico, desde que realizada através de plataformas seguras e reconhecidas.</p>
+        </div>
+      ),
+      date: "18 Mai, 2026",
+      dateIso: "2026-05-18",
+      category: "Direito Imobiliário",
+      image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 13,
+      slug: 'isencao-multa-rescisoria-locacao',
+      title: "Isenção de Multa Rescisória: Quando o inquilino pode sair sem pagar?",
+      excerpt: "A rescisão antecipada nem sempre implica em multa. Entenda a cláusula de isenção e as previsões legais para devolução do imóvel.",
+      readTime: `10 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>A regra geral é que o inquilino pode devolver o imóvel a qualquer tempo, pagando a multa rescisória proporcional ao tempo que resta de contrato. No entanto, existem situações de isenção que precisam ser conhecidas.</p>
+          <h4 className="text-white text-xl font-serif">Casos de Isenção</h4>
+          <p>A primeira é legal: se o inquilino for transferido pelo seu empregador para outra localidade, ele fica isento da multa desde que notifique o locador com 30 dias de antecedência. A segunda é contratual: muitos contratos preveem a isenção de multa após 12 ou 15 meses de vigência em contratos de 30 meses.</p>
+          <p>É importante ressaltar que a isenção da multa não desobriga o inquilino de entregar o imóvel em perfeito estado de conservação, conforme o laudo de vistoria inicial. O escritório Soares Martins orienta tanto locadores quanto locatários na redação e interpretação dessas cláusulas, buscando o equilíbrio contratual.</p>
+          <p>Vale lembrar que a multa deve ser sempre proporcional. Se o inquilino sai faltado 5 meses para acabar um contrato de 30, ele não paga a multa cheia, mas apenas 5/30 do valor estipulado no documento.</p>
+          <p>Discussões sobre a validade da transferência profissional (se foi a pedido ou por necessidade do serviço) são comuns e exigem análise técnica para evitar fraudes que visam apenas o não pagamento do encargo rescisorio.</p>
+          <p>A comunicação aberta entre as partes é sempre o melhor caminho para resolver uma rescisão antecipada. Muitas vezes, uma negociação bem fundamentada pode resultar em um acordo benéfico para ambos, evitando a aplicação rigorosa da multa mesmo quando não há isenção legal.</p>
+        </div>
+      ),
+      date: "16 Mai, 2026",
+      dateIso: "2026-05-16",
+      category: "Direito Imobiliário",
+      image: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      id: 14,
+      slug: 'entrega-chaves-vistoria-final-locacao',
+      title: "Entrega de Chaves e Vistoria: O passo final da locação",
+      excerpt: "A devolução do imóvel exige cuidados jurídicos para evitar cobranças indevidas de reparos. Saiba como formalizar a entrega com segurança.",
+      readTime: `11 min ${t('blog_page.read_time_suffix')}`,
+      content: (
+        <div className="space-y-6">
+          <p>O momento da entrega das chaves é o que encerra juridicamente a posse do inquilino sobre o imóvel. Contudo, muitos erros cometidos nessa fase geram cobranças judiciais meses depois. O documento de "Termo de Entrega de Chaves" é indispensável para comprovar a data exata da saída.</p>
+          <h4 className="text-white text-xl font-serif">A Importância da Vistoria</h4>
+          <p>A vistoria de saída deve ser confrontada rigorosamente com a vistoria de entrada. O inquilino tem a obrigação de devolver o imóvel no estado em que recebeu, salvo os desgastes naturais do uso. Pintura, furos em paredes e danos em armários são os pontos mais sensíveis.</p>
+          <p>Caso haja divergências, o locador não pode se recusar a receber as chaves como forma de forçar a reforma. Ele deve receber as chaves e, posteriormente, cobrar os reparos devidos. O Soares Martins atua na formalização desse encerramento, garantizando que o distrato seja claro e seguro.</p>
+          <p>O distrato com quitação plena, após todos os acertos de aluguel e reparos, é o "passaporte para a paz" do inquilino, evitando "surpresas" na sua ficha de crédito após o encerramento da jornada naquele imóvel.</p>
+          <p>Além das chaves físicas, é crucial formalizar o encerramento do contrato junto às concessionárias de luz, água e gás para evitar que novas faturas em nome do locatário continuem sendo geradas indevidamente.</p>
+          <p>Ao final do processo, também é essencial garantir que todas as pendências administrativas, como as leituras finais de concessionárias e a limpeza do imóvel, estejam devidamente formalizadas para evitar disputas futuras sobre a liquidação financeira da locação.</p>
+        </div>
+      ),
+      date: "14 Mai, 2026",
+      dateIso: "2026-05-14",
+      category: "Direito Imobiliário",
+      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
     }
   ];
 };
