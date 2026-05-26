@@ -12,13 +12,13 @@ const Services: React.FC = () => {
       title: t('services.s1'),
       description: t('services.s1Desc'),
       icon: <Building2 size={28} strokeWidth={1.5} />,
-      slug: null
+      slug: 'direito-patrimonial-sucessorio'
     },
     {
       title: t('services.s2'),
       description: t('services.s2Desc'),
       icon: <Gavel size={28} strokeWidth={1.5} />,
-      slug: null
+      slug: 'direito-imobiliario'
     },
     {
       title: t('services.s3'),

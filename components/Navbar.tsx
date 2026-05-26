@@ -67,7 +67,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   const currentLang = languages.find(l => l.code === language) || languages[0];
 
   return (
-    <header className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-500 py-6 pl-[3%] pr-[5%] ${isScrolled || currentView !== 'home' ? 'glass py-4' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 w-full z-[1000] transition-all duration-500 pl-[3%] pr-[5%] ${isMobileMenuOpen ? 'h-screen bg-midnight py-6' : isScrolled || currentView !== 'home' ? 'glass py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto flex justify-between items-center relative z-[101]">
         {/* LOGO */}
         <Link to="/" onClick={handleHomeClick} className="transition-transform hover:scale-105">

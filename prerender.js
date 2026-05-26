@@ -139,6 +139,14 @@ async function start() {
   }
 
   console.log('--- Pre-rendering Complete ---')
+  
+  console.log('--- Cleaning up Temporary SSR Build ---')
+  try {
+    fs.rmSync(toAbsolute('dist/server'), { recursive: true, force: true })
+    console.log('✓ Temporary SSR folder removed successfully.')
+  } catch (err) {
+    console.error('Warning: Failed to clean up temporary SSR build:', err)
+  }
 }
 
 start().catch((err) => {
