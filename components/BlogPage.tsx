@@ -201,9 +201,15 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
         title="Blog e Notícias Jurídicas | Soares Martins Advogados" 
         description="Acompanhe as últimas notícias e artigos sobre Direito Condominial, LGPD e Jurisprudência no nosso blog. Informação jurídica atualizada por especialistas no RJ."
       />
-      {/* Background Texture Overlay */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      {/* Background Image Overlay */}
+      <div className="absolute inset-0 z-0 pointer-events-none bg-no-repeat bg-cover bg-center">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
+        <img 
+          src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1920&q=80" 
+          className="w-full h-full object-cover opacity-15 grayscale contrast-125 mix-blend-luminosity bg-no-repeat bg-center"
+          alt=""
+          referrerPolicy="no-referrer"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-midnight via-midnight/95 to-midnight" />
       </div>
 

@@ -46,14 +46,15 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
         description="Entre em contato com a Soares Martins Advogados. Escritório localizado no Rio de Janeiro preparado para atender suas demandas em direito imobiliário e condominial."
       />
       {/* Background Image Overlay */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      <div className="absolute inset-0 z-0 pointer-events-none bg-no-repeat bg-cover bg-center">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
         <img 
-          src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1920&q=80" 
-          className="w-full h-full object-cover opacity-5 grayscale"
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80" 
+          className="w-full h-full object-cover opacity-20 grayscale contrast-125 mix-blend-luminosity bg-no-repeat bg-center"
           alt=""
+          referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-midnight via-midnight/95 to-midnight/90" />
+        <div className="absolute inset-0 bg-gradient-to-r from-midnight via-midnight/95 to-midnight/80" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
@@ -77,25 +78,39 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
               <div className="space-y-6 sm:space-y-8 pt-4">
                 <div className="flex gap-4 sm:gap-6 items-start border-l border-bronze/30 pl-6 sm:pl-8">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
-                    <MapPin size={20} />
+                    <Phone size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.location')}</h4>
-                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
-                      {t('contact_page.city')}
+                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.phone_label')}</h4>
+                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm flex flex-col gap-1">
+                      <a href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="hover:text-bronze transition-colors">
+                        +55 (21) 97954-9241
+                      </a>
+                      <a href="https://wa.me/5521983525872?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="hover:text-bronze transition-colors">
+                        +55 (21) 98352-5872
+                      </a>
                     </p>
                   </div>
                 </div>
 
                 <div className="flex gap-4 sm:gap-6 items-start border-l border-white/5 pl-6 sm:pl-8">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-bronze/10 rounded-full flex items-center justify-center text-bronze flex-shrink-0">
-                    <Phone size={20} />
+                    <MapPin size={20} />
                   </div>
-                  <div>
-                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.phone_label')}</h4>
-                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
-                      +55 (21) 97954-9241
+                  <div className="w-full">
+                    <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.location')}</h4>
+                    <p className="text-text-muted leading-relaxed text-xs sm:text-sm mb-4">
+                      {t('contact_page.city')}
                     </p>
+                    <div className="rounded-xl overflow-hidden border border-white/10 h-40 w-full shadow-inner relative group">
+                      <iframe
+                        title="Localização Soares & Martins Advogados"
+                        src="https://maps.google.com/maps?q=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20414%20Ipanema%20Rio%20de%20Janeiro&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        className="w-full h-full border-0 filter grayscale contrast-125 opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                        allowFullScreen
+                        loading="lazy"
+                      ></iframe>
+                    </div>
                   </div>
                 </div>
 
@@ -106,7 +121,9 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
                   <div>
                     <h4 className="text-white font-bold uppercase text-[10px] tracking-widest mb-1 sm:mb-2">{t('contact_page.email_label')}</h4>
                     <p className="text-text-muted leading-relaxed text-xs sm:text-sm">
-                      soaresmartinsadv@hotmail.com
+                      <a href="mailto:soaresmartinsadv@hotmail.com" className="hover:text-bronze transition-colors">
+                        soaresmartinsadv@hotmail.com
+                      </a>
                     </p>
                   </div>
                 </div>

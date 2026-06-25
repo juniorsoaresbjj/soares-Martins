@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const ContactSection: React.FC = () => {
@@ -42,23 +42,54 @@ const ContactSection: React.FC = () => {
             <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl mb-6 md:mb-8 leading-tight">{t('contact.title')} <br className="hidden sm:block" /> <span className="serif-italic text-bronze">{t('contact.titleHighlight')}</span></h2>
             <p className="text-text-muted mb-8 md:mb-16 text-base sm:text-lg">{t('contact.desc')}</p>
             
-            <div className="space-y-6 md:space-y-10">
-              <a href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 sm:gap-6 group">
-                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full glass flex items-center justify-center text-bronze group-hover:bg-bronze group-hover:text-midnight transition-all shrink-0">
+            <div className="space-y-6 md:space-y-8">
+              <div className="flex items-start gap-4 sm:gap-6">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full glass flex items-center justify-center text-bronze shrink-0">
                   <Phone size={18} />
                 </div>
                 <div>
                   <p className="text-[9px] sm:text-[10px] uppercase tracking-widest text-text-muted mb-1">{t('contact.phone')}</p>
-                  <p className="font-bold text-sm sm:text-base">+55 (21) 97954-9241</p>
+                  <div className="flex flex-col gap-1">
+                    <a href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="font-bold text-sm sm:text-base hover:text-bronze transition-colors block">
+                      +55 (21) 97954-9241
+                    </a>
+                    <a href="https://wa.me/5521983525872?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20o%20escrit%C3%B3rio%20Soares%20Martins." target="_blank" rel="noopener noreferrer" className="font-bold text-sm sm:text-base hover:text-bronze transition-colors block">
+                      +55 (21) 98352-5872
+                    </a>
+                  </div>
                 </div>
-              </a>
-              <a href="mailto:soaresmartinsadv@hotmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 sm:gap-6 group">
+              </div>
+
+              <div className="space-y-4">
+                <a href="https://maps.google.com/?q=Rua+Visconde+de+Piraja,+414+-+Sala+718+-+Ipanema,+Rio+de+Janeiro+-+RJ,+22410-002" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 sm:gap-6 group">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full glass flex items-center justify-center text-bronze group-hover:bg-bronze group-hover:text-midnight transition-all shrink-0">
+                    <MapPin size={18} />
+                  </div>
+                  <div>
+                    <p className="text-[9px] sm:text-[10px] uppercase tracking-widest text-text-muted mb-1">Endereço</p>
+                    <p className="font-bold text-sm sm:text-base leading-snug group-hover:text-bronze transition-colors">
+                      Rua Visconde de Pirajá, 414 - Sala 718 - Ipanema, Rio de Janeiro - RJ, 22410-002
+                    </p>
+                  </div>
+                </a>
+                <div className="ml-14 sm:ml-18 rounded-xl overflow-hidden border border-white/10 h-40 shadow-inner relative group">
+                  <iframe
+                    title="Localização Soares & Martins Advogados"
+                    src="https://maps.google.com/maps?q=Rua%20Visconde%20de%20Piraj%C3%A1%2C%20414%20Ipanema%20Rio%20de%20Janeiro&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                    className="w-full h-full border-0 filter grayscale contrast-125 opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                    allowFullScreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+
+              <a href="mailto:soaresmartinsadv@hotmail.com" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 sm:gap-6 group">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full glass flex items-center justify-center text-bronze group-hover:bg-bronze group-hover:text-midnight transition-all shrink-0">
                   <Mail size={18} />
                 </div>
                 <div>
                   <p className="text-[9px] sm:text-[10px] uppercase tracking-widest text-text-muted mb-1">{t('contact.email')}</p>
-                  <p className="font-bold text-xs sm:text-sm md:text-base break-all">soaresmartinsadv@hotmail.com</p>
+                  <p className="font-bold text-xs sm:text-sm md:text-base break-all group-hover:text-bronze transition-colors">soaresmartinsadv@hotmail.com</p>
                 </div>
               </a>
             </div>

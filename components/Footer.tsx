@@ -22,12 +22,23 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-midnight py-16 md:py-24 px-6 md:px-[10%] text-white">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-12 mb-12 md:mb-20">
-          <a href="#home" onClick={handleHomeClick} className="transition-transform hover:scale-105">
-            <Logo className="h-12 md:h-16" variant="bronze" />
-          </a>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center mb-12 md:mb-16">
+          <div className="flex justify-center md:justify-start">
+            <a href="#home" onClick={handleHomeClick} className="transition-transform hover:scale-105">
+              <Logo className="h-11 md:h-14" variant="bronze" />
+            </a>
+          </div>
           
-          <div className="flex flex-wrap gap-6 sm:gap-10 justify-center">
+          <div className="text-center md:border-x md:border-white/10 px-4">
+            <p className="text-[10px] uppercase tracking-widest text-bronze font-bold mb-2">
+              {t('contact_page.hours_label')}
+            </p>
+            <p className="text-xs sm:text-sm text-text-muted font-light leading-relaxed">
+              {t('contact_page.hours_desc')}
+            </p>
+          </div>
+          
+          <div className="flex flex-wrap gap-6 sm:gap-8 justify-center md:justify-end">
             {[
               { name: t('footer.links.office'), href: '/historia/' },
               { name: t('footer.links.action'), href: '/servicos/' },

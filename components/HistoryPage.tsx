@@ -18,15 +18,15 @@ const HistoryPage: React.FC<HistoryPageProps> = ({ onBack }) => {
         description="Conheça a trajetória da Soares Martins Advogados, escritório especializado em Direito Condominial e Imobiliário com foco em excelência e segurança no RJ."
       />
       {/* Background Image Overlay */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
+      <div className="absolute inset-0 z-0 pointer-events-none bg-no-repeat bg-cover bg-center">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')] opacity-20" />
         <img 
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad11ab?auto=format&fit=crop&w=1920&q=80" 
-          className="w-full h-full object-cover opacity-10 grayscale"
+          className="w-full h-full object-cover opacity-20 grayscale contrast-125 mix-blend-luminosity bg-no-repeat bg-center"
           alt=""
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-midnight via-midnight/90 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-midnight via-midnight/95 to-midnight/80" />
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto">

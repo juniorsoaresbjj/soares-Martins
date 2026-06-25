@@ -121,9 +121,12 @@ const ContentModal: React.FC<ContentModalProps> = ({ type, onClose }) => {
               <div className="p-6 bg-midnight text-white rounded-xl">
                 <h5 className="font-serif text-xl mb-4 text-bronze">Atendimento Exclusivo</h5>
                 <div className="space-y-3">
-                  <p className="flex items-center gap-3"><span className="text-bronze font-bold">WhatsApp:</span> +55 (21) 97954-9241</p>
+                  <div className="space-y-1">
+                    <p className="flex items-center gap-3"><span className="text-bronze font-bold">WhatsApp:</span> +55 (21) 97954-9241</p>
+                    <p className="flex items-center gap-3"><span className="text-bronze font-bold">WhatsApp 2:</span> +55 (21) 98352-5872</p>
+                  </div>
+                  <p className="flex items-start gap-3"><span className="text-bronze font-bold shrink-0">Endereço:</span> <span>Rua Visconde de Pirajá, 414 - Sala 718 - Ipanema, Rio de Janeiro - RJ, 22410-002</span></p>
                   <p className="flex items-center gap-3"><span className="text-bronze font-bold">E-mail:</span> soaresmartinsadv@hotmail.com</p>
-                  <p className="flex items-center gap-3"><span className="text-bronze font-bold">Localização:</span> Rio de Janeiro - RJ - Brasil.</p>
                 </div>
               </div>
               <p className="text-xs text-gray-500 text-center uppercase tracking-widest">Segunda a Sexta, das 09:00 às 18:00</p>

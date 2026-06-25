@@ -1,17 +1,35 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { generateLegalDiagnostic, DiagnosticResult } from '../services/geminiService';
 import { useLanguage } from '../context/LanguageContext';
 
 interface AIDiagnosticModalProps {
   onClose: () => void;
+  initialInput?: string;
 }
 
-const AIDiagnosticModal: React.FC<AIDiagnosticModalProps> = ({ onClose }) => {
-  const [input, setInput] = useState('');
+const AIDiagnosticModal: React.FC<AIDiagnosticModalProps> = ({ onClose, initialInput = '' }) => {
+  const [input, setInput] = useState(initialInput);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<DiagnosticResult | null>(null);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  useEffect(() => {
+    if (initialInput) {
+      const triggerAnalysis = async () => {
+        setLoading(true);
+        try {
+          const diag = await generateLegalDiagnostic(initialInput);
+          setResult(diag);
+        } catch (err) {
+          console.error(err);
+        } finally {
+          setLoading(false);
+        }
+      };
+      triggerAnalysis();
+    }
+  }, [initialInput]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -95,6 +113,32 @@ const AIDiagnosticModal: React.FC<AIDiagnosticModalProps> = ({ onClose }) => {
                   ))}
                 </ul>
               </div>
+              {result.sources && result.sources.length > 0 && (
+                <div className="border-t border-gray-100 pt-4 mt-4">
+                  <h4 className="font-bold text-midnight mb-3 uppercase tracking-wider text-[10px] sm:text-xs flex items-center gap-2">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                    {language === 'pt' ? 'Fontes e Legislação (Pesquisa Google)' : language === 'es' ? 'Fuentes y Legislación (Búsqueda de Google)' : 'Sources & Legislation (Google Search)'}
+                  </h4>
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {result.sources.map((source, i) => (
+                      <li key={i}>
+                        <a 
+                          href={source.uri} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="flex items-center gap-2 text-xs text-bronze hover:text-white bg-bronze/5 hover:bg-bronze border border-bronze/20 hover:border-bronze px-3 py-2 rounded-lg transition-all duration-300 truncate"
+                          title={source.title}
+                        >
+                          <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                          </svg>
+                          <span className="truncate">{source.title}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
               <div className="pt-4 sm:pt-6 border-t border-gray-100 flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <button onClick={() => {setResult(null); setInput('');}} className="flex-1 border border-gray-200 py-2.5 sm:py-3 rounded-lg font-bold hover:bg-gray-50 text-sm sm:text-base">{t('diagnostic.new')}</button>
                 <a href="#contato" onClick={onClose} className="flex-1 bg-midnight text-white py-2.5 sm:py-3 rounded-lg text-center font-bold text-sm sm:text-base">{t('diagnostic.validate')}</a>
