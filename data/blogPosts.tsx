@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { getSeoBlogPosts } from './seoBlogPosts';
 
 export interface Post {
   id: number;
@@ -1185,6 +1186,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       category: "Direito Imobiliário",
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
     },
-    ...newSeoPosts
+    ...newSeoPosts,
+    ...getSeoBlogPosts(language, t)
   ];
 };
