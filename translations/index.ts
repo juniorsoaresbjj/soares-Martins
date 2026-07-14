@@ -17,7 +17,7 @@ export const translations = {
     },
     hero: {
       title: 'Soluções Jurídicas Para Condomínios e Patrimônios.',
-      description: 'Advocacia estratégica 100% dedicada à gestão condominial e patrimonial, focada em solução de conflitos e segurança jurídica preventiva.',
+      description: 'Advocacia condominial e patrimonial no Rio de Janeiro, com atuação preventiva na gestão, na cobrança e na solução de conflitos.',
       cta1: 'CONHEÇA O ESCRITÓRIO',
       cta2: 'ÁREAS DE ATUAÇÃO',
       online: 'ATENDIMENTO ONLINE'
@@ -344,7 +344,7 @@ export const translations = {
     },
     hero: {
       title: 'Soluciones Jurídicas Para Condominios.',
-      description: 'Abogacía estratégica 100% dedicada a la gestión de condominios y patrimonial, enfocada en la resolución de conflictos y seguridad jurídica preventiva.',
+      description: 'Abogacía de condominios y patrimonial en Río de Janeiro, con actuación preventiva en la gestión, en el cobro y en la resolución de conflictos.',
       cta1: 'CONOZCA EL DESPACHO',
       cta2: 'ÁREAS DE ACTUACIÓN',
       online: 'ATENCIÓN ONLINE'
@@ -556,7 +556,7 @@ export const translations = {
     },
     hero: {
       title: 'Legal Solutions For Condominiums.',
-      description: 'Strategic law 100% dedicated to condominium and asset management, focused on conflict resolution and preventive legal security.',
+      description: 'Condominium and asset law in Rio de Janeiro, with preventive action in management, collection, and conflict resolution.',
       cta1: 'MEET THE FIRM',
       cta2: 'PRACTICE AREAS',
       online: 'ONLINE SERVICE'
