@@ -31,7 +31,7 @@ const ContentModal: React.FC<ContentModalProps> = ({ type, onClose }) => {
           icon: <Shield className="text-bronze" />,
           body: (
             <div className="space-y-8 max-h-[60vh] overflow-y-auto pr-4 custom-scrollbar">
-              <p className="text-sm text-gray-600 font-medium">Especialização Estratégica em Direito Imobiliário, Condominial e Patrimonial voltada à proteção e segurança jurídica.</p>
+              <p className="text-sm text-gray-600 font-medium">Especialização Estratégica em Direito Imobiliário e Condominial voltada à proteção e segurança jurídica.</p>
               
               <div className="space-y-6">
                 <div className="p-5 bg-off-white rounded-xl border border-gray-100">
@@ -39,7 +39,7 @@ const ContentModal: React.FC<ContentModalProps> = ({ type, onClose }) => {
                     <Building2 size={20} className="text-bronze" />
                     <h5 className="font-bold">Real Estate & Estruturação</h5>
                   </div>
-                  <p className="text-sm text-gray-600">Contencioso Imobiliário: ações possessórias, despejos, revisionais, renovatórias, rescisões e regularização patrimonial.</p>
+                  <p className="text-sm text-gray-600">Contencioso Imobiliário: ações possessórias, despejos, revisionais, renovatórias, rescisões e regularização imobiliária.</p>
                 </div>
 
                 <div className="p-5 bg-off-white rounded-xl border border-gray-100">
@@ -85,7 +85,7 @@ const ContentModal: React.FC<ContentModalProps> = ({ type, onClose }) => {
                 <div className="p-5 bg-off-white rounded-xl border border-gray-100">
                   <div className="flex items-center gap-3 mb-3 text-midnight">
                     <ShieldAlert size={20} className="text-bronze" />
-                    <h5 className="font-bold">Direito Penal Patrimonial</h5>
+                    <h5 className="font-bold">Direito Penal Imobiliário</h5>
                   </div>
                   <p className="text-sm text-gray-600">Defesa contra fraudes, apropriação indébita e desvios, além da responsabilidade penal de gestores.</p>
                 </div>
