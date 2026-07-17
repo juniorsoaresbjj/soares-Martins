@@ -44,11 +44,11 @@ const AboutSection: React.FC = () => {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 pt-4 md:pt-6">
             <div className="p-6 border border-gray-100 rounded-xl hover:border-bronze/30 transition-all">
-              <h4 className="font-bold text-midnight mb-2">{t('about.card1')}</h4>
+              <h3 className="font-bold text-midnight mb-2">{t('about.card1')}</h3>
               <p className="text-sm text-gray-500">{t('about.card1Desc')}</p>
             </div>
             <div className="p-6 border border-gray-100 rounded-xl hover:border-bronze/30 transition-all">
-              <h4 className="font-bold text-midnight mb-2">{t('about.card2')}</h4>
+              <h3 className="font-bold text-midnight mb-2">{t('about.card2')}</h3>
               <p className="text-sm text-gray-500">{t('about.card2Desc')}</p>
             </div>
           </div>

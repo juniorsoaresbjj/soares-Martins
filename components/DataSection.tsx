@@ -56,7 +56,7 @@ const DataSection: React.FC = () => {
           <div className="mb-6 sm:mb-8 flex justify-between items-end">
             <div>
               <p className="text-bronze text-[9px] sm:text-[10px] font-bold uppercase tracking-widest mb-1">Performance Index</p>
-              <h4 className="text-white font-serif text-xl sm:text-2xl">{t('data.label1')}</h4>
+              <h3 className="text-white font-serif text-xl sm:text-2xl">{t('data.label1')}</h3>
             </div>
             <div className="text-right">
               <span className="text-green-500 text-xs sm:text-sm font-bold">{t('data.drop')}</span>

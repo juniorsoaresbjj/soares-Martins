@@ -22,8 +22,8 @@ const faqData: Record<'pt' | 'es' | 'en', {
 }> = {
   pt: {
     tag: 'Dúvidas Frequentes',
-    title: 'Perguntas',
-    titleHighlight: 'Frequentes.',
+    title: 'Tire suas Dúvidas sobre',
+    titleHighlight: 'Direito Condominial.',
     subtitle: 'Esclareça as principais dúvidas jurídicas sobre Direito Condominial e a gestão de condomínios com nossos especialistas.',
     items: [
       {
