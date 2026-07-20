@@ -8,9 +8,10 @@ interface SeoProps {
   description: string;
   type?: string;
   image?: string;
+  schema?: object | object[];
 }
 
-const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image }) => {
+const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image, schema }) => {
   const { pathname } = useLocation();
   
   const siteUrl = 'https://soaresmartinsadv.com';
@@ -42,6 +43,13 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image }
       <meta name="twitter:description" content={description} />
       <meta name="twitter:url" content={canonicalUrl} />
       <meta name="twitter:image" content={ogImage} />
+
+      {/* Structured Data (Schema.org JSON-LD) */}
+      {schema && (
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      )}
     </Helmet>
   );
 };

@@ -64,11 +64,92 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
     }
   ];
 
+  const servicesSchemaList = specializedAreas.map(area => ({
+    "@type": "Service",
+    "name": area.title,
+    "description": area.description,
+    "provider": {
+      "@type": "LegalService",
+      "@id": "https://soaresmartinsadv.com/#legalservice"
+    },
+    "url": `https://soaresmartinsadv.com/${area.slug}/`,
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Rio de Janeiro"
+    }
+  }));
+
+  const servicesSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://soaresmartinsadv.com/servicos/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": t('nav.home') || "Home",
+            "item": "https://soaresmartinsadv.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": t('nav.services') || "Serviços",
+            "item": "https://soaresmartinsadv.com/servicos/"
+          }
+        ]
+      },
+      {
+        "@type": "LegalService",
+        "@id": "https://soaresmartinsadv.com/#legalservice",
+        "name": "Soares Martins Advogados",
+        "url": "https://soaresmartinsadv.com",
+        "logo": "https://soaresmartinsadv.com/favicon.svg",
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
+        "telephone": ["+55-21-97954-9241", "+55-21-98352-5872"],
+        "email": "soaresmartinsadv@hotmail.com",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718 - Ipanema",
+          "addressLocality": "Rio de Janeiro",
+          "addressRegion": "RJ",
+          "postalCode": "22410-002",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -22.9836,
+          "longitude": -43.2031
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Rio de Janeiro"
+        }
+      },
+      ...servicesSchemaList
+    ]
+  };
+
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-x-hidden">
       <SEO 
         title="Áreas de Atuação em Direito Condominial e Imobiliário no Rio de Janeiro | Soares Martins Advogados" 
         description="Conheça as áreas de atuação da Soares Martins Advogados no Rio de Janeiro. Assessoria jurídica em Direito Condominial e Imobiliário, para condomínios, síndicos e proprietários, com atuação em cobrança condominial, ações de despejo, contratos de locação, regularização imobiliária, convenções de condomínio e consultoria jurídica preventiva."
+        schema={servicesSchema}
       />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">
