@@ -67,8 +67,8 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
   return (
     <div className="relative min-h-screen pt-24 md:pt-32 pb-12 md:pb-24 px-6 md:px-[10%] animate-fade-in-up bg-midnight overflow-x-hidden">
       <SEO 
-        title="Serviços Jurídicos | Soares Martins Advogados" 
-        description="Oferecemos assessoria jurídica especializada em Direito Condominial e Imobiliário no Rio de Janeiro. Soluções seguras para síndicos e condomínios."
+        title="Áreas de Atuação em Direito Condominial e Imobiliário no Rio de Janeiro | Soares Martins Advogados" 
+        description="Conheça as áreas de atuação da Soares Martins Advogados no Rio de Janeiro. Assessoria jurídica em Direito Condominial e Imobiliário, para condomínios, síndicos e proprietários, com atuação em cobrança condominial, ações de despejo, contratos de locação, regularização imobiliária, convenções de condomínio e consultoria jurídica preventiva."
       />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none">

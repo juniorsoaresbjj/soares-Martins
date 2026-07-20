@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Gavel, Scale, ShieldCheck, FileText, Building2, Users, ChevronRight } from 'lucide-react';
+import { Gavel, Scale, ShieldCheck, FileText, Building2, Users, ShieldAlert, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 const Services: React.FC = () => {
@@ -43,6 +43,12 @@ const Services: React.FC = () => {
       description: t('services.s6Desc'),
       icon: <Users size={28} strokeWidth={1.5} />,
       slug: 'assembleias-convencao-regimento'
+    },
+    {
+      title: t('services_page.penal_title'),
+      description: t('services_page.penal_desc'),
+      icon: <ShieldAlert size={28} strokeWidth={1.5} />,
+      slug: 'compliance-condominial-penal'
     }
   ];
 
