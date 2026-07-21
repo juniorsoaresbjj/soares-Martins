@@ -43,7 +43,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
     <div className="relative min-h-screen pt-24 sm:pt-32 pb-16 sm:pb-24 px-4 sm:px-[5%] md:px-[10%] animate-fade-in-up bg-midnight overflow-hidden">
       <SEO 
         title="Contato e Localização | Soares Martins Advogados" 
-        description="Entre em contato com a Soares Martins Advogados. Escritório localizado no Rio de Janeiro preparado para atender suas demandas em direito imobiliário e condominial."
+        description="Fale com a Soares Martins Advogados no Rio de Janeiro. Atendimento especializado em direito imobiliário e condominial para apoiar as suas demandas."
       />
       {/* Background Image Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none bg-no-repeat bg-cover bg-center">

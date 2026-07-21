@@ -21,7 +21,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 15,
       slug: 'problemas-enfrentados-sindicos-rio-de-janeiro',
-      title: 'Problemas Enfrentados por Síndicos no Rio de Janeiro | Blog',
+      title: 'Problemas Enfrentados por Síndicos no Rio de Janeiro',
       excerpt: 'Entenda os principais de problemas enfrentados por síndicos no Rio de Janeiro e saiba como a assessoria jurídica especializada evita conflitos no condomínio.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
@@ -47,7 +47,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>Oferecemos suporte jurídico integral para mitigar os <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong> diariamente. Isso engloba elaboração e alteração segura de convenção e regimento interno, acompanhamento presencial em assembleias delicadas e cobrança célere judicial de devedores. Conheça nossos pilares de atuação e veja como blindar o patrimônio coletivo visitando nossa página de <Link to="/servicos/" className="text-bronze hover:underline font-bold">Serviços Jurídicos</Link> e conhecendo nossa <Link to="/equipe/" className="text-bronze hover:underline font-bold">Equipe de Especialistas</Link>.</p>
           
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Garantia de Segurança Jurídica para seu Condomínio</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Garantia de Segurança Jurídica para seu Condomínio</h3>
             <p className="text-text-muted text-sm mb-4">Seja você síndico morador, profissional ou conselheiro no Rio de Janeiro, conte com a nossa experiência para solucionar seus desafios e profissionalizar a gestão condominial de forma impecável e segura.</p>
             <p className="text-bronze font-bold text-sm">Fale diretamente com os nossos especialistas no WhatsApp e marque uma reunião pelo telefone (21) 97954-9241 ou envie uma mensagem através do formulário de contato integrado do site.</p>
           </div>
@@ -90,7 +90,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>Ter o suporte de uma assessoria jurídica condominial independente exime o condomínio do controle engessado das administradoras padrão. O escritório Soares Martins dispõe de atendimento especializado, ético e focado exclusivamente em prover as melhores e mais céleres soluções para o seu condomínio no Rio de Janeiro. Ao contar com defensores dedicados, o síndico resguarda sua reputação administrativa e a comunidade do edifício usufrui de uma convivência verdadeiramente harmoniosa e protegida pela lei. Navegue por nossa história em [Nossa História](/historia/) para conhecer nosso compromisso ou examine nossa [Equipe](/equipe/) jurídica qualificada.</p>
           
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Proteja Seu Condomínio com Advocacia de Excelência</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Proteja Seu Condomínio com Advocacia de Excelência</h3>
             <p className="text-text-muted text-sm mb-4">Evite amarras e conflitos no seu condomínio. O Soares Martins oferece planos de assessoria jurídica independente sob medida com visitas, reuniões síncronas e respostas imediatas para o seu condomínio.</p>
             <p className="text-bronze font-bold text-sm">Fale diretamente conosco pelo celular e WhatsApp (21) 97954-9241 ou agende uma reunião utilizando o formulário em nossa página de contato.</p>
           </div>
@@ -104,7 +104,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 17,
       slug: 'apartamento-leilao-debito-condominial',
-      title: 'Meu apartamento está indo a leilão por débito condominial, o que fazer?',
+      title: 'Apartamento em Leilão por Débito de Condomínio: O Que Fazer?',
       excerpt: 'Seu apartamento está indo a leilão por débito condominial no Rio de Janeiro? Descubra as medidas de urgência para suspender a praça e proteger seu imóvel já!',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
@@ -127,7 +127,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>O Soares Martins acolhe sua família com atenção humanizada e determinação máxima nos momentos mais vulneráveis. Nossa banca de advogados compreende perfeitamente os pormenores práticos envolvidos na sustação de leilões no Rio de Janeiro, sabendo como resguardar seus direitos de habitação do imóvel. Ao identificar brechas e nulidades fáticas dentro do processo judicial, atuamos prontamente na defesa dos seus direitos contratuais cíveis. Recomendamos examinar nossa página de <Link to="/servicos/" className="text-bronze hover:underline font-bold">Serviços Legais</Link> ou ler a respeito do perfil de nossa <Link to="/equipe/" className="text-bronze hover:underline font-bold">Equipe Especializada</Link> para amparar suas dúvidas imediatas.</p>
           
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Ação Rápida para Salvar Seu Imóvel</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Ação Rápida para Salvar Seu Imóvel</h3>
             <p className="text-text-muted text-sm mb-4">Não espere o pior acontecer. Se você recebeu intimação de penhora ou editais de praça pública indicando o leilão do seu apartamento, busque apoio imediatamente.</p>
             <p className="text-bronze font-bold text-sm">Fale diretamente com os nossos advogados e conte com a nossa atuação ágil pelo celular/WhatsApp (21) 97954-9241 ou enviando uma mensagem no formulário do site.</p>
           </div>
@@ -141,7 +141,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 18,
       slug: 'guia-compra-venda-segura-imoveis-rj',
-      title: 'Direito imobiliário no Rio de Janeiro: guia completo para compra e venda segura',
+      title: 'Direito Imobiliário no Rio de Janeiro: Compra e Venda Segura',
       excerpt: 'Precisa de um advogado imobiliário no Rio de Janeiro? Confira nosso guia essencial para garantir total segurança jurídica na compra e venda do seu imóvel no RJ.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
@@ -164,7 +164,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>O time da Soares Martins possui anos de atuação prática sólida em direito imobiliário RJ, guiando investidores em todo o processo imobiliário cartorário com integridade. Oferecemos análise robusta documental de riscos, acompanhando o cliente desde a redação inicial das tratativas até a fase de registro definitivo em cartório. Nosso compromisso é mitigar ao máximo as incertezas de sua transação no Rio de Janeiro. Visite nossa página da [História](/historia/) institucional para entender nosso ideal, leia sobre nossos profissionais na [Equipe](/equipe/) especialista, e informe-se sobre nossa assessoria na página de [Serviços](/servicos/).</p>
           
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Adquira Seu Imóvel Simples e Seguro</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Adquira Seu Imóvel Simples e Seguro</h3>
             <p className="text-text-muted text-sm mb-4">Seja para adquirir a casa própria de sua família ou investir em empreendimentos no Rio de Janeiro, a Soares Martins assegurará a estabilidade total da sua transação comercial com due diligence exemplar.</p>
             <p className="text-bronze font-bold text-sm">Contate agora mesmo nosso canal de assessoria pelo celular/WhatsApp (21) 97954-9241 ou preencha o formulário em nossa página de contato técnico para receber suporte de especialista.</p>
           </div>
@@ -178,8 +178,8 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 19,
       slug: 'planejamento-patrimonial-sucessorio-como-proteger-patrimonio',
-      title: 'Planejamento patrimonial e sucessório: como proteger seu patrimônio no Rio de Janeiro',
-      excerpt: 'Consulte um advogado de planejamento patrimonial no Rio de Janeiro para blindar seu patrimônio familiar e planejar a sucessão extrajudicial sem dor de cabeça no RJ.',
+      title: 'Planejamento Patrimonial e Sucessório no Rio de Janeiro',
+      excerpt: 'Consulte um advogado de planejamento patrimonial no Rio de Janeiro para blindar seu patrimônio e planejar a sucessão extrajudicial sem dor de cabeça no RJ.',
       readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
         <div className="space-y-6 text-justify">
@@ -201,7 +201,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>O Soares Martins é amplamente consolidado por sua atuação pautada em rígida ética processual e profunda qualificação em direito sucessório RJ e planejamento familiar. Nossa meta primordial é confeccionar arranjos personalizados únicos que se identifiquem com as metas essenciais de <strong>proteção patrimonial da família no RJ</strong> de nossos clientes. Prestamos ajuda completa com discrição e excelência legal. Convidamos você a se aprofundar em nossa missão em nossa página de [Nossa História](/historia/) institutional, certificar-se da idoneidade técnica de nossa [Equipe](/equipe/) ativa no RJ, ou conferir demais serviços descritos em nossa página de [Serviços](/servicos/).</p>
           
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Construa Uma Sucessão Segura Para Seus Herdeiros</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Construa Uma Sucessão Segura Para Seus Herdeiros</h3>
             <p className="text-text-muted text-sm mb-4">Garanta que as conquistas do produto do seu trabalho continuem sob posse daqueles que você mais ama. Estruture o seu planejamento sucessório com ética, discrição e excelência legal.</p>
             <p className="text-bronze font-bold text-sm">Agende sua consulta reservada com os nossos assessores especialistas pelo telefone/WhatsApp (21) 97954-9241 ou enviando uma mensagem em nosso canal de contato.</p>
           </div>
@@ -215,7 +215,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 20,
       slug: 'airbnb-condominio-rio-de-janeiro-proibir',
-      title: 'Airbnb em condomínios no Rio de Janeiro: seu condomínio pode proibir?',
+      title: 'Airbnb em Condomínio no Rio de Janeiro: Pode Proibir?',
       excerpt: 'Sua convenção pode proibir o aluguel por plataforma digital como o Airbnb? Saiba as regras, direitos e entendimentos do STJ no Rio de Janeiro.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
@@ -246,7 +246,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>A pacificação social do ambiente de habitação reside no desenvolvimento de normas que dialoguem de forma balanceada com a atualidade contemporânea, respeitando a vontade democrática inscrita no pacto convivencial. O aluguel temporário por aplicativo, conquanto constitua inovação financeira elogiável, não pode colidir frontalmente com os direitos de vizinhança cariocas. Se as suas dezenas de dúvidas condominiais persistem e exigem resoluções embasadas nas legislações federais vigentes, conte com o amparo de nossa banca técnica. <Link to="/contato/" className="text-bronze hover:underline font-bold">Entre em contato com o escritório Soares Martins Advogados</Link> e consulte hoje mesmo um gabaritado <strong>advogado condominial rio de janeiro</strong> para blindar a segurança de sua habitação familiar e garantir o correto cumprimento estatutário no ambiente predial fluminense onde a prática do <strong>airbnb condomínio rio de janeiro</strong> exige mediação técnica estruturada.</p>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Evite Passivos Judiciais no Rio de Janeiro</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Evite Passivos Judiciais no Rio de Janeiro</h3>
             <p className="text-text-muted text-sm mb-4">Tanto a alteração de convenção contra hospedagens rotativas quanto a autodefesa do condômino que deseja rentabilizar seu imóvel exigem perícia jurídica. O Soares Martins oferece suporte técnico integral para mediar conflitos condominiais com precisão absoluta.</p>
             <p className="text-bronze font-bold text-sm">Contate nossa equipe pelo telefone, WhatsApp (21) 97954-9241 ou preencha o formulário eletrônico direto de nossa central corporativa.</p>
           </div>
@@ -261,7 +261,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       id: 21,
       slug: 'recebi-ordem-de-despejo-rio-de-janeiro-o-que-fazer',
       title: 'Recebi uma ordem de despejo no Rio de Janeiro: e agora?',
-      excerpt: 'Recebeu notificação de despejo? Compreenda as diferenças entre notificação, citação e ordem judicial, seus prazos e direitos de defesa segundo a Lei do Inquilinato.',
+      excerpt: 'Recebeu aviso de despejo? Entenda as diferenças entre notificação, citação e ordem judicial, seus prazos e defesas segundo a Lei do Inquilinato.',
       readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
         <div className="space-y-6 text-justify">
@@ -296,25 +296,25 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <h2 className="text-white text-2xl font-serif mt-6">Perguntas Frequentes sobre Despejo e Direitos do Inquilino</h2>
           <div className="space-y-4">
             <div>
-              <h4 className="text-white font-serif font-bold">1. O proprietário pode me forçar a sair do imóvel sem autorização da Justiça?</h4>
+              <h3 className="text-white font-serif font-bold">1. O proprietário pode me forçar a sair do imóvel sem autorização da Justiça?</h3>
               <p className="text-text-muted text-sm mt-1">Não. Qualquer ato de expulsão forçada direta pelo proprietário (como troca de chaves, retirada de bens ou corte de luz e água) é ilegal e configura crime. O despejo só pode ser executado mediante ordem judicial formal.</p>
             </div>
             <div>
-              <h4 className="text-white font-serif font-bold">2. Recebi uma notificação extrajudicial da imobiliária. Tenho que desocupar o imóvel imediatamente?</h4>
+              <h3 className="text-white font-serif font-bold">2. Recebi uma notificação extrajudicial da imobiliária. Tenho que desocupar o imóvel imediatamente?</h3>
               <p className="text-text-muted text-sm mt-1">Não. A notificação extrajudicial serve como um aviso formal e tentativa de acordo amigável. Ela não obriga a saída imediata sob força policial. A desocupação compulsória exige um processo judicial e uma ordem emitida por um juiz.</p>
             </div>
             <div>
-              <h4 className="text-white font-serif font-bold">3. O que acontece se eu não sair do imóvel no prazo determinado pelo juiz?</h4>
+              <h3 className="text-white font-serif font-bold">3. O que acontece se eu não sair do imóvel no prazo determinado pelo juiz?</h3>
               <p className="text-text-muted text-sm mt-1">Se o prazo para saída voluntária expirar sem a entrega das chaves, o proprietário poderá dar início ao despejo coercitivo. Nesse caso, oficiais de justiça irão ao imóvel para cumprir a ordem de desocupação forçada, podendo solicitar auxílio da polícia militar se houver resistência.</p>
             </div>
             <div>
-              <h4 className="text-white font-serif font-bold">4. Posso evitar o despejo pagando o aluguel atrasado após ser citado?</h4>
+              <h3 className="text-white font-serif font-bold">4. Posso evitar o despejo pagando o aluguel atrasado após ser citado?</h3>
               <p className="text-text-muted text-sm mt-1">Sim. O inquilino tem o direito de realizar a purgação da mora dentro do prazo de 15 dias contados da citação judicial. Depositando em juízo o valor integral da dívida acrescido de encargos, custas e honorários, o processo é encerrado e a locação continua ativa.</p>
             </div>
           </div>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-3">Links Úteis e Serviços Relacionados</h4>
+            <h3 className="text-white text-lg font-serif mb-3">Links Úteis e Serviços Relacionados</h3>
             <p className="text-text-muted text-sm leading-relaxed mb-2">
               Se você deseja entender melhor seus direitos ou precisa de auxílio técnico para resolver questões de locação no Rio de Janeiro, consulte nossas especialidades em <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Direito Imobiliário</Link>. Atuamos de forma especializada em defesas contra <Link to="/direito-imobiliario/" className="text-bronze hover:underline">Ação de Despejo</Link>, elaboração e análise de <Link to="/direito-imobiliario/" className="text-bronze hover:underline">Contratos de Locação</Link> e assessoria em conflitos de <Link to="/direito-imobiliario/" className="text-bronze hover:underline">Cobrança de Aluguel</Link>.
             </p>
@@ -325,7 +325,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>Se você enfrenta um conflito de locação, recebeu uma notificação extrajudicial ou citação em ação de despejo, o escritório Soares Martins Advogados oferece assistência profissional para inquilinos e locatários. Nossa atuação foca na análise detalhada do contrato e do processo, na elaboração de defesas adequadas ao caso, na orientação técnica sobre purgação da mora e na condução de negociações amigáveis ou judiciais com locadores e administradoras. <Link to="/contato/" className="text-bronze hover:underline font-bold">Entre em contato conosco</Link> para agendar um atendimento e avaliar as medidas cabíveis para o seu caso.</p>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Atuação em Direito Imobiliário e Locatício</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Atuação em Direito Imobiliário e Locatício</h3>
             <p className="text-text-muted text-sm mb-4">Prestamos suporte jurídico na defesa de inquilinos em ações de despejo por falta de pagamento, denúncia vazia ou descumprimento contratual nas Varas Cíveis do Tribunal de Justiça do Rio de Janeiro.</p>
             <p className="text-bronze font-bold text-sm">Para apresentar o seu caso, entre em contato via WhatsApp (21) 97954-9241 ou envie uma mensagem através de nosso formulário de contato.</p>
           </div>
@@ -339,8 +339,8 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 22,
       slug: 'assembleia-virtual-condominio-rio-de-janeiro-valida',
-      title: 'Assembleia virtual em condomínio no Rio de Janeiro: é válida juridicamente?',
-      excerpt: 'A regulamentação das reuniões de condomínio online à luz do Código Civil brasileiro. Descubra como garantir que a assembleia virtual em condomínio no Rio de Janeiro seja juridicamente válida.',
+      title: 'Assembleia Virtual em Condomínio no Rio de Janeiro é Válida?',
+      excerpt: 'Descubra as regras da assembleia virtual em condomínio no Rio de Janeiro à luz do Código Civil e saiba como garantir que ela seja válida juridicamente.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
         <div className="space-y-6 text-justify">
@@ -368,7 +368,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>A assembleia remota representa inegável avanço na eficiência gerencial coletiva dos condomínios cariocas, fomentando audiências robustas e democráticas de vizinhança. Contudo, essa digitalização nunca deve prescindir das indispensáveis formalidades exigidas pela codificação civil federal pátria. Zele pelas decisões tomadas no caixa de seu edifício e implemente auditorias preventivas qualificadas ao lado de especialistas imobiliários de renome do Rio de Janeiro. <Link to="/contato/" className="text-bronze hover:underline font-bold">Entre em contato com o escritório Soares Martins Advogados</Link> e agende um diagnóstico procedimental com o nosso atuante e de excelência <strong>advogado condominial rio de janeiro</strong> para garantir total estabilidade procedimental de seus debates eletrônicos condominiais sob as regras da <strong>assembleia virtual condomínio rio de janeiro</strong>.</p>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Evite Impugnações e Processos Anulatórios</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Evite Impugnações e Processos Anulatórios</h3>
             <p className="text-text-muted text-sm mb-4">Reuniões online realizadas sem obediência rígida à Lei Federal nº 14.309/2022 estão sujeitas a contestações que paralisam a aprovação de contas de seu condomínio no RJ. Proteja seu mandato de gestão com assessoria qualificada.</p>
             <p className="text-bronze font-bold text-sm">Contate nossa central técnica imobiliária pelo telefone e WhatsApp (21) 97954-9241 ou preencha nosso formulário disponível no site institucional.</p>
           </div>
@@ -382,7 +382,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 23,
       slug: 'inventario-extrajudicial-rio-de-janeiro-como-funciona-custo',
-      title: 'Inventário extrajudicial no Rio de Janeiro: como funciona e quanto custa?',
+      title: 'Inventário Extrajudicial no Rio de Janeiro: Guia Completo',
       excerpt: 'Evite brigas familiares e lentidão da justiça. Compreenda tudo sobre como funciona e quanto custa o inventário extrajudicial no Rio de Janeiro com segurança.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
@@ -407,7 +407,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>A regularização extrajudicial de uma herança é a saída mais inteligente e protetora das famílias fluminenses, poupando os envolvidos de discussões forenses exaustivas e mitigando o impacto das custas burocráticas estaduais do Rio de Janeiro. Diante de sucessões urgentes, agir sob conformidade preventiva é a única decisão segura. Conte com o saber de quem se dedica à nobre arte de assessorar e preservar o patrimônio alheio carioca. <Link to="/contato/" className="text-bronze hover:underline font-bold">Entre em contato com o escritório Soares Martins Advogados</Link> e consulte hoje um de nossos gabaritados especialistas de nossa bancada de <strong>advogado inventário rio de janeiro</strong> para obter orientação assecuratória detalhada no transcurso de seu <strong>inventário extrajudicial rio de janeiro</strong>.</p>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Comodidade e Tranquilidade em Momentos Delicados</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Comodidade e Tranquilidade em Momentos Delicados</h3>
             <p className="text-text-muted text-sm mb-4">Seja para regularizar a venda de imóveis de espólio no Rio de Janeiro com due diligence exemplar ou realizar o levantamento célere de saldos retidos em contas poupança bancárias de forma administrativa, conte com nosso apoio personalizado fluminense.</p>
             <p className="text-bronze font-bold text-sm">Fale diretamente com os nossos sócios através do WhatsApp e telefone corporativo (21) 97954-9241 ou solicite retorno técnico mediante nossa guia virtual de atendimento.</p>
           </div>
@@ -421,8 +421,8 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 24,
       slug: 'reajuste-abusivo-aluguel-rio-de-janeiro-como-contestar',
-      title: 'Reajuste abusivo de aluguel no Rio de Janeiro: quando e como contestar?',
-      excerpt: 'Aluguel subiu demais? Conheça os limites da lei, os índices legais permitidos e como agir diante de um reajuste abusivo de aluguel no Rio de Janeiro de forma segura.',
+      title: 'Reajuste Abusivo de Aluguel no Rio de Janeiro: Como Agir?',
+      excerpt: 'Aluguel subiu demais? Saiba como agir diante de um reajuste de aluguel abusivo no Rio de Janeiro com segurança e em conformidade com a Lei do Inquilinato.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
         <div className="space-y-6 text-justify">
@@ -450,19 +450,19 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <h2 className="text-white text-2xl font-serif mt-6">Perguntas Frequentes sobre Reajuste de Aluguel</h2>
           <div className="space-y-4">
             <div>
-              <h4 className="text-white font-serif font-bold">1. O proprietário pode mudar o índice de reajuste sem a minha autorização?</h4>
+              <h3 className="text-white font-serif font-bold">1. O proprietário pode mudar o índice de reajuste sem a minha autorização?</h3>
               <p className="text-text-muted text-sm mt-1">Não. O índice de reajuste deve ser aquele pactuado no contrato. Qualquer alteração ou substituição do índice exige um acordo bilateral (termo aditivo) entre proprietário e inquilino.</p>
             </div>
             <div>
-              <h4 className="text-white font-serif font-bold">2. O IPCA é sempre o índice obrigatório se o IGP-M subir muito?</h4>
+              <h3 className="text-white font-serif font-bold">2. O IPCA é sempre o índice obrigatório se o IGP-M subir muito?</h3>
               <p className="text-text-muted text-sm mt-1">Não. Por regra geral, vale o índice que foi acordado no contrato. A substituição pelo IPCA ou por outro indicador só ocorre por consenso amigável ou, em casos muito excepcionais, por determinação judicial se comprovado desequilíbrio extremo.</p>
             </div>
             <div>
-              <h4 className="text-white font-serif font-bold">3. Quando posso pedir a revisão judicial do valor do aluguel?</h4>
+              <h3 className="text-white font-serif font-bold">3. Quando posso pedir a revisão judicial do valor do aluguel?</h3>
               <p className="text-text-muted text-sm mt-1">Segundo o artigo 19 da Lei do Inquilinato, o locador ou o locatário podem solicitar a revisão judicial para ajustar o aluguel ao preço real de mercado se o contrato estiver em vigor há pelo menos três anos sem revisões recentes.</p>
             </div>
             <div>
-              <h4 className="text-white font-serif font-bold">4. O que fazer ao receber uma notificação com reajuste que considero abusivo?</h4>
+              <h3 className="text-white font-serif font-bold">4. O que fazer ao receber uma notificação com reajuste que considero abusivo?</h3>
               <p className="text-text-muted text-sm mt-1">Não assine termos aditivos de imediato. Busque dialogar amigavelmente com a imobiliária ou o proprietário e, se necessário, consulte um escritório especialista em Direito Imobiliário no Rio de Janeiro para analisar os caminhos legais recomendados.</p>
             </div>
           </div>
@@ -472,7 +472,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
           <p>Se você recebeu uma cobrança ou aditivo com aumento excessivo, evite assinar qualquer documento antes de uma avaliação especializada. <Link to="/contato/" className="text-bronze hover:underline font-bold">Entre em contato com a Soares Martins Advogados</Link>. Nossa equipe irá auditar seu contrato sob as regras da Lei do Inquilinato para assegurar seus direitos com segurança e tranquilidade.</p>
 
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h4 className="text-white text-lg font-serif mb-4">Como a Soares Martins Advogados pode ajudar você?</h4>
+            <h3 className="text-white text-lg font-serif mb-4">Como a Soares Martins Advogados pode ajudar você?</h3>
             <p className="text-text-muted text-sm mb-4">Oferecemos suporte jurídico completo na área de <Link to="/direito-imobiliario/" className="text-bronze hover:underline">Direito Imobiliário</Link>, incluindo negociações extrajudiciais com imobiliárias e proprietários, alteração de índices abusivos (como substituição do IGP-M pelo IPCA) e representação judicial em ações revisionais de aluguel ou renovatórias no Rio de Janeiro.</p>
             <p className="text-bronze font-bold text-sm">Entre em contato diretamente conosco pelo WhatsApp (21) 97954-9241 ou envie uma mensagem através da nossa central de atendimento para agendar uma consulta.</p>
           </div>
@@ -496,10 +496,10 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>The General Data Protection Law (LGPD) spares no one, not even residential condominiums. Although they do not have full legal personality, condominiums are considered "data controllers" under the law, as they collect, store, and process information from residents, employees, and visitors daily. This responsibility implies the need for a deep review of all internal processes, from reception to the disposal of physical and digital documents, ensuring that data processing occurs transparently and securely.</p>
-            <h4 className="text-white text-xl font-serif">The Challenge of the Concierge and Access Control</h4>
+            <h2 className="text-white text-xl font-serif">The Challenge of the Concierge and Access Control</h2>
             <p>Excessive data collection at reception is the most critical and common point of vulnerability. Requesting ID, CPF, photos, and even biometrics from visitors without a clear purpose, defined legal basis, and an appropriate privacy notice is a direct violation of the principles of necessity and transparency. The condominium must limit collection to what is strictly necessary to ensure the security of the development, clearly informing the data subject how their information will be used and for how long it will be kept on file.</p>
             <p>Furthermore, the storage of this data must follow strict cybersecurity protocols. Concierge management software needs to be updated and feature encryption, while physical records must be kept in restricted access locations. Training for concierge and administration employees is fundamental, as they are the front line in processing this data and need to understand the importance of confidentiality and the protection of third-party information, avoiding accidental leaks or unauthorized access.</p>
-            <h4 className="text-white text-xl font-serif">Camera Monitoring and Individual Rights</h4>
+            <h2 className="text-white text-xl font-serif">Camera Monitoring and Individual Rights</h2>
             <p>Images captured by the internal TV circuit (CCTV) are considered personal data and, in many cases, biometric data, which raises the required level of protection. It is fundamental that there are visible informative signs at all monitoring points and that access to these images is restricted to a few authorized people, with an access log record for auditing. Sharing camera images in resident WhatsApp groups, for example, is a highly risky practice that can generate indemnity lawsuits against the condominium and the manager.</p>
             <p>Finally, compliance with the LGPD requires the appointment of a Data Protection Officer (DPO), which can be a specialized company or a trained internal professional. This person will act as a bridge between the condominium, the data subjects, and the National Data Protection Authority (ANPD). The implementation of a robust Privacy Policy and the performance of periodic audits are essential steps to mitigate legal risks and ensure that the condominium is in compliance with current legislation, promoting a safer and more ethical environment for everyone.</p>
             <p>The Soares Martins firm offers specialized consultancy for the implementation of the LGPD in condominiums, including the mapping of data processes, the creation of internal policies, and the training of teams. Our goal is to ensure that the condominium is protected against sanctions and that the privacy of all residents is respected, transforming legal compliance into a competitive advantage and a factor of tranquility for the entire community.</p>
@@ -639,7 +639,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>The Tenancy Law (Law 8.245/91) establishes four modalities of rental guarantee: security deposit, bond, guarantee insurance, and fiduciary assignment of investment fund shares. It is forbidden to demand more than one modality of guarantee in the same lease contract, under penalty of nullity and even criminal sanction.</p>
-            <h4 className="text-white text-xl font-serif">Main Modalities</h4>
+            <h2 className="text-white text-xl font-serif">Main Modalities</h2>
             <p>The cash deposit, limited to three months' rent, is the most common due to its ease, but it may be insufficient in lengthy evictions. The bond is traditional, requiring a guarantor with their own property, but it has fallen into disuse due to the difficulty of finding someone who accepts the burden. Guarantee insurance has grown a lot, as it guarantees payment to the lessor and excuses the lessee from seeking a guarantor, although it has an annual cost.</p>
             <p>The Soares Martins office recommends a careful analysis of the parties' profile before choosing. For the lessor, guarantee insurance is usually the safest. For the lessee, the deposit can be more financially advantageous in the long run, as the value is returned with savings earnings at the end of the contract.</p>
             <p>It is vital to emphasize that background checks and credit scoring do not replace the guarantee, but complement it. A good risk analysis drastically reduces the chance of needing to legally trigger the guarantee.</p>
@@ -661,7 +661,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>A "drawer" rental contract or one downloaded from the internet is usually an inexhaustible source of problems. There are clauses that are "classic", such as the rent amount and the readjustment index (usually IPCA or IGP-M), but others are equally vital for legal security.</p>
-            <h4 className="text-white text-xl font-serif">Security for Lessor and Lessee</h4>
+            <h2 className="text-white text-xl font-serif">Security for Lessor and Lessee</h2>
             <p>The term clause in case of alienation (sale of the property) is fundamental for the tenant: without it registered in the title deed, the new buyer can denounce the contract and ask for the property in 90 days. For the lessor, the clause that prohibits sub-leasing without prior written authorization is essential to maintain control over who occupies the asset.</p>
             <p>In addition, a clear definition of the property's destination (residential or commercial) and responsibility for paying extra charges (such as the condominium reserve fund and extraordinary works) avoid future discussions. Our consultancy at Soares Martins focuses on drafting personalized contracts that provide for conflict scenarios.</p>
             <p>A detailed inspection report with photos must be an integral part of the contract, signed by both parties. It is the only document capable of proving the real state of the property at the beginning of the lease for the purpose of charging for future damages.</p>
@@ -683,7 +683,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>The general rule is that the tenant can return the property at any time, paying the termination fine proportional to the time remaining on the contract. However, there are exemption situations that need to be known.</p>
-            <h4 className="text-white text-xl font-serif">Exemption Cases</h4>
+            <h2 className="text-white text-xl font-serif">Exemption Cases</h2>
             <p>The first is legal: if the tenant is transferred by their employer to another location, they are exempt from the fine as long as they notify the lessor 30 days in advance. The second is contractual: many contracts provide for fine exemption after 12 or 15 months of duration in 30-month contracts.</p>
             <p>It is important to emphasize that fine exemption does not untie the tenant from delivering the property in a perfect state of repair, according to the initial inspection report. The Soares Martins office guides both lessors and lessees in drafting and interpreting these clauses, seeking contractual balance.</p>
             <p>Remember that the fine must always be proportional. If the tenant leaves with 5 months left to finish a 30-month contract, they do not pay the full fine, but only 5/30 of the amount stipulated in the document.</p>
@@ -705,7 +705,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>The moment keys are handed over is what legally ends the tenant's possession of the property. However, many mistakes made in this phase generate judicial collections months later. The "Key Handover Term" document is indispensable to prove the exact date of exit.</p>
-            <h4 className="text-white text-xl font-serif">The Importance of the Inspection</h4>
+            <h2 className="text-white text-xl font-serif">The Importance of the Inspection</h2>
             <p>The exit inspection must be strictly confronted with the entry inspection. The tenant has the obligation to return the property in the state they received it, except for natural wear and tear from use. Painting, holes in walls, and damage to cabinets are the most sensitive points.</p>
             <p>If there are discrepancies, the lessor cannot refuse to receive the keys as a way of forcing the renovation. They must receive the keys and, subsequently, charge for the necessary repairs. Soares Martins acts in the formalization of this closure, ensuring that the termination is clear and secure.</p>
             <p>The termination agreement with full release, after all rent and repair settlements, is the tenant's "passport to peace", avoiding "surprises" on their credit record after the end of the journey in that property.</p>
@@ -731,10 +731,10 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>La Ley General de Protección de Datos (LGPD) no perdona a nadie, ni siquiera a los condominios residenciales. Aunque no poseen personalidad jurídica plena, los condominios son considerados "controladores de datos" bajo la óptica de la ley, ya que recolectan, almacenan y procesan información de residentes, empleados y visitantes diariamente. Esta responsabilidad implica la necesidad de una revisión profunda de todos los procesos internos, desde la recepción hasta el descarte de documentos físicos y digitales, garantizando que el tratamiento de datos ocurra de forma transparente y segura.</p>
-            <h4 className="text-white text-xl font-serif">El Desafío de la Portería y el Control de Acceso</h4>
+            <h2 className="text-white text-xl font-serif">El Desafío de la Portería y el Control de Acceso</h2>
             <p>La recolección excesiva de datos en la recepción es el punto más crítico y común de vulnerabilidad. Solicitar identificación, CPF, fotos e incluso biometría de los visitantes sin un propósito claro, base legal definida y un aviso de privacidad adecuado es una violación directa a los principios de necesidad y transparencia. El condominio debe limitar la recolección a lo estrictamente necesario para garantizar la seguridad del desarrollo, informando claramente al titular de los datos cómo se utilizará su información y por cuánto tiempo se mantendrá en archivo.</p>
             <p>Además, el almacenamiento de estos datos debe seguir protocolos rigurosos de ciberseguridad. El software de gestión de portería debe estar actualizado y contar con encriptación, mientras que los registros físicos deben guardarse en lugares de acceso restringido. La capacitación de los empleados de portería y administración es fundamental, ya que son la primera línea en el tratamiento de estos datos y necesitan comprender la importancia de la confidencialidad y la protección de la información de terceros, evitando fugas accidentales o accesos no autorizados.</p>
-            <h4 className="text-white text-xl font-serif">Monitoreo por Cámaras y Derechos Individuales</h4>
+            <h2 className="text-white text-xl font-serif">Monitoreo por Cámaras y Derechos Individuales</h2>
             <p>Las imágenes captadas por el circuito interno de TV (CCTV) son consideradas datos personales y, en muchos casos, datos biométricos, lo que eleva el nivel de protección exigido. Es fundamental que existan placas informativas visibles en todos los puntos de monitoreo y que el acceso a estas imágenes esté restringido a unas pocas personas autorizadas, con registro de log de acceso para auditoría. Compartir imágenes de cámaras en grupos de WhatsApp de residentes, por ejemplo, es una práctica altamente riesgosa que puede generar demandas de indemnización contra el condominio y el administrador.</p>
             <p>Finalmente, el cumplimiento de la LGPD requiere el nombramiento de un Encargado de Datos (DPO), que puede ser una empresa especializada o un profesional interno capacitado. Este responsable actuará como puente entre el condominio, los titulares de los datos y la Autoridad Nacional de Protección de Datos (ANPD). La implementación de una Política de Privacidad robusta y la realización de auditorías periódicas son pasos esenciales para mitigar riesgos jurídicos y garantizar que el condominio cumpla con la legislación vigente, promoviendo un entorno más seguro y ético para todos.</p>
             <p>La firma Soares Martins ofrece consultoría especializada para la implementación de la LGPD en condominios, incluyendo el mapeo de procesos de datos, la creación de políticas internas y la capacitación de equipos. Nuestro objetivo es asegurar que el condominio esté protegido contra sanciones y que se respete la privacidad de todos los residentes, transformando el cumplimiento legal en una ventaja competitiva y un factor de tranquilidad para toda la comunidad.</p>
@@ -874,7 +874,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>La Ley del Inquilinato (Ley 8.245/91) establece cuatro modalidades de garantía locaticia: caución, fianza, seguro-fiança y cesión fiduciaria de cuotas de fondos de inversión. Está prohibida la exigencia de más de una modalidad de garantía en un mismo contrato de alquiler, bajo pena de nulidad e incluso sanción penal.</p>
-            <h4 className="text-white text-xl font-serif">Principales Modalidades</h4>
+            <h2 className="text-white text-xl font-serif">Principales Modalidades</h2>
             <p>La caución en efectivo, limitada a tres meses de alquiler, es la más común por su facilidad, pero puede ser insuficiente en desahucios prolongados. La fianza es la tradicional, exigiendo un fiador con inmueble propio, pero ha caído en desuso por la dificultad de encontrar a alguien que acepte el encargo. El seguro-fiança ha crecido mucho, ya que garantiza el pago al arrendador y exime al arrendatario de buscar un fiador, aunque tiene un costo anual.</p>
             <p>La oficina Soares Martins recomienda el análisis critico del perfil de las partes antes de la elección. Para el arrendador, el seguro-fiança suele ser el más seguro. Para el arrendatario, la caución puede ser financieramente más ventajosa a largo plazo, ya que el valor se devuelve con rendimientos de ahorro al final del contrato.</p>
             <p>Es vital resaltar que el análisis catastral y el "scoring" de crédito no sustituyen la garantía, sino que la complementan. Un buen análisis de riesgo reduce drásticamente la posibilidad de necesitar activar la garantía judicialmente.</p>
@@ -896,7 +896,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>Un contrato de alquiler "de gaveta" o bajado de internet suele ser una fuente inagotable de problemas. Existen cláusulas que son "clásicas", como el valor del alquiler y el índice de reajuste (generalmente el IPCA o IGP-M), pero otras son igualmente vitales para la seguridad jurídica.</p>
-            <h4 className="text-white text-xl font-serif">Seguridad para Arrendador y Arrendatario</h4>
+            <h2 className="text-white text-xl font-serif">Segurança para Arrendador y Arrendatario</h2>
             <p>La cláusula de vigencia en caso de alienación (venta del inmueble) es fundamental para el inquilino: sin ella registrada en la matrícula, el nuevo comprador puede denunciar el contrato y pedir el inmueble en 90 días. Para el arrendador, la cláusula que prohíbe el subarriendo sin autorización previa y por escrito es esencial para mantener el control sobre quién ocupa el bien.</p>
             <p>Además, la definición clara del destino del inmueble (residencial o comercial) y la responsabilidad del pago de cargos extras (como fondo de reserva del condominio y obras extraordinarias) evitan discusiones futuras. Nuestra consultoría en Soares Martins se enfoca en redactar contratos personalizados que prevean escenarios de conflicto.</p>
             <p>El informe de inspección detallado y con fotos debe ser parte integrante del contrato, firmado por ambas partes. Es el único documento capaz de demostrar el estado real del inmueble al inicio del alquiler para fines de cobro de daños futuros.</p>
@@ -918,7 +918,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>La regla general es que el inquilino puede devolver el inmueble en cualquier momento, pagando la multa rescisoria proporcional al tiempo que queda de contrato. Sin embargo, existen situaciones de exención que deben conocerse.</p>
-            <h4 className="text-white text-xl font-serif">Casos de Exención</h4>
+            <h2 className="text-white text-xl font-serif">Casos de Exención</h2>
             <p>La primera es legal: si el inquilino es trasladado por su empleador a otra localidad, queda exento de la multa siempre que notifique al arrendador con 30 días de antelación. La segunda es contractual: muchos contratos prevén la exención de multa después de 12 o 15 meses de vigencia en contratos de 30 meses.</p>
             <p>Es importante resaltar que la exención de la multa no desobliga al inquilino de entregar el inmueble en perfecto estado de conservación, según el informe de inspección inicial. La oficina Soares Martins orienta tanto a arrendadores como a arrendatarios en la redacción e interpretación de estas cláusulas, buscando el equilibrio contractual.</p>
             <p>Cabe recordar que la multa debe ser siempre proporcional. Si el inquilino sale faltando 5 meses para terminar un contrato de 30, no paga la multa completa, sino solo 5/30 del valor estipulado en el documento.</p>
@@ -940,7 +940,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
         content: (
           <div className="space-y-6">
             <p>El momento de la entrega de las llaves es lo que pone fin jurídicamente a la posesión del inquilino sobre el inmueble. Sin embargo, muchos errores cometidos en esta fase generan cobros judiciales meses después. El documento de "Término de Entrega de Llaves" es indispensable para demostrar la fecha exacta de la salida.</p>
-            <h4 className="text-white text-xl font-serif">La Importancia de la Inspección</h4>
+            <h2 className="text-white text-xl font-serif">La Importancia de la Inspección</h2>
             <p>La inspección de salida debe ser confrontada rigurosamente con la inspección de entrada. El inquilino tiene la obligación de devolver el inmueble en el estado en que lo recibió, salvo los desgastes naturales por el uso. Pintura, agujeros en las paredes y daños en los armarios son los puntos más sensibles.</p>
             <p>En caso de divergencias, el arrendador no puede negarse a recibir las llaves como forma de forzar la reforma. Debe recibir las llaves y, posteriormente, cobrar las reparaciones debidas. Soares Martins actúa en la formalización de este cierre, garantizando que el distrato sea claro y seguro.</p>
             <p>El distrato con pleno finiquito, después de todos los ajustes de alquiler y reparaciones, es el "pasaporte a la paz" del inquilino, evitando "sorpresas" en su historial de crédito después del cierre de la jornada en ese inmueble.</p>
@@ -968,10 +968,10 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       content: (
         <div className="space-y-6">
           <p>A Lei Geral de Proteção de Dados (LGPD) não poupa ninguém, nem mesmo os condomínios edilícios. Embora não possuam personalidade jurídica plena, os condomínios são considerados "controladores de dados" sob a ótica da lei, uma vez que coletam, armazenam e processam informações de condôminos, funcionários e visitantes diariamente. Essa responsabilidade implica na necessidade de uma revisão profunda de todos os processos internos, desde a recepção até o descarte de documentos físicos e digitais, garantindo que o tratamento de dados ocorra de forma transparente e segura.</p>
-          <h4 className="text-white text-xl font-serif">O Desafio da Portaria e Controle de Acesso</h4>
+          <h2 className="text-white text-xl font-serif">O Desafio da Portaria e Controle de Acesso</h2>
           <p>A coleta excessiva de dados na recepção é o ponto mais crítico e comum de vulnerabilidade. Solicitar RG, CPF, foto e até biometria de visitantes sem uma finalidade clara, base legal definida e um aviso de privacidade adequado é uma violação direta aos princípios da necessidade e da transparência. O condomínio deve limitar a coleta ao estritamente necessário para garantir a segurança do empreendimento, informando claramente ao titular dos dados como suas informações serão utilizadas e por quanto tempo serão mantidas em arquivo.</p>
           <p>Além disso, o armazenamento desses dados deve seguir protocolos rigorosos de segurança cibernética. Softwares de gestão de portaria precisam estar atualizados e contar com criptografia, enquanto os registros físicos devem ser guardados em locais de acesso restrito. O treinamento dos funcionários da portaria e da administração é fundamental, pois eles são a linha de frente no tratamento desses dados e precisam compreender a importância do sigilo e da proteção das informações de terceiros, evitando vazamentos acidentais ou acessos não autorizados.</p>
-          <h4 className="text-white text-xl font-serif">Monitoramento por Câmeras e Direitos Individuais</h4>
+          <h2 className="text-white text-xl font-serif">Monitoramento por Câmeras e Direitos Individuais</h2>
           <p>As imagens captadas pelo circuito interno de TV (CFTV) são consideradas dados pessoais e, em muitos casos, dados biométricos, o que eleva o nível de proteção exigido. É fundamental que existam placas informativas visíveis em todos os pontos de monitoramento e que o acesso a essas imagens seja restrito a poucas pessoas autorizadas, com registro de log de acesso para auditoria. O compartilhamento de imagens de câmeras em grupos de WhatsApp de moradores, por exemplo, é uma prática altamente arriscada que pode gerar processos indenizatórios contra o condomínio e o síndico.</p>
           <p>Por fim, a adequação à LGPD exige a nomeação de um Encarregado de Dados (DPO), que pode ser uma empresa especializada ou um profissional interno capacitado. Este responsável atuará como ponte entre o condomínio, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). A implementação de uma Política de Privacidade robusta e a realização de auditorias periódicas são passos essenciais para mitigar riscos jurídicos e garantir que o condomínio esteja em conformidade com a legislação vigente, promovendo um ambiente mais seguro e ético para todos.</p>
           <p>O escritório Soares Martins oferece consultoria especializada para a implementação da LGPD em condomínios, incluindo o mapeamento de processos de dados, a criação de políticas internas e o treinamento de equipes. Nosso objetivo é garantir que o condomínio esteja protegido contra sanções e que a privacidade de todos os moradores seja respeitada, transformando a conformidade legal em uma vantagem competitiva e um fator de tranquilidade para toda a comunidade.</p>
@@ -1005,7 +1005,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 3,
       slug: 'inadimplencia-recorde-recuperacao-caixa',
-      title: "Inadimplência recorde? Estratégias jurídicas para recuperação de caixa.",
+      title: "Inadimplência em Condomínio: Estratégias de Recuperação",
       excerpt: "Novas ferramentas processuais permitem maior rapidez na execução de cotas condominiais. Descubra como proteger as finanças do prédio.",
       readTime: `14 min ${t('blog_page.read_time_suffix')}`,
       content: (
@@ -1025,7 +1025,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 4,
       slug: 'gestao-condominial-previsao-orcamentaria',
-      title: "Gestão Condominial: A importância da Previsão Orçamentária Anual",
+      title: "A Importância da Previsão Orçamentária Anual em Condomínio",
       excerpt: "O planejamento é a chave para uma gestão saudável. Saiba como elaborar uma previsão orçamentária realista e evitar chamadas extras.",
       readTime: `11 min ${t('blog_page.read_time_suffix')}`,
       content: (
@@ -1065,7 +1065,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 6,
       slug: 'direito-imobiliario-due-diligence-compra',
-      title: "Direito Imobiliário: A importância da Due Diligence na compra de imóveis",
+      title: "Due Diligence na Compra de Imóveis: Sua Importância no RJ",
       excerpt: "Comprar um imóvel é um investimento de alto valor. Saiba por que a due diligence é essencial para evitar problemas jurídicos futuros.",
       readTime: `13 min ${t('blog_page.read_time_suffix')}`,
       content: (
@@ -1085,7 +1085,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 7,
       slug: 'convivencia-condominios-barulho-areas-comuns',
-      title: "Convivência em Condomínios: Como lidar com barulho e áreas comuns",
+      title: "Como Lidar com Barulho e Áreas Comuns em Condomínios",
       excerpt: "Conflitos entre vizinhos são comuns, mas podem ser evitados com regras claras e mediação. Saiba como promover uma convivência saudável.",
       readTime: `10 min ${t('blog_page.read_time_suffix')}`,
       content: (
@@ -1105,7 +1105,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 8,
       slug: 'cobranca-judicial-inadimplente-condominio-rj',
-      title: "Como funciona a cobrança judicial de inadimplente em condomínio no RJ",
+      title: "Cobrança Judicial de Inadimplente em Condomínio no RJ",
       excerpt: "A inadimplência é um dos maiores desafios dos síndicos no Rio de Janeiro. Entenda o passo a passo jurídico para recuperar as cotas em atraso.",
       readTime: `15 min ${t('blog_page.read_time_suffix')}`,
       content: (
@@ -1166,7 +1166,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       content: (
         <div className="space-y-6">
           <p>A Lei do Inquilinato (Lei 8.245/91) estabelece quatro modalidades de garantia locatícia: caução, fiança, seguro-fiança e cessão fiduciária de quotas de fundo de investimento. É proibida a exigência de mais de uma modalidade de garantia num mesmo contrato de locação, sob pena de nulidade e até sanção criminal.</p>
-          <h4 className="text-white text-xl font-serif">Principais Modalidades</h4>
+          <h2 className="text-white text-xl font-serif">Principais Modalidades</h2>
           <p>A caução em dinheiro, limitada a três meses de aluguel, é a mais comum pela facilidade, mas pode ser insuficiente em despejos demorados. A fiança é a tradicional, exigindo um fiador com imóvel próprio, mas tem caído em desuso pela dificuldade de encontrar quem aceite o encargo. O seguro-fiança tem crescido muito, pois garante o pagamento ao locador e dispensa o locatário de buscar um fiador, embora tenha um custo anual.</p>
           <p>O escritório Soares Martins recomenda a análise criteriosa do perfil de as partes antes da escolha. Para o locador, o seguro-fiança costuma ser a mais segura. Já para o locatário, a caução pode ser financeiramente mais vantajosa a longo prazo, já que o valor é devolvido com rendimentos de poupança ao final do contrato.</p>
           <p>É vital ressaltar que a análise cadastral e o "scoring" de crédito não substituem a garantia, mas a complementam. Uma boa análise de risco reduz drasticamente a chance de precisar acionar a garantia judicialmente.</p>
@@ -1182,13 +1182,13 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 12,
       slug: 'clausulas-fundamentais-contrato-locacao',
-      title: "Cláusulas Fundamentais: O que não pode faltar no seu contrato de locação",
+      title: "Cláusulas Indispensáveis no Contrato de Locação",
       excerpt: "Um contrato bem redigido é a melhor forma de evitar conflitos judiciais. Veja quais cláusulas são indispensáveis para proteger ambas as partes.",
       readTime: `14 min ${t('blog_page.read_time_suffix')}`,
       content: (
         <div className="space-y-6">
           <p>Um contrato de locação "de gaveta" ou baixado da internet costuma ser uma fonte inesgotável de problemas. Existem cláusulas que são "clássicas", como o valor do aluguel e o índice de reajuste (geralmente o IPCA ou IGP-M), mas outras são igualmente vitais para a segurança jurídica.</p>
-          <h4 className="text-white text-xl font-serif">Segurança para Locador e Locatário</h4>
+          <h2 className="text-white text-xl font-serif">Segurança para Locador e Locatário</h2>
           <p>A cláusula de vigência em caso de alienação (venda do imóvel) é fundamental para o inquilino: sem ela registrada na matrícula, o novo comprador pode denunciar o contrato e pedir o imóvel em 90 dias. Para o locador, a cláusula que proíbe a sublocação sem autorização prévia e por escrito é essencial para manter o controle sobre quem ocupa o bem.</p>
           <p>Além disso, a definição clara da destinação do imóvel (residencial ou comercial) e a responsabilidade pelo pagamento de encargos extras (como fundo de reserva do condomínio e obras extraordinárias) evitam discussões futuras. Nossa consultoria no Soares Martins foca em redigir contratos personalizados que prevejam cenários de conflito.</p>
           <p>O laudo de vistoria detalhado e com fotos deve ser parte integrante do contrato, assinado por ambas as partes. Ele é o único documento capaz de comprovar o estado real do imóvel no início da locação para fins de cobrança de danos futuros.</p>
@@ -1204,13 +1204,13 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 13,
       slug: 'isencao-multa-rescisoria-locacao',
-      title: "Isenção de Multa Rescisória: Quando o inquilino pode sair sem pagar?",
+      title: "Quando o Inquilino Pode Sair Sem Pagar Multa Rescisória?",
       excerpt: "A rescisão antecipada nem sempre implica em multa. Entenda a cláusula de isenção e as previsões legais para devolução do imóvel.",
       readTime: `10 min ${t('blog_page.read_time_suffix')}`,
       content: (
         <div className="space-y-6">
           <p>A regra geral é que o inquilino pode devolver o imóvel a qualquer tempo, pagando a multa rescisória proporcional ao tempo que resta de contrato. No entanto, existem situações de isenção que precisam ser conhecidas.</p>
-          <h4 className="text-white text-xl font-serif">Casos de Isenção</h4>
+          <h2 className="text-white text-xl font-serif">Casos de Isenção</h2>
           <p>A primeira é legal: se o inquilino for transferido pelo seu empregador para outra localidade, ele fica isento da multa desde que notifique o locador com 30 dias de antecedência. A segunda é contratual: muitos contratos preveem a isenção de multa após 12 ou 15 meses de vigência em contratos de 30 meses.</p>
           <p>É importante ressaltar que a isenção da multa não desobriga o inquilino de entregar o imóvel em perfeito estado de conservação, conforme o laudo de vistoria inicial. O escritório Soares Martins orienta tanto locadores quanto locatários na redação e interpretação dessas cláusulas, buscando o equilíbrio contratual.</p>
           <p>Vale lembrar que a multa deve ser sempre proporcional. Se o inquilino sai faltado 5 meses para acabar um contrato de 30, ele não paga a multa cheia, mas apenas 5/30 do valor estipulado no documento.</p>
@@ -1232,7 +1232,7 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       content: (
         <div className="space-y-6">
           <p>O momento da entrega das chaves é o que encerra juridicamente a posse do inquilino sobre o imóvel. Contudo, muitos erros cometidos nessa fase geram cobranças judiciais meses depois. O documento de "Termo de Entrega de Chaves" é indispensável para comprovar a data exata da saída.</p>
-          <h4 className="text-white text-xl font-serif">A Importância da Vistoria</h4>
+          <h2 className="text-white text-xl font-serif">A Importância da Vistoria</h2>
           <p>A vistoria de saída deve ser confrontada rigorosamente com a vistoria de entrada. O inquilino tem a obrigação de devolver o imóvel no estado em que recebeu, salvo os desgastes naturais do uso. Pintura, furos em paredes e danos em armários são os pontos mais sensíveis.</p>
           <p>Caso haja divergências, o locador não pode se recusar a receber as chaves como forma de forçar a reforma. Ele deve receber as chaves e, posteriormente, cobrar os reparos devidos. O Soares Martins atua na formalização desse encerramento, garantizando que o distrato seja claro e seguro.</p>
           <p>O distrato com quitação plena, após todos os acertos de aluguel e reparos, é o "passaporte para a paz" do inquilino, evitando "surpresas" na sua ficha de crédito após o encerramento da jornada naquele imóvel.</p>

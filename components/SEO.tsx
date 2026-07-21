@@ -20,7 +20,7 @@ const SEO: React.FC<SeoProps> = ({ title, description, type = 'website', image, 
   
   // Standardize canonical URLs to include trailing slashes (except for home)
   const canonicalUrl = pathname === '/' ? siteUrl : `${siteUrl}${pathname.endsWith('/') ? pathname : `${pathname}/`}`;
-  const fullTitle = `${title} | Soares Martins Advogados`;
+  const fullTitle = title.toLowerCase().includes('soares martins') ? title : `${title} | Soares Martins Advogados`;
 
   return (
     <Helmet>

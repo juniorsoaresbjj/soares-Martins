@@ -164,8 +164,8 @@ const AppContent: React.FC = () => {
           <Route path="/" element={
             <div className="animate-fade-in-up">
               <SEO 
-                title="Advogado Condominial e Imobiliário no Rio de Janeiro | Soares Martins Advogados" 
-                description="Advogado Condominial e Imobiliário no Rio de Janeiro. Assessoria jurídica para condomínios, síndicos, proprietários e locadores, com atuação em cobrança condominial, ações de despejo, contratos, locações e conflitos imobiliários."
+                title="Advogado Condominial e Imobiliário RJ | Soares Martins" 
+                description="Advogado condominial e imobiliário no RJ. Assessoria jurídica para condomínios, síndicos, contratos de locações, cobranças e ações de despejo no Rio de Janeiro."
                 schema={homeSchema}
               />
               <Hero />
