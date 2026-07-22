@@ -167,7 +167,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
                 <span className="flex items-center gap-2"><Calendar size={14} className="text-bronze" /> {selectedPost.date}</span>
                 <span className="flex items-center gap-2"><Clock size={14} className="text-bronze" /> {selectedPost.readTime}</span>
               </div>
-              <h1 className="font-serif text-white text-3xl sm:text-4xl md:text-6xl leading-tight">{selectedPost.title}</h1>
+              <h1 className="font-serif text-white text-3xl sm:text-4xl md:text-6xl leading-tight break-words">{selectedPost.title}</h1>
               <div className="w-full h-64 sm:h-96 overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
                 <img src={selectedPost.image} className="w-full h-full object-cover" alt="" />
               </div>

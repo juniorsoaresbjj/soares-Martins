@@ -25,31 +25,110 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: 'Entenda os principais de problemas enfrentados por síndicos no Rio de Janeiro e saiba como a assessoria jurídica especializada evita conflitos no condomínio.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
-        <div className="space-y-6 text-justify">
-          <p>Os <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong> no cotidiano da gestão condominial são extremamente amplos e exigem um alto nível de dedicação e preparo técnico para evitar repercussões civis e penais para a comunidade. Administrar um condomínio na capital do RJ é um desafio imenso, uma vez que o gestor se vê frequentemente diante de conflitos de convivência, alta inadimplência de taxas, problemas em relações de trabalho e complexos processos de contratação de prestadores de serviços terceirizados. Diante desse cenário complexo, o síndico atua como um gestor de conflitos, administrador de recursos financeiros coletivos e representante legal do edifício. O acréscimo de novas obrigações legislativas federais e municipais elevou imensamente a responsabilidade do cargo de síndico morador ou profissional.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">A Inadimplência no Rio de Janeiro e Seus Impactos Financeiros</h2>
-          <p>A taxa de inadimplência de cotas condominiais é um dos principais <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong> e afeta de forma direta as condições financeiras e operacionais da edificação. O não pagamento pontual do condomínio pelos condôminos asfixia o caixa e obstrui a manutenção básica preventiva das estruturas civis, o custeio de prestadores de serviços de segurança e limpeza, além de atrasar o pagamento de funcionários próprios. Em tempos de instabilidade econômica no Rio de Janeiro, o síndico precisa adotar medidas de cobrança assertivas e tecnicamente blindadas. Com a nova redação do Código de Processo Civil de 2015, a cota em atraso foi devidamente caracterizada como título executivo extrajudicial, agilizando as cobranças judiciais. No entanto, sem a correta constituição e comprovação documental por meio de atas de assembleias regulares e balancetes claros, o condomínio assume riscos judiciais desnecessários.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Conflitos de Convivência entre Vizinhos no RJ</h2>
-          <p>A convivência em ambiente compartilhado é sabidamente complexa, e a mediação de desentendimentos interpessoais figura rotineiramente entre os maiores <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong>. Conflitos envolvendo perturbação do sossego com barulhos excessivos na calada da noite, a permanência de animais de estimação que causem desordem sanitária e o desrespeito ao uso de vagas de garagem geram desgastes severos à paz no condomínio. Nestes cenários inflamados, a ausência de uma assessoria jurídica regulamentadora pode desencadear uma série de condutas abusivas ou falhas processuais administrativas. O síndico não está autorizado pela lei a aplicar penalidades financeiras pesadas sem a devida observância ao princípio da ampla defesa e do contraditório, o que pode dar margem à anulação judicial da sanção, desgastando a autoridade exercida pelo administrador geral do condomínio.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Problemas Contratuais com Prestadoras de Serviços em Condomínios</h2>
-          <p>A formulação e rescisão de contratos com empresas terceirizadas de serviços representam mais uma fonte recorrente de perigos graves para a gestão e constam na lista de <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong> mais onerosos para o fluxo financeiro. Ao implantar serviços de segurança armada, monitoramento de portaria remota ou contratar grandes empreiteiras civis para reformas estruturais na fachada, as minutas de contrato costumam conter termos excessivos que protegem prioritariamente a empresa contratada. O síndico desimpedido de assessoria de um advogado muitas vezes aceita reajustes de tarifas abusivos e prazos de encerramento contratual que o tornam refém de serviços mal prestados. Além disso, a responsabilidade civil subsidiária em processos trabalhistas com ex-funcionários terceirizados gera grandes perdas contábeis para a receita do condomínio no RJ.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">A Falta de Assessoria Preventiva Agrava a Gestão Condominial</h2>
-          <p>O desconhecimento legal preventivo é, historicamente, o multiplicador de todos os <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong> no âmbito administrativo. Praticamente toda ação corretiva que o síndico executa sem respaldo de um especialista em direito condominial pode desencadear consequências longas e custosas. Reuniões de assembleia mal conduzidas, redação inadequada de editais de convocação e a falta de zelo com os novos preceitos legais de tratamento de dados biométricos na portaria (LGPD) geram processos passivos imensos. Valer-se unicamente da orientação de administradoras padrão de condomínios no RJ é um risco acentuado, visto que as mesmas prestam soluções puramente gerenciais e não possuem foco processual focado nas especificidades delicadas de litígios jurídicos entre os moradores do próprio edifício.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Como o Advogado Condominial Lidera a Resolução de Problemas no RJ</h2>
-          <p>Contar com um advogado condominial no Rio de Janeiro independente capacita o síndico a solucionar de forma rápida e segura todas as vertentes de conflitos de gestão operacional. Através de auditoria documental preventiva, mediações eficientes de vizinhança e um plano agressivo extrajudicial de combate à inadimplência recorrente, a atuação de um time de specialists desonera a imagem do administrador ativo e reestabelece o convívio fraterno no edifício. O Soares Martins oferece uma equipe robusta de assessoria jurídica para síndicos no Rio de Janeiro para ampará-los com destreza e segurança jurídica em cada etapa da gestão.</p>
-          
-          <h3 className="text-white text-xl font-serif mt-4">Nossos Serviços Especializados para Gestão Jurídica de Condomínio no RJ</h3>
-          <p>Oferecemos suporte jurídico integral para mitigar os <strong>problemas enfrentados por síndicos no Rio de Janeiro</strong> diariamente. Isso engloba elaboração e alteração segura de convenção e regimento interno, acompanhamento presencial em assembleias delicadas e cobrança célere judicial de devedores. Conheça nossos pilares de atuação e veja como blindar o patrimônio coletivo visitando nossa página de <Link to="/servicos/" className="text-bronze hover:underline font-bold">Serviços Jurídicos</Link> e conhecendo nossa <Link to="/equipe/" className="text-bronze hover:underline font-bold">Equipe de Especialistas</Link>.</p>
-          
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Administrar um condomínio no Rio de Janeiro é uma tarefa desafiadora que vai muito além de gerenciar contas e organizar reuniões. No dia a dia, quem assume a gestão condominial precisa lidar com conflitos interpessoais, inadimplência de cotas, contratações de serviços terceirizados e o cumprimento de exigências legais em constante atualização. Sem o suporte técnico adequado, decisões administrativas simples podem gerar desgastes severos e até responsabilização civil e criminal para o gestor.
+          </p>
+
+          <p>
+            Em bairros de grande densidade urbana — como Copacabana, Ipanema, Tijuca, Barra da Tijuca e Niterói —, a convivência próxima amplia a complexidade dos problemas. Compreender quais são os principais desafios da gestão e saber como agir com respaldo jurídico garante a preservação do patrimônio coletivo e a harmonia entre os moradores.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como a inadimplência afeta as finanças e a operação do condomínio?</h2>
+          <p>
+            O atraso no pagamento das cotas condominiais é uma das principais causas de desequilíbrio financeiro nos edifícios. Quando uma parcela considerável de condôminos deixa de quitar suas obrigações, a arrecadação diminui, comprometendo a manutenção preventiva das instalações, o pagamento de funcionários próprios e a honra de compromissos com fornecedores de segurança e limpeza.
+          </p>
+
+          <p>
+            Com as regras do Código de Processo Civil, a taxa de condomínio possui natureza de título executivo extrajudicial, permitindo uma cobrança judicial com maior celeridade. Contudo, para que a execução ocorra sem entraves, a documentação do prédio deve estar em perfeita ordem. Atas de assembleia aprovando a previsão orçamentária, convenção registrada e balancetes claros são requisitos indispensáveis para respaldar a cobrança e evitar questionamentos na Justiça.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual a melhor forma de gerenciar conflitos de convivência entre vizinhos?</h2>
+          <p>
+            Desentendimentos interpessoais por causa de barulho fora de hora, vazamentos não reparados, uso inadequado de vagas de garagem ou desacordo sobre regras de animais de estimação exigem do gestor uma postura técnica e imparcial. Tentar resolver esses impasses sem critérios objetivos costuma inflamar os ânimos e gerar acusações de perseguição pessoal.
+          </p>
+
+          <p>
+            A aplicação de advertências e multas deve seguir rigorosamente a gradação estipulada na Convenção e no Regimento Interno, respeitando o direito ao contraditório e à ampla defesa. Punições aplicadas sem notificação prévia ou sem fundamentação probatória podem ser anuladas judicialmente, gerando o dever de indenizar e comprometendo a autoridade da gestão.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais cuidados devem ser adotados na contratação de empresas terceirizadas?</h2>
+          <p>
+            A contratação de serviços de portaria remota, vigilância patrimonial ou empreiteiras para reformas de fachada envolve custos altos e riscos jurídicos expressivos. Minutas contratuais elaboradas pelas próprias prestadoras frequentemente contêm cláusulas abusivas de fidelidade, reajustes desproporcionais e isenção de responsabilidade.
+          </p>
+
+          <p>
+            Outro ponto crítico é o risco de responsabilização subsidiária do condomínio em reclamações trabalhistas movidas por funcionários terceirizados. Sem a fiscalização mensal do recolhimento de encargos sociais, FGTS e INSS das prestadoras, o condomínio pode ser acionado na Justiça do Trabalho para arcar com dívidas de terceiros.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Por que a assessoria jurídica preventiva é indispensável na gestão condominial?</h2>
+          <p>
+            Muitos problemas graves surgem quando decisões importantes são tomadas sem orientação jurídica especializada. Convocações de assembleias com vícios formais, alteração de regras sem o quórum legal exigido ou o descumprimento da Lei Geral de Proteção de Dados (LGPD) na coleta de biometria de moradores podem anular deliberações e gerar passivos financeiros.
+          </p>
+
+          <p>
+            Embora as administradoras prestem suporte na gestão contábil e operacional, elas não substituem a atuação de um advogado especialista. Ter uma assessoria independente garante pareceres imparciais e defesas personalizadas na proteção dos interesses da comunidade.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é síndico ou conselheiro no Rio de Janeiro e precisa profissionalizar a gestão com respaldo jurídico seguro, acesse nossos links:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: soluções completas para cobrança de inadimplentes, alteração de regimento e assessoria em assembleias.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais qualificados na mediação de conflitos e governança condominial no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Síndicos e Gestores</Link>: agende uma consultoria para avaliar as necessidades jurídicas do seu condomínio.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Contar com um suporte jurídico estruturado permite ao síndico tomar decisões firmes com tranquilidade, prevenindo litígios e garantindo uma gestão eficiente e respeitada por todos os condôminos.
+          </p>
+
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h3 className="text-white text-lg font-serif mb-4">Garantia de Segurança Jurídica para seu Condomínio</h3>
-            <p className="text-text-muted text-sm mb-4">Seja você síndico morador, profissional ou conselheiro no Rio de Janeiro, conte com a nossa experiência para solucionar seus desafios e profissionalizar a gestão condominial de forma impecável e segura.</p>
-            <p className="text-bronze font-bold text-sm">Fale diretamente com os nossos especialistas no WhatsApp e marque uma reunião pelo telefone (21) 97954-9241 ou envie uma mensagem através do formulário de contato integrado do site.</p>
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados auxilia síndicos no Rio de Janeiro?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema atua ao lado de síndicos moradores e profissionais para garantir a segurança jurídica da administração:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Execução célere de cotas condominiais em atraso e estruturação de acordos extrajudiciais;</li>
+              <li>Elaboração e atualização de Convenções e Regimentos Internos em conformidade com o Código Civil e LGPD;</li>
+              <li>Assessoria presencial ou virtual em assembleias ordinárias e extraordinárias;</li>
+              <li>Análise jurídica e revisão de contratos com fornecedores e prestadores de serviços terceirizados;</li>
+              <li>Orientação preventiva em conflitos de vizinhança e acompanhamento de processos judiciais.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Gestão e Problemas de Síndicos (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O síndico pode ser responsabilizado pessoalmente por erros na gestão do condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O síndico pode responder civil e criminalmente se agir com excesso de poder, omissão grave ou descumprimento de deveres legais que causem prejuízos financeiros ou danos ao condomínio e a terceiros.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Quanto tempo demora para cobrar judicialmente uma cota de condomínio em atraso?</h4>
+                <p className="text-text-muted text-xs mt-1">Como a cota condominial é título executivo extrajudicial, o devedor é citado para pagar em até 3 dias. Se a documentação estiver regular, o processo de execução é significativamente mais rápido do que uma ação comum.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. É possível proibir moradores inadimplentes de usarem as áreas comuns do prédio?</h4>
+                <p className="text-text-muted text-xs mt-1">O Superior Tribunal de Justiça (STJ) entende que é ilícita a proibição do uso de áreas comuns essenciais ou de lazer (como piscinas ou academias) aos devedores, devendo a cobrança ser feita exclusivamente pelos meios legais de execução financeira.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é a diferença entre a assessoria da administradora e um advogado condominial?</h4>
+                <p className="text-text-muted text-xs mt-1">A administradora cuida da gestão financeira, emissão de boletos e folha de pagamento. Já o advogado especialista oferece representação jurídica independente, atua em processos judiciais, revisa contratos complexos e defende o condomínio em litígios.</p>
+              </div>
+            </div>
           </div>
         </div>
       ),
@@ -61,38 +140,132 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 16,
       slug: 'problemas-juridico-administradora-condominio',
-      title: '6 problemas em usar o jurídico da sua administradora',
-      excerpt: 'Conheça os principais riscos de depender do jurídico da administradora de condomínio e a importância de contar com um advogado independente especializado no RJ.',
-      readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      title: "6 problemas em usar o jurídico da sua administradora / imobiliária",
+      excerpt: "Entenda os riscos de depender do setor jurídico da administradora ou imobiliária e a importância de contar com uma assessoria jurídica independente no Rio de Janeiro.",
+      readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
-        <div className="space-y-6 text-justify">
-          <p>O uso do <strong>jurídico da administradora de condomínio</strong> é uma prática muito comum no cotidiano de muitos edifícios no Rio de Janeiro, no entanto, essa conveniência pode esconder graves problemas estruturais de representação técnica para a sua comunidade. Diversos síndicos acreditam que os serviços de assessoria jurídica acoplados nos pacotes mensais oferecidos por uma administradora de condomínio no Rio de Janeiro são plenamente suficientes para salvaguardar os interesses coletivos dos moradores. Infelizmente, a realidade prática dos tribunais demonstra que essa escolha costuma expor o condomínio edilício a sérios riscos decorrentes de inadequações processuais, falta de dedicação personalizada e nítidos conflitos morais. A seguir, destacamos em detalhes os principais gargalos e desvantagens de limitar o controle jurídico de seu condomínio à assessoria de massa das administradoras do RJ.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">1. Conflito de Interesses Práticos para o Condomínio</h2>
-          <p>O principal problema ao relying no <strong>jurídico da administradora de condomínio</strong> diz respeito ao inescapável conflito de interesses quando surgem falhas operacionais na própria gestão financeira da empresa de administração. Imagine uma situação comum no RJ em que a administradora comete um erro sério no processamento de recolhimentos tributários e trabalhistas dos funcionários do prédio, gerando uma multa pecuniária expressiva para o condomínio. Nesse caso, como confiar no departamento jurídico interno dessa administradora para mover uma cobrança judicial ou notificação extrajudicial exigindo ressarcimento para o condomínio? Os advogados internos da administradora de condomínio no Rio de Janeiro defendem os interesses comerciais de quem assina suas carteiras de trabalho, impossibilitando que atuem de forma totalmente imparcial a favor dos moradores. Daí a necessidade inquestionável de contar com uma assessoria jurídica condominial independente.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">2. Falta de Especialização Processual e Atendimento Genérico</h2>
-          <p>Outro dos grandes problemas com administradora de condomínio é a falta de especialização voltada para litígios complexos das varas cíveis. O <strong>jurídico da administradora de condomínio</strong> normalmente opera como um departamento de massa focado no envio automatizado de notificações genéricas de inadimplentes e na cobrança administrativa sem profundidade. Quando o condomínio se depara com problemas processuais espinhosos, como discussões de posse com vizinhos lindeiros, fraude in licitações e contratos com grandes empreiteiras ou disputas trabalhistas sofisticadas, esses departamentos não possuem o tempo e nem a mão de obra especializada em direito imobiliário necessária para estruturar defesas complexas e robustas, dependendo exclusivamente de minutas extremamente repetitivas e padronizadas.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">3. Lentidão do Atendimento Geral e Gargalos de Comunicação</h2>
-          <p>Como lidam com centenas de condomínios da carteira comercial ao mesmo tempo, a morosidade e a inércia compõem as queixas mais ouvidas sobre o <strong>jurídico da administradora de condomínio</strong>. Para conseguir o retorno de uma consulta jurídica básica sobre regras de barulho no RJ ou receber a revisão de um contrato eletrônico simples, o síndico precisa passar por diversas centrais de atendimento, abrindo chamados eletrônicos demorados que demoram semanas para serem respondidos. Na área condominial, a agilidade do advogado condominial no Rio de Janeiro é o fator que dita o sucesso ou fracasso de discussões urgentes. A demora em tomar medidas imediatas de bloqueio judicial contra condôminos devedores pode prejudicar irreversivelmente o caixa financeiro da comunidade do prédio.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">4. Falta de Transparência Financeira nos Honorários Advocatícios</h2>
-          <p>O retorno financeiro proveniente de ações judiciais de cobrança de inadimplentes costuma ficar retido nas contas da própria empresa quando se usa o <strong>jurídico da administradora de condomínio</strong>. Muitas administradoras retêm integralmente para si os honorários de sucumbência arbitrados pelos juízes, que deveriam por direito retornar ao caixa ou ser negociados para diminuir os custos gerais do condomínio. Ao delegar o trabalho para um advogado independente para o condomínio no RJ, todas as taxas e honorários são pactuados em contrato de prestação de serviços com clareza absoluta, garantindo controle sob cada real que transita pelas contas internas e assegurando que os benefícios econômicos fiquem centralizados nas mãos da assembleia de moradores.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">5. Atuação Meramente Reativa e Falta de Auditoria Preventiva</h2>
-          <p>Ao contrário de uma assessoria jurídica condominial independente, o <strong>jurídico da administradora de condomínio</strong> raramente dispõe de recursos para praticar ações proativas. Eles não realizam auditorias preventivas rotineiras de convenções antigas, não alteram regimentos internos desatualizados e não fiscalizam contratos ativos. Eles se movem unicamente quando o desgaste já aconteceu e o condomínio foi processado, operando de forma passiva. Adotar essa conduta negligente é um verdadeiro convite a prejuízos financeiros volumosos, pois um bom advogado condominial no Rio de Janeiro sabe que prevenir disputas com acordos bem amparados é sempre mais econômico do que patrocinar ações judiciais custosas por anos a fio.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">6. Despreparo e Riscos nos Tribunais Trabalhistas no RJ</h2>
-          <p>Por fim, a área trabalhista é um canteiro fértil para despesas imensas causadas por falhas na contratação de pessoal e gestão de escalas, sendo um dos maiores problemas com administradora de condomínio. O <strong>jurídico da administradora de condomínio</strong> costuma assinar peças genéricas de defense trabalhista e não se aprofunda nos meandros de cada caso envolvendo porteiros, vigilantes, zeladores e auxiliares. Sem uma fiscalização rígida do cumprimento das obrigações funcionais do condomínio por um defensor próprio e um advogado independente para o condomínio no RJ, as perdas judiciais nas varas trabalhistas do Rio de Janeiro acabam por onerar severamente a cota condominial de cada morador de forma desnecessária.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Por que Contratar um Consultor Jurídico Independente no RJ</h2>
-          <p>Ter o suporte de uma assessoria jurídica condominial independente exime o condomínio do controle engessado das administradoras padrão. O escritório Soares Martins dispõe de atendimento especializado, ético e focado exclusivamente em prover as melhores e mais céleres soluções para o seu condomínio no Rio de Janeiro. Ao contar com defensores dedicados, o síndico resguarda sua reputação administrativa e a comunidade do edifício usufrui de uma convivência verdadeiramente harmoniosa e protegida pela lei. Navegue por nossa história em [Nossa História](/historia/) para conhecer nosso compromisso ou examine nossa [Equipe](/equipe/) jurídica qualificada.</p>
-          
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Na gestão de condomínios e imóveis no Rio de Janeiro, utilizar o departamento jurídico oferecido pela própria administradora ou imobiliária é uma prática bastante comum. À primeira vista, a opção parece vantajosa e econômica, pois o serviço já costuma vir embutido nos pacotes mensais de administração.
+          </p>
+
+          <p>
+            Entretanto, na prática jurídica diária, depender exclusivamente desse suporte interno expõe condomínios, síndicos e proprietários a riscos significativos. Conflitos de interesses, atendimento padronizado e lentidão nas respostas são apenas algumas das desvantagens que podem comprometer a defesa do seu patrimônio. A seguir, detalhamos os seis principais problemas dessa escolha e por que a assessoria autônoma é a alternativa mais segura.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">1. Existe conflito de interesses ao utilizar o jurídico fornecido pela administradora ou imobiliária?</h2>
+          <p>
+            O principal obstáculo ao usar o jurídico da administradora ou imobiliária é o inevitável conflito de interesses quando surgem falhas na prestação dos próprios serviços da empresa. Se a administradora cometer um erro no recolhimento de encargos trabalhistas, na elaboração da folha de pagamento ou no repasse de valores de aluguel, o prejuízo recai diretamente sobre o condomínio ou o proprietário.
+          </p>
+
+          <p>
+            Em cenários como esse, os advogados internos da empresa dificilmente tomarão medidas drásticas ou judiciais contra a própria empregadora. Como a relação trabalhista ou de prestação de serviços desses profissionais é vinculada à administradora, sua atuação imparcial fica comprometida, deixando o cliente sem uma defesa firme e isenta.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">2. Por que o atendimento jurídico dessas empresas tende a ser genérico e padronizado?</h2>
+          <p>
+            Os setores jurídicos internos de administradoras e imobiliárias operam em modelo de grande volume, atendendo dezenas ou centenas de clientes simultaneamente. Por essa razão, a atuação costuma ser padronizada, limitando-se ao envio de notificações de cobrança automatizadas e modelos genéricos de petição.
+          </p>
+
+          <p>
+            Quando o condomínio ou o locador enfrenta litígios mais complexos — como ações possessórias, disputas sobre obras de grande porte, descumprimento de convenção ou ações trabalhistas sofisticadas —, esses departamentos não dispõem de tempo nem de dedicação personalizada para estruturar uma tese defensiva sob medida.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">3. Como a falta de agilidade e os gargalos de comunicação impactam o condomínio?</h2>
+          <p>
+            A morosidade na comunicação é uma das queixas mais frequentes entre síndicos e proprietários. Consultas jurídicas simples ou pedidos de análise contratual costumam passar por triagens demoradas e sistemas de chamados, levando dias ou até semanas para obter resposta.
+          </p>
+
+          <p>
+            No âmbito imobiliário e condominial, a agilidade é determinante. Atrasos na proposição de uma execução de cotas em atraso ou na resposta a uma notificação extrajudicial podem resultar em perdas financeiras irrecuperáveis ou na perda de prazos processuais decisivos.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">4. Como funciona a transparência nos honorários e na retenção de verbas de cobrança?</h2>
+          <p>
+            Em muitas contratações com administradoras, os honorários sucumbenciais — valores arbitrados pelo juiz e pagos pela parte vencida nas ações de cobrança — são retidos integralmente pela empresa, sem retornar qualquer benefício ao caixa do condomínio.
+          </p>
+
+          <p>
+            Ao contratar uma assessoria jurídica independente, todas as condições financeiras e honorários são acordados com transparência contratual. O condomínio tem clareza sobre cada valor cobrado e sabe exatamente como as verbas recuperadas em juízo serão destinadas.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">5. Qual é o risco de uma atuação meramente reativa sem auditoria preventiva?</h2>
+          <p>
+            O departamento jurídico de uma administradora raramente atua de forma preventiva. Ações como revisão periódica de convenções antigas, atualização de regimentos internos, fiscalização contínua de fornecedores ou adequação à Lei Geral de Proteção de Dados (LGPD) dificilmente são executadas espontaneamente.
+          </p>
+
+          <p>
+            Geralmente, o suporte jurídico interno só é acionado após o surgimento do problema ou da citação em um processo judicial. A falta de uma advocacia preventiva aumenta as chances de litígios evitáveis e gera despesas desnecessárias com indenizações.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">6. Quais os perigos da falta de especialização em causas trabalhistas e cíveis?</h2>
+          <p>
+            As reclamações trabalhistas movidas por porteiros, zeladores e folguistas representam um dos maiores riscos financeiros para condomínios. Peças de defesa genéricas e sem o devido acompanhamento de audiências e provas documentais frequentemente resultam em condenações expressivas.
+          </p>
+
+          <p>
+            Da mesma forma, no contencioso cível, atuar sem o conhecimento aprofundado das decisões do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) reduz as chances de êxito e expõe o patrimônio coletivo a execuções indesejadas.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você busca resguardar seu condomínio ou patrimônio imobiliário com uma assessoria jurídica autônoma e especializada no Rio de Janeiro, acesse nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Condominial e Imobiliário</Link>: soluções em cobrança judicial, auditoria de convenção e assessoria jurídica continuada.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com vasta experiência no acompanhamento de litígios e governança imobiliária no RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Síndicos e Proprietários</Link>: agende uma avaliação jurídica independente do seu condomínio.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Contar com um advogado independente garante total isenção, agilidade no atendimento e atuação focada exclusivamente na proteção dos seus interesses jurídicos e financeiros.
+          </p>
+
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h3 className="text-white text-lg font-serif mb-4">Proteja Seu Condomínio com Advocacia de Excelência</h3>
-            <p className="text-text-muted text-sm mb-4">Evite amarras e conflitos no seu condomínio. O Soares Martins oferece planos de assessoria jurídica independente sob medida com visitas, reuniões síncronas e respostas imediatas para o seu condomínio.</p>
-            <p className="text-bronze font-bold text-sm">Fale diretamente conosco pelo celular e WhatsApp (21) 97954-9241 ou agende uma reunião utilizando o formulário em nossa página de contato.</p>
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados pode proteger o seu condomínio?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece assessoria jurídica autônoma e personalizada para síndicos, conselheiros e proprietários no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Representação autônoma sem qualquer vínculo ou subordinação a administradoras de condomínio ou imobiliárias;</li>
+              <li>Cobrança célere de cotas em atraso com repasse transparente de verbas e acompanhamento em tempo real;</li>
+              <li>Auditoria preventiva em convenções, regimentos internos e contratos de prestação de serviços;</li>
+              <li>Elaboração de defesas personalizadas em ações trabalhistas e cíveis perante os tribunais do RJ;</li>
+              <li>Orientação direta por canais de comunicação ágeis para resolução de dúvidas diárias da gestão.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Jurídico de Administradora vs. Advogado Independente (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O condomínio é obrigado a contratar o jurídico oferecido pela administradora?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O condomínio possui total liberdade para contratar uma assessoria jurídica independente de sua preferência, podendo desvincular os serviços advocatícios do contrato de administração ordinária.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Por que contratar um advogado independente se a administradora já inclui jurídico no pacote?</h4>
+                <p className="text-text-muted text-xs mt-1">Porque o advogado independente atua com exclusividade e imparcialidade na defesa do condomínio, sem conflito de interesses caso ocorra alguma falha operacional ou financeira da própria administradora.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Quem tem direito aos honorários de sucumbência cobrados nas ações de condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Os honorários fixados pelo juiz pertencem ao advogado que atuou na causa. Na assessoria independente, esses valores são pactuados com transparência contratual em benefício das condições financeiras acordadas com o condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Um advogado independente pode auditar os contratos e balancetes da administradora?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Uma das principais funções da assessoria jurídica autônoma é analisar e fiscalizar a legalidade dos contratos, certidões e procedimentos adotados pela administradora para garantir a segurança do síndico e dos moradores.</p>
+              </div>
+            </div>
           </div>
         </div>
       ),
@@ -105,31 +278,116 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       id: 17,
       slug: 'apartamento-leilao-debito-condominial',
       title: 'Apartamento em Leilão por Débito de Condomínio: O Que Fazer?',
-      excerpt: 'Seu apartamento está indo a leilão por débito condominial no Rio de Janeiro? Descubra as medidas de urgência para suspender a praça e proteger seu imóvel já!',
+      excerpt: 'Descubra o que acontece quando um imóvel vai a leilão por dívida de condomínio e saiba quais medidas jurídicas podem suspender a praça e proteger sua propriedade.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
-        <div className="space-y-6 text-justify">
-          <p>Ter o seu <strong>apartamento indo a leilão por débito condominial</strong> é uma situação extremamente desesperadora que aflige diversas famílias no Rio de Janeiro, no entanto, existem estratégias jurídicas eficazes para reverter e proteger sua propriedade. Poucos proprietários sabem, mas a dívida de condomínio é uma das raras exceções legais no ordenamento jurídico brasileiro que possibilita a expropriação forçada de imóveis usados como única moradia da família (bem de família), conforme a Lei 8.009/90. Por conta disso, se você possui pendências financeiras e percebeu que seu imóvel foi incluído em uma execução judicial, agir de forma imediata e assertiva é o único caminho capaz de impedir a perda do seu maior patrimônio.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Como Funciona o Leilão por Dívida de Condomínio RJ</h2>
-          <p>A velocidade imposta pela legislação atual faz com que o rito de penhora ocorra em prazos recordes. Com o novo Código de Processo Civil, a taxa condominial ganhou a natureza de título extrajudicial. Isso significa que o condomínio não necessita enfrentar uma longa fase de conhecimento para obter uma sentença; ele pode promover diretamente a execução forçada do <strong>débito condominial no Rio de Janeiro</strong>. O proprietário inadimplente é intimado judicialmente a pagar em apenas 3 dias. Caso o pagamento não ocorra e as contas bancárias sejam infrutíferas, o juiz decreta de imediato a penhora do próprio imóvel, encaminhando-o para as duas praças do leilão por dívida de condomínio RJ, onde o bem pode ser vendido por até metade de seu valor de mercado comercial.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">O Mito do Bem de Família no Débito Condominial</h2>
-          <p>Um dos erros mais perigosos cometidos por mutuários e devedores no Rio de Janeiro é acreditar que, por ser sua única residência familiar, o bem goza de impenhorabilidade absoluta. O artigo 3º, inciso IV, da Lei Federal nº 8.009/1990 dita de forma explícita que a impenhorabilidade do bem de família não se sobrepõe a dívidas decorrentes de taxas e contribuições devidas em função do próprio imóvel. Portanto, o fato de morar no local com filhos ou idosos não impedirá que você se veja com seu <strong>apartamento indo a leilão por débito condominial</strong> se as cotas condominiais permanecerem em aberto por longos períodos sem a devida intervenção administrativa ou judicial.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Como Evitar Leilão por Condomínio no Rio de Janeiro</h2>
-          <p>Se você se encontra com o seu <strong>apartamento indo a leilão por débito condominial</strong> no RJ, é crucial manter a calma sabendo que existem medidas processuais emergenciais recomendadas. Um advogado especializado em direito imobiliário pode opor Embargos à Execução ou apresentar Petição de Urgência de nulidade absoluta e suspender o leilão, destacando a ausência de citação pessoal válida do devedor, a inclusão de juros regulados de maneira irregular ou avaliação de preço vil. Esse conjunto de fatores constitui a principal base que um advogado para impedir leilão de apartamento deve verificar imediatamente.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">A Extrema Urgência em Obter Apoio Jurídico Especializado</h2>
-          <p>A celeridade do rito judicial de expropriação não tolera falhas ou atrasos. Esperar o dia marcado para a realização do leilão sem nenhuma iniciativa preparatória séria é o pior caminho, pois a anulação subsequente à arrematação nas praças judiciais torna-se imensamente complexa e onerosa. Ter um advogado imobiliário rio de janeiro urgente atuando ao seu lado imediatamente possibilita a verificação pormenorizada de cada folha do processo, planejando acordos para quitação da dívida de condomínio de forma tranquila.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Como o Escritório Soares Martins Blindará Seus Direitos de Propriedade</h2>
-          <p>O Soares Martins acolhe sua família com atenção humanizada e determinação máxima nos momentos mais vulneráveis. Nossa banca de advogados compreende perfeitamente os pormenores práticos envolvidos na sustação de leilões no Rio de Janeiro, sabendo como resguardar seus direitos de habitação do imóvel. Ao identificar brechas e nulidades fáticas dentro do processo judicial, atuamos prontamente na defesa dos seus direitos contratuais cíveis. Recomendamos examinar nossa página de <Link to="/servicos/" className="text-bronze hover:underline font-bold">Serviços Legais</Link> ou ler a respeito do perfil de nossa <Link to="/equipe/" className="text-bronze hover:underline font-bold">Equipe Especializada</Link> para amparar suas dúvidas imediatas.</p>
-          
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Receber a notícia de que o próprio apartamento está prestes a ir a leilão por causa de débitos de condomínio é uma situação de enorme apreensão. Trata-se de um momento delicado, mas que conta com alternativas jurídicas concretas para suspender o leilão e proteger o imóvel.
+          </p>
+
+          <p>
+            Muitos proprietários desconhecem que a dívida condominial é uma das poucas exceções na legislação brasileira que autoriza a penhora do imóvel, mesmo quando este é a única moradia da família (bem de família). Por isso, ao notar que o bem foi incluído em uma execução judicial, agir rapidamente com orientação especializada é o caminho seguro para resguardar o patrimônio.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Por que uma dívida de condomínio pode levar o imóvel a leilão tão rapidamente?</h2>
+          <p>
+            Com o Código de Processo Civil vigente, as cotas de condomínio possuem natureza de título executivo extrajudicial. Isso significa que o condomínio não precisa enfrentar uma longa ação de conhecimento para obter uma sentença; ele pode ingressar diretamente com a execução forçada da dívida.
+          </p>
+
+          <p>
+            No processo de execução, o proprietário é intimado para efetuar o pagamento do valor em apenas três dias. Caso o pagamento não ocorra e não sejam encontrados valores em contas bancárias, o juiz pode decretar a penhora do próprio imóvel, encaminhando-o para leilão público (primeira e segunda praças), onde o bem corre o risco de ser arrematado por valores abaixo da avaliação de mercado.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O único imóvel da família pode ser leiloado por falta de pagamento do condomínio?</h2>
+          <p>
+            Sim. Um dos equívocos mais comuns é acreditar que o imóvel utilizado como residência familiar está totalmente protegido contra penhora. O artigo 3º, inciso IV, da Lei Federal nº 8.009/1990 estabelece expressamente que a impenhorabilidade do bem de família não se aplica a dívidas decorrentes de despesas e contribuições do próprio imóvel (obrigação <i>propter rem</i>).
+          </p>
+
+          <p>
+            Portanto, o fato de residir no local com a família não impede a penhora nem a realização do leilão se as cotas condominiais continuarem acumuladas sem a devida intervenção judicial ou acordo de quitação.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais medidas jurídicas podem suspender ou anular o leilão do apartamento?</h2>
+          <p>
+            Diante da intimação de leilão, é fundamental manter a calma e buscar auxílio técnico imediato. Existem diversos fundamentos jurídicos que permitem suspender ou até anular o leilão judicial:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Falta de citação ou intimação pessoal válida:</strong> se o proprietário ou seu cônjuge não foram intimados pessoalmente sobre a penhora ou a data das praças, o procedimento apresenta nulidade absoluta;</li>
+            <li><strong>Erro na avaliação do imóvel ou preço vil:</strong> avaliações defasadas que não refletem o valor real de mercado ou arrematações por valores vis (inferiores a 50% da avaliação) podem ser impugnadas em juízo;</li>
+            <li><strong>Excessos na execução ou juros abusivos:</strong> cobranças que incluam taxas indevidas ou encargos acima dos limites legais podem ser objeto de Embargos à Execução;</li>
+            <li><strong>Celebração de acordo e depósito judicial:</strong> a negociação direta com o condomínio para parcelamento do débito ou o depósito do valor incontroverso pode paralisar os atos de expropriação.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Por que a agilidade e a orientação especializada são decisivas nessa situação?</h2>
+          <p>
+            A celeridade do rito de execução não tolera atrasos. Deixar para agir na véspera da praça pública reduz as margens de defesa e torna o processo de anulação pós-arrematação consideravelmente mais complexo e oneroso.
+          </p>
+
+          <p>
+            A atuação imediata de um advogado especialista permite analisar detalhadamente cada folha do processo, identificar vícios formais e propor medidas de urgência para estancar o leilão, abrindo espaço para uma negociação equilibrada com o condomínio.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se o seu imóvel foi penhorado ou está com leilão agendado por dívida de condomínio no Rio de Janeiro, acesse nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Defesa em Leilões</Link>: medidas de urgência para suspensão de praça pública e negociação de débitos.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais qualificados em defesas de execução e sustentação oral no Rio de Janeiro.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Emergencial para Defesa de Leilão</Link>: fale com nossos advogados para analisar o processo e propor medidas cabíveis.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A intervenção jurídica qualificada nas primeiras etapas da execução permite identificar nulidades processuais e viabilizar propostas de quitação que preservam o imóvel e trazem tranquilidade à família.
+          </p>
+
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h3 className="text-white text-lg font-serif mb-4">Ação Rápida para Salvar Seu Imóvel</h3>
-            <p className="text-text-muted text-sm mb-4">Não espere o pior acontecer. Se você recebeu intimação de penhora ou editais de praça pública indicando o leilão do seu apartamento, busque apoio imediatamente.</p>
-            <p className="text-bronze font-bold text-sm">Fale diretamente com os nossos advogados e conte com a nossa atuação ágil pelo celular/WhatsApp (21) 97954-9241 ou enviando uma mensagem no formulário do site.</p>
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados atua para defender seu imóvel de leilão?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece atendimento urgente e especializado para proprietários em processos de execução condominial no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Análise minuciosa e urgente do processo judicial para identificação de vícios e nulidades de citação;</li>
+              <li>Elaboração de Embargos à Execução e Pedidos Liminares de urgência para sustação do leilão;</li>
+              <li>Impugnação de laudos de avaliação desatualizados para impedir a alienação do imóvel por preço vil;</li>
+              <li>Intermediação e negociação de acordos judiciais para parcelamento do débito com o condomínio;</li>
+              <li>Acompanhamento jurídico integral até a baixa da penhora e regularização da propriedade.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Leilão de Imóvel por Débito de Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Quanto tempo demora entre o atraso do condomínio e o leilão do imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">O prazo varia conforme a tramitação da execução judicial. Contudo, como a cota de condomínio é título executivo extrajudicial, o processo avança com rapidez e o leilão pode ser marcado meses após a penhora se não houver defesa.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É possível fazer acordo com o condomínio mesmo após o leilão ser marcado?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Até a assinatura do auto de arrematação pelo juiz, as partes podem formalizar acordo judicial. O depósito do valor da dívida ou o parcelamento aceito pelo exequente suspende ou extingue a arrematação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que acontece se o apartamento for leiloado por um valor muito abaixo do mercado?</h4>
+                <p className="text-text-muted text-xs mt-1">A lei proíbe a alienação por preço vil (geralmente inferior a 50% do valor de avaliação). Se a arrematação ocorrer por valor vil ou se a avaliação estiver desatualizada, o ato pode ser impugnado e anulado.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. A falta de intimação pessoal do proprietário sobre as datas do leilão anula a arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A intimação pessoal do devedor e de seu cônjuge sobre as datas das praças é requisito obrigatório por lei. Sua ausência gera nulidade insanável de todos os atos decorrentes do leilão.</p>
+              </div>
+            </div>
           </div>
         </div>
       ),
@@ -142,31 +400,120 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       id: 18,
       slug: 'guia-compra-venda-segura-imoveis-rj',
       title: 'Direito Imobiliário no Rio de Janeiro: Compra e Venda Segura',
-      excerpt: 'Precisa de um advogado imobiliário no Rio de Janeiro? Confira nosso guia essencial para garantir total segurança jurídica na compra e venda do seu imóvel no RJ.',
+      excerpt: 'Entenda como garantir total segurança jurídica na compra e venda do seu imóvel no Rio de Janeiro com due diligence preventiva e contratos bem estruturados.',
       readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
       content: (
-        <div className="space-y-6 text-justify">
-          <p>A contratação de um <strong>advogado imobiliário no Rio de Janeiro</strong> qualificado constitui o passo definitivo de inteligência e zelo para garantir plena segurança jurídica na aquisição ou venda de bens móveis ou imóveis no estado do RJ. O mercado de habitação fluminense movimenta bilhões de reais todos os anos em transações de compra de apartamentos residenciais na planta, escritórios e terrenos. Justamente por envolver transações financeiras de altíssimo valor de mercado de capitais pessoal, as relações de compra e venda imobiliária no Brasil se tornaram alvos frequentes de processos de fraude contra credores, disputas hereditárias ocultas e contratos repletos de termos abusivos. Sem a devida intermediação de especialistas capacitados em direito imobiliário RJ, o potencial investidor ou vendedor expõe-se a prejuízos volumosos irreversíveis.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">O Que é o Direito Imobiliário e Como Ele Regulamenta o Mercado</h2>
-          <p>O direito imobiliário RJ atua como o segmento especializado do Direito Civil que delineia e legisla sobre as relações fáticas cotidianas ligadas à propriedade. Suas bases legislativas normatizam a posse, a aquisição onerosa, a perda de propriedade de bens, o condomínio de edifícios, locações comerciais e as alienações fiduciárias garantidoras em contratos de financiamento imobiliário. No Rio de Janeiro, em especial, as regras municipais em conjunto com as diretrizes dos cartórios de notas e de registros de imóveis determinam procedimentos cartorários específicos que merecem extrema atenção técnica. Qualquer equívoco material ou formal na elaboração do contrato de compra e venda de imóvel no Rio de Janeiro pode comprometer o reconhecimento imobiliário de posse do comprador.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Principais Riscos Encontrados na Compra de Imóveis no RJ</h2>
-          <p>A vulnerabilidade de realizar transações sem um <strong>advogado imobiliário no Rio de Janeiro</strong> envolve a subsistência de riscos materiais difíceis de serem notados por pessoas leigas no mercado. O risco mais acentuado é o fenômeno da fraude à execução. O comprador de boa-fé adquire o patrimônio do proprietário atual desconhecendo que este possui ações civis ou execuções trabalhistas volumosas em andamento no tribunal do RJ. Posteriormente, a justiça decreta a anulação da venda do bem para quitar as dívidas do vendedor originário. Além deste cenário sombrio, pendências de imposto territorial urbano (IPTU) em atraso, problemas de inventários judiciais envolvendo herdeiros insatisfeitos e taxas condominiais em mora acumulam pesadas multas agregadas, que por determinação legal passam a ser responsabilidade imediata de quem adquiriu o imóvel.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">A Relevância da Due Diligence Conduzida por Profissionais</h2>
-          <p>Para se blindar de todas essas ameaças e atingir a necessária segurança jurídica na compra de imóvel, a realização da chamada Due Diligence Imobiliária preventiva é de extrema necessidade moral. Trata-se de uma auditoria técnica profunda que um <strong>advogado imobiliário no Rio de Janeiro</strong> executa antes de qualquer depósito de dinheiro de sinal ou garantia. O Soares Martins conduz o levantamento completo de certidões, incluindo certidões cíveis e de distribuidores criminais federais e estudando a matrícula registrada em cartório. Sem as devidas assinaturas de quitação total e averbações, o imóvel carece juridicamente de disponibilidade, colocando o investimento pessoal de uma vida inteira em profunda instabilidade jurídica.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">A Correta Formulation do Contrato de Compra e Venda</h2>
-          <p>O contrato de promessa de compra e venda é o documento fundamental de regência fática da transação imobiliária. Um <strong>advogado imobiliário no Rio de Janeiro</strong> assessora na elaboração de minutas detalhadas, fixando multas rescisórias claras, descrevendo os prazos de entrega física das chaves, formalizando as garantias legais e determinando de forma expressa quem suportará os custos de impostos como o imposto de transmissão (ITBI) e escrituração final. A proteção de um advogado para compra e venda de imóvel RJ evita o uso de cláusulas pré-fabricadas por imobiliárias e corretores, os quais muitas vezes desejam unicamente o pagamento imediato das comissões imobiliárias sem dar o devido amparo para as partes contratantes.</p>
-          
-          <h2 className="text-white text-2xl font-serif mt-6">Por Que Contratar a Banca Soares Martins para sua Transação Imobiliária</h2>
-          <p>O time da Soares Martins possui anos de atuação prática sólida em direito imobiliário RJ, guiando investidores em todo o processo imobiliário cartorário com integridade. Oferecemos análise robusta documental de riscos, acompanhando o cliente desde a redação inicial das tratativas até a fase de registro definitivo em cartório. Nosso compromisso é mitigar ao máximo as incertezas de sua transação no Rio de Janeiro. Visite nossa página da [História](/historia/) institucional para entender nosso ideal, leia sobre nossos profissionais na [Equipe](/equipe/) especialista, e informe-se sobre nossa assessoria na página de [Serviços](/servicos/).</p>
-          
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A compra ou venda de um imóvel é uma das decisões financeiras mais significativas na vida de uma pessoa ou família. Seja para adquirir a casa própria, expandir um negócio ou investir no mercado imobiliário do Rio de Janeiro, esse tipo de transação envolve valores expressivos e exige cuidados jurídicos rigorosos para evitar prejuízos.
+          </p>
+
+          <p>
+            Infelizmente, é comum encontrar negócios comprometidos por fraudes contra credores, penhoras ocultas, dívidas fiscais ou contratos elaborados sem a devida proteção legal. Acompanhar a transação com assessoria jurídica especializada desde o início garante que o investimento seja feito com total tranquilidade e transparência.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que é o Direito Imobiliário e como ele protege quem compra ou vende um imóvel?</h2>
+          <p>
+            O Direito Imobiliário é o ramo do Direito Civil que regula as relações ligadas à posse, à propriedade e às transações de bens imóveis. Ele estabelece as regras para compra e venda, doação, usucapião, locação e garantias reais, como a alienação fiduciária.
+          </p>
+
+          <p>
+            No Rio de Janeiro, a legislação estadual e municipal, somada às diretrizes dos cartórios de notas e de registro de imóveis, exige atenção a procedimentos específicos. Um detalhe negligenciado na documentação ou no registro em cartório pode impedir a transferência formal da propriedade ou gerar litígios futuros.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os maiores riscos jurídicos na compra e venda de um imóvel?</h2>
+          <p>
+            Realizar uma transação imobiliária sem a devida análise preventiva expõe as partes a riscos graves, muitos dos quais não são perceptíveis à primeira vista. Entre os principais problemas, destacam-se:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Fraude à execução e fraude contra credores:</strong> ocorre quando o vendedor possui ações judiciais ou dívidas de grande porte e vende o bem. A Justiça pode anular a venda para quitar os débitos do vendedor anterior, prejudicando o comprador de boa-fé;</li>
+            <li><strong>Dívidas vinculadas ao imóvel (propter rem):</strong> débitos de IPTU e taxas condominiais em atraso acompanham a propriedade. Ao adquirir o bem, o novo proprietário passa a responder por todas as pendências financeiras anteriores;</li>
+            <li><strong>Inventários e problemas de herança:</strong> imóveis vendidos por herdeiros sem a conclusão formal do inventário ou sem a anuência de todos os proprietários geram nulidade do negócio;</li>
+            <li><strong>Cláusulas contratuais abusivas:</strong> minutas genéricas fornecidas por terceiros frequentemente deixam de prever prazos claros para entrega de chaves, multas proporcionais ou garantias essenciais.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que é a Due Diligence Imobiliária e por que ela é indispensável?</h2>
+          <p>
+            A <i>Due Diligence</i> Imobiliária é a auditoria jurídica preventiva realizada antes do pagamento de qualquer valor a título de sinal ou entrada. Trata-se do levantamento detalhado da situação legal do imóvel e de todos os envolvidos na transação.
+          </p>
+
+          <p>
+            Essa análise investiga a certidão de ônus reais atualizada na matrícula do imóvel, certidões dos distribuidores cíveis, criminais, trabalhistas e federais, além de certidões negativas de débitos tributários e condominiais. Esse exame minucioso revela eventuais impedimentos antes que o negócio seja assinado, assegurando a validade da transação.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como deve ser elaborado o contrato de promessa de compra e venda para evitar armadilhas?</h2>
+          <p>
+            O contrato de promessa de compra e venda é o instrumento que rege todas as obrigações entre comprador e vendedor. Para conferir segurança às partes, o documento deve ser elaborado de forma personalizada, contendo cláusulas precisas sobre:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li>Valor exato, forma de pagamento, parcelamento e destinação do sinal de negócio;</li>
+            <li>Prazos rigorosos para desocupação, entrega das chaves e lavratura da escritura pública;</li>
+            <li>Previsão de penalidades em caso de desistência ou descumprimento de prazos contratuais;</li>
+            <li>Distribuição clara das despesas com ITBI, emolumentos cartorários e registro de imóveis;</li>
+            <li>Condição resolutiva atrelada à obtenção de financiamento bancário ou à aprovação das certidões.</li>
+          </ul>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você deseja comprar, vender ou regularizar um imóvel com acompanhamento jurídico especializado no Rio de Janeiro, acesse nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Transações Imobiliárias</Link>: due diligence completa, elaboração de contratos e acompanhamento em cartórios.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com vasta experiência em auditoria imobiliária e segurança em negócios imobiliários.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado em Compra e Venda de Imóveis</Link>: fale com nossos advogados para analisar o seu contrato antes de assinar.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Investir com orientação jurídica desde a fase de negociação inicial elimina incertezas, protege o capital investido e garante que o imóvel seja transferido de forma definitiva e regular no registro competente.
+          </p>
+
           <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
-            <h3 className="text-white text-lg font-serif mb-4">Adquira Seu Imóvel Simples e Seguro</h3>
-            <p className="text-text-muted text-sm mb-4">Seja para adquirir a casa própria de sua família ou investir em empreendimentos no Rio de Janeiro, a Soares Martins assegurará a estabilidade total da sua transação comercial com due diligence exemplar.</p>
-            <p className="text-bronze font-bold text-sm">Contate agora mesmo nosso canal de assessoria pelo celular/WhatsApp (21) 97954-9241 ou preencha o formulário em nossa página de contato técnico para receber suporte de especialista.</p>
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados pode garantir a segurança da sua transação?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece consultoria e assessoria completa para compradores e vendedores em todas as etapas da negociação imobiliária no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Realização de Due Diligence imobiliária completa com levantamento e análise crítica de certidões pessoais e do imóvel;</li>
+              <li>Elaboração e revisão personalizada de promessas de compra e venda, minutas de escritura e contratos de sinal;</li>
+              <li>Intermediação e negociação direta de cláusulas contratuais para proteção do comprador ou vendedor;</li>
+              <li>Acompanhamento presencial na lavratura da escritura pública e assessoria no registro final no Cartório de Imóveis;</li>
+              <li>Solução de pendências de regularização imobiliária, cancelamento de ônus e assessoria tributária no ITBI.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Compra e Venda de Imóveis e Segurança Jurídica (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Qual a diferença entre a Promessa de Compra e Venda e a Escritura Pública?</h4>
+                <p className="text-text-muted text-xs mt-1">A Promessa de Compra e Venda é um contrato preliminar que fixa os termos da negociação, preço e sinal. A Escritura Pública é o ato oficial lavrado em Cartório de Notas que formaliza a transferência e permite o registro definitivo da propriedade.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É seguro pagar o sinal antes de verificar as certidões do imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O ideal é que o sinal só seja pago após a análise e aprovação de todas as certidões do imóvel e dos vendedores na Due Diligence, ou que o contrato preveja cláusula de devolução integral do sinal caso surjam pendências insuperáveis.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Quem é o responsável pelo pagamento do ITBI na compra e venda?</h4>
+                <p className="text-text-muted text-xs mt-1">De praxe, o ITBI (Imposto sobre Transmissão de Bens Imóveis) e os custos de escritura e registro cabem ao comprador, salvo estipulação em contrário expressa no contrato de compra e venda.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. A certidão de ônus reais do imóvel é suficiente para garantir a compra?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A certidão de ônus reais é fundamental, mas precisa ser complementada pelas certidões dos distribuidores judiciais e fiscais em nome do vendedor para afastar riscos de penhoras e execuções judiciais.</p>
+              </div>
+            </div>
           </div>
         </div>
       ),
@@ -1118,15 +1465,98 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "A proteção de dados pessoais tornou-se obrigatória para condomínios. Saiba como tratar as informações dos visitantes e condôminos conforme a lei.",
       readTime: `12 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A Lei Geral de Proteção de Dados (LGPD) não poupa ninguém, nem mesmo os condomínios edilícios. Embora não possuam personalidade jurídica plena, os condomínios são considerados "controladores de dados" sob a ótica da lei, uma vez que coletam, armazenam e processam informações de condôminos, funcionários e visitantes diariamente. Essa responsabilidade implica na necessidade de uma revisão profunda de todos os processos internos, desde a recepção até o descarte de documentos físicos e digitais, garantindo que o tratamento de dados ocorra de forma transparente e segura.</p>
-          <h2 className="text-white text-xl font-serif">O Desafio da Portaria e Controle de Acesso</h2>
-          <p>A coleta excessiva de dados na recepção é o ponto mais crítico e comum de vulnerabilidade. Solicitar RG, CPF, foto e até biometria de visitantes sem uma finalidade clara, base legal definida e um aviso de privacidade adequado é uma violação direta aos princípios da necessidade e da transparência. O condomínio deve limitar a coleta ao estritamente necessário para garantir a segurança do empreendimento, informando claramente ao titular dos dados como suas informações serão utilizadas e por quanto tempo serão mantidas em arquivo.</p>
-          <p>Além disso, o armazenamento desses dados deve seguir protocolos rigorosos de segurança cibernética. Softwares de gestão de portaria precisam estar atualizados e contar com criptografia, enquanto os registros físicos devem ser guardados em locais de acesso restrito. O treinamento dos funcionários da portaria e da administração é fundamental, pois eles são a linha de frente no tratamento desses dados e precisam compreender a importância do sigilo e da proteção das informações de terceiros, evitando vazamentos acidentais ou acessos não autorizados.</p>
-          <h2 className="text-white text-xl font-serif">Monitoramento por Câmeras e Direitos Individuais</h2>
-          <p>As imagens captadas pelo circuito interno de TV (CFTV) são consideradas dados pessoais e, em muitos casos, dados biométricos, o que eleva o nível de proteção exigido. É fundamental que existam placas informativas visíveis em todos os pontos de monitoramento e que o acesso a essas imagens seja restrito a poucas pessoas autorizadas, com registro de log de acesso para auditoria. O compartilhamento de imagens de câmeras em grupos de WhatsApp de moradores, por exemplo, é uma prática altamente arriscada que pode gerar processos indenizatórios contra o condomínio e o síndico.</p>
-          <p>Por fim, a adequação à LGPD exige a nomeação de um Encarregado de Dados (DPO), que pode ser uma empresa especializada ou um profissional interno capacitado. Este responsável atuará como ponte entre o condomínio, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). A implementação de uma Política de Privacidade robusta e a realização de auditorias periódicas são passos essenciais para mitigar riscos jurídicos e garantir que o condomínio esteja em conformidade com a legislação vigente, promovendo um ambiente mais seguro e ético para todos.</p>
-          <p>O escritório Soares Martins oferece consultoria especializada para a implementação da LGPD em condomínios, incluindo o mapeamento de processos de dados, a criação de políticas internas e o treinamento de equipes. Nosso objetivo é garantir que o condomínio esteja protegido contra sanções e que a privacidade de todos os moradores seja respeitada, transformando a conformidade legal em uma vantagem competitiva e um fator de tranquilidade para toda a comunidade.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A rotina de um condomínio envolve a coleta diária de dados pessoais e informações sensíveis: cadastros na recepção, documentos de visitantes, placas de veículos, registros de biometria facial e gravação contínua de imagens de segurança. Com a vigência da Lei Geral de Proteção de Dados (LGPD), síndicos e administradoras têm a responsabilidade legal de tratar essas informações de forma transparente, segura e restrita. Afinal, mesmo sem personalidade jurídica tradicional, o condomínio é enquadrado como controlador de dados perante a lei e pode sofrer penalidades severas em caso de vazamentos ou desvios de finalidade.
+          </p>
+
+          <p>
+            No Rio de Janeiro, o uso frequente de portarias virtuais, aplicativos de acesso e câmeras de monitoramento em bairros como Copacabana, Ipanema, Botafogo e Barra da Tijuca exige atenção redobrada com a privacidade. A falta de protocolos claros pode resultar em vazamento de cadastros ou exposição indevida de moradores e prestadores de serviço, dando margem a processos judiciais por danos morais. Entender os limites da lei e adequar os procedimentos da portaria e do sistema de circuito fechado de televisão (CFTV) é o caminho mais seguro para resguardar os direitos dos condôminos e proteger a gestão predial.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como adequar a portaria e o controle de acesso às exigências da LGPD?</h2>
+          <p>
+            O ponto de maior vulnerabilidade nos edifícios residenciais e comerciais é a recepção. Exigir documentos em excesso — como pedir RG, CPF, foto e biometria de visitantes sem justificativa clara — descumpre o princípio da minimização previsto no artigo 6º da LGPD. A orientação legal determina que a portaria deve coletar apenas as informações estritamente necessárias para garantir a identificação e a segurança das famílias do prédio, disponibilizando um aviso de privacidade visível que informe como esses registros serão armazenados e por quanto tempo permanecerão arquivados.
+          </p>
+
+          <p>
+            Além do limite no cadastro inicial, o armazenamento dessas informações exige medidas práticas de segurança física e digital. Livros de papel expostos na balcão da portaria devem ser substituídos por sistemas digitais protegidos por senhas individuais e criptografia. É essencial que os colaboradores da recepção e da empresa de segurança terceirizada passem por treinamentos periódicos, assinando termos de confidencialidade e compreendendo a proibição absoluta de repassar dados de condôminos a terceiros ou corretores de imóveis.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são as regras para o uso de câmeras de segurança e circuitos de TV no condomínio?</h2>
+          <p>
+            As imagens gravadas pelo circuito interno de TV do condomínio constituem dados pessoais e biométricos. Por essa razão, a utilização de câmeras deve ser pautada no legítimo interesse do condomínio para fins de segurança coletiva. O edifício deve afixar placas informativas em pontos visíveis do imóvel, avisando sobre a presença do sistema de monitoramento. O acesso às gravações precisa ser estritamente restrito ao síndico ou a funcionários designados, mantendo-se registros detalhados de logs todas as vezes que uma gravação for consultada.
+          </p>
+
+          <p>
+            Um erro muito comum no Rio de Janeiro é o compartilhamento indevido de vídeos e fotos de câmeras de segurança em grupos de mensagens de moradores (como o WhatsApp). Divulgar cenas de discussões, incidentes com crianças ou rotina de vizinhos nesses grupos viola os direitos de imagem e intimidade, gerando responsabilidade civil para quem compartilha e para o próprio condomínio caso se omita. Imagens só devem ser cedidas a terceiros em situações de requisição policial formal ou por determinação judicial.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os passos fundamentais para adequar o condomínio à proteção de dados?</h2>
+          <p>
+            Para alcançar a conformidade legal, a administração do prédio deve realizar um mapeamento detalhado dos fluxos de dados, identificando por onde as informações entram, quem tem acesso a elas, onde ficam salvas e quando são descartadas. Outro passo indispensável é a nomeação do Encarregado de Dados (DPO), que atuará como canal de comunicação entre o condomínio, os moradores e a Autoridade Nacional de Proteção de Dados (ANPD). A criação de uma Política de Privacidade personalizada e a adequação dos contratos com prestadores de serviços são pilares que garantem a blindagem jurídica do condomínio.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Para compreender melhor as exigências legais na gestão condominial e garantir a proteção do seu edifício no Rio de Janeiro, acesse também:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: suporte técnico para adequação à LGPD, auditoria de portaria e contratos de segurança.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais qualificados em privacidade de dados e conformidade condominial no RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Fale Diretamente Conosco</Link>: agende uma consultoria para mapear os dados do seu condomínio e evitar sanções legais.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Em suma, adequar o condomínio à LGPD é uma medida indispensável para preservar o patrimônio coletivo e respeitar a privacidade de todos que frequentam o imóvel. O processo de implementação envolve mudanças de hábitos e adequação de rotinas operacionais da portaria e da administração. Com o suporte de especialistas em Direito Condominial e Proteção de Dados, o síndico transforma a conformidade legal em uma ferramenta de valorização e segurança para toda a comunidade.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados pode apoiar seu condomínio na adequação à LGPD?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa banca em Ipanema oferece consultoria especializada e completa para a implementação da LGPD em edifícios residenciais e comerciais no Estado do Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Mapeamento completo (Data Mapping) de todos os dados pessoais coletados na portaria, administração e sistemas de segurança;</li>
+              <li>Elaboração de Políticas de Privacidade, avisos de transparência para a recepção e termos de uso de imagens de CFTV;</li>
+              <li>Revisão e aditamento de contratos com empresas terceirizadas de segurança, portaria remota e softwares de gestão;</li>
+              <li>Treinamento prático para porteiros, zeladores, síndicos e conselheiros sobre boas práticas de privacidade e sigilo;</li>
+              <li>Defesa técnica do condomínio em notificações da ANPD ou em ações judiciais de indenização por vazamento de dados.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com um advogado especialista pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre LGPD em Condomínios (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O condomínio pode exigir RG e CPF de visitantes na portaria?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, desde que solicite apenas os dados estritamente necessários para a identificação e segurança do prédio, informando de forma clara a finalidade do cadastro ao visitante.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. As imagens das câmeras do condomínio podem ser enviadas no grupo do WhatsApp dos moradores?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O compartilhamento de imagens de moradores ou visitantes em grupos abertos viola a LGPD e o direito de imagem, podendo gerar indenização por danos morais contra quem enviou e o condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O condomínio precisa nomear um Encarregado de Dados (DPO)?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, o condomínio deve indicar um responsável pelo tratamento de dados ou contratar uma empresa/assessoria especializada para intermediar o contato com os condôminos e a ANPD.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é o risco para o condomínio que não se adequar à LGPD?</h4>
+                <p className="text-text-muted text-xs mt-1">Além das advertências e sanções aplicadas pela ANPD, o condomínio pode responder judicialmente a processos movidos por moradores e visitantes por vazamento, má utilização ou exposição indevida de seus dados pessoais.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "15 Mai, 2026",
@@ -1141,12 +1571,98 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "Entenda os limites das proibições em convenções e regimentos internos após as recentes decisões dos tribunais superiores sobre pets.",
       readTime: `10 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A questão da permanência de animais de estimação em unidades autônomas de condomínios foi finalmente pacificada pelo Superior Tribunal de Justiça (STJ), trazendo maior clareza para uma das maiores fontes de conflito na vida em comunidade. A decisão histórica reforça que a convenção condominial não pode proibir de forma genérica e abstrata a permanência de animais nas unidades privativas, uma vez que tal proibição violaria o direito de propriedade e a liberdade individual do condômino, desde que o animal não cause transtornos reais à coletividade.</p>
-          <p>A restrição à presença de pets só é juridicamente válida se ficar comprovado, por meio de evidências concretas, que o animal representa uma ameaça real à segurança, à higiene ou ao sossego dos demais moradores. Isso significa que o porte do animal, por si só, não é motivo para expulsão ou proibição. Um cão de grande porte que é silencioso e dócil tem tanto direito de permanecer quanto um cão pequeno, cabendo ao condomínio o ônus da prova de que aquele animal específico está descumprindo as normas de convivência ou colocando em risco a saúde pública.</p>
-          <p>Além disso, os tribunais têm entendido que as regras de circulação em áreas comuns devem ser razoáveis. Exigir que o animal seja carregado no colo em elevadores ou áreas de transição, por exemplo, pode ser considerado abusivo se o animal for de grande porte ou se o tutor tiver limitações físicas. O uso de focinheira deve ser restrito a raças consideradas perigosas por lei ou a animais com histórico comprovado de agressividade. O equilíbrio entre o direito do dono do pet e o bem-estar dos vizinhos é a chave para evitar judicializações desnecessárias.</p>
-          <p>Para os condomínios, a recomendação é atualizar seus regimentos internos para refletir esse entendimento jurisprudencial moderno. Em vez de proibir, o foco deve ser em regulamentar a conduta: exigir carteira de vacinação em dia, limpeza imediata de dejetos em áreas comuns e controle do barulho excessivo. O síndico deve atuar como mediador, buscando soluções amigáveis antes de aplicar multas, sempre pautado pelo princípio da razoabilidade e pelo respeito mútuo, garantindo que a harmonia do prédio seja preservada sem ferir direitos individuais fundamentais.</p>
-          <p>Nossa equipe jurídica no Soares Martins é especializada em direito condominial e pode auxiliar seu prédio na atualização de seus documentos constitutivos. Atuamos na mediação de conflitos e na defesa judicial dos interesses tanto do condomínio quanto dos moradores, buscando sempre a melhor interpretação legal para garantir uma convivência saudável e juridicamente segura para todos os membros da comunidade.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A presença de animais de estimação em apartamentos e casas de condomínio é uma das questões que mais geram dúvidas e discussões entre vizinhos, síndicos e tutores. Para colocar fim a impasses e proibições genéricas, o Superior Tribunal de Justiça (STJ) pacificou o entendimento sobre o tema: a Convenção de Condomínio ou o Regimento Interno não podem proibir de forma genérica e abstrata a permanência de pets nas unidades privativas. Essa decisão garante o direito de propriedade e a liberdade dos moradores, desde que o animal não cause transtornos reais à coletividade.
+          </p>
+
+          <p>
+            No Rio de Janeiro, em bairros com grande densidade vertical como Copacabana, Ipanema, Botafogo e Barra da Tijuca, o convívio com animais de estimação é parte da rotina de milhares de famílias. Entender o que a lei realmente permite e quais são os limites impostos pelas normas do edifício é fundamental para evitar advertências indevidas, multas abusivas e desgastes desnecessários no ambiente condominial.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Em quais situações o condomínio pode proibir a presença de um animal de estimação?</h2>
+          <p>
+            De acordo com o STJ, a restrição ao animal de estimação só é válida juridicamente se ficar comprovado, por meio de fatos concretos, que aquele animal específico representa uma ameaça à segurança, à saúde ou ao sossego dos demais moradores — os chamados "três S" do direito condominial (Segurança, Saúde e Sossego).
+          </p>
+
+          <p>
+            Isso significa que o porte ou a raça do pet, isoladamente, não justificam proibições. Um cão de grande porte silencioso e sociável tem o mesmo direito de habitar a unidade do que um cão de pequeno porte. O ônus de provar que o animal causa perturbação excessiva (como latidos ininterruptos durante a madrugada ou agressividade em áreas comuns) cabe ao condomínio, que não pode aplicar sanções embasadas apenas em impressões pessoais de vizinhos.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são as regras válidas para a circulação de pets nas áreas comuns e elevadores?</h2>
+          <p>
+            As normas sobre a circulação nas áreas comuns e no uso de elevadores devem ser pautadas no bom senso e na razoabilidade. O condomínio pode exigir o uso de coleiras, guias curtas, a limpeza imediata de eventuais dejetos e a apresentação da carteira de vacinação atualizada.
+          </p>
+
+          <p>
+            Por outro lado, exigências que impõem constrangimento irrazoável — como obrigar o tutor a carregar o animal sempre no colo em elevadores ou corredores — têm sido anuladas pela Justiça quando aplicadas a animais de grande porte ou a tutores idosos ou com limitações físicas. Nesses casos, permite-se que o animal caminhe no chão ao lado do tutor, devidamente preso à guia. Quanto ao uso de focinheira, a exigência é restrita às raças potencialmente perigosas previstas em legislação estadual ou municipal ou a animais com histórico comprovado de agressividade.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como o condomínio e os moradores devem se adequar à decisão do STJ?</h2>
+          <p>
+            Para manter a harmonia interna, recomenda-se que a administração do edifício atualize o Regimento Interno, substituindo proibições genéricas por regramentos claros de postura e boa convivência. Em vez de vedar a permanência de animais, o foco deve ser estabelecer regras educativas, canais para mediação de conflitos e apuração imparcial de eventuais reclamações antes da aplicação de penalidades.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é tutor e enfrenta restrições abusivas no seu prédio ou se é gestor e deseja adequar o Regimento Interno às diretrizes do STJ no Rio de Janeiro, conheça nossas páginas institucionais:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: assessoria técnica para revisão de regulamentos internos e mediação de conflitos sobre animais.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais experientes em contencioso e consultoria condominial na capital do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Conflitos Condominiais</Link>: entre em contato com nossos especialistas para sanar suas dúvidas sobre normas de convivência.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A conciliação e a razoabilidade devem orientar tanto os tutores de animais quanto a gestão condominial. Quando surgem divergências ou abusos de autoridade, a atuação de uma assessoria jurídica especializada em Direito Condominial garante que os regulamentos do prédio fiquem em conformidade com as recentes decisões do STJ, protegendo o direito de propriedade dos moradores e preservando o sossego de toda a coletividade.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados atua na resolução de conflitos sobre pets em condomínios?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe atua em Ipanema e em todo o Rio de Janeiro para amparar tutores e síndicos na adequação às regras legais e na anulação de arbitrariedades:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Análise jurídica da Convenção e do Regimento Interno para verificação de cláusulas nulas ou abusivas sobre animais de estimação;</li>
+              <li>Elaboração de defesas administrativas e recursos contra multas indevidas aplicadas por motivo de presença de pets;</li>
+              <li>Ajuizamento de ações judiciais para garantir a permanência de animais de estimação mantidos sem transtornos;</li>
+              <li>Assessoria a síndicos e conselhos na atualização e revisão preventiva das normas internas do edifício;</li>
+              <li>Mediação profissional de conflitos entre vizinhos em casos de alegação de barulho ou desrespeito às regras comuns.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou envie uma mensagem direta para nossa equipe pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Animais em Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O condomínio pode proibir cães de grande porte na Convenção?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O STJ definiu que proibições baseadas apenas no porte do animal são ilegais. A restrição só se justifica se for provado que o pet compromete a segurança, a saúde ou o sossego dos vizinhos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É obrigatório carregar o animal no colo dentro do elevador?</h4>
+                <p className="text-text-muted text-xs mt-1">Não necessariamente. Exigir o animal no colo em relação a pets de grande porte ou tutores com limitações físicas é considerado abusivo. O animal pode caminhar ao lado do dono, desde que usando coleira e guia curta.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O síndico pode proibir o uso do elevador social por moradores acompanhados de pets?</h4>
+                <p className="text-text-muted text-xs mt-1">O condomínio pode direcionar a circulação prioritária ao elevador de serviço por motivos de organização, mas não pode impedir a locomoção do morador caso o elevador de serviço esteja indisponível ou em manutenção.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O que o tutor deve fazer se receber uma multa injusta motivada pela presença do pet?</h4>
+                <p className="text-text-muted text-xs mt-1">O morador deve protocolar recurso administrativo por escrito perante a assembleia ou conselho, apresentando provas do bom comportamento e vacinação do animal, ou buscar a anulação judicial da penalidade se houver recusa em ouvir a defesa.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "08 Mai, 2026",
@@ -1161,12 +1677,93 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "Novas ferramentas processuais permitem maior rapidez na execução de cotas condominiais. Descubra como proteger as finanças do prédio.",
       readTime: `14 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A saúde financeira é o pilar fundamental para a manutenção e valorização de qualquer condomínio. Com o advento do novo Código de Processo Civil (CPC), a cota condominial passou a ser classificada como título executivo extrajudicial, o que representou uma verdadeira revolução jurídica. Essa mudança permite que o processo de cobrança seja muito mais ágil, eliminando a fase de conhecimento e permitindo que o condomínio ingresse diretamente com a execução, o que pode resultar no bloqueio de contas e até na penhora do próprio imóvel em um prazo significativamente menor do que no passado.</p>
-          <p>Para que essa agilidade seja efetiva, é crucial que a administração do condomínio mantenha uma organização documental impecável. A ata da assembleia que aprovou a previsão orçamentária deve estar devidamente registrada, e os boletos e demonstrativos de débito precisam estar claros e precisos. Qualquer falha na constituição do título pode gerar embargos à execução, atrasando o recebimento dos valores e gerando custos processuais adicionais para o condomínio. A assessoria jurídica especializada atua justamente na blindagem desses procedimentos, garantindo que a cobrança seja inatacável sob o ponto de vista formal.</p>
-          <p>Além das medidas judiciais, estratégias de negociação extrajudicial têm se mostrado extremamente eficazes para a recuperação de caixa imediata. O parcelamento de debitos, desde que autorizado pela assembleia ou previsto na convenção, pode ser uma saída para condôminos em dificuldade temporária, evitando o acúmulo de juros e multas que tornam a dívida impagável. O uso de empresas de cobrança garantida também é uma opção, embora deva ser analisada com cautela devido aos custos envolvidos e ao impacto na autonomia da gestão financeira do prédio.</p>
-          <p>Por fim, a prevenção continua sendo o melhor remédio contra a inadimplência recorde. Campanhas de conscientização sobre a importância do pagamento em dia para a manutenção dos serviços essenciais e a transparência total na prestação de contas ajudam a criar uma cultura de responsabilidade coletiva. Quando o morador percebe que sua contribuição se traduz em melhorias visíveis e segurança, a propensão ao atraso diminui. O escritório Soares Martins aplica uma metodologia integrada, oferecendo desde a consultoria preventiva até a execução judicial agressiva, assegurando que o fluxo de caixa do condomínio permaneça estável e protegido contra crises econômicas.</p>
-          <p>Ressaltamos também a importância de um departamento jurídico bem estruturado para lidar com esses casos. A celeridade é essencial: quanto mais tempo uma dívida permanece em aberto, mais difícil se torna sua recuperação. Nossa metodologia envolve o monitoramento constante da carteira de débitos e o uso de ferramentas tecnológicas avançadas para localização de bens e garantia da eficácia das execuções judiciais, proporcionando ao síndico a tranquilidade necessária para gerir os recursos do prédio.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Atrasos no pagamento da taxa de condomínio afetam diretamente o orçamento do prédio, comprometendo a manutenção dos serviços essenciais, a remuneração de funcionários e a realização de melhorias nas áreas comuns. Quando a taxa de inadimplência aumenta, o síndico se vê diante do desafio de equilibrar as contas sem sobrecarregar os moradores que mantêm suas obrigações em dia. Felizmente, a legislação brasileira oferece instrumentos ágeis para a recuperação de valores pendentes.
+          </p>
+
+          <p>
+            No Rio de Janeiro, em edifícios residenciais e comerciais de bairros como Copacabana, Ipanema, Tijuca e Barra da Tijuca, lidar com o atraso nas contas do edifício exige uma abordagem profissional e bem estruturada. É essencial associar a celeridade na cobrança à observância rigorosa das formalidades legais, evitando que débitos antigos se acumulem e dificultem a recuperação do caixa.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os mecanismos legais para acelerar a cobrança de cotas em atraso?</h2>
+          <p>
+            Com a vigência do Código de Processo Civil (CPC), a cota condominial passou a ser classificada como título executivo extrajudicial. Essa inovação trouxe um avanço significativo para a gestão predial, pois permite que o condomínio ingresse diretamente com a ação de execução na Justiça, dispensando a fase inicial de conhecimento. Na prática, o devedor é citado para realizar o pagamento no prazo de 3 (três) dias, sob pena de penhora de valores em contas bancárias ou do próprio imóvel.
+          </p>
+
+          <p>
+            Para que a cobrança judicial ocorra de forma rápida e sem sobressaltos, a organização documental do condomínio precisa estar impecável. É indispensável apresentar a ata da assembleia que aprovou a previsão orçamentária ou o valor das cotas, a Convenção registrada e o demonstrativo de débito com juros, multa e correção monetária claramente discriminados. Eventuais inconsistências na documentação podem gerar embargos à execução, atrasando o recebimento dos valores e gerando custos adicionais.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como utilizar a negociação extrajudicial para recuperar o caixa de forma rápida?</h2>
+          <p>
+            Nem todo débito precisa ser levado imediatamente aos tribunais. A negociação amigável é uma estratégia altamente eficaz para recompor o fluxo de caixa do prédio no curto prazo. O parcelamento do saldo devedor, formalizado mediante termo de confissão de dívida, permite que o morador regularize sua situação de maneira viável, ao mesmo tempo em que fornece ao condomínio uma garantia documental robusta em caso de descumprimento do acordo.
+          </p>
+
+          <p>
+            Paralelamente às medidas de cobrança, a prevenção continua sendo um fator chave para manter a adimplência em níveis saudáveis. O envio de lembretes preventivos antes do vencimento, a oferta de meios de pagamento digitais e a transparência na prestação de contas incentivam o pagamento pontual. Quando a comunidade compreende como os recursos são aplicados na segurança e valorização do imóvel, o índice de atrasos tende a cair expressivamente.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é síndico, gestor ou conselheiro e necessita de assessoria para reestruturar a cobrança de débitos no seu condomínio no Rio de Janeiro, conheça nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: soluções especializadas na recuperação de créditos e cobrança extrajudicial e judicial.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados</Link>: profissionais experientes em execuções de títulos extrajudiciais e negociações de débitos.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Recuperação de Caixa</Link>: entre em contato com nossa equipe para elaborar um plano personalizado de combate à inadimplência.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Agilidade na cobrança e suporte técnico especializado são fundamentais para proteger o caixa do edifício. Quanto mais tempo um débito permanece pendente, maiores são os riscos de perda e os impactos na manutenção do condomínio. A atuação coordenada entre uma cobrança amigável eficiente e uma execução judicial firme assegura a sustentabilidade financeira do imóvel e a tranquilidade da gestão.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados auxilia na redução da inadimplência condominial?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe atua no Rio de Janeiro com foco na recuperação celeridade de créditos para condomínios residenciais e comerciais:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Auditoria e análise documental prévia de atas, convenções e boletos para instruir execuções judiciais inatacáveis;</li>
+              <li>Cobrança extrajudicial amigável com elaboração de termos formais de confissão de dívida e garantias reais;</li>
+              <li>Ajuizamento célere de ações de execução de título extrajudicial com pedidos de penhora online de ativos e bens;</li>
+              <li>Acompanhamento de processos judiciais com busca ativa de patrimônio e leilões de unidades devedoras quando necessário;</li>
+              <li>Consultoria jurídica preventiva para o síndico na criação de réguas de cobrança automatizadas e eficazes.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossa equipe de advogados pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Inadimplência em Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O condomínio pode penhorar o próprio apartamento do devedor?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A dívida de cota condominial possui natureza "propter rem" (vinculada ao próprio imóvel). Por essa razão, a proteção do bem de família não impede a penhora e o leilão do imóvel para quitar débitos do próprio condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Quais são os acréscimos legais permitidos na cobrança da cota atrasada?</h4>
+                <p className="text-text-muted text-xs mt-1">Nos termos do Código Civil (artigo 1.336, § 1º), incidem sobre o valor em atraso a multa de até 2%, juros moratórios de 1% ao mês (ou o fixado na Convenção) e atualização monetária pelo índice oficial.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O síndico pode proibir o morador em atraso de frequentar a piscina ou o salão de festas?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O Superior Tribunal de Justiça (STJ) entende que sanções que causem constrangimento ou privem o morador do uso de áreas comuns ou serviços essenciais são ilegais. A cobrança deve ser efetuada exclusivamente pelos meios de cobrança previstos em lei.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é o prazo limite que o condomínio tem para cobrar cotas atrasadas na Justiça?</h4>
+                <p className="text-text-muted text-xs mt-1">O prazo prescricional para a cobrança de cotas de condomínio em atraso é de 5 (cinco) anos, conforme jurisprudência consolidada do Superior Tribunal de Justiça.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "02 Mai, 2026",
@@ -1181,12 +1778,93 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "O planejamento é a chave para uma gestão saudável. Saiba como elaborar uma previsão orçamentária realista e evitar chamadas extras.",
       readTime: `11 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A previsão orçamentária anual é o documento mais importante para a saúde financeira de um condomínio. É por meio dela que o síndico e o conselho definem as prioridades para o próximo período, estimando as receitas necessárias para cobrir as despesas ordinárias e extraordinárias. Uma previsão bem feita evita a necessidade de chamadas extras inesperadas, que costumam ser fonte de conflito e insatisfação entre os moradores.</p>
-          <p>Para elaborar uma previsão realista, é necessário analisar o histórico de gastos dos anos anteriores, considerando a inflação e o reajuste dos contratos de serviços essenciais, como segurança, limpeza e manutenção de elevadores. Também é fundamental incluir um fundo de reserva e uma provisão para inadimplência, garantindo que o condomínio tenha liquidez para honrar seus compromisos mesmo diante de imprevistos.</p>
-          <p>A apresentação da previsão na assembleia deve ser clara e transparente. O síndico deve explicar os critérios utilizados para as estimativas e estar aberto a sugestões e questionamentos dos condôminos. Quando a comunidade entende a necessidade dos valores apresentados, a aprovação do orçamento se torna mais fácil e a gestão ganha legitimidade e apoio.</p>
-          <p>Além disso, a previsão orçamentária deve ser acompanhada mensalmente. Comparar o que foi planejado com o que foi efetivamente executado permite correções rápidas em caso de desvios, evitando o acúmulo de déficits. Ferramentas de gestão digital são grandes aliadas nesse processo, fornecendo relatórios em tempo real que facilitam o monitoramento da saúde financeira do prédio.</p>
-          <p>O escritório Soares Martins auxilia síndicos na revisão jurídica de previsões orçamentárias e na elaboração das atas necessárias para sua aprovação. Nosso objetivo é garantir que todos os requisitos legais sejam cumpridos, proporcionando segurança jurídica à gestão e assegurando que o planejamento financeiro do condomínio seja robusto e eficaz.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A previsão orçamentária é o coração da gestão financeira de um condomínio. É por meio desse planejamento que o síndico e os moradores estimam as receitas e definem o destino das arrecadações ao longo dos doze meses seguintes. Organizar essa previsão com antecedência e clareza é a melhor forma de manter o caixa do prédio equilibrado e evitar a necessidade de chamadas extras inesperadas, que frequentemente geram desgastes e conflitos na comunidade.
+          </p>
+
+          <p>
+            No Estado do Rio de Janeiro, em edifícios residenciais e comerciais de bairros como Copacabana, Ipanema, Niterói e Barra da Tijuca, elaborar um orçamento anual preciso exige atenção técnica às despesas fixas e variáveis. O aumento contínuo das tarifas de serviços públicos, reajustes salariais de funcionários e contratos de manutenção de elevadores impõem o dever de um planejamento realista para evitar surpresas financeiras ao longo do ano.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Por que elaborar uma previsão orçamentária realista é essencial para a gestão do prédio?</h2>
+          <p>
+            A elaboração do orçamento deve ser fundamentada em uma análise rigorosa do histórico de gastos dos anos anteriores, aliada à projeção de reajustes contratuais e à taxa de inflação acumulada. O síndico deve mapear detalhadamente os custos com folha de pagamento, encargos trabalhistas, consumo de água e energia, contratos de conservação e gastos eventuais. Deixar de considerar qualquer um desses itens pode comprometer a operação e levar a déficits no caixa.
+          </p>
+
+          <p>
+            Além do custeio das despesas ordinárias do dia a dia, a legislação e a boa prática de gestão exigem a inclusão de provisões estratégicas. É o caso do fundo de reserva — destinado a cobrir urgências e imprevistos estruturais — e da estimativa para inadimplência. Reservar uma margem prudente para cobrir eventuais atrasos nas taxas mensais garante que o condomínio continue honrando seus compromissos com fornecedores sem precisar recorrer a empréstimos bancários ou aumentos emergenciais.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como apresentar e aprovar o orçamento anual na assembleia de moradores?</h2>
+          <p>
+            A apresentação do orçamento deve ocorrer na Assembleia Geral Ordinária (AGO), habitualmente realizada nos primeiros meses do ano. O síndico deve expor a proposta de maneira didática e transparente, disponibilizando os demonstrativos financeiros com antecedência aos condôminos. Explicar com clareza os motivos de eventuais reajustes na cota mensal reduz resistências e facilita a aprovação pela maioria dos presentes.
+          </p>
+
+          <p>
+            Tão importante quanto aprovar a previsão é acompanhar sua execução mês a mês. O confronto regular entre os valores previstos e os gastos realizados permite identificar desvios no orçamento logo no início e adotar medidas corretivas antes que o saldo fique negativo. O uso de relatórios financeiros detalhados e ferramentas de gestão digital traz mais transparência e fortalece a confiança da comunidade na administração.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é síndico, conselheiro ou condômino e busca auxílio para estruturar a gestão financeira do seu prédio no Rio de Janeiro, conheça nossos recursos:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: assessoria em assembleias, revisão orçamentária e consultoria preventiva para síndicos.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com vasta experiência em auditoria, direito condominial e assembleias no RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Gestão Condominial</Link>: agende uma consultoria com nossos advogados para revisar a convenção e o planejamento do seu condomínio.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            O planejamento financeiro bem estruturado garante a segurança do condomínio e preserva o valor dos imóveis. Quando a previsão orçamentária é pautada na transparência, na legislação e em critérios técnicos sólidos, o condomínio ganha em estabilidade e evita disputas entre os condôminos. Contar com assessoria jurídica na validação das edições orçamentárias e na condução das assembleias é o caminho mais seguro para uma gestão eficiente.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados auxilia na previsão e gestão orçamentária?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Oferecemos suporte jurídico completo a síndicos e administradoras no Rio de Janeiro para garantir legalidade e clareza nas decisões financeiras do condomínio:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Revisão jurídica da proposta orçamentária antes do envio e apresentação aos condôminos;</li>
+              <li>Redação e assessoria na elaboração do edital de convocação e da ata da Assembleia Geral Ordinária;</li>
+              <li>Orientação sobre a constituição e utilização legal do fundo de reserva e fundos de obras;</li>
+              <li>Pareceres legais sobre a instituição de chamadas extraordinárias e reajustes de cotas;</li>
+              <li>Mediação de divergências entre moradores e conselho fiscal sobre a prestação de contas do edifício.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou fale com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Previsão Orçamentária em Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A aprovação da previsão orçamentária na assembleia é obrigatória por lei?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O artigo 1.348, inciso VIII, do Código Civil determina que compete ao síndico elaborar o orçamento da receita e da despesa relativa a cada ano e submetê-lo à aprovação da assembleia ordinária.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O que acontece se a assembleia rejeitar a proposta de previsão orçamentária?</h4>
+                <p className="text-text-muted text-xs mt-1">Caso a proposta seja rejeitada, o síndico deve manter temporariamente os valores da previsão anterior e convocar uma nova assembleia para apresentar uma proposta ajustada conforme as objeções dos condôminos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O síndico pode alterar o valor da cota condominial sem aprovação em assembleia?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. Qualquer alteração no valor fixado para a cota condominial ordinária exige obrigatoriamente a aprovação dos moradores em assembleia regularmente convocada para essa finalidade.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O fundo de reserva pode ser utilizado para cobrir despesas ordinárias do condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Em regra, o fundo de reserva destina-se a despesas imprevistas ou emergenciais. Se houver necessidade pontual de usá-lo para gastos ordinários, a medida deve ser ratificada pela assembleia com previsão de recomposição posterior.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "25 Abr, 2026",
@@ -1199,14 +1877,100 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       slug: 'tecnologia-condominios-portaria-remota',
       title: "Tecnologia nos Condomínios: Portaria Remota e Segurança",
       excerpt: "Descubra como a tecnologia está transformando a segurança dos condomínios e reduzindo custos operacionais com soluções de portaria remota.",
-      readTime: `9 min ${t('blog_page.read_time_suffix')}`,
+      readTime: `12 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A tecnologia tem sido uma grande aliada na modernização dos condomínios, especialmente na área de segurança. A portaria remota, por exemplo, tem ganhado espaço como uma solução eficiente para aumentar a proteção dos moradores e, ao mesmo tempo, reduzir os custos fixos do prédio. Ao substituir a presença física de um porteiro por uma central de monitoramento especializada, o condomínio elimina riscos trabalhistas e ganha em precisão tecnológica.</p>
-          <p>No entanto, a transição para a portaria remota exige um planejamento cuidadoso. É necessário investir em equipamentos de alta qualidade, como câmeras de alta definição, controle de acesso biométrico e sistemas de internet redundantes. A escolha da empresa prestadora do serviço também é crucial: é preciso verificar a reputação da empresa, a infraestrutura da central de monitoramento e os protocolos de resposta em caso de emergência.</p>
-          <p>Além da portaria remota, outras tecnologias como aplicativos de gestão e armários inteligentes (lockers) estão facilitando o dia a dia de moradores e síndicos. Essas ferramentas permitem a reserva de áreas comuns, o recebimento de encomendas e a comunicação com a administração de forma rápida e segura, aumentando a transparência e a eficiência da gestão.</p>
-          <p>A implementação dessas tecnologias deve ser acompanhada de uma revisão do regimento interno e da política de privacidade do condomínio, especialmente por conta da LGPD. É preciso definir claramente quem tem acesso aos dados e imagens captadas e como essas informações serão protegidas, garantindo que a modernização não fira os direitos individuais dos moradores.</p>
-          <p>O Soares Martins oferece suporte jurídico para a contratação de serviços tecnológicos em condomínios, revisando contratos e garantindo que a implementação siga todos os padrões legais e de segurança. Auxiliamos seu condomínio a se modernizar de forma segura e eficiente, aproveitando ao máximo os benefícios que a tecnologia pode oferecer à comunidade.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A busca por mais segurança e pela redução de custos operacionais tem levado cada vez mais prédios a adotar a portaria remota e virtual. A substituição do controle físico de acesso por centrais de monitoramento à distância é uma tendência marcante nos edifícios residenciais e comerciais do Rio de Janeiro. Contudo, essa mudança tecnológica envolve reflexões contratuais, trabalhistas e de proteção de dados que não podem ser ignoradas pelos gestores do condomínio.
+          </p>
+
+          <p>
+            Em bairros como Copacabana, Ipanema, Tijuca, Niterói e Barra da Tijuca, a transição para a portaria eletrônica e sistemas automatizados exige um planejamento jurídico e operacional cuidadoso. Negligenciar a análise dos contratos de prestação de serviços ou falhar na adequação das normas internas pode transformar o que deveria ser uma economia em um passivo de ações judiciais e falhas graves de segurança física.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os principais cuidados jurídicos ao contratar a portaria remota?</h2>
+          <p>
+            A migração para o sistema remoto exige a apreciação minuciosa do contrato firmado com a empresa de tecnologia e segurança. É indispensável verificar se a prestadora dispõe de central de monitoramento com infraestrutura redundante (geradores de energia, conexões de internet secundárias e servidores protegidos). Além disso, o contrato deve estabelecer cláusulas claras sobre o tempo de resposta em caso de emergências, além de definir responsabilidades civis em cenários de falhas de equipamento ou invasões.
+          </p>
+
+          <p>
+            Outro ponto crítico diz respeito às adequações trabalhistas e rescisões de contratos anteriores. Quando o condomínio decide descontinuar a portaria presencial própria ou terceirizada, é preciso planejar o desligamento dos colaboradores com rigor legal, evitando passivos trabalhistas com horas extras, adicionais noturnos ou alegações de demissão sem o devido cumprimento das verbas devidas.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como garantir a segurança e a proteção de dados na implantação da tecnologia?</h2>
+          <p>
+            A implantação de biometria facial, reconhecimento de placas de veículos e aplicativos de acesso gera um alto volume de dados pessoais e imagens dos condôminos e visitantes. De acordo com a Lei Geral de Proteção de Dados (LGPD), o condomínio e a empresa contratada compartilham a responsabilidade pelo tratamento seguro dessas informações. O condomínio deve exigir da fornecedora comprovação de rotinas de cibersegurança, criptografia e limitação de acesso aos bancos de dados.
+          </p>
+
+          <p>
+            Paralelamente, o Regimento Interno precisa ser atualizado por assembleia para regulamentar os novos procedimentos de entrada de visitantes, entregas e prestadores de serviço. O uso de armários inteligentes (lockers) e cadastros prévios via aplicativo facilita a rotina das encomendas, mas demanda regras claras de uso e responsabilização para prevenir extravios e garantir que a autonomia trazida pela tecnologia não comprometa a ordem interna do edifício.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual é o quórum recomendado em assembleia para aprovar a portaria remota?</h2>
+          <p>
+            A decisão de alterar o sistema de portaria presencial para remota altera a dinâmica de prestação de serviços essenciais e a estrutura de segurança do edifício. Por essa razão, há relevante debate doutrinário e jurisprudencial quanto ao quórum de aprovação na assembleia. Embora alguns condomínios aprovem a mudança por maioria simples dos presentes, a jurisprudência recente tem recomendado a busca por maioria qualificada (dois terços dos condôminos) quando a alteração demandar obras estruturais no hall de entrada ou modificação na convenção, prevenindo anulações judiciais promovidas por moradores contrários à medida.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se o seu prédio planeja contratar serviços de portaria remota ou deseja revisar contratos de segurança no Rio de Janeiro com resguardo jurídico, acesse nossos canais:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: assessoria em contratos de portaria remota, LGPD e transição de equipe.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: advogados qualificados em Direito Condominial e tecnologia predial no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Modernização Condominial</Link>: agende uma reunião para examinar os contratos e a segurança jurídica do seu prédio.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A modernização dos sistemas de segurança predial traz inegáveis benefícios de eficiência e redução do valor da cota mensal, mas deve ser conduzida com resguardo jurídico. A orientação de especialistas em Direito Condominial garante que o processo de escolha da prestadora, a redação contratual e a adequação do Regimento Interno ocorram em estrita conformidade com a legislação civil e a LGPD.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados pode apoiar seu condomínio na transição tecnológica?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa banca em Ipanema atua com foco na proteção jurídica dos gestores e moradores durante processos de modernização predial no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Análise e revisão detalhada de contratos de portaria remota, controle de acesso e segurança eletrônica;</li>
+              <li>Assessoria no planejamento trabalhista para a dispensa ou readequação do quadro de porteiros presenciais;</li>
+              <li>Adequação dos sistemas de captura de imagens e dados biológicos às exigências formais da LGPD;</li>
+              <li>Elaboração do edital de convocação e apoio na condução de assembleias para votação da portaria remota;</li>
+              <li>Atualização das regras do Regimento Interno para controle de encomendas, armários inteligentes e acesso de visitantes.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Portaria Remota em Condomínios (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A portaria remota realmente reduz os custos mensais do condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A economia com a folha de pagamento de porteiros presenciais e encargos trabalhistas costuma gerar uma redução significativa nos custos ordinários do prédio, compensando o investimento inicial em equipamentos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O condomínio pode ser responsabilizado por falhas na portaria remota?</h4>
+                <p className="text-text-muted text-xs mt-1">O condomínio e a empresa prestadora podem responder civilmente caso haja falha comprovada na prestação do serviço que resulte em furtos ou invasões, sendo fundamental ter um contrato com responsabilidades bem delimitadas.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Como funciona o recebimento de encomendas na portaria remota?</h4>
+                <p className="text-text-muted text-xs mt-1">O recebimento de encomendas costuma ser viabilizado pelo uso de armários inteligentes (lockers), zeladoria em horários específicos ou liberação remota temporária do entregador para acesso a um espaço seguro no hall.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é o quórum recomendado na assembleia para aprovar a portaria remota?</h4>
+                <p className="text-text-muted text-xs mt-1">Embora a jurisprudência apresente divergências, recomenda-se buscar a aprovação por maioria qualificada (dois terços) ou, no mínimo, maioria absoluta dos condôminos, especialmente se houver necessidade de obras estruturais ou alteração de regras da convenção.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "18 Abr, 2026",
@@ -1217,16 +1981,106 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 6,
       slug: 'direito-imobiliario-due-diligence-compra',
-      title: "Due Diligence na Compra de Imóveis: Sua Importância no RJ",
+      title: "Due Diligence na Compra de Imóveis: Sua Importância no Rio de Janeiro",
       excerpt: "Comprar um imóvel é um investimento de alto valor. Saiba por que a due diligence é essencial para evitar problemas jurídicos futuros.",
       readTime: `13 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A compra de um imóvel é uma das transações financeiras mais importantes na vida de uma pessoa. Para garantir que esse investimento seja seguro, é fundamental a realização da due diligence, que consiste em uma análise jurídica detalhada do imóvel e dos vendedores. Esse processo visa identificar possíveis riscos, como dívidas ocultas, penhoras judiciais ou problemas ambientais, que poderiam comprometer a transação.</p>
-          <p>Durante a due diligence, são analisados diversos documentos, como a matrícula atualizada do imóvel, certidões negativas de débitos (federais, estaduais e municipais) e certidões dos distribuidores dos tribunais cíveis, trabalhistas e federais. A análise dos vendedores também é essencial para verificar se existem processos que poderiam levar à anulação da venda no futuro, como fraude contra credores.</p>
-          <p>No caso de imóveis em condomínios, também é necessário verificar a situação financeira do prédio e a existência de cotas condominiais em aberto. O comprador deve solicitar a certidão negativa de débitos condominiais, assinada pelo síndico, para garantir que não será responsabilizado por dívidas anteriores do imóvel.</p>
-          <p>A due diligence não é um gasto, mas sim um investimento em segurança. Uma análise bem feita pode evitar anos de batalhas judiciais e perdas financeiras significativas. É a única forma de garantir que o imóvel está "limpo" e que a compra será realizada de forma juridicamente segura, proporcionando tranquilidade ao comprador.</p>
-          <p>O escritório Soares Martins conta com uma equipe especializada em direito imobiliário para realizar a due diligence completa para sua compra de imóvel. Analisamos todos os riscos e entregamos um relatório detalhado, orientando você em cada passo da transação e garantindo que seu investimento esteja protegido pelas melhores práticas jurídicas.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Adquirir uma casa ou apartamento representa uma das decisões financeiras mais marcantes na vida de qualquer pessoa ou empresa. No entanto, por trás da empolgação na escolha do imóvel ideal, existem riscos jurídicos e fiscais invisíveis a olho nu que podem comprometer todo o patrimônio investido. A realização de uma auditoria preventiva — conhecida no mercado imobiliário como due diligence — é o passo fundamental para assegurar que a transação ocorra de forma transparente, regular e sem surpresas desagradáveis no futuro.
+          </p>
+
+          <p>
+            No Estado do Rio de Janeiro, onde o mercado imobiliário movimenta somas expressivas em bairros como Ipanema, Leblon, Copacabana, Botafogo, Niterói e Barra da Tijuca, a análise prévia ganha ainda mais relevância. Questões como execuções fiscais de IPTU, penhoras em processos trabalhistas dos vendedores, indisponibilidade de bens ou irregularidades na matrícula do imóvel podem levar à perda do bem ou ao bloqueio da transferência. Entender o que é a due diligence e exigir essa investigação antes de realizar o sinal de negócio é a única garantia de uma aquisição verdadeiramente segura.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Por que a due diligence imobiliária é indispensável antes de assinar o contrato?</h2>
+          <p>
+            Muitas pessoas acreditam que a simples leitura da certidão de ônus reais do imóvel é suficiente para fechar o negócio. Contudo, a legislação brasileira estabelece que dívidas pessoais do vendedor — tais como processos de execução, cobranças de impostos ou pendências trabalhistas — podem resultar em alegações de fraude à execução ou fraude contra credores, permitindo que a Justiça anule a venda do imóvel mesmo após a lavratura da escritura pública e o pagamento integral do preço.
+          </p>
+
+          <p>
+            A due diligence atua como um raio-X completo da operação. Essa análise investiga minuciosamente o histórico jurídico tanto da propriedade quanto das pessoas físicas ou jurídicas envolvidas na venda. Ao mapear todos os potenciais riscos antes do desembolso financeiro, o comprador ganha poder de negociação para exigir a quitação prévia de pendências, estabelecer cláusulas de retenção de valores ou até mesmo desistir da compra caso o risco seja considerado inaceitável.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais documentos e certidões devem ser auditados durante a análise técnica?</h2>
+          <p>
+            Uma auditoria imobiliária rigorosa abrange o levantamento minucioso de certidões em diversas esferas públicas e cartorárias. Em relação ao imóvel, examinam-se a matrícula atualizada com a certidão de ônus reais e alienações, a certidão negativa de débitos de IPTU expedida pela prefeitura municipal, a certidão de situação fiscal e enfitêutica (em áreas com laudêmio), além da certidão negativa de débitos condominiais devidamente assinada pelo síndico.
+          </p>
+
+          <p>
+            Já em relação aos vendedores, a pesquisa engloba certidões dos distribuidores cíveis, criminais, de execuções fiscais federais e estaduais, certidões da Justiça do Trabalho, certidão negativa da Receita Federal e da Dívida Ativa da União, além de pesquisas em cadastros de inadimplência e protestos de títulos. Se os vendedores forem sócios de empresas, a investigação deve se estender às pessoas jurídicas vinculadas para verificar se eventuais dívidas empresariais podem atingir o patrimônio pessoal dos sócios.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os riscos mais frequentes que a verificação jurídica consegue evitar?</h2>
+          <p>
+            Dentre os problemas mais recorrentes identificados pela due diligence imobiliária no Rio de Janeiro, destacam-se as penhoras judiciais não averbadas na matrícula, ações de inventário pendentes entre herdeiros do imóvel, dívidas antigas de condomínio (que possuem natureza propter rem e acompanham o bem), construções ou reformas irregulares não averbadas junto à prefeitura e a existência de ações trabalhistas contra empresas dos proprietários.
+          </p>
+
+          <p>
+            Outro risco relevante envolve imóveis situados em terrenos de marinha ou com incidência de foro e laudêmio (como ocorre em diversas regiões do Rio de Janeiro e de Niterói). Sem o correto recolhimento dessas taxas e a obtenção das certidões de aforamento junto à Secretaria de Coordenação e Governança do Patrimônio da União (SPU) ou órgãos locais, a lavratura da escritura definitiva pode ser impedida, gerando entraves e custos não previstos pelo comprador.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você está negociando um imóvel ou deseja garantir a segurança jurídica da sua aquisição imobiliária no Rio de Janeiro, conheça nossas soluções especializadas:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário</Link>: assessoria técnica para due diligence, elaboração de contratos e elaboração de pareceres de risco.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com vasta experiência em auditoria imobiliária e negócios jurídicos no RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado em Transações Imobiliárias</Link>: fale com nossos advogados para analisar a documentação da sua compra.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Realizar uma due diligence imobiliária não é um custo adicional, mas o investimento mais inteligente para proteger o seu patrimônio. Ao contar com o apoio de advogados especialistas em Direito Imobiliário, você adquire a tranquilidade de saber que o bem escolhido está plenamente regularizado e livre de ônus que possam comprometer seu futuro e sua estabilidade financeira.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados protege sua aquisição imobiliária?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece consultoria completa e personalizada para garantir total segurança jurídica em negócios imobiliários no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Auditoria técnica e jurídica rigorosa (Due Diligence) do imóvel e de todos os proprietários e empresas envolvidas;</li>
+              <li>Levantamento e análise crítica de certidões cíveis, trabalhistas, federais, fiscais e cartorárias;</li>
+              <li>Exame detalhado da matrícula do imóvel, certidões de ônus, situação de IPTU e débitos condominiais;</li>
+              <li>Redação e revisão customizada do contrato de promessa de compra e venda e minuta de escritura pública;</li>
+              <li>Emissão de parecer jurídico conclusivo com classificação transparente dos níveis de risco da transação.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Due Diligence Imobiliária (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Quanto tempo demora para realizar uma due diligence imobiliária?</h4>
+                <p className="text-text-muted text-xs mt-1">Em média, o levantamento e a emissão do parecer conclusivo levam de 3 a 7 dias úteis, a depender da agilidade na expedição das certidões pelos órgãos públicos e cartórios.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. A certidão de ônus reais do imóvel é suficiente para garantir que a compra é segura?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A certidão de ônus reais informa apenas a situação cadastral do imóvel. Ela não revela pendências judiciais ou fiscais dos vendedores que possam levar à anulação da venda na Justiça.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que acontece se forem encontradas dívidas ou processos contra o vendedor?</h4>
+                <p className="text-text-muted text-xs mt-1">Dependendo da gravidade e do valor do débito, o parecer jurídico indicará se a compra pode prosseguir com retenção de parte do pagamento para quitação da dívida ou se recomenda-se desistir do negócio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é a diferença entre a due diligence advocatícia e a análise feita pela imobiliária?</h4>
+                <p className="text-text-muted text-xs mt-1">A corretora de imóveis atua na aproximação das partes. Já a due diligence feita por advogados imobiliários é uma auditoria jurídica independente e aprofundada, focada exclusivamente na proteção legal e patrimonial do comprador.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "10 Abr, 2026",
@@ -1241,12 +2095,98 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "Conflitos entre vizinhos são comuns, mas podem ser evitados com regras claras e mediação. Saiba como promover uma convivência saudável.",
       readTime: `10 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A convivência em um condomínio é um desafio constante, pois envolve pessoas com diferentes hábitos e expectativas compartilhando o mesmo espaço. As principais fontes de conflito costumam ser o barulho, o uso das áreas comuns e os animais de estimação. Para evitar esses problemas, é fundamental que o condomínio conte com um regimento interno claro e atualizado, que defina os direitos e deveres de todos de forma justa e equilibrada.</p>
-          <p>O barulho é o campeão de reclamações. É preciso respeitar os horários de silêncio estabelecidos no regimento e, mesmo durante o dia, manter um nível de ruído que não incomode os vizinhos. O bom senso é a melhor regra: evitar música alta, arrastar móveis em horários impróprios e o barulho excessivo de crianças ou pets são atitudes essenciais para uma boa convivência.</p>
-          <p>O uso das áreas comuns, como salão de festas, academia e piscina, também exige organização. As regras de reserva devem ser seguidas por todos, e os espaços devem ser devolvidos no mesmo estado de limpeza e conservação em que foram encontrados. Respeitar a lotação máxima dos ambientes e as regras de uso para visitantes também é fundamental para evitar conflitos e garantir a segurança de todos.</p>
-          <p>Quando surge um conflito, a mediação é a melhor saída. O síndico deve atuar como um facilitador neutro, buscando uma solução amigável entre as partes antes de aplicar multas ou levar o caso para a justiça. Uma boa conversa e o respeito mútuo costumam ser suficientes para resolver a maioria dos desentendimentos e restaurar a harmonia no prédio.</p>
-          <p>O Soares Martins auxilia condomínios na elaboração e revisão de regimentos internos e na mediação de conflitos de convivência. Nosso objetivo é promover um ambiente saudável e juridicamente seguro, onde todos possam desfrutar de seu lar com tranquilidade e respeito, garantindo que o condomínio seja um lugar de harmonia e bem-estar.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A convivência em um condomínio reúne diariamente famílias e moradores com hábitos, rotinas e expectativas distintos sob o mesmo teto. Nesse cenário, o barulho em horários impróprios e o uso desordenado das áreas comuns figuram como as principais causas de atritos e desgastes no ambiente comunitário. Quando não geridos com firmeza e bom senso, pequenos desentendimentos podem escalar para bate-bocas, notificações judiciais e processos por danos morais.
+          </p>
+
+          <p>
+            No Rio de Janeiro, a elevada densidade populacional em bairros como Copacabana, Ipanema, Botafogo, Tijuca e Barra da Tijuca intensifica o impacto do ruído urbano e da utilização de espaços coletivos. Contar com um Regimento Interno atualizado e aplicar regras de convivência fundamentadas na legislação civil é a melhor forma de garantir o sossego das famílias e preservar a harmonia da gestão predial.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como agir diante de ruídos e barulhos excessivos no condomínio?</h2>
+          <p>
+            O direito ao sossego é protegido expressamente pelo artigo 1.277 do Código Civil, que assegura ao morador o direito de fazer cessar as interferências prejudiciais à sua saúde, segurança e tranquilidade. Existe o mito de que o barulho só é proibido após as 22 horas, mas a verdade é que ruídos excessivos e perturbações desproporcionais — tais como obras fora do horário permitido, som alto, festas prolongadas ou arrastar constante de móveis — são vedados a qualquer hora do dia ou da noite.
+          </p>
+
+          <p>
+            Diante de episódios recorrentes de perturbação, o caminho recomendado é buscar primeiramente o diálogo direto e amigável entre os envolvidos. Caso o problema persista, o morador afetado deve registrar formalmente a ocorrência no livro da portaria ou aplicativo oficial do condomínio. Com base nesse registro e em eventuais testemunhos ou provas produzidas, o síndico tem a obrigação de intervir, aplicando gradações de penalidades que vão desde a advertência por escrito até multas fixadas na Convenção ou no Regimento Interno.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são as regras para o uso consciente de salões de festas e áreas de lazer?</h2>
+          <p>
+            As áreas de uso comum — como salão de festas, churrasqueiras, academias, piscinas e quadras esportivas — pertencem a todos os condôminos em fração ideal. Por essa razão, a utilização desses espaços deve seguir normas rígidas estipuladas no Regimento Interno, abrangendo prazos para reserva prévia, limites de lotação, controle da lista de convidados e horários para encerramento de eventos com emissão de som.
+          </p>
+
+          <p>
+            O morador reservante responde diretamente por eventuais danos causados à estrutura ou aos equipamentos das áreas comuns por seus convidados ou prestadores de serviço contratados. Além disso, a devolução dos espaços deve respeitar os horários de limpeza estabelecidos, garantindo que o direito de lazer de uma família não anule o direito ao descanso e à tranquilidade dos demais vizinhos do edifício.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual é o papel do síndico e da mediação jurídica nos conflitos de vizinhança?</h2>
+          <p>
+            O síndico exerce papel central na preservação da ordem, atuando de forma imparcial para aplicar as sanções cabíveis e mediar controvérsias antes que se transformem em disputas judiciais custosas. Quando o infrator insiste no descumprimento das regras, o condomínio pode enquadrá-lo como condômino antissocial (artigo 1.337 do Código Civil), deliberando em assembleia a aplicação de multas que podem alcançar até dez vezes o valor da cota condominial, ou buscar a via judicial para proibições específicas.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se o seu condomínio enfrenta atritos por barulho, uso indevido de áreas comuns ou precisa reestruturar o Regimento Interno no Rio de Janeiro, conheça nossas soluções:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: elaboração e revisão de Regimentos Internos, assessoria a síndicos e mediação de conflitos.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais experientes em relações de vizinhança e contencioso condominial no RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Conflitos em Condomínio</Link>: entre em contato com nossa equipe jurídica para sanar suas dúvidas sobre convivência e normas internas.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            O equilíbrio entre o exercício do direito de propriedade e o respeito à coletividade é o segredo para uma boa convivência condominial. Regras bem formuladas, canais de comunicação eficientes e uma gestão firme garantem a valorização do patrimônio e proporcionam um ambiente seguro e agradável para todos os moradores.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados pode atuar na solução de conflitos de convivência?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa banca em Ipanema oferece orientação jurídica completa para síndicos, conselhos e moradores no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Elaboração e revisão técnica do Regimento Interno e da Convenção do Condomínio para atualizar regras de ruído e áreas comuns;</li>
+              <li>Assessoria jurídica ao síndico para aplicação legal de advertências e multas contra condôminos nocivos ou antissociais;</li>
+              <li>Condução de sessões de mediação e conciliação extrajudicial entre vizinhos para solução amigável de controvérsias;</li>
+              <li>Proposição de ações judiciais de obrigação de fazer com pedido de tutela de urgência e aplicação de astreintes (multa diária);</li>
+              <li>Treinamento de funcionários da portaria e administração para o registro correto de ocorrências e produção de provas.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Barulho e Áreas Comuns em Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O barulho alto só é proibido após as 22 horas?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A perturbação do sossego alheio e ruídos desproporcionais são proibidos em qualquer horário do dia ou da noite, nos termos do artigo 1.277 do Código Civil e da Lei de Contravenções Penais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O que o morador incomodado deve fazer ao constatar barulho excessivo vindo do vizinho?</h4>
+                <p className="text-text-muted text-xs mt-1">Deve tentar o contato amigável com o vizinho e, se o barulho persistir, registrar o fato formalmente no livro de ocorrências da portaria ou aplicativo do prédio para que o síndico tome as providências cabíveis.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O condomínio pode proibir a entrada de convidados de moradores em áreas comuns?</h4>
+                <p className="text-text-muted text-xs mt-1">O condomínio não pode proibir de forma genérica o acesso de convidados, mas pode estabelecer limites razoáveis de quantidade e horários no Regimento Interno para preservar a segurança e o uso equitativo das instalações.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Quais providências o síndico pode tomar contra um morador reiteradamente barulhento?</h4>
+                <p className="text-text-muted text-xs mt-1">O síndico pode aplicar advertência formal, impor multas progressivas conforme a Convenção e, em casos graves de reincidência, convocar assembleia para enquadrar o devedor como condômino antissocial com multa de até 10 vezes a cota do condomínio.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "03 Abr, 2026",
@@ -1257,15 +2197,106 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
     {
       id: 8,
       slug: 'cobranca-judicial-inadimplente-condominio-rj',
-      title: "Cobrança Judicial de Inadimplente em Condomínio no RJ",
+      title: "Cobrança Judicial de Inadimplente em Condomínio no Rio de Janeiro",
       excerpt: "A inadimplência é um dos maiores desafios dos síndicos no Rio de Janeiro. Entenda o passo a passo jurídico para recuperar as cotas em atraso.",
       readTime: `15 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>No Rio de Janeiro, a cobrança de cotas condominiais em atraso segue ritos processuais específicos que visam a celeridade e a proteção do caixa do condomínio. Desde a alteração do Código de Processo Civil, a cota condominial é título executivo extrajudicial, o que permite que o condomínio entre diretamente com uma ação de execução, sem a necessidade de uma fase prévia de conhecimento demorada.</p>
-          <p>O primeiro passo é a tentativa de conciliação extrajudicial. O escritório Soares Martins recomenda o envio de notificações formais e a tentativa de acordo, o que resolve cerca de 60% dos casos antes mesmo de chegar ao judiciário. Caso não haja sucesso, a ação de execução é protocolada. No RJ, os tribunais têm sido ágeis na determinação de penhora online de ativos financeiros do devedor.</p>
-          <p>Um ponto crucial é a documentação. Para que a execução seja válida, o condomínio deve apresentar a ata da assembleia que aprovou a previsão orçamentária, a convenção do condomínio e o demonstrativo detalhado do débito. Falhas nessa documentação podem atrasar o processo por meses. Por isso, a assessoria jurídica especializada é fundamental para garantir que o título seja líquido, certo e exigível.</p>
-          <p>Em casos extremos, o próprio imóvel que gerou a dívida pode ir a leilão judicial para quitar o débito, mesmo que seja o único bem de família do devedor. Essa é uma exceção legal importante que garante que a coletividade não seja prejudicada pelo inadimplente. Nosso escritório acompanha todas as fases, desde a localização de bens até a arrematação em leilão, garantindo o retorno do capital ao condomínio.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A inadimplência das cotas condominiais é um dos problemas mais graves e complexos enfrentados por síndicos e administradoras no Rio de Janeiro. Quando um ou mais moradores deixam de pagar suas contribuições, o orçamento do prédio fica desequilibrado, o que dificulta a manutenção ordinária, adia obras necessárias e força o aumento da taxa para os condôminos adimplentes.
+          </p>
+
+          <p>
+            Em municípios populosos do Estado do Rio de Janeiro e em bairros como Copacabana, Ipanema, Barra da Tijuca, Recreio, Tijuca e Niterói, lidar com o não pagamento de despesas requer uma abordagem jurídica ágil e assertiva. O Código de Processo Civil simplificou significativamente a recuperação desses débitos, permitindo ao condomínio buscar o recebimento pela via judicial de maneira rápida e com grande eficácia.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como funciona o processo de execução de cotas condominiais na Justiça?</h2>
+          <p>
+            Com a entrada em vigor do atual Código de Processo Civil (CPC), as despesas ordinárias e extraordinárias aprovadas em assembleia ganharam o status de título executivo extrajudicial. Isso significa que o condomínio não precisa mais enfrentar uma longa ação de conhecimento para que o juiz reconheça a existência da dívida.
+          </p>
+
+          <p>
+            Com o ajuizamento direto da Ação de Execução de Título Extrajudicial, o devedor é citado pelo Poder Judiciário para efetuar o pagamento integral do débito — acrescido de juros de mora, multa moratória de 2%, correção monetária e honorários advocatícios — no prazo estrito de três dias úteis. Caso o pagamento não ocorra nesse período, o juiz pode determinar imediatamente a penhora online de valores em contas bancárias e aplicações financeiras do inadimplente.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais documentos são obrigatórios para ajuizar a cobrança judicial?</h2>
+          <p>
+            Para que a ação de execução seja admitida pelo juiz e não corra o risco de atrasos ou indeferimentos, a instrução documental precisa ser irrepreensível. A petição inicial deve ser acompanhada da Convenção do Condomínio registrada, da ata da assembleia que elegeu o síndico em exercício, da ata que aprovou a previsão orçamentária ou a taxa extra cobrada, além do demonstrativo discriminado e atualizado do débito.
+          </p>
+
+          <p>
+            Inconsistências no cálculo das planilhas ou a ausência de atas de aprovação são as principais causas de defesas (embargos à execução) por parte dos devedores. Por essa razão, a atuação de uma assessoria jurídica especializada em Direito Condominial garante que o título seja líquido, certo e exigível antes da distribuição da ação.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O próprio imóvel pode ir a leilão para quitar dívidas de condomínio?</h2>
+          <p>
+            Sim. Uma das maiores garantias para os condomínios é que a dívida de cota condominial possui natureza <em>propter rem</em> — ou seja, ela é vinculada diretamente à própria unidade imobiliária. Por força dessa característica e do artigo 3º, IV, da Lei nº 8.009/1990, o imóvel pode ser penhorado e levado a leilão judicial para pagamento do débito, ainda que seja o único imóvel residencial da família do devedor (bem de família).
+          </p>
+
+          <p>
+            Essa prerrogativa legal impede que condôminos inadimplentes utilizem a proteção do bem de família para se esquivar do pagamento das despesas comuns do edifício. Caso haja hipoteca sobre o bem ou o imóvel seja financiado por alienação fiduciária, a legislação e a jurisprudência fixam ritos próprios para resguardar os direitos do condomínio na fila de credores.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se o seu condomínio enfrenta taxas de inadimplência elevadas no Rio de Janeiro e necessita de apoio jurídico especializado para cobrança extrajudicial e judicial, acesse nossos canais:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Condominial e Cobrança</Link>: soluções jurídicas integradas para gestão de inadimplência e ações de execução.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com ampla experiência na recuperação de créditos condominiais no RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Síndicos e Administradoras</Link>: entre em contato com nosso escritório para estruturar uma régua de cobrança eficiente.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A gestão preventiva da inadimplência aliada a uma cobrança judicial rápida é a chave para manter a saúde financeira do condomínio e preservar a valorização patrimonial das unidades. Contar com advogados especializados garante o cumprimento dos ritos legais, maximiza a recuperação dos recursos e protege a coletividade de moradores de rateios extraordinários.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados atua na recuperação de créditos para seu condomínio?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece uma estrutura completa para o combate à inadimplência condominial no Estado do Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Notificação e negociação extrajudicial humanizada para celebração de termos de confissão de dívida;</li>
+              <li>Ajuizamento célere de Ações de Execução de Título Extrajudicial para cobrança de cotas em atraso;</li>
+              <li>Acompanhamento ostensivo de penhoras online de contas bancárias, veículos e ativos financeiros dos devedores;</li>
+              <li>Condução de penhora e leilão judicial da própria unidade geradora do débito condominial;</li>
+              <li>Relatórios periódicos de acompanhamento processual para apresentação ao síndico e conselho fiscal nas assembleias.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Cobrança Judicial em Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Quanto tempo demora uma ação de execução de cotas condominiais na Justiça do RJ?</h4>
+                <p className="text-text-muted text-xs mt-1">Como a cota condominial é um título executivo extrajudicial, o devedor tem prazo de 3 dias para pagar após a citação. Caso não pague, a penhora online pode ocorrer em poucos dias ou semanas, a depender da agilidade da vara cível.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O condomínio pode proibir o inadimplente de usar áreas comuns como piscina e academia?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O Superior Tribunal de Justiça (STJ) entende que a proibição do uso de áreas comuns como forma de coerção ao pagamento é ilegítima, devendo o condomínio utilizar exclusivamente os meios legais de cobrança previstos no CPC e no Código Civil.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O único imóvel da família do devedor pode ser penhorado por dívida de condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A lei de impenhorabilidade do bem de família (Lei 8.009/90) prevê expressamente a exceção para débitos decorrentes das próprias despesas do imóvel, como as taxas de condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Quais são as multas e juros que incidem sobre a cota condominial em atraso?</h4>
+                <p className="text-text-muted text-xs mt-1">O Código Civil fixa multa moratória de até 2% e juros de mora de 1% ao mês (ou o estipulado na Convenção), além da atualização monetária e dos honorários advocatícios em caso de cobrança judicial.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "15 Abr, 2026",
@@ -1280,10 +2311,102 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "O barulho excessivo é a principal causa de brigas em condomínios. Saiba quais são os limites legais e como o síndico deve agir.",
       readTime: `12 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>O direito ao sossego é um dos pilares do Direito de Vizinhança previsto no Código Civil. O síndico, como representante legal do condomínio, tem o dever de zelar pela paz e harmonia da edificação. Quando um morador excede os limites toleráveis de ruído, o síndico deve intervir de forma técnica e imparcial, seguindo a gradação de penalidades prevista no Regimento Interno.</p>
-          <p>A primeira ação deve ser sempre a conversa e a advertência verbal ou escrita. É importante documentar as reclamações de outros moradores para que a punição tenha base fática. Caso o barulho persista, a multa deve ser aplicada conforme os valores estabelecidos na convenção. Em casos de reincidência contumaz, o morador pode ser classificado como antissocial, o que permite multas de até 10 vezes o valor da cota condominial.</p>
-          <p>Além das multas, o condomínio pode buscar judicialmente a cessação do barulho por meio de obrigações de fazer, com fixação de multa diária (astreintes). A produção de provas, como medições por decibelímetro e testemunhos, é crucial para o sucesso da ação. O síndico deve agir sempre amparado pelo conselho e por especialistas jurídicos para evitar alegações de perseguição.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            O barulho excessivo é um dos motivos de atrito mais frequentes nos condomínios residenciais. Seja o som alto em horários impróprios, reformas fora do período permitido, festas frequentes ou até o arrastar pesado de móveis durante a madrugada, o ruído constante compromete o descanso e a saúde mental das famílias. O síndico, na qualidade de representante legal da massa condominial, tem o dever constitucional e legal de agir para preservar a paz e o sossego da coletividade.
+          </p>
+
+          <p>
+            No Estado do Rio de Janeiro — onde a convivência em prédios em bairros de alta densidade como Copacabana, Ipanema, Tijuca, Barra da Tijuca e Niterói exige maior tolerância e civilidade —, a atuação do gestor precisa ser pautada na legalidade e no bom senso. Saber como conduzir as reclamações de ruído evita atritos pessoais, acusações de arbitrariedade e garante que as sanções aplicadas tenham plena validade perante o Poder Judiciário.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os limites legais para o nível de ruído em edifícios residenciais?</h2>
+          <p>
+            O direito ao sossego é protegido pelo artigo 1.277 do Código Civil, que confere ao possuidor de um imóvel o direito de fazer cessar as interferências prejudiciais à sua segurança, sossego e saúde. Existe uma falsa crença de que qualquer barulho é liberado durante o dia e totalmente proibido apenas após as 22 horas. Na realidade, ruídos estridentes ou repetitivos que ultrapassem os limites de vizinhança razoáveis constituem infração legal em qualquer horário.
+          </p>
+
+          <p>
+            Além do Código Civil, legislações municipais sobre controle de poluição sonora e normas técnicas da ABNT (como a NBR 10.151) estabelecem critérios objetivos para a medição do nível de pressão sonora aceitável em áreas residenciais. As regras específicas do condomínio — detalhadas na Convenção e no Regimento Interno — fixam as janelas de horário autorizadas para obras, mudanças e uso de instrumentos musicais, servindo de baliza primária para a atuação do síndico.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como o síndico deve conduzir a apuração de reclamações por barulho?</h2>
+          <p>
+            Diante de uma reclamação, a primeira obrigação do síndico é verificar se o barulho afeta a coletividade ou se trata de uma desavença isolada entre dois vizinhos. Para respaldar qualquer medida punitiva, o gestor deve orientar os moradores incomodados a registrar a ocorrência no livro da portaria ou pelo sistema digital do prédio, indicando data, horário, origem e tipo de ruído.
+          </p>
+
+          <p>
+            A produção de provas é fundamental. Depoimentos de porteiros e zeladores, gravações de áudio e vídeo, registros de ligações para a portaria e até laudos de medição de decibéis servem de suporte legal. Com esses elementos em mãos, o gestor deve iniciar uma abordagem preventiva, por meio de notificação e advertência por escrito, dando oportunidade para que o morador corrija a conduta antes da aplicação de penalidades pecuniárias.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais penalidades e medidas jurídicas podem ser adotadas contra o morador antissocial?</h2>
+          <p>
+            Se a advertência formal não surtir efeito e o transtorno persistir, o síndico deve aplicar as multas previstas na Convenção e no Regimento Interno. Em situações gravíssimas, nas quais o morador reincide de forma contumaz e gera incompatibilidade de convivência com os demais condôminos, o artigo 1.337 do Código Civil autoriza o enquadramento como condômino antissocial. Mediante aprovação de três quartos dos condôminos restantes em assembleia, a multa pode atingir até dez vezes o valor da cota condominial.
+          </p>
+
+          <p>
+            Persistindo o descumprimento, o condomínio pode ingressar com Ação de Obrigação de Fazer na Justiça, requerendo liminar com fixação de multa diária (astreintes) ou até mesmo a interdição do uso de equipamentos sonoros. A jurisprudência dos tribunais do Rio de Janeiro vem evoluindo, inclusive, para admitir o afastamento temporário do direito de uso do imóvel em casos extremos de conduta antissocial reiterada.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é síndico, gestor ou morador no Rio de Janeiro e necessita de assessoria jurídica para sanar problemas de barulho ou reestruturar as regras internas do seu edifício, acesse nossos links:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: soluções para atualização de regimentos, notificações e ações judiciais contra condôminos antissociais.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: advogados qualificados em conflitos de vizinhança e Direito Condominial no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Gestão de Condomínios</Link>: fale com nossos advogados para orientar o síndico na condução de notificações e multas.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Lidar com problemas de barulho exige pulso firme, mas também absoluto rigor técnico e observância aos direitos do contraditório e da ampla defesa. Contar com orientação jurídica especializada garante que as notificações e multas aplicadas pelo síndico sejam juridicamente inquestionáveis, promovendo o respeito às normas e a pacificação do condomínio.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados apoia síndicos e condomínios em conflitos de ruído?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa banca em Ipanema atua ao lado de gestores condominiais no Rio de Janeiro para garantir a paz e a segurança jurídica na aplicação de penalidades:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Elaboração e revisão legal de notificações extrajudiciais, advertências formais e autos de infração;</li>
+              <li>Redação de minutas para atualização do Regimento Interno com regras claras sobre horários e limites de ruído;</li>
+              <li>Assessoria jurídica em assembleias destinadas à votação de multa por conduta antissocial (art. 1.337 do Código Civil);</li>
+              <li>Ajuizamento de Ações de Obrigação de Fazer com pedido de tutela de urgência e aplicação de multas diárias judiciais;</li>
+              <li>Orientação preventiva ao síndico para colheita válida de provas e prevenção de acusações de perseguição pessoal.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Síndico e Morador Barulhento (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O síndico é obrigado a intervir em qualquer reclamação de barulho?</h4>
+                <p className="text-text-muted text-xs mt-1">O síndico deve intervir quando o barulho afeta o sossego da coletividade ou desrespeita diretamente as regras do Regimento Interno. Quando a desavença ocorre exclusivamente entre dois moradores sem afetação dos demais, o gestor deve orientar a busca por conciliação privada.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É necessário medir o som com decibelímetro para aplicar multa ao infrator?</h4>
+                <p className="text-text-muted text-xs mt-1">Não obrigatoriamente. Embora o decibelímetro constitua excelente prova, depoimentos de vizinhos, registros no livro de ocorrências, relatos da portaria e vídeos constituem conjunto probatório suficiente para respaldo das advertências e multas.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que caracteriza o condômino antissocial previsto no Código Civil?</h4>
+                <p className="text-text-muted text-xs mt-1">É aquele cujo comportamento reiterado e incompatível gera perigo ou transtorno insuportável para os demais moradores, como festas diárias com som ensurdecedor ou comportamento agressivo constante.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é o quórum de assembleia para aprovar a multa por conduta antissocial?</h4>
+                <p className="text-text-muted text-xs mt-1">O artigo 1.337 do Código Civil exige a aprovação de três quartos dos condôminos restantes para a aplicação da multa especial de até 10 vezes o valor da taxa condominial.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "12 Abr, 2026",
@@ -1296,12 +2419,104 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       slug: 'lgpd-condominios-guia-sindico',
       title: "LGPD em condomínios: o que todo síndico precisa saber",
       excerpt: "A Lei Geral de Proteção de Dados já está em vigor e condomínios que não se adequarem podem sofrer multas pesadas. Veja o guia prático.",
-      readTime: `18 min ${t('blog_page.read_time_suffix')}`,
+      readTime: `15 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A LGPD (Lei 13.709/2018) aplica-se a qualquer pessoa jurídica ou ente despersonalizado que realize o tratamento de dados pessoais. O condomínio coleta dados sensíveis diariamente: biometria na portaria, imagens de câmeras de segurança, placas de veículos e dados financeiros de condôminos. O síndico é o responsável direto por garantir que esses dados sejam tratados com segurança e finalidade específica.</p>
-          <p>O primeiro passo para a adequação é o mapeamento de dados (Data Mapping). É preciso saber quais dados são coletados, onde ficam guardados e quem tem acesso. Muitas vezes, o condomínio retém dados desnecessários por tempo indeterminado, o que aumenta o risco em caso de vazamento.</p>
-          <p>A implementação de uma Política de Privacidade clara e o treinamento dos funcionários são pilares fundamentais. O Soares Martins oferece uma auditoria completa para condomínios, garantindo que o síndico esteja protegido juridicamente e que a privacidade dos moradores seja preservada conforme determina a lei.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A entrada em vigor da Lei Geral de Proteção de Dados (Lei nº 13.709/2018) transformou a maneira como organizações e edifícios lidam com informações pessoais. Embora o condomínio seja um ente despersonalizado, ele realiza diariamente a coleta, o armazenamento e o compartilhamento de um expressivo volume de dados de moradores, visitantes, prestadores de serviço e funcionários. Diante dessa realidade, o síndico, como representante legal, assume a responsabilidade direta de adequar a gestão às exigências de privacidade.
+          </p>
+
+          <p>
+            No Rio de Janeiro, com o avanço da tecnologia predial em bairros como Copacabana, Ipanema, Tijuca, Barra da Tijuca e Niterói — onde o uso de biometria facial, leitura de placas de veículos e cadastros digitais na portaria se tornou padrão —, o descumprimento das normas de proteção de dados pode expor o edifício a sanções administrativas pela Autoridade Nacional de Proteção de Dados (ANPD) e a processos judiciais por danos morais movidos por condôminos.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais tipos de dados pessoais o condomínio coleta e trata no seu dia a dia?</h2>
+          <p>
+            A rotina condominial exige a manipulação de dados em diversas frentes. Na portaria, são registrados nomes completos, números de CPF, RG, fotos, dados de veículos e horários de entrada e saída de visitantes. Com a modernização dos sistemas de controle de acesso, dados biométricos (como impressões digitais e reconhecimento facial) passam a integrar a rotina, exigindo cuidados reforçados por serem classificados pela legislação como dados pessoais sensíveis.
+          </p>
+
+          <p>
+            Além da portaria, a administração trata informações financeiras dos condôminos (contas bancárias, registros de inadimplência e comprovantes de pagamento), prontuários trabalhistas de funcionários próprios ou terceirizados, e gravações de áudio e imagem captadas pelo sistema de circuito fechado de televisão (CFTV). O armazenamento inadequado ou o acesso não autorizado a qualquer um desses cadastros configura vazamento de dados e gera dever de indenizar.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como o síndico deve estruturar o processo de adequação do condomínio à LGPD?</h2>
+          <p>
+            A adequação não se resume à simples assinatura de um termo de consentimento. O primeiro passo indispensável é a realização do inventário de dados (Data Mapping), que consiste no mapeamento detalhado de todos os fluxos de informação dentro do edifício. É preciso identificar quais dados são coletados, com qual finalidade, onde ficam armazenados (física ou digitalmente), quem possui acesso e por quanto tempo são conservados.
+          </p>
+
+          <p>
+            Com base nesse diagnóstico, o condomínio deve revisar contratos com administradoras, empresas de segurança eletrônica, aplicativos de gestão e terceirizadas de portaria. É essencial incluir cláusulas contratuais de confidencialidade e responsabilidade pelo tratamento de dados, garantindo que os fornecedores também cumpram a legislação. Paralelamente, deve-se elaborar a Política de Privacidade do condomínio e ajustar o Regimento Interno para dar transparência ao uso das imagens de CFTV e cadastros da portaria.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os riscos e penalidades em caso de vazamento ou uso indevido de dados?</h2>
+          <p>
+            A exposição indevida de dados pessoais — como o compartilhamento de listas de moradores inadimplentes em grupos de mensagens instantâneas, o acesso descontrolado de terceiros às imagens de segurança ou o vazamento de cadastros de visitantes — configura violação clara da lei. O condômino ou visitante afetado pode acionar a Justiça para reparações por danos morais e materiais decorrentes do incidente.
+          </p>
+
+          <p>
+            Além do contencioso judicial, o descumprimento das normas expõe o condomínio a fiscalizações e advertências da ANPD. Garantir a cibersegurança dos sistemas digitais da portaria e instruir a equipe de funcionários sobre o dever de sigilo são medidas preventivas vitais para evitar passivos financeiros expressivos e o desgaste da reputação do condomínio.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se o seu condomínio no Rio de Janeiro necessita de adequação completa à LGPD ou precisa revisar contratos com prestadores de serviço, conheça nossas soluções:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Condominial</Link>: programa completo de adequação à LGPD, pareceres de compliance e revisão contratual.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: advogados especializados em proteção de dados e governança condominial no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Governança em Condomínios</Link>: agende uma consultoria para avaliar o nível de conformidade do seu prédio.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A conformidade com a LGPD nos condomínios é um processo contínuo de boa governança que exige treinamento, revisão de rotinas e acompanhamento técnico constante. A consultoria jurídica especializada em Direito Condominial e Proteção de Dados confere ao síndico a tranquilidade necessária para gerir a edificação sem receio de penalidades ou questionamentos judiciais.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados implementa o programa de LGPD no seu condomínio?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece metodologia personalizada para blindar juridicamente síndicos e condomínios no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Mapeamento de dados (Data Mapping) e diagnóstico completo dos fluxos de informação da portaria e administração;</li>
+              <li>Elaboração da Política de Privacidade, Termos de Uso do aplicativo do prédio e avisos de monitoramento por câmeras;</li>
+              <li>Revisão jurídica de contratos com administradoras, portarias remotas e prestadores de serviços de segurança;</li>
+              <li>Treinamento prático de conscientização sobre proteção de dados para porteiros, zeladores e equipe administrativa;</li>
+              <li>Assessoria jurídica imediata para gestão de incidentes de segurança da informação e respostas a solicitações dos condôminos.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre LGPD em Condomínios (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A LGPD realmente se aplica a condomínios residenciais?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Embora o condomínio seja um ente despersonalizado sem fins lucrativos, a lei estabelece que qualquer pessoa física ou jurídica/ente que trate dados pessoais com finalidade de controle de acesso ou segurança deve cumprir a LGPD.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O condomínio precisa pedir consentimento para coletar biometria facial na portaria?</h4>
+                <p className="text-text-muted text-xs mt-1">A coleta de biometria para controle de acesso pode ser fundamentada no legítimo interesse ou na garantia da segurança patrimonial e física (art. 7º e 11 da LGPD), mas o condomínio deve obrigatoriamente oferecer alternativa de acesso para quem recusar o cadastro biométrico e dar transparência ao tratamento.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O síndico pode divulgar a lista com nomes e unidades de condôminos inadimplentes?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A divulgação pública de nomes de devedores em murais, elevadores ou grupos de WhatsApp configura exposição vexatória e viola a LGPD. O saldo devedor e os demonstrativos financeiros devem ser apresentados de forma impessoal na prestação de contas aos condôminos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Quanto tempo as imagens de segurança das câmeras podem ficar salvas no condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">A lei exige que os dados sejam mantidos apenas pelo tempo estritamente necessário para cumprir sua finalidade (segurança). Recomenda-se definir uma política interna de descarte automático após um período razoável (por exemplo, 30 a 60 dias), salvo se houver requisição policial ou judicial.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "05 Abr, 2026",
@@ -1314,16 +2529,104 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       slug: 'garantia-locaticia-melhor-opcao',
       title: "Garantia Locatícia: Qual a melhor opção para seu contrato?",
       excerpt: "Escolher a garantia certa é fundamental para a segurança do locador e a viabilidade para o locatário. Conheça as modalidades permitidas.",
-      readTime: `12 min ${t('blog_page.read_time_suffix')}`,
+      readTime: `14 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A Lei do Inquilinato (Lei 8.245/91) estabelece quatro modalidades de garantia locatícia: caução, fiança, seguro-fiança e cessão fiduciária de quotas de fundo de investimento. É proibida a exigência de mais de uma modalidade de garantia num mesmo contrato de locação, sob pena de nulidade e até sanção criminal.</p>
-          <h2 className="text-white text-xl font-serif">Principais Modalidades</h2>
-          <p>A caução em dinheiro, limitada a três meses de aluguel, é a mais comum pela facilidade, mas pode ser insuficiente em despejos demorados. A fiança é a tradicional, exigindo um fiador com imóvel próprio, mas tem caído em desuso pela dificuldade de encontrar quem aceite o encargo. O seguro-fiança tem crescido muito, pois garante o pagamento ao locador e dispensa o locatário de buscar um fiador, embora tenha um custo anual.</p>
-          <p>O escritório Soares Martins recomenda a análise criteriosa do perfil de as partes antes da escolha. Para o locador, o seguro-fiança costuma ser a mais segura. Já para o locatário, a caução pode ser financeiramente mais vantajosa a longo prazo, já que o valor é devolvido com rendimentos de poupança ao final do contrato.</p>
-          <p>É vital ressaltar que a análise cadastral e o "scoring" de crédito não substituem a garantia, mas a complementam. Uma boa análise de risco reduz drasticamente a chance de precisar acionar a garantia judicialmente.</p>
-          <p>Contar com uma assessoria jurídica especializada na redação da cláusula de garantia evita que vícios formais tornem a proteção ineficaz no momento da necessidade, garantindo a liquidez do crédito locatício.</p>
-          <p>Por fim, notamos que o mercado tem evoluído para soluções digitais, como garantias via cartão de crédito e serviços de fintechs, que oferecem agilidade para o inquilino e segurança para o proprietário, muitas vezes dispensando a necessidade de um fiador tradicional.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A escolha da garantia em contratos de aluguel residencial ou comercial é um dos momentos mais decisivos na negociação imobiliária. Para o proprietário, a garantia representa a certeza de que receberá os valores acordados mesmo em casos de inadimplência. Para o inquilino, ela define a viabilidade financeira e a agilidade para assinar o contrato e ocupar o imóvel.
+          </p>
+
+          <p>
+            No mercado imobiliário do Rio de Janeiro, especialmente em bairros como Copacabana, Ipanema, Leblon, Tijuca, Barra da Tijuca e Niterói, as exigências cadastrais e o valor das locações tornam a escolha da garantia um ponto delicado. Compreender o funcionamento legal de cada modalidade prevista na Lei do Inquilinato (Lei nº 8.245/1991) é indispensável para evitar cláusulas nulas e assegurar que o contrato ofereça proteção jurídica efetiva para ambas as partes.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são as modalidades de garantia previstas na Lei do Inquilinato?</h2>
+          <p>
+            O artigo 37 da Lei nº 8.245/1991 estipula quatro modalidades principais de garantia locatícia que podem ser pactuadas entre locador e locatário: caução, fiança, seguro de fiança locatícia e cessão fiduciária de quotas de fundo de investimento. Cada uma dessas opções apresenta características, custos e ritos de execução distintos.
+          </p>
+
+          <p>
+            A caução pode ser prestada em bens móveis, imóveis ou em dinheiro. Na caução em dinheiro, o valor é limitado por lei a três meses de aluguel e deve ser depositado em caderneta de poupança vinculada. A fiança, por sua vez, é a garantia pessoal tradicional prestada por um terceiro (fiador) que responde pelo débito com seus bens. O seguro-fiança é contratado junto a uma seguradora, que assume o pagamento dos aluguéis e encargos em caso de inadimplência. Já a cessão fiduciária envolve a transferência temporária de quotas de fundos de investimento como garantia.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">É permitido exigir mais de uma modalidade de garantia no mesmo contrato?</h2>
+          <p>
+            Não. A legislação brasileira proíbe expressamente a cumulação de garantias em um mesmo contrato de locação (artigo 37, parágrafo único, da Lei nº 8.245/1991). Exigir, por exemplo, caução em dinheiro acompanhada de fiador no mesmo instrumento é uma prática nula de pleno direito e constitui contravenção penal (artigo 43, II, da mesma lei).
+          </p>
+
+          <p>
+            Caso a cumulação indevida aconteça, a jurisprudência dos tribunais costuma anular a segunda garantia prestada, prevalecendo apenas a primeira indicada no contrato. Por essa razão, o contrato de locação deve indicar de forma clara e inequívoca a modalidade escolhida, detalhando suas condições de acionamento e vigência para resguardar a validade da relação jurídica.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual é a garantia mais vantajosa para o locador e para o locatário?</h2>
+          <p>
+            A definição do melhor modelo depende dos objetivos e do perfil das partes envolvidas. Para o proprietário, o seguro-fiança e a carta de fiança bancária são frequentemente apontados como as opções de maior liquidez e segurança, pois eliminam o risco de insolvência do fiador e dispensam a necessidade de penhora judicial de bens. Além disso, o seguro-fiança pode cobrir despesas acessórias, como condomínio, IPTU e danos ao imóvel.
+          </p>
+
+          <p>
+            Para o locatário, a caução em dinheiro costuma ser atrativa devido ao menor custo final, já que o montante depositado é devolvido corrigido pelos rendimentos da poupança ao término da locação, desde que não existam débitos. Atualmente, o mercado imobiliário também tem adotado garantias digitais via cartão de crédito e fiança por fintechs, que oferecem rapidez na aprovação cadastral sem a necessidade de buscar um fiador tradicional com imóvel próprio.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você precisa elaborar ou revisar contratos de aluguel residencial ou comercial no Rio de Janeiro e busca a melhor estratégia de garantia locatícia, conheça nossas soluções:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Contratos</Link>: assessoria técnica para elaboração de contratos de locação, escolha de garantias e despejo.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com consolidada experiência em negociações imobiliárias no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado em Direito Imobiliário</Link>: fale com nossos advogados para sanar dúvidas sobre garantias locatícias e contratos de aluguel.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A correta estruturação da cláusula de garantia é a espinha dorsal de um contrato de locação seguro. Contar com a análise de advogados especialistas em Direito Imobiliário garante que a modalidade escolhida cumpra rigorosamente os ditames legais, evitando surpresas em ações de despejo ou cobranças judiciais.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados protege seu contrato de locação?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema atua no auxílio a proprietários, investidores e inquilinos no Rio de Janeiro para estruturar negócios imobiliários seguros:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Análise técnica e orientação na escolha da melhor modalidade de garantia locatícia para o seu perfil;</li>
+              <li>Elaboração e revisão minuciosa de contratos de locação residencial, comercial e built to suit;</li>
+              <li>Análise cadastral e documental do locatário, fiadores e certidões de ônus reais do imóvel dado em garantia;</li>
+              <li>Execução de garantias, cobrança judicial de aluguéis em atraso e ajuizamento de ações de despejo por falta de pagamento;</li>
+              <li>Consultoria preventiva para evitar cumulação indevida de garantias e nulidades contratuais.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Garantia Locatícia (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A caução em dinheiro pode ser superior a três meses de aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A Lei do Inquilinato limita expressamente a caução em dinheiro ao valor correspondente a três aluguéis, sendo obrigatório o depósito do montante em caderneta de poupança vinculada.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O único imóvel residencial do fiador pode ser penhorado em caso de dívida de aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O artigo 3º, VII, da Lei nº 8.009/1990 e o entendimento do Supremo Tribunal Federal (STF) autorizam a penhora do bem de família do fiador para satisfação de débitos decorrentes de contrato de locação comercial ou residencial.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que acontece se o locador exigir fiador e caução ao mesmo tempo?</h4>
+                <p className="text-text-muted text-xs mt-1">A exigência de dupla garantia é proibida por lei, tornando a cláusula nula. O locador que praticar essa conduta também comete contravenção penal prevista no artigo 43 da Lei do Inquilinato.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Quem é responsável pelo pagamento das parcelas do seguro-fiança?</h4>
+                <p className="text-text-muted text-xs mt-1">Geralmente, o valor do seguro-fiança é custeado pelo inquilino, podendo ser pago à vista ou parcelado junto aos boletos mensais de aluguel, conforme pactuado no contrato de locação.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "20 Mai, 2026",
@@ -1338,14 +2641,102 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       excerpt: "Um contrato bem redigido é a melhor forma de evitar conflitos judiciais. Veja quais cláusulas são indispensáveis para proteger ambas as partes.",
       readTime: `14 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>Um contrato de locação "de gaveta" ou baixado da internet costuma ser uma fonte inesgotável de problemas. Existem cláusulas que são "clássicas", como o valor do aluguel e o índice de reajuste (geralmente o IPCA ou IGP-M), mas outras são igualmente vitais para a segurança jurídica.</p>
-          <h2 className="text-white text-xl font-serif">Segurança para Locador e Locatário</h2>
-          <p>A cláusula de vigência em caso de alienação (venda do imóvel) é fundamental para o inquilino: sem ela registrada na matrícula, o novo comprador pode denunciar o contrato e pedir o imóvel em 90 dias. Para o locador, a cláusula que proíbe a sublocação sem autorização prévia e por escrito é essencial para manter o controle sobre quem ocupa o bem.</p>
-          <p>Além disso, a definição clara da destinação do imóvel (residencial ou comercial) e a responsabilidade pelo pagamento de encargos extras (como fundo de reserva do condomínio e obras extraordinárias) evitam discussões futuras. Nossa consultoria no Soares Martins foca em redigir contratos personalizados que prevejam cenários de conflito.</p>
-          <p>O laudo de vistoria detalhado e com fotos deve ser parte integrante do contrato, assinado por ambas as partes. Ele é o único documento capaz de comprovar o estado real do imóvel no início da locação para fins de cobrança de danos futuros.</p>
-          <p>Por fim, a eleição de um foro adequado e a previsão de métodos alternativos de solução de conflitos, como a mediação, podem acelerar drasticamente a resolução de impasses sem a necessidade de anos de espera no judiciário.</p>
-          <p>A assinatura digital de contratos é outro ponto que tem revolucionado o mercado, facilitando o processo e garantindo a validade jurídica dos documentos sem a necessidade de deslocamento físico, desde que realizada através de plataformas seguras e reconhecidas.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Utilizar um modelo genérico baixado da internet ou um contrato informal "de gaveta" para formalizar a locação de um imóvel é um dos erros mais comuns e arriscados no mercado imobiliário. Embora as cláusulas básicas — como valor do aluguel, data de vencimento e índice de reajuste (como IPCA ou IGP-M) — sejam sempre lembradas, a segurança jurídica de locadores e inquilinos depende de previsões muito mais detalhadas e personalizadas.
+          </p>
+
+          <p>
+            No Rio de Janeiro, onde a dinâmica das locações residenciais e comerciais em bairros como Copacabana, Ipanema, Leblon, Tijuca, Barra da Tijuca e Niterói envolve valores expressivos e particularidades locais, um contrato incompleto quase sempre resulta em disputas judiciais desgastantes. Redigir um instrumento bem estruturado previne inadimplementos, reparações indevidas e impasses durante e após o término da locação.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais cláusulas essenciais protegem os direitos do locador no contrato de aluguel?</h2>
+          <p>
+            Para o proprietário, o contrato deve garantir o recebimento pontual do aluguel e a preservação do seu patrimônio. Entre as disposições indispensáveis está a cláusula de vedação expressa à sublocação, cessão ou empréstimo do imóvel sem prévia e formal autorização por escrito do locador. Essa regra impede que o imóvel seja ocupado por terceiros não qualificados na análise cadastral inicial ou utilizado para fins comerciais não previstos.
+          </p>
+
+          <p>
+            Outro ponto crucial é a discriminação clara da responsabilidade pelos encargos acessórios da locação, como taxa condominial, IPTU, seguro contra incêndio e tarifas de consumo de água e energia. O contrato deve especificar quem arca com as despesas ordinárias e deixar claro que reformas estruturais ou benfeitorias necessárias sem autorização prévia não gerarão direito de retenção ou indenização.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais disposições contratuais garantem a tranquilidade e a estabilidade do inquilino?</h2>
+          <p>
+            O locatário precisa de previsões contratuais que resguardem o seu direito de uso pacífico do imóvel pelo prazo avençado. Uma das cláusulas mais importantes para o inquilino é a cláusula de vigência em caso de alienação. Sem essa previsão expressa e o devido registro do contrato junto à matrícula do imóvel no Cartório de Registro de Imóveis, o comprador do bem terá o direito de denunciar a locação e conceder apenas 90 dias para a desocupação.
+          </p>
+
+          <p>
+            Da mesma forma, a especificação detalhada do estado do imóvel por meio de um laudo de vistoria inicial — contendo fotos de alta resolução, descrição da pintura, estado das instalações elétricas e hidráulicas e assinado por ambas as partes — é a maior garantia do inquilino. O laudo impede exigências abusivas de reformas e reparações no momento da devolução das chaves que ultrapassem o desgaste natural do uso.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como prevenir litígios e garantir a validade das assinaturas contratuais?</h2>
+          <p>
+            A definição do foro de eleição e a previsão de mecanismos modernos de resolução de conflitos conferem maior eficiência na solução de eventuais divergências. Atualmente, a utilização de assinaturas digitais com certificados e plataformas eletrônicas homologadas tem plena validade jurídica no Brasil, acelerando a celebração do negócio sem a necessidade de deslocamentos físicos ou reconhecimento presencial de firma em cartório.
+          </p>
+
+          <p>
+            Ademais, a fixação proporcional de multa por rescisão antecipada e a clareza quanto à modalidade de garantia adotada (respeitando a proibição de cumulação prevista na Lei nº 8.245/1991) evitam nulidades contratuais que poderiam comprometer cobranças futuras.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é proprietário, investidor ou inquilino e deseja elaborar ou revisar um contrato de locação com máxima segurança jurídica no Rio de Janeiro, acesse nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Contratos</Link>: redação, auditoria de minutas contratuais e pareceres jurídicos para locações residenciais e comerciais.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: advogados qualificados em Direito Imobiliário e Contratual no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Negócios Imobiliários</Link>: fale com nossos advogados para estruturar minutas contratuais personalizadas.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Um contrato de locação bem elaborado não serve apenas para prever penalidades, mas principalmente para alinhar expectativas, prevenir ruídos de comunicação e assegurar a boa-fé objetiva entre as partes durante toda a vigência da relação contratual.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados atua na elaboração e revisão de contratos de locação?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema presta assessoria completa para proteger seus interesses no mercado imobiliário do Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Redação de contratos de locação residencial, comercial, corporativa e built to suit sob medida;</li>
+              <li>Auditoria preventiva de minutas propostas por imobiliárias para identificação de cláusulas abusivas ou desproporcionais;</li>
+              <li>Estruturação das cláusulas de garantia locatícia (caução, fiança, seguro-fiança e cessão fiduciária);</li>
+              <li>Elaboração de aditivos contratuais, renegociações de valor de aluguel e distratos amigáveis;</li>
+              <li>Atuação em ações de despejo por descumprimento contratual, renovatórias e revisionais de aluguel.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Contratos de Locação (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Qual é o prazo mínimo recomendado para um contrato de locação residencial?</h4>
+                <p className="text-text-muted text-xs mt-1">A Lei do Inquilinato permite contratos por qualquer prazo, mas estipular a vigência de 30 meses garante ao locador o direito à denúncia vazia (retomada do imóvel sem necessidade de justificativa) ao término do prazo acordado.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É obrigatório registrar o contrato de locação em cartório de imóveis?</h4>
+                <p className="text-text-muted text-xs mt-1">O contrato simples assinado entre as partes tem validade plena. Contudo, o registro ou averbação na matrícula do imóvel é indispensável para garantir o direito de preferência e a cláusula de vigência em caso de venda do bem.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Quem deve pagar o fundo de reserva e as obras extraordinárias do condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Conforme o artigo 22, X, da Lei do Inquilinato, as despesas extraordinárias de condomínio (como reformas estruturais e constituição do fundo de reserva) são de responsabilidade exclusiva do locador.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. A assinatura digital em contratos de aluguel precisa de reconhecimento de firma?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. As assinaturas eletrônicas realizadas por meio de plataformas confiáveis e com comprovação de autoria possuem validade jurídica equivalente ao reconhecimento presencial de firma.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "18 Mai, 2026",
@@ -1358,16 +2749,108 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       slug: 'isencao-multa-rescisoria-locacao',
       title: "Quando o Inquilino Pode Sair Sem Pagar Multa Rescisória?",
       excerpt: "A rescisão antecipada nem sempre implica em multa. Entenda a cláusula de isenção e as previsões legais para devolução do imóvel.",
-      readTime: `10 min ${t('blog_page.read_time_suffix')}`,
+      readTime: `13 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>A regra geral é que o inquilino pode devolver o imóvel a qualquer tempo, pagando a multa rescisória proporcional ao tempo que resta de contrato. No entanto, existem situações de isenção que precisam ser conhecidas.</p>
-          <h2 className="text-white text-xl font-serif">Casos de Isenção</h2>
-          <p>A primeira é legal: se o inquilino for transferido pelo seu empregador para outra localidade, ele fica isento da multa desde que notifique o locador com 30 dias de antecedência. A segunda é contratual: muitos contratos preveem a isenção de multa após 12 ou 15 meses de vigência em contratos de 30 meses.</p>
-          <p>É importante ressaltar que a isenção da multa não desobriga o inquilino de entregar o imóvel em perfeito estado de conservação, conforme o laudo de vistoria inicial. O escritório Soares Martins orienta tanto locadores quanto locatários na redação e interpretação dessas cláusulas, buscando o equilíbrio contratual.</p>
-          <p>Vale lembrar que a multa deve ser sempre proporcional. Se o inquilino sai faltado 5 meses para acabar um contrato de 30, ele não paga a multa cheia, mas apenas 5/30 do valor estipulado no documento.</p>
-          <p>Discussões sobre a validade da transferência profissional (se foi a pedido ou por necessidade do serviço) são comuns e exigem análise técnica para evitar fraudes que visam apenas o não pagamento do encargo rescisorio.</p>
-          <p>A comunicação aberta entre as partes é sempre o melhor caminho para resolver uma rescisão antecipada. Muitas vezes, uma negociação bem fundamentada pode resultar em um acordo benéfico para ambos, evitando a aplicação rigorosa da multa mesmo quando não há isenção legal.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A rescisão antecipada do contrato de aluguel é um tema que gera frequentes dúvidas entre proprietários e inquilinos. A regra geral estabelecida pela legislação é que o locatário pode devolver o imóvel a qualquer momento antes do término do prazo pactuado, desde que pague a multa rescisória estipulada em contrato, calculada de forma proporcional ao tempo restante de ocupação.
+          </p>
+
+          <p>
+            Entretanto, o ordenamento jurídico e as práticas do mercado imobiliário no Rio de Janeiro — especialmente em áreas com alta mobilidade de moradores como Copacabana, Ipanema, Leblon, Tijuca, Barra da Tijuca e Niterói — preveem situações específicas nas quais o inquilino fica totalmente isento dessa penalidade financeira. Conhecer esses direitos e deveres evita cobranças indevidas e garante um encerramento contratual transparente.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Em quais hipóteses legais o inquilino fica isento do pagamento da multa rescisória?</h2>
+          <p>
+            A principal hipótese de isenção legal de multa rescisória está prevista no artigo 4º, parágrafo único, da Lei do Inquilinato (Lei nº 8.245/1991). O texto legal estabelece que o inquilino não pagará multa se a desocupação do imóvel for decorrente de transferência de seu local de trabalho, determinada privativamente pelo seu empregador, para prestar serviços em outra localidade.
+          </p>
+
+          <p>
+            Para usufruir dessa isenção por transferência profissional, o inquilino deve cumprir dois requisitos obrigatórios: notificar o proprietário por escrito com antecedência mínima de 30 dias e apresentar comprovante formal da alteração da sede de trabalho emitida pela empresa. Vale destacar que essa isenção não se aplica caso a mudança de cidade ocorra por iniciativa ou pedido do próprio funcionário.
+          </p>
+
+          <p>
+            Outra situação que autoriza a rescisão sem penalidade ocorre quando o imóvel apresenta problemas estruturais graves ou vícios ocultos que comprometem a habitabilidade e a segurança dos moradores — como infiltrações severas, falhas na rede elétrica ou risco de desabamento. Nesses casos, o locador descumpre o dever legal de entregar e manter o imóvel em condições adequadas de uso (artigo 22, I, da Lei do Inquilinato), fundamentando a rescisão por culpa do proprietário.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como funciona a cláusula contratual de isenção após determinado período de locação?</h2>
+          <p>
+            Além das hipóteses legais, as partes podem pactuar livremente disposições contratuais favoráveis à desocupação antecipada. No mercado locatício, é extremamente comum a inclusão de uma cláusula de isenção de multa após o cumprimento de 12 ou 15 meses de vigência em contratos celebrados pelo prazo padrão de 30 meses.
+          </p>
+
+          <p>
+            Essa cláusula confere flexibilidade ao locatário que necessita mudar de residência após esse período inicial, exigindo apenas a notificação formal por escrito ao locador com 30 dias de antecedência. Na ausência de cláusula de isenção e não se enquadrando em transferência profissional ou defeito grave do imóvel, a multa deve ser sempre calculada proporcionalmente ao período restante para o término do contrato, conforme determina o artigo 4º da Lei nº 8.245/1991 e o artigo 413 do Código Civil.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais cuidados e procedimentos formais devem ser adotados na devolução do imóvel?</h2>
+          <p>
+            A desocupação do imóvel exige rigor na formalização para evitar desentendimentos futuros sobre valores pendentes. O primeiro passo é o envio da notificação prévia de rescisão ao proprietário ou à imobiliária administradora, registrando formalmente a data prevista para a entrega das chaves.
+          </p>
+
+          <p>
+            Paralelamente, deve ser agendada a vistoria de saída para conferência do estado do imóvel em relação ao laudo de entrada, além do encerramento ou transferência de titularidade de contas de energia, água e gás. A assinatura do Termo de Entrega de Chaves e Distrato, com a devida quitação dos aluguéis e encargos condominiais até a data da devolução, é o instrumento jurídico indispensável que encerra a responsabilidade do inquilino.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você é proprietário ou inquilino no Rio de Janeiro e precisa de orientação para rescindir ou negociar um contrato de locação com segurança jurídica, conheça nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Contratos</Link>: assessoria especializada em rescisão contratual, revisão de multas e despejo.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais experientes em mediação e contencioso locatício no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Rescisões de Aluguel</Link>: fale com nossos advogados para analisar a validade de multas ou pedidos de isenção.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A análise criteriosa das cláusulas contratuais e dos fatos por advogados especialistas em Direito Imobiliário assegura que a entrega das chaves ocorra dentro da legalidade, protegendo ambas as partes contra prejuízos financeiros e disputas judiciais desnecessárias.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados auxilia na rescisão de contratos de aluguel?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece suporte jurídico completo para proprietários e locatários no Rio de Janeiro durante o encerramento da locação:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Análise da legalidade da cobrança ou isenção da multa rescisória em casos de mudança profissional ou problemas no imóvel;</li>
+              <li>Elaboração de notificações formais de rescisão e acompanhamento da entrega do imóvel e conferência de vistorias;</li>
+              <li>Cálculo correto do valor proporcional da multa contratual segundo os critérios da Lei do Inquilinato;</li>
+              <li>Redação de distratos contratuais com quitação recíproca integral para prevenir cobranças futuras;</li>
+              <li>Atuação em mediações extrajudiciais e ações de cobrança ou consignação de chaves perante o Poder Judiciário.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Isenção de Multa em Aluguel (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A transferência de trabalho por pedido voluntário do empregado isenta a multa do aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A isenção prevista na Lei do Inquilinato exige que a transferência de sede de trabalho seja imposta de forma compulsória pelo empregador (privativamente por determinação da empresa).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Como é calculado o valor da multa se eu sair do imóvel antes do prazo estipulado?</h4>
+                <p className="text-text-muted text-xs mt-1">A multa deve ser cobrada proporcionalmente ao tempo de contrato restante. Por exemplo, se a multa total for de 3 meses de aluguel para um contrato de 30 meses e o inquilino desocupar após 20 meses, ele pagará apenas 1/3 do valor da multa.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O locador pode se recusar a receber as chaves se o imóvel precisar de pintura ou reparos?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O proprietário não pode recusar o recebimento das chaves. Ele deve receber o imóvel para estancar a contagem de aluguéis e, posteriormente, cobrar os custos dos reparos apontados na vistoria de saída pelas vias adequadas.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual é o prazo de antecedência para notificar a saída quando houver isenção de multa?</h4>
+                <p className="text-text-muted text-xs mt-1">Tanto na isenção por transferência de trabalho quanto nas cláusulas contratuais de liberação após 12 meses, a lei exige a notificação formal por escrito com antecedência mínima de 30 dias.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "16 Mai, 2026",
@@ -1380,16 +2863,104 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       slug: 'entrega-chaves-vistoria-final-locacao',
       title: "Entrega de Chaves e Vistoria: O passo final da locação",
       excerpt: "A devolução do imóvel exige cuidados jurídicos para evitar cobranças indevidas de reparos. Saiba como formalizar a entrega com segurança.",
-      readTime: `11 min ${t('blog_page.read_time_suffix')}`,
+      readTime: `12 min ${t('blog_page.read_time_suffix')}`,
       content: (
-        <div className="space-y-6">
-          <p>O momento da entrega das chaves é o que encerra juridicamente a posse do inquilino sobre o imóvel. Contudo, muitos erros cometidos nessa fase geram cobranças judiciais meses depois. O documento de "Termo de Entrega de Chaves" é indispensável para comprovar a data exata da saída.</p>
-          <h2 className="text-white text-xl font-serif">A Importância da Vistoria</h2>
-          <p>A vistoria de saída deve ser confrontada rigorosamente com a vistoria de entrada. O inquilino tem a obrigação de devolver o imóvel no estado em que recebeu, salvo os desgastes naturais do uso. Pintura, furos em paredes e danos em armários são os pontos mais sensíveis.</p>
-          <p>Caso haja divergências, o locador não pode se recusar a receber as chaves como forma de forçar a reforma. Ele deve receber as chaves e, posteriormente, cobrar os reparos devidos. O Soares Martins atua na formalização desse encerramento, garantizando que o distrato seja claro e seguro.</p>
-          <p>O distrato com quitação plena, após todos os acertos de aluguel e reparos, é o "passaporte para a paz" do inquilino, evitando "surpresas" na sua ficha de crédito após o encerramento da jornada naquele imóvel.</p>
-          <p>Além das chaves físicas, é crucial formalizar o encerramento do contrato junto às concessionárias de luz, água e gás para evitar que novas faturas em nome do locatário continuem sendo geradas indevidamente.</p>
-          <p>Ao final do processo, também é essencial garantir que todas as pendências administrativas, como as leituras finais de concessionárias e a limpeza do imóvel, estejam devidamente formalizadas para evitar disputas futuras sobre a liquidação financeira da locação.</p>
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A devolução do imóvel e o recebimento das chaves marcam o encerramento da relação de aluguel entre proprietário e inquilino. Embora pareça um ato simples, essa fase final exige rigor legal para evitar que pendências financeiras ou divergências sobre reparações se transformem em processos judiciais meses após a desocupação.
+          </p>
+
+          <p>
+            No mercado imobiliário do Rio de Janeiro — especialmente em imóveis residenciais e comerciais situados em bairros como Copacabana, Ipanema, Leblon, Tijuca, Barra da Tijuca e Niterói —, a vistoria final e a assinatura dos documentos de encerramento são indispensáveis. A formalização adequada da entrega das chaves garante a cessação da cobrança de aluguéis e protege ambas as partes contra surpresas futuras.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual é a importância jurídica da vistoria de saída e do laudo de devolução do imóvel?</h2>
+          <p>
+            A vistoria de saída é o procedimento técnico encarregado de avaliar o estado de conservação do bem no momento em que ele é devolvido ao proprietário. Para ter validade legal e evitar exigências abusivas, o laudo de saída deve ser rigorosamente confrontado com o laudo de vistoria de entrada realizado no início da locação.
+          </p>
+
+          <p>
+            Pela Lei do Inquilinato (Lei nº 8.245/1991, artigo 23, III), o inquilino tem a obrigação de restituir o imóvel no estado em que o recebeu, salvo as deteriorações decorrentes do seu uso normal. Isso significa que desgastes naturais decorrentes do tempo — como leve desbotamento da pintura externa ou marcas normais do tempo em pisos — não podem ser cobrados do locatário. Por outro lado, danos causados por mau uso, como furos não autorizados em revestimentos, vidros quebrados ou avarias em instalações elétricas, devem ser devidamente reparados.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O proprietário pode recusar o recebimento das chaves caso o imóvel precise de reformas?</h2>
+          <p>
+            Não. É entendimento consolidado no Superior Tribunal de Justiça (STJ) e no Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) que o locador não pode condicionar o recebimento das chaves à realização prévia de pinturas ou reparos no imóvel. A entrega das chaves é o ato que marca o fim da posse e interrompe a contagem dos aluguéis e encargos condominiais.
+          </p>
+
+          <p>
+            Caso o proprietário se recuse injustificadamente a receber as chaves, o inquilino pode recorrer à Ação de Consignação de Chaves em juízo para estancar a geração de novos débitos. Se houver divergências quanto aos reparos necessários, o locador deve receber o imóvel, ressalvar as avarias no termo de vistoria e pleitear a indenização ressarcitória pelas vias administrativas ou judiciais cabíveis.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais documentos e providências finais devem ser formalizados no encerramento da locação?</h2>
+          <p>
+            O encerramento seguro do aluguel exige a emissão do Termo de Entrega de Chaves e do Termo de Distrato Contratual com quitação recíproca. Esse documento deve registrar expressamente a data e o horário da entrega, o valor residual de aluguéis e cotas condominiais eventualmente quitados e as ressalvas quanto a repasses pendentes.
+          </p>
+
+          <p>
+            Além da entrega do bem físico, o locatário deve providenciar a leitura final e a transferência de titularidade ou desligamento das contas de serviços essenciais, como energia elétrica, água e gás encanado, apresentando os comprovantes de quitação ao locador ou à administradora para evitar a inclusão indevida do seu nome em cadastros de restrição ao crédito.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você precisa formalizar o encerramento de um contrato de locação ou enfrenta disputas sobre reparos e cobranças no Rio de Janeiro, acesse nossos serviços:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário e Contratos</Link>: suporte em vistorias, termo de entrega de chaves e cobrança de reparos.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: profissionais com ampla experiência em contencioso e negociação imobiliária no Estado do RJ.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Atendimento Especializado para Encerramento de Locação</Link>: agende uma consulta jurídica para orientar a devolução do seu imóvel.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Acompanhar de perto a fase de entrega do imóvel com o apoio de advogados especialistas em Direito Imobiliário previne desgastes financeiros, evita discussões sobre danos não comprovados e garante a assinatura de um distrato juridicamente perfeito.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o escritório Soares Martins Advogados apoia locadores e inquilinos na entrega de chaves?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema oferece assessoria completa na etapa final do contrato de aluguel no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Análise comparativa detalhada entre os laudos de vistoria de entrada e de saída para apuração justa de reparos;</li>
+              <li>Elaboração de Termos de Entrega de Chaves e Termos de Distrato com quitação recíproca integral;</li>
+              <li>Ajuizamento de Ação de Consignação de Chaves em casos de recusa injustificada de recebimento pelo proprietário;</li>
+              <li>Notificação extrajudicial e cobrança jurídica de danos ao imóvel decorrentes de mau uso;</li>
+              <li>Intermediação de acordos amigáveis para parcelamento de débitos residuais de aluguel, IPTU e condomínio.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Entrega de Chaves e Vistoria (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A partir de qual momento o inquilino deixa de pagar o aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">A obrigação de pagar aluguel e encargos cessa na data da efetiva entrega das chaves ao locador ou à administradora, formalizada mediante o recibo do Termo de Entrega de Chaves.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O inquilino é obrigado a pintar o imóvel na cor exata em que o recebeu?</h4>
+                <p className="text-text-muted text-xs mt-1">Se o imóvel foi entregue com pintura nova e houver cláusula expressa no contrato exigindo a restituição na mesma cor e qualidade de tinta, a exigência é válida. Caso contrário, responde apenas por estragos decorrentes do mau uso.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que fazer se a imobiliária ou o locador se recusar a assinar o termo de vistoria?</h4>
+                <p className="text-text-muted text-xs mt-1">O inquilino deve realizar vistoria própria acompanhada por testemunhas ou registro fotográfico com data e hora e notificar o locador formalmente. Persistindo a recusa, deve propor a consignação das chaves em juízo.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Quanto tempo o locador tem para cobrar danos no imóvel após a entrega das chaves?</h4>
+                <p className="text-text-muted text-xs mt-1">O prazo prescricional para ajuizar ação de reparação de danos decorrentes do contrato de locação é de 3 anos, a contar da data de devolução do imóvel.</p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
       date: "14 Mai, 2026",
