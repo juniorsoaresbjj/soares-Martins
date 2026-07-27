@@ -18,6 +18,15 @@ import TeamPage from './components/TeamPage';
 import ContactPage from './components/ContactPage';
 import BlogPage from './components/BlogPage';
 import ServiceDetail from './components/ServiceDetail';
+import CopacabanaAuctionPage from './components/CopacabanaAuctionPage';
+import AtlanticaAuctionPage from './components/AtlanticaAuctionPage';
+import UrcaAuctionPage from './components/UrcaAuctionPage';
+import PradoJuniorAuctionPage from './components/PradoJuniorAuctionPage';
+import NossaSenhoraCopacabanaAuctionPage from './components/NossaSenhoraCopacabanaAuctionPage';
+import SilveiraMartinsAuctionPage from './components/SilveiraMartinsAuctionPage';
+import SilveiraMartins503AuctionPage from './components/SilveiraMartins503AuctionPage';
+import VoluntariosPatriaAuctionPage from './components/VoluntariosPatriaAuctionPage';
+import HaddockLoboAuctionPage from './components/HaddockLoboAuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -229,6 +238,38 @@ const AppContent: React.FC = () => {
           <Route path="/blog/" element={<BlogPage onBack={navigateToHome} />} />
           <Route path="/blog/:slug/" element={<BlogPage onBack={navigateToHome} />} />
           
+          {/* Subpágina de leilão específico em Copacabana */}
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/" element={<CopacabanaAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32" element={<CopacabanaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-2376/" element={<AtlanticaAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-2376" element={<AtlanticaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/casa/rua-marechal-cantuaria-75/" element={<UrcaAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/casa/rua-marechal-cantuaria-75" element={<UrcaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-prado-junior-298/" element={<PradoJuniorAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-prado-junior-298" element={<PradoJuniorAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-1003/" element={<NossaSenhoraCopacabanaAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-1003" element={<NossaSenhoraCopacabanaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140/" element={<SilveiraMartinsAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140" element={<SilveiraMartinsAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140-apto-503/" element={<SilveiraMartins503AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140-apto-503" element={<SilveiraMartins503AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-381-apto-305/" element={<VoluntariosPatriaAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-381-apto-305" element={<VoluntariosPatriaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/" element={<HaddockLoboAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405" element={<HaddockLoboAuctionPage />} />
+
+          {/* Alias da rota de assessoria em leilões */}
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro" element={<ServiceDetail />} />
+
           {/* Novas páginas de serviços para SEO */}
           <Route path="/:slug/" element={<ServiceDetail />} />
         </Routes>

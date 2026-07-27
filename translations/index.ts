@@ -80,7 +80,8 @@ export const translations = {
         s4: ["Pareceres técnicos", "Análise de riscos", "Mediação", "Suporte a conselhos"],
         s6: ["Auditoria de folha", "Defesa em reuniões", "Revisão de contratos", "Mitigação de responsabilidade"],
         s5: ["Convenção/Regimento", "Adequação LGPD", "Governança", "Treinamentos"],
-        penal: ["Fraudes e apropriação", "Desvios de recursos", "Responsabilidade de gestores", "Crimes contra a honra"]
+        penal: ["Fraudes e apropriação", "Desvios de recursos", "Responsabilidade de gestores", "Crimes contra a honra"],
+        s8: ["Análise de edital e processo", "Due Diligence de débitos e ônus", "Verificação de nulidades e recursos", "Acompanhamento na arrematação", "Imissão na posse e registro", "Análise de viabilidade financeira"]
       }
     },
     team_page: {
@@ -157,9 +158,63 @@ export const translations = {
       s5: 'Direito Condominial Preventivo',
       s5Desc: 'Consultoria especializada em normas internas, mediação de conflitos e segurança jurídica para condomínios residenciais e comerciais no Rio de Janeiro.',
       s6: 'Assembleias, Convenção e Regimento',
-      s6Desc: 'Elaboração e revisão técnica de Convenções e Regimentos Internos, garantindo a validade jurídica das decisões e a harmonia na convivência.'
+      s6Desc: 'Elaboração e revisão técnica de Convenções e Regimentos Internos, garantindo a validade jurídica das decisões e a harmonia na convivência.',
+      s8: 'Assessoria em Leilões Judiciais',
+      s8Desc: 'Análise jurídica especializada para participação segura em leilões de imóveis.'
     },
     service_content: {
+      'assessoria-leiloes-judiciais': {
+        h1: 'Assessoria Jurídica em Leilões Judiciais de Imóveis no Rio de Janeiro',
+        h2: 'Análise de Risco de Edital, Due Diligence Processual e Segurança Jurídica',
+        sections: [
+          {
+            h2: 'O que é a Assessoria Jurídica em Leilões de Imóveis',
+            p: 'A assessoria jurídica em leilões judiciais e extrajudiciais de imóveis consiste em auditoria preventiva voltada a compradores e investidores interessados na aquisição de imóveis residenciais e comerciais. Atuamos no Rio de Janeiro com foco no exame minucioso da viabilidade jurídica do edital, identificação de potenciais vícios de intimação, verificação de penhoras e análise de pendências judiciais que possam impactar o resultado da arrematação.'
+          },
+          {
+            h2: 'Como Funciona Nosso Suporte Jurídico de Ponta a Ponta',
+            p: 'A atuação advocatícia contempla o suporte técnico em todas as etapas do procedimento de leilão: desde o exame prévio das oportunidades em praça pública, análise da Certidão de Ônus Reais (RGI) e elaboração de parecer de viabilidade com estimativa de custos tributários e cartorários, até o acompanhamento da arrematação, expedição da carta de arrematação e requerimento judicial de imissão na posse.'
+          },
+          {
+            h2: 'Metodologia de Due Diligence em 4 Etapas Essenciais',
+            p: 'Adotamos metodologia de due diligence estruturada em etapas essenciais: 1) Exame do Edital: verificação dos requisitos legais e regularidade das intimações do executado, cônjuge, credores com garantia real e coproprietários; 2) Auditoria do Processo de Origem: verificação de nulidades processuais, recursos pendentes e eventuais impugnações; 3) Mapeamento de Débitos Propter Rem: levantamento de débitos condominiais e tributários (IPTU), observando o disposto no art. 130 do CTN e a jurisprudência dos Tribunais Superiores; 4) Elaboração de Parecer Técnico: relatório fundamentado com análise objetiva dos riscos envolvidos.'
+          },
+          {
+            h2: 'Diferenças Entre Leilão Judicial e Leilão Extrajudicial',
+            p: 'No leilão judicial, a alienação ocorre por determinação do Poder Judiciário em processos de execução, cobrança condominial, falências ou execuções fiscais. No leilão extrajudicial (regido pela Lei nº 9.514/97 e legislação aplicável), a alienação decorre da consolidação da propriedade em razão do inadimplemento fiduciário. Ambas as modalidades demandam procedimentos técnicos adequados para o cancelamento de ônus, penhoras e averbações no Cartório de Registro de Imóveis competente.'
+          },
+          {
+            h2: 'Principais Riscos Mitigados Pela Auditoria Preventiva',
+            p: 'A participação em leilões sem prévio exame jurídico abrange riscos como a anulação do ato por falha nas intimações, responsabilidade por débitos condominiais não previstos no edital ou entraves processuais na imissão da posse. O suporte especializado visa mitigar tais riscos mediante avaliação preventiva e fundamentada das condições do certame.'
+          },
+          {
+            h2: 'Imissão Judicial na Posse e Acompanhamento Processual',
+            p: 'Com a expedição da carta de arrematação e do mandado de imissão na posse, a atuação prossegue nos autos processuais com os requerimentos cabíveis para a desocupação do imóvel e a efetiva entrega das chaves, observando rigorosamente os ritos e prazos fixados pelo Código de Processo Civil.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'O arrematante responde por dívidas antigas de condomínio e IPTU do imóvel leiloado?',
+            a: 'Nos leilões judiciais, os débitos de IPTU e taxas sub-rogam-se sobre o respectivo preço, conforme prevê o art. 130 do Código Tributário Nacional (CTN). Em relação aos débitos condominiais, a responsabilidade do arrematante depende da previsão expressa no edital de leilão, prevalecendo na omissão deste o entendimento jurisprudencial de que as dívidas anteriores devem ser satisfeitas pelo produto da arrematação.'
+          },
+          {
+            q: 'Quanto tempo leva para conseguir a imissão na posse do imóvel arrematado no RJ?',
+            a: 'Após a expedição e registro da carta de arrematação, o mandado de imissão na posse é postulado no próprio processo judicial. O prazo para a efetiva entrega do bem varia conforme a dinâmica da vara judicial responsável e as circunstâncias do caso, sendo acompanhado continuamente até a conclusão do ato.'
+          },
+          {
+            q: 'O que acontece se o devedor interpor embargos ou recurso contra a arrematação?',
+            a: 'Eventuais impugnações ou recursos interpostos pelo executado são apreciados pelo Poder Judiciário à luz das regras formais do Código de Processo Civil. A realização prévia de due diligence busca averiguar a regularidade dos atos processuais e das intimações, permitindo uma avaliação técnica sobre a estabilidade do procedimento.'
+          },
+          {
+            q: 'É possível apresentar proposta para aquisição parcelada em leilão judicial?',
+            a: 'O art. 895 do Código de Processo Civil faculta a apresentação de proposta para aquisição parcelada de imóvel em leilão judicial, observadas as exigências legais (sinal mínimo de 25% e saldo em até 30 parcelas, garantido por hipoteca sobre o próprio bem). Avaliam-se as disposições do edital para a formalização da proposta no prazo legal.'
+          },
+          {
+            q: 'Como solicitar a análise jurídica prévia de um edital de leilão?',
+            a: 'O interessado pode encaminhar o número do processo ou o link da praça pública para atendimento. O escritório realiza o levantamento das peças relevantes e certidões para elaboração de parecer jurídico fundamentado antes da realização do leilão.'
+          }
+        ]
+      },
       'direito-condominial': {
         h1: 'Direito Condominial',
         h2: 'Compliance Condominial e Governança',
@@ -407,7 +462,8 @@ export const translations = {
         s4: ["Informes técnicos", "Análisis de riesgos", "Mediación", "Soporte a consejos"],
         s6: ["Auditoría de nómina", "Defensa en reuniones", "Revisión de contratos", "Mitigación de responsabilidad"],
         s5: ["Convenios/Reglamentos", "Adequación protección datos", "Gobernanza", "Capacitaciones"],
-        penal: ["Fraudes y apropiación", "Desvío de recursos", "Responsabilidad de gestores", "Delitos contra el honor"]
+        penal: ["Fraudes y apropiación", "Desvío de recursos", "Responsabilidad de gestores", "Delitos contra el honor"],
+        s8: ["Análisis de edictos y procesos", "Due Diligence de deudas y cargas", "Verificación de nulidades y recursos", "Acompañamiento en la adjudicación", "Posesión y registro", "Análisis de viabilidad financiera"]
       }
     },
     team_page: {
@@ -483,7 +539,31 @@ export const translations = {
       s5: 'Compliance en Condominios',
       s5Desc: 'Implementación de programas de integridad, adecuación rigurosa a la protección de datos y revisión de normas internas para garantizar una gestión transparente y en conformidad legal.',
       s6: 'Laboral y Tercerización',
-      s6Desc: 'Gestión estratégica de relaciones laborales y fiscalización rigurosa de empresas tercerizadas. Actuamos en la prevención de pasivos y en la defensa en reclamaciones laborales.'
+      s6Desc: 'Gestión estratégica de relaciones laborales y fiscalización rigurosa de empresas tercerizadas. Actuamos en la prevención de pasivos y en la defensa en reclamaciones laborales.',
+      s8: 'Asesoría en Subastas Judiciales',
+      s8Desc: 'Análisis jurídico especializado para una participación segura en subastas de inmuebles.'
+    },
+    service_content: {
+      'assessoria-leiloes-judiciais': {
+        h1: 'Asesoría Jurídica en Subastas Judiciales de Inmuebles',
+        h2: 'Análisis Jurídico Especializado y Adjudicación Segura',
+        sections: [
+          {
+            h2: 'Qué es la asesoría jurídica en subastas',
+            p: 'La asesoría jurídica en subastas judiciales es una auditoría técnica estratégica para compradores e inversores que buscan adquirir inmuebles por debajo del valor de mercado con total seguridad jurídica.'
+          },
+          {
+            h2: 'Cómo funciona nuestro acompañamiento',
+            p: 'Acompañamos desde la selección de oportunidades, análisis documental previo, cálculo de costos hasta la adjudicación, posesión y desocupación del inmueble en Río de Janeiro.'
+          }
+        ],
+        faqs: [
+          {
+            q: '¿Responde el adjudicatario por deudas anteriores de condominio e impuestos?',
+            a: 'En las subastas judiciales, las deudas tributarias se subrogan en el precio. Respecto a las deudas de condominio, depende del edicto, por lo que la revisión previa es indispensable.'
+          }
+        ]
+      }
     },
     data: {
       title: 'Salud Financiera',
@@ -619,7 +699,8 @@ export const translations = {
         s4: ["Technical opinions", "Risk analysis", "Mediation", "Board support"],
         s6: ["Payroll audit", "Meeting defense", "Contract review", "Liability mitigation"],
         s5: ["Convention/Bylaws", "Data protection compliance", "Governance", "Training"],
-        penal: ["Fraud and appropriation", "Misuse of resources", "Manager liability", "Defamation/Honor crimes"]
+        penal: ["Fraud and appropriation", "Misuse of resources", "Manager liability", "Defamation/Honor crimes"],
+        s8: ["Notice and process analysis", "Due Diligence of debts and liens", "Nullity and appeal checking", "Auction bidding assistance", "Possession and registration", "Financial feasibility analysis"]
       }
     },
     team_page: {
@@ -693,9 +774,27 @@ export const translations = {
       s4: 'Preventive Consulting',
       s4Desc: 'Continuous legal guidance for managers and boards. We prepare technical opinions and risk analyses that avoid lawsuits and ensure security in deliberations.',
       s5: 'Condo Compliance',
-      s5Desc: 'Implementation of integrity programs, data protection compliance, and review of internal rules to ensure transparent and legal management.'
+      s5Desc: 'Implementation of integrity programs, data protection compliance, and review of internal rules to ensure transparent and legal management.',
+      s8: 'Judicial Auction Consulting',
+      s8Desc: 'Specialized legal analysis for safe participation in real estate auctions.'
     },
     service_content: {
+      'assessoria-leiloes-judiciais': {
+        h1: 'Legal Consulting for Real Estate Judicial Auctions',
+        h2: 'Specialized Legal Analysis and Safe Bidding',
+        sections: [
+          {
+            h2: 'What is judicial auction consulting',
+            p: 'Legal consulting for real estate judicial auctions is a strategic technical audit for buyers and investors seeking property acquisition below market value with total legal safety.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Is the buyer responsible for previous condo and property tax debts?',
+            a: 'In judicial auctions, tax debts subrogate to the bidding price. Condo fee liabilities depend on the auction notice, making prior audit essential.'
+          }
+        ]
+      },
       'direito-condominial': { h1: 'Condominium Law', h2: 'Compliance and Governance', sections: [], faqs: [] },
       'assessoria-juridica-para-sindicos': { h1: 'Legal Support for Managers', h2: 'Management Security', sections: [], faqs: [] },
       'cobranca-condominial': { h1: 'Condo Fee Collection', h2: 'Asset Recovery', sections: [], faqs: [] },
@@ -765,12 +864,12 @@ export type TranslationKeys =
   | 'about.tag' | 'about.title' | 'about.titleHighlight' | 'about.desc1' | 'about.desc2' | 'about.desc3' | 'about.desc4' | 'about.desc5' | 'about.card1' | 'about.card1Desc' | 'about.card2' | 'about.card2Desc' | 'about.exp'
   | 'history_page.title' | 'history_page.titleHighlight' | 'history_page.card1_title' | 'history_page.card1_desc' | 'history_page.card2_title' | 'history_page.card2_desc' | 'history_page.card3_title' | 'history_page.card3_desc' | 'history_page.pillars_title' | 'history_page.mission_title' | 'history_page.mission_desc' | 'history_page.vision_title' | 'history_page.vision_desc'
   | 'services_page.tag' | 'services_page.title' | 'services_page.titleHighlight' | 'services_page.subtitle' | 'services_page.desc' | 'services_page.request_opinion' | 'services_page.methodology_title' | 'services_page.methodology_subtitle' | 'services_page.step1_title' | 'services_page.step1_desc' | 'services_page.step2_title' | 'services_page.step2_desc' | 'services_page.step3_title' | 'services_page.step3_desc' | 'services_page.cta_banner_title' | 'services_page.cta_banner_highlight' | 'services_page.cta_banner_desc' | 'services_page.cta_button' | 'services_page.penal_title'
-  | 'services_page.details.s1' | 'services_page.details.s2' | 'services_page.details.s3' | 'services_page.details.s4' | 'services_page.details.s5' | 'services_page.details.s6' | 'services_page.details.penal'
+  | 'services_page.details.s1' | 'services_page.details.s2' | 'services_page.details.s3' | 'services_page.details.s4' | 'services_page.details.s5' | 'services_page.details.s6' | 'services_page.details.penal' | 'services_page.details.s8'
   | 'team_page.tag' | 'team_page.title' | 'team_page.titleHighlight' | 'team_page.description' | 'team_page.specialty_quote' | 'team_page.bio'
   | 'contact_page.tag' | 'contact_page.title' | 'contact_page.titleHighlight' | 'contact_page.location' | 'contact_page.city' | 'contact_page.phone_label' | 'contact_page.email_label' | 'contact_page.hours_label' | 'contact_page.hours_desc' | 'contact_page.emergency' | 'contact_page.form_title' | 'contact_page.form_name' | 'contact_page.form_name_place' | 'contact_page.form_phone' | 'contact_page.form_email' | 'contact_page.form_message' | 'contact_page.form_message_place' | 'contact_page.form_submit' | 'contact_page.response_time'
   | 'blog_page.tag' | 'blog_page.title' | 'blog_page.titleHighlight' | 'blog_page.search_placeholder' | 'blog_page.read_more' | 'blog_page.no_results' | 'blog_page.no_results_desc' | 'blog_page.clear_filters' | 'blog_page.share' | 'blog_page.print' | 'blog_page.other_news' | 'blog_page.team_label' | 'blog_page.team_sub' | 'blog_page.cat_all' | 'blog_page.cat_compliance' | 'blog_page.cat_jurisprudence' | 'blog_page.cat_financial' | 'blog_page.cat_management' | 'blog_page.cat_technology' | 'blog_page.cat_real_estate_law' | 'blog_page.cat_airbnb' | 'blog_page.cat_rental' | 'blog_page.cat_coexistence' | 'blog_page.read_time_suffix'
   | 'quote.text'
-  | 'services.tag' | 'services.title' | 'services.titleHighlight' | 'services.s1' | 'services.s1Desc' | 'services.s2' | 'services.s2Desc' | 'services.s3' | 'services.s3Desc' | 'services.s4' | 'services.s4Desc' | 'services.s5' | 'services.s5Desc' | 'services.s6' | 'services.s6Desc'
+  | 'services.tag' | 'services.title' | 'services.titleHighlight' | 'services.s1' | 'services.s1Desc' | 'services.s2' | 'services.s2Desc' | 'services.s3' | 'services.s3Desc' | 'services.s4' | 'services.s4Desc' | 'services.s5' | 'services.s5Desc' | 'services.s6' | 'services.s6Desc' | 'services.s8' | 'services.s8Desc'
   | 'data.title' | 'data.titleHighlight' | 'data.desc' | 'data.stat1' | 'data.stat2' | 'data.label1' | 'data.drop' | 'data.footer'
   | 'contact.tag' | 'contact.title' | 'contact.titleHighlight' | 'contact.desc' | 'contact.phone' | 'contact.email' | 'contact.disclaimer'
   | 'contact.form.name' | 'contact.form.namePlace' | 'contact.form.whatsapp' | 'contact.form.email' | 'contact.form.message' | 'contact.form.messagePlace' | 'contact.form.submit'

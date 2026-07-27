@@ -61,6 +61,13 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       icon: <ShieldAlert size={32} />,
       details: t('services_page.details.penal') as unknown as string[],
       slug: 'compliance-condominial-penal'
+    },
+    {
+      title: t('services.s8'),
+      description: t('services.s8Desc'),
+      icon: <Gavel size={32} />,
+      details: t('services_page.details.s8') as unknown as string[],
+      slug: 'assessoria-leiloes-judiciais'
     }
   ];
 
@@ -181,7 +188,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-10 md:gap-x-8 md:gap-y-16 mb-20 md:mb-40">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10 md:gap-x-8 md:gap-y-16 mb-20 md:mb-40">
           {specializedAreas.map((area, index) => (
             <div key={index} className="group bg-midnight-light/40 backdrop-blur-sm p-6 sm:p-8 rounded-2xl border border-white/5 hover:border-bronze/30 transition-all flex flex-col h-full">
               <div className="text-bronze mb-6 md:mb-8 transition-transform duration-500 group-hover:scale-110">
@@ -189,8 +196,8 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
               </div>
               <h3 className="text-white text-xl sm:text-2xl font-serif mb-4 md:mb-6 group-hover:text-bronze">{area.title}</h3>
               <div className="flex-grow">
-                <p className="text-text-muted text-xs sm:text-sm leading-relaxed mb-6 md:mb-8">{area.description}</p>
-                <ul className="space-y-2 md:space-y-3 mb-6 md:mb-8">
+                <p className="text-text-muted text-xs sm:text-sm leading-relaxed mb-4">{area.description}</p>
+                <ul className="space-y-2 mb-3">
                   {area.details?.map((detail, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-[9px] sm:text-[10px] text-white/50 uppercase tracking-widest font-bold">
                       <ChevronRight size={12} className="text-bronze shrink-0" /> {detail}
@@ -198,7 +205,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
                   ))}
                 </ul>
               </div>
-              <div className="flex flex-col gap-4 mt-auto">
+              <div className="flex flex-col gap-2.5 mt-auto pt-2">
                 {area.slug && (
                   <Link 
                     to={`/${area.slug}`}
