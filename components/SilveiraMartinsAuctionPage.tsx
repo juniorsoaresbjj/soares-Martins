@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 import { 
   ArrowLeft, ChevronRight, ChevronDown, ChevronUp, Building2, Gavel, Scale, 
   ShieldCheck, FileText, CheckCircle2, AlertTriangle, HelpCircle, PhoneCall, 
-  MapPin, Calendar, DollarSign, ExternalLink, Info, FileSpreadsheet, ShieldAlert, Home
+  MapPin, Calendar, DollarSign, ExternalLink, Info, FileSpreadsheet, ShieldAlert
 } from 'lucide-react';
 import SEO from './SEO';
 import buildingImage from '../src/assets/images/regenerated_image_1785172757799.png';
+import { useLanguage } from '../context/LanguageContext';
+import { editalCommon, editaisData } from '../translations/editais';
 
 interface SilveiraMartinsAuctionPageProps {
   onBack?: () => void;
@@ -15,8 +17,13 @@ interface SilveiraMartinsAuctionPageProps {
 const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [showEditalModal, setShowEditalModal] = useState<boolean>(false);
+  const { language } = useLanguage();
 
-  const canonicalUrl = "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140/";
+  const tC = editalCommon[language] || editalCommon.pt;
+  const editalEntry = editaisData['catete-silveira-502'] || editaisData['copacabana-viveiros'];
+  const item = editalEntry[language] || editalEntry.pt;
+
+  const canonicalUrl = "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-139/";
 
   const pageSchema = [
     {
@@ -26,25 +33,25 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Início",
+          "name": tC.home,
           "item": "https://soaresmartinsadv.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Áreas de Atuação",
+          "name": tC.practiceAreas,
           "item": "https://soaresmartinsadv.com/servicos/"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Assessoria em Leilões Judiciais",
+          "name": tC.auctionsTitle,
           "item": "https://soaresmartinsadv.com/assessoria-leiloes-judiciais/"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Leilão no Catete - Rua Silveira Martins 140",
+          "name": item.title,
           "item": canonicalUrl
         }
       ]
@@ -73,67 +80,6 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
         "longitude": -43.2036
       },
       "areaServed": "Rio de Janeiro/RJ"
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Qual é o valor de avaliação e o desconto da 2ª praça do apartamento na Rua Silveira Martins 140 no Catete?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "O apartamento 502 na Rua Silveira Martins 140 possui avaliação judicial de R$ 532.500,63. Na 1ª praça (27/07/2026 às 12:50h), o lance mínimo exige 100% da avaliação. Na 2ª praça (29/07/2026 às 12:50h), o lance mínimo inicia em 50% do valor avaliado, equivalente a R$ 267.000,00."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Quais são as características do apartamento 502 na Rua Silveira Martins 140?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Trata-se de uma unidade residencial com 53 m² de área privativa, sem vaga de garagem, localizada em prédio residencial de 8 pavimentos contendo 7 apartamentos por andar e portaria presencial antiga. O imóvel está registrado no 9º RGI sob a matrícula nº 486828, fls. 1."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Como são quitados os débitos tributários de IPTU na arrematação judicial?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Com amparo no artigo 130 do Código Tributário Nacional (CTN), os débitos municipais sub-rogam-se sobre o valor depositado da arrematação, recebendo o arrematante o bem livre desses encargos fiscais prévios mediante pedido nos autos."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "É possível realizar proposta de parcelamento judicial nos termos do Código de Processo Civil?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Sim. Nos termos do artigo 895 do CPC, o interessado pode protocolar proposta nos autos com sinal de no mínimo 25% à vista e o saldo restante financiado em até 30 parcelas mensais, garantido por hipoteca judicial do próprio imóvel."
-          }
-        }
-      ]
-    }
-  ];
-
-  const faqs = [
-    {
-      q: "Qual é o valor de avaliação oficial e o lance mínimo na 2ª praça no Catete?",
-      a: "A avaliação judicial fixou o valor oficial do imóvel em R$ 532.500,63 (quinhentos e trinta e dois mil, quinhentos reais e sessenta e três centavos). Na 1ª Praça (27/07/2026 às 12:50h), exige-se 100% da avaliação. Na 2ª Praça (29/07/2026 às 12:50h), o valor inicial da praça é de 50% do valor de avaliação, totalizando R$ 267.000,00 (duzentos e sessenta e sete mil reais)."
-    },
-    {
-      q: "Quais são as especificações do imóvel e da estrutura do edifício na Rua Silveira Martins 140?",
-      a: "O apartamento 502 conta com 53 m² de área privativa e não possui vaga de garagem. O edifício é residencial, edificado em 8 pavimentos, composto por 7 apartamentos por andar, dispondo de portaria antiga (não 24 horas). Fica registrado no 9º Ofício do Registro de Imóveis (9º RGI) sob a matrícula nº 486828, fls. 1."
-    },
-    {
-      q: "Como é a localização da Rua Silveira Martins no bairro do Catete?",
-      a: "A Rua Silveira Martins é uma das vias mais arborizadas, tradicionais e bem localizadas do Catete, fazendo ligação direta com a Praia do Flamengo e o Aterro do Flamengo. Fica a pouquíssimos metros do Museu da República (Palácio do Catete) e da Estação de Metrô Catete, com total acesso a comércio, farmácias, supermercados e serviços."
-    },
-    {
-      q: "Como o escritório Soares Martins Advogados garante a segurança jurídica do investimento?",
-      a: "Nossa equipe realiza rigorosa due diligence imobiliária: auditoria integral do processo no TJRJ, certidão de ônus reais no 9º RGI, verificação da intimação dos executados, apuração do histórico de débitos fiscais e de condomínio, elaboração de peças jurídicas e acompanhamento contínuo até a efetiva imissão na posse."
-    },
-    {
-      q: "Como funciona a apresentação de proposta parcelada segundo o art. 895 do CPC?",
-      a: "O art. 895 do CPC autoriza o arrematante a apresentar proposta formal nos autos do processo com entrada mínima de 25% à vista e o saldo restante em até 30 parcelas mensais corrigidas. Nossa equipe redige e protocoliza a petição com antecedência para apreciação do juiz competente da causa."
     }
   ];
 
@@ -144,8 +90,8 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
   return (
     <div className="min-h-screen bg-midnight text-white text-left font-sans">
       <SEO 
-        title="Leilão Judicial de Apartamento na Rua Silveira Martins 140, Catete | Assessoria Rio de Janeiro"
-        description="Assessoria jurídica em leilões judiciais para apartamento 502 na Rua Silveira Martins 140, Catete. 53 m², 2ª praça a R$ 267.000,00 (50%), 9º RGI, parecer processual no Rio de Janeiro."
+        title={`${item.title} | Soares Martins Advogados`}
+        description={item.subtitle}
         image={buildingImage}
         schema={pageSchema}
       />
@@ -154,13 +100,13 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
       <div className="max-w-7xl mx-auto px-6 pt-28 pb-6">
         {/* Breadcrumb Navigation */}
         <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-2 text-xs text-text-muted">
-          <Link to="/" className="hover:text-bronze transition-colors">Início</Link>
+          <Link to="/" className="hover:text-bronze transition-colors">{tC.home}</Link>
           <ChevronRight size={12} className="text-bronze shrink-0" />
-          <Link to="/servicos/" className="hover:text-bronze transition-colors">Áreas de Atuação</Link>
+          <Link to="/servicos/" className="hover:text-bronze transition-colors">{tC.practiceAreas}</Link>
           <ChevronRight size={12} className="text-bronze shrink-0" />
-          <Link to="/assessoria-leiloes-judiciais/" className="hover:text-bronze transition-colors">Leilões Judiciais</Link>
+          <Link to="/assessoria-leiloes-judiciais/" className="hover:text-bronze transition-colors">{tC.auctionsTitle}</Link>
           <ChevronRight size={12} className="text-bronze shrink-0" />
-          <span className="text-white font-medium">Catete - Rua Silveira Martins 140</span>
+          <span className="text-white font-medium">{item.title}</span>
         </nav>
 
         {/* Back Link */}
@@ -168,7 +114,7 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
           to="/assessoria-leiloes-judiciais/" 
           className="inline-flex items-center gap-2 text-bronze text-xs uppercase tracking-widest font-bold hover:text-white transition-colors mb-6"
         >
-          <ArrowLeft size={14} /> Voltar para Assessoria em Leilões Judiciais
+          <ArrowLeft size={14} /> {tC.backToAuctions}
         </Link>
       </div>
 
@@ -176,39 +122,36 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
       <section className="max-w-7xl mx-auto px-6 pb-12 sm:pb-16">
         <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl p-6 sm:p-10 border border-white/10 shadow-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-bronze/10 border border-bronze/30 text-bronze text-xs font-semibold uppercase tracking-wider mb-6">
-            <Gavel size={14} /> Leilão Judicial de Imóveis • Rio de Janeiro/RJ
+            <Gavel size={14} /> {tC.badgeTag}
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-white font-bold leading-tight mb-4 text-left">
-            Leilão Judicial de Apartamento no Catete — Rua Silveira Martins, nº 140
+            {item.title}
           </h1>
 
           <p className="text-bronze text-base sm:text-lg font-serif mb-8 text-left">
-            Apartamento 502 — Rua Silveira Martins, nº 140, Catete, Rio de Janeiro/RJ | Análise Preventiva de Edital e Viabilidade Processual
+            {item.subtitle}
           </p>
 
           {/* Grid Layout: Photo & Auction Info Box */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            {/* Foto do Imóvel */}
+            {/* Foto do Edifício */}
             <div className="lg:col-span-7 space-y-3">
               <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl group aspect-[16/10]">
                 <img 
                   src={buildingImage} 
-                  alt="Apartamento na Rua Silveira Martins 140 no Catete Rio de Janeiro" 
+                  alt={item.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-midnight/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs text-white/90 font-medium">
                   <span className="flex items-center gap-1.5 bg-midnight/80 px-3 py-1.5 rounded-lg border border-white/10">
-                    <MapPin size={13} className="text-bronze" /> Rua Silveira Martins 140 • Apto 502
-                  </span>
-                  <span className="bg-bronze/90 text-midnight px-3 py-1.5 rounded-lg font-bold">
-                    53 m² • Catete • Sem Vaga
+                    <MapPin size={13} className="text-bronze" /> {item.address}
                   </span>
                 </div>
               </div>
               <p className="text-[11px] text-text-muted italic text-left">
-                Imagem ilustrativa do edifício residencial na Rua Silveira Martins, Catete. Fonte dos dados: Edital de Leilão Judicial do TJRJ.
+                {tC.imageIllustrative}
               </p>
             </div>
 
@@ -216,8 +159,8 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
             <div className="lg:col-span-5 bg-midnight/80 rounded-2xl p-6 sm:p-8 border border-bronze/30 space-y-6 shadow-xl text-left">
               <div>
                 <div className="flex items-center justify-between pb-4 border-b border-white/10">
-                  <span className="text-xs uppercase tracking-widest text-text-muted font-bold">Valor de Avaliação Judicial</span>
-                  <span className="text-2xl sm:text-3xl font-serif font-bold text-bronze">R$ 532.500,63</span>
+                  <span className="text-xs uppercase tracking-widest text-text-muted font-bold">{tC.valuationLabel}</span>
+                  <span className="text-2xl sm:text-3xl font-serif font-bold text-bronze">{item.val}</span>
                 </div>
 
                 {/* Praças Grid */}
@@ -225,68 +168,60 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
                   {/* 1ª Praça */}
                   <div className="bg-midnight-light/50 p-4 rounded-xl border border-white/10">
                     <div className="text-[10px] uppercase font-bold text-bronze tracking-wider mb-1 flex items-center gap-1">
-                      <Calendar size={12} /> 1ª Praça
+                      <Calendar size={12} /> {tC.p1Title}
                     </div>
-                    <div className="text-sm font-semibold text-white mb-2">100% da Avaliação</div>
-                    <div className="text-xs text-text-muted mb-1">Lance Mínimo:</div>
-                    <div className="text-base sm:text-lg font-serif font-bold text-white">R$ 532.500,63</div>
-                    <div className="text-[11px] text-white/60 mt-2 font-mono">27/07/2026 às 12:50h</div>
+                    <div className="text-sm font-semibold text-white mb-2">{tC.p1Desc}</div>
+                    <div className="text-xs text-text-muted mb-1">{tC.minBidLabel}</div>
+                    <div className="text-base sm:text-lg font-serif font-bold text-white">{item.val}</div>
+                    <div className="text-[11px] text-white/60 mt-2 font-mono">{item.p1Date}</div>
                   </div>
 
                   {/* 2ª Praça */}
                   <div className="bg-midnight-light/50 p-4 rounded-xl border border-emerald-500/30">
                     <div className="text-[10px] uppercase font-bold text-emerald-400 tracking-wider mb-1 flex items-center gap-1">
-                      <Calendar size={12} /> 2ª Praça
+                      <Calendar size={12} /> {tC.p2Title}
                     </div>
-                    <div className="text-sm font-semibold text-emerald-300 mb-2">50% da Avaliação</div>
-                    <div className="text-xs text-text-muted mb-1">Lance Mínimo:</div>
-                    <div className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 267.000,00</div>
-                    <div className="text-[11px] text-white/60 mt-2 font-mono">29/07/2026 às 12:50h</div>
+                    <div className="text-sm font-semibold text-emerald-300 mb-2">{tC.p2Desc}</div>
+                    <div className="text-xs text-text-muted mb-1">{tC.minBidLabel}</div>
+                    <div className="text-base sm:text-lg font-serif font-bold text-emerald-400">{item.p2Val}</div>
+                    <div className="text-[11px] text-white/60 mt-2 font-mono">{item.p2Date}</div>
                   </div>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-white/10 space-y-3">
-                  <div className="flex items-center justify-between text-xs text-text-muted">
-                    <span>Tipologia / Unidade:</span>
-                    <span className="text-white font-medium">Apartamento 502</span>
+                <div className="mt-6 pt-4 border-t border-white/10 space-y-3 text-xs text-text-muted">
+                  <div className="flex items-center justify-between">
+                    <span>{tC.specsRgi}:</span>
+                    <span className="text-white font-medium">{item.rgi}</span>
                   </div>
-                  <div className="flex items-center justify-between text-xs text-text-muted">
-                    <span>Área Útil Privativa:</span>
-                    <span className="text-white font-medium">53 m²</span>
+                  <div className="flex items-center justify-between">
+                    <span>{tC.specsIptu}:</span>
+                    <span className="text-white font-medium font-mono">{item.iptu}</span>
                   </div>
-                  <div className="flex items-center justify-between text-xs text-text-muted">
-                    <span>Vaga de Garagem:</span>
-                    <span className="text-white font-medium">Sem vaga de garagem</span>
+                  <div className="flex items-center justify-between">
+                    <span>{tC.specsProcess}:</span>
+                    <span className="text-white font-medium">{item.process}</span>
                   </div>
-                  <div className="flex items-center justify-between text-xs text-text-muted">
-                    <span>Pavimentos do Prédio:</span>
-                    <span className="text-white font-medium">8 andares (7 aptos/andar)</span>
-                  </div>
-                  <div className="flex items-center justify-between text-xs text-text-muted">
-                    <span>Registro de Imóveis:</span>
-                    <span className="text-white font-medium font-mono">9º RGI • Matrícula 486828</span>
-                  </div>
-                  <div className="flex items-center justify-between text-xs text-text-muted">
-                    <span>Inscrição IPTU:</span>
-                    <span className="text-white font-medium font-mono">Desconhecida / Em apuração</span>
+                  <div className="flex items-center justify-between">
+                    <span>{tC.specsCourt}:</span>
+                    <span className="text-white font-medium">{item.court}</span>
                   </div>
                 </div>
 
                 <div className="mt-6 pt-4 border-t border-white/10 space-y-3">
                   <button 
                     onClick={() => setShowEditalModal(true)}
-                    className="w-full bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider py-3 rounded-xl transition-all border border-white/10 flex items-center justify-center gap-2"
+                    className="w-full bg-white/10 hover:bg-white/20 text-white font-bold text-xs uppercase tracking-wider py-3 rounded-xl transition-all border border-white/10 flex items-center justify-center gap-2 cursor-pointer"
                   >
-                    <FileText size={15} /> Ver Resumo Didático do Edital
+                    <FileText size={15} /> {tC.btnViewDetails}
                   </button>
 
                   <a 
-                    href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20a%20an%C3%A1lise%20jur%C3%ADdica%20do%20leil%C3%A3o%20do%20apartamento%20502%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete."
+                    href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20Catete."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full bg-bronze hover:bg-white text-midnight font-bold text-xs uppercase tracking-widest py-3.5 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2"
+                    className="w-full bg-bronze text-midnight hover:bg-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2"
                   >
-                    <PhoneCall size={15} /> Solicitar Parecer de Viabilidade
+                    <PhoneCall size={15} /> {tC.btnWhatsApp}
                   </a>
                 </div>
               </div>
@@ -297,235 +232,24 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
 
       {/* Main Content Sections */}
       <section className="max-w-7xl mx-auto px-6 pb-16 space-y-12">
-        {/* Seção 1: Resumo do Imóvel & Ficha Técnica */}
+        {/* Resumo do Imóvel */}
         <article className="bg-midnight-light/30 rounded-3xl p-8 sm:p-12 border border-white/10 text-left space-y-6">
           <div className="flex items-center gap-3 text-bronze">
-            <Home size={24} className="shrink-0" />
+            <Building2 size={24} className="shrink-0" />
             <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Resumo do Imóvel e Ficha Técnica
+              {tC.specsTitle}
             </h2>
           </div>
 
           <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            Trata-se do Apartamento 502, localizado na Rua Silveira Martins, nº 140, no tradicional e histórico bairro do Catete, Rio de Janeiro - RJ. A unidade residencial possui 53 m² de área privativa, sem vaga de garagem, inserida em localização estratégica com fácil acesso ao Parque do Flamengo, Estação do Metrô Catete e polo cultural da Zona Sul.
+            {item.description}
           </p>
-
-          {/* Ficha Técnica Discreta */}
-          <div className="bg-midnight/80 p-6 rounded-2xl border border-bronze/20 space-y-3">
-            <div className="flex items-center gap-2 text-bronze text-xs font-bold uppercase tracking-wider">
-              <Info size={16} /> Caracterização do Edifício e Serviços
-            </div>
-            <p className="text-xs sm:text-sm text-text-muted leading-relaxed font-sans">
-              <strong className="text-white font-medium">Características do Prédio:</strong> Edifício residencial composto por 8 pavimentos, contendo 7 apartamentos por andar. O condomínio dispõe de portaria presencial antiga (não 24 horas). Não possui vaga de garagem ou área de lazer.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-            <div className="bg-midnight/60 p-5 rounded-2xl border border-white/5 space-y-2">
-              <span className="text-xs uppercase tracking-widest text-bronze font-bold block">Identificação Imobiliária</span>
-              <ul className="text-xs sm:text-sm text-white/80 space-y-2">
-                <li><strong className="text-white">Endereço:</strong> Rua Silveira Martins, nº 140, Apto 502</li>
-                <li><strong className="text-white">Bairro / Cidade:</strong> Catete, Rio de Janeiro - RJ</li>
-                <li><strong className="text-white">Área Privativa:</strong> 53 m²</li>
-                <li><strong className="text-white">Vaga de Garagem:</strong> Sem vaga de garagem</li>
-                <li><strong className="text-white">Estrutura:</strong> 8 pavimentos, 7 unidades por andar</li>
-                <li><strong className="text-white">Cartório de Registro:</strong> 9º Ofício do Registro de Imóveis (9º RGI)</li>
-                <li><strong className="text-white">Matrícula:</strong> 486828 (fls. 1)</li>
-                <li><strong className="text-white">Inscrição IPTU:</strong> Desconhecida / Em levantamento</li>
-              </ul>
-            </div>
-
-            <div className="bg-midnight/60 p-5 rounded-2xl border border-white/5 space-y-2">
-              <span className="text-xs uppercase tracking-widest text-bronze font-bold block">Dados da Execução Judicial</span>
-              <ul className="text-xs sm:text-sm text-white/80 space-y-2">
-                <li><strong className="text-white">Jurisdição:</strong> Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ)</li>
-                <li><strong className="text-white">Modalidade:</strong> Leilão Judicial Eletrônico</li>
-                <li><strong className="text-white">Avaliação Oficial:</strong> R$ 532.500,63</li>
-                <li><strong className="text-white">1ª Praça (100%):</strong> 27/07/2026 às 12:50h (R$ 532.500,63)</li>
-                <li><strong className="text-white">2ª Praça (50%):</strong> 29/07/2026 às 12:50h (Mínimo: R$ 267.000,00)</li>
-              </ul>
-            </div>
-          </div>
-        </article>
-
-        {/* Seção 2: Contexto de Mercado */}
-        <article className="bg-midnight-light/30 rounded-3xl p-8 sm:p-12 border border-white/10 text-left space-y-6">
-          <div className="flex items-center gap-3 text-bronze">
-            <MapPin size={24} className="shrink-0" />
-            <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Contexto do Mercado Imobiliário no Catete
-            </h2>
-          </div>
-
-          <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            O Catete destaca-se como um dos bairros mais consolidados da Zona Sul do Rio de Janeiro, mesclando infraestrutura de serviços, conexão direta com o centro financeiro e forte apelo residencial por conta da proximidade com a Praia e o Parque do Flamengo.
-          </p>
-
-          <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            Unidades residenciais de 53 m² na Rua Silveira Martins apresentam elevada procura tanto para moradia própria de profissionais e estudantes quanto para investimento com foco em renda de aluguel. A praça judicial com valor inicial de R$ 267.000,00 (50% da avaliação oficial de R$ 532.500,63) constitui excelente margem de viabilidade.
-          </p>
-        </article>
-
-        {/* Seção 3: Como participar do Leilão */}
-        <article className="bg-midnight-light/30 rounded-3xl p-8 sm:p-12 border border-white/10 text-left space-y-6">
-          <div className="flex items-center gap-3 text-bronze">
-            <Gavel size={24} className="shrink-0" />
-            <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Como Participar do Leilão
-            </h2>
-          </div>
-
-          <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            Para arrematar o imóvel no TJRJ, o investidor pode optar por duas vias jurídicas de participação:
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-            {/* Primeira Forma: Nos Autos do Processo */}
-            <div className="bg-midnight/60 p-6 sm:p-8 rounded-2xl border border-white/10 space-y-4 hover:border-bronze/30 transition-all text-left">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-bronze/10 border border-bronze/30 text-bronze flex items-center justify-center font-bold text-sm shrink-0">1</div>
-                <h3 className="text-white font-serif font-bold text-lg sm:text-xl">Proposta Formal nos Autos do Processo</h3>
-              </div>
-              
-              <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                Intervenção advocatícia mediante petição formal de proposta protocolada diretamente nos autos do processo judicial.
-              </p>
-
-              <div className="space-y-2 pt-2 border-t border-white/5 text-xs text-white/80">
-                <div className="flex items-start gap-2">
-                  <CheckCircle2 size={14} className="text-bronze shrink-0 mt-0.5" />
-                  <span><strong>Pagamento Parcelado (Art. 895 do CPC):</strong> Ofertando sinal de no mínimo 25% à vista e o saldo restante em até 30 parcelas mensais corrigidas com hipoteca do imóvel.</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle2 size={14} className="text-bronze shrink-0 mt-0.5" />
-                  <span><strong>Submissão ao Juízo:</strong> Apreciação direta pelo magistrado da causa em caso de inexistência de lances superiores na modalidade à vista.</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Segunda Forma: No Site do Leiloeiro */}
-            <div className="bg-midnight/60 p-6 sm:p-8 rounded-2xl border border-white/10 space-y-4 hover:border-bronze/30 transition-all text-left">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-bronze/10 border border-bronze/30 text-bronze flex items-center justify-center font-bold text-sm shrink-0">2</div>
-                <h3 className="text-white font-serif font-bold text-lg sm:text-xl">Lances no Portal do Leiloeiro Oficial</h3>
-              </div>
-
-              <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                Oferta de lances em ambiente eletrônico público mediante habilitação cadastral prévia na plataforma do gestor do leilão.
-              </p>
-
-              <div className="space-y-2 pt-2 border-t border-white/5 text-xs text-white/80">
-                <div className="flex items-start gap-2">
-                  <CheckCircle2 size={14} className="text-bronze shrink-0 mt-0.5" />
-                  <span><strong>Habilitação Prévia:</strong> Validação documental e verificação de capacidade jurídica perante o leiloeiro.</span>
-                </div>
-                <div className="flex items-start gap-2">
-                  <CheckCircle2 size={14} className="text-bronze shrink-0 mt-0.5" />
-                  <span><strong>Disputa Online:</strong> Lances em tempo real nas datas aprazadas no edital (27/07/2026 e 29/07/2026 às 12:50h).</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        {/* Seção 4: Por que a assessoria jurídica é importante */}
-        <article className="bg-midnight-light/30 rounded-3xl p-8 sm:p-12 border border-white/10 text-left space-y-6">
-          <div className="flex items-center gap-3 text-bronze">
-            <Scale size={24} className="shrink-0" />
-            <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Importância da Assessoria Jurídica em Leilões
-            </h2>
-          </div>
-
-          <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            A arrematação de bens em leilões judiciais exige estrito rigor técnico quanto ao Código de Processo Civil e ao Código Tributário Nacional para afastar vícios de citação, nulidades ou passivos não identificados.
-          </p>
-
-          <div className="space-y-4 pt-2">
-            <div className="p-5 bg-midnight/60 rounded-2xl border border-white/5 flex items-start gap-4">
-              <CheckCircle2 size={20} className="text-bronze shrink-0 mt-1" />
-              <div>
-                <h3 className="text-white font-semibold text-base mb-1">Auditoria Completa do Processo e RGI</h3>
-                <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                  Exame da Matrícula 486828 no 9º RGI, verificação da intimação dos executados e credores, e levantamento do histórico de ônus judiciais.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-5 bg-midnight/60 rounded-2xl border border-white/5 flex items-start gap-4">
-              <CheckCircle2 size={20} className="text-bronze shrink-0 mt-1" />
-              <div>
-                <h3 className="text-white font-semibold text-base mb-1">Estudo de Viabilidade Financeira e Fiscal</h3>
-                <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                  Cálculo do custo total de aquisição abrangendo comissão do leiloeiro, ITBI, custas de registro e aplicação da sub-rogação do art. 130 do CTN para tributos municipais.
-                </p>
-              </div>
-            </div>
-
-            <div className="p-5 bg-midnight/60 rounded-2xl border border-white/5 flex items-start gap-4">
-              <CheckCircle2 size={20} className="text-bronze shrink-0 mt-1" />
-              <div>
-                <h3 className="text-white font-semibold text-base mb-1">Atuação Célere Pós-Arrematação até a Posse</h3>
-                <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                  Peticionamento para expedição da carta de arrematação, baixa de penhoras existentes na matrícula do imóvel e mandado de imissão na posse.
-                </p>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        {/* Seção 5: Como funciona o acompanhamento (4 Fases Resumidas) */}
-        <article className="bg-midnight-light/30 rounded-3xl p-8 sm:p-12 border border-white/10 text-left space-y-6">
-          <div className="flex items-center gap-3 text-bronze">
-            <FileSpreadsheet size={24} className="shrink-0" />
-            <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Fases do Acompanhamento Jurídico
-            </h2>
-          </div>
-
-          <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            Acompanhamento integral do arrematante ao longo de 4 etapas estruturadas:
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-            <div className="p-6 bg-midnight/60 rounded-2xl border border-white/5 space-y-2">
-              <div className="text-xs font-bold text-bronze uppercase tracking-widest">Fase 1 • Due Diligence</div>
-              <h3 className="text-white font-semibold text-base">Análise Processual e Cartorária</h3>
-              <p className="text-xs text-text-muted leading-relaxed">
-                Estudo prévio dos autos judiciais no TJRJ, matrícula imobiliária e emissão do parecer de viabilidade jurídica.
-              </p>
-            </div>
-
-            <div className="p-6 bg-midnight/60 rounded-2xl border border-white/5 space-y-2">
-              <div className="text-xs font-bold text-bronze uppercase tracking-widest">Fase 2 • Habilitação ou Proposta</div>
-              <h3 className="text-white font-semibold text-base">Estratégia do Lance ou Proposta</h3>
-              <p className="text-xs text-text-muted leading-relaxed">
-                Cadastramento na plataforma do leiloeiro ou minuta de proposta parcelada em até 30 meses nos termos do art. 895 do CPC.
-              </p>
-            </div>
-
-            <div className="p-6 bg-midnight/60 rounded-2xl border border-white/5 space-y-2">
-              <div className="text-xs font-bold text-bronze uppercase tracking-widest">Fase 3 • Arrematação</div>
-              <h3 className="text-white font-semibold text-base">Acompanhamento e Homologação</h3>
-              <p className="text-xs text-text-muted leading-relaxed">
-                Suporte durante a praça e acompanhamento da lavratura e assinatura do auto de arrematação pelo magistrado.
-              </p>
-            </div>
-
-            <div className="p-6 bg-midnight/60 rounded-2xl border border-white/5 space-y-2">
-              <div className="text-xs font-bold text-bronze uppercase tracking-widest">Fase 4 • Posse e Registro</div>
-              <h3 className="text-white font-semibold text-base">Carta de Arrematação e Imissão</h3>
-              <p className="text-xs text-text-muted leading-relaxed">
-                Requerimento judicial da expedição da carta de arrematação, recolhimento de ITBI, baixa de ônus no RGI e posse efetiva.
-              </p>
-            </div>
-          </div>
         </article>
 
         {/* Links Internos Relevantes */}
         <section className="bg-midnight/60 rounded-2xl p-6 sm:p-8 border border-white/10 text-left flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2">
-            <h3 className="text-white font-serif text-lg font-bold">Navegue Pelas Nossas Áreas de Atuação</h3>
+            <h3 className="text-white font-serif text-lg font-bold">{tC.relatedTitle}</h3>
             <p className="text-xs text-text-muted">
               Conheça mais sobre nossos serviços em leilões imobiliários e direito imobiliário no Rio de Janeiro.
             </p>
@@ -535,35 +259,35 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
               to="/assessoria-leiloes-judiciais/"
               className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-bronze hover:text-white border border-bronze/30 hover:border-white px-4 py-3 rounded-xl transition-all"
             >
-              Assessoria em Leilões <ChevronRight size={14} />
+              {tC.auctionsTitle} <ChevronRight size={14} />
             </Link>
             <Link 
-              to="/direito-imobiliario/"
+              to="/servicos/"
               className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white/80 hover:text-white border border-white/10 hover:border-white px-4 py-3 rounded-xl transition-all"
             >
-              Direito Imobiliário <ChevronRight size={14} />
+              {tC.practiceAreas} <ChevronRight size={14} />
             </Link>
           </div>
         </section>
 
-        {/* FAQ Específica da Página */}
+        {/* FAQ Específica */}
         <article className="bg-midnight-light/30 rounded-3xl p-8 sm:p-12 border border-white/10 text-left space-y-6">
           <div className="flex items-center gap-3 text-bronze">
             <HelpCircle size={24} className="shrink-0" />
             <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Perguntas Frequentes Sobre o Leilão na Rua Silveira Martins 140
+              {tC.faqTitle}
             </h2>
           </div>
 
           <div className="space-y-4 pt-2">
-            {faqs.map((faq, idx) => (
+            {item.faqs.map((faq, idx) => (
               <div 
                 key={idx}
                 className="rounded-2xl border border-white/5 bg-midnight/40 overflow-hidden transition-all hover:border-bronze/20"
               >
                 <button
                   onClick={() => toggleFaq(idx)}
-                  className="w-full p-6 text-left flex items-center justify-between gap-4 font-serif text-base sm:text-lg text-white hover:text-bronze transition-colors"
+                  className="w-full p-6 text-left flex items-center justify-between gap-4 font-serif text-base sm:text-lg text-white hover:text-bronze transition-colors cursor-pointer"
                 >
                   <span className="flex items-center gap-3">
                     <span className="text-bronze font-bold text-sm font-sans">P.</span>
@@ -585,47 +309,37 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
           </div>
         </article>
 
-        {/* Texto Neutro Institucional Antes do CTA */}
-        <article className="bg-midnight/40 rounded-2xl p-6 sm:p-8 border border-white/10 text-left space-y-3">
-          <div className="flex items-center gap-2 text-bronze text-xs uppercase font-bold tracking-widest">
-            <ShieldCheck size={16} /> Nota Institucional e Independência Técnica
-          </div>
-          <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-            O escritório Soares Martins Advogados presta exclusivamente serviços advocatícios de consultoria jurídica e representação judicial em arrematações. A veiculação de informações extraídas do edital judicial possui propósito meramente informativo, sem constituir intermediação imobiliária comercial ou garantia de ganho financeiro. Cada certame pressupõe auditoria técnica dos autos do processo.
-          </p>
-        </article>
-
         {/* CTA Sóbrio Final */}
         <section className="bg-bronze p-8 sm:p-12 md:p-14 rounded-3xl text-midnight text-center shadow-2xl border border-bronze/30">
           <div className="max-w-3xl mx-auto text-center space-y-4">
             <h2 className="text-2xl sm:text-3xl font-serif font-bold text-midnight text-center">
-              Fale Com Nossa Equipe Especializada
+              {tC.ctaTitle}
             </h2>
             <p className="text-sm sm:text-base opacity-90 leading-relaxed font-medium text-center">
-              O escritório Soares Martins Advogados oferece pareceres jurídicos fundamentados e suporte preventivo para arrematação de imóveis em leilões judiciais no Rio de Janeiro.
+              {tC.ctaDesc}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center pt-4">
               <a 
-                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20assessoria%20jur%C3%ADdica%20para%20o%20leil%C3%A3o%20do%20apartamento%20502%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete."
+                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20assessoria%20jur%C3%ADdica%20para%20o%20leil%C3%A3o%20do%20Catete."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2.5 bg-midnight text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-midnight transition-all shadow-lg"
               >
                 <PhoneCall size={16} />
-                Atendimento via WhatsApp
+                {tC.ctaWA}
               </a>
 
               <a 
                 href="mailto:Juniorsadv@hotmail.com" 
                 className="inline-flex items-center justify-center gap-2 border-2 border-midnight text-midnight px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-midnight hover:text-white transition-all"
               >
-                Enviar E-mail Corporativo
+                {tC.ctaEmail}
               </a>
             </div>
 
             <p className="pt-4 text-[11px] uppercase tracking-wider opacity-80 font-semibold text-center">
-              Atendimento presencial em Ipanema/RJ (Rua Visconde de Pirajá, 414 - Sala 718) e consultas virtuais.
+              {tC.ctaFooterNote}
             </p>
           </div>
         </section>
@@ -637,58 +351,55 @@ const SilveiraMartinsAuctionPage: React.FC<SilveiraMartinsAuctionPageProps> = ()
           <div className="bg-midnight-light border border-bronze/30 rounded-3xl p-6 sm:p-8 max-w-2xl w-full text-left space-y-6 max-h-[90vh] overflow-y-auto">
             <div className="flex items-center justify-between border-b border-white/10 pb-4">
               <h3 className="text-xl font-serif text-white font-bold flex items-center gap-2">
-                <FileText size={20} className="text-bronze" /> Resumo do Edital — Rua Silveira Martins 140
+                <FileText size={20} className="text-bronze" /> {tC.modalTitle}
               </h3>
               <button 
                 onClick={() => setShowEditalModal(false)}
-                className="text-text-muted hover:text-white p-1 rounded-lg text-sm"
+                className="text-text-muted hover:text-white p-1 rounded-lg text-sm cursor-pointer"
               >
-                ✕ Fechar
+                ✕ {tC.modalClose}
               </button>
             </div>
 
             <div className="space-y-4 text-xs sm:text-sm text-text-muted leading-relaxed">
               <div className="p-4 bg-midnight rounded-xl border border-white/5 space-y-1">
-                <div className="text-white font-semibold">Localização do Imóvel:</div>
-                <div>Rua Silveira Martins nº 140, Apto 502 — Catete, Rio de Janeiro/RJ.</div>
+                <div className="text-white font-semibold">Localização:</div>
+                <div>{item.address}</div>
               </div>
 
               <div className="p-4 bg-midnight rounded-xl border border-white/5 space-y-1">
-                <div className="text-white font-semibold">Valor de Avaliação Oficial:</div>
-                <div className="text-bronze font-bold">R$ 532.500,63</div>
+                <div className="text-white font-semibold">{tC.specsValuation}:</div>
+                <div className="text-bronze font-bold">{item.val}</div>
               </div>
 
               <div className="p-4 bg-midnight rounded-xl border border-white/5 space-y-1">
-                <div className="text-white font-semibold">Datas das Praças Judiciais:</div>
-                <div>1ª Praça: 27/07/2026 às 12:50h (100% da avaliação = R$ 532.500,63)</div>
-                <div>2ª Praça: 29/07/2026 às 12:50h (50% da avaliação = R$ 267.000,00)</div>
+                <div className="text-white font-semibold">Praças Judiciais:</div>
+                <div>1ª Praça: {item.p1Date} ({item.val})</div>
+                <div>2ª Praça: {item.p2Date} ({item.p2Val})</div>
               </div>
 
-              <div className="p-4 bg-midnight rounded-xl border border-white/5 space-y-1">
-                <div className="text-white font-semibold">Descrição e Tipologia:</div>
-                <div>Apartamento 502 com 53 m² de área privativa, sem vaga de garagem. Edifício residencial de 8 pavimentos contendo 7 apartamentos por andar, portaria antiga presencial.</div>
-              </div>
-
-              <div className="p-4 bg-midnight rounded-xl border border-white/5 space-y-1">
-                <div className="text-white font-semibold">Registro e Inscrição Municipal:</div>
-                <div>9º RGI — Matrícula nº 486828 (fls. 1) | Inscrição IPTU: Desconhecida / Em apuração.</div>
-              </div>
+              {item.modal.sections.map((sec, i) => (
+                <div key={i} className="p-4 bg-midnight rounded-xl border border-white/5 space-y-1">
+                  <div className="text-white font-semibold">{sec.title}</div>
+                  <div>{sec.text}</div>
+                </div>
+              ))}
             </div>
 
             <div className="pt-4 border-t border-white/10 flex justify-end gap-3">
               <button 
                 onClick={() => setShowEditalModal(false)}
-                className="px-5 py-2.5 bg-white/10 text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-white/20 transition-all"
+                className="px-5 py-2.5 bg-white/10 text-white rounded-xl text-xs font-bold uppercase tracking-wider hover:bg-white/20 transition-all cursor-pointer"
               >
-                Fechar
+                {tC.modalClose}
               </button>
               <a 
-                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20o%20parecer%20completo%20do%20edital%20do%20apartamento%20502%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete."
+                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20o%20parecer%20completo%20do%20edital."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 bg-bronze text-midnight font-bold rounded-xl text-xs uppercase tracking-wider hover:bg-white transition-all inline-flex items-center gap-1.5"
               >
-                Solicitar Parecer no WhatsApp <ExternalLink size={12} />
+                {tC.btnWhatsApp} <ExternalLink size={12} />
               </a>
             </div>
           </div>

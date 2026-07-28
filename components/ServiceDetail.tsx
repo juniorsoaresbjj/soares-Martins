@@ -1,6 +1,5 @@
-
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { 
   ArrowLeft, ChevronRight, ChevronDown, ChevronUp, Building2, Gavel, Scale, 
@@ -66,15 +65,553 @@ const serviceData: Record<string, any> = {
   }
 };
 
+const pageTranslations: Record<string, any> = {
+  pt: {
+    breadcrumbHome: 'Início',
+    breadcrumbServices: 'Áreas de Atuação',
+    residentialCommercial: 'Residencial e Comercial',
+    heroTitle: 'Assessoria Jurídica em Leilão de Imóveis',
+    heroDesc: 'A arrematação de apartamentos, lojas e salas no Rio de Janeiro exige auditoria prévia detalhada da matrícula, verificação de dívidas de cota condominial e análise de risco processual para garantir posse célere e investimento seguro.',
+    stat1Title: 'Rio de Janeiro',
+    stat1Desc: 'Foco em imóveis residenciais e comerciais no RJ',
+    stat2Title: 'Parecer Técnico',
+    stat2Desc: 'Avaliação jurídica e matriz de riscos',
+    badgeLocation: 'Rio de Janeiro / RJ',
+    badgeDesc: 'Análise prévia de edital e débitos de condomínio',
+    consultWA: 'Consultar com Especialista no WhatsApp',
+    interactiveTag: 'Metodologia Interativa',
+    interactiveTitle: '4 Pilares da Auditoria de Leilão Judicial',
+    interactiveSub: 'Clique em cada etapa para examinar os pontos críticos auditados em nosso parecer prévio.',
+    issuedNotice: 'Parecer emitido em 24h a 48h',
+    checklist: [
+      {
+        title: '1. Exame da Matrícula e Ônus Reais',
+        desc: 'Levantamento detalhado de hipotecas, penhoras, indisponibilidades e averbações junto ao Cartório de Registro de Imóveis.',
+        risk: 'Análise de Ônus'
+      },
+      {
+        title: '2. Análise de Débitos Propter Rem',
+        desc: 'Verificação da atribuição de responsabilidade por débitos tributários e condominiais em observância ao edital e ao art. 130 do CTN.',
+        risk: 'Análise de Passivos'
+      },
+      {
+        title: '3. Regularidade Processual das Intimações',
+        desc: 'Verificação da citação e intimação válida do executado, coproprietários e credores garantidores nos autos do processo de origem.',
+        risk: 'Verificação de Nulidades'
+      },
+      {
+        title: '4. Rito da Carta de Arrematação e Imissão',
+        desc: 'Acompanhamento dos atos judiciais e cartorários para expedição da carta de arrematação e mandado de imissão na posse.',
+        risk: 'Procedimento de Posse'
+      }
+    ],
+    auctionsTitle: 'Leilões em Análise',
+    auctionsSub: 'Painel de consulta e acompanhamento técnico de oportunidades sob auditoria jurídica.',
+    filterAll: 'Todos',
+    filterRes: 'Residencial',
+    filterCom: 'Comercial',
+    auditedTag: 'Oportunidade Auditada',
+    lawsuitTag: 'Processo TJRJ',
+    legalAuditLabel: 'Auditoria Jurídica:',
+    auditStatusDone: 'Concluída • Parecer Disponível',
+    viewAnalysisReport: 'Ver Análise do Edital e Relatório',
+    requestOpinionWA: 'Solicitar Parecer via WhatsApp',
+    collapseAuctions: 'Recolher Oportunidades',
+    expandAuctions: 'Veja Mais Oportunidades em Análise (+6 imóveis)',
+    noCommercialTitle: 'Sem lotes comerciais abertos no momento',
+    noCommercialDesc: 'Nossa equipe realiza análises sob demanda para imóveis comerciais e corporativos no Rio de Janeiro.',
+    archiveTitle: 'Acervo e Histórico de Análises Técnicas',
+    archiveSub: 'Registro institucional e diretrizes de divulgação de pareceres e estudos de caso em leilões imobiliários.',
+    ethicsTitle: 'Conformidade Ética e Proteção de Dados',
+    ethicsText: 'Em estrita observância ao Código de Ética e Disciplina da OAB (Provimento 205/2021) e às normas de proteção de dados, o acervo de pareceres jurídicos e relatórios de auditoria é mantido sob sigilo profissional. Esta seção é destinada ao registro de notas técnicas descaracterizadas e jurisprudência aplicada aos leilões imobiliários no Estado do Rio de Janeiro, sendo atualizada conforme viabilidade jurídica e regulamentar.',
+    ethicsFootnote: 'Pareceres individualizados emitidos mediante contratação prévia',
+    relatedTitle: 'Conteúdos e Serviços Relacionados',
+    relatedLinks: [
+      { title: 'Direito Imobiliário e Negócios', desc: 'Assessoria em compra, venda e estruturação patrimonial.', path: '/direito-imobiliario/' },
+      { title: 'Guia de Compra e Venda Segura', desc: 'Passo a passo jurídico para aquisições no Rio de Janeiro.', path: '/blog/guia-compra-venda-segura-imoveis-rj/' },
+      { title: 'Due Diligence Imobiliária', desc: 'Auditoria de certidões, ônus e riscos contratuais.', path: '/blog/direito-imobiliario-due-diligence-compra/' },
+      { title: 'Leilão por Débito de Condomínio', desc: 'Entenda como funciona o leilão judicial de dívida de cota.', path: '/blog/apartamento-leilao-debito-condominial/' },
+      { title: 'Direito Patrimonial e Sucessório', desc: 'Proteção, planejamento de bens e regularização.', path: '/direito-patrimonial-sucessorio/' },
+      { title: 'Contratos de Locação e Garantias', desc: 'Análise de cláusulas essenciais e segurança contratual.', path: '/blog/clausulas-fundamentais-contrato-locacao/' }
+    ],
+    faqHeaderTitle: 'Perguntas Frequentes (FAQ)',
+    faqHeaderSub: 'Dúvidas comuns sobre auditoria de editais, arrematação e imissão na posse no RJ',
+    ctaHeaderTitle: 'Fale Com Nossa Equipe Especializada',
+    ctaHeaderDesc: 'O escritório Soares Martins Advogados oferece auditoria jurídica completa e suporte especializado para garantir máxima segurança em suas decisões e investimentos em leilões imobiliários no Rio de Janeiro.',
+    ctaWAButton: 'Atendimento via WhatsApp',
+    ctaEmailButton: 'Enviar E-mail Corporativo',
+    ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
+    auctionItems: [
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua M. V. Castro, 32',
+        desc: 'Unidade residencial situada em Copacabana, próximo à praia e metrô Cardeal Arcoverde. Análise preventiva de edital, sub-rogação de tributos e verificação de passivos condominiais concluídas.',
+        p1Label: '1ª Praça (24/08/2026):',
+        p1Val: 'R$ 480.000,00',
+        p2Label: '2ª Praça (03/09/2026):',
+        p2Val: 'R$ 240.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20em%20Copacabana%20(Rua%20M.%20V.%20Castro%2032).'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento na Avenida Atlântica nº 2.376',
+        desc: 'Apartamento 203 com 119 m² no Edifício Assú (orla de Copacabana) e entrada suplementar pela Rua Domingos Ferreira 25. Composto por sala, 3 quartos (2 suítes), banheiro social, cozinha e área de serviço.',
+        p1Label: '1ª Praça (03/08/2026):',
+        p1Val: 'R$ 1.350.000,00',
+        p2Label: '2ª Praça (05/08/2026):',
+        p2Val: 'R$ 675.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-2376/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20na%20Av.%20Atl%C3%A2ntica%202376.'
+      },
+      {
+        tag: 'Residencial • Urca/RJ',
+        title: 'Leilão Judicial de Casa na Rua Marechal Cantuária nº 75 — Urca',
+        desc: 'Casa residencial unifamiliar com 321 m² de área construída, edificada em 1938 de frente para o logradouro bucólico da Urca. Inscrição IPTU nº 0.422.940-7. Ativo raríssimo na Zona Sul do Rio de Janeiro.',
+        p1Label: '1ª Praça (19/08/2026):',
+        p1Val: 'R$ 3.820.000,00',
+        p2Label: '2ª Praça (25/08/2026):',
+        p2Val: 'R$ 1.910.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/casa/rua-marechal-cantuaria-75/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20casa%20na%20Rua%20Marechal%20Cantu%C3%A1ria%2075%20na%20Urca.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento na Av. Prado Júnior nº 298 — Apto 1003',
+        desc: 'Apartamento 1003 com 42 m² (IPTU), fundos, sem vaga de garagem. Prédio residencial construído em 1957 com 12 andares, 2 elevadores, portaria presencial e câmeras de segurança. Inscrição IPTU nº 0.691.500-3. Matrícula nº 119.755 (5º RGI).',
+        p1Label: '1ª Praça (17/08/2026):',
+        p1Val: 'R$ 520.000,00',
+        p2Label: '2ª Praça (19/08/2026):',
+        p2Val: 'R$ 312.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-prado-junior-298/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201003%20na%20Av.%20Prado%20J%C3%BAnior%20298.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento na Av. Nossa Senhora de Copacabana nº 1003 — Apto 1101',
+        desc: 'Apartamento 1101 com 35 m² (IPTU), frente, sem vaga de garagem. Prédio residencial construído em 1957 com 13 andares, 2 elevadores, portaria 24 horas e câmeras de segurança. Inscrição IPTU nº 0.172.431-9. Matrícula nº 111923 (5º RGI).',
+        p1Label: '1ª Praça (27/07/2026):',
+        p1Val: 'R$ 448.971,12',
+        p2Label: '2ª Praça (29/07/2026):',
+        p2Val: 'R$ 225.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-1003/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201101%20na%20Av.%20Nossa%20Senhora%20de%20Copacabana%201003.'
+      },
+      {
+        tag: 'Residencial • Catete/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Silveira Martins nº 140 — Apto 502',
+        desc: 'Apartamento 502 com 53 m² de área privativa, sem vaga de garagem. Prédio residencial com 8 pavimentos, 7 apartamentos por andar, portaria presencial antiga. Registro no 9º RGI sob a Matrícula nº 486828 (fls. 1).',
+        p1Label: '1ª Praça (27/07/2026):',
+        p1Val: 'R$ 532.500,63',
+        p2Label: '2ª Praça (29/07/2026):',
+        p2Val: 'R$ 267.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20502%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete.'
+      },
+      {
+        tag: 'Residencial • Catete/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Silveira Martins nº 140 — Apto 503',
+        desc: 'Apartamento 503 com 36 m² de área privativa, sem vaga de garagem. Prédio residencial com 8 pavimentos, 7 apartamentos por andar, portaria presencial antiga. Registro no 9º RGI sob a Matrícula nº 486819 (livro 3, fls. 1).',
+        p1Label: '1ª Praça (27/07/2026):',
+        p1Val: 'R$ 334.118,04',
+        p2Label: '2ª Praça (29/07/2026):',
+        p2Val: 'R$ 168.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140-apto-503/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20503%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Voluntários da Pátria nº 381 — Apto 305',
+        desc: 'Apartamento 305 no Edifício Coaracy Nunes com 109 m² de área edificada. Imóvel fechado há mais de 10 anos. Construção de 1945. Matrícula nº 9497 no 3º RGI e IPTU nº 0.298.026-6.',
+        p1Label: '1ª Praça (28/07/2026):',
+        p1Val: 'R$ 1.030.339,95',
+        p2Label: '2ª Praça (30/07/2026):',
+        p2Val: 'R$ 516.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-381-apto-305/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20305%20na%20Rua%20Volunt%C3%A1rios%20da%20P%C3%A1tria%20381%20em%20Botafogo.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Haddock Lobo nº 191 — Apto 405',
+        desc: 'Apartamento 405 no Edifício Colima de frente, com 60 m² de área edificada. Prédio residencial construído em 1951, de 7 pavimentos, com portaria 24 horas e 2 elevadores. Matrícula nº 114.079 no 11º RGI e IPTU nº 0.574.460-2.',
+        p1Label: '1ª Praça (28/07/2026):',
+        p1Val: 'R$ 320.550,21',
+        p2Label: '2ª Praça (30/07/2026):',
+        p2Val: 'R$ 161.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20405%20na%20Rua%20Haddock%20Lobo%20191%20na%20Tijuca.'
+      }
+    ]
+  },
+  es: {
+    breadcrumbHome: 'Inicio',
+    breadcrumbServices: 'Áreas de Actuación',
+    residentialCommercial: 'Residencial y Comercial',
+    heroTitle: 'Asesoría Jurídica en Subastas de Inmuebles',
+    heroDesc: 'La adjudicación de apartamentos, locales y oficinas en Río de Janeiro exige auditoría previa detallada de la matrícula, verificación de deudas de cuotas condominiales y análisis de riesgo procesal para garantizar una posesión rápida e inversión segura.',
+    stat1Title: 'Río de Janeiro',
+    stat1Desc: 'Enfoque en inmuebles residenciales y comerciales en RJ',
+    stat2Title: 'Dictamen Técnico',
+    stat2Desc: 'Evaluación jurídica y matriz de riesgos',
+    badgeLocation: 'Río de Janeiro / RJ',
+    badgeDesc: 'Análisis previo de edictos y deudas de condominio',
+    consultWA: 'Consultar con Especialista por WhatsApp',
+    interactiveTag: 'Metodología Interactiva',
+    interactiveTitle: '4 Pilares de la Auditoría de Subasta Judicial',
+    interactiveSub: 'Haga clic en cada etapa para examinar los puntos críticos auditados en nuestro dictamen previo.',
+    issuedNotice: 'Dictamen emitido entre 24h y 48h',
+    checklist: [
+      {
+        title: '1. Examen de Matrícula y Cargas Reales',
+        desc: 'Revisión detallada de hipotecas, embargos, indisponibilidades y anotaciones en el Registro de la Propiedad.',
+        risk: 'Análisis de Cargas'
+      },
+      {
+        title: '2. Análisis de Deudas Propter Rem',
+        desc: 'Verificación de atribución de responsabilidad por deudas tributarias y condominiales según el edicto y el art. 130 del CTN.',
+        risk: 'Análisis de Pasivos'
+      },
+      {
+        title: '3. Regularidad Procesal de Notificaciones',
+        desc: 'Verificación de la citación y notificación válida del ejecutado, copropietarios y acreedores garantizados.',
+        risk: 'Verificación de Nulidades'
+      },
+      {
+        title: '4. Procedimiento de Adjudicación e Imisión',
+        desc: 'Seguimiento de actos judiciales y notariales para la expedición de la carta de adjudicación e imisión en la posesión.',
+        risk: 'Procedimiento de Posesión'
+      }
+    ],
+    auctionsTitle: 'Subastas en Análisis',
+    auctionsSub: 'Panel de consulta y seguimiento técnico de oportunidades bajo auditoría jurídica.',
+    filterAll: 'Todos',
+    filterRes: 'Residencial',
+    filterCom: 'Comercial',
+    auditedTag: 'Oportunidad Auditada',
+    lawsuitTag: 'Proceso TJRJ',
+    legalAuditLabel: 'Auditoría Jurídica:',
+    auditStatusDone: 'Concluida • Dictamen Disponible',
+    viewAnalysisReport: 'Ver Análisis del Edicto y Reporte',
+    requestOpinionWA: 'Solicitar Dictamen por WhatsApp',
+    collapseAuctions: 'Replegar Oportunidades',
+    expandAuctions: 'Ver Más Oportunidades en Análisis (+6 inmuebles)',
+    noCommercialTitle: 'Sin lotes comerciales abiertos en este momento',
+    noCommercialDesc: 'Nuestro equipo realiza análisis bajo demanda para inmuebles comerciales y corporativos en Río de Janeiro.',
+    archiveTitle: 'Acervo e Historial de Análisis Técnicos',
+    archiveSub: 'Registro institucional y directrices de divulgación de dictámenes y estudios de caso en subastas inmobiliarias.',
+    ethicsTitle: 'Conformidad Ética y Protección de Datos',
+    ethicsText: 'En estricta observancia del Código de Ética de la OAB y las normas de protección de datos, el acervo de dictámenes jurídicos y reportes de auditoría se mantiene bajo secreto profesional. Esta sección está destinada al registro de notas técnicas descaracterizadas y jurisprudencia aplicada a subastas inmobiliarias en el Estado de Río de Janeiro.',
+    ethicsFootnote: 'Dictámenes individualizados emitidos mediante contratación previa',
+    relatedTitle: 'Contenidos y Servicios Relacionados',
+    relatedLinks: [
+      { title: 'Derecho Inmobiliario y Negocios', desc: 'Asesoría en compra, venta y estructuración patrimonial.', path: '/direito-imobiliario/' },
+      { title: 'Guía de Compra y Venta Segura', desc: 'Paso a paso jurídico para adquisiciones en Río de Janeiro.', path: '/blog/guia-compra-venda-segura-imoveis-rj/' },
+      { title: 'Due Diligence Inmobiliaria', desc: 'Auditoría de certificados, cargas y riesgos contractuales.', path: '/blog/direito-imobiliario-due-diligence-compra/' },
+      { title: 'Subasta por Deuda de Condominio', desc: 'Entienda cómo funciona la subasta judicial de deudas de cuotas.', path: '/blog/apartamento-leilao-debito-condominial/' },
+      { title: 'Derecho Patrimonial y Sucesorio', desc: 'Protección, planificación de bienes y regularización.', path: '/direito-patrimonial-sucessorio/' },
+      { title: 'Contratos de Alquiler y Garantías', desc: 'Análisis de cláusulas esenciales y seguridad contractual.', path: '/blog/clausulas-fundamentais-contrato-locacao/' }
+    ],
+    faqHeaderTitle: 'Preguntas Frecuentes (FAQ)',
+    faqHeaderSub: 'Dudas comunes sobre auditoría de edictos, adjudicación e imisión en la posesión en RJ',
+    ctaHeaderTitle: 'Hable Con Nuestro Equipo Especializado',
+    ctaHeaderDesc: 'El despacho Soares Martins Advogados ofrece auditoría jurídica completa y soporte especializado para garantizar la máxima seguridad en sus decisiones e inversiones en subastas inmobiliarias en Río de Janeiro.',
+    ctaWAButton: 'Atención por WhatsApp',
+    ctaEmailButton: 'Enviar Email Corporativo',
+    ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
+    auctionItems: [
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Calle M. V. Castro, 32',
+        desc: 'Unidad residencial situada en Copacabana, cerca de la playa y metro Cardeal Arcoverde. Análisis preventivo de edicto, subrogación de tributos y verificación de pasivos condominiales concluidos.',
+        p1Label: '1ª Subasta (24/08/2026):',
+        p1Val: 'R$ 480.000,00',
+        p2Label: '2ª Subasta (03/09/2026):',
+        p2Val: 'R$ 240.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20en%20Copacabana%20(Calle%20M.%20V.%20Castro%2032).'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en la Av. Atlântica nº 2.376',
+        desc: 'Apartamento 203 con 119 m² en el Edificio Assú (frente a la playa de Copacabana) y entrada suplementaria por Calle Domingos Ferreira 25. Consta de salón, 3 dormitorios (2 suites), baño social, cocina y área de servicio.',
+        p1Label: '1ª Subasta (03/08/2026):',
+        p1Val: 'R$ 1.350.000,00',
+        p2Label: '2ª Subasta (05/08/2026):',
+        p2Val: 'R$ 675.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-2376/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20en%20Av.%20Atl%C3%A2ntica%202376.'
+      },
+      {
+        tag: 'Residencial • Urca/RJ',
+        title: 'Subasta Judicial de Casa en la Calle Marechal Cantuária nº 75 — Urca',
+        desc: 'Casa unifamiliar con 321 m² de área construida, edificada en 1938 frente a la bucólica calle de Urca. Inscripción IPTU nº 0.422.940-7. Activo rarísimo en la Zona Sur de Río de Janeiro.',
+        p1Label: '1ª Subasta (19/08/2026):',
+        p1Val: 'R$ 3.820.000,00',
+        p2Label: '2ª Subasta (25/08/2026):',
+        p2Val: 'R$ 1.910.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/casa/rua-marechal-cantuaria-75/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20de%20la%20casa%20en%20Urca.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Av. Prado Júnior nº 298 — Apto 1003',
+        desc: 'Apartamento 1003 con 42 m², posterior, sin plaza de garaje. Edificio residencial construido en 1957 con 12 pisos, 2 ascensores, portería presencial y cámaras de seguridad.',
+        p1Label: '1ª Subasta (17/08/2026):',
+        p1Val: 'R$ 520.000,00',
+        p2Label: '2ª Subasta (19/08/2026):',
+        p2Val: 'R$ 312.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-prado-junior-298/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201003.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Av. Nossa Senhora de Copacabana nº 1003 — Apto 1101',
+        desc: 'Apartamento 1101 con 35 m², frontal, sin plaza de garaje. Edificio residencial construido en 1957 con 13 pisos, 2 ascensores y portería 24 horas.',
+        p1Label: '1ª Subasta (27/07/2026):',
+        p1Val: 'R$ 448.971,12',
+        p2Label: '2ª Subasta (29/07/2026):',
+        p2Val: 'R$ 225.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-1003/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201101.'
+      },
+      {
+        tag: 'Residencial • Catete/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Silveira Martins nº 140 — Apto 502',
+        desc: 'Apartamento 502 con 53 m² de área privada, sin plaza de garaje. Edificio residencial con 8 plantas, 7 apartamentos por piso, portería presencial.',
+        p1Label: '1ª Subasta (27/07/2026):',
+        p1Val: 'R$ 532.500,63',
+        p2Label: '2ª Subasta (29/07/2026):',
+        p2Val: 'R$ 267.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20502.'
+      },
+      {
+        tag: 'Residencial • Catete/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Silveira Martins nº 140 — Apto 503',
+        desc: 'Apartamento 503 con 36 m² de área privada, sin plaza de garaje. Edificio residencial con 8 plantas, 7 apartamentos por piso.',
+        p1Label: '1ª Subasta (27/07/2026):',
+        p1Val: 'R$ 334.118,04',
+        p2Label: '2ª Subasta (29/07/2026):',
+        p2Val: 'R$ 168.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140-apto-503/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20503.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Voluntários da Pátria nº 381 — Apto 305',
+        desc: 'Apartamento 305 en el Edificio Coaracy Nunes con 109 m² de área edificada. Inmueble cerrado desde hace más de 10 años. Construcción de 1945.',
+        p1Label: '1ª Subasta (28/07/2026):',
+        p1Val: 'R$ 1.030.339,95',
+        p2Label: '2ª Subasta (30/07/2026):',
+        p2Val: 'R$ 516.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-381-apto-305/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20305.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Haddock Lobo nº 191 — Apto 405',
+        desc: 'Apartamento 405 en el Edificio Colima de frente, con 60 m² de área edificada. Edificio residencial construido en 1951, 7 plantas, portería 24h y 2 ascensores.',
+        p1Label: '1ª Subasta (28/07/2026):',
+        p1Val: 'R$ 320.550,21',
+        p2Label: '2ª Subasta (30/07/2026):',
+        p2Val: 'R$ 161.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20405.'
+      }
+    ]
+  },
+  en: {
+    breadcrumbHome: 'Home',
+    breadcrumbServices: 'Practice Areas',
+    residentialCommercial: 'Residential and Commercial',
+    heroTitle: 'Legal Consulting for Real Estate Auctions',
+    heroDesc: 'Purchasing apartments, stores, and offices in Rio de Janeiro requires a detailed prior audit of title deeds, verification of condo fee liabilities, and procedural risk analysis to ensure fast possession and secure investment.',
+    stat1Title: 'Rio de Janeiro',
+    stat1Desc: 'Focus on residential and commercial properties in RJ',
+    stat2Title: 'Technical Opinion',
+    stat2Desc: 'Legal evaluation and risk matrix',
+    badgeLocation: 'Rio de Janeiro / RJ',
+    badgeDesc: 'Prior audit of auction notices and condo fee liabilities',
+    consultWA: 'Consult with Specialist on WhatsApp',
+    interactiveTag: 'Interactive Methodology',
+    interactiveTitle: '4 Pillars of Judicial Auction Audit',
+    interactiveSub: 'Click each step to examine the critical points audited in our prior legal opinion.',
+    issuedNotice: 'Legal opinion issued in 24h to 48h',
+    checklist: [
+      {
+        title: '1. Title Deed and Encumbrances Examination',
+        desc: 'Detailed review of mortgages, liens, injunctions, and annotations in the Land Registry.',
+        risk: 'Encumbrance Audit'
+      },
+      {
+        title: '2. Analysis of Propter Rem Liabilities',
+        desc: 'Verification of liability for tax and condo debts according to auction notice and tax law.',
+        risk: 'Liabilities Audit'
+      },
+      {
+        title: '3. Procedural Validity of Notifications',
+        desc: 'Checking valid summons and notices served to debtor, co-owners, and lienholders.',
+        risk: 'Nullity Check'
+      },
+      {
+        title: '4. Bidding Deed and Possession Process',
+        desc: 'Tracking court and notary acts for auction deed issuance and writ of possession.',
+        risk: 'Possession Process'
+      }
+    ],
+    auctionsTitle: 'Auctions Under Analysis',
+    auctionsSub: 'Consultation panel and technical monitoring of opportunities under legal audit.',
+    filterAll: 'All',
+    filterRes: 'Residential',
+    filterCom: 'Commercial',
+    auditedTag: 'Audited Opportunity',
+    lawsuitTag: 'TJRJ Lawsuit',
+    legalAuditLabel: 'Legal Audit:',
+    auditStatusDone: 'Completed • Opinion Available',
+    viewAnalysisReport: 'View Notice Analysis & Report',
+    requestOpinionWA: 'Request Legal Opinion via WhatsApp',
+    collapseAuctions: 'Collapse Opportunities',
+    expandAuctions: 'View More Opportunities Under Analysis (+6 properties)',
+    noCommercialTitle: 'No open commercial lots at the moment',
+    noCommercialDesc: 'Our team performs on-demand analysis for commercial and corporate properties in Rio de Janeiro.',
+    archiveTitle: 'Repository and History of Technical Analyses',
+    archiveSub: 'Institutional record and guidelines for disclosure of opinions and case studies in real estate auctions.',
+    ethicsTitle: 'Ethical Compliance and Data Protection',
+    ethicsText: 'In strict compliance with the OAB Ethics Code and data protection standards, the repository of legal opinions and audit reports is kept under professional secrecy. This section registers anonymized technical notes and jurisprudence applied to real estate auctions in Rio de Janeiro state.',
+    ethicsFootnote: 'Individualized legal opinions issued upon prior engagement',
+    relatedTitle: 'Related Content and Services',
+    relatedLinks: [
+      { title: 'Real Estate Law & Business', desc: 'Advisory in purchase, sale, and asset structuring.', path: '/direito-imobiliario/' },
+      { title: 'Safe Purchase and Sale Guide', desc: 'Step-by-step legal guide for acquisitions in Rio de Janeiro.', path: '/blog/guia-compra-venda-segura-imoveis-rj/' },
+      { title: 'Real Estate Due Diligence', desc: 'Audit of certificates, encumbrances, and contractual risks.', path: '/blog/direito-imobiliario-due-diligence-compra/' },
+      { title: 'Auction for Condo Fee Debt', desc: 'Understand how judicial auctions for condo fee debts work.', path: '/blog/apartamento-leilao-debito-condominial/' },
+      { title: 'Asset & Inheritance Law', desc: 'Protection, estate planning, and regularization.', path: '/direito-patrimonial-sucessorio/' },
+      { title: 'Lease Contracts & Guarantees', desc: 'Analysis of essential clauses and contractual security.', path: '/blog/clausulas-fundamentais-contrato-locacao/' }
+    ],
+    faqHeaderTitle: 'Frequently Asked Questions (FAQ)',
+    faqHeaderSub: 'Common questions about auction notice audits, bidding, and writ of possession in RJ',
+    ctaHeaderTitle: 'Talk To Our Specialized Team',
+    ctaHeaderDesc: 'Soares Martins Advogados provides complete legal audit and specialized support to ensure maximum security in your decisions and investments in real estate auctions in Rio de Janeiro.',
+    ctaWAButton: 'Support via WhatsApp',
+    ctaEmailButton: 'Send Corporate Email',
+    ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
+    auctionItems: [
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment in Copacabana — M. V. Castro St, 32',
+        desc: 'Residential unit located in Copacabana, near the beach and Cardeal Arcoverde subway. Prior notice analysis, tax subrogation, and condo fee liability check completed.',
+        p1Label: '1st Auction (08/24/2026):',
+        p1Val: 'R$ 480,000.00',
+        p2Label: '2nd Auction (09/03/2026):',
+        p2Val: 'R$ 240,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment on Atlântica Ave #2,376',
+        desc: 'Apartment 203 with 119 sqm in Edifício Assú (Copacabana beachfront) and secondary entrance at 25 Domingos Ferreira St. Living room, 3 bedrooms (2 suites), bathroom, kitchen, and laundry area.',
+        p1Label: '1st Auction (08/03/2026):',
+        p1Val: 'R$ 1,350,000.00',
+        p2Label: '2nd Auction (08/05/2026):',
+        p2Val: 'R$ 675,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-2376/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20on%20Atl%C3%A2ntica%20Ave.'
+      },
+      {
+        tag: 'Residential • Urca/RJ',
+        title: 'Judicial Auction of House on Marechal Cantuária St #75 — Urca',
+        desc: 'Single-family house with 321 sqm built area, constructed in 1938 facing Urca street. IPTU tax #0.422.940-7. Extremely rare asset in South Zone, Rio de Janeiro.',
+        p1Label: '1st Auction (08/19/2026):',
+        p1Val: 'R$ 3,820,000.00',
+        p2Label: '2nd Auction (08/25/2026):',
+        p2Val: 'R$ 1,910,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/casa/rua-marechal-cantuaria-75/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20house%20auction%20in%20Urca.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment on Prado Júnior Ave #298 — Apt 1003',
+        desc: 'Apartment 1003 with 42 sqm, rear-facing, no parking space. Residential building constructed in 1957 with 12 floors, 2 elevators, concierge, and security cameras.',
+        p1Label: '1st Auction (08/17/2026):',
+        p1Val: 'R$ 520,000.00',
+        p2Label: '2nd Auction (08/19/2026):',
+        p2Val: 'R$ 312,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-prado-junior-298/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201003.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment on Nossa Senhora de Copacabana Ave #1003 — Apt 1101',
+        desc: 'Apartment 1101 with 35 sqm, front-facing, no parking space. Residential building constructed in 1957 with 13 floors, 2 elevators, and 24h concierge.',
+        p1Label: '1st Auction (07/27/2026):',
+        p1Val: 'R$ 448,971.12',
+        p2Label: '2nd Auction (07/29/2026):',
+        p2Val: 'R$ 225,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-1003/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201101.'
+      },
+      {
+        tag: 'Residential • Catete/RJ',
+        title: 'Judicial Auction of Apartment on Silveira Martins St #140 — Apt 502',
+        desc: 'Apartment 502 with 53 sqm private area, no parking space. Residential building with 8 floors, 7 units per floor, concierge.',
+        p1Label: '1st Auction (07/27/2026):',
+        p1Val: 'R$ 532,500.63',
+        p2Label: '2nd Auction (07/29/2026):',
+        p2Val: 'R$ 267,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20502.'
+      },
+      {
+        tag: 'Residential • Catete/RJ',
+        title: 'Judicial Auction of Apartment on Silveira Martins St #140 — Apt 503',
+        desc: 'Apartment 503 with 36 sqm private area, no parking space. Residential building with 8 floors, 7 units per floor.',
+        p1Label: '1st Auction (07/27/2026):',
+        p1Val: 'R$ 334,118.04',
+        p2Label: '2nd Auction (07/29/2026):',
+        p2Val: 'R$ 168,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140-apto-503/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20503.'
+      },
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment on Voluntários da Pátria St #381 — Apt 305',
+        desc: 'Apartment 305 in Edifício Coaracy Nunes with 109 sqm built area. Property closed for over 10 years. Built in 1945.',
+        p1Label: '1st Auction (07/28/2026):',
+        p1Val: 'R$ 1,030,339.95',
+        p2Label: '2nd Auction (07/30/2026):',
+        p2Val: 'R$ 516,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-381-apto-305/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20305.'
+      },
+      {
+        tag: 'Residential • Tijuca/RJ',
+        title: 'Judicial Auction of Apartment on Haddock Lobo St #191 — Apt 405',
+        desc: 'Apartment 405 in Edifício Colima front-facing, with 60 sqm built area. Residential building constructed in 1951, 7 floors, 24h concierge, 2 elevators.',
+        p1Label: '1st Auction (07/28/2026):',
+        p1Val: 'R$ 320,550.21',
+        p2Label: '2nd Auction (07/30/2026):',
+        p2Val: 'R$ 161,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20405.'
+      }
+    ]
+  }
+};
+
 const ServiceDetail: React.FC = () => {
-  const { slug } = useParams<{ slug: string }>();
+  const { slug: paramSlug } = useParams<{ slug: string }>();
+  const location = useLocation();
   const { t, language } = useLanguage();
   const [filterCategory, setFilterCategory] = useState<string>('todos');
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [activeChecklist, setActiveChecklist] = useState<number>(0);
   const [showAllAuctions, setShowAllAuctions] = useState<boolean>(false);
+
+  const rawPath = location.pathname.replace(/^\/|\/$/g, '');
+  const slug = paramSlug || (rawPath.includes('assessoria-leiloes-judiciais') ? 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro' : rawPath);
   
-  const service = slug ? serviceData[slug] : null;
+  const service = slug ? serviceData[slug] : serviceData['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -93,17 +630,19 @@ const ServiceDetail: React.FC = () => {
     );
   }
 
+  const tPage = pageTranslations[language] || pageTranslations.pt;
+
   // Determine content from translations or fallback
   const getServiceContent = () => {
     try {
       // @ts-ignore - access nested translations
-      const content = (t('service_content') as any)?.[slug as string] || (t('service_content') as any)?.['assessoria-leiloes-judiciais'];
+      const content = (t('service_content') as any)?.[slug as string] || (t('service_content') as any)?.['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'] || (t('service_content') as any)?.['assessoria-leiloes-judiciais'];
       if (content && content.h1) return content;
     } catch (e) {}
     
     return {
       h1: t(service.titleKey),
-      h2: 'Especialidades e Atuação',
+      h2: language === 'es' ? 'Especialidades y Actuación' : language === 'en' ? 'Specialties & Practice Areas' : 'Especialidades e Atuação',
       sections: [],
       faqs: []
     };
@@ -124,13 +663,13 @@ const ServiceDetail: React.FC = () => {
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Início",
+        "name": tPage.breadcrumbHome,
         "item": "https://soaresmartinsadv.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Áreas de Atuação",
+        "name": tPage.breadcrumbServices,
         "item": "https://soaresmartinsadv.com/servicos/"
       },
       {
@@ -183,28 +722,10 @@ const ServiceDetail: React.FC = () => {
 
   const combinedSchemas = [breadcrumbSchema, legalServiceSchema, ...(faqSchema ? [faqSchema] : [])];
 
-  const checklistItems = [
-    {
-      title: "1. Exame da Matrícula e Ônus Reais",
-      desc: "Levantamento detalhado de hipotecas, penhoras, indisponibilidades e averbações junto ao Cartório de Registro de Imóveis.",
-      risk: "Análise de Ônus"
-    },
-    {
-      title: "2. Análise de Débitos Propter Rem",
-      desc: "Verificação da atribuição de responsabilidade por débitos tributários e condominiais em observância ao edital e ao art. 130 do CTN.",
-      risk: "Análise de Passivos"
-    },
-    {
-      title: "3. Regularidade Processual das Intimações",
-      desc: "Verificação da citação e intimação válida do executado, coproprietários e credores garantidores nos autos do processo de origem.",
-      risk: "Verificação de Nulidades"
-    },
-    {
-      title: "4. Rito da Carta de Arrematação e Imissão",
-      desc: "Acompanhamento dos atos judiciais e cartorários para expedição da carta de arrematação e mandado de imissão na posse.",
-      risk: "Procedimento de Posse"
-    }
-  ];
+  const checklistItems = tPage.checklist;
+  const isAuctionPage = slug === 'assessoria-leiloes-judiciais' || slug === 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro';
+
+  const visibleAuctionItems = showAllAuctions ? tPage.auctionItems : tPage.auctionItems.slice(0, 3);
 
   return (
     <div className="min-h-screen bg-midnight text-white relative overflow-hidden">
@@ -232,7 +753,6 @@ const ServiceDetail: React.FC = () => {
         {/* Modern Building Silhouette & Glass Facade Projection - Right Modern Tower */}
         <div className="absolute top-10 right-0 lg:right-10 text-bronze pointer-events-none select-none opacity-85 filter drop-shadow-[0_0_20px_rgba(197,160,89,0.4)]">
           <svg width="450" height="750" viewBox="0 0 300 500" fill="none">
-            {/* Building Fill with Subtle Gradient */}
             <defs>
               <linearGradient id="towerGradRight" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stopColor="#c5a059" stopOpacity="0.35" />
@@ -335,11 +855,11 @@ const ServiceDetail: React.FC = () => {
       
       <main className="relative z-10 pt-20 sm:pt-28 pb-12 sm:pb-16 px-5 sm:px-8 md:px-[8%] lg:px-[10%]">
         <div className="max-w-4xl mx-auto w-full">
-          {/* Breadcrumbs UI (Centralized Non-Selected Part) */}
+          {/* Breadcrumbs UI */}
           <nav aria-label="Breadcrumb" className="flex items-center justify-center gap-2 text-xs text-text-muted mb-6 flex-wrap text-center">
-            <Link to="/" className="hover:text-bronze transition-colors">Início</Link>
+            <Link to="/" className="hover:text-bronze transition-colors">{tPage.breadcrumbHome}</Link>
             <ChevronRight size={12} className="text-bronze/50" />
-            <Link to="/servicos/" className="hover:text-bronze transition-colors">Áreas de Atuação</Link>
+            <Link to="/servicos/" className="hover:text-bronze transition-colors">{tPage.breadcrumbServices}</Link>
             <ChevronRight size={12} className="text-bronze/50" />
             <span className="text-bronze font-medium truncate">{content.h1}</span>
           </nav>
@@ -351,7 +871,7 @@ const ServiceDetail: React.FC = () => {
             </Link>
           </div>
 
-          {/* Centralized Hero Header (Non-Selected Header Part) */}
+          {/* Centralized Hero Header */}
           <div className="text-center mb-12 sm:mb-14 border-b border-white/10 pb-10 sm:pb-12 space-y-5 max-w-3xl mx-auto">
             <div className="inline-flex items-center justify-center text-bronze p-4 bg-midnight-light/60 rounded-2xl border border-bronze/20 shadow-xl mx-auto">
               {service.icon}
@@ -360,28 +880,28 @@ const ServiceDetail: React.FC = () => {
             <p className="text-base sm:text-lg md:text-xl text-text-muted font-light leading-relaxed text-center px-4">{t(service.descKey)}</p>
           </div>
 
-          {/* Imagem de Prédio Residencial e Destaque de Atuação (Selected Part -> Left-Aligned text-left) */}
+          {/* Imagem de Prédio Residencial e Destaque de Atuação */}
           <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden mb-12 sm:mb-14 shadow-2xl text-left grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch">
             <div className="lg:col-span-7 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-8">
               <div className="space-y-5">
                 <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-bronze/20 text-bronze border border-bronze/30">
-                  <Building2 size={14} /> Residencial e Comercial
+                  <Building2 size={14} /> {tPage.residentialCommercial}
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-serif text-white leading-tight text-left">
-                  Assessoria Jurídica em Leilão de Imóveis
+                  {tPage.heroTitle}
                 </h2>
                 <p className="text-white/80 text-sm sm:text-base leading-relaxed text-left">
-                  A arrematação de apartamentos, lojas e salas no Rio de Janeiro exige auditoria prévia detalhada da matrícula, verificação de dívidas de cota condominial e análise de risco processual para garantir posse célere e investimento seguro.
+                  {tPage.heroDesc}
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/10 text-left">
                 <div>
-                  <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">Rio de Janeiro</span>
-                  <span className="text-xs text-text-muted leading-snug block">Foco em imóveis residenciais e comerciais no RJ</span>
+                  <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">{tPage.stat1Title}</span>
+                  <span className="text-xs text-text-muted leading-snug block">{tPage.stat1Desc}</span>
                 </div>
                 <div>
-                  <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">Parecer Técnico</span>
-                  <span className="text-xs text-text-muted leading-snug block">Avaliação jurídica e matriz de riscos</span>
+                  <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">{tPage.stat2Title}</span>
+                  <span className="text-xs text-text-muted leading-snug block">{tPage.stat2Desc}</span>
                 </div>
               </div>
             </div>
@@ -394,17 +914,17 @@ const ServiceDetail: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-transparent opacity-80" />
               <div className="absolute bottom-6 left-6 right-6 bg-midnight/85 backdrop-blur-md p-4 rounded-xl border border-white/10 text-xs text-white/90 shadow-lg text-left">
-                <span className="font-bold text-bronze block mb-0.5">Rio de Janeiro / RJ</span>
-                Análise prévia de edital e débitos de condomínio
+                <span className="font-bold text-bronze block mb-0.5">{tPage.badgeLocation}</span>
+                {tPage.badgeDesc}
               </div>
             </div>
           </div>
 
-          {/* Render Sections with Strictly Left-Aligned Content Cards (Selected Parts -> text-left) */}
+          {/* Render Sections with Strictly Left-Aligned Content Cards */}
           {content.sections && content.sections.length > 0 && (
             <div className="space-y-8 sm:space-y-10 mb-10 sm:mb-12 text-left">
               {content.sections.map((sec: any, i: number) => {
-                const isStepText = sec.p.includes('1)') && sec.p.includes('2)');
+                const isStepText = sec.p && (sec.p.includes('1)') && sec.p.includes('2)'));
                 let introText = sec.p;
                 let stepParts: string[] = [];
 
@@ -455,13 +975,13 @@ const ServiceDetail: React.FC = () => {
                         </p>
                         <div className="pt-2 text-left">
                           <a 
-                            href={`https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20consultar%20sobre:%20${encodeURIComponent(sec.h2)}.`}
+                            href={`https://wa.me/5521979549241?text=${encodeURIComponent((language === 'es' ? 'Hola, quisiera consultar sobre: ' : language === 'en' ? 'Hello, I would like to inquire about: ' : 'Olá, gostaria de consultar sobre: ') + sec.h2)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-wider text-bronze hover:text-white transition-colors group/link"
                           >
                             <PhoneCall size={14} className="group-hover/link:scale-110 transition-transform" />
-                            Consultar com Especialista no WhatsApp
+                            {tPage.consultWA}
                             <ChevronRight size={14} className="group-hover/link:translate-x-1 transition-transform" />
                           </a>
                         </div>
@@ -474,17 +994,17 @@ const ServiceDetail: React.FC = () => {
           )}
 
           {/* Interactive Checklist / Matriz de Risco do Leilão */}
-          {slug === 'assessoria-leiloes-judiciais' && (
+          {isAuctionPage && (
             <section className="bg-midnight-light/40 backdrop-blur-sm p-7 sm:p-10 md:p-12 rounded-3xl border border-white/10 mb-10 sm:mb-12 text-left shadow-2xl space-y-8">
               <div className="border-b border-white/10 pb-6">
-                <span className="text-bronze text-xs font-bold uppercase tracking-widest block mb-2">Metodologia Interativa</span>
-                <h2 className="text-2xl sm:text-3xl font-serif text-white">4 Pilares da Auditoria de Leilão Judicial</h2>
-                <p className="text-sm text-text-muted mt-2">Clique em cada etapa para examinar os pontos críticos auditados em nosso parecer prévio.</p>
+                <span className="text-bronze text-xs font-bold uppercase tracking-widest block mb-2">{tPage.interactiveTag}</span>
+                <h2 className="text-2xl sm:text-3xl font-serif text-white">{tPage.interactiveTitle}</h2>
+                <p className="text-sm text-text-muted mt-2">{tPage.interactiveSub}</p>
               </div>
 
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start">
                 <div className="lg:col-span-5 space-y-3.5">
-                  {checklistItems.map((item, index) => (
+                  {checklistItems.map((item: any, index: number) => (
                     <button
                       key={index}
                       onClick={() => setActiveChecklist(index)}
@@ -506,14 +1026,14 @@ const ServiceDetail: React.FC = () => {
                 <div className="lg:col-span-7 bg-midnight/80 border border-bronze/30 p-7 sm:p-9 rounded-2xl min-h-[240px] flex flex-col justify-between shadow-lg">
                   <div>
                     <div className="inline-block px-3.5 py-1 rounded-full text-[11px] font-bold uppercase tracking-widest bg-bronze/20 text-bronze border border-bronze/30 mb-5">
-                      {checklistItems[activeChecklist].risk}
+                      {checklistItems[activeChecklist]?.risk}
                     </div>
-                    <h3 className="text-lg sm:text-xl font-serif text-white mb-3">{checklistItems[activeChecklist].title}</h3>
-                    <p className="text-white/80 text-sm leading-relaxed">{checklistItems[activeChecklist].desc}</p>
+                    <h3 className="text-lg sm:text-xl font-serif text-white mb-3">{checklistItems[activeChecklist]?.title}</h3>
+                    <p className="text-white/80 text-sm leading-relaxed">{checklistItems[activeChecklist]?.desc}</p>
                   </div>
                   <div className="pt-6 border-t border-white/10 mt-6 flex items-center justify-between text-xs text-text-muted">
                     <span>Soares Martins Advogados - Ipanema/RJ</span>
-                    <span className="text-bronze font-semibold">Parecer emitido em 24h a 48h</span>
+                    <span className="text-bronze font-semibold">{tPage.issuedNotice}</span>
                   </div>
                 </div>
               </div>
@@ -521,33 +1041,33 @@ const ServiceDetail: React.FC = () => {
           )}
 
           {/* SPECIAL STRUCTURE FOR LEILÕES JUDICIAIS */}
-          {(slug === 'assessoria-leiloes-judiciais' || slug === 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro') && (
+          {isAuctionPage && (
             <>
-              {/* Leilões em análise (Left-Aligned Structure) */}
+              {/* Leilões em análise */}
               <section className="bg-midnight-light/40 backdrop-blur-sm p-7 sm:p-10 md:p-12 rounded-3xl border border-white/10 mb-10 sm:mb-12 shadow-2xl text-left space-y-8">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-6">
                   <div>
-                    <h2 className="text-2xl sm:text-3xl font-serif text-bronze mb-2 text-left">Leilões em Análise</h2>
-                    <p className="text-xs sm:text-sm text-text-muted text-left">Painel de consulta e acompanhamento técnico de oportunidades sob auditoria jurídica.</p>
+                    <h2 className="text-2xl sm:text-3xl font-serif text-bronze mb-2 text-left">{tPage.auctionsTitle}</h2>
+                    <p className="text-xs sm:text-sm text-text-muted text-left">{tPage.auctionsSub}</p>
                   </div>
                   <div className="flex gap-2 self-start sm:self-auto flex-wrap">
                     <button 
                       onClick={() => setFilterCategory('todos')}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'todos' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
                     >
-                      Todos
+                      {tPage.filterAll}
                     </button>
                     <button 
                       onClick={() => setFilterCategory('residencial')}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'residencial' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
                     >
-                      Residencial
+                      {tPage.filterRes}
                     </button>
                     <button 
                       onClick={() => setFilterCategory('comercial')}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'comercial' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
                     >
-                      Comercial
+                      {tPage.filterCom}
                     </button>
                   </div>
                 </div>
@@ -555,541 +1075,65 @@ const ServiceDetail: React.FC = () => {
                 {/* Cards Grid */}
                 {(filterCategory === 'todos' || filterCategory === 'residencial') ? (
                   <div className="grid grid-cols-1 gap-6">
-                    {/* Item 1: Copacabana - Rua M. V. Castro 32 */}
-                    <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                      <div className="flex flex-wrap items-center justify-between gap-3">
-                        <div className="flex items-center gap-2">
-                          <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                            Residencial • Copacabana/RJ
-                          </span>
-                          <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                            Oportunidade Auditada
-                          </span>
+                    {visibleAuctionItems.map((item: any, idx: number) => (
+                      <div key={idx} className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
+                        <div className="flex flex-wrap items-center justify-between gap-3">
+                          <div className="flex items-center gap-2">
+                            <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
+                              {item.tag}
+                            </span>
+                            <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                              {tPage.auditedTag}
+                            </span>
+                          </div>
+                          <span className="text-xs text-text-muted font-mono">{tPage.lawsuitTag}</span>
                         </div>
-                        <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                      </div>
 
-                      <div className="space-y-2">
-                        <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                          Leilão Judicial de Apartamento em Copacabana — Rua M. V. Castro, 32
-                        </h3>
-                        <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                          Unidade residencial situada em Copacabana, próximo à praia e metrô Cardeal Arcoverde. Análise preventiva de edital, sub-rogação de tributos e verificação de passivos condominiais concluídas.
-                        </p>
-                      </div>
-
-                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (24/08/2026):</span>
-                          <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 480.000,00</span>
+                        <div className="space-y-2">
+                          <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
+                            {item.title}
+                          </h3>
+                          <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
+                            {item.desc}
+                          </p>
                         </div>
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (03/09/2026):</span>
-                          <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 240.000,00</span>
-                        </div>
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                          <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                        </div>
-                      </div>
 
-                      <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                        <Link 
-                          to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/"
-                          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                        >
-                          <FileText size={15} />
-                          Ver Análise do Edital e Relatório
-                          <ChevronRight size={14} />
-                        </Link>
-
-                        <a 
-                          href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20em%20Copacabana%20(Rua%20M.%20V.%20Castro%2032)."
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                        >
-                          <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                        </a>
-                      </div>
-                    </div>
-
-                    {/* Item 2: Copacabana - Av. Atlântica 2376 */}
-                    <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                      <div className="flex flex-wrap items-center justify-between gap-3">
-                        <div className="flex items-center gap-2">
-                          <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                            Residencial • Copacabana/RJ
-                          </span>
-                          <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                            Oportunidade Auditada
-                          </span>
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
+                          <div>
+                            <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{item.p1Label}</span>
+                            <span className="text-base sm:text-lg font-serif font-bold text-white">{item.p1Val}</span>
+                          </div>
+                          <div>
+                            <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{item.p2Label}</span>
+                            <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">{item.p2Val}</span>
+                          </div>
+                          <div>
+                            <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{tPage.legalAuditLabel}</span>
+                            <span className="text-xs font-semibold text-bronze block mt-1">{tPage.auditStatusDone}</span>
+                          </div>
                         </div>
-                        <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                      </div>
 
-                      <div className="space-y-2">
-                        <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                          Leilão Judicial de Apartamento na Avenida Atlântica nº 2.376
-                        </h3>
-                        <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                          Apartamento 203 com 119 m² no Edifício Assú (orla de Copacabana) e entrada suplementar pela Rua Domingos Ferreira 25. Composto por sala, 3 quartos (2 suítes), banheiro social, cozinha e área de serviço.
-                        </p>
-                      </div>
+                        <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+                          <Link 
+                            to={item.link}
+                            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
+                          >
+                            <FileText size={15} />
+                            {tPage.viewAnalysisReport}
+                            <ChevronRight size={14} />
+                          </Link>
 
-                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (03/08/2026):</span>
-                          <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 1.350.000,00</span>
-                        </div>
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (05/08/2026):</span>
-                          <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 675.000,00</span>
-                        </div>
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                          <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
+                          <a 
+                            href={`https://wa.me/5521979549241?text=${item.waText}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
+                          >
+                            <PhoneCall size={14} /> {tPage.requestOpinionWA}
+                          </a>
                         </div>
                       </div>
-
-                      <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                        <Link 
-                          to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-2376/"
-                          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                        >
-                          <FileText size={15} />
-                          Ver Análise do Edital e Relatório
-                          <ChevronRight size={14} />
-                        </Link>
-
-                        <a 
-                          href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20na%20Av.%20Atl%C3%A2ntica%202376."
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                        >
-                          <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                        </a>
-                      </div>
-                    </div>
-
-                    {/* Item 3: Urca - Rua Marechal Cantuária 75 */}
-                    <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                      <div className="flex flex-wrap items-center justify-between gap-3">
-                        <div className="flex items-center gap-2">
-                          <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                            Residencial • Urca/RJ
-                          </span>
-                          <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                            Oportunidade Auditada
-                          </span>
-                        </div>
-                        <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                      </div>
-
-                      <div className="space-y-2">
-                        <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                          Leilão Judicial de Casa na Rua Marechal Cantuária nº 75 — Urca
-                        </h3>
-                        <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                          Casa residencial unifamiliar com 321 m² de área construída, edificada em 1938 de frente para o logradouro bucólico da Urca. Inscrição IPTU nº 0.422.940-7. Ativo raríssimo na Zona Sul do Rio de Janeiro.
-                        </p>
-                      </div>
-
-                      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (19/08/2026):</span>
-                          <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 3.820.000,00</span>
-                        </div>
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (25/08/2026):</span>
-                          <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 1.910.000,00</span>
-                        </div>
-                        <div>
-                          <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                          <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                        </div>
-                      </div>
-
-                      <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                        <Link 
-                          to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/casa/rua-marechal-cantuaria-75/"
-                          className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                        >
-                          <FileText size={15} />
-                          Ver Análise do Edital e Relatório
-                          <ChevronRight size={14} />
-                        </Link>
-
-                        <a 
-                          href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20casa%20na%20Rua%20Marechal%20Cantu%C3%A1ria%2075%20na%20Urca."
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                        >
-                          <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                        </a>
-                      </div>
-                    </div>
-
-                    {/* Additional Items shown when showAllAuctions is true */}
-                    {showAllAuctions && (
-                      <>
-                        {/* Item 4: Copacabana - Av. Prado Júnior 298 */}
-                        <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                          <div className="flex flex-wrap items-center justify-between gap-3">
-                            <div className="flex items-center gap-2">
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                                Residencial • Copacabana/RJ
-                              </span>
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                                Oportunidade Auditada
-                              </span>
-                            </div>
-                            <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                          </div>
-
-                          <div className="space-y-2">
-                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                              Leilão Judicial de Apartamento na Av. Prado Júnior nº 298 — Apto 1003
-                            </h3>
-                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                              Apartamento 1003 com 42 m² (IPTU), fundos, sem vaga de garagem. Prédio residencial construído em 1957 com 12 andares, 2 elevadores, portaria presencial e câmeras de segurança. Inscrição IPTU nº 0.691.500-3. Matrícula nº 119.755 (5º RGI).
-                            </p>
-                          </div>
-
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (17/08/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 520.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (19/08/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 312.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                              <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                            </div>
-                          </div>
-
-                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <Link 
-                              to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-prado-junior-298/"
-                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                            >
-                              <FileText size={15} />
-                              Ver Análise do Edital e Relatório
-                              <ChevronRight size={14} />
-                            </Link>
-
-                            <a 
-                              href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201003%20na%20Av.%20Prado%20J%C3%BAnior%20298."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                            >
-                              <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                            </a>
-                          </div>
-                        </div>
-
-                        {/* Item 5: Copacabana - Av. Nossa Senhora de Copacabana 1003 */}
-                        <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                          <div className="flex flex-wrap items-center justify-between gap-3">
-                            <div className="flex items-center gap-2">
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                                Residencial • Copacabana/RJ
-                              </span>
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                                Oportunidade Auditada
-                              </span>
-                            </div>
-                            <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                          </div>
-
-                          <div className="space-y-2">
-                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                              Leilão Judicial de Apartamento na Av. Nossa Senhora de Copacabana nº 1003 — Apto 1101
-                            </h3>
-                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                              Apartamento 1101 com 35 m² (IPTU), frente, sem vaga de garagem. Prédio residencial construído em 1957 com 13 andares, 2 elevadores, portaria 24 horas e câmeras de segurança. Inscrição IPTU nº 0.172.431-9. Matrícula nº 111923 (5º RGI).
-                            </p>
-                          </div>
-
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (27/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 448.971,12</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (29/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 225.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                              <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                            </div>
-                          </div>
-
-                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <Link 
-                              to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-1003/"
-                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                            >
-                              <FileText size={15} />
-                              Ver Análise do Edital e Relatório
-                              <ChevronRight size={14} />
-                            </Link>
-
-                            <a 
-                              href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201101%20na%20Av.%20Nossa%20Senhora%20de%20Copacabana%201003."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                            >
-                              <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                            </a>
-                          </div>
-                        </div>
-
-                        {/* Item 6: Catete - Rua Silveira Martins 140 (Apto 502) */}
-                        <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                          <div className="flex flex-wrap items-center justify-between gap-3">
-                            <div className="flex items-center gap-2">
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                                Residencial • Catete/RJ
-                              </span>
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                                Oportunidade Auditada
-                              </span>
-                            </div>
-                            <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                          </div>
-
-                          <div className="space-y-2">
-                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                              Leilão Judicial de Apartamento na Rua Silveira Martins nº 140 — Apto 502
-                            </h3>
-                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                              Apartamento 502 com 53 m² de área privativa, sem vaga de garagem. Prédio residencial com 8 pavimentos, 7 apartamentos por andar, portaria presencial antiga. Registro no 9º RGI sob a Matrícula nº 486828 (fls. 1).
-                            </p>
-                          </div>
-
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (27/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 532.500,63</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (29/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 267.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                              <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                            </div>
-                          </div>
-
-                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <Link 
-                              to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140/"
-                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                            >
-                              <FileText size={15} />
-                              Ver Análise do Edital e Relatório
-                              <ChevronRight size={14} />
-                            </Link>
-
-                            <a 
-                              href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20502%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                            >
-                              <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                            </a>
-                          </div>
-                        </div>
-
-                        {/* Item 7: Catete - Rua Silveira Martins 140 (Apto 503) */}
-                        <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                          <div className="flex flex-wrap items-center justify-between gap-3">
-                            <div className="flex items-center gap-2">
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                                Residencial • Catete/RJ
-                              </span>
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                                Oportunidade Auditada
-                              </span>
-                            </div>
-                            <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                          </div>
-
-                          <div className="space-y-2">
-                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                              Leilão Judicial de Apartamento na Rua Silveira Martins nº 140 — Apto 503
-                            </h3>
-                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                              Apartamento 503 com 36 m² de área privativa, sem vaga de garagem. Prédio residencial com 8 pavimentos, 7 apartamentos por andar, portaria presencial antiga. Registro no 9º RGI sob a Matrícula nº 486819 (livro 3, fls. 1).
-                            </p>
-                          </div>
-
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (27/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 334.118,04</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (29/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 168.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                              <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                            </div>
-                          </div>
-
-                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <Link 
-                              to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-silveira-martins-140-apto-503/"
-                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                            >
-                              <FileText size={15} />
-                              Ver Análise do Edital e Relatório
-                              <ChevronRight size={14} />
-                            </Link>
-
-                            <a 
-                              href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20503%20na%20Rua%20Silveira%20Martins%20140%20no%20Catete."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                            >
-                              <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                            </a>
-                          </div>
-                        </div>
-
-                        {/* Item 8: Botafogo - Rua Voluntários da Pátria 381 (Apto 305) */}
-                        <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                          <div className="flex flex-wrap items-center justify-between gap-3">
-                            <div className="flex items-center gap-2">
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                                Residencial • Botafogo/RJ
-                              </span>
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                                Oportunidade Auditada
-                              </span>
-                            </div>
-                            <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                          </div>
-
-                          <div className="space-y-2">
-                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                              Leilão Judicial de Apartamento na Rua Voluntários da Pátria nº 381 — Apto 305
-                            </h3>
-                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                              Apartamento 305 no Edifício Coaracy Nunes com 109 m² de área edificada. Imóvel fechado há mais de 10 anos. Construção de 1945. Matrícula nº 9497 no 3º RGI e IPTU nº 0.298.026-6.
-                            </p>
-                          </div>
-
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (28/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 1.030.339,95</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (30/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 516.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                              <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                            </div>
-                          </div>
-
-                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <Link 
-                              to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-381-apto-305/"
-                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                            >
-                              <FileText size={15} />
-                              Ver Análise do Edital e Relatório
-                              <ChevronRight size={14} />
-                            </Link>
-
-                            <a 
-                              href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20305%20na%20Rua%20Volunt%C3%A1rios%20da%20P%C3%A1tria%20381%20em%20Botafogo."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                            >
-                              <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                            </a>
-                          </div>
-                        </div>
-
-                        {/* Item 9: Tijuca - Rua Haddock Lobo 191 (Apto 405) */}
-                        <div className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                          <div className="flex flex-wrap items-center justify-between gap-3">
-                            <div className="flex items-center gap-2">
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                                Residencial • Tijuca/RJ
-                              </span>
-                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                                Oportunidade Auditada
-                              </span>
-                            </div>
-                            <span className="text-xs text-text-muted font-mono">Processo TJRJ</span>
-                          </div>
-
-                          <div className="space-y-2">
-                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                              Leilão Judicial de Apartamento na Rua Haddock Lobo nº 191 — Apto 405
-                            </h3>
-                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                              Apartamento 405 no Edifício Colima de frente, com 60 m² de área edificada. Prédio residencial construído em 1951, de 7 pavimentos, com portaria 24 horas e 2 elevadores. Matrícula nº 114.079 no 11º RGI e IPTU nº 0.574.460-2.
-                            </p>
-                          </div>
-
-                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">1ª Praça (28/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-white">R$ 320.550,21</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">2ª Praça (30/07/2026):</span>
-                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">R$ 161.000,00</span>
-                            </div>
-                            <div>
-                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">Auditoria Jurídica:</span>
-                              <span className="text-xs font-semibold text-bronze block mt-1">Concluída • Parecer Disponível</span>
-                            </div>
-                          </div>
-
-                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                            <Link 
-                              to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/"
-                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                            >
-                              <FileText size={15} />
-                              Ver Análise do Edital e Relatório
-                              <ChevronRight size={14} />
-                            </Link>
-
-                            <a 
-                              href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20405%20na%20Rua%20Haddock%20Lobo%20191%20na%20Tijuca."
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                            >
-                              <PhoneCall size={14} /> Solicitar Parecer via WhatsApp
-                            </a>
-                          </div>
-                        </div>
-                      </>
-                    )}
+                    ))}
 
                     {/* Botão Veja Mais / Veja Menos */}
                     <div className="pt-4 flex justify-center">
@@ -1099,12 +1143,12 @@ const ServiceDetail: React.FC = () => {
                       >
                         {showAllAuctions ? (
                           <>
-                            <span>Recolher Oportunidades</span>
+                            <span>{tPage.collapseAuctions}</span>
                             <ChevronUp size={16} />
                           </>
                         ) : (
                           <>
-                            <span>Veja Mais Oportunidades em Análise (+6 imóveis)</span>
+                            <span>{tPage.expandAuctions}</span>
                             <ChevronDown size={16} />
                           </>
                         )}
@@ -1116,115 +1160,63 @@ const ServiceDetail: React.FC = () => {
                     <div className="w-12 h-12 rounded-full bg-bronze/10 text-bronze flex items-center justify-center border border-bronze/20">
                       <Search size={22} />
                     </div>
-                    <h3 className="text-lg sm:text-xl font-serif text-white text-left">Sem lotes comerciais abertos no momento</h3>
+                    <h3 className="text-lg sm:text-xl font-serif text-white text-left">{tPage.noCommercialTitle}</h3>
                     <p className="text-sm text-text-muted max-w-2xl leading-relaxed text-left">
-                      Nossa equipe realiza análises sob demanda para imóveis comerciais e corporativos no Rio de Janeiro.
+                      {tPage.noCommercialDesc}
                     </p>
                   </div>
                 )}
               </section>
 
-              {/* Histórico de leilões analisados (Left-Aligned Structure) */}
+              {/* Histórico de leilões analisados */}
               <section className="bg-midnight-light/40 backdrop-blur-sm p-7 sm:p-10 md:p-12 rounded-3xl border border-white/10 mb-10 sm:mb-12 text-left space-y-6 shadow-2xl">
                 <div>
-                  <h2 className="text-2xl sm:text-3xl font-serif text-bronze mb-2 text-left">Acervo e Histórico de Análises Técnicas</h2>
-                  <p className="text-xs sm:text-sm text-text-muted text-left">Registro institucional e diretrizes de divulgação de pareceres e estudos de caso em leilões imobiliários.</p>
+                  <h2 className="text-2xl sm:text-3xl font-serif text-bronze mb-2 text-left">{tPage.archiveTitle}</h2>
+                  <p className="text-xs sm:text-sm text-text-muted text-left">{tPage.archiveSub}</p>
                 </div>
 
                 <div className="bg-midnight/60 rounded-2xl border border-white/10 p-6 sm:p-8 space-y-4 text-left">
                   <div className="flex items-center gap-3 text-bronze font-serif font-semibold text-base sm:text-lg">
                     <ShieldCheck size={20} className="shrink-0" />
-                    <span>Conformidade Ética e Proteção de Dados</span>
+                    <span>{tPage.ethicsTitle}</span>
                   </div>
                   <p className="text-sm text-white/80 leading-relaxed text-left font-light">
-                    Em estrita observância ao Código de Ética e Disciplina da OAB (Provimento 205/2021) e às normas de proteção de dados, o acervo de pareceres jurídicos e relatórios de auditoria é mantido sob sigilo profissional. Esta seção é destinada ao registro de notas técnicas descaracterizadas e jurisprudência aplicada aos leilões imobiliários no Estado do Rio de Janeiro, sendo atualizada conforme viabilidade jurídica e regulamentar.
+                    {tPage.ethicsText}
                   </p>
                   <div className="pt-4 border-t border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs text-text-muted">
                     <span className="flex items-center gap-2">
                       <FileText size={14} className="text-bronze shrink-0" />
-                      Pareceres individualizados emitidos mediante contratação prévia
+                      {tPage.ethicsFootnote}
                     </span>
                     <span className="text-bronze font-medium">Soares Martins Advogados — Rio de Janeiro/RJ</span>
                   </div>
                 </div>
               </section>
 
-              {/* Internal Links to Services & Guides (Left-Aligned Structure) */}
+              {/* Internal Links to Services & Guides */}
               <section className="bg-midnight-light/30 p-7 sm:p-10 md:p-12 rounded-3xl border border-white/5 mb-10 sm:mb-12 text-left">
-                <h2 className="text-xl sm:text-2xl font-serif text-white mb-8 text-left">Conteúdos e Serviços Relacionados</h2>
+                <h2 className="text-xl sm:text-2xl font-serif text-white mb-8 text-left">{tPage.relatedTitle}</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                  <Link 
-                    to="/direito-imobiliario/" 
-                    className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">Direito Imobiliário e Negócios</h3>
-                      <p className="text-xs text-text-muted">Assessoria em compra, venda e estruturação patrimonial.</p>
-                    </div>
-                    <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                  </Link>
-
-                  <Link 
-                    to="/blog/guia-compra-venda-segura-imoveis-rj/" 
-                    className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">Guia de Compra e Venda Segura</h3>
-                      <p className="text-xs text-text-muted">Passo a passo jurídico para aquisições no Rio de Janeiro.</p>
-                    </div>
-                    <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                  </Link>
-
-                  <Link 
-                    to="/blog/direito-imobiliario-due-diligence-compra/" 
-                    className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">Due Diligence Imobiliária</h3>
-                      <p className="text-xs text-text-muted">Auditoria de certidões, ônus e riscos contratuais.</p>
-                    </div>
-                    <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                  </Link>
-
-                  <Link 
-                    to="/blog/apartamento-leilao-debito-condominial/" 
-                    className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">Leilão por Débito de Condomínio</h3>
-                      <p className="text-xs text-text-muted">Entenda como funciona o leilão judicial de dívida de cota.</p>
-                    </div>
-                    <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                  </Link>
-
-                  <Link 
-                    to="/direito-patrimonial-sucessorio/" 
-                    className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">Direito Patrimonial e Sucessório</h3>
-                      <p className="text-xs text-text-muted">Proteção, planejamento de bens e regularização.</p>
-                    </div>
-                    <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                  </Link>
-
-                  <Link 
-                    to="/blog/clausulas-fundamentais-contrato-locacao/" 
-                    className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
-                  >
-                    <div className="space-y-1">
-                      <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">Contratos de Locação e Garantias</h3>
-                      <p className="text-xs text-text-muted">Análise de cláusulas essenciais e segurança contratual.</p>
-                    </div>
-                    <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
-                  </Link>
+                  {tPage.relatedLinks.map((link: any, idx: number) => (
+                    <Link 
+                      key={idx}
+                      to={link.path} 
+                      className="p-5 bg-white/5 hover:bg-white/10 rounded-2xl border border-white/5 hover:border-bronze/40 transition-all flex items-center justify-between group text-left shadow-sm"
+                    >
+                      <div className="space-y-1">
+                        <h3 className="text-sm font-semibold text-white group-hover:text-bronze transition-colors">{link.title}</h3>
+                        <p className="text-xs text-text-muted">{link.desc}</p>
+                      </div>
+                      <ChevronRight size={18} className="text-bronze group-hover:translate-x-1 transition-transform shrink-0 ml-2" />
+                    </Link>
+                  ))}
                 </div>
               </section>
             </>
           )}
 
           {/* Details list fallback for other services */}
-          {slug !== 'assessoria-leiloes-judiciais' && details && details.length > 0 && (
+          {!isAuctionPage && details && details.length > 0 && (
             <div className="bg-midnight-light/40 backdrop-blur-sm p-8 sm:p-10 md:p-12 rounded-3xl border border-white/5 mb-10 sm:mb-12 text-left shadow-xl">
               <h2 className="text-2xl font-serif mb-8 text-bronze text-left">
                 {content.h2 || "Especialidades e Atuação"}
@@ -1240,12 +1232,12 @@ const ServiceDetail: React.FC = () => {
             </div>
           )}
 
-          {/* FAQ Block (Non-Selected Section -> Centralized Title, Clean Accordion Layout) */}
+          {/* FAQ Block */}
           {content.faqs && content.faqs.length > 0 && (
             <div className="mb-10 sm:mb-12">
               <div className="text-center mb-10 border-b border-white/10 pb-6">
-                <h2 className="text-2xl sm:text-3xl font-serif text-bronze text-center">Perguntas Frequentes (FAQ)</h2>
-                <p className="text-sm text-text-muted mt-2 text-center">Dúvidas comuns sobre auditoria de editais, arrematação e imissão na posse no RJ</p>
+                <h2 className="text-2xl sm:text-3xl font-serif text-bronze text-center">{tPage.faqHeaderTitle}</h2>
+                <p className="text-sm text-text-muted mt-2 text-center">{tPage.faqHeaderSub}</p>
               </div>
               <div className="space-y-5 text-left">
                 {content.faqs.map((faq: any, i: number) => {
@@ -1283,31 +1275,31 @@ const ServiceDetail: React.FC = () => {
             </div>
           )}
 
-          {/* CTA Section (Non-Selected Section -> Centralized Layout) */}
+          {/* CTA Section */}
           <div className="bg-bronze p-8 sm:p-14 md:p-16 rounded-3xl text-midnight text-center shadow-2xl border border-bronze/30">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-serif mb-4 font-bold text-midnight text-center">Fale Com Nossa Equipe Especializada</h2>
+              <h2 className="text-2xl sm:text-3xl font-serif mb-4 font-bold text-midnight text-center">{tPage.ctaHeaderTitle}</h2>
               <p className="text-base sm:text-lg mb-8 opacity-90 leading-relaxed font-medium text-center">
-                O escritório Soares Martins Advogados oferece auditoria jurídica completa e suporte especializado para garantir máxima segurança em suas decisões e investimentos em leilões imobiliários no Rio de Janeiro.
+                {tPage.ctaHeaderDesc}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
                 <a 
-                  href={`https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20falar%20com%20um%20especialista%20sobre%20${encodeURIComponent(content.h1)}.`}
+                  href={`https://wa.me/5521979549241?text=${encodeURIComponent((language === 'es' ? 'Hola, quisiera hablar con un especialista sobre: ' : language === 'en' ? 'Hello, I would like to speak with a specialist about: ' : 'Olá, gostaria de falar com um especialista sobre: ') + content.h1)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2.5 bg-midnight text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-midnight transition-all shadow-lg"
                 >
                   <PhoneCall size={16} />
-                  Atendimento via WhatsApp
+                  {tPage.ctaWAButton}
                 </a>
                 <a 
                   href="mailto:Juniorsadv@hotmail.com"
                   className="inline-flex items-center justify-center gap-2 border-2 border-midnight text-midnight px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-midnight hover:text-white transition-all"
                 >
-                  Enviar E-mail Corporativo
+                  {tPage.ctaEmailButton}
                 </a>
               </div>
-              <p className="mt-6 text-[11px] uppercase tracking-wider opacity-80 font-semibold text-center">Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.</p>
+              <p className="mt-6 text-[11px] uppercase tracking-wider opacity-80 font-semibold text-center">{tPage.ctaFooterNote}</p>
             </div>
           </div>
         </div>

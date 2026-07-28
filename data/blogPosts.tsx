@@ -981,6 +981,132 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       dateIso: '2026-05-21',
       category: 'Locação',
       image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      id: 25,
+      slug: 'e-possivel-visitar-imovel-leilao-antes-dar-lance',
+      title: 'É possível visitar um imóvel de leilão antes de dar o lance?',
+      excerpt: 'Descubra se é possível visitar presencialmente um imóvel de leilão judicial ou extrajudicial no Rio de Janeiro e saiba como realizar uma vistoria indireta e due diligence para arrematar com segurança.',
+      readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A arrematação de imóveis em leilões judiciais ou extrajudiciais no Rio de Janeiro representa uma das maiores oportunidades de investimento e aquisição imobiliária, com deságios que frequentemente variam de 30% a 50% em relação ao valor de avaliação de mercado. Contudo, uma das dúvidas mais frequentes de investidores e compradores em busca da casa própria é: <strong>é possível visitar um imóvel de leilão antes de dar o lance?</strong>
+          </p>
+
+          <p>
+            A resposta curta é: <strong>nem sempre a visitação presencial é garantida ou fácil</strong>. Em leilões judiciais, a depender de quem ocupa o imóvel (seja o executado, um locatário ou um possuidor irregular), a entrada do interessado pode ser dificultada ou impedida. Já em leilões extrajudiciais (como os promovidos pela Caixa Econômica Federal e outros bancos), a regra varia dependendo de o bem estar desocupado ou habitado. A seguir, detalhamos todos os aspectos legais, estratégias práticas de vistoria indireta e o papel da auditoria jurídica preventiva para arrematar com tranquilidade e sem surpresas.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O arrematante tem direito legal de vistoriar o imóvel antes do leilão?</h2>
+          <p>
+            O Código de Processo Civil (CPC) e a Lei de Leilões estabelecem que o edital da praça pública deve indicar o estado de conservação e a localização do bem. O juiz responsável pelo processo judicial pode expedir uma ordem (mandado de constatação e vistoria) autorizando que interessados visitem o imóvel em dias e horários pré-agendados, acompanhados pelo leiloeiro oficial ou por um oficial de justiça.
+          </p>
+
+          <p>
+            Entretanto, quando o imóvel é habitado pelo próprio executado (devedor) ou por ocupantes resistentes, o cumprimento dessa diligência presencial costuma enfrentar forte resistência. O devedor não é obrigado por lei a abrir a porta amigavelmente para potenciais compradores e, por medo ou insatisfação com a perda do bem, muitas vezes impede o acesso das pessoas.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como funciona a visitação em leilões extrajudiciais de bancos e da Caixa?</h2>
+          <p>
+            Nos leilões extrajudiciais decorrentes de alienação fiduciária (Lei nº 9.514/1997), a situação da visitação depende do status do imóvel constante na descrição do lote:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Imóveis Desocupados (chaves em poder do banco ou leiloeiro):</strong> A visitação é simples e incentivada. O leiloeiro ou a agência bancária agenda horários para que os interessados conheçam o interior do apartamento, loja ou casa antes de apresentar propostas.</li>
+            <li><strong>Imóveis Ocupados pelo antigo mutuário ou terceiros:</strong> O banco deixa claro no edital que a desocupação e a vistoria interna caberão exclusivamente ao arrematante após a lavratura do auto e da consolidação da propriedade. Nesses casos, a visitação prévia amigável depende exclusivamente da boa vontade do morador atual.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que fazer quando não é possível realizar a visitação presencial?</h2>
+          <p>
+            A impossibilidade de entrar no imóvel não deve inviabilizar o negócio, desde que o investidor adote métodos de <strong>vistoria indireta e avaliação técnica de riscos</strong>. Existem diversas estratégias eficientes para diagnosticar o estado do bem e a estrutura do prédio sem necessitar adentrar a unidade:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Entrevista com o Síndico e Porteiro:</strong> Conversar com a administração do condomínio (no Rio de Janeiro) permite descobrir o padrão do apartamento, se o imóvel está fechado há anos, se possui vazamentos crônicos para unidades vizinhas e qual o histórico do morador.</li>
+            <li><strong>Consulta ao Laudo de Avaliação Judicial:</strong> O perito nomeado pelo juiz elabora um laudo oficial com descrição detalhada da planta, acabamentos, fotos da fachada, número de cômodos e estado das instalações elétricas e hidráulicas observadas na época da perícia.</li>
+            <li><strong>Vistoria da Fachada e Áreas Comuns:</strong> A conservação do prédio, elevadores, garagens e corredores indica o nível da gestão do condomínio e antecipa o padrão de reforma que o imóvel necessitará.</li>
+            <li><strong>Mapeamento de Plantas e Padrão da Coluna:</strong> Em edifícios de apartamentos tradicionais na Zona Sul (Copacabana, Ipanema, Botafogo) ou na Tijuca, unidades da mesma coluna possuem plantas idênticas, permitindo estimar a metragem e o layout interno.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como a Due Diligence jurídica compensa a falta de vistoria interna?</h2>
+          <p>
+            Muitos arrematantes focam exclusivamente na pintura das paredes ou na reforma do banheiro, esquecendo que os maiores riscos de um leilão não são estéticos, mas sim <strong>jurídicos e financeiros</strong>. Uma unidade perfeitamente reformada pode ser um péssimo negócio se o edital contiver nulidades de citação ou dívidas de condomínio ocultas de valor astronômico.
+          </p>
+
+          <p>
+            A due diligence imobiliária minuciosa analisa a certidão do RGI (ônus reais), os autos do processo de origem, a existência de recursos pendentes e os valores exatos de débitos <i>propter rem</i> (IPTU e cota condominial). Com esse relatório em mãos, o comprador calcula uma margem de segurança financeira que cobre eventuais despesas de reforma pós-imissão na posse.
+          </p>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Se você pretende arrematar imóveis em leilão no Rio de Janeiro e busca total segurança em todas as etapas, acesse nossos serviços e conteúdos especializados:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" className="text-bronze hover:underline font-bold">Assessoria em Leilões Judiciais de Imóveis no RJ</Link>: auditoria completa de edital, exame de matriz de risco e suporte na imissão na posse.
+              </li>
+              <li>
+                <Link to="/blog/apartamento-leilao-debito-condominial/" className="text-bronze hover:underline font-bold">Apartamento em Leilão por Débito de Condomínio</Link>: entenda como funcionam os leilões de dívidas condominiais e como se resguardar.
+              </li>
+              <li>
+                <Link to="/blog/direito-imobiliario-due-diligence-compra/" className="text-bronze hover:underline font-bold">Due Diligence Imobiliária no Rio de Janeiro</Link>: passo a passo para certidões, análise de certidões e regularização patrimonial.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Solicite um Parecer Técnico de Leilão</Link>: fale com nossos advogados especializados antes de dar o seu lance.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Não poder visitar o interior de um imóvel não é um impedimento absoluto para arrematar com lucro. Quando respaldado por um planejamento financeiro conservador e uma auditoria jurídica rigorosa, o investimento em leilões permanece como um dos caminhos mais rentáveis e seguros do mercado imobiliário.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o Soares Martins Advogados protege seu investimento em leilão?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nosso escritório em Ipanema oferece assessoria jurídica de ponta a ponta para investidores em leilões judiciais e extrajudicial no Estado do Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Exame minucioso de editais, laudos de avaliação, matrículas no RGI e autos do processo;</li>
+              <li>Verificação detalhada de sub-rogação de débitos de IPTU e passivos de cotas condominiais;</li>
+              <li>Elaboração de parecer prévio com cálculo de teto limite de lance e estimativa de custos adicionais;</li>
+              <li>Acompanhamento da hasta pública, pagamento de guia, expedição da carta de arrematação e imissão na posse;</li>
+              <li>Atuação firme em ações de desocupação e regularização registral da propriedade.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse com nossos advogados especialistas pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Visitação em Imóveis de Leilão (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Posso tentar conversar amigavelmente com o morador para visitar o imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, mas recomenda-se cautela. A abordagem deve ser respeitosa e, se possível, intermediada por assessores ou corretores. Contudo, evite pressionar o morador ou fazer ofertas verbais antes da arrematação formal.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O leiloeiro é obrigado a conseguir o acesso ao imóvel para o comprador?</h4>
+                <p className="text-text-muted text-xs mt-1">O leiloeiro atua como auxiliar do juízo na alienação do bem. Se houver autorização judicial para visitação, ele ou o oficial de justiça organizam o acesso. Caso contrário, a obrigação de imissão na posse ocorre após o leilão com a expedição do mandado judicial.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. E se o imóvel arrematado estiver muito deteriorado por dentro?</h4>
+                <p className="text-text-muted text-xs mt-1">É por essa razão que o lance máximo calculated pelo investidor deve incluir uma reserva financeira para reformas (geralmente estimada em 10% a 20% do valor do imóvel), compensada pelo grande deságio na compra.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Quanto tempo leva para ter a posse e entrar no imóvel após a arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">Após a expedição e registro da carta de arrematação, o juiz expede o mandado de imissão na posse. O cumprimento voluntário ou forçado via oficial de justiça costuma ocorrer em poucas semanas a alguns meses, dependendo da vara judicial.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ),
+      date: '28 Jul, 2026',
+      dateIso: '2026-07-28',
+      category: 'Direito Imobiliário',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80'
     }
   ];
 

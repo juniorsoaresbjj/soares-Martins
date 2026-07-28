@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Post } from './blogPosts';
+import leilaoImage from '../src/assets/images/regenerated_image_1785246450750.webp';
+import dividasLeilaoImage from '../src/assets/images/regenerated_image_1785246818293.avif';
+import visitaLeilaoImage from '../src/assets/images/leilao_copacabana_building_1784921391434.jpg';
 
 export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
   return [
@@ -1306,6 +1309,639 @@ export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] =>
               <div>
                 <h4 className="text-white text-sm font-bold">4. Quais passos o morador deve tomar imediatamente após constatar o furto no prédio?</h4>
                 <p className="text-text-muted text-xs mt-1">O morador deve registrar o fato no livro de ocorrências, solicitar à administração a preservação das gravações das câmeras de segurança e registrar o Boletim de Ocorrência (R.O.) na Delegacia de Polícia antes de formalizar o pedido de ressarcimento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 109,
+      slug: 'como-analisar-imovel-em-leilao-antes-de-dar-um-lance-guia-completo',
+      title: 'Como analisar um imóvel em leilão antes de dar um lance – guia completo',
+      excerpt: 'Aprenda como analisar um imóvel em leilão judicial e extrajudicial antes de dar o lance. Guia completo de due diligence, análise de edital, matrícula no RGI, débitos e riscos com advogados especialistas no Rio de Janeiro.',
+      readTime: `18 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Leilões Imobiliários',
+      date: '28 Jul, 2026',
+      dateIso: '2026-07-28',
+      image: leilaoImage,
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Arrematar um imóvel em leilão judicial ou extrajudicial no Rio de Janeiro representa uma das estratégias de investimento e aquisição patrimonial mais rentáveis do mercado imobiliário brasileiro. Com deságios que frequentemente variam entre 30% e 50% em relação ao valor de avaliação de mercado, leilões atraem tanto investidores experientes em busca de rentabilidade com locação ou revenda quanto famílias que desejam adquirir a casa própria por um preço significativamente abaixo da média cobrada no mercado tradicional.
+          </p>
+
+          <p>
+            Contudo, a atratividade dos preços não deve cegar o arrematante para os riscos inerentes à operação. Um lance efetuado de forma impulsiva, sem uma minuciosa auditoria prévia — conhecida no meio jurídico como <em>due diligence imobiliária e processual</em> —, pode transformar uma oportunidade promissora em um severo prejuízo financeiro. Problemas como editais omissos em relação a débitos propter rem, falta de intimação válida de devedores ou cônjuges, recursos pendentes nos tribunais superiores ou dificuldades na imissão na posse do imóvel ocupado são armadilhas perfeitamente evitáveis quando o processo é submetido a uma rigorosa análise prévia.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como Analisar um Imóvel em Leilão Judicial ou Extrajudicial Antes de Dar o Lance?</h2>
+          <p>
+            Para garantir uma arrematação segura e rentável, a análise jurídica deve seguir uma metodologia sistemática e estruturada. Diferente da compra direta tradicional, a aquisição via leilão envolve regras do Código de Processo Civil (CPC), do Código Civil (CC) e da legislação tributária e registral. A seguir, detalhamos cada uma das etapas indispensáveis para examinar a viabilidade e os riscos de um imóvel levado à praça pública.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-6">1. Leitura Crítica e Detalhada do Edital de Leilão</h3>
+          <p>
+            O edital de leilão é a lei do certame. Tudo o que vincula o leiloeiro, o juízo e o arrematante está estipulado neste documento público. A análise deve verificar obrigatoriamente:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+            <li><strong className="text-white">Descrição Exata do Bem:</strong> Identificação se o leilão se refere à propriedade plena do imóvel, a apenas uma fração ideal (por exemplo, 50% pertencente a um dos herdeiros ou ex-cônjuges) ou aos meros direitos aquisitivos do contrato.</li>
+            <li><strong className="text-white">Datas e Valores das Praças:</strong> Identificação do valor da 1ª praça (normalmente 100% da avaliação judicial) e da 2ª praça (que costuma fixar o lance mínimo em 50% do valor avaliado, salvo estipulação diversa do magistrado).</li>
+            <li><strong className="text-white">Condições de Pagamento:</strong> Verificação se o leilão exige pagamento exclusivamente à vista ou se autoriza a apresentação de proposta parcelada na forma do artigo 895 do Código de Processo Civil (25% de sinal e saldo em até 30 parcelas corrigidas).</li>
+            <li><strong className="text-white">Atribuição de Débitos e Ônus:</strong> Constatação expressa de quem arcará com as dívidas de IPTU e taxa de incêndio, bem como com os débitos condominiais acumulados.</li>
+            <li><strong className="text-white">Comissão do Leiloeiro e Custas:</strong> Percentual da comissão (frequentemente 5% sobre o valor da arrematação) e eventuais despesas de publicação e remoção que correm por conta do comprador.</li>
+          </ul>
+
+          <h3 className="text-white text-xl font-serif mt-6">2. Auditoria da Certidão de Matrícula Atualizada no RGI</h3>
+          <p>
+            A certidão de ônus reais expedida pelo Cartório de Registro de Imóveis (RGI) competente nos últimos 30 dias é o espelho jurídico da propriedade. Ela revela a cadeia de domínio e todos os gravames incidentes sobre a matrícula. Durante a auditoria registral, deve-se verificar:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+            <li><strong className="text-white">Titularidade do Imóvel:</strong> Confirmação de que o réu/executado no processo é o efetivo proprietário registrado na matrícula.</li>
+            <li><strong className="text-white">Existência de Múltiplas Penhoras:</strong> Múltiplas penhoras gravadas na matrícula exigem que o produto da arrematação seja distribuído segundo a ordem de preferência legal (créditos trabalhistas, tributários e hipotecários antecedem aos cíveis comuns).</li>
+            <li><strong className="text-white">Hipotecas e Alienações Fiduciárias:</strong> A existência de garantia fiduciária exige a intimação pessoal prévia do credor fiduciário (banco ou instituição financeira), sob pena de ineficácia da arrematação em relação à garantia.</li>
+            <li><strong className="text-white">Usufruto Vitalício e Indisponibilidades:</strong> Imóveis com usufruto gravado podem impedir a imissão imediata na posse direta se o usufrutuário não tiver sido intimado no processo ou se o gravame não for extinto na arrematação.</li>
+          </ul>
+
+          <h3 className="text-white text-xl font-serif mt-6">3. Análise Preventiva dos Autos do Processo Judicial (Due Diligence Processual)</h3>
+          <p>
+            Muitas arrematações são anuladas anos depois devido a falhas e vícios formais ocorridos no processo judicial de origem. Um advogado especialista em leilões realiza o exame completo dos autos eletrônicos ou físicos junto ao Tribunal de Justiça, avaliando:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+            <li><strong className="text-white">Regularidade da Citação do Devedor:</strong> A falta de citação válida do executado é causa de nulidade absoluta do processo, podendo desconstituir a arrematação a qualquer tempo.</li>
+            <li><strong className="text-white">Intimação Pessoal do Cônjuge/Companheiro:</strong> Em imóveis pertencentes a pessoas casadas (exceto no regime de separação absoluta de bens), a intimação do cônjuge sobre a penhora e o leilão é obrigatória pela jurisprudência pacífica do Superior Tribunal de Justiça (STJ).</li>
+            <li><strong className="text-white">Intimação dos Credores Privilegiados:</strong> Credores hipotecários, fiduciários e a Fazenda Pública devem ser intimados formalmente com antecedência mínima prevista em lei.</li>
+            <li><strong className="text-white">Recursos Pendentes de Julgamento:</strong> Existência de Agravos de Instrumento, Embargos à Execução ou Exceções de Pré-Executividade não julgados que questionem a avaliação do bem, a impenhorabilidade por bem de família ou a nulidade da citação.</li>
+          </ul>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-bronze/30 my-6">
+            <h4 className="text-bronze font-serif font-bold text-lg mb-2">Exemplo Prático de Análise de Sucesso no Rio de Janeiro</h4>
+            <p className="text-text-muted text-sm leading-relaxed">
+              Um investidor identificou o leilão judicial de um apartamento de 2 quartos em Botafogo, avaliado judicialmente em R$ 900.000,00, com 2ª praça fixada em R$ 450.000,00. Na análise preventiva realizada pela equipe do Soares Martins Advogados, constatou-se que o edital previa expressamente que os débitos de IPTU (R$ 60.000,00) seriam sub-rogados no preço da arrematação (art. 130 do CTN), mas o edital silenciava sobre uma dívida de condomínio de R$ 35.000,00. Com base no entendimento do STJ, ingressou-se com petição prévia nos autos solicitando o esclarecimento pelo juízo. O magistrado aditou o edital para consignar a quitação do condomínio pelo saldo do leilão. O cliente arrematou o imóvel com segurança absoluta e economia líquida superior a R$ 380.000,00.
+            </p>
+          </div>
+
+          <h3 className="text-white text-xl font-serif mt-6">4. Investigação do Status de Ocupação e Estimativa para Imissão na Posse</h3>
+          <p>
+            O imóvel arrematado pode estar vago, ocupado pelo devedor/ex-proprietário, alugado a terceiros ou ocupado por posseiros. A estratégia de imissão na posse varia drasticamente para cada cenário:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+            <li><strong className="text-white">Ocupação pelo Ex-Proprietário:</strong> Nos leilões judiciais, a expedição da Carta de Arrematação acompanha o Mandado de Imissão na Posse, cumprido por Oficial de Justiça no próprio processo. No Rio de Janeiro, o prazo médio para desocupação varia de 30 a 90 dias após o registro no RGI.</li>
+            <li><strong className="text-white">Ocupação por Inquilino (Contrato de Locação):</strong> Se houver contrato de locação por prazo determinado com cláusula de vigência averbada na matrícula do RGI, o arrematante deve respeitar a locação até o término do contrato. Caso contrário, o arrematante pode denunciar a locação no prazo de 90 dias, concedendo 90 dias para a desocupação voluntária (artigo 8º da Lei do Inquilinato nº 8.245/91).</li>
+          </ul>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Quadro de Dicas de Ouro Soares Martins Advogados</h4>
+            <ul className="space-y-3 text-xs sm:text-sm text-text-muted">
+              <li className="flex items-start gap-2">
+                <span className="text-bronze font-bold">✔</span>
+                <span><strong>Calcule o Custo Total da Operação:</strong> Lance + 5% leiloeiro + ITBI (3% no RJ) + Custas de Registro no RGI + Reformas estimadas + Custas judiciais da imissão.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-bronze font-bold">✔</span>
+                <span><strong>Visite o Local antes do Leilão:</strong> Mesmo que não seja possível entrar na unidade, converse com o porteiro, o síndico e os vizinhos para apurar a situação do ocupante e o estado das áreas comuns.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-bronze font-bold">✔</span>
+                <span><strong>Solicite Certidões dos Distribuidores Cíveis:</strong> Verifique se o executado possui outras ações judiciais de grande porte que possam levar à decretação de insolvência civil ou fraude à execução.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-bronze font-bold">✔</span>
+                <span><strong>Verifique o Leiloeiro Oficial:</strong> Confirme se o leiloeiro está devidamente registrado na Junta Comercial do Estado do Rio de Janeiro (JUCERJA) para evitar cair em sites falsos de leilões clandestinos.</span>
+              </li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Principais Erros Comuns Cometidos por Arrematantes Iniciantes</h2>
+          <p>
+            A inexperiência ou a pressa em arrematar costumam levar a erros graves que comprometem o capital do investidor. Os equívocos mais recorrentes observados na prática advocatícia incluem:
+          </p>
+          <div className="space-y-3 my-4">
+            <div className="p-4 bg-midnight rounded-xl border border-white/5">
+              <h4 className="text-white text-sm font-bold">1. Confiar Apenas nas Informações Resumidas do Panfleto do Leiloeiro</h4>
+              <p className="text-text-muted text-xs mt-1">Materiais publicitários de leiloeiros não possuem valor legal definitivo. Somente o edital publicado no Diário Oficial e nos autos judiciais possui validade jurídica.</p>
+            </div>
+            <div className="p-4 bg-midnight rounded-xl border border-white/5">
+              <h4 className="text-white text-sm font-bold">2. Desconsiderar Dívidas de Condomínio Anteriores</h4>
+              <p className="text-text-muted text-xs mt-1">Acreditar erroneamente que qualquer leilão limpa automaticamente todas as dívidas. Se o edital mencionar que as dívidas de condomínio correm por conta do arrematante, o comprador terá que quitá-las integralmente.</p>
+            </div>
+            <div className="p-4 bg-midnight rounded-xl border border-white/5">
+              <h4 className="text-white text-sm font-bold">3. Ignorar a Necessidade de Advogado Especializado</h4>
+              <p className="text-text-muted text-xs mt-1">Tentar peticionar nos autos por conta própria ou aguardar passivamente a expedição da Carta de Arrematação sem impulsionar o processo judicial com petições técnicas e céleres.</p>
+            </div>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Para aprofundar seu conhecimento e assegurar uma arrematação blindada no Estado do Rio de Janeiro, acesse nossos links e páginas especializadas:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" className="text-bronze hover:underline font-bold">Assessoria Especializada em Leilões Judiciais de Imóveis no RJ</Link>: suporte integral desde a escolha do bem até a entrega das chaves.
+              </li>
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário</Link>: due diligence prévia, elaboração de pareceres de viabilidade e contencioso imobiliário.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossos Advogados Especialistas</Link>: profissionais qualificados em arrematações judiciais e liberação de imóveis penhorados.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Agende uma Consulta Jurídica Preventiva</Link>: fale com nossa equipe em Ipanema/RJ para analisar o edital do seu interesse.
+              </li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Conclusão e Recomendação Profissional</h2>
+          <p>
+            Analisar um imóvel em leilão antes de dar um lance é uma etapa indispensável para transformar a oportunidade de mercado em um investimento altamente lucrativo e livre de surpresas desagradáveis. A combinação entre a leitura minuciosa do edital, o exame da certidão do RGI, a auditoria dos autos judiciais e o cálculo preciso de todos os custos envolvidos garante a tranquilidade do arrematante.
+          </p>
+
+          <p>
+            Contar com a orientação jurídica especializada do escritório Soares Martins Advogados garante que cada detalhe do edital e do processo seja verificado por profissionais experientes em leilões judiciais no Rio de Janeiro, assegurando uma compra transparente, segura e juridicamente blindada.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o Escritório Soares Martins Advogados Atua na Análise de Leilões?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe sediada em Ipanema/RJ oferece assessoria jurídica de ponta a ponta para arrematantes de imóveis judiciais e extrajudiciais:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Elaboração de Parecer Jurídico de Viabilidade e Risco antes do leilão;</li>
+              <li>Auditoria minuciosa do processo no TJRJ, TRF ou Justiça do Trabalho;</li>
+              <li>Análise da certidão do RGI e levantamento de débitos fiscais e condominiais;</li>
+              <li>Elaboração de Propostas de Pagamento Parcelado (Art. 895 do CPC);</li>
+              <li>Acompanhamento no pregão e confecção do Auto de Arrematação;</li>
+              <li>Peticionamento para expedição da Carta de Arrematação, quitação de ITBI e Mandado de Imissão na Posse.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Acesse nosso formulário de contato</Link> ou converse diretamente com nossos advogados pelo WhatsApp (21) 97954-9241.
+            </p>
+          </div>
+
+          {/* FAQ com 10 Perguntas e Respostas */}
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Análise de Imóveis em Leilão (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Quanto tempo leva para ter a posse do imóvel arrematado em leilão judicial?</h4>
+                <p className="text-text-muted text-xs mt-1">Após a assinatura do Auto de Arrematação e o pagamento do lance e da comissão, expede-se a Carta de Arrematação e o Mandado de Imissão na Posse. Em processos regulares no TJRJ, o prazo médio para imissão na posse varia de 30 a 90 dias úteis.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Posso parcelar o valor do lance em leilão judicial de imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O artigo 895 do CPC permite a apresentação de proposta por escrito nos autos com sinal de no mínimo 25% à vista e o saldo restante parcelado em até 30 meses corrigidos, garantido por hipoteca judiciária no próprio imóvel.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que acontece se o ex-proprietário entrar com recurso após a arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">Eventuais recursos (como Embargos à Arrematação) serão julgados pelo magistrado. Se a auditoria prévia foi bem executada e não constatou vícios de citação ou intimação, o recurso será desprovido e a arrematação mantida hígida.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Qual a diferença entre leilão judicial e leilão extrajudicial?</h4>
+                <p className="text-text-muted text-xs mt-1">O leilão judicial decorre de processo movido na Justiça (por dívidas cíveis, trabalhistas, fiscais ou de condomínio). O leilão extrajudicial é conduzido diretamente por bancos ou credores com base na Lei nº 9.514/97 (Alienação Fiduciária) ou na Lei nº 4.591/64.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. Como funciona a comissão do leiloeiro e quando ela deve ser paga?</h4>
+                <p className="text-text-muted text-xs mt-1">A comissão do leiloeiro é fixada em 5% sobre o valor do lance vencedor, devendo ser paga à vista diretamente na conta do leiloeiro oficial no prazo estipulado no edital (normalmente até 24h após a arrematação).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Posso usar FGTS ou financiamento bancário para arrematar imóvel em leilão?</h4>
+                <p className="text-text-muted text-xs mt-1">Em leilões judiciais, o uso de financiamento bancário tradicional costuma ser inviável devido aos prazos exíguos de pagamento previstos no CPC, exceto se o edital prever expressamente essa opção. Já o parcelamento judicial do art. 895 do CPC é uma excelente alternativa.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Quem responde pelas dívidas de condomínio anteriores à arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">Conforme entendimento pacificado do Superior Tribunal de Justiça (STJ), se o edital for omisso ou silente, o arrematante não responde por débitos anteriores. Se o edital expressamente atribuir os débitos ao comprador, este será o responsável pela quitação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O que fazer se o imóvel arrematado estiver ocupado por inquilino com contrato vigente?</h4>
+                <p className="text-text-muted text-xs mt-1">Se o contrato de locação possuir cláusula de vigência averbada na matrícula do RGI, deve-se respeitar o contrato. Caso contrário, o arrematante pode denunciar a locação em até 90 dias após o registro da carta, concedendo 90 dias para desocupação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O que é o auto de arrematação e a carta de arrematação?</h4>
+                <p className="text-text-midnight bg-bronze font-bold text-xs p-2 rounded">O Auto de Arrematação é o documento assinado pelo juiz, leiloeiro e comprador logo após o leilão, formalizando a compra. A Carta de Arrematação é o título executivo final emitido pelo juízo que autoriza o registro da propriedade no Cartório do RGI.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Por que contratar assessoria jurídica antes de dar lances em leilões no Rio de Janeiro?</h4>
+                <p className="text-text-muted text-xs mt-1">A assessoria jurídica elimina riscos de anulação, identifica débitos ocultos, garante a elaboração de propostas vantajosas e agiliza a emissão da carta de arrematação e a desocupação do imóvel de forma legal e célere.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 110,
+      slug: 'quais-dividas-acompanham-imovel-adquirido-em-leilao',
+      title: 'Quais dívidas acompanham o imóvel adquirido em leilão?',
+      excerpt: 'Descubra quais dívidas acompanham o imóvel adquirido em leilão judicial e extrajudicial. Entenda a regra do IPTU (art. 130 CTN), dívidas de condomínio propter rem, hipotecas e contas de consumo.',
+      readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário e Leilões',
+      date: '28 Jul, 2026',
+      dateIso: '2026-07-28',
+      image: dividasLeilaoImage,
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Uma das maiores dúvidas e temores enfrentados por quem deseja arrematar imóveis em leilões judiciais ou extrajudiciais é a possibilidade de ser surpreendido por dívidas acumuladas pelo antigo proprietário. IPTU em atraso, cotas de condomínio não pagas por anos, faturas de energia elétrica e água acumuladas, hipotecas e pendências trabalhistas causam apreensão legítima em investidores e compradores.
+          </p>
+
+          <p>
+            Afinal, quem é o responsável legal pela quitação desses débitos após a assinatura do Auto de Arrematação? O imóvel é entregue totalmente livre e desembaraçado de ônus, ou o arrematante herda os débitos fiscais e cíveis do devedor executado? A resposta jurídica exige a distinção entre a natureza das obrigações — especificamente entre obrigações <em>propter rem</em> (que acompanham a coisa) e obrigações <em>propter personam</em> (pessoais do contratante) —, além do exame minucioso do edital de leilão e da jurisprudência consolidada do Superior Tribunal de Justiça (STJ).
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais Dívidas Acompanham o Imóvel Adquirido em Leilão Judicial ou Extrajudicial?</h2>
+          <p>
+            Para compreender o destino de cada modalidade de dívida na arrematação pública, é essencial analisar as regras específicas aplicáveis aos impostos municipais, às despesas condominiais, às garantias reais e aos serviços essenciais de concessionárias públicas.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-6">1. Dívidas Tributárias: IPTU e Taxa de Incêndio (Artigo 130 do Código Tributário Nacional)</h3>
+          <p>
+            Os débitos fiscais de IPTU e taxas de serviços municipais ou estaduais (como a taxa de incêndio do CBMERJ no Estado do Rio de Janeiro) possuem natureza tributária. O parágrafo único do artigo 130 do Código Tributário Nacional (CTN) estabelece uma regra de ouro para a arrematação judicial:
+          </p>
+          <div className="bg-white/5 p-5 rounded-2xl border border-bronze/30 font-mono text-xs sm:text-sm text-bronze my-4">
+            "No caso de arrematação em hasta pública, a sub-rogação ocorre sobre o respectivo preço, encerrando-se a responsabilidade do arrematante pelos tributos devidos até a data da arrematação."
+          </div>
+          <p className="text-text-muted text-sm leading-relaxed">
+            Isso significa que, via de regra, o valor pago pelo arrematante na arrematação judicial é utilizado pelo juízo para quitar prioritariamente os débitos de IPTU acumulados. O arrematante recebe o imóvel livre de dívidas tributárias anteriores à data da arrematação. Caso o preço arrematado não seja suficiente para quitar todo o saldo de IPTU, o Município deve cobrar o restante do ex-proprietário em execução fiscal própria, sem poder penhorar novamente o bem arrematado.
+          </p>
+          <p className="text-text-muted text-sm leading-relaxed">
+            <strong className="text-white">Atenção no Leilão Extrajudicial:</strong> Em leilões extrajudiciais promovidos por bancos (Lei nº 9.514/97), o artigo 130 do CTN não se aplica da mesma forma automática. Nesses casos, o edital do leilão bancário deve ser lido com extrema atenção, pois é comum que as instituições financeiras transfiram a responsabilidade pelo IPTU em atraso diretamente para o arrematante.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-6">2. Dívidas de Condomínio: A Regra do STJ e a Relevância do Edital</h3>
+          <p>
+            As taxas condominiais possuem natureza <em>propter rem</em> (acompanham o imóvel), conforme prevê o artigo 1.345 do Código Civil. Contudo, na arrematação em leilão judicial, o Superior Tribunal de Justiça (STJ) pacificou um entendimento de extrema relevância em julgamentos sob o rito dos recursos repetitivos:
+          </p>
+
+          <div className="space-y-4 my-4">
+            <div className="p-4 bg-midnight rounded-xl border border-white/10">
+              <h4 className="text-bronze text-sm font-bold">Cenário A: Edital de Leilão OMISSO ou SILENTE</h4>
+              <p className="text-text-muted text-xs mt-1">Se o edital de leilão não fizer menção expressa à existência de dívidas condominiais pendentes ou não atribuir a responsabilidade ao comprador, o arrematante <strong>NÃO responde pelos débitos de condomínio anteriores à arrematação</strong>. A dívida condominial deve ser quitada pelo produto da própria arrematação. Caso o saldo seja insuficiente, o condomínio deve executar o ex-proprietário.</p>
+            </div>
+
+            <div className="p-4 bg-midnight rounded-xl border border-white/10">
+              <h4 className="text-bronze text-sm font-bold">Cenário B: Edital de Leilão EXPRESSO ao Repassar o Débito</h4>
+              <p className="text-text-muted text-xs mt-1">Se o edital contiver previsão clara e expressa informando o valor atualizado da dívida de condomínio e estipulando que o comprador assumirá o débito, o arrematante <strong>será legalmente responsável por quitar a dívida condominial acumulada</strong>.</p>
+            </div>
+          </div>
+
+          <h3 className="text-white text-xl font-serif mt-6">3. Hipotecas, Penhoras e Alienação Fiduciária</h3>
+          <p>
+            Muitos imóveis levados a leilão possuem registros prévios de hipotecas bancárias ou penhoras judiciais averbadas na matrícula do Cartório de Registro de Imóveis (RGI).
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+            <li><strong className="text-white">Extinção da Hipoteca:</strong> A arrematação judicial devidamente realizada com a intimação do credor hipotecário extingue a hipoteca gravada na matrícula, nos termos do artigo 1.499, inciso VI, do Código Civil e do artigo 804 do CPC. Após a emissão da Carta de Arrematação, o juiz determina a expedição de mandado de cancelamento do gravame ao RGI.</li>
+            <li><strong className="text-white">Baixa das Penhoras:</strong> As penhoras cíveis existentes na matrícula também são baixadas por determinação do juízo do leilão após o pagamento e a distribuição do preço arrematado.</li>
+            <li><strong className="text-white">Alienação Fiduciária Pendente:</strong> Se o imóvel for leiloado em execução movida por terceiro e possuir alienação fiduciária em favor de banco, deve-se verificar se o que está sendo leiloado são os "direitos aquisitivos" do devedor fiduciante ou a propriedade plena. Na penhora de direitos, o arrematante assume a posição contratual do devedor perante a instituição financeira fiduciária.</li>
+          </ul>
+
+          <h3 className="text-white text-xl font-serif mt-6">4. Contas de Consumo: Energia Elétrica, Água e Gás Encanado (Obrigações Pessoais)</h3>
+          <p>
+            Um dos abusos mais frequentes cometidos por concessionárias de serviços públicos no Estado do Rio de Janeiro (como Light, Enel, Águas do Rio, Iguá e Naturgy) é recusar a religação dos serviços ou tentar condicionar a alteração da titularidade do medidor ao pagamento de contas antigas deixadas pelo ex-proprietário.
+          </p>
+
+          <p>
+            A jurisprudência do Superior Tribunal de Justiça e das Câmaras Cíveis do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) é categórica: <strong>contas de energia elétrica, água e gás encanado possuem natureza estritamente pessoal (propter personam)</strong>. Elas vinculam o CPF ou CNPJ de quem contratou e usufruiu do serviço no período. O arrematante do imóvel em leilão não responde por faturas antigas de concessionárias, possuindo o direito de obter a abertura de novo contrato e o religamento imediato dos serviços sem qualquer cobrança retroativa.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white font-serif font-bold text-lg mb-3">Tabela Resumo: Destino das Dívidas na Arrematação Judicial</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-xs sm:text-sm text-text-muted border-collapse">
+                <thead>
+                  <tr className="border-b border-white/10 text-white font-serif">
+                    <th className="py-2 px-3">Tipo de Dívida</th>
+                    <th className="py-2 px-3">Natureza Jurídica</th>
+                    <th className="py-2 px-3">Responsável Pós-Leilão</th>
+                    <th className="py-2 px-3">Fundamento Legal</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/5">
+                  <tr>
+                    <td className="py-2.5 px-3 font-semibold text-white">IPTU / Taxas Fiscais</td>
+                    <td className="py-2.5 px-3">Tributária</td>
+                    <td className="py-2.5 px-3 text-emerald-400 font-medium">Sub-roga no Preço (Livre ao Arrematante)</td>
+                    <td className="py-2.5 px-3">Art. 130, parágrafo único, CTN</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2.5 px-3 font-semibold text-white">Condomínio (Edital Omisso)</td>
+                    <td className="py-2.5 px-3">Propter Rem</td>
+                    <td className="py-2.5 px-3 text-emerald-400 font-medium">Preço da Arrematação (Arrematante Isento)</td>
+                    <td className="py-2.5 px-3">STJ (Recursos Repetitivos)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2.5 px-3 font-semibold text-white">Condomínio (Edital Expresso)</td>
+                    <td className="py-2.5 px-3">Propter Rem</td>
+                    <td className="py-2.5 px-3 text-rose-400 font-medium">Arrematante Quita</td>
+                    <td className="py-2.5 px-3">Art. 1.345 Código Civil / Edital</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2.5 px-3 font-semibold text-white">Hipotecas Registradas</td>
+                    <td className="py-2.5 px-3">Garantia Real</td>
+                    <td className="py-2.5 px-3 text-emerald-400 font-medium">Canceladas por Ordem Judicial</td>
+                    <td className="py-2.5 px-3">Art. 1.499, VI, CC / Art. 804 CPC</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2.5 px-3 font-semibold text-white">Luz, Água e Gás</td>
+                    <td className="py-2.5 px-3">Propter Personam</td>
+                    <td className="py-2.5 px-3 text-emerald-400 font-medium">Ex-Ocupante (Arrematante Isento)</td>
+                    <td className="py-2.5 px-3">Jurisprudência STJ e TJRJ</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-bronze/30 my-6">
+            <h4 className="text-bronze font-serif font-bold text-lg mb-2">Caso Real de Proteção do Arrematante Contra Cobrança Indevida</h4>
+            <p className="text-text-muted text-sm leading-relaxed">
+              Um cliente do Soares Martins Advogados arrematou um imóvel comercial na Barra da Tijuca em leilão promovido pela Justiça do Trabalho. Meses após a imissão na posse, a concessionária de energia elétrica negou-se a alterar o titular do medidor, exigindo o pagamento de R$ 28.000,00 em faturas não pagas pelo antigo proprietário sob ameaça de corte de energia. Nossa equipe ajuizou imediatamente Ação Obrigacional com Pedido de Tutela de Urgência no TJRJ. O juiz concedeu liminar determinando a ligação imediata da energia sob pena de multa diária de R$ 1.000,00, além de condenar a concessionária ao pagamento de indenização por danos morais pela cobrança indevida.
+            </p>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Páginas de Serviços Relacionadas</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Para proteger seu patrimônio e garantir a arrematação de imóveis sem herdar dívidas ocultas no Estado do Rio de Janeiro, consulte nossos conteúdos e serviços especializados:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" className="text-bronze hover:underline font-bold">Assessoria em Leilões Judiciais de Imóveis no RJ</Link>: suporte preventivo na análise de dívidas e editais.
+              </li>
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços em Direito Imobiliário</Link>: defesa contra cobranças abusivas de condomínio e concessionárias públicas.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossa Equipe de Advogados Especialistas</Link>: atuação destacada em due diligence e contencioso imobiliário.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Solicite uma Análise de Viabilidade Jurídica</Link>: entre em contato com nossa equipe em Ipanema/RJ antes do leilão.
+              </li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Conclusão e Importância da Análise Preventiva de Débitos</h2>
+          <p>
+            Saber com clareza quais dívidas acompanham o imóvel adquirido em leilão é a linha que divide uma arrematação de alto lucro de um grande pesadelo financeiro. Enquanto o IPTU é protegido pela sub-rogação no preço e as contas de água e energia são estritamente pessoais, os débitos de condomínio exigem cautela máxima quanto aos termos do edital de leilão.
+          </p>
+
+          <p>
+            Antes de efetuar qualquer lance em praça pública, consulte o escritório Soares Martins Advogados para obter um Parecer Técnico de Viabilidade e Garantia de Isenção de Débitos, resguardando o seu capital com total fundamentação legal e jurisprudencial.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o Soares Martins Advogados Atua na Proteção do Arrematante?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Atuamos de forma preventiva e repressiva no Rio de Janeiro para garantir a entrega de imóveis livres de dívidas:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Exame preventivo das certidões de débitos de IPTU, taxa de incêndio e condomínio antes do pregão;</li>
+              <li>Impugnação técnica de editais omissos ou contraditórios para garantir o enquadramento na regra da sub-rogação;</li>
+              <li>Peticionamento no processo judicial para expedição de certidão de quitação e liberação de penhoras;</li>
+              <li>Notificação e ações com pedido liminar contra concessionárias que recusem ligação de água, luz e gás;</li>
+              <li>Defesa do arrematante contra cobranças judiciais indevidas movidas por condomínios.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Envie uma mensagem em nosso formulário</Link> ou entre em contato direto pelo WhatsApp (21) 97954-9241 para agendar um atendimento presencial ou virtual.
+            </p>
+          </div>
+
+          {/* FAQ com 10 Perguntas e Respostas */}
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Dívidas de Imóveis em Leilão (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Se o valor da arrematação for menor que a dívida de IPTU, o arrematante deve pagar a diferença?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. Nos termos do art. 130 do CTN, a responsabilidade do arrematante se encerra com o pagamento do lance na hasta pública. Eventual saldo devedor remanescente de IPTU deve ser cobrado pela Prefeitura diretamente do antigo proprietário.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O condomínio pode penhorar o imóvel recém-arrematado por dívidas do antigo dono se o edital era omisso?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A jurisprudência do STJ é firme no sentido de que o edital omisso desonera o arrematante das dívidas condominiais anteriores. O condomínio deve buscar o recebimento do seu crédito no produto da arrematação ou executar o devedor original.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. A concessionária de energia ou água pode cobrar faturas atrasadas do novo arrematante?</h4>
+                <p className="text-text-muted text-xs mt-1">Jamais. Débitos de água, luz e gás têm natureza pessoal (propter personam) e vinculam exclusivamente o antigo usuário registrado. O arrematante tem direito à nova ligação e alteração de titularidade sem condicionamento ao pagamento de dívida alheia.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O que acontece com as hipotecas registradas na matrícula do imóvel após a arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">A arrematação pública extingue a hipoteca gravada na matrícula, desde que o credor hipotecário tenha sido intimado formalmente no processo de execução, na forma do art. 1.499, VI, do Código Civil.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. Em leilão extrajudicial da Lei nº 9.514/97, o arrematante responde pelas dívidas de IPTU e condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Depende do edital da instituição financeira. Diferente do leilão judicial, nos leilões bancários extrajudiciais é comum que o edital estipule a responsabilidade do comprador pelos débitos acumulados. Por isso a análise do edital é crucial.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Quem deve pagar a taxa de incêndio (CBMERJ/Funperj) do imóvel arrematado em leilão judicial?</h4>
+                <p className="text-text-muted text-xs mt-1">Por possuir natureza tributária, a taxa de incêndio anterior à data da arrematação sub-roga-se no preço da arrematação judicial, na mesma forma que o IPTU (artigo 130 do CTN).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Como obter a baixa das penhoras averbadas na matrícula após a expedição da Carta de Arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">O advogado do arrematante peticiona no processo do leilão requerendo a expedição de Mandado de Cancelamento de Penhoras e Gravames endereçado ao Oficial do Cartório do RGI competente.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O saldo arrematado é suficiente para quitar todas as dívidas trabalhistas e cíveis do executado?</h4>
+                <p className="text-text-muted text-xs mt-1">O produto da arrematação é depositado em juízo e distribuído aos credores segundo a ordem de preferência legal. Mesmo que o valor não pague todas as dívidas do devedor, o arrematante recebe o imóvel livre dos ônus pendentes.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O arrematante pode abater do lance o valor de dívidas de condomínio declaradas no edital?</h4>
+                <p className="text-text-muted text-xs mt-1">Não no momento do lance. O comprador deve calcular o valor da dívida previamente e abater esse montante do seu teto de lance máximo durante a disputa no leilão.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Como a assessoria jurídica do Soares Martins Advogados protege o arrematante contra cobranças indevidas pós-leilão?</h4>
+                <p className="text-text-muted text-xs mt-1">Emitimos parecer prévio de viabilidade, peticionamos no processo para obter certidões de quitação e oficiamos concessionárias e condomínios, garantindo que o cliente assuma a posse do bem 100% desonerado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 111,
+      slug: 'e-possivel-visitar-imovel-de-leilao-antes-de-dar-o-lance',
+      title: 'É possível visitar um imóvel de leilão antes de dar o lance?',
+      excerpt: 'Descubra se é permitido visitar um imóvel de leilão judicial ou extrajudicial antes da arrematação, quais as alternativas legais e de vistoria indireta quando o morador se recusa, e como avaliar o estado do bem com segurança no Rio de Janeiro.',
+      readTime: `12 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Leilões Imobiliários',
+      date: '28 Jul, 2026',
+      dateIso: '2026-07-28',
+      image: visitaLeilaoImage,
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Uma das dúvidas mais angustiantes e frequentes entre investidores e compradores de primeira viagem que pretendem adquirir bens em praça pública no Rio de Janeiro é: <strong>"É possível visitar um imóvel de leilão antes de dar o lance?"</strong> O receio de arrematar um apartamento ou casa "no escuro" — sem conhecer as reais condições de conservação do ambiente interno, estado de revestimentos, instalações hidráulicas e elétricas — leva muitas pessoas a hesitarem diante de excelentes oportunidades com até 50% de desconto sobre o valor de mercado.
+          </p>
+
+          <p>
+            A resposta curta é: <strong>sim, teoricamente é possível, mas na prática a visitação presencial interna depende diretamente da modalidade do leilão (judicial ou extrajudicial) e do status de ocupação do imóvel</strong>. Quando o bem encontra-se ocupado pelo devedor executado ou por inquilinos resistentes, o acesso físico ao interior nem sempre é concedido espontaneamente. No entanto, a impossibilidade de entrar no imóvel antes do leilão não deve ser um fator impeditivo para a arrematação, desde que o arrematante adote técnicas eficientes de avaliação indireta e conte com uma assessoria jurídica especializada em leilões imobiliários.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">1. Como Funciona a Visitação de Acordo com a Modalidade do Leilão</h2>
+          <p>
+            Para compreender seus direitos e as limitações de acesso, é fundamental distinguir a dinâmica da visitação nos dois tipos principais de hasta pública:
+          </p>
+          
+          <h3 className="text-white text-xl font-serif mt-4">Leilão Judicial (Execuções de Condomínio, IPTU, Trabalhistas e Cíveis)</h3>
+          <p>
+            No leilão judicial, o imóvel está vinculado a um processo movido perante o Poder Judiciário (como o TJRJ ou TRT). O Código de Processo Civil (CPC), em seu artigo 886, estipula que o edital de leilão deve especificar o estado de conservação e o status da posse do bem. Quando o imóvel está desocupado, o leiloeiro oficial designado pelo juiz pode agendar datas específicas para que os interessados visitem o local acompanhados do Leiloeiro ou de um depositário fiel.
+          </p>
+          <p>
+            Todavia, quando o devedor reside no imóvel, ele frequentemente recusa a entrada de terceiros. Embora o juízo possa expedir mandado determinando a facilitação da visitação, a imposição forçada antes do leilão é rara, uma vez que a Constituição Federal garante a inviolabilidade do domicílio (art. 5º, XI da CF/88) até a consolidação da arrematação e expedição da Carta de Arrematação.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-4">Leilão Extrajudicial (Bancos, Caixa Econômica, Alienação Fiduciária)</h3>
+          <p>
+            Nos leilões promovidos por instituições financeiras (Caixa Econômica, Bradesco, Itaú, Santander) com base na Lei nº 9.514/97:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-text-muted">
+            <li><strong>Imóvel Vago:</strong> Se o imóvel já foi desocupado ou retomado pelo banco, a chave geralmente fica sob guarda da imobiliária credenciada ou do leiloeiro, tornando a visitação simples e rápida mediante agendamento prévio.</li>
+            <li><strong>Imóvel Ocupado pelo Ex-Mutuário:</strong> O banco coloca o imóvel à venda no estado em que se encontra ("ad corpus"). A visitação depende da permissão amigável do ocupante. Caso ele se recuse a abrir a porta, a instituição financeira não garante a visitação interna prévia ao lance.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">2. O que Fazer Quando o Ocupante se Recusa a Permitir a Entrada?</h2>
+          <p>
+            Tentar forçar a entrada por conta própria, coagir o morador, invadir a propriedade ou criar constrangimentos no corredor do condomínio é um erro grave. Atitudes agressivas violam a legislação penal (exercício arbitrário das próprias razões e violação de domicílio) e podem comprometer a futura transição amigável do imóvel pós-arrematação.
+          </p>
+          <p>
+            O caminho correto diante da recusa do morador envolve o uso de estratégias indiretas de investigação de campo e inteligência imobiliária, combinadas com a análise jurídica do processo.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">3. Estratégias Práticas de Avaliação Indireta (A Vistoria de Campo)</h2>
+          <p>
+            Mesmo sem colocar os pés dentro do apartamento ou da casa, o comprador e seus assessores jurídicos podem obter um diagnóstico extremamente preciso do estado do imóvel através das seguintes metodologias:
+          </p>
+          <ol className="list-decimal pl-6 space-y-3 text-text-muted">
+            <li>
+              <strong className="text-white">Análise do Laudo de Avaliação Judicial:</strong> Nos leilões judiciais, o Oficial de Justiça Avaliador ou um perito engenheiro nomeado pelo juiz esteve no imóvel e elaborou um laudo detalhado. Esse documento costuma conter fotos detalhadas da fachada, cômodos, estado de conservação, padrão de acabamento e metragem real.
+            </li>
+            <li>
+              <strong className="text-white">Vistoria Externa e Vizinhança:</strong> Visitar o bairro (seja em Copacabana, Barra da Tijuca, Recreio, Botafogo ou Tijuca), examinar a conservação da fachada, esquadrias das janelas, varanda e garagens do edifício dá fortes indícios sobre a manutenção predial geral.
+            </li>
+            <li>
+              <strong className="text-white">Entrevista com o Síndico e Portaria:</strong> Uma conversa respeitosa com a administração do condomínio revela informações preciosas: se o morador é zeloso, se há reclamações de infiltração na unidade inferior, histórico de reformas executadas e até o padrão dos moradores anteriores.
+            </li>
+            <li>
+              <strong className="text-white">Consulta à Planta Baixa e Construtora:</strong> Pesquisar a planta original do condomínio permite identificar a disposição dos cômodos, prumadas hidráulicas e possibilidade de futuras modulações arquitetônicas após a entrega da posse.
+            </li>
+          </ol>
+
+          {/* Dica de Ouro Box */}
+          <div className="bg-gradient-to-r from-bronze/20 to-bronze/5 border-l-4 border-bronze p-6 rounded-r-lg my-8">
+            <h3 className="text-bronze font-bold text-lg mb-2 flex items-center gap-2">
+              💡 Dica de Ouro Soares Martins Advogados: A Regra da Margem de Segurança para Reforma
+            </h3>
+            <p className="text-text-muted text-sm leading-relaxed">
+              Como não foi possível realizar a vistoria interna prévia, considere no seu plano financeiro o <strong>cenário de reforma integral do imóvel</strong>. Calcule um custo estimado de R$ 1.000,00 a R$ 1.800,00 por metro quadrado para refazer pintura, pisos, banheiros e instalações elétricas/hidráulicas. Abata esse montante total da sua margem de teto máximo de lance. Se ao entrar no imóvel ele estiver em bom estado de conservação, esse valor reservado converter-se-á em lucro direto adicional no seu investimento!
+            </p>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">4. Estudo de Caso Prático: Arrematação no Recreio dos Bandeirantes sem Visita Interna</h2>
+          <p>
+            Um cliente da assessoria imobiliária do <strong>Soares Martins Advogados</strong> interessou-se por um apartamento de 120m² localizado no Recreio dos Bandeirantes, avaliado judicialmente em R$ 900.000,00, levado a leilão por dívida condominial. O ocupante (antigo proprietário) se recusou categoricamente a permitir a entrada de qualquer interessado.
+          </p>
+          <p>
+            Nossa equipe realizou a auditoria completa do processo e da matriz do imóvel no RGI. Efetuamos a vistoria externa e conversamos com o síndico, que confirmou que a estrutura predial estava intacta e que não havia vazamentos relatados nos vizinhos de baixo. Estimamos no cálculo econômico uma reserva preventiva de R$ 70.000,00 para eventuais reformas internas.
+          </p>
+          <p>
+            O cliente arrematou o bem em segundo leilão por R$ 490.000,00 (cerca de 54% do valor de avaliação). Após a expedição da Carta de Arrematação e a concessão da liminar de imissão na posse, ao ingressar no imóvel, constatou-se que o apartamento necessitava apenas de pintura e pequenos reparos hidráulicos, gastando somente R$ 18.000,00. O imóvel foi revendido 8 meses depois por R$ 880.000,00, gerando um retorno sobre o capital investido expressivo e totalmente seguro.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">5. Como Assumir a Posse Após Vencer o Leilão (Imissão na Posse)</h2>
+          <p>
+            Após o encerramento do leilão e a confirmação do pagamento do lance e das custas, o juízo expede a <strong>Carta de Arrematação</strong> juntamente com o <strong>Mandado de Imissão na Posse</strong>.
+          </p>
+          <p>
+            No leilão judicial, o próprio juiz do processo determina que o Oficial de Justiça cumpra o mandado de imissão na posse, intimando o ocupante para desocupar voluntariamente em prazo que varia de 15 a 30 dias. Caso haja resistência injustificada, é autorizada a desocupação compulsória com auxílio de força policial e arrombamento para imissão do arrematante na posse plena do imóvel.
+          </p>
+          <p>
+            Nos leilões extrajudiciais fiduciários (Lei nº 9.514/97), caso o devedor não entregue as chaves amigavelmente, o advogado do arrematante ajuíza a Ação de Imissão na Posse com pedido de liminar (art. 30 da referida lei), prevendo a concessão da ordem para desocupação no prazo improrrogável de 60 dias.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Leituras Recomendadas e Artigos Relacionados</h2>
+          <p>
+            Para dominar todos os aspectos da arrematação de imóveis em leilão no Rio de Janeiro, recomendamos a leitura de nossos artigos especializados:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-text-muted">
+            <li>
+              <Link to="/blog/como-analisar-imovel-em-leilao-antes-de-dar-um-lance-guia-completo/" className="text-bronze hover:underline font-semibold">
+                Como Analisar um Imóvel em Leilão Antes de Dar um Lance (Guia Completo de Due Diligence)
+              </Link> - Passo a passo para examinar editais, certidões e matrícula no RGI.
+            </li>
+            <li>
+              <Link to="/blog/quais-dividas-acompanham-imovel-adquirido-em-leilao/" className="text-bronze hover:underline font-semibold">
+                Quais Dívidas Acompanham o Imóvel Adquirido em Leilão? (IPTU, Condomínio e Hipotecas)
+              </Link> - Entenda como o art. 130 do CTN e a jurisprudência protegem o arrematante.
+            </li>
+            <li>
+              <Link to="/services/direito-imobiliario/" className="text-bronze hover:underline font-semibold">
+                Nossos Serviços em Direito Imobiliário e Leilões
+              </Link> - Conheça a assessoria jurídica completa prestada pelo escritório Soares Martins Advogados.
+            </li>
+            <li>
+              <Link to="/blog/cobranca-judicial-inadimplente-condominio-rj/" className="text-bronze hover:underline font-semibold">
+                Cobrança Judicial de Inadimplentes em Condomínios no RJ
+              </Link> - Como funcionam os processos que geram os leilões de imóveis residenciais e comerciais.
+            </li>
+          </ul>
+
+          {/* Chamada para Ação (CTA) */}
+          <div className="bg-card-bg border border-bronze/30 p-8 rounded-lg text-center mt-10 my-8">
+            <h3 className="text-white text-2xl font-serif mb-3">Quer Arrematar um Imóvel em Leilão no RJ com Segurança Total?</h3>
+            <p className="text-text-muted text-sm max-w-2xl mx-auto mb-6">
+              A equipe de advogados especialistas em Direito Imobiliário e Leilões do <strong>Soares Martins Advogados</strong> realiza a auditoria jurídica minuciosa do edital e processo, projeta a margem de reforma com segurança e conduz a imissão na posse de forma rápida e eficiente.
+            </p>
+            <ul className="text-text-muted text-xs text-left max-w-xl mx-auto space-y-2 mb-6 list-disc pl-5">
+              <li>Elaboração de Parecer Prévio de Viabilidade Legal e Econômica.</li>
+              <li>Acompanhamento presencial e virtual nos leilões judiciais e extrajudiciais.</li>
+              <li>Ajuizamento de Ação de Imissão na Posse com pedido liminar.</li>
+              <li>Negociação amigável e desocupação de imóveis ocupados no Rio de Janeiro.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Envie uma mensagem em nosso formulário</Link> ou entre em contato direto pelo WhatsApp (21) 97954-9241 para agendar um atendimento especializado.
+            </p>
+          </div>
+
+          {/* FAQ com 10 Perguntas e Respostas */}
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Visitação e Ocupação em Leilões de Imóveis (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Posso invadir ou forçar a entrada em um imóvel de leilão se ele estiver ocupado?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. Entrar no imóvel sem autorização do morador antes da desocupação formal constitui crime de violação de domicílio (art. 150 do Código Penal). A posse deve ser obtida exclusivamente através de ordem judicial (Mandado de Imissão na Posse).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O leiloeiro oficial é obrigado a agendar uma visita interna no imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">O leiloeiro deve facilitar a visitação quando o imóvel estiver desocupado ou quando houver colaboração do devedor/fiel depositário. Todavia, ele não tem o poder de forçar a abertura de um imóvel ocupado por morador resistente antes do leilão.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Como conseguir fotos ou saber o estado interno de um imóvel de leilão judicial?</h4>
+                <p className="text-text-muted text-xs mt-1">Examine o Laudo de Avaliação juntado ao processo judicial pelo Oficial de Justiça ou Perito Avaliador. Esse documento traz fotos internas, descrição de cômodos, acabamentos e vícios aparentes observados durante a vistoria judicial.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O que é o laudo de avaliação judicial e quão confiável ele é?</h4>
+                <p className="text-text-muted text-xs mt-1">Trata-se do documento elaborado por um auxiliar da Justiça nomeado pelo juiz para determinar o valor de mercado do bem. É altamente confiável e traz a fé pública do avaliador, servindo como base técnica essencial para a análise do interessado.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. Nos leilões da Caixa Econômica ou outros bancos, é possível pegar as chaves para visitar?</h4>
+                <p className="text-text-muted text-xs mt-1">Se o imóvel constar na lista de imóveis desocupados ("vagos") retidos pelo banco, a chave estará disponível com a imobiliária/corretor credenciado. Se o imóvel constar como ocupado, a visitação depende da anuência do atual morador.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Quanto tempo demora para desocupar um imóvel após arrematar no leilão?</h4>
+                <p className="text-text-muted text-xs mt-1">Em leilões judiciais e extrajudiciais com acompanhamento advocatício ágil, a imissão na posse costuma ocorrer entre 30 e 90 dias após a expedição da Carta de Arrematação e concessão da liminar, dependendo do cumprimento pelo Oficial de Justiça.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Se o morador danificar o imóvel entre o leilão e a imissão na posse, o que pode ser feito?</h4>
+                <p className="text-text-muted text-xs mt-1">O morador responde civil e penalmente por dano ao patrimônio alheio e esbulho possessório. O arrematante pode registrar Boletim de Ocorrência policial e ajuizar Ação de Indenização por Perdas e Danos contra o causador das depredações.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Posso tentar uma conversa amigável com o morador ocupante antes do leilão?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, desde que a abordagem seja extremamente cortês e sem intimidações. Em muitos casos, o diálogo diplomático permite entender a situação do morador e até combinar um auxílio-mudança amigável após a arrematação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. Como calcular a margem de segurança para reformas ao arrematar sem visitação?</h4>
+                <p className="text-text-muted text-xs mt-1">Sempre preveja um custo teto de reforma equivalente a 10% a 15% do valor do imóvel (ou estimativa por m² de reforma total) e subtraia esse valor da sua proposta máxima de teto de lance no leilão.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Como o escritório Soares Martins Advogados atua na avaliação de risco e imissão na posse?</h4>
+                <p className="text-text-muted text-xs mt-1">Nossa equipe realiza auditoria preventiva do processo, orienta na investigação indireta do bem, elabora os cálculos econômico-jurídicos de lance teto e ajuíza imediatamente os pedidos liminares de imissão na posse para rápida entrega do imóvel.</p>
               </div>
             </div>
           </div>

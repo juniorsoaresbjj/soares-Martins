@@ -215,6 +215,58 @@ export const translations = {
           }
         ]
       },
+      'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro': {
+        h1: 'Assessoria Jurídica em Leilões Judiciais de Imóveis no Rio de Janeiro',
+        h2: 'Análise de Risco de Edital, Due Diligence Processual e Segurança Jurídica',
+        sections: [
+          {
+            h2: 'O que é a Assessoria Jurídica em Leilões de Imóveis',
+            p: 'A assessoria jurídica em leilões judiciais e extrajudicialis de imóveis consiste em auditoria preventiva voltada a compradores e investidores interessados na aquisição de imóveis residenciais e comerciais. Atuamos no Rio de Janeiro com foco no exame minucioso da viabilidade jurídica do edital, identificação de potenciais vícios de intimação, verificação de penhoras e análise de pendências judiciais que possam impactar o resultado da arrematação.'
+          },
+          {
+            h2: 'Como Funciona Nosso Suporte Jurídico de Ponta a Ponta',
+            p: 'A atuação advocatícia contempla o suporte técnico em todas as etapas do procedimento de leilão: desde o exame prévio das oportunidades em praça pública, análise da Certidão de Ônus Reais (RGI) e elaboração de parecer de viabilidade com estimativa de custos tributários e cartorários, até o acompanhamento da arrematação, expedição da carta de arrematação e requerimento judicial de imissão na posse.'
+          },
+          {
+            h2: 'Metodologia de Due Diligence em 4 Etapas Essenciais',
+            p: 'Adotamos metodologia de due diligence estruturada em etapas essenciais: 1) Exame do Edital: verificação dos requisitos legais e regularidade das intimações do executado, cônjuge, credores com garantia real e coproprietários; 2) Auditoria do Processo de Origem: verificação de nulidades processuais, recursos pendentes e eventuais impugnações; 3) Mapeamento de Débitos Propter Rem: levantamento de débitos condominiais e tributários (IPTU), observando o disposto no art. 130 do CTN e a jurisprudência dos Tribunais Superiores; 4) Elaboração de Parecer Técnico: relatório fundamentado com análise objetiva dos riscos envolvidos.'
+          },
+          {
+            h2: 'Diferenças Entre Leilão Judicial e Leilão Extrajudicial',
+            p: 'No leilão judicial, a alienação ocorre por determinação do Poder Judiciário em processos de execução, cobrança condominial, falências ou execuções fiscais. No leilão extrajudicial (regido pela Lei nº 9.514/97 e legislação aplicável), a alienação decorre da consolidação da propriedade em razão do inadimplemento fiduciário. Ambas as modalidades demandam procedimentos técnicos adequados para o cancelamento de ônus, penhoras e averbações no Cartório de Registro de Imóveis competente.'
+          },
+          {
+            h2: 'Principais Riscos Mitigados Pela Auditoria Preventiva',
+            p: 'A participação em leilões sem prévio exame jurídico abrange riscos como a anulação do ato por falha nas intimações, responsabilidade por débitos condominiais não previstos no edital ou entraves processuais na imissão da posse. O suporte especializado visa mitigar tais riscos mediante avaliação preventiva e fundamentada das condições do certame.'
+          },
+          {
+            h2: 'Imissão Judicial na Posse e Acompanhamento Processual',
+            p: 'Com a expedição da carta de arrematação e do mandado de imissão na posse, a atuação prossegue nos autos processuais com os requerimentos cabíveis para a desocupação do imóvel e a efetiva entrega das chaves, observando rigorosamente os ritos e prazos fixados pelo Código de Processo Civil.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'O arrematante responde por dívidas antigas de condomínio e IPTU do imóvel leiloado?',
+            a: 'Nos leilões judiciais, os débitos de IPTU e taxas sub-rogam-se sobre o respectivo preço, conforme prevê o art. 130 do Código Tributário Nacional (CTN). Em relação aos débitos condominiais, a responsabilidade do arrematante depende da previsão expressa no edital de leilão, prevalecendo na omissão deste o entendimento jurisprudencial de que as dívidas anteriores devem ser satisfeitas pelo produto da arrematação.'
+          },
+          {
+            q: 'Quanto tempo leva para conseguir a imissão na posse do imóvel arrematado no RJ?',
+            a: 'Após a expedição e registro da carta de arrematação, o mandado de imissão na posse é postulado no próprio processo judicial. O prazo para a efetiva entrega do bem varia conforme a dinâmica da vara judicial responsável e as circunstâncias do caso, sendo acompanhado continuamente até a conclusão do ato.'
+          },
+          {
+            q: 'O que acontece se o devedor interpor embargos ou recurso contra a arrematação?',
+            a: 'Eventuais impugnações ou recursos interpostos pelo executado são apreciados pelo Poder Judiciário à luz das regras formais do Código de Processo Civil. A realização prévia de due diligence busca averiguar a regularidade dos atos processuais e das intimações, permitindo uma avaliação técnica sobre a estabilidade do procedimento.'
+          },
+          {
+            q: 'É possível apresentar proposta para aquisição parcelada em leilão judicial?',
+            a: 'O art. 895 do Código de Processo Civil faculta a apresentação de proposta para aquisição parcelada de imóvel em leilão judicial, observadas as exigências legais (sinal mínimo de 25% e saldo em até 30 parcelas, garantido por hipoteca sobre o próprio bem). Avaliam-se as disposições do edital para a formalização da proposta no prazo legal.'
+          },
+          {
+            q: 'Como solicitar a análise jurídica prévia de um edital de leilão?',
+            a: 'O interessado pode encaminhar o número do processo ou o link da praça pública para atendimento. O escritório realiza o levantamento das peças relevantes e certidões para elaboração de parecer jurídico fundamentado antes da realização do leilão.'
+          }
+        ]
+      },
       'direito-condominial': {
         h1: 'Direito Condominial',
         h2: 'Compliance Condominial e Governança',
@@ -545,22 +597,106 @@ export const translations = {
     },
     service_content: {
       'assessoria-leiloes-judiciais': {
-        h1: 'Asesoría Jurídica en Subastas Judiciales de Inmuebles',
-        h2: 'Análisis Jurídico Especializado y Adjudicación Segura',
+        h1: 'Asesoría Jurídica en Subastas Judiciales de Inmuebles en Río de Janeiro',
+        h2: 'Análisis de Riesgo de Edictos, Due Diligence Procesal y Seguridad Jurídica',
         sections: [
           {
-            h2: 'Qué es la asesoría jurídica en subastas',
-            p: 'La asesoría jurídica en subastas judiciales es una auditoría técnica estratégica para compradores e inversores que buscan adquirir inmuebles por debajo del valor de mercado con total seguridad jurídica.'
+            h2: 'Qué es la Asesoría Jurídica en Subastas de Inmuebles',
+            p: 'La asesoría jurídica en subastas judiciales y extrajudiciales de inmuebles consiste en una auditoría preventiva orientada a compradores e inversores interesados en la adquisición de inmuebles residenciales y comerciales. Actuamos en Río de Janeiro con enfoque en el examen minucioso de la viabilidad jurídica del edicto, identificación de potenciales vicios de notificación, verificación de embargos y análisis de litigios pendientes que puedan impactar el resultado de la adjudicación.'
           },
           {
-            h2: 'Cómo funciona nuestro acompañamiento',
-            p: 'Acompañamos desde la selección de oportunidades, análisis documental previo, cálculo de costos hasta la adjudicación, posesión y desocupación del inmueble en Río de Janeiro.'
+            h2: 'Cómo Funciona Nuestro Soporte Jurídico Integral',
+            p: 'Nuestra actuación abarca el soporte técnico en todas las etapas del procedimiento de subasta: desde el examen previo de oportunidades en plaza pública, análisis del Certificado de Cargas Reales (RGI) y elaboración de dictámenes de viabilidad con estimación de costos tributarios y notariales, hasta el seguimiento de la adjudicación, expedición del título e imisión en la posesión.'
+          },
+          {
+            h2: 'Metodología de Due Diligence en 4 Etapas Esenciales',
+            p: 'Adoptamos una metodología de due diligence estructurada en 4 etapas: 1) Examen del Edicto: verificación de requisitos legales y notificaciones válidas; 2) Auditoría del Proceso de Origen: verificación de nulidades procesales y recursos pendientes; 3) Mapeo de Deudas Propter Rem: levantamiento de deudas de condominio e impuestos (IPTU); 4) Elaboración de Dictamen Técnico: reporte fundamentado de riesgos.'
+          },
+          {
+            h2: 'Diferencias Entre Subasta Judicial y Subasta Extrajudicial',
+            p: 'En la subasta judicial, la enajenación ocurre por orden judicial en ejecuciones, cobro de condominio o ejecuciones fiscales. En la subasta extrajudicial (Ley 9.514/97), la enajenación deriva de la consolidación de la propiedad por impago fiduciario. Ambas exigen procedimientos técnicos para la cancelación de cargas y embargos en el Registro de la Propiedad.'
+          },
+          {
+            h2: 'Principales Riesgos Mitigados Por la Auditoría Preventiva',
+            p: 'La participación en subastas sin examen previo abarca riesgos como la anulación del acto por fallas en las notificaciones, responsabilidad por deudas de condominio no previstas en el edicto o trabas procesales en la imisión de la posesión.'
+          },
+          {
+            h2: 'Imisión Judicial en la Posesión y Seguimiento Procesal',
+            p: 'Con la expedición de la carta de adjudicación y la orden de imisión en la posesión, la actuación prosigue en los autos procesales con las solicitudes correspondientes para la desocupación del inmueble y entrega de llaves.'
           }
         ],
         faqs: [
           {
-            q: '¿Responde el adjudicatario por deudas anteriores de condominio e impuestos?',
-            a: 'En las subastas judiciales, las deudas tributarias se subrogan en el precio. Respecto a las deudas de condominio, depende del edicto, por lo que la revisión previa es indispensable.'
+            q: '¿Responde el adjudicatario por deudas anteriores de condominio e IPTU del inmueble subastado?',
+            a: 'En las subastas judiciales, las deudas de IPTU se subrogan sobre el precio de adjudicación (art. 130 del CTN). En cuanto a las deudas de condominio, la responsabilidad depende de la previsión expresa en el edicto de subasta.'
+          },
+          {
+            q: '¿Cuánto tiempo lleva obtener la imisión en la posesión del inmueble en RJ?',
+            a: 'Tras la expedición e inscripción del título de adjudicación, la orden de imisión se solicita en el propio proceso judicial. El plazo varía según la dinámica del juzgado y se acompaña continuamente.'
+          },
+          {
+            q: '¿Qué sucede si el deudor interpone recursos contra la adjudicación?',
+            a: 'Las impugnaciones o recursos son evaluados por el Poder Judicial según las reglas del Código de Procedimiento Civil. La due diligence previa verifica la regularidad de los actos y notificaciones.'
+          },
+          {
+            q: '¿Es posible presentar propuestas para adquisición a plazos en subastas judiciales?',
+            a: 'El art. 895 del CPC permite presentar propuestas para compra a plazos (mínimo 25% de entrada y saldo hasta en 30 cuotas garantizadas por hipoteca sobre el mismo bien).'
+          },
+          {
+            q: '¿Cómo solicitar un análisis jurídico previo de un edicto de subasta?',
+            a: 'Puede enviar el número de proceso o el enlace de la subasta. El despacho realiza el levantamiento de piezas relevantes y certificados para elaborar un dictamen jurídico fundamentado.'
+          }
+        ]
+      },
+      'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro': {
+        h1: 'Asesoría Jurídica en Subastas Judiciales de Inmuebles en Río de Janeiro',
+        h2: 'Análisis de Riesgo de Edictos, Due Diligence Procesal y Seguridad Jurídica',
+        sections: [
+          {
+            h2: 'Qué es la Asesoría Jurídica en Subastas de Inmuebles',
+            p: 'La asesoría jurídica en subastas judiciales y extrajudiciales de inmuebles consiste en una auditoría preventiva orientada a compradores e inversores interesados en la adquisición de inmuebles residenciales y comerciales. Actuamos en Río de Janeiro con enfoque en el examen minucioso de la viabilidad jurídica del edicto, identificación de potenciales vicios de notificación, verificación de embargos y análisis de litigios pendientes que puedan impactar el resultado de la adjudicación.'
+          },
+          {
+            h2: 'Cómo Funciona Nuestro Soporte Jurídico Integral',
+            p: 'Nuestra actuación abarca el soporte técnico en todas las etapas del procedimiento de subasta: desde el examen previo de oportunidades en plaza pública, análisis del Certificado de Cargas Reales (RGI) y elaboración de dictámenes de viabilidad con estimación de costos tributarios y notariales, hasta el seguimiento de la adjudicación, expedición del título e imisión en la posesión.'
+          },
+          {
+            h2: 'Metodología de Due Diligence en 4 Etapas Esenciales',
+            p: 'Adoptamos una metodología de due diligence estructurada en 4 etapas: 1) Examen del Edicto: verificación de requisitos legales y notificaciones válidas; 2) Auditoría del Proceso de Origen: verificación de nulidades procesales y recursos pendientes; 3) Mapeo de Deudas Propter Rem: levantamiento de deudas de condominio e impuestos (IPTU); 4) Elaboración de Dictamen Técnico: reporte fundamentado de riesgos.'
+          },
+          {
+            h2: 'Diferencias Entre Subasta Judicial y Subasta Extrajudicial',
+            p: 'En la subasta judicial, la enajenación ocurre por orden judicial en ejecuciones, cobro de condominio o ejecuciones fiscales. En la subasta extrajudicial (Ley 9.514/97), la enajenación deriva de la consolidación de la propiedad por impago fiduciario. Ambas exigen procedimientos técnicos para la cancelación de cargas y embargos en el Registro de la Propiedad.'
+          },
+          {
+            h2: 'Principales Riesgos Mitigados Por la Auditoría Preventiva',
+            p: 'La participación en subastas sin examen previo abarca riesgos como la anulação del acto por fallas en las notificaciones, responsabilidad por deudas de condominio no previstas en el edicto o trabas procesales en la imisión de la posesión.'
+          },
+          {
+            h2: 'Imisión Judicial en la Posesión y Seguimiento Procesal',
+            p: 'Con la expedición de la carta de adjudicación y la orden de imisión en la posesión, la actuación prosigue en los autos procesales con las solicitudes correspondientes para la desocupación del inmueble y entrega de llaves.'
+          }
+        ],
+        faqs: [
+          {
+            q: '¿Responde el adjudicatario por deudas anteriores de condominio e IPTU del inmueble subastado?',
+            a: 'En las subastas judiciales, las deudas de IPTU se subrogan sobre el precio de adjudicación (art. 130 del CTN). En cuanto a las deudas de condominio, la responsabilidad depende de la previsión expresa en el edicto de subasta.'
+          },
+          {
+            q: '¿Cuánto tiempo lleva obtener la imisión en la posesión del inmueble en RJ?',
+            a: 'Tras la expedición e inscripción del título de adjudicación, la orden de imisión se solicita en el propio proceso judicial. El plazo varía según la dinámica del juzgado y se acompaña continuamente.'
+          },
+          {
+            q: '¿Qué sucede si el deudor interpone recursos contra la adjudicación?',
+            a: 'Las impugnaciones o recursos son evaluados por el Poder Judicial según las reglas del Código de Procedimiento Civil. La due diligence previa verifica la regularidad de los actos y notificaciones.'
+          },
+          {
+            q: '¿Es posible presentar propuestas para adquisición a plazos en subastas judiciales?',
+            a: 'El art. 895 del CPC permite presentar propuestas para compra a plazos (mínimo 25% de entrada y saldo hasta en 30 cuotas garantizadas por hipoteca sobre el mismo bien).'
+          },
+          {
+            q: '¿Cómo solicitar un análisis jurídico previo de un edicto de subasta?',
+            a: 'Puede enviar el número de proceso o el enlace de la subasta. El despacho realiza el levantamiento de piezas relevantes y certificados para elaborar un dictamen jurídico fundamentado.'
           }
         ]
       }
@@ -780,18 +916,106 @@ export const translations = {
     },
     service_content: {
       'assessoria-leiloes-judiciais': {
-        h1: 'Legal Consulting for Real Estate Judicial Auctions',
-        h2: 'Specialized Legal Analysis and Safe Bidding',
+        h1: 'Legal Consulting for Real Estate Judicial Auctions in Rio de Janeiro',
+        h2: 'Auction Notice Risk Analysis, Procedural Due Diligence and Legal Safety',
         sections: [
           {
-            h2: 'What is judicial auction consulting',
-            p: 'Legal consulting for real estate judicial auctions is a strategic technical audit for buyers and investors seeking property acquisition below market value with total legal safety.'
+            h2: 'What is Legal Consulting for Real Estate Auctions',
+            p: 'Legal consulting for judicial and extrajudicial real estate auctions is a preventive audit aimed at buyers and investors interested in acquiring residential and commercial properties. We operate in Rio de Janeiro focusing on meticulous examination of auction notice legal feasibility, identification of notice defects, verification of liens, and analysis of pending lawsuits.'
+          },
+          {
+            h2: 'How Our End-to-End Legal Support Works',
+            p: 'Our legal work covers technical support in all auction procedure stages: from prior opportunity analysis, review of Title Deed Certificates (RGI), and feasibility reports with tax/notary estimates, to bidding monitoring, deed issuance, and writ of possession.'
+          },
+          {
+            h2: 'Due Diligence Methodology in 4 Essential Steps',
+            p: 'We adopt a structured due diligence methodology: 1) Notice Examination: verifying legal requirements and valid summons; 2) Case Audit: checking procedural nullities and pending appeals; 3) Propter Rem Debt Mapping: auditing condo fees and property tax (IPTU) liabilities; 4) Technical Report Preparation: comprehensive risk report.'
+          },
+          {
+            h2: 'Differences Between Judicial and Extrajudicial Auctions',
+            p: 'In judicial auctions, sale occurs by court order in enforcement lawsuits, condo fee collections, or tax executions. In extrajudicial auctions (Law 9,514/97), sale stems from property consolidation due to fiduciary default. Both require proper technical procedures to clear liens in the Land Registry.'
+          },
+          {
+            h2: 'Main Risks Mitigated by Preventive Audit',
+            p: 'Bidding without prior legal examination carries risks such as auction annulment due to notification flaws, liability for unlisted condo fee debts, or procedural delays in acquiring possession.'
+          },
+          {
+            h2: 'Writ of Possession and Procedural Follow-up',
+            p: 'Upon issuance of the auction deed and writ of possession, legal proceedings continue in court for property eviction and key handover in compliance with the Code of Civil Procedure.'
           }
         ],
         faqs: [
           {
             q: 'Is the buyer responsible for previous condo and property tax debts?',
-            a: 'In judicial auctions, tax debts subrogate to the bidding price. Condo fee liabilities depend on the auction notice, making prior audit essential.'
+            a: 'In judicial auctions, property tax (IPTU) debts subrogate to the bidding price (art. 130 of Tax Code). Condo fee liabilities depend on the explicit terms of the auction notice.'
+          },
+          {
+            q: 'How long does it take to obtain possession of the auctioned property in RJ?',
+            a: 'After issuance and registration of the auction deed, the writ of possession is requested in the lawsuit. Timeline depends on court dynamics and is actively monitored.'
+          },
+          {
+            q: 'What happens if the debtor files appeals against the auction?',
+            a: 'Appeals or objections filed by the debtor are reviewed by courts according to Civil Procedure rules. Prior due diligence assesses procedural validity and stability.'
+          },
+          {
+            q: 'Is installment buying allowed in judicial auctions?',
+            a: 'Article 895 of Civil Procedure Code allows installment proposals (minimum 25% down payment and up to 30 monthly installments secured by mortgage on the property).'
+          },
+          {
+            q: 'How to request a prior legal audit for an auction notice?',
+            a: 'You can share the case number or auction link. The firm collects relevant court documents and certificates to issue a grounded legal opinion before bidding.'
+          }
+        ]
+      },
+      'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro': {
+        h1: 'Legal Consulting for Real Estate Judicial Auctions in Rio de Janeiro',
+        h2: 'Auction Notice Risk Analysis, Procedural Due Diligence and Legal Safety',
+        sections: [
+          {
+            h2: 'What is Legal Consulting for Real Estate Auctions',
+            p: 'Legal consulting for judicial and extrajudicial real estate auctions is a preventive audit aimed at buyers and investors interested in acquiring residential and commercial properties. We operate in Rio de Janeiro focusing on meticulous examination of auction notice legal feasibility, identification of notice defects, verification of liens, and analysis of pending lawsuits.'
+          },
+          {
+            h2: 'How Our End-to-End Legal Support Works',
+            p: 'Our legal work covers technical support in all auction procedure stages: from prior opportunity analysis, review of Title Deed Certificates (RGI), and feasibility reports with tax/notary estimates, to bidding monitoring, deed issuance, and writ of possession.'
+          },
+          {
+            h2: 'Due Diligence Methodology in 4 Essential Steps',
+            p: 'We adopt a structured due diligence methodology: 1) Notice Examination: verifying legal requirements and valid summons; 2) Case Audit: checking procedural nullities and pending appeals; 3) Propter Rem Debt Mapping: auditing condo fees and property tax (IPTU) liabilities; 4) Technical Report Preparation: comprehensive risk report.'
+          },
+          {
+            h2: 'Differences Between Judicial and Extrajudicial Auctions',
+            p: 'In judicial auctions, sale occurs by court order in enforcement lawsuits, condo fee collections, or tax executions. In extrajudicial auctions (Law 9,514/97), sale stems from property consolidation due to fiduciary default. Both require proper technical procedures to clear liens in the Land Registry.'
+          },
+          {
+            h2: 'Main Risks Mitigated by Preventive Audit',
+            p: 'Bidding without prior legal examination carries risks such as auction annulment due to notification flaws, liability for unlisted condo fee debts, or procedural delays in acquiring possession.'
+          },
+          {
+            h2: 'Writ of Possession and Procedural Follow-up',
+            p: 'Upon issuance of the auction deed and writ of possession, legal proceedings continue in court for property eviction and key handover in compliance with the Code of Civil Procedure.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Is the buyer responsible for previous condo and property tax debts?',
+            a: 'In judicial auctions, property tax (IPTU) debts subrogate to the bidding price (art. 130 of Tax Code). Condo fee liabilities depend on the explicit terms of the auction notice.'
+          },
+          {
+            q: 'How long does it take to obtain possession of the auctioned property in RJ?',
+            a: 'After issuance and registration of the auction deed, the writ of possession is requested in the lawsuit. Timeline depends on court dynamics and is actively monitored.'
+          },
+          {
+            q: 'What happens if the debtor files appeals against the auction?',
+            a: 'Appeals or objections filed by the debtor are reviewed by courts according to Civil Procedure rules. Prior due diligence assesses procedural validity and stability.'
+          },
+          {
+            q: 'Is installment buying allowed in judicial auctions?',
+            a: 'Article 895 of Civil Procedure Code allows installment proposals (minimum 25% down payment and up to 30 monthly installments secured by mortgage on the property).'
+          },
+          {
+            q: 'How to request a prior legal audit for an auction notice?',
+            a: 'You can share the case number or auction link. The firm collects relevant court documents and certificates to issue a grounded legal opinion before bidding.'
           }
         ]
       },
