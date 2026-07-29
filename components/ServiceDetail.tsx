@@ -240,6 +240,50 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 161.000,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20405%20na%20Rua%20Haddock%20Lobo%20191%20na%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Leblon/RJ',
+        title: 'Leilão Judicial de Apartamento no Leblon na Rua General Urquiza nº 263 — Apto 402',
+        desc: 'Apartamento 402 com 40 m² no Edifício Palm Beach, construído em 1950, localizado na agradável quadra sem saída da Rua General Urquiza no Leblon. Matrícula nº 10.627 no 2º RGI e IPTU nº 0.565.962-8.',
+        p1Label: '1ª Praça (20/07/2026):',
+        p1Val: 'R$ 890.000,00',
+        p2Label: '2ª Praça (01/09/2026):',
+        p2Val: 'R$ 445.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20na%20Rua%20General%20Urquiza%20263%20no%20Leblon.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana na Rua Siqueira Campos nº 43 — Apto 1123',
+        desc: 'Apartamento 1123 com 38 m² de área edificada e posição de frente no Edifício Centro Comercial de Copacabana. Composto de banheiro com box de granito, cozinha e sala acopladas e quarto separado por móvel. Matrícula nº 5098 no 5º RGI e IPTU nº 0.686.319-5.',
+        p1Label: '1ª Praça (05/08/2026):',
+        p1Val: 'R$ 400.000,00',
+        p2Label: '2ª Praça (12/08/2026):',
+        p2Val: 'R$ 200.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201123%20na%20Rua%20Siqueira%20Campos%2043%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento em Botafogo na Rua Lauro Müller nº 36 — Apto 1411',
+        desc: 'Apartamento 1411 com 38 m² de área edificada e posição de fundos no Condomínio do Edifício Interpraias (1973). Prédio com portaria 24h, 3 elevadores e lazer na cobertura com chuveirão e churrasqueira. Imóvel desocupado há anos. Matrícula nº 11.881 no 3º RGI e IPTU nº 1.205.989-8.',
+        p1Label: '1ª Praça (15/05/2026):',
+        p1Val: 'R$ 520.000,00',
+        p2Label: '2ª Praça (21/07/2026):',
+        p2Val: 'R$ 260.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201411%20na%20Rua%20Lauro%20M%C3%BCller%2036%20em%20Botafogo.'
+      },
+      {
+        tag: 'Residencial • Gávea/RJ',
+        title: 'Leilão Judicial de Apartamento na Gávea — Rua Vice Governador Rubens Berardo nº 175 — Apto 506 Bl. III',
+        desc: 'Apartamento 506 com 84 m² de área edificada e direito a 2 vagas de garagem na Gávea (acesso também pela Av. Padre Leonel Franca 210). Composto de 2 quartos (1 suíte), banheiro social, sala, cozinha e dependência completa. Matrícula nº 31.349 no 2º RGI e IPTU nº 1.479.851-6.',
+        p1Label: '1ª Praça (14/09/2026):',
+        p1Val: 'R$ 1.686.801,06',
+        p2Label: '2ª Praça (24/09/2026):',
+        p2Val: 'R$ 843.401,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20506%20na%20G%C3%A1vea%20na%20Rua%20Vice%20Governador%20Rubens%20Berardo%20175.'
       }
     ]
   },
@@ -417,6 +461,50 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 161.000,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20405.'
+      },
+      {
+        tag: 'Residencial • Leblon/RJ',
+        title: 'Subasta Judicial de Apartamento en Leblon en Calle General Urquiza nº 263 — Apto 402',
+        desc: 'Apartamento 402 con 40 m² en el Edificio Palm Beach, construido en 1950, ubicado en el tramo residencial sin salida de la Calle General Urquiza en Leblon. Matrícula nº 10.627 no 2º RGI e IPTU nº 0.565.962-8.',
+        p1Label: '1ª Subasta (20/07/2026):',
+        p1Val: 'R$ 890.000,00',
+        p2Label: '2ª Subasta (01/09/2026):',
+        p2Val: 'R$ 445.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20402%20en%20Leblon.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana en Calle Siqueira Campos nº 43 — Apto 1123',
+        desc: 'Apartamento 1123 con 38 m² construidos, posición al frente en el Edificio Centro Comercial de Copacabana. Cuenta con baño con box de granito, sala/cocina integradas y dormitorio separado. Matrícula nº 5098 no 5º RGI e IPTU nº 0.686.319-5.',
+        p1Label: '1ª Subasta (05/08/2026):',
+        p1Val: 'R$ 400.000,00',
+        p2Label: '2ª Subasta (12/08/2026):',
+        p2Val: 'R$ 200.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201123%20en%20Siqueira%20Campos.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Botafogo en Calle Lauro Müller nº 36 — Apto 1411',
+        desc: 'Apartamento 1411 con 38 m² construidos, posición interior (fundos) en el Edificio Interpraias (1973). Edificio con seguridad 24h, 3 ascensores y área de ocio en la terraza con parrilla y ducha. Inmueble desocupado desde hace años. Matrícula nº 11.881 no 3º RGI e IPTU nº 1.205.989-8.',
+        p1Label: '1ª Subasta (15/05/2026):',
+        p1Val: 'R$ 520.000,00',
+        p2Label: '2ª Subasta (21/07/2026):',
+        p2Val: 'R$ 260.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201411%20en%20Botafogo.'
+      },
+      {
+        tag: 'Residencial • Gávea/RJ',
+        title: 'Subasta Judicial de Apartamento en Gávea — Calle Vice Governador Rubens Berardo nº 175 — Apto 506 Bl. III',
+        desc: 'Apartamento 506 con 84 m² construidos y 2 plazas de garaje en Gávea (acceso también por Av. Padre Leonel Franca 210). Consta de 2 dormitorios (1 suite), baño social, sala, cocina y dependencia de servicio. Matrícula nº 31.349 no 2º RGI e IPTU nº 1.479.851-6.',
+        p1Label: '1ª Subasta (14/09/2026):',
+        p1Val: 'R$ 1.686.801,06',
+        p2Label: '2ª Subasta (24/09/2026):',
+        p2Val: 'R$ 843.401,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20506%20en%20G%C3%A1vea.'
       }
     ]
   },
@@ -594,6 +682,50 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 161,000.00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20405.'
+      },
+      {
+        tag: 'Residential • Leblon/RJ',
+        title: 'Judicial Auction of Apartment in Leblon at General Urquiza St #263 — Apt 402',
+        desc: 'Apartment 402 with 40 sqm in Edifício Palm Beach, built in 1950, located on the quiet cul-de-sac block of General Urquiza St in Leblon. Title #10.627 at 2nd Registry and IPTU tax #0.565.962-8.',
+        p1Label: '1st Auction (07/20/2026):',
+        p1Val: 'R$ 890,000.00',
+        p2Label: '2nd Auction (09/01/2026):',
+        p2Val: 'R$ 445,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20402%20in%20Leblon.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment in Copacabana at Siqueira Campos St #43 — Apt 1123',
+        desc: 'Apartment 1123 with 38 sqm built area, front-facing in Edifício Centro Comercial de Copacabana. Features granite bathroom, open kitchen/living area, and partitioned bedroom. Title #5098 at 5th Registry and IPTU tax #0.686.319-5.',
+        p1Label: '1st Auction (08/05/2026):',
+        p1Val: 'R$ 400,000.00',
+        p2Label: '2nd Auction (08/12/2026):',
+        p2Val: 'R$ 200,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201123%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment in Botafogo at Lauro Müller St #36 — Apt 1411',
+        desc: 'Apartment 1411 with 38 sqm built area, rear-facing position in Edifício Interpraias (1973). Building with 24h security, 3 elevators, and rooftop leisure area with BBQ and shower. Vacant for years. Title #11.881 at 3rd Registry and IPTU tax #1.205.989-8.',
+        p1Label: '1st Auction (05/15/2026):',
+        p1Val: 'R$ 520,000.00',
+        p2Label: '2nd Auction (07/21/2026):',
+        p2Val: 'R$ 260,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201411%20in%20Botafogo.'
+      },
+      {
+        tag: 'Residential • Gávea/RJ',
+        title: 'Judicial Auction of Apartment in Gávea — Vice Governador Rubens Berardo St #175 — Apt 506 Bl. III',
+        desc: 'Apartment 506 with 84 sqm built area and 2 parking spaces in Gávea (entry also via Av. Padre Leonel Franca 210). Features 2 bedrooms (1 suite), guest bath, living room, kitchen, and maid room. Title #31.349 at 2nd Registry and IPTU tax #1.479.851-6.',
+        p1Label: '1st Auction (09/14/2026):',
+        p1Val: 'R$ 1,686,801.06',
+        p2Label: '2nd Auction (09/24/2026):',
+        p2Val: 'R$ 843,401.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20506%20in%20G%C3%A1vea.'
       }
     ]
   }

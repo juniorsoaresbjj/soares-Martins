@@ -27,6 +27,10 @@ import SilveiraMartinsAuctionPage from './components/SilveiraMartinsAuctionPage'
 import SilveiraMartins503AuctionPage from './components/SilveiraMartins503AuctionPage';
 import VoluntariosPatriaAuctionPage from './components/VoluntariosPatriaAuctionPage';
 import HaddockLoboAuctionPage from './components/HaddockLoboAuctionPage';
+import LeblonAuctionPage from './components/LeblonAuctionPage';
+import SiqueiraCamposAuctionPage from './components/SiqueiraCamposAuctionPage';
+import LauroMullerAuctionPage from './components/LauroMullerAuctionPage';
+import GaveaAuctionPage from './components/GaveaAuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -265,6 +269,18 @@ const AppContent: React.FC = () => {
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/" element={<HaddockLoboAuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405" element={<HaddockLoboAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/" element={<LeblonAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263" element={<LeblonAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/" element={<SiqueiraCamposAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43" element={<SiqueiraCamposAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36/" element={<LauroMullerAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36" element={<LauroMullerAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/" element={<GaveaAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175" element={<GaveaAuctionPage />} />
 
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />

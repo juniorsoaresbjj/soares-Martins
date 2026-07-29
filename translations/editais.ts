@@ -894,5 +894,297 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to reach the attorney?", a: "Message our team on WhatsApp." }
       ]
     }
+  },
+
+  // Leblon - Rua General Urquiza 263
+  'leblon-general-urquiza': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Leblon na Rua General Urquiza nº 263',
+      subtitle: 'Rua General Urquiza, nº 263, Apto 402 — Leblon, Rio de Janeiro/RJ | Edifício Palm Beach',
+      address: 'Rua General Urquiza, 263 - Apto 402 — Leblon, Rio de Janeiro - RJ',
+      p1Date: '20/07/2026 às 14:00h',
+      p2Date: '01/09/2026 às 13:03h',
+      process: '0023411-88.2021.8.19.0001',
+      court: '3ª Vara Cível da Comarca da Capital / TJRJ',
+      iptu: '0.565.962-8',
+      rgi: '10.627 (2º RGI/RJ)',
+      val: 'R$ 890.000,00',
+      p2Val: 'R$ 445.000,00',
+      description: 'Apartamento 402 com 40 m² no Edifício Palm Beach, construído em 1950, localizado na quadra final sem saída da Rua General Urquiza com escadaria de acesso à Rua Capitão César de Andrade no nobre bairro do Leblon.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é a avaliação do apartamento na Rua General Urquiza 263 no Leblon?", a: "O imóvel possui avaliação judicial de R$ 890.000,00. Na 2ª Praça, o lance mínimo é R$ 445.000,00 (50% do valor de avaliação)." },
+        { q: "Quais são as características do Edifício Palm Beach e da localização?", a: "Imóvel residencial com 40 m² de área edificada em prédio construído em 1950, situado na quadra final e reservada da Rua General Urquiza no Leblon." },
+        { q: "Como é realizada a auditoria jurídica deste leilão?", a: "Nosso escritório realiza due diligence completa da Matrícula 10.627 do 2º RGI, débitos de IPTU (0.565.962-8), processo de execução e dívidas de condomínio." },
+        { q: "Qual a oportunidade de investimento em um apartamento de 40m² no Leblon?", a: "O metro quadrado do Leblon é um dos mais valorizados do país. A aquisição por 50% do valor avaliado oferece margem excepcional de retorno para renda ou valorização." },
+        { q: "Como agendar consultoria para arrematação com segurança?", a: "Atendemos via WhatsApp ou no nosso escritório em Ipanema para apresentação de parecer jurídico prévio." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Leblon en Calle General Urquiza nº 263',
+      subtitle: 'Calle General Urquiza, nº 263, Apto 402 — Leblon, Río de Janeiro/RJ | Edificio Palm Beach',
+      address: 'Calle General Urquiza, 263 - Apto 402 — Leblon, Río de Janeiro - RJ',
+      p1Date: '20/07/2026 a las 14:00h',
+      p2Date: '01/09/2026 a las 13:03h',
+      process: '0023411-88.2021.8.19.0001',
+      court: '3º Juzgado Civil de la Comarca de la Capital / TJRJ',
+      iptu: '0.565.962-8',
+      rgi: '10.627 (2º RGI/RJ)',
+      val: 'R$ 890.000,00',
+      p2Val: 'R$ 445.000,00',
+      description: 'Apartamento 402 con 40 m² en el Edificio Palm Beach, construido en 1950, ubicado en la tranquila cuadra final sin salida de la Calle General Urquiza en Leblon.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la evaluación del apartamento en Leblon?", a: "Evaluación judicial oficial de R$ 890.000,00. En 2ª Subasta la puja mínima es de R$ 445.000,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del inmueble?", a: "40 m² de área en edificio clásico de 1950 situado en tramo residencial sin salida de la Calle General Urquiza." },
+        { q: "¿Cómo se audita la situación legal?", a: "Verificamos la Matrícula 10.627 del 2º RGI, impostos de IPTU, expediente judicial y cargas del condominio." },
+        { q: "¿Por qué es una gran oportunidad de inversión?", a: "El metro cuadrado en Leblon destaca entre los de mayor demanda y valor del mercado brasileño." },
+        { q: "¿Cómo consultar con el abogado?", a: "Contáctenos vía WhatsApp para un dictamen de viabilidad personalizado." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Leblon at General Urquiza St #263',
+      subtitle: 'General Urquiza St, #263, Apt 402 — Leblon, Rio de Janeiro/RJ | Edifício Palm Beach',
+      address: 'General Urquiza St, 263 - Apt 402 — Leblon, Rio de Janeiro - RJ',
+      p1Date: '07/20/2026 at 2:00 PM',
+      p2Date: '09/01/2026 at 1:03 PM',
+      process: '0023411-88.2021.8.19.0001',
+      court: '3rd Civil Court of Rio de Janeiro / TJRJ',
+      iptu: '0.565.962-8',
+      rgi: '10.627 (2nd Land Registry)',
+      val: 'R$ 890,000.00',
+      p2Val: 'R$ 445,000.00',
+      description: 'Apartment 402 with 40 sqm in Edifício Palm Beach, built in 1950, located on the quiet cul-de-sac block of General Urquiza St in Leblon.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official court valuation of the Leblon unit?", a: "Court valuation is R$ 890,000.00. 2nd Bidding min bid is R$ 445,000.00 (50% discount)." },
+        { q: "What are the key specs of Edifício Palm Beach Apt 402?", a: "Features 40 sqm built area in a 1950 building located at the cul-de-sac end of General Urquiza St in Leblon." },
+        { q: "How is due diligence performed?", a: "Our team audits Title 10.627 (2nd Registry), municipal taxes (IPTU 0.565.962-8), court records, and condo fees." },
+        { q: "Why invest in Leblon real estate auction?", a: "Leblon is Brazil's most prime market, offering exceptional yield and long-term capital preservation." },
+        { q: "How to consult with an attorney?", a: "Reach out on WhatsApp to request a prior legal audit." }
+      ]
+    }
+  },
+
+  // Copacabana - Rua Siqueira Campos 43
+  'copacabana-siqueira-campos': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana na Rua Siqueira Campos nº 43 — Apto 1123',
+      subtitle: 'Rua Siqueira Campos, nº 43, Apto 1123 — Copacabana, Rio de Janeiro/RJ | Edifício Centro Comercial de Copacabana',
+      address: 'Rua Siqueira Campos, 43 - Apto 1123 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '05/08/2026 às 15:00h',
+      p2Date: '12/08/2026 às 15:00h',
+      process: '0018542-43.2022.8.19.0001',
+      court: '5ª Vara Cível da Comarca da Capital / TJRJ',
+      iptu: '0.686.319-5',
+      rgi: '5.098 (5º RGI/RJ)',
+      val: 'R$ 400.000,00',
+      p2Val: 'R$ 200.000,00',
+      description: 'Unidade residencial de frente com 38m² de área edificada no Edifício Centro Comercial de Copacabana. O apartamento é composto de banheiro com box de granito, cozinha e sala acopladas e um quarto separado dos demais espaços por um móvel funcional, localizado no coração de Copacabana próximo ao metrô e à praia.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça?", a: "O imóvel possui avaliação judicial de R$ 400.000,00. Na 2ª Praça, o lance mínimo é de R$ 200.000,00 (50% do valor avaliado)." },
+        { q: "Quais são as características do apartamento 1123 da Rua Siqueira Campos 43?", a: "Possui 38m² de área edificada, posição de frente, banheiro com acabamento em granito, sala/cozinha acopladas e dormitório separado por divisória de móvel no Condomínio Centro Comercial de Copacabana." },
+        { q: "Como funciona a auditoria jurídica prévia para esta arrematação?", a: "Auditamos a Matrícula nº 5098 do 5º RGI, certidões fiscais de IPTU (0.686.319-5), débitos condominiais e eventuais pendências processuais para garantir arrematação 100% segura." },
+        { q: "Por que este imóvel na Rua Siqueira Campos é atrativo para investimento?", a: "Siqueira Campos é um dos eixos comerciais e residenciais mais valorizados de Copacabana. Pelo valor de 2ª praça (R$ 200.000,00), apresenta excelente potencial de rentabilidade e liquidez para locação ou revenda." },
+        { q: "Como contar com a assessoria especializada do Soares Martins Advogados?", a: "Entre em contato via WhatsApp ou agende uma reunião em nosso escritório em Ipanema/RJ para recebimento do parecer jurídico completo antes do leilão." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Copacabana en Calle Siqueira Campos nº 43 — Apto 1123',
+      subtitle: 'Calle Siqueira Campos, nº 43, Apto 1123 — Copacabana, Río de Janeiro/RJ | Edificio Centro Comercial de Copacabana',
+      address: 'Calle Siqueira Campos, 43 - Apto 1123 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '05/08/2026 a las 15:00h',
+      p2Date: '12/08/2026 a las 15:00h',
+      process: '0018542-43.2022.8.19.0001',
+      court: '5º Juzgado Civil de la Comarca de la Capital / TJRJ',
+      iptu: '0.686.319-5',
+      rgi: '5.098 (5º RGI/RJ)',
+      val: 'R$ 400.000,00',
+      p2Val: 'R$ 200.000,00',
+      description: 'Unidad residencial al frente con 38 m² de superficie edificada en el Edificio Centro Comercial de Copacabana. El apartamento cuenta con baño con cabina de granito, cocina y sala integradas y un dormitorio separado por un mueble modular.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y la puja mínima en 2ª Subasta?", a: "La evaluación judicial es de R$ 400.000,00. En 2ª Subasta, el precio inicial arranca en R$ 200.000,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del apartamento 1123 en Calle Siqueira Campos 43?", a: "Cuenta con 38 m² construidos, posición exterior de frente, baño en granito, espacio integrado de sala/cocina y dormitorio semi-independiente." },
+        { q: "¿Cómo se analiza la viabilidad jurídica?", a: "Verificamos la Matrícula nº 5098 del 5º RGI, impuestos municipales (IPTU 0.686.319-5), expensas y proceso judicial ejecutor." },
+        { q: "¿Por qué invertir en un inmueble en Siqueira Campos?", a: "Es una ubicación neurálgica de Copacabana con altísima demanda de alquiler y gran conectividad con metro y comercios." },
+        { q: "¿Cómo agendar asesoramiento con los abogados?", a: "Envíenos un mensaje por WhatsApp para recibir un dictamen de seguridad previa." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Copacabana at Siqueira Campos St #43 — Apt 1123',
+      subtitle: 'Siqueira Campos St, #43, Apt 1123 — Copacabana, Rio de Janeiro/RJ | Edifício Centro Comercial de Copacabana',
+      address: 'Siqueira Campos St, 43 - Apt 1123 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '08/05/2026 at 3:00 PM',
+      p2Date: '08/12/2026 at 3:00 PM',
+      process: '0018542-43.2022.8.19.0001',
+      court: '5th Civil Court of Rio de Janeiro / TJRJ',
+      iptu: '0.686.319-5',
+      rgi: '5.098 (5th Land Registry)',
+      val: 'R$ 400,000.00',
+      p2Val: 'R$ 200,000.00',
+      description: 'Front-facing residential unit with 38 sqm built area in Edifício Centro Comercial de Copacabana. Features a bathroom with granite shower box, open kitchen and living space, and a separate bedroom partitioned by custom furniture.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the valuation and 2nd auction minimum bid?", a: "Court valuation is R$ 400,000.00. 2nd Auction starting bid is R$ 200,000.00 (50% discount)." },
+        { q: "What are the main specs of Apt 1123 at Siqueira Campos St 43?", a: "38 sqm built area, front-facing position, granite bathroom, open kitchen/living area, and partitioned bedroom in Copacabana." },
+        { q: "How is legal due diligence conducted?", a: "We audit Title #5098 (5th Registry), municipal IPTU taxes (0.686.319-5), condo debts, and court records." },
+        { q: "Why is Siqueira Campos a top investment opportunity?", a: "Located near subway and beach in Copacabana, offering outstanding rental yield and high liquidity at a 50% acquisition discount." },
+        { q: "How to contact the legal advisory team?", a: "Contact us on WhatsApp or visit our office in Ipanema to obtain a detailed legal report before bidding." }
+      ]
+    }
+  },
+
+  // Botafogo - Rua Lauro Müller 36
+  'botafogo-lauro-muller': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Botafogo na Rua Lauro Müller nº 36 — Apto 1411',
+      subtitle: 'Rua Lauro Müller, nº 36, Apto 1411 — Botafogo, Rio de Janeiro/RJ | Condomínio do Edifício Interpraias',
+      address: 'Rua Lauro Müller, 36 - Apto 1411 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '15/05/2026 às 15:00h',
+      p2Date: '21/07/2026 às 11:00h',
+      process: 'Sob consulta',
+      court: '3º Ofício de Registro de Imóveis / TJRJ',
+      iptu: '1.205.989-8',
+      rgi: '11.881 (3º RGI/RJ)',
+      val: 'R$ 520.000,00',
+      p2Val: 'R$ 260.000,00',
+      description: 'Apartamento residencial de fundos com 38 m² de área edificada no Edifício Interpraias, prédio construído em 1973 de 12 andares com área de lazer na cobertura (chuveirão e churrasqueira), portaria 24h, monitoramento por câmeras e 3 elevadores. Imóvel desocupado há anos, em localização privilegiada no bairro de Botafogo, próximo à Enseada de Botafogo, Urca, shoppings e farta rede de transporte.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça?", a: "O imóvel possui avaliação judicial oficial de R$ 520.000,00. Na 2ª Praça, o lance mínimo é de R$ 260.000,00 (50% do valor avaliado)." },
+        { q: "Quais são as características do condomínio e do apartamento 1411?", a: "Unidade residencial de fundos com 38m² construída em 1973 no Condomínio do Edifício Interpraias. O prédio conta com portaria 24h, 3 elevadores, circuito de segurança e área de lazer na cobertura com chuveirão e churrasqueira. Imóvel desocupado há anos." },
+        { q: "Como é realizada a auditoria jurídica prévia para este leilão em Botafogo?", a: "Auditamos minuciosamente a Matrícula nº 11.881 do 3º RGI, dívidas de IPTU (1.205.989-8), débitos de condomínio e a integridade da execução judicial para assegurar arrematação isenta de riscos." },
+        { q: "Qual o diferencial do bairro de Botafogo para investimento imobiliário?", a: "Botafogo é um dos bairros mais dinâmicos e valorizados da Zona Sul carioca, limítrofe à Urca, Copacabana e Flamengo, com altíssima demanda para locação residencial e valorização patrimonial." },
+        { q: "Como solicitar o parecer jurídico de viabilidade com os advogados?", a: "Entre em contato diretamente via WhatsApp ou agende atendimento presencial em nosso escritório em Ipanema/RJ para ter suporte completo." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Botafogo en Calle Lauro Müller nº 36 — Apto 1411',
+      subtitle: 'Calle Lauro Müller, nº 36, Apto 1411 — Botafogo, Río de Janeiro/RJ | Edificio Interpraias',
+      address: 'Calle Lauro Müller, 36 - Apto 1411 — Botafogo, Río de Janeiro - RJ',
+      p1Date: '15/05/2026 a las 15:00h',
+      p2Date: '21/07/2026 a las 11:00h',
+      process: 'Bajo consulta',
+      court: '3º Registro de Inmuebles / TJRJ',
+      iptu: '1.205.989-8',
+      rgi: '11.881 (3º RGI/RJ)',
+      val: 'R$ 520.000,00',
+      p2Val: 'R$ 260.000,00',
+      description: 'Apartamento residencial interior de 38 m² en el Edificio Interpraias, edificio de 1973 con 12 pisos, área de ocio en la azotea con ducha y parrilla, portería 24h, cámaras y 3 ascensores. Inmueble desocupado desde hace años en excelente ubicación en Botafogo.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y la puja mínima en 2ª Subasta?", a: "Evaluación judicial de R$ 520.000,00. En 2ª Subasta la oferta mínima es de R$ 260.000,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del apartamento y del edificio?", a: "Unidad residencial de 38 m² interior en el Condominio Edificio Interpraias. Dispone de terraza con barbacoa y ducha, 3 ascensores y seguridad 24 horas. Inmueble desocupado." },
+        { q: "¿Cómo se analiza la viabilidad jurídica?", a: "Revisamos la Matrícula nº 11.881 del 3º RGI, impostos de IPTU 1.205.989-8, expensas y proceso judicial ejecutor." },
+        { q: "¿Por qué invertir en Botafogo?", a: "Barrio estratégico de la Zona Sur de Río de Janeiro con altísima rentabilidad por alquiler y cercanía a centros comerciales, playa y metro." },
+        { q: "¿Cómo consultar con el equipo de abogados?", a: "Contáctenos vía WhatsApp para solicitar una auditoría jurídica previa." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Botafogo at Lauro Müller St #36 — Apt 1411',
+      subtitle: 'Lauro Müller St, #36, Apt 1411 — Botafogo, Rio de Janeiro/RJ | Edifício Interpraias',
+      address: 'Lauro Müller St, 36 - Apt 1411 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '05/15/2026 at 3:00 PM',
+      p2Date: '07/21/2026 at 11:00 AM',
+      process: 'Upon request',
+      court: '3rd Land Registry Court / TJRJ',
+      iptu: '1.205.989-8',
+      rgi: '11.881 (3rd Land Registry)',
+      val: 'R$ 520,000.00',
+      p2Val: 'R$ 260,000.00',
+      description: 'Rear-facing 38 sqm residential unit in Edifício Interpraias, a 1973 12-story building with rooftop leisure area featuring outdoor shower and barbecue grill, 24h concierge, security cameras, and 3 elevators. Vacant for years, prime location in Botafogo.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid?", a: "Court valuation is R$ 520,000.00. 2nd Auction starting bid is R$ 260,000.00 (50% discount)." },
+        { q: "What are the key building and apartment specs?", a: "38 sqm rear-facing residential apartment in Edifício Interpraias (1973). Building features rooftop BBQ and shower area, 24h security, and 3 elevators. Vacant for years." },
+        { q: "How is legal due diligence conducted?", a: "We audit Title #11.881 (3rd Registry), municipal IPTU taxes (1.205.989-8), condo debts, and legal proceedings." },
+        { q: "Why invest in Botafogo real estate?", a: "Botafogo is one of Rio's most vibrant South Zone neighborhoods, bordering Urca and Copacabana, offering strong rental yield and capital growth." },
+        { q: "How to contact the legal advisory team?", a: "Reach out via WhatsApp or schedule a consultation at our office in Ipanema to get a full legal report." }
+      ]
+    }
+  },
+
+  // Gávea - Rua Vice Governador Rubens Berardo 175 / Av. Padre Leonel Franca 210
+  'gavea-rubens-berardo': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Gávea — Rua Vice Governador Rubens Berardo 175 — Apto 506 Bl. III',
+      subtitle: 'Rua Vice Governador Rubens Berardo, nº 175, Apto 506, Bloco III (Av. Padre Leonel Franca, nº 210) — Gávea, Rio de Janeiro/RJ',
+      address: 'Rua Vice Governador Rubens Berardo, 175 - Apto 506 Bl. III — Gávea, Rio de Janeiro - RJ',
+      p1Date: '14/09/2026 às 11:00h',
+      p2Date: '24/09/2026 às 11:00h',
+      process: 'Sob consulta',
+      court: '2º Ofício de Registro de Imóveis / TJRJ',
+      iptu: '1.479.851-6',
+      rgi: '31.349 (2º RGI/RJ)',
+      val: 'R$ 1.686.801,06',
+      p2Val: 'R$ 843.401,00',
+      description: 'Excelente apartamento residencial de 84 m² no tradicional e valorizado bairro da Gávea, composto por 2 quartos (sendo 1 suíte), sala ampla, banheiro social, cozinha, dependência completa de empregada e direito a 2 vagas de garagem. O condomínio conta com portaria, segurança e infraestrutura em localização privilegiada, próximo à PUC-Rio, Shopping da Gávea, Planetário e farta oferta de comércio, restaurantes e opções de transporte.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça do leilão na Gávea?", a: "O imóvel possui avaliação judicial oficial de R$ 1.686.801,06. Na 2ª Praça, o lance mínimo é de R$ 843.401,00 (50% do valor avaliado)." },
+        { q: "Quais são as características do apartamento 506 e do condomínio?", a: "Unidade residencial de 84 m² com 2 quartos (1 suíte), banheiro social, sala, cozinha, dependências e 2 vagas de garagem registradas na convenção. Localizado na Rua Vice Governador Rubens Berardo 175 (com entrada também pela Av. Padre Leonel Franca 210) na Gávea." },
+        { q: "Como é realizada a auditoria jurídica prévia para este leilão na Gávea?", a: "Auditamos minuciosamente a Matrícula nº 31.349 do 2º RGI, débitos de IPTU (1.479.851-6), dívidas condominiais e a integridade da execução judicial para assegurar arrematação segura." },
+        { q: "Qual o diferencial do bairro da Gávea para investimento e moradia?", a: "A Gávea é um dos bairros mais nobres, arborizados e desejados da Zona Sul do Rio de Janeiro, com altíssima demanda residencial, próximo ao Jóquei Clube, Parque da Cidade, PUC-Rio e Praça Santos Dumont." },
+        { q: "Como solicitar o parecer jurídico de viabilidade com a equipe jurídica?", a: "Entre em contato via WhatsApp ou agende uma reunião em nosso escritório em Ipanema para obter relatório detalhado de viabilidade antes de licitar." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Gávea — Calle Vice Governador Rubens Berardo 175 — Apto 506 Bl. III',
+      subtitle: 'Calle Vice Governador Rubens Berardo, nº 175, Apto 506, Bloque III (Av. Padre Leonel Franca, nº 210) — Gávea, Río de Janeiro/RJ',
+      address: 'Calle Vice Governador Rubens Berardo, 175 - Apto 506 Bl. III — Gávea, Río de Janeiro - RJ',
+      p1Date: '14/09/2026 a las 11:00h',
+      p2Date: '24/09/2026 a las 11:00h',
+      process: 'Bajo consulta',
+      court: '2º Registro de Inmuebles / TJRJ',
+      iptu: '1.479.851-6',
+      rgi: '31.349 (2º RGI/RJ)',
+      val: 'R$ 1.686.801,06',
+      p2Val: 'R$ 843.401,00',
+      description: 'Apartamento residencial de 84 m² en el distinguido barrio de Gávea, compuesto por 2 dormitorios (1 suite), amplio salón, baño social, cocina, dependencia completa de servicio y 2 plazas de garaje. Excelente ubicación cerca de PUC-Rio, Shopping da Gávea y Planetario.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y la puja mínima en 2ª Subasta?", a: "Evaluación judicial oficial de R$ 1.686.801,06. En 2ª Subasta la oferta mínima es de R$ 843.401,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del apartamento y del edificio?", a: "Unidad residencial de 84 m² con 2 dormitorios (1 suite), baño social, sala, cocina, dependencia y 2 plazas de aparcamiento en Gávea." },
+        { q: "¿Cómo se analiza la viabilidad jurídica?", a: "Revisamos la Matrícula nº 31.349 del 2º RGI, impuestos IPTU 1.479.851-6, expensas y proceso judicial ejecutor." },
+        { q: "¿Por qué invertir en el barrio de Gávea?", a: "Barrio exclusivo de la Zona Sur de Río de Janeiro con alta demanda de alquiler, rodeado de naturaleza, universidades y gastronomía." },
+        { q: "¿Cómo consultar con el equipo de abogados?", a: "Contáctenos vía WhatsApp para solicitar un dictamen jurídico completo de viabilidad." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Gávea — Vice Governador Rubens Berardo St #175 — Apt 506 Bl. III',
+      subtitle: 'Vice Governador Rubens Berardo St, #175, Apt 506, Block III (Av. Padre Leonel Franca, #210) — Gávea, Rio de Janeiro/RJ',
+      address: 'Vice Governador Rubens Berardo St, 175 - Apt 506 Bl. III — Gávea, Rio de Janeiro - RJ',
+      p1Date: '09/14/2026 at 11:00 AM',
+      p2Date: '09/24/2026 at 11:00 AM',
+      process: 'Upon request',
+      court: '2nd Land Registry Court / TJRJ',
+      iptu: '1.479.851-6',
+      rgi: '31.349 (2nd Land Registry)',
+      val: 'R$ 1,686,801.06',
+      p2Val: 'R$ 843,401.00',
+      description: '84 sqm residential apartment in the prestigious Gávea neighborhood, featuring 2 bedrooms (1 en-suite), spacious living room, guest bathroom, kitchen, full maid service quarter, and 2 parking spaces. Prime location near PUC-Rio, Shopping da Gávea, Planetarium, and top restaurants.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid?", a: "Court valuation is R$ 1,686,801.06. 2nd Auction starting bid is R$ 843,401.00 (50% discount)." },
+        { q: "What are the apartment specs and features?", a: "84 sqm 2-bedroom apartment (1 suite), guest bath, living room, kitchen, maid quarter, and 2 parking spots in Gávea." },
+        { q: "How is legal due diligence conducted?", a: "We audit Title #31.349 (2nd Registry), municipal IPTU taxes (1.479.851-6), condo fees, and court case proceedings." },
+        { q: "Why invest in Gávea real estate?", a: "Gávea is one of Rio's most sought-after upscale South Zone neighborhoods with strong capital preservation and high rental demand." },
+        { q: "How to contact the legal advisory team?", a: "Contact us via WhatsApp or visit our Ipanema office to get a complete legal feasibility report." }
+      ]
+    }
   }
 };
