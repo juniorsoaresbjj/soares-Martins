@@ -31,6 +31,14 @@ import LeblonAuctionPage from './components/LeblonAuctionPage';
 import SiqueiraCamposAuctionPage from './components/SiqueiraCamposAuctionPage';
 import LauroMullerAuctionPage from './components/LauroMullerAuctionPage';
 import GaveaAuctionPage from './components/GaveaAuctionPage';
+import PraiaBotafogo356AuctionPage from './components/PraiaBotafogo356AuctionPage';
+import SantaTeresaCostaBastos8AuctionPage from './components/SantaTeresaCostaBastos8AuctionPage';
+import CentroRiachuelo220AuctionPage from './components/CentroRiachuelo220AuctionPage';
+import CopacabanaAtlantica3806AuctionPage from './components/CopacabanaAtlantica3806AuctionPage';
+import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
+import TijucaDelgadoCarvalho75AuctionPage from './components/TijucaDelgadoCarvalho75AuctionPage';
+import CopacabanaTonelero202AuctionPage from './components/CopacabanaTonelero202AuctionPage';
+import CopacabanaSantaClara431AuctionPage from './components/CopacabanaSantaClara431AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -281,6 +289,38 @@ const AppContent: React.FC = () => {
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/" element={<GaveaAuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175" element={<GaveaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356/" element={<PraiaBotafogo356AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356" element={<PraiaBotafogo356AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8/" element={<SantaTeresaCostaBastos8AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8" element={<SantaTeresaCostaBastos8AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220/" element={<CentroRiachuelo220AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220" element={<CentroRiachuelo220AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/" element={<CopacabanaAtlantica3806AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312" element={<CopacabanaAtlantica3806AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806/" element={<CopacabanaAtlantica3806AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806" element={<CopacabanaAtlantica3806AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90/" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75-cobertura-01/" element={<TijucaDelgadoCarvalho75AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75-cobertura-01" element={<TijucaDelgadoCarvalho75AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75/" element={<TijucaDelgadoCarvalho75AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75" element={<TijucaDelgadoCarvalho75AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/hotel/rua-tonelero-202/" element={<CopacabanaTonelero202AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/hotel/rua-tonelero-202" element={<CopacabanaTonelero202AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/predio-comercial/rua-tonelero-202/" element={<CopacabanaTonelero202AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/predio-comercial/rua-tonelero-202" element={<CopacabanaTonelero202AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/" element={<CopacabanaSantaClara431AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704" element={<CopacabanaSantaClara431AuctionPage />} />
 
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />

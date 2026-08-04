@@ -1186,5 +1186,588 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to contact the legal advisory team?", a: "Contact us via WhatsApp or visit our Ipanema office to get a complete legal feasibility report." }
       ]
     }
+  },
+
+  // Botafogo - Praia de Botafogo 356 - Apto 1138
+  'botafogo-praia-356': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Praia de Botafogo nº 356 — Apto 1138',
+      subtitle: 'Praia de Botafogo, nº 356, Apto 1138 — Botafogo, Rio de Janeiro/RJ | 21 m²',
+      address: 'Praia de Botafogo, 356 - Apto 1138 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '17/08/2026 às 12:00h',
+      p2Date: '20/08/2026 às 12:00h',
+      process: 'Sob consulta',
+      court: '3º Ofício de Registro de Imóveis / TJRJ',
+      iptu: '0.651.974-8',
+      rgi: '38.841 (3º RGI/RJ)',
+      val: 'R$ 355.000,42',
+      p2Val: 'R$ 213.000,25',
+      description: 'Apartamento residencial com 21 metros quadrados (Apto 1138) situado na Praia de Botafogo nº 356, Botafogo/RJ. A unidade conta com um pequeno rol de entrada que funciona como cozinha e dá acesso ao banheiro, além de um quarto pequeno em bom estado de conservação. O edifício, construído em 1958, possui 12 andares com até 58 apartamentos por andar, 10 elevadores, serviço de portaria 24 horas e monitoramento por câmeras no térreo e nos elevadores (sem garagem e sem área de lazer). Localização nobre em frente à Enseada de Botafogo com acesso facilitado a metrô, shoppings e centros comerciais da Zona Sul.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça do leilão na Praia de Botafogo?", a: "O imóvel possui avaliação judicial oficial de R$ 355.000,42. Na 2ª Praça (20/08/2026 às 12:00), o lance inicial previsto no edital é de R$ 213.000,25 (observando-se as regras judiciais do leilão e o limite mínimo da 2ª praça)." },
+        { q: "Quais são as características do apartamento 1138 e do edifício?", a: "Unidade residencial com 21 metros quadrados (21 m²) em bom estado de conservação, composta por um pequeno rol de entrada que funciona como cozinha e dá acesso ao banheiro, e um quarto pequeno. Edifício de 1958 com 12 andares, portaria 24h, 10 elevadores e circuito de câmeras." },
+        { q: "Como é realizada a auditoria jurídica prévia para este imóvel em Botafogo?", a: "Auditamos minuciosamente a Matrícula nº 38.841 do 3º RGI, débitos de IPTU (0.651.974-8), eventuais cotas condominiais e a integridade processual da execução para garantir segurança jurídica na arrematação." },
+        { q: "Qual a vantagem da localização na Praia de Botafogo para investimento?", a: "A Praia de Botafogo é um dos pontos mais estratégicos da Zona Sul carioca, com vista para a Enseada e Pão de Açúcar, próximo a estação de metrô, shopping center e transporte para toda a cidade, oferecendo excelente liquidez e rentabilidade para locação." },
+        { q: "Como solicitar o parecer jurídico de viabilidade com os advogados?", a: "Entre em contato via WhatsApp ou agende atendimento presencial em nosso escritório em Ipanema para obter relatório detalhado de viabilidade antes de licitar." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Praia de Botafogo nº 356 — Apto 1138',
+      subtitle: 'Praia de Botafogo, nº 356, Apto 1138 — Botafogo, Río de Janeiro/RJ | 21 m²',
+      address: 'Praia de Botafogo, 356 - Apto 1138 — Botafogo, Río de Janeiro - RJ',
+      p1Date: '17/08/2026 a las 12:00h',
+      p2Date: '20/08/2026 a las 12:00h',
+      process: 'Bajo consulta',
+      court: '3º Registro de Inmuebles / TJRJ',
+      iptu: '0.651.974-8',
+      rgi: '38.841 (3º RGI/RJ)',
+      val: 'R$ 355.000,42',
+      p2Val: 'R$ 213.000,25',
+      description: 'Apartamento residencial con 21 metros cuadrados en buen estado de conservación (Apto 1138) situado en la Praia de Botafogo nº 356. Cuenta con un pequeño recibidor que funciona como cocina y da acceso al baño, y una pequeña habitación. Edificio de 1958 de 12 plantas con portería 24h, cámaras de seguridad y 10 ascensores.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y la puja mínima en 2ª Subasta?", a: "Tasación oficial de R$ 355.000,42. En la 2ª Subasta (20/08/2026 a las 12:00), la oferta inicial es de R$ 213.000,25." },
+        { q: "¿Cuáles son las características del apartamento y del edificio?", a: "Unidad residencial de 21 metros cuadrados en buen estado que consta de recibidor/cocina, baño y dormitorio. Edificio de 1958 con 10 ascensores y seguridad 24 horas." },
+        { q: "¿Cómo se analiza la viabilidad jurídica?", a: "Auditamos la Matrícula nº 38.841 del 3º RGI, impuestos de IPTU (0.651.974-8), deudas de condominio y la ejecución judicial." },
+        { q: "¿Por qué invertir en Praia de Botafogo?", a: "Ubicación privilegiada en la Zona Sur de Río de Janeiro frente al mar, con excelente conexión de transporte y alta demanda de alquiler." },
+        { q: "¿Cómo consultar con el equipo de abogados?", a: "Contáctenos vía WhatsApp para solicitar un dictamen jurídico completo de viabilidad antes de la subasta." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment at Praia de Botafogo #356 — Apt 1138',
+      subtitle: 'Praia de Botafogo, #356, Apt 1138 — Botafogo, Rio de Janeiro/RJ | 21 m²',
+      address: 'Praia de Botafogo, 356 - Apt 1138 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '08/17/2026 at 12:00 PM',
+      p2Date: '08/20/2026 at 12:00 PM',
+      process: 'Upon request',
+      court: '3rd Land Registry Court / TJRJ',
+      iptu: '0.651.974-8',
+      rgi: '38.841 (3rd Land Registry)',
+      val: 'R$ 355,000.42',
+      p2Val: 'R$ 213,000.25',
+      description: 'Well-maintained residential apartment (Apt 1138) spanning 21 square meters (21 m²) located at Praia de Botafogo #356. Features an entry hall serving as a kitchen with bathroom access, and a compact bedroom in good condition. Built in 1958, the 12-story building features 10 elevators, 24-hour concierge service, and CCTV monitoring in the lobby and elevators.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid?", a: "Court valuation is R$ 355,000.42. The 2nd Auction starting bid is R$ 213,000.25 (08/20/2026 at 12:00 PM)." },
+        { q: "What are the apartment specs and building features?", a: "Compact residential unit of 21 square meters in good condition with entryway/kitchen, bathroom, and bedroom. 1958 building with 10 elevators and 24h security." },
+        { q: "How is legal due diligence conducted?", a: "We audit Title #38.841 (3rd Registry), municipal IPTU taxes (0.651.974-8), condo fees, and court proceedings." },
+        { q: "Why invest in Praia de Botafogo real estate?", a: "Prime waterfront location in Rio's South Zone with great subway access, shopping centers, and high rental liquidity." },
+        { q: "How to contact the legal advisory team?", a: "Reach out via WhatsApp or visit our Ipanema office to get a complete legal feasibility report." }
+      ]
+    }
+  },
+  // 17. Santa Teresa - Rua Costa Bastos 8 Apto 1001
+  'santa-teresa-costa-bastos': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Rua Costa Bastos nº 8 — Santa Teresa',
+      subtitle: 'Rua Costa Bastos, nº 8, Apto 1001 — Santa Teresa, Rio de Janeiro/RJ | Oportunidade com 51 m², Sol da Manhã e Frente para a Rua',
+      address: 'Rua Costa Bastos, 8 - Apto 1001 — Santa Teresa, Rio de Janeiro - RJ',
+      p1Date: '13/08/2026 às 12:20h',
+      p2Date: '18/08/2026 às 12:20h',
+      process: 'Sob consulta no edital',
+      court: 'Comarca da Capital / TJRJ',
+      iptu: 'Sob consulta na certidão fiscal',
+      rgi: 'Matrícula nº 97.791 (2º RGI/RJ)',
+      val: 'R$ 290.000,00',
+      p2Val: 'R$ 145.000,00 (50% de desconto)',
+      description: 'Apartamento residencial situado na Rua Costa Bastos, nº 8, Apto 1001, em Santa Teresa/RJ, com 51 metros quadrados. Unidade de frente para a rua, exposta ao sol da manhã, sem vaga de garagem, composta de quarto, sala, cozinha e banheiro, provavelmente em estado de conservação. Prédio antigo com serviço de portaria e sem área de lazer. Segunda praça com lance inicial de 50% do valor de avaliação (R$ 145.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é a avaliação oficial e o lance mínimo na 2ª Praça do apartamento em Santa Teresa?", a: "O imóvel foi avaliado judicialmente em R$ 290.000,00. Na 1ª Praça (13/08/2026 às 12:20h), o lance mínimo corresponde ao valor integral da avaliação. Na 2ª Praça (18/08/2026 às 12:20h), o lance inicial será de 50% do valor da avaliação, ou seja, R$ 145.000,00." },
+        { q: "Quais são as características físicas e a divisão interna do apartamento na Rua Costa Bastos nº 8?", a: "O apartamento 1001 possui 51 metros quadrados, posição de frente para a rua, excelente exposição ao sol da manhã e não dispõe de vaga de garagem. É composto por sala, quarto, cozinha e banheiro, encontrando-se provavelmente em estado de conservação. O prédio é antigo, conta com serviço de portaria e não possui área de lazer." },
+        { q: "Como é verificada a situação registral da Matrícula nº 97.791 do 2º RGI/RJ?", a: "Nossa assessoria jurídica realiza a auditoria integral da Matrícula nº 97.791 do Cartório do 2º Ofício de Registro de Imóveis da cidade do Rio de Janeiro, verificando penhoras, hipotecas, indisponibilidades e a correta sub-rogação dos débitos tributários e condominiais no preço da arrematação, conforme o art. 130, parágrafo único, do CTN e o art. 908 do CPC." },
+        { q: "Qual é o potencial de valorização e investimento imobiliário no bairro de Santa Teresa?", a: "Santa Teresa é um dos bairros mais charmosos, turísticos e valorizados do Rio de Janeiro, conhecido por sua arquitetura histórica, circuito gastronômico e proximidade com o Centro da cidade e a Zona Sul. Um apartamento de 51 m² arrematado com 50% de desconto por R$ 145.000,00 apresenta excelente liquidez para locação residencial tradicional ou de temporada, bem como ótimo potencial de valorização patrimonial." },
+        { q: "Como funciona a assessoria jurídica especializada em leilão de imóveis no RJ e imissão na posse?", a: "Atuamos em todas as etapas: análise prévia do edital e riscos processuais, estratégia de lances, representação no leilão, parcelamento judicial (art. 895 do CPC), baixa de gravames registrais e providências para expedição da Carta de Arrematação e Mandado de Imissão na Posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Calle Costa Bastos nº 8 — Santa Teresa',
+      subtitle: 'Calle Costa Bastos, nº 8, Apto 1001 — Santa Teresa, Río de Janeiro/RJ | Oportunidad con 51 m², Sol de Mañana y Frente a la Calle',
+      address: 'Calle Costa Bastos, 8 - Apto 1001 — Santa Teresa, Río de Janeiro - RJ',
+      p1Date: '13/08/2026 a las 12:20h',
+      p2Date: '18/08/2026 a las 12:20h',
+      process: 'Bajo consulta',
+      court: 'Comarca de la Capital / TJRJ',
+      iptu: 'Bajo consulta fiscal',
+      rgi: 'Matrícula nº 97.791 (2º RGI/RJ)',
+      val: 'R$ 290.000,00',
+      p2Val: 'R$ 145.000,00 (50% de descuento)',
+      description: 'Apartamento residencial ubicado en la Calle Costa Bastos, nº 8, Apto 1001, en Santa Teresa/RJ, con 51 metros cuadrados. Unidad frente a la calle, con sol de mañana, sin plaza de garaje, compuesta por dormitorio, salón, cocina y baño, en buen estado de conservación. Edificio antiguo con portería y sin área de ocio. Segunda subasta con puja inicial del 50% del valor de evaluación (R$ 145.000,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la evaluación oficial y la puja mínima en 2ª Subasta del apartamento en Santa Teresa?", a: "Evaluación oficial de R$ 290.000,00. En la 1ª Subasta (13/08/2026 a las 12:20h), la puja mínima equivale al 100%. En la 2ª Subasta (18/08/2026 a las 12:20h), la oferta inicial será del 50% de la evaluación, es decir, R$ 145.000,00." },
+        { q: "¿Cuáles son las características físicas y división interna del apartamento en Costa Bastos nº 8?", a: "El apartamento 1001 tiene 51 metros cuadrados, orientación frente a la calle, excelente sol de mañana y sin garaje. Consta de salón, dormitorio, cocina y baño, en buen estado. Edificio clásico con portería." },
+        { q: "¿Cómo se verifica la situación registral de la Matrícula nº 97.791 del 2º RGI/RJ?", a: "Auditamos la Matrícula nº 97.791 del 2º Registro de Inmuebles de Río de Janeiro, verificando gravámenes, embargos y subrogación de deudas según la ley brasileña." },
+        { q: "¿Por qué invertir en inmuebles en el barrio de Santa Teresa?", a: "Santa Teresa es un barrio histórico y turístico con alta demanda de alquiler residencial y vacacional, ofreciendo una gran revalorización patrimonial." },
+        { q: "¿Cómo contactar con el equipo de abogados para asesoría?", a: "Contáctenos vía WhatsApp para solicitar un dictamen jurídico completo de viabilidad antes de la subasta." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment on Costa Bastos St #8 — Santa Teresa',
+      subtitle: 'Costa Bastos St, #8, Apt 1001 — Santa Teresa, Rio de Janeiro/RJ | 51 m² Opportunity, Morning Sun & Street Frontage',
+      address: 'Costa Bastos St, 8 - Apt 1001 — Santa Teresa, Rio de Janeiro - RJ',
+      p1Date: '08/13/2026 at 12:20 PM',
+      p2Date: '08/18/2026 at 12:20 PM',
+      process: 'Upon request',
+      court: 'Rio de Janeiro Capital Court / TJRJ',
+      iptu: 'Upon tax inquiry',
+      rgi: 'Title #97,791 (2nd Land Registry)',
+      val: 'R$ 290,000.00',
+      p2Val: 'R$ 145,000.00 (50% discount)',
+      description: 'Residential apartment located at Costa Bastos St, #8, Apt 1001, Santa Teresa/RJ, spanning 51 square meters. Street-facing unit with morning sun exposure, no garage space, featuring a bedroom, living room, kitchen, and bathroom, likely in well-maintained condition. Traditional building with concierge service and no leisure amenities. Second auction starting bid at 50% of the appraised value (R$ 145,000.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid for the Santa Teresa apartment?", a: "Court valuation is R$ 290,000.00. The 1st Auction (08/13/2026 at 12:20 PM) starts at 100% of appraisal. The 2nd Auction (08/18/2026 at 12:20 PM) starting bid is R$ 145,000.00 (a 50% discount)." },
+        { q: "What are the physical specs and layout of the apartment on Costa Bastos St #8?", a: "Unit 1001 spans 51 square meters, faces the street with morning sun exposure, and has no garage space. It features a living room, bedroom, kitchen, and bathroom in good condition. Traditional building with concierge service." },
+        { q: "How is legal due diligence conducted on Title #97,791 (2nd Land Registry)?", a: "We audit Title #97,791 from the 2nd Real Estate Registry of Rio de Janeiro, verifying mortgages, attachments, and subrogation of tax/condo debts under Brazilian law." },
+        { q: "Why invest in real estate in Santa Teresa, Rio de Janeiro?", a: "Santa Teresa is a historic, artistic, and highly sought-after neighborhood with strong demand for both long-term and short-term residential rentals." },
+        { q: "How to contact the legal advisory team?", a: "Reach out via WhatsApp or visit our Ipanema office to get a complete legal feasibility report." }
+      ]
+    }
+  },
+
+  // Centro - Rua Riachuelo 220 - Apto 1103 (Kitnet / 33 m²)
+  'centro-riachuelo-220': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Rua Riachuelo nº 220 — Apto 1103',
+      subtitle: 'Rua Riachuelo, nº 220, Apto 1103 — Centro, Rio de Janeiro/RJ | 33 m² • Kitnet de Frente',
+      address: 'Rua Riachuelo, 220 - Apto 1103 — Centro, Rio de Janeiro - RJ',
+      p1Date: '31/08/2026 às 12:50h',
+      p2Date: '03/09/2026 às 12:50h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '097801',
+      rgi: '80.801 (2º RGI/RJ)',
+      val: 'R$ 138.524,00',
+      p2Val: 'R$ 69.262,00 (50% do valor da avaliação)',
+      description: 'Apartamento 1103 situado na Rua Riachuelo, nº 220, Centro/Rio de Janeiro/RJ, com 33 metros quadrados (33 m²) de área edificada e posição de frente para a rua principal. Trata-se de uma kitnet composta por uma pequena cozinha e banheiro com azulejos em meia parede e piso antigo, corredor e "salão" com taco e janela de alumínio (precisa de reformas). O edifício, de utilização residencial, construído em 1967, está situado no alinhamento da via pública, conta com porteiro 24 horas e circuito interno de TV, dois elevadores com capacidade para seis passageiros cada e salão de festas, com acesso por escada com cinco degraus.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é a avaliação oficial e o valor de lance mínimo em 2ª Praça para o apartamento 1103 na Rua Riachuelo nº 220?", a: "O imóvel foi avaliado oficialmente em R$ 138.524,00. No 1º Leilão (31/08/2026 às 12:50h), o lance mínimo corresponde ao valor integral da avaliação (R$ 138.524,00). No 2º Leilão (03/09/2026 às 12:50h), o lance mínimo será de 50% do valor da avaliação, ou seja, apenas R$ 69.262,00." },
+        { q: "Quais são as características físicas e o estado de conservação do apartamento 1103?", a: "Trata-se de uma kitnet de frente para a rua principal com 33 metros quadrados (33 m²), composta por pequena cozinha e banheiro com azulejos em meia parede e piso antigo, corredor e salão principal com piso de taco e janela de alumínio. O imóvel necessita de reformas e modernização, o que permite excelente ganho patrimonial ao arrematante." },
+        { q: "Quais são as infraestruturas e facilidades oferecidas pelo condomínio na Rua Riachuelo nº 220?", a: "O edifício residencial, construído em 1967, conta com portaria 24 horas, circuito interno de TV para monitoramento de segurança, dois elevadores com capacidade para seis passageiros cada, salão de festas e hall de acesso por escada de cinco degraus." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 80.801 do 2º RGI e da Inscrição IPTU nº 097801?", a: "Nossa equipe realiza auditoria completa da Matrícula nº 80.801 junto ao 2º Ofício de Registro de Imóveis do Rio de Janeiro e certidões fiscais da Prefeitura (IPTU 097801), verificando penhoras, hipotecas e assegurando a aplicação do art. 130, parágrafo único, do CTN para sub-rogação de débitos tributários no preço de arrematação." },
+        { q: "Por que investir em kitnets e apartamentos compactos no Centro do Rio de Janeiro?", a: "A Rua Riachuelo e o Centro do Rio de Janeiro vivenciam forte revitalização e procura por locação residencial e estudantil devido à proximidade com sedes de grandes empresas, universidades, tribunais, metrô e comércio diversificado, garantindo alta liquidez e excelente rentabilidade de locação (ROI)." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Calle Riachuelo nº 220 — Apto 1103',
+      subtitle: 'Calle Riachuelo, nº 220, Apto 1103 — Centro, Río de Janeiro/RJ | 33 m² • Estudio Exterior',
+      address: 'Calle Riachuelo, 220 - Apto 1103 — Centro, Río de Janeiro - RJ',
+      p1Date: '31/08/2026 a las 12:50h',
+      p2Date: '03/09/2026 a las 12:50h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '097801',
+      rgi: '80.801 (2º RGI/RJ)',
+      val: 'R$ 138.524,00',
+      p2Val: 'R$ 69.262,00 (50% de la evaluación)',
+      description: 'Apartamento 1103 en Calle Riachuelo nº 220, Centro/Río de Janeiro, con 33 metros cuadrados (33 m²) y orientación exterior hacia la calle principal. Se trata de un estudio (kitnet) que consta de cocina compacta y baño con azulejos a media altura, pasillo y salón con suelo de madera y ventana de aluminio (requiere reforma). Edificio residencial de 1967 con portería 24 horas, cámaras de seguridad, dos ascensores para 6 personas y salón de fiestas.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta para el apartamento en Calle Riachuelo?", a: "Valoración oficial de R$ 138.524,00. En la 1ª Subasta (31/08/2026 a las 12:50h), la puja mínima equivale al 100%. En la 2ª Subasta (03/09/2026 a las 12:50h), la puja inicial será de solo el 50%, es decir, R$ 69.262,00." },
+        { q: "¿Cuáles son las características del apartamento 1103 y su estado de conservación?", a: "Estudio (kitnet) de 33 m² exterior hacia la calle principal, compuesto por cocina pequeña, baño, pasillo y salón principal con ventana de aluminio. Requiere reformas, ofreciendo un gran potencial de revalorización." },
+        { q: "¿Qué servicios e infraestructura ofrece el edificio de 1967?", a: "El edificio cuenta con portería 24 horas, circuito cerrado de TV, dos ascensores y salón de fiestas, ubicado en una zona céntrica y conectada." },
+        { q: "¿Cómo se audita la Matrícula nº 80.801 del 2º RGI/RJ?", a: "Realizamos una due diligence completa de la Matrícula nº 80.801 del 2º Registro de Inmuebles y del IPTU 097801 para garantizar una adquisición libre de cargas procesales o fiscales previas." },
+        { q: "¿Por qué invertir en estudios compactos en el Centro de Río de Janeiro?", a: "Alta liquidez y rentabilidad de alquiler debido a la demanda continua de estudiantes, funcionarios y profesionales del centro de la ciudad." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment on Riachuelo St #220 — Apt 1103',
+      subtitle: 'Riachuelo St, #220, Apt 1103 — Downtown (Centro), Rio de Janeiro/RJ | 33 m² Studio • Front-Facing',
+      address: 'Riachuelo St, 220 - Apt 1103 — Downtown (Centro), Rio de Janeiro - RJ',
+      p1Date: '08/31/2026 at 12:50 PM',
+      p2Date: '09/03/2026 at 12:50 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '097801',
+      rgi: 'Title #80,801 (2nd Land Registry)',
+      val: 'R$ 138,524.00',
+      p2Val: 'R$ 69,262.00 (50% discount)',
+      description: 'Apartment 1103 located at Riachuelo St #220, Downtown (Centro), Rio de Janeiro/RJ, featuring 33 square meters (33 m²) of built area and front-facing street exposure. Compact studio (kitnet) comprising a small kitchen and bathroom with half-tiled walls and classic flooring, hallway, and main salon with parquet wood floors and aluminum window (in need of renovation). Built in 1967, the residential building features 24-hour concierge service, CCTV monitoring, two elevators (6-passenger capacity each), and a party hall.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid for Apt 1103 on Riachuelo St?", a: "Official court valuation is R$ 138,524.00. The 1st Auction (08/31/2026 at 12:50 PM) starts at 100% of appraisal. The 2nd Auction (09/03/2026 at 12:50 PM) starts at a 50% discount, only R$ 69,262.00." },
+        { q: "What are the physical specifications and renovation condition of Apartment 1103?", a: "It is a 33 m² front-facing studio (kitnet) featuring a small kitchen, bathroom, hallway, and living salon with parquet floors and aluminum window. It requires renovation, offering significant equity gain upon modernization." },
+        { q: "What amenities and security features does the 1967 building provide?", a: "The building offers 24-hour concierge security, internal CCTV monitoring, two elevators (each with 6-passenger capacity), and a party room." },
+        { q: "How is legal due diligence conducted for Title #80,801 (2nd Land Registry)?", a: "We conduct a complete legal audit of Title #80,801 at the 2nd Real Estate Registry of Rio de Janeiro and IPTU tax records (#097801), ensuring full subrogation of prior tax debts under Brazilian Tax Code Article 130." },
+        { q: "Why invest in compact studio apartments in Downtown Rio de Janeiro?", a: "Downtown Rio (Centro) is experiencing strong rental liquidity driven by students, corporate professionals, and proximity to subway lines, universities, and major courts." }
+      ]
+    }
+  },
+
+  // Copacabana - Avenida Atlântica 3806 - Apto 312 (27 m² / Fundos)
+  'copacabana-atlantica-3806': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Avenida Atlântica nº 3806 — Apto 312',
+      subtitle: 'Avenida Atlântica, nº 3806, Apto 312 (Entrada pela Av. N. Sra. de Copacabana, 1241) — Copacabana, Rio de Janeiro/RJ | 27 m² • Fundos',
+      address: 'Avenida Atlântica, 3806 - Apto 312 (Entrada suplementar: Av. N. Sra. de Copacabana, 1241) — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '02/09/2026 às 14:00h',
+      p2Date: '14/09/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.596.643-7',
+      rgi: '29.681 (5º RGI/RJ)',
+      val: 'R$ 450.100,00',
+      p2Val: 'R$ 225.100,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial 312 com 27 metros quadrados (27 m²) de área edificada, situado em posição de fundos no edifício localizado na Avenida Atlântica, nº 3806, com entrada suplementar pela Avenida Nossa Senhora de Copacabana, nº 1241, no bairro de Copacabana, Rio de Janeiro/RJ. Edifício construído em 1955, de utilização residencial, situado em localização nobre na orla de Copacabana (Posto 5/6), próximo ao metrô, praias e diversificado comércio da Zona Sul.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é a avaliação oficial e o valor de lance mínimo em 2ª Praça para o apartamento 312 na Avenida Atlântica nº 3806?", a: "O imóvel foi avaliado oficialmente em R$ 450.100,00. No 1º Leilão (02/09/2026 às 14:00h), o lance mínimo corresponde a 100% da avaliação (R$ 450.100,00). No 2º Leilão (14/09/2026 às 14:00h), o lance mínimo será com 50% de desconto, por apenas R$ 225.100,00." },
+        { q: "Quais são as características do apartamento 312 e do edifício em Copacabana?", a: "Unidade residencial de fundos com 27 metros quadrados (27 m²) de área edificada. Prédio construído em 1955 com portaria e circuito interno, situado na orla da Avenida Atlântica nº 3806 com acesso suplementar pela Av. Nossa Senhora de Copacabana nº 1241." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 29.681 do 5º RGI e IPTU nº 0.596.643-7?", a: "Nossa assessoria jurídica realiza due diligence completa da Matrícula nº 29.681 junto ao 5º RGI/RJ, débitos fiscais de IPTU (0.596.643-7), taxas condominiais e a integridade da execução no TJRJ, assegurando sub-rogação de tributos nos termos do art. 130 do CTN." },
+        { q: "Por que investir em apartamentos compactos na orla de Copacabana (Av. Atlântica)?", a: "Apartamentos na Avenida Atlântica possuem valorização contínua e demanda altíssima para locação residencial e por temporada (Airbnb), impulsionados pela proximidade com a praia, transporte farto e turismo na Zona Sul carioca." },
+        { q: "Como solicitar o parecer jurídico de viabilidade com os advogados antes de licitar?", a: "Entre em contato via WhatsApp ou agende atendimento presencial em nosso escritório em Ipanema para obter relatório minucioso de análise de edital e certidões." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Avenida Atlântica nº 3806 — Apto 312',
+      subtitle: 'Avenida Atlântica, nº 3806, Apto 312 (Acceso por Av. N. Sra. de Copacabana, 1241) — Copacabana, Río de Janeiro/RJ | 27 m² • Interior',
+      address: 'Avenida Atlântica, 3806 - Apto 312 (Entrada suplementaria: Av. N. Sra. de Copacabana, 1241) — Copacabana, Río de Janeiro - RJ',
+      p1Date: '02/09/2026 a las 14:00h',
+      p2Date: '14/09/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.596.643-7',
+      rgi: '29.681 (5º RGI/RJ)',
+      val: 'R$ 450.100,00',
+      p2Val: 'R$ 225.100,00 (50% de la evaluación)',
+      description: 'Apartamento residencial 312 de 27 metros cuadrados (27 m²), de orientación interior (fundos), ubicado en la Avenida Atlântica nº 3806, con entrada suplementaria por Avenida Nossa Senhora de Copacabana nº 1241. Edificio residencial construido en 1955 en primera línea de playa de Copacabana.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta para el apto 312 en Av. Atlântica?", a: "Valoración oficial de R$ 450.100,00. En la 1ª Subasta (02/09/2026 a las 14:00h), puja del 100%. En la 2ª Subasta (14/09/2026 a las 14:00h), puja inicial del 50%, es decir, R$ 225.100,00." },
+        { q: "¿Cuáles son las características del apartamento y del edificio de 1955?", a: "Apartamento de 27 m² interior (fundos) en edificio de 1955 frente al mar con doble acceso por Av. Atlântica y Av. Nossa Senhora de Copacabana." },
+        { q: "¿Cómo se analiza la viabilidad jurídica?", a: "Auditamos la Matrícula nº 29.681 del 5º RGI, deudas de IPTU (0.596.643-7) y expediente del TJRJ." },
+        { q: "¿Por qué invertir en Copacabana?", a: "Alta rentabilidad en alquiler vacacional y residencial en la playa más famosa de Río de Janeiro." },
+        { q: "¿Cómo consultar con el equipo de abogados?", a: "Contáctenos vía WhatsApp para obtener el informe completo de viabilidad jurídica." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment at Avenida Atlântica #3806 — Apt 312',
+      subtitle: 'Avenida Atlântica, #3806, Apt 312 (Access via Av. N. Sra. de Copacabana, 1241) — Copacabana, Rio de Janeiro/RJ | 27 m² • Rear View',
+      address: 'Avenida Atlântica, 3806 - Apt 312 (Extra entrance: Av. N. Sra. de Copacabana, 1241) — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '09/02/2026 at 02:00 PM',
+      p2Date: '09/14/2026 at 02:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.596.643-7',
+      rgi: 'Title #29,681 (5th Land Registry)',
+      val: 'R$ 450,100.00',
+      p2Val: 'R$ 225,100.00 (50% discount)',
+      description: 'Residential apartment 312 featuring 27 square meters (27 m²) of built area, rear-facing position, located at Avenida Atlântica #3806 with additional entrance at Avenida Nossa Senhora de Copacabana #1241, Copacabana, Rio de Janeiro/RJ. 1955 residential building on Copacabana beachfront.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid for Apt 312 on Av. Atlântica?", a: "Official court valuation is R$ 450,100.00. 1st Auction (09/02/2026 at 02:00 PM) starts at R$ 450,100.00. 2nd Auction (09/14/2026 at 02:00 PM) starts at a 50% discount, only R$ 225,100.00." },
+        { q: "What are the apartment specs and building features?", a: "27 m² rear-facing apartment in a 1955 building on Copacabana oceanfront with dual building entrances." },
+        { q: "How is legal due diligence conducted?", a: "We audit Title #29,681 (5th Registry), municipal IPTU taxes (0.596.643-7), and court proceedings." },
+        { q: "Why invest in Copacabana beachfront real estate?", a: "Prime beachfront location with continuous asset appreciation and high rental yields." },
+        { q: "How to contact the legal advisory team?", a: "Reach out via WhatsApp or visit our Ipanema office for a complete legal report." }
+      ]
+    }
+  },
+
+  // Tijuca - Rua São Francisco Xavier 90 - Apto 503 (93 m² / 2 Vagas / 1971)
+  'tijuca-sao-francisco-xavier-90': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Rua São Francisco Xavier nº 90 — Apto 503',
+      subtitle: 'Rua São Francisco Xavier, nº 90, Apto 503 — Tijuca, Rio de Janeiro/RJ | 93 m² • 2 Vagas de Garagem • Prédio de 1971',
+      address: 'Rua São Francisco Xavier, 90 - Apto 503 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '09/09/2026 às 12:00h',
+      p2Date: '11/09/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.072.588-7',
+      rgi: '37.650 (11º RGI/RJ)',
+      val: 'R$ 740.100,00',
+      p2Val: 'R$ 370.100,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial 503 com 93 metros quadrados (93 m²) de área edificada conforme constante no IPTU, acompanhado de duas (2) vagas de garagem. O imóvel situa-se no Edifício da Rua São Francisco Xavier, nº 90, constituído por 7 andares mais cobertura, revestimento em pastilhas, duas lojas comerciais no térreo, portaria fechada com portões de ferro e ano de construção de 1971. Localização privilegiada no tradicional bairro da Tijuca, próximo a colégios, comércio variado, metrô e transporte farto.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é a avaliação oficial e o valor de lance mínimo em 2ª Praça para o apartamento 503 na Rua São Francisco Xavier nº 90?", a: "O imóvel foi avaliado oficialmente pela Justiça em R$ 740.100,00. No 1º Leilão (09/09/2026 às 12:00h), o lance mínimo é de R$ 740.100,00. No 2º Leilão (11/09/2026 às 12:00h), o valor do lance inicial cai para 50% da avaliação, por apenas R$ 370.100,00." },
+        { q: "Quais são as características do imóvel e do condomínio na Tijuca?", a: "Apartamento residencial de 93 m² com direito a duas (2) vagas de garagem. O prédio foi construído em 1971, possui 7 andares mais cobertura, fachada em pastilhas, lojas no térreo e portaria fechada com portões de ferro." },
+        { q: "Como é realizada a due diligence da Matrícula nº 37.650 do 11º RGI e IPTU nº 0.072.588-7?", a: "Nossa assessoria jurídica especializada efetua auditoria minuciosa da Matrícula nº 37.650 junto ao 11º RGI/RJ, verificação de pendências de IPTU (0.072.588-7), cotas condominiais e certidões dos executados no TJRJ, garantindo arrematação limpa e sub-rogação de débitos fiscais (art. 130 do CTN)." },
+        { q: "Por que investir em apartamentos de 93 m² com 2 vagas na Tijuca?", a: "Imóveis amplos de 93 m² com duas vagas de garagem na Tijuca possuem alta liquidez tanto para moradia própria quanto para locação residencial familiar, impulsionados pela proximidade com metrô, Polo Gastronômico e renomadas instituições de ensino." },
+        { q: "Como contratar a assessoria jurídica para arrematar este imóvel?", a: "Entre em contato via WhatsApp ou agende uma reunião presencial em nosso escritório para obter relatório completo de análise de risco e acompanhamento integral até a posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Calle São Francisco Xavier nº 90 — Apto 503',
+      subtitle: 'Rua São Francisco Xavier, nº 90, Apto 503 — Tijuca, Río de Janeiro/RJ | 93 m² • 2 Plazas de Garaje • Año 1971',
+      address: 'Rua São Francisco Xavier, 90 - Apto 503 — Tijuca, Río de Janeiro - RJ',
+      p1Date: '09/09/2026 a las 12:00h',
+      p2Date: '11/09/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.072.588-7',
+      rgi: '37.650 (11º RGI/RJ)',
+      val: 'R$ 740.100,00',
+      p2Val: 'R$ 370.100,00 (50% de la evaluación)',
+      description: 'Apartamento residencial 503 con 93 metros cuadrados (93 m²) de superficie edificada según el IPTU y dos (2) plazas de garaje. Ubicado en edificio de 1971 con 7 plantas más ático, fachada revestida de pastillas y portón de hierro en la Tijuca.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta para el apto 503 en Tijuca?", a: "Valoración judicial de R$ 740.100,00. En la 1ª Subasta (09/09/2026 a las 12:00h), puja de R$ 740.100,00. En la 2ª Subasta (11/09/2026 a las 12:00h), descuento del 50%, siendo la puja mínima de R$ 370.100,00." },
+        { q: "¿Cuáles son las características del inmueble y del edificio?", a: "Apartamento de 93 m² con 2 plazas de garaje en edificio de 7 pisos más ático de 1971 en el barrio residencial de Tijuca." },
+        { q: "¿Cómo se analiza la viabilidad jurídica?", a: "Auditamos la Matrícula nº 37.650 del 11º RGI, deudas de IPTU (0.072.588-7) y proceso judicial en el TJRJ." },
+        { q: "¿Por qué invertir en Tijuca?", a: "Zona de alta demanda residencial con infraestructura completa de metro, colegios y comercio." },
+        { q: "¿Cómo consultar con el equipo legal?", a: "Contáctenos vía WhatsApp para informe completo de viabilidad jurídica y representación." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment at Rua São Francisco Xavier #90 — Apt 503',
+      subtitle: 'Rua São Francisco Xavier, #90, Apt 503 — Tijuca, Rio de Janeiro/RJ | 93 m² • 2 Parking Spaces • 1971 Building',
+      address: 'Rua São Francisco Xavier, 90 - Apt 503 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '09/09/2026 at 12:00 PM',
+      p2Date: '09/11/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.072.588-7',
+      rgi: 'Title #37,650 (11th Land Registry)',
+      val: 'R$ 740,100.00',
+      p2Val: 'R$ 370,100.00 (50% discount)',
+      description: 'Residential apartment 503 featuring 93 square meters (93 m²) of built area per IPTU record, accompanied by two (2) parking spaces. Located in a 1971 building with 7 floors plus penthouse, tile cladding, ground floor shops, and iron gate security in Tijuca, Rio de Janeiro/RJ.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid for Apt 503 in Tijuca?", a: "Court valuation is R$ 740,100.00. 1st Auction (09/09/2026 at 12:00 PM) starts at R$ 740,100.00. 2nd Auction (09/11/2026 at 12:00 PM) starts at a 50% discount, for R$ 370,100.00." },
+        { q: "What are the apartment specs and building details?", a: "93 m² apartment with 2 parking spaces in a 1971 building featuring 7 floors plus penthouse in Tijuca." },
+        { q: "How is legal due diligence conducted?", a: "We audit Title #37,650 (11th Registry), IPTU taxes (0.072.588-7), and TJRJ court records." },
+        { q: "Why invest in Tijuca real estate?", a: "High family residential demand with direct access to subway lines, schools, and commercial hubs." },
+        { q: "How to hire legal advisory for this auction?", a: "Contact us via WhatsApp for a comprehensive legal risk report and representation." }
+      ]
+    }
+  },
+
+  // Tijuca - Rua Delgado de Carvalho 75 - Cobertura 01 (106 m² / Garagem / 1965)
+  'tijuca-delgado-carvalho-75': {
+    pt: {
+      title: 'Leilão Judicial de Cobertura na Rua Delgado de Carvalho nº 75 — Cobertura 01',
+      subtitle: 'Rua Delgado de Carvalho, nº 75, Cobertura 01 — Tijuca, Rio de Janeiro/RJ | 106 m² • Com Garagem • Prédio de 1965',
+      address: 'Rua Delgado de Carvalho, 75 - Cobertura 01 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: 'Lances: 06/07/2026 (19:30h) | Pregão: 12/08/2026 às 13:00h',
+      p2Date: 'Lances: 12/08/2026 (13:03h) | Pregão: 26/08/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '733.892-4',
+      rgi: '99.412 (11º RGI/RJ)',
+      val: 'R$ 668.000,00',
+      p2Val: 'R$ 334.000,00 (50% do valor da avaliação)',
+      description: 'Cobertura residencial 01 com 106 metros quadrados (106 m²) de área edificada conforme constante no IPTU e direito a vaga de garagem com duas entradas laterais. O imóvel situa-se no Edifício da Rua Delgado de Carvalho, nº 75, prédio antigo construído em 1965, sem playground, com amplo espaço frontal à portaria antecedido por portão de calçada com bancos e piso em mármore. Excelente localização na Tijuca, em rua estritamente residencial e valorizada.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é a avaliação oficial e o valor de lance inicial na 2ª Praça para a Cobertura 01 na Rua Delgado de Carvalho nº 75?", a: "O imóvel foi avaliado judicialmente em R$ 668.000,00. No 1º Leilão (abertura de lances em 06/07/2026 e pregão ao vivo em 12/08/2026 às 13:00h), o lance inicial é R$ 668.000,00. No 2º Leilão (abertura de lances em 12/08/2026 às 13:03h e pregão ao vivo em 26/08/2026 às 13:00h), o lance inicial é de 50% da avaliação, por R$ 334.000,00." },
+        { q: "Quais são as características da cobertura e da infraestrutura do prédio?", a: "Cobertura residencial de 106 m² edificados. O edifício (ano de construção 1965) possui garagem com duas entradas laterais, amplo espaço frontal à portaria antecedido por portão com piso em mármore e bancos." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 99.412 e IPTU nº 733.892-4?", a: "Nossa equipe realiza due diligence detalhada da Matrícula nº 99.412 junto ao 11º RGI/RJ, consulta débitos municipais de IPTU (733.892-4), pendências condominiais e certidões dos executados no TJRJ para garantir arrematação livre de ônus pregressos (art. 130 do CTN)." },
+        { q: "Por que investir em coberturas residenciais na Tijuca?", a: "Coberturas de 106 m² na Tijuca oferecem área privativa diferenciada e alta valorização imobiliária, combinando o charme de rua arborizada e tranquila com fácil acesso ao comércio local, metrô e serviços." },
+        { q: "Como obter a assessoria jurídica para arrematar esta cobertura em leilão?", a: "Entre em contato via WhatsApp ou agende uma reunião em nosso escritório de Ipanema para emitirmos parecer de viabilidade jurídica e acompanharmos seu lance até a imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Ático/Cobertura en Calle Delgado de Carvalho nº 75 — Cobertura 01',
+      subtitle: 'Rua Delgado de Carvalho, nº 75, Cobertura 01 — Tijuca, Río de Janeiro/RJ | 106 m² • Con Garaje • Edificio de 1965',
+      address: 'Rua Delgado de Carvalho, 75 - Cobertura 01 — Tijuca, Río de Janeiro - RJ',
+      p1Date: 'Pujas: 06/07/2026 (19:30h) | Subasta en vivo: 12/08/2026 a las 13:00h',
+      p2Date: 'Pujas: 12/08/2026 (13:03h) | Subasta en vivo: 26/08/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '733.892-4',
+      rgi: '99.412 (11º RGI/RJ)',
+      val: 'R$ 668.000,00',
+      p2Val: 'R$ 334.000,00 (50% de la evaluación)',
+      description: 'Ático/cobertura residencial 01 con 106 metros cuadrados (106 m²) según el IPTU y plaza de garaje. Ubicado en edificio clásico de 1965 con amplio vestíbulo de mármol y garaje con dos entradas laterales en Tijuca.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración y puja mínima en 2ª Subasta para el ático en Delgado de Carvalho nº 75?", a: "Valoración judicial de R$ 668.000,00. En la 1ª Subasta, puja inicial de R$ 668.000,00. En la 2ª Subasta (pregão 26/08/2026), puja inicial del 50%, por R$ 334.000,00." },
+        { q: "¿Cuáles son las características del inmueble?", a: "Ático/cobertura de 106 m² con garaje en edificio tradicional de 1965 con entradas laterales de garaje en Tijuca." },
+        { q: "¿Cómo se audita la Matrícula nº 99.412 del 11º RGI?", a: "Revisamos la matrícula nº 99.412, deudas de IPTU (733.892-4) y el expediente judicial en TJRJ." },
+        { q: "¿Por qué invertir en un ático en Tijuca?", a: "Excelente potencial de valorización en zona residencial consolidada." },
+        { q: "¿Cómo solicitar la asesoría legal?", a: "Contáctenos vía WhatsApp para evaluación de riesgos y acompañamiento integral." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Penthouse at Rua Delgado de Carvalho #75 — Cobertura 01',
+      subtitle: 'Rua Delgado de Carvalho, #75, Cobertura 01 — Tijuca, Rio de Janeiro/RJ | 106 m² • Parking Space • 1965 Building',
+      address: 'Rua Delgado de Carvalho, 75 - Cobertura 01 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: 'Bids open: 07/06/2026 (7:30 PM) | Live auction: 08/12/2026 at 1:00 PM',
+      p2Date: 'Bids open: 08/12/2026 (1:03 PM) | Live auction: 08/26/2026 at 1:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '733.892-4',
+      rgi: 'Title #99,412 (11th Land Registry)',
+      val: 'R$ 668,000.00',
+      p2Val: 'R$ 334,000.00 (50% discount)',
+      description: 'Residential penthouse 01 featuring 106 square meters (106 m²) of built area per IPTU record, plus parking space with dual side entrances. Located in a classic 1965 building with marble entrance floor and iron gated security in Tijuca, Rio de Janeiro/RJ.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the valuation and 2nd auction opening bid for the penthouse at Rua Delgado de Carvalho #75?", a: "Official court valuation is R$ 668,000.00. 1st Auction opening bid is R$ 668,000.00. 2nd Auction (live bidding 08/26/2026) opens at 50% discount, for R$ 334,000.00." },
+        { q: "What are the specs of the property and building?", a: "106 m² residential penthouse with parking in a 1965 building with marble entry courtyard in Tijuca." },
+        { q: "How is legal due diligence performed for Title #99,412?", a: "We audit Title #99,412 (11th Registry), IPTU records (733.892-4), condo fees, and TJRJ judicial proceedings." },
+        { q: "Why invest in Tijuca penthouse properties?", a: "Prime residential location offering strong capital appreciation and family living appeal." },
+        { q: "How to engage legal advisory services for this auction?", a: "Reach out via WhatsApp to receive a complete legal risk audit and bidding strategy." }
+      ]
+    }
+  },
+
+  // Copacabana - Rua Tonelero 202 - Prédio Hoteleiro / Comercial (3.760 m² / Metrô Siqueira Campos / Matrícula 4.864)
+  'copacabana-tonelero-202': {
+    pt: {
+      title: 'Leilão Judicial de Prédio Hoteleiro na Rua Tonelero nº 202 — Copacabana',
+      subtitle: 'Rua Tonelero, nº 202 — Copacabana, Rio de Janeiro/RJ | 3.760 m² • Tipologia Hotel/Motel • Matrícula nº 4.864 (5º RGI/RJ)',
+      address: 'Rua Tonelero, 202 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: 'Lances: 03/08/2026 (18:00h) | Pregão: 06/10/2026 às 13:00h',
+      p2Date: 'Lances: 06/10/2026 (13:03h) | Pregão: 08/10/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.411.728-9',
+      rgi: '4.864 (5º RGI/RJ)',
+      val: 'R$ 45.836.204,80',
+      p2Val: 'R$ 22.918.102,40 (50% do valor da avaliação)',
+      description: 'Edifício com tipologia hotel/motel e similares, para utilização como hotel, com 3.760 metros quadrados (3.760 m²) de área edificada. O prédio se encontra situado na Rua Tonelero, nº 202, próximo à Estação de Metrô Siqueira Campos/Copacabana, com pontos de ônibus e táxis no entorno, vasto comércio e a poucos metros da orla da Praia de Copacabana. Imóvel de altíssimo valor estratégico para a hotelaria carioca e investidores imobiliários.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor da avaliação e o lance inicial na 2ª Praça do prédio na Rua Tonelero nº 202?", a: "O imóvel foi avaliado judicialmente em R$ 45.836.204,80. No 1º Leilão (abertura de lances em 03/08/2026 às 18:00h e encerramento em 06/10/2026 às 13:00h), o lance mínimo é de R$ 45.836.204,80. No 2º Leilão (abertura de lances em 06/10/2026 às 13:03h e pregão ao vivo em 08/10/2026 às 13:00h), o lance inicial é de 50% da avaliação, por R$ 22.918.102,40." },
+        { q: "Quais são as especificações e a localização do edifício?", a: "Trata-se de um edifício com 3.760 m² de área construída, projetado para utilização hoteleira/motelaria. Localizado na Rua Tonelero nº 202, a poucos metros do Metrô Siqueira Campos e da Praia de Copacabana." },
+        { q: "Como é realizada a auditoria da Matrícula nº 4.864 e do IPTU nº 0.411.728-9?", a: "A equipe jurídica do Soares Martins Advogados analisa minuciosamente a Matrícula nº 4.864 junto ao 5º Ofício do RGI/RJ, mapeia débitos fiscais de IPTU (0.411.728-9), eventuais pendências trabalhistas, tributárias e processos judiciais para assegurar a aquisição originária livre de ônus pregressos." },
+        { q: "Por que o prédio na Rua Tonelero nº 202 é uma oportunidade única em Copacabana?", a: "Trata-se de uma estrutura hoteleira pronta de 3.760 m² no bairro de maior fluxo turístico da América Latina, com desconto de R$ 22,9 milhões na 2ª praça judicial." },
+        { q: "Como contratar a assessoria jurídica para arrematar este imóvel?", a: "Entre em contato diretamente via WhatsApp ou agende uma reunião em nosso escritório em Ipanema para emissão de relatório completo de viabilidade e acompanhamento até a imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Edificio Hotelero en Calle Tonelero nº 202 — Copacabana',
+      subtitle: 'Rua Tonelero, nº 202 — Copacabana, Río de Janeiro/RJ | 3.760 m² • Tipología Hotel/Motel • Matrícula nº 4.864 (5º RGI/RJ)',
+      address: 'Rua Tonelero, 202 — Copacabana, Río de Janeiro - RJ',
+      p1Date: 'Pujas: 03/08/2026 (18:00h) | Subasta en vivo: 06/10/2026 a las 13:00h',
+      p2Date: 'Pujas: 06/10/2026 (13:03h) | Subasta en vivo: 08/10/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.411.728-9',
+      rgi: '4.864 (5º RGI/RJ)',
+      val: 'R$ 45.836.204,80',
+      p2Val: 'R$ 22.918.102,40 (50% de la evaluación)',
+      description: 'Edificio comercial e hotelero con 3.760 m² en Rua Tonelero nº 202, Copacabana, Río de Janeiro/RJ. Diseñado para operación hotelera o motel, próximo al Metro Siqueira Campos y la playa de Copacabana.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración y la puja mínima en 2ª Subasta del edificio en Tonelero nº 202?", a: "Valoración judicial de R$ 45.836.204,80. En 2ª Subasta (08/10/2026), la puja mínima se reduce al 50%, iniciando en R$ 22.918.102,40." },
+        { q: "¿Cuáles son las características del inmueble?", a: "Edificio de 3.760 m² en Copacabana apto para hotel, junto al Metro Siqueira Campos." },
+        { q: "¿Cómo se audita la Matrícula nº 4.864 del 5º RGI/RJ?", a: "Auditamos la matrícula 4.864, deudas de IPTU (0.411.728-9) y el expediente en el TJRJ." },
+        { q: "¿Por qué invertir en un edificio hotelero en Copacabana?", a: "Alta demanda turística y corporativa en una de las zonas con mayor rentabilidad de Río de Janeiro." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Póngase en contacto por WhatsApp para recibir un dictamen de viabilidad legal." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Hotel Building at Rua Tonelero #202 — Copacabana',
+      subtitle: 'Rua Tonelero, #202 — Copacabana, Rio de Janeiro/RJ | 3,760 m² • Hotel/Motel Typology • Title #4,864 (5th Land Registry)',
+      address: 'Rua Tonelero, 202 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: 'Bids open: 08/03/2026 (6:00 PM) | Live auction: 10/06/2026 at 1:00 PM',
+      p2Date: 'Bids open: 10/06/2026 (1:03 PM) | Live auction: 10/08/2026 at 1:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.411.728-9',
+      rgi: 'Title #4,864 (5th Land Registry)',
+      val: 'R$ 45,836,204.80',
+      p2Val: 'R$ 22,918,102.40 (50% discount)',
+      description: 'Commercial & hotel building offering 3,760 square meters (3,760 m²) of built area located at Rua Tonelero #202 in Copacabana, Rio de Janeiro/RJ. Designed for hotel/motel use, situated steps from Siqueira Campos Subway Station and Copacabana Beach.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the valuation and 2nd auction opening bid for Rua Tonelero #202?", a: "Court valuation is R$ 45,836,204.80. 1st Auction opens at R$ 45,836,204.80. 2nd Auction (bidding closes 10/08/2026) opens at a 50% discount for R$ 22,918,102.40." },
+        { q: "What are the building specs and location highlights?", a: "3,760 m² hotel/commercial building near Siqueira Campos Metro Station and Copacabana Beach." },
+        { q: "How is legal due diligence conducted for Title #4,864?", a: "We audit Title #4,864 (5th Registry), IPTU tax records (0.411.728-9), and TJRJ execution proceedings." },
+        { q: "Why invest in Copacabana hospitality real estate?", a: "Copacabana is Latin America's top tourist hub with prime hotel occupancy rates." },
+        { q: "How to engage legal advisory for this auction?", a: "Contact our legal team via WhatsApp for full due diligence and representation." }
+      ]
+    }
+  },
+
+  // Copacabana - Rua Santa Clara 431 - Apto 704 Bl. 4 (86 m² / Condomínio Mirante de Copacabana / 1980)
+  'copacabana-santa-clara-431': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Rua Santa Clara nº 431 — Apto 704 (Mirante de Copacabana)',
+      subtitle: 'Rua Santa Clara, nº 431, Apto 704, Bloco 4 (Condomínio Mirante de Copacabana) — Copacabana, Rio de Janeiro/RJ | 86 m² • Edifício de 1980',
+      address: 'Rua Santa Clara, 431 - Apto 704, Bl. 4 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: 'Pregão: 09/09/2025 às 13:00h',
+      p2Date: 'Pregão: 11/09/2025 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.439.517-2',
+      rgi: '35.666 (5º RGI/RJ)',
+      val: 'R$ 635.000,00',
+      p2Val: 'R$ 317.500,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial com 86 metros quadrados (86 m²) de área edificada, situado no Apto 704 do Bloco 4 do Condomínio Mirante de Copacabana, localizado na Rua Santa Clara, nº 431, em Copacabana, Rio de Janeiro/RJ. Prédio construído em 1980, inserido em condomínio fechado tradicional com boa infraestrutura e segurança, próximo a farto comércio, estações de metrô e à praia de Copacabana.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor da avaliação e o lance inicial na 2ª Praça para o apartamento na Rua Santa Clara nº 431 / 704?", a: "O imóvel foi avaliado judicialmente em R$ 635.000,00. No 1º Leilão (09/09/2025 às 13:00h), o lance inicial é de R$ 635.000,00. No 2º Leilão (11/09/2025 às 12:00h), o lance mínimo tem desconto de 50%, iniciando em R$ 317.500,00." },
+        { q: "Quais são as características do imóvel e do Condomínio Mirante de Copacabana?", a: "Apartamento residencial de 86 m² de área edificada no Bloco 4, 7º andar (Apto 704), em edifício construído em 1980 no Condomínio Mirante de Copacabana, com portaria 24 horas e localização central no bairro." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 35.666 e IPTU nº 1.439.517-2?", a: "Realizamos rigorosa due diligence da Matrícula nº 35.666 perante o 5º Ofício do RGI/RJ, consulta aos débitos fiscais de IPTU (1.439.517-2), cota condominial e certidões dos executados no TJRJ para garantir a sub-rogação das dívidas no valor da arrematação (art. 130 do CTN)." },
+        { q: "Por que investir em apartamentos na Rua Santa Clara em Copacabana?", a: "A Rua Santa Clara é uma das vias mais valorizadas e tradicionais de Copacabana, combinando praticidade de acesso ao metrô (Estação Siqueira Campos), farto comércio local e alta liquidez para locação e moradia." },
+        { q: "Como contratar a assessoria jurídica para arrematar este apartamento?", a: "Entre em contato via WhatsApp para receber a análise completa de riscos jurídicos e acompanhamento desde a habilitação no leilão até a imissão na posse do imóvel." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Calle Santa Clara nº 431 — Apto 704 (Mirante de Copacabana)',
+      subtitle: 'Rua Santa Clara, nº 431, Apto 704, Bloco 4 (Condomínio Mirante de Copacabana) — Copacabana, Río de Janeiro/RJ | 86 m² • Edificio de 1980',
+      address: 'Rua Santa Clara, 431 - Apto 704, Bl. 4 — Copacabana, Río de Janeiro - RJ',
+      p1Date: 'Subasta en vivo: 09/09/2025 a las 13:00h',
+      p2Date: 'Subasta en vivo: 11/09/2025 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.439.517-2',
+      rgi: '35.666 (5º RGI/RJ)',
+      val: 'R$ 635.000,00',
+      p2Val: 'R$ 317.500,00 (50% de la evaluación)',
+      description: 'Apartamento residencial de 86 m² ubicado en el Apto 704 del Bloque 4 del Condomínio Mirante de Copacabana, Rua Santa Clara nº 431, Copacabana, Río de Janeiro/RJ. Edificio de 1980 en zona estratégica con comercios y acceso al metro.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración y la puja mínima en 2ª Subasta del apartamento en Santa Clara nº 431 / 704?", a: "Valoración judicial de R$ 635.000,00. En 2ª Subasta (11/09/2025), la puja mínima inicia en R$ 317.500,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del inmueble?", a: "Apartamento de 86 m² en edificio de 1980 en el Condomínio Mirante de Copacabana." },
+        { q: "¿Cómo se audita la Matrícula nº 35.666 del 5º RGI/RJ?", a: "Auditamos la matrícula 35.666, deudas de IPTU (1.439.517-2) y el expediente en TJRJ." },
+        { q: "¿Por qué invertir en un apartamento en Rua Santa Clara?", a: "Excelente ubicación con alta liquidez inmobiliaria y demanda de alquiler." },
+        { q: "¿Cómo solicitar la asesoría legal?", a: "Contáctenos vía WhatsApp para evaluación de riesgos y acompanamiento jurídico." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment at Rua Santa Clara #431 — Apt 704 (Mirante de Copacabana)',
+      subtitle: 'Rua Santa Clara, #431, Apt 704, Block 4 (Condomínio Mirante de Copacabana) — Copacabana, Rio de Janeiro/RJ | 86 m² • 1980 Building',
+      address: 'Rua Santa Clara, 431 - Apt 704, Bl. 4 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: 'Live auction: 09/09/2025 at 1:00 PM',
+      p2Date: 'Live auction: 09/11/2025 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.439.517-2',
+      rgi: 'Title #35,666 (5th Land Registry)',
+      val: 'R$ 635,000.00',
+      p2Val: 'R$ 317,500.00 (50% discount)',
+      description: 'Residential apartment featuring 86 square meters (86 m²) of built area located in Apt 704, Block 4 of Condomínio Mirante de Copacabana, at Rua Santa Clara #431, Copacabana, Rio de Janeiro/RJ. 1980 building located close to subway, local shops, and Copacabana beach.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the valuation and 2nd auction opening bid for Apt 704 at Rua Santa Clara #431?", a: "Official court valuation is R$ 635,000.00. 1st Auction opening bid is R$ 635,000.00. 2nd Auction (09/11/2025 at 12:00 PM) opens with a 50% discount at R$ 317,500.00." },
+        { q: "What are the property specs and building features?", a: "86 m² residential apartment in Block 4, 7th floor (Apt 704) in a 1980 building with 24h concierge." },
+        { q: "How is legal due diligence conducted for Title #35,666?", a: "We audit Title #35,666 (5th Registry), IPTU tax records (1.439.517-2), condo debts, and TJRJ court records." },
+        { q: "Why invest in Santa Clara Street real estate in Copacabana?", a: "Prime central Copacabana location with high rental yields and strong buyer demand." },
+        { q: "How to engage legal advisory services for this auction?", a: "Reach out via WhatsApp to receive a complete legal risk report and representation." }
+      ]
+    }
   }
 };

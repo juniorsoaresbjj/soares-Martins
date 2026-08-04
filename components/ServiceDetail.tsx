@@ -284,6 +284,94 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 843.401,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20506%20na%20G%C3%A1vea%20na%20Rua%20Vice%20Governador%20Rubens%20Berardo%20175.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento na Praia de Botafogo nº 356 — Apto 1138',
+        desc: 'Apartamento residencial 1138 com 21 metros quadrados (21 m²) em bom estado na Praia de Botafogo nº 356. Composto de rol de entrada/cozinha, banheiro e quarto pequeno. Edifício de 1958 com portaria 24h, circuito de câmeras e 10 elevadores. Matrícula nº 38.841 do 3º RGI e IPTU nº 0.651.974-8.',
+        p1Label: '1ª Praça (17/08/2026):',
+        p1Val: 'R$ 355.000,42',
+        p2Label: '2ª Praça (20/08/2026):',
+        p2Val: 'R$ 213.000,25',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201138%20na%20Praia%20de%20Botafogo%20356.'
+      },
+      {
+        tag: 'Residencial • Santa Teresa/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Costa Bastos nº 8 — Santa Teresa',
+        desc: 'Apartamento 1001 com 51 m², de frente para a rua e com sol da manhã. Composto por sala, quarto, cozinha e banheiro em bom estado de conservação. Prédio tradicional com portaria e sem área de lazer. Matrícula nº 97.791 do 2º RGI/RJ.',
+        p1Label: '1ª Praça (13/08/2026):',
+        p1Val: 'R$ 290.000,00',
+        p2Label: '2ª Praça (18/08/2026):',
+        p2Val: 'R$ 145.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201001%20na%20Rua%20Costa%20Bastos%208%20em%20Santa%20Teresa.'
+      },
+      {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Riachuelo nº 220 — Apto 1103',
+        desc: 'Apartamento 1103 com 33 metros quadrados (33 m²), de frente para a rua principal. Kitnet composta por cozinha compacta, banheiro com azulejos, corredor e salão com taco. Edifício de 1967 com porteiro 24h, 2 elevadores e circuito interno de TV. Matrícula nº 80.801 do 2º RGI/RJ.',
+        p1Label: '1ª Praça (31/08/2026):',
+        p1Val: 'R$ 138.524,00',
+        p2Label: '2ª Praça (03/09/2026):',
+        p2Val: 'R$ 69.262,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201103%20na%20Rua%20Riachuelo%20220%20no%20Centro.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento na Av. Atlântica nº 3806 — Apto 312',
+        desc: 'Apartamento 312 com 27 m², posição de fundos. Prédio residencial de 1955 na orla de Copacabana com entrada suplementar pela Av. N. Sra. de Copacabana nº 1241. Matrícula nº 29.681 do 5º RGI/RJ.',
+        p1Label: '1ª Praça (02/09/2026):',
+        p1Val: 'R$ 450.100,00',
+        p2Label: '2ª Praça (14/09/2026):',
+        p2Val: 'R$ 225.100,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20312%20na%20Avenida%20Atl%C3%A2ntica%203806%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua São Francisco Xavier nº 90 — Apto 503',
+        desc: 'Apartamento 503 com 93 m² de área edificada e 2 vagas de garagem. Edifício de 7 andares mais cobertura construído em 1971. Matrícula nº 37.650 do 11º RGI/RJ.',
+        p1Label: '1ª Praça (09/09/2026):',
+        p1Val: 'R$ 740.100,00',
+        p2Label: '2ª Praça (11/09/2026):',
+        p2Val: 'R$ 370.100,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20503%20na%20Rua%20S%C3%A3o%20Francisco%20Xavier%2090%20na%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Leilão Judicial de Cobertura na Rua Delgado de Carvalho nº 75 — Cobertura 01',
+        desc: 'Cobertura 01 com 106 m² de área edificada e vaga de garagem. Edifício de 1965 com portaria com piso em mármore e entradas laterais de garagem na Tijuca. Matrícula nº 99.412 do 11º RGI/RJ.',
+        p1Label: '1ª Praça (12/08/2026):',
+        p1Val: 'R$ 668.000,00',
+        p2Label: '2ª Praça (26/08/2026):',
+        p2Val: 'R$ 334.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75-cobertura-01/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20Cobertura%2001%20na%20Rua%20Delgado%20de%20Carvalho%2075%20na%20Tijuca.'
+      },
+      {
+        tag: 'Hotel / Comercial • Copacabana/RJ',
+        title: 'Leilão Judicial de Prédio Hoteleiro na Rua Tonelero nº 202 — Copacabana',
+        desc: 'Edifício comercial e hoteleiro com 3.760 m² de área edificada. Próximo ao Metrô Siqueira Campos e à Praia de Copacabana. Matrícula nº 4.864 do 5º RGI/RJ.',
+        p1Label: '1ª Praça (06/10/2026):',
+        p1Val: 'R$ 45.836.204,80',
+        p2Label: '2ª Praça (08/10/2026):',
+        p2Val: 'R$ 22.918.102,40',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/hotel/rua-tonelero-202/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20pr%C3%A9dio%20hoteleiro%20na%20Rua%20Tonelero%20202%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento na Rua Santa Clara nº 431 — Apto 704 (Mirante de Copacabana)',
+        desc: 'Apartamento residencial de 86 m² com condomínio fechado e portaria. Próximo ao Metrô Siqueira Campos e com comércio farto. Matrícula nº 35.666 do 5º RGI/RJ.',
+        p1Label: '1ª Praça (09/09/2025):',
+        p1Val: 'R$ 635.000,00',
+        p2Label: '2ª Praça (11/09/2025):',
+        p2Val: 'R$ 317.500,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Santa%20Clara%20431%20Apto%20704%20em%20Copacabana.'
       }
     ]
   },
@@ -505,6 +593,94 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 843.401,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20506%20en%20G%C3%A1vea.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Praia de Botafogo nº 356 — Apto 1138',
+        desc: 'Apartamento residencial 1138 con 21 metros cuadrados (21 m²) en buen estado en Praia de Botafogo nº 356. Consta de recibidor/cocina, baño y dormitorio. Edificio de 1958 con portería 24h, cámaras y 10 ascensores. Matrícula nº 38.841 del 3º RGI e IPTU nº 0.651.974-8.',
+        p1Label: '1ª Subasta (17/08/2026):',
+        p1Val: 'R$ 355.000,42',
+        p2Label: '2ª Subasta (20/08/2026):',
+        p2Val: 'R$ 213.000,25',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201138%20en%20Praia%20de%20Botafogo%20356.'
+      },
+      {
+        tag: 'Residencial • Santa Teresa/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Costa Bastos nº 8 — Santa Teresa',
+        desc: 'Apartamento 1001 con 51 m², frente a la calle con sol de mañana. Consta de salón, dormitorio, cocina y baño en buen estado. Edificio clásico con portería y sin área de ocio. Matrícula nº 97.791 del 2º RGI/RJ.',
+        p1Label: '1ª Subasta (13/08/2026):',
+        p1Val: 'R$ 290.000,00',
+        p2Label: '2ª Subasta (18/08/2026):',
+        p2Val: 'R$ 145.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201001%20en%20Calle%20Costa%20Bastos%208%20en%20Santa%20Teresa.'
+      },
+      {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Riachuelo nº 220 — Apto 1103',
+        desc: 'Apartamento 1103 con 33 metros cuadrados (33 m²), exterior a la calle principal. Estudio (kitnet) que consta de cocina compacta, baño, pasillo y salón. Edificio de 1967 con portería 24h, 2 ascensores y cámaras. Matrícula nº 80.801 del 2º RGI/RJ.',
+        p1Label: '1ª Subasta (31/08/2026):',
+        p1Val: 'R$ 138.524,00',
+        p2Label: '2ª Subasta (03/09/2026):',
+        p2Val: 'R$ 69.262,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201103%20en%20Calle%20Riachuelo%20220%20en%20el%20Centro.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Av. Atlântica nº 3806 — Apto 312',
+        desc: 'Apartamento 312 de 27 m², orientación interior (fundos). Edificio residencial de 1955 en la playa de Copacabana con acceso suplementario por Av. N. Sra. de Copacabana nº 1241. Matrícula nº 29.681 del 5º RGI/RJ.',
+        p1Label: '1ª Subasta (02/09/2026):',
+        p1Val: 'R$ 450.100,00',
+        p2Label: '2ª Subasta (14/09/2026):',
+        p2Val: 'R$ 225.100,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20312%20en%20Av.%20Atl%C3%A2ntica%203806%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle São Francisco Xavier nº 90 — Apto 503',
+        desc: 'Apartamento 503 de 93 m² y 2 plazas de garaje. Edificio de 7 plantas más ático construido en 1971 en el barrio de Tijuca. Matrícula nº 37.650 del 11º RGI/RJ.',
+        p1Label: '1ª Subasta (09/09/2026):',
+        p1Val: 'R$ 740.100,00',
+        p2Label: '2ª Subasta (11/09/2026):',
+        p2Val: 'R$ 370.100,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20503%20en%20Calle%20S%C3%A3o%20Francisco%20Xavier%2090%20en%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Subasta Judicial de Ático/Cobertura en Calle Delgado de Carvalho nº 75 — Cobertura 01',
+        desc: 'Ático/cobertura 01 de 106 m² y plaza de garaje. Edificio clásico de 1965 con vestíbulo de mármol y entradas de garaje en Tijuca. Matrícula nº 99.412 del 11º RGI/RJ.',
+        p1Label: '1ª Subasta (12/08/2026):',
+        p1Val: 'R$ 668.000,00',
+        p2Label: '2ª Subasta (26/08/2026):',
+        p2Val: 'R$ 334.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75-cobertura-01/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20%C3%A1tico%2001%20en%20Calle%20Delgado%20de%20Carvalho%2075%20en%20Tijuca.'
+      },
+      {
+        tag: 'Hotel / Comercial • Copacabana/RJ',
+        title: 'Subasta Judicial de Edificio Hotelero en Calle Tonelero nº 202 — Copacabana',
+        desc: 'Edificio comercial e hotelero con 3.760 m² de superficie construida. Junto al Metro Siqueira Campos y la playa de Copacabana. Matrícula nº 4.864 del 5º RGI/RJ.',
+        p1Label: '1ª Subasta (06/10/2026):',
+        p1Val: 'R$ 45.836.204,80',
+        p2Label: '2ª Subasta (08/10/2026):',
+        p2Val: 'R$ 22.918.102,40',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/hotel/rua-tonelero-202/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20edificio%20hotelero%20en%20Calle%20Tonelero%20202%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Calle Santa Clara nº 431 — Apto 704 (Mirante de Copacabana)',
+        desc: 'Apartamento residencial de 86 m² con portería en el Condomínio Mirante de Copacabana. Cerca del Metro Siqueira Campos. Matrícula nº 35.666 del 5º RGI/RJ.',
+        p1Label: '1ª Subasta (09/09/2025):',
+        p1Val: 'R$ 635.000,00',
+        p2Label: '2ª Subasta (11/09/2025):',
+        p2Val: 'R$ 317.500,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Calle%20Santa%20Clara%20431%20Apto%20704%20en%20Copacabana.'
       }
     ]
   },
@@ -726,6 +902,94 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 843,401.00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20506%20in%20G%C3%A1vea.'
+      },
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment at Praia de Botafogo #356 — Apt 1138',
+        desc: 'Well-maintained residential apartment (Apt 1138) spanning 21 m² at Praia de Botafogo #356. Comprises entryway/kitchen, bathroom, and bedroom. 1958 building with 24h security, cameras, and 10 elevators. Title #38.841 at 3rd Registry and IPTU #0.651.974-8.',
+        p1Label: '1st Auction (08/17/2026):',
+        p1Val: 'R$ 355,000.42',
+        p2Label: '2nd Auction (08/20/2026):',
+        p2Val: 'R$ 213,000.25',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201138%20at%20Praia%20de%20Botafogo%20356.'
+      },
+      {
+        tag: 'Residential • Santa Teresa/RJ',
+        title: 'Judicial Auction of Apartment on Costa Bastos St #8 — Santa Teresa',
+        desc: 'Apartment 1001 spanning 51 m², street-facing with morning sun exposure. Comprising living room, bedroom, kitchen, and bathroom in good condition. Traditional building with concierge. Title #97,791 (2nd RGI/RJ).',
+        p1Label: '1st Auction (08/13/2026):',
+        p1Val: 'R$ 290,000.00',
+        p2Label: '2nd Auction (08/18/2026):',
+        p2Val: 'R$ 145,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201001%20on%20Costa%20Bastos%20St%208%20in%20Santa%20Teresa.'
+      },
+      {
+        tag: 'Residential • Downtown (Centro)/RJ',
+        title: 'Judicial Auction of Apartment on Riachuelo St #220 — Apt 1103',
+        desc: 'Apartment 1103 spanning 33 square meters (33 m²), front-facing street exposure. Compact studio comprising kitchen, bathroom, hallway, and living salon. 1967 building with 24h concierge, 2 elevators, and CCTV. Title #80,801 (2nd RGI/RJ).',
+        p1Label: '1st Auction (08/31/2026):',
+        p1Val: 'R$ 138,524.00',
+        p2Label: '2nd Auction (09/03/2026):',
+        p2Val: 'R$ 69,262.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201103%20on%20Riachuelo%20St%20220%20in%20Downtown%20Rio.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment on Av. Atlântica #3806 — Apt 312',
+        desc: 'Apartment 312 featuring 27 m², rear-facing view. 1955 residential building on Copacabana oceanfront with extra entrance at Av. N. Sra. de Copacabana #1241. Title #29,681 (5th RGI/RJ).',
+        p1Label: '1st Auction (09/02/2026):',
+        p1Val: 'R$ 450,100.00',
+        p2Label: '2nd Auction (09/14/2026):',
+        p2Val: 'R$ 225,100.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20312%20on%20Avenida%20Atlantica%203806%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Tijuca/RJ',
+        title: 'Judicial Auction of Apartment on Rua São Francisco Xavier #90 — Apt 503',
+        desc: 'Apartment 503 featuring 93 m² and 2 parking spaces. 1971 building with 7 floors plus penthouse in Tijuca. Title #37,650 (11th RGI/RJ).',
+        p1Label: '1st Auction (09/09/2026):',
+        p1Val: 'R$ 740,100.00',
+        p2Label: '2nd Auction (09/11/2026):',
+        p2Val: 'R$ 370,100.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20503%20on%20Sao%20Francisco%20Xavier%2090%20in%20Tijuca.'
+      },
+      {
+        tag: 'Residential • Tijuca/RJ',
+        title: 'Judicial Auction of Penthouse on Rua Delgado de Carvalho #75 — Cobertura 01',
+        desc: 'Penthouse 01 featuring 106 m² and parking space. 1965 classic building with marble entry floor in Tijuca. Title #99,412 (11th RGI/RJ).',
+        p1Label: '1st Auction (08/12/2026):',
+        p1Val: 'R$ 668,000.00',
+        p2Label: '2nd Auction (08/26/2026):',
+        p2Val: 'R$ 334,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/cobertura/rua-delgado-de-carvalho-75-cobertura-01/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20penthouse%2001%20on%20Delgado%20de%20Carvalho%2075%20in%20Tijuca.'
+      },
+      {
+        tag: 'Hotel / Commercial • Copacabana/RJ',
+        title: 'Judicial Auction of Hotel Building at Rua Tonelero #202 — Copacabana',
+        desc: 'Commercial & hotel building offering 3,760 m² of built area. Located steps from Siqueira Campos Subway Station and Copacabana Beach. Title #4,864 (5th Land Registry).',
+        p1Label: '1st Auction (10/06/2026):',
+        p1Val: 'R$ 45,836,204.80',
+        p2Label: '2nd Auction (10/08/2026):',
+        p2Val: 'R$ 22,918,102.40',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/hotel/rua-tonelero-202/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20hotel%20building%20on%20Tonelero%20202%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment at Rua Santa Clara #431 — Apt 704 (Mirante de Copacabana)',
+        desc: '86 m² residential apartment in Condomínio Mirante de Copacabana with 24h concierge. Steps from Siqueira Campos Subway Station. Title #35,666 (5th Land Registry).',
+        p1Label: '1st Auction (09/09/2025):',
+        p1Val: 'R$ 635,000.00',
+        p2Label: '2nd Auction (09/11/2025):',
+        p2Val: 'R$ 317,500.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Santa%20Clara%20431%20Apt%20704%20in%20Copacabana.'
       }
     ]
   }

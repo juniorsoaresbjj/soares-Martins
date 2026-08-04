@@ -49,6 +49,10 @@ const routesToPrerender = [
   '/blog/como-analisar-imovel-em-leilao-antes-de-dar-um-lance-guia-completo/',
   '/blog/quais-dividas-acompanham-imovel-adquirido-em-leilao/',
   '/blog/e-possivel-visitar-imovel-de-leilao-antes-de-dar-o-lance/',
+  '/blog/qual-bairro-rio-de-janeiro-vale-mais-a-pena-comprar-em-leilao/',
+  '/blog/leilao-judicial-ou-compra-direta-qual-vale-mais-a-pena/',
+  '/blog/carro-eletrico-condominio-pode-proibir-instalacao-carregador/',
+  '/blog/cao-de-servico-condominio-pode-proibir/',
   // Blog Posts (English)
   '/blog/lgpd-condominiums-concierge-cameras/',
   '/blog/stj-rules-animals-condominiums-what-changed/',
