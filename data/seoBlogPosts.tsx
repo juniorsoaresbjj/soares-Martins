@@ -4,7 +4,7 @@ import { Post } from './blogPosts';
 import leilaoImage from '../src/assets/images/regenerated_image_1785246450750.webp';
 import dividasLeilaoImage from '../src/assets/images/regenerated_image_1785246818293.avif';
 import visitaLeilaoImage from '../src/assets/images/leilao_copacabana_building_1784921391434.jpg';
-import carroEletricoImage from '../src/assets/images/regenerated_image_1785871345014.png';
+import carroEletricoImage from '../src/assets/images/regenerated_image_1785875272941.webp';
 
 export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
   return [
