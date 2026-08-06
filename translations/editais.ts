@@ -1769,5 +1769,151 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to engage legal advisory services for this auction?", a: "Reach out via WhatsApp to receive a complete legal risk report and representation." }
       ]
     }
+  },
+
+  // Laranjeiras - Rua das Laranjeiras 347 (115 m² / 1961)
+  'laranjeiras-347': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Laranjeiras — Rua das Laranjeiras nº 347/407',
+      subtitle: 'Rua das Laranjeiras, nº 347/407 — Laranjeiras, Rio de Janeiro/RJ | 115 m² • 3 Quartos • Prédio de 1961 com Portaria 24h',
+      address: 'Rua das Laranjeiras, 347/407 — Laranjeiras, Rio de Janeiro - RJ',
+      p1Date: '08/09/2026 às 12:20h',
+      p2Date: '10/09/2026 às 12:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.355.985-3',
+      rgi: '17752 (9º RGI/RJ)',
+      val: 'R$ 950.000,00',
+      p2Val: 'R$ 475.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial com 115 m² de área edificada, situado na tradicional Rua das Laranjeiras, nº 347/407, em Laranjeiras, Rio de Janeiro/RJ. Composto por 3 quartos, 1 banheiro social, lavabo, sala com piso em madeira, cozinha, área de serviço com pequeno quarto e posição de fundos para a bucólica Rua Sebastião Lacerda. Edifício construído em 1961, em ótimo estado de conservação, com portaria 24 horas.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor da avaliação e o lance inicial na 2ª Praça para o apartamento na Rua das Laranjeiras nº 347/407?", a: "O imóvel tem avaliação oficial de R$ 950.000,00. Na 1ª Praça (08/09/2026 às 12:20h), o lance inicial é de R$ 950.000,00. Na 2ª Praça (10/09/2026 às 12:20h), o lance mínimo tem desconto de 50%, iniciando em R$ 475.000,00." },
+        { q: "Quais são as características internas e do edifício no bairro de Laranjeiras?", a: "Imóvel de 115 m², 3 quartos, banheiro social, lavabo, sala com piso em madeira, cozinha, área de serviço com dependência (pequeno quarto), sem infiltrações aparentes e de fundos para a Rua Sebastião Lacerda. O prédio (1961) conta com portaria 24 horas e boa conservação." },
+        { q: "Como é realizada a auditoria jurídica da Matrícula nº 17752 e IPTU nº 0.355.985-3?", a: "O escritório realiza due diligence completa junto ao 9º RGI/RJ (Matrícula 17752), consulta às pendências de IPTU (0.355.985-3), cotas condominiais e certidões cíveis no TJRJ para assegurar a sub-rogação dos débitos no preço da arrematação (art. 130 do CTN)." },
+        { q: "Quais são as vantagens de arrematar um imóvel na Rua das Laranjeiras?", a: "Laranjeiras é um dos bairros residenciais mais valorizados e charmosos da Zona Sul do Rio de Janeiro, com excelente infraestrutura urbana, farto comércio, escolas tradicionais e alta demanda tanto para moradia própria quanto para locação." },
+        { q: "Como solicitar a assessoria jurídica especializada para este leilão?", a: "Basta clicar no botão de atendimento via WhatsApp para receber a análise de viabilidade jurídica, exame do edital e acompanhamento até a imissão na posse do imóvel." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Laranjeiras — Rua das Laranjeiras nº 347/407',
+      subtitle: 'Rua das Laranjeiras, nº 347/407 — Laranjeiras, Río de Janeiro/RJ | 115 m² • 3 Habitaciones • Edificio de 1961 con Consejería 24h',
+      address: 'Rua das Laranjeiras, 347/407 — Laranjeiras, Río de Janeiro - RJ',
+      p1Date: '08/09/2026 a las 12:20h',
+      p2Date: '10/09/2026 a las 12:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.355.985-3',
+      rgi: '17752 (9º RGI/RJ)',
+      val: 'R$ 950.000,00',
+      p2Val: 'R$ 475.000,00 (50% de descuento)',
+      description: 'Apartamento residencial de 115 m² ubicado en la icónica Rua das Laranjeiras nº 347/407, Río de Janeiro/RJ. Cuenta con 3 dormitorios, baño social, aseo, salón con suelo de madera, cocina, área de servicio con pequeña habitación y orientación posterior a la Calle Sebastião Lacerda. Edificio de 1961 con consejería 24h.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración y la puja mínima en 2ª Subasta del apartamento en Laranjeiras?", a: "Valoración de R$ 950.000,00. En 2ª Subasta (10/09/2026 a las 12:20h), la puja inicial abre en R$ 475.000,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del inmueble y del edificio?", a: "Apartamento de 115 m² con 3 habitaciones, salón de madera, aseo y área de servicio. Edificio de 1961 con consejería 24 horas." },
+        { q: "¿Cómo se audita la Matrícula nº 17752 del 9º RGI/RJ?", a: "Analizamos la matrícula 17752, certidones de IPTU (0.355.985-3) y expediente judicial para subrogación de deudas." },
+        { q: "¿Por qué invertir en un apartamento en Rua das Laranjeiras?", a: "Zona Sur con alta calidad de vida, servicios excelentes y demanda sostenida de alquiler." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp para informe de viabilidad y acompañamiento legal." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Laranjeiras — Rua das Laranjeiras #347/407',
+      subtitle: 'Rua das Laranjeiras, #347/407 — Laranjeiras, Rio de Janeiro/RJ | 115 m² • 3 Bedrooms • 1961 Building with 24h Concierge',
+      address: 'Rua das Laranjeiras, 347/407 — Laranjeiras, Rio de Janeiro - RJ',
+      p1Date: '09/08/2026 at 12:20 PM',
+      p2Date: '09/10/2026 at 12:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.355.985-3',
+      rgi: 'Title #17752 (9th Land Registry)',
+      val: 'R$ 950,000.00',
+      p2Val: 'R$ 475,000.00 (50% discount)',
+      description: 'Residential apartment featuring 115 square meters (115 m²) of built area located at Rua das Laranjeiras #347/407, Laranjeiras, Rio de Janeiro/RJ. Comprising 3 bedrooms, bathroom, lavatory, spacious living room with hardwood floor, kitchen, service area with small room, facing quiet Sebastião Lacerda Street. 1961 building with 24h concierge.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and opening bid for the Laranjeiras apartment?", a: "Official court valuation is R$ 950,000.00. 1st Auction (09/08/2026) opens at R$ 950,000.00. 2nd Auction (09/10/2026 at 12:20 PM) opens at R$ 475,000.00 (50% discount)." },
+        { q: "What are the key specs of the property and building?", a: "115 m² built area, 3 bedrooms, lavatory, hardwood living room, quiet back position towards Sebastião Lacerda St. 1961 building with 24h concierge." },
+        { q: "How is legal due diligence conducted for Title #17752?", a: "We audit Title #17752 (9th Registry), IPTU tax records (0.355.985-3), condo fees, and TJRJ court records." },
+        { q: "Why invest in real estate at Rua das Laranjeiras in South Zone Rio?", a: "Prime residential neighborhood with rich infrastructure, traditional schools, and high liquidity." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for full legal feasibility assessment and legal representation." }
+      ]
+    }
+  },
+
+  // Rio Comprido - Rua Haddock Lobo 117 Apto 301 (74 m² / 3 Quartos)
+  'rio-comprido-haddock-lobo-117': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Rio Comprido — Rua Haddock Lobo nº 117, Apto 301',
+      subtitle: 'Rua Haddock Lobo, nº 117, Apto 301 — Rio Comprido, Rio de Janeiro/RJ | 74 m² • 3 Quartos • Frente • Portaria Reformada até 22h',
+      address: 'Rua Haddock Lobo, 117 - Apto 301 — Rio Comprido, Rio de Janeiro - RJ',
+      p1Date: '20/08/2026 às 14:00h',
+      p2Date: '27/08/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.699.815-7',
+      rgi: '86.727 (11º RGI/RJ)',
+      val: 'R$ 517.827,00',
+      p2Val: 'R$ 258.913,50 (50% do valor da avaliação)',
+      description: 'Apartamento residencial de frente na Rua Haddock Lobo, nº 117, apto 301, Rio Comprido, Rio de Janeiro/RJ, com 74 m² de área edificada. Composto por 3 quartos, sala, banheiro social, cozinha e área de serviço, situado no 3º andar de prédio residencial de 10 andares. Edifício com portaria reformada (serviço de portaria até 22h), salão de festas, elevadores e sistema de câmeras de segurança na entrada. Sem vaga de garagem. Excelente localização próxima a metrô, farto comércio e linhas de ônibus.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor da avaliação oficial e o lance inicial na 2ª Praça para o apartamento na Rua Haddock Lobo nº 117/301?", a: "O imóvel possui avaliação judicial de R$ 517.827,00. Na 1ª Praça (20/08/2026 às 14:00h), o lance mínimo abre por R$ 517.827,00. Na 2ª Praça (27/08/2026 às 14:00h), o lance inicial conta com 50% de desconto, fixado em R$ 258.913,50." },
+        { q: "Quais são as principais características do apartamento e da infraestrutura do edifício?", a: "Imóvel de 74 m², 3 quartos, 3º andar de frente para a Rua Haddock Lobo. Prédio de 10 andares com portaria reformada até 22h, elevadores, salão de festas e circuito de câmeras de segurança. Sem vaga de garagem." },
+        { q: "Como é realizada a auditoria jurídica da Matrícula nº 86.727 (11º RGI/RJ) e IPTU nº 0.699.815-7?", a: "Nosso escritório realiza due diligence completa da Matrícula nº 86.727 perante o 11º RGI/RJ, levantamento de eventuais débitos de IPTU (0.699.815-7), taxas condominiais e certidões cíveis no TJRJ para garantir a sub-rogação dos débitos no preço da arrematação (art. 130 do CTN)." },
+        { q: "Por que investir em um imóvel na Rua Haddock Lobo no Rio Comprido?", a: "Trata-se de uma via estratégica com excelente mobilidade urbana, proximidade com a estação de metrô da Afonso Pena (Tijuca), farto comércio local, escolas, bancos e linhas de ônibus para o Centro e Zona Sul." },
+        { q: "Como contratar assessoria jurídica especializada para este leilão?", a: "Basta acionar a equipe via WhatsApp para receber parecer prévio de viabilidade jurídica, exame minucioso do edital e suporte integral até a expedição da carta de arrematação e imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Rio Comprido — Rua Haddock Lobo nº 117, Apto 301',
+      subtitle: 'Rua Haddock Lobo, nº 117, Apto 301 — Rio Comprido, Río de Janeiro/RJ | 74 m² • 3 Habitaciones • Frontal • Consejería Reformada',
+      address: 'Rua Haddock Lobo, 117 - Apto 301 — Rio Comprido, Río de Janeiro - RJ',
+      p1Date: '20/08/2026 a las 14:00h',
+      p2Date: '27/08/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.699.815-7',
+      rgi: '86.727 (11º RGI/RJ)',
+      val: 'R$ 517.827,00',
+      p2Val: 'R$ 258.913,50 (50% de descuento)',
+      description: 'Apartamento de 74 m² frontal situado en la Calle Haddock Lobo nº 117, Apto 301, Rio Comprido, Río de Janeiro/RJ. Dispone de 3 habitaciones, salón, baño y cocina. Edificio de 10 plantas con consejería reformada (hasta las 22h), salón de fiestas, ascensores y cámaras de seguridad.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja en 2ª Subasta del apartamento en Rua Haddock Lobo nº 117?", a: "Valoración judicial de R$ 517.827,00. En 2ª Subasta (27/08/2026 a las 14:00h), la puja abre en R$ 258.913,50 (50% de descuento)." },
+        { q: "¿Cuáles son las características del inmueble?", a: "Apartamento de 74 m², 3 dormitorios, 3er piso frontal. Edificio con consejería reformada hasta las 22h, ascensores y salón de eventos." },
+        { q: "¿Cómo se audita la Matrícula nº 86.727 del 11º RGI/RJ?", a: "Auditoría integral de la Matrícula 86.727, certidões de IPTU 0.699.815-7 y proceso judicial en TJRJ." },
+        { q: "¿Por qué adquirir un inmueble en Rio Comprido?", a: "Excelente conectividad, cercanía al metro y alta rentabilidad por alquiler." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp para estudio de viabilidad legal y acompañamiento." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Rio Comprido — Rua Haddock Lobo #117, Apt 301',
+      subtitle: 'Rua Haddock Lobo, #117, Apt 301 — Rio Comprido, Rio de Janeiro/RJ | 74 m² • 3 Bedrooms • Front View • Renovated 22h Concierge',
+      address: 'Rua Haddock Lobo, 117 - Apt 301 — Rio Comprido, Rio de Janeiro - RJ',
+      p1Date: '08/20/2026 at 02:00 PM',
+      p2Date: '08/27/2026 at 02:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.699.815-7',
+      rgi: 'Title #86.727 (11th Land Registry)',
+      val: 'R$ 517,827.00',
+      p2Val: 'R$ 258,913.50 (50% discount)',
+      description: 'Street-facing 74 m² residential apartment located at Rua Haddock Lobo #117, Apt 301, Rio Comprido, Rio de Janeiro/RJ. Featuring 3 bedrooms, living room, bathroom, and service area on the 3rd floor of a 10-story building. Building features renovated concierge service until 10 PM, party hall, elevators, and security cameras.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Apt 301 at Rua Haddock Lobo #117?", a: "Official court appraisal is R$ 517,827.00. 1st Auction opens at R$ 517,827.00. 2nd Auction (08/27/2026 at 02:00 PM) opens at R$ 258,913.50 (50% discount)." },
+        { q: "What are the specs of the apartment and building?", a: "74 m² 3-bedroom apartment, front view on 3rd floor. 10-story building with renovated 22h concierge, party room, elevators, and security cameras." },
+        { q: "How is legal due diligence conducted for Title #86.727?", a: "We audit Title #86.727 (11th Registry), IPTU tax records (0.699.815-7), condo debts, and TJRJ court records." },
+        { q: "Why invest in real estate in Rio Comprido near Tijuca?", a: "Strategic location near subway stations, buses, and vibrant local commercial district." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
   }
 };

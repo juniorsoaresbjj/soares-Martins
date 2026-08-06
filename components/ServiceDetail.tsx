@@ -372,6 +372,28 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 317.500,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Santa%20Clara%20431%20Apto%20704%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Laranjeiras/RJ',
+        title: 'Leilão Judicial de Apartamento em Laranjeiras na Rua das Laranjeiras nº 347/407',
+        desc: 'Apartamento de 115 m² com 3 quartos, lavabo, sala com piso em madeira e área de serviço, de fundos para a Rua Sebastião Lacerda. Edifício de 1961 com portaria 24h em ótimo estado. Matrícula nº 17752 do 9º RGI/RJ e IPTU nº 0.355.985-3.',
+        p1Label: '1ª Praça (08/09/2026):',
+        p1Val: 'R$ 950.000,00',
+        p2Label: '2ª Praça (10/09/2026):',
+        p2Val: 'R$ 475.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-347/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20das%20Laranjeiras%20347%20em%20Laranjeiras.'
+      },
+      {
+        tag: 'Residencial • Rio Comprido/RJ',
+        title: 'Leilão Judicial de Apartamento em Rio Comprido na Rua Haddock Lobo nº 117/301',
+        desc: 'Apartamento de 74 m² com 3 quartos no 3º andar de frente para a Rua Haddock Lobo. Prédio com 10 andares, portaria reformada até 22h, elevadores, salão de festas e câmeras de segurança. Próximo ao metrô e comércio. Matrícula nº 86.727 (11º RGI/RJ) e IPTU nº 0.699.815-7.',
+        p1Label: '1ª Praça (20/08/2026):',
+        p1Val: 'R$ 517.827,00',
+        p2Label: '2ª Praça (27/08/2026):',
+        p2Val: 'R$ 258.913,50',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117-apto-301/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Haddock%20Lobo%20117%20Apto%20301.'
       }
     ]
   },

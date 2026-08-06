@@ -39,6 +39,8 @@ import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFrancis
 import TijucaDelgadoCarvalho75AuctionPage from './components/TijucaDelgadoCarvalho75AuctionPage';
 import CopacabanaTonelero202AuctionPage from './components/CopacabanaTonelero202AuctionPage';
 import CopacabanaSantaClara431AuctionPage from './components/CopacabanaSantaClara431AuctionPage';
+import LaranjeirasAuctionPage from './components/LaranjeirasAuctionPage';
+import RioCompridoHaddockLobo117AuctionPage from './components/RioCompridoHaddockLobo117AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -321,6 +323,16 @@ const AppContent: React.FC = () => {
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/" element={<CopacabanaSantaClara431AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704" element={<CopacabanaSantaClara431AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-347/" element={<LaranjeirasAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-347" element={<LaranjeirasAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-347-407/" element={<LaranjeirasAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-347-407" element={<LaranjeirasAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117-apto-301/" element={<RioCompridoHaddockLobo117AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117-apto-301" element={<RioCompridoHaddockLobo117AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117/" element={<RioCompridoHaddockLobo117AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117" element={<RioCompridoHaddockLobo117AuctionPage />} />
 
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />
