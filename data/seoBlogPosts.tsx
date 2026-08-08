@@ -2831,6 +2831,714 @@ export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] =>
           </div>
         </div>
       )
+    },
+    {
+      id: 116,
+      slug: 'inquilino-inadimplente-o-que-fazer-quando-cabe-despejo-como-cobrar',
+      title: 'Inquilino inadimplente: o que fazer, quando cabe despejo e como cobrar aluguéis atrasados',
+      excerpt: 'Saiba o que fazer com inquilino inadimplente. Entenda quando cabe ação de despejo, liminar para desocupação em 15 dias, cobrança de aluguéis e execução de fiador no RJ.',
+      readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Locação e Imobiliário',
+      date: '08 Ago, 2026',
+      dateIso: '2026-08-08',
+      image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <div className="bg-bronze/10 p-6 rounded-2xl border border-bronze/20 my-2">
+            <h3 className="text-bronze text-lg font-serif font-bold mb-2">Inquilino inadimplente: o que fazer? Resposta Direta</h3>
+            <p className="text-text-muted text-sm leading-relaxed">
+              <strong>Inquilino inadimplente: o que fazer?</strong> Diante do <strong>aluguel atrasado</strong>, o <strong>locador</strong> deve evitar condutas arbitrárias (como trocar fechaduras ou desligar serviços) e adotar os trâmites conforme os requisitos legais: iniciar a cobrança extrajudicial com notificação formal e, caso persista a inadimplência do <strong>locatário inadimplente</strong>, ajuizar a ação de <strong>despejo por falta de pagamento</strong> com pedido de liminar para retomada do imóvel, cumulada com a <strong>cobrança de aluguel</strong> e encargos, buscando a assistência de um <strong>advogado imobiliário no Rio de Janeiro</strong> para resguardar seus direitos com precisão.
+            </p>
+          </div>
+
+          <p>
+            A inadimplência do locatário é um dos maiores transtornos para o <strong>locador</strong> e administradores de bens no Rio de Janeiro. Além da falta do pagamento do <strong>aluguel atrasado</strong>, o descumprimento costuma vir acompanhado de débitos de cotas condominiais e imposto predial (IPTU), gerando prejuízos financeiros significativos. Diante dessa situação com o <strong>locatário inadimplente</strong>, surge a dúvida central: <strong>Inquilino inadimplente: o que fazer, quando cabe despejo e como realizar a cobrança de aluguel e encargos com a orientação de um advogado imobiliário no Rio de Janeiro?</strong>
+          </p>
+
+          <p>
+            A relação jurídica é regida pela Lei do Inquilinato (Lei nº 8.245/1991), que prevê mecanismos específicos para resguardar o proprietário. Contudo, atitudes impulsivas — como alterar a fechadura do imóvel ou suspender o fornecimento de água e energia elétrica — são vedadas e podem configurar o delito de exercício arbitrário das próprias razões (Art. 345 do Código Penal), conforme os requisitos legais e a jurisprudência. Por isso, a assessoria de um <strong>advogado imobiliário no Rio de Janeiro</strong> é fundamental para conduzir a <strong>cobrança de aluguel</strong> e o <strong>despejo por falta de pagamento</strong> de forma segura.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Passo a passo inicial: cobrança extrajudicial e notificação formal</h2>
+          <p>
+            O atraso no pagamento do <strong>aluguel atrasado</strong> caracteriza a mora do <strong>locatário inadimplente</strong>. Antes de ingressar com a medida judicial, é recomendável adotar etapas graduais de cobrança, conforme os requisitos legais e contratuais:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Contato Amigável Imediato:</strong> O <strong>locador</strong> pode enviar notificação por escrito informando o débito atualizado com multa contratual, juros e correção.</li>
+            <li><strong>Notificação Extrajudicial Formal:</strong> Persistindo o <strong>aluguel atrasado</strong> por 10 a 15 dias, recomenda-se a expedição de Notificação Extrajudicial concedendo prazo para quitação antes do ajuizamento da ação promovida pelo <strong>advogado imobiliário no Rio de Janeiro</strong>.</li>
+            <li><strong>Comunicação aos Garantidores:</strong> Se houver fiador no contrato, este deve ser cientificado sobre o saldo devedor do <strong>locatário inadimplente</strong>, possibilitando a quitação extrajudicial da <strong>cobrança de aluguel</strong>.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quando cabe a Ação de Despejo por falta de pagamento?</h2>
+          <p>
+            De acordo com o Artigo 9º, inciso III, da Lei nº 8.245/1991, a ação de <strong>despejo por falta de pagamento</strong> pode ser ajuizada a partir do inadimplemento do aluguel ou dos acessórios da locação, observadas as hipóteses e condições previstas na legislação. Não há exigência legal estrita de aguardar vários meses de atraso para que o <strong>locador</strong> exercite esse direito.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-5 mb-2">Despejo com liminar para desocupação em 15 dias: como funciona?</h3>
+          <p>
+            Uma das possibilidades previstas na Lei do Inquilinato (Art. 59, § 1º, IX) é o pedido de medida liminar de desocupação no prazo de 15 dias na ação de <strong>despejo por falta de pagamento</strong>, a qual pode ser deferida pelo magistrado desde que preenchidos integralmente os requisitos legais:
+          </p>
+          <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Contrato sem garantia ativa:</strong> A locação deve estar desprovida das garantias do Art. 37 da Lei nº 8.245/91 (sem fiador, sem caução, sem seguro fiança) ou com garantia exonerada/extinta;</li>
+            <li><strong>Prestação de caução em juízo:</strong> O <strong>locador</strong> deve prestar caução equivalente a 3 (três) meses de aluguel em conta vinculada ao processo, conforme os requisitos legais estipulados.</li>
+          </ol>
+
+          <div className="bg-bronze/10 p-6 rounded-2xl border border-bronze/20 my-6">
+            <h3 className="text-bronze text-lg font-serif font-bold mb-3">Quadro de Dicas: Gestão Eficiente da Cobrança de Aluguel e Despejo</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Cláusula de Notificação Eletrônica:</strong> Permite citações e intimações célereis, otimizando a atuação do <strong>advogado imobiliário no Rio de Janeiro</strong>.</li>
+              <li><strong>Purgação da Mora pelo Locatário Inadimplente:</strong> O morador pode elidir a rescisão se quitar a totalidade dos débitos no prazo legal de 15 dias após a citação, observadas as condições estipuladas na Lei nº 8.245/91.</li>
+              <li><strong>Execução Cumulativa de Aluguéis Atrasados:</strong> É possível cumular o pedido de retomada do imóvel com a <strong>cobrança de aluguel</strong> e encargos em atraso em face do locatário e dos garantidores.</li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como cobrar os aluguéis atrasados e encargos (IPTU e Condomínio)</h2>
+          <p>
+            Além da retomada da posse do imóvel, o <strong>locador</strong> busca o ressarcimento do crédito decorrente do <strong>aluguel atrasado</strong> e encargos locatícios. O contrato escrito assinado pelas partes constitui título executivo extrajudicial (Art. 784, VIII, do CPC), permitindo ao <strong>advogado imobiliário no Rio de Janeiro</strong> propor a ação de <strong>cobrança de aluguel</strong> cumulada com despejo ou a execução direta dos valores devidos pelo <strong>locatário inadimplente</strong>.
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Ação de Despejo Cumulada com Cobrança:</strong> Na mesma demanda, postula-se a desocupação do imóvel e a condenação do <strong>locatário inadimplente</strong> e fiadores ao pagamento dos débitos locatícios, conforme os requisitos legais.</li>
+            <li><strong>Ação de Execução de Título Extrajudicial:</strong> Caso o imóvel já tenha sido desocupado voluntariamente com <strong>aluguel atrasado</strong> pendente, o <strong>locador</strong> pode promover a execução direta para penhora de ativos e bens dos devedores, observadas as normas processuais.</li>
+          </ul>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Prático: Recuperação de Imóvel e Cobrança de Aluguel em Copacabana</h3>
+            <p className="text-text-muted text-sm">
+              Em situação hipotética de locação residencial em Copacabana sem garantia e com <strong>aluguel atrasado</strong> acumulado por 4 meses, o <strong>locador</strong> buscou a orientação de um <strong>advogado imobiliário no Rio de Janeiro</strong>. Mediante ajuizamento de ação de <strong>despejo por falta de pagamento</strong> com pedido liminar e prestação de caução, obteve-se a desocupação do imóvel e o prosseguimento dos atos de execução para satisfação da <strong>cobrança de aluguel</strong> e das cotas de condomínio devidas pelo <strong>locatário inadimplente</strong>.
+            </p>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns na Gestão do Inquilino Inadimplente</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Exercício Arbitrário das Próprias Razões:</strong> Alterar fechaduras ou cortar serviços essenciais do <strong>locatário inadimplente</strong> pode ensejar responsabilidade civil e penal do <strong>locador</strong>.</li>
+              <li><strong>Inexistência de Contrato Escrito ou Testemunhas:</strong> Dificulta a concessão de medidas célereis e a imediata <strong>cobrança de aluguel</strong> pela via executiva.</li>
+              <li><strong>Tolerância Excessiva sem Acompanhamento Jurídico:</strong> Deixar o <strong>aluguel atrasado</strong> se acumular por longos períodos eleva o prejuízo do <strong>locador</strong> sem garantia de recuperação.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Conteúdos Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Aprofunde seus conhecimentos sobre locação e defesa dos direitos do locador:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Assessoria em Direito Imobiliário e Locações</Link>: atuação jurídica em despejos, cobrança de aluguel e elaboração contratual.
+              </li>
+              <li>
+                <Link to="/blog/garantia-locaticia-melhor-opcao/" className="text-bronze hover:underline font-bold">Garantia Locatícia: Qual a Melhor Opção?</Link>: análise comparativa de garantias para mitigar o risco de locatário inadimplente.
+              </li>
+              <li>
+                <Link to="/blog/clausulas-fundamentais-contrato-locacao/" className="text-bronze hover:underline font-bold">Cláusulas Indispensáveis no Contrato de Locação</Link>: estruturação contratual para proteção contra o aluguel atrasado.
+              </li>
+              <li>
+                <Link to="/blog/isencao-multa-rescisoria-locacao/" className="text-bronze hover:underline font-bold">Multa Rescisória na Locação</Link>: regras aplicáveis na devolução antecipada do imóvel.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Em síntese, o tratamento adequado da inadimplência requer observância rigorosa às disposições da Lei do Inquilinato. A atuação especializada de um <strong>advogado imobiliário no Rio de Janeiro</strong> assegura a condução célere da ação de <strong>despejo por falta de pagamento</strong> e a efetiva <strong>cobrança de aluguel</strong>, resguardando o patrimônio do <strong>locador</strong> conforme os requisitos legais.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o Soares Martins Advogados Atua na Cobrança de Aluguel e Despejo?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Com sede em Ipanema, o escritório Soares Martins Advogados oferece suporte especializado para o <strong>locador</strong> que enfrenta problemas com <strong>locatário inadimplente</strong> e <strong>aluguel atrasado</strong> no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Envio de notificações extrajudiciais bem fundamentadas para regularização do débito;</li>
+              <li>Ajuizamento de ação de <strong>despejo por falta de pagamento</strong> com pedido liminar urgente;</li>
+              <li>Estratégias para <strong>cobrança de aluguel</strong> e encargos com busca e penhora de patrimônio dos devedores e fiadores;</li>
+              <li>Assessoria prestada por <strong>advogado imobiliário no Rio de Janeiro</strong> para acompanhamento das fases processuais e retomada segura da posse.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma consulta com nossos advogados imobiliários</Link> ou entre em contato direto pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Inquilino Inadimplente e Despejo (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Com quantos meses de aluguel atrasado o locador pode ajuizar ação de despejo?</h4>
+                <p className="text-text-muted text-xs mt-1">A ação de despejo por falta de pagamento pode caber a partir do primeiro dia de atraso do aluguel atrasado ou encargos, conforme os requisitos legais estabelecidos na Lei nº 8.245/1991, sem necessidade de aguardar prazo mínimo de meses.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O locador pode desligar luz ou água do locatário inadimplente?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O desligamento de serviços essenciais pelo locador é considerado conduta abusiva e ilícita, podendo caracterizar crime de exercício arbitrário das próprias razões e ensejar reparação por danos morais, conforme as disposições legais vigentes.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que é a purgação da mora na ação de despejo por falta de pagamento?</h4>
+                <p className="text-text-muted text-xs mt-1">Trata-se do direito que o locatário inadimplente possui de quitar a integralidade do débito (aluguéis, encargos, multas, juros, custas e honorários) no prazo de 15 dias após a citação, evitando a rescisão do contrato, conforme os requisitos legais dispostos no Art. 62 da Lei do Inquilinato.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Dá para parcelar a dívida e evitar o despejo?</h4>
+                <p className="text-text-muted text-xs mt-1">Em regra, a purgação da mora para evitar a rescisão exige a quitação integral do valor no prazo legal de 15 dias. No entanto, o locador e o locatário inadimplente podem transacionar livremente um acordo de parcelamento da dívida, que pode ser homologado em juízo com o auxílio de um advogado imobiliário no Rio de Janeiro, suspendendo a ação de despejo enquanto o acordo for cumprido.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. Posso vender o imóvel durante a ação de despejo por falta de pagamento?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A existência de ação de despejo em trâmite não impede a alienação do imóvel pelo locador. O novo proprietário (adquirente) poderá se sub-rogar nos direitos do contrato ou denunciar a locação, observadas as formalidades legais e o direito de preferência do inquilino conforme a Lei nº 8.245/1991.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Quem paga os honorários na ação de despejo?</h4>
+                <p className="text-text-muted text-xs mt-1">Conforme os requisitos legais e contratuais, no caso de procedência da ação de despejo por falta de pagamento ou na purgação da mora, os honorários advocatícios sucumbenciais fixados pelo juiz ou previstos no contrato (geralmente entre 10% e 20% do valor do débito) cabem ao locatário inadimplente.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Posso cobrar o aluguel atrasado diretamente do fiador?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, desde que o fiador figure no contrato como devedor solidário e principal pagador, hipótese em que o advogado imobiliário no Rio de Janeiro pode direcionar a cobrança de aluguel e a execução diretamente ao garantidor, conforme os preceitos contratuais e legais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Quanto tempo demora em média um processo de despejo no Rio de Janeiro?</h4>
+                <p className="text-text-muted text-xs mt-1">Caso seja concedida a liminar para desocupação em 15 dias, a retomada da posse pode ocorrer em prazos mais reduzidos. Sem liminar, o trâmite ordinário varia de acordo com a vara cível competente e o cumprimento das citações, observados os prazos do Poder Judiciário do Estado do Rio de Janeiro.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. Quem paga as despesas de condomínio e IPTU durante o aluguel atrasado?</h4>
+                <p className="text-text-muted text-xs mt-1">A obrigação contratual primária é do locatário inadimplente. Todavia, como as cotas de condomínio e IPTU possuem natureza propter rem, o locador pode optar por adimplir os débitos para afastar cobranças da prefeitura ou condomínio e ressarcir-se via cobrança de aluguel e encargos judicialmente.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. O seguro fiança cobre todo o período até o despejo do locatário inadimplente?</h4>
+                <p className="text-text-muted text-xs mt-1">A cobertura dependerá dos termos específicos da apólice contratada junto à seguradora. Em geral, apólices abrangentes cobrem o aluguel atrasado, despesas de condomínio, IPTU e honorários até a efetiva imissão do locador na posse do imóvel, conforme as condições pactuadas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 117,
+      slug: 'infiltracao-no-apartamento-como-identificar-origem-quem-paga-reparo-indenizacao',
+      title: 'Infiltração no apartamento: como identificar a origem, quem paga o reparo e quando cabe indenização',
+      excerpt: 'Infiltração e vazamento no apartamento? Descubra como identificar a origem (coluna vs. ramal), quem é responsável pelo pagamento da obra e quando cabe indenização por danos morais e materiais no RJ.',
+      readTime: `15 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Condominial',
+      date: '08 Ago, 2026',
+      dateIso: '2026-08-08',
+      image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <div className="bg-bronze/10 p-6 rounded-2xl border border-bronze/20 my-2">
+            <h3 className="text-bronze text-lg font-serif font-bold mb-2">Quem paga infiltração no apartamento? Resposta Direta</h3>
+            <p className="text-text-muted text-sm leading-relaxed">
+              <strong>Quem paga pela infiltração?</strong> A obrigação do custeio depende diretamente da origem técnica apurada: se o vazamento for na <strong>coluna de água do prédio (prumada central)</strong>, a responsabilidade pelo conserto e pela recomposição da pintura em tese é do condomínio; se a falha for na <strong>rede ramal (tubulação horizontal)</strong>, no rejunte de pisos ou na <strong>manta de impermeabilização do apartamento de cima</strong>, os custos tendem a ser de responsabilidade do proprietário da unidade superior; e se houver falha de construção no imóvel novo, a construtora pode ser acionada.
+            </p>
+          </div>
+
+          <p>
+            Vazamentos e problemas de <strong>vazamento no teto</strong> são dos transtornos mais frequentes e desgastantes no convívio em condomínio. Paredes descascadas, mofo no teto do banheiro, manchas úmidas e a incômoda <strong>infiltração do vizinho de cima</strong> provocam desgastes emocionais entre moradores e prejuízos financeiros significativos. Quando os pingos começam a surgir, surge a dúvida imediata: <strong>quem paga infiltração no apartamento, como identificar a origem e quando pode caber indenização por danos materiais e morais?</strong>
+          </p>
+
+          <p>
+            No Direito Condominial brasileiro (regido pelo Código Civil — Arts. 1.331 e seguintes — e pela Lei nº 4.591/1964), a obrigação de reparar os estragos e arcar com obras hidráulicas depende, em regra, da <strong>origem técnica do vazamento no teto</strong>. A canalização do edifício subdivide-se em duas redes distintas: a rede prumada (vertical, de uso comum) e a rede ramal (horizontal, de uso privativo). Compreender essa diferenciação hidráulica e jurídica é fundamental para direcionar a cobrança à parte correta.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como identificar a origem técnica da infiltração: Coluna vs. Ramal</h2>
+          <p>
+            A definição de quem em tese deve arcar com as despesas de encanador, pedreiro e pintura do imóvel atingido varia conforme a localização exata do dano:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Rede Prumada ou Coluna Central (Área Comum):</strong> Trata-se da tubulação vertical principal que conduz a água potável da caixa d'água aos andares ou transporta o esgoto geral para a rede pública. Por servir a todo o coletivo, a coluna é considerada área comum. Se o vazamento no teto for originado na prumada, a <strong>responsabilidade em regra é do Condomínio</strong> (representado pelo síndico), devendo as despesas ser custeadas pelo fundo de reserva ou quota extra.</li>
+            <li><strong>Rede Ramal ou Tubulação Horizontal (Área Privativa):</strong> É a tubulação secundária que deriva da coluna central para abastecer as torneiras, chuveiros e vasos sanitários de uma unidade específica. Se a quebra ou desgaste ocorrer no ramal privativo, a <strong>responsabilidade do reparo tende a ser do proprietário do apartamento superior ou adjacente</strong> responsável pela linha hidráulica.</li>
+            <li><strong>Infiltração do Vizinho de Cima por Falha de Impermeabilização:</strong> Quando o problema surge do piso do box, de lavanderias, sacadas ou da manta asfáltica de terraços privativos, a obrigação de consertar e indenizar os danos em tese recai sobre o proprietário do imóvel superior.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Passo a passo jurídico: da notificação amigável à ação com pedido liminar</h2>
+          <p>
+            Para resguardar seus direitos de forma preventiva e célere, recomenda-se adotar o seguinte roteiro jurídico e probatório:
+          </p>
+
+          <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Vistoria Técnica e Laudo Especializado:</strong> Solicite a inspeção de um encanador, engenheiro ou do zelador do condomínio para emitir um laudo preliminar com fotos e vídeos, atestando a provável causa do vazamento no teto.</li>
+            <li><strong>Notificação Extrajudicial Formal:</strong> Envie uma comunicação escrita (Notificação Extrajudicial com AR ou mensagem registrada) ao vizinho do andar superior ou ao síndico, concedendo prazo razoável (por exemplo, de 24 horas a 5 dias) para o início dos reparos e recomposição das avarias.</li>
+            <li><strong>Ação de Obrigação de Fazer com Pedido de Liminar:</strong> Caso o responsável se recuse a sanar o vazamento no teto ou impeça a entrada do técnico no apartamento, pode ser cabível o ajuizamento de Ação Judicial com pedido de tutela de urgência. Nesses casos, o juiz costuma fixar multa diária e, se necessário, autorizar o ingresso forçado com auxílio de oficial de justiça.</li>
+          </ol>
+
+          <div className="bg-bronze/10 p-6 rounded-2xl border border-bronze/20 my-6">
+            <h3 className="text-bronze text-lg font-serif font-bold mb-3">Quadro de Dicas: O Que Fazer ao Constatar a Infiltração do Vizinho de Cima</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Registre Provas em Imagens:</strong> Fotografe e filme detalhadamente as manchas de umidade, a infiltração no teto do banheiro ou sala e os móveis atingidos.</li>
+              <li><strong>Guarde Orçamentos e Comprovantes:</strong> Reúna orçamentos de empresas de reforma e guarde notas fiscais de eventuais reparos emergenciais ou hospedagem, caso o imóvel fique temporariamente inabitável.</li>
+              <li><strong>Consulte a Apólice de Seguro:</strong> Verifique se o seguro do condomínio ou o seu seguro residencial oferece cobertura para danos hidráulicos causados por terceiros.</li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quando pode caber indenização por Danos Materiais e Danos Morais?</h2>
+          <p>
+            O Código Civil (Arts. 186 e 927) estabelece a obrigação de reparar os prejuízos causados por ação, omissão ou negligência de terceiros:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Danos Materiais:</strong> Podem englobar o reembolso das despesas com pintura, recomposição de gesso, conserto de armários danificados pelo mofo e, a depender do caso, eventuais aluguéis que o proprietário tenha deixado de receber devido à inabitabilidade do imóvel.</li>
+            <li><strong>Danos Morais:</strong> Caso o vazamento no teto perdure por tempo desarrazado por descaso do vizinho ou da gestão condominial, submetendo os moradores a riscos de saúde e constante estresse, os tribunais no Rio de Janeiro tendem a reconhecer o direito à compensação por danos morais, fixados de acordo com a gravidade do caso concreto.</li>
+          </ul>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Prático: Infiltração Crônica na Tijuca</h3>
+            <p className="text-text-muted text-sm">
+              Em um caso acompanhado em Botafogo/Tijuca, uma moradora enfrentava infiltração no teto vinda do imóvel superior há meses. Diante da resistência inicial do proprietário vizinho em efetuar os reparos, foi ajuizada Ação de Obrigação de Fazer com pedido liminar. Com a concessão da tutela de urgência pelo Judiciário, o conserto da tubulação foi realizado e, após a instrução probatória, o responsável foi condenado à reparação dos danos materiais comprovados e ao pagamento de compensação por danos morais.
+            </p>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns em Impasses de Infiltração no Apartamento</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Realizar Obras sem Registro Prévio de Provas:</strong> Fazer reparos definitivos sem laudo técnico prévio, fotos e comprovantes pode dificultar a demonstração posterior da origem e responsabilidade pelo vazamento.</li>
+              <li><strong>Depender Apenas de Notificações Verbais:</strong> Deixar de formalizar notificações por escrito ao síndico ou ao vizinho fragiliza a comprovação da ciência do problema e da mora.</li>
+              <li><strong>Reter a Cota Condominial por Conta Própria:</strong> Deixar de pagar a taxa de condomínio em retaliação a uma infiltração não resolvida é uma conduta considerada irregular pela jurisprudência, podendo gerar cobrança judicial e multa.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Conteúdos Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Explore nossos serviços e artigos jurídicos especializados em Direito Condominial no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-condominial/" className="text-bronze hover:underline font-bold">Atuação Especializada em Direito Condominial</Link>: suporte jurídico para condôminos e síndicos em conflitos de estrutura e vizinhança.
+              </li>
+              <li>
+                <Link to="/blog/quando-sindico-responde-prejuizos-condominio/" className="text-bronze hover:underline font-bold">Quando o Síndico Responde por Prejuízos?</Link>: responsabilidade do gestor na manutenção e autovistoria predial.
+              </li>
+              <li>
+                <Link to="/blog/convivencia-condominios-barulho-areas-comuns/" className="text-bronze hover:underline font-bold">Convivência e Direitos de Vizinhança</Link>: solução de impasses entre moradores em edifícios residenciais.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Agende uma Consulta Jurídica</Link>: fale com nossos advogados especialistas em problemas de infiltração.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Em síntese, saber <strong>quem paga infiltração no apartamento</strong> exige diagnóstico técnico adequado e atuação jurídica proporcional. A identificação tempestiva do ponto de vazamento aliada à formalização das notificações cabíveis garante a preservação do patrimônio e o ressarcimento dos prejuízos suportados.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Como o Soares Martins Advogados Pode Auxiliar em Casos de Infiltração?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O escritório Soares Martins Advogados atua na mediação e condução de conflitos imobiliários e condominiais no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Elaboração de Notificações Extrajudiciais fundamentadas a condomínios, síndicos ou proprietários de vizinhança;</li>
+              <li>Ajuizamento de Ação de Obrigação de Fazer com pedido de liminar urgente para contenção de vazamentos graves;</li>
+              <li>Orientação sobre produção de provas técnicas e pleito de indenizações por danos materiais e morais;</li>
+              <li>Busca de composições amigáveis para ressarcimento de custos de reformas e pintura.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Entre em contato com nossa equipe jurídica</Link> ou envie uma mensagem direta pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Infiltração em Apartamento (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Se a infiltração for na coluna do prédio, quem em tese deve pagar pela reforma do meu apartamento?</h4>
+                <p className="text-text-muted text-xs mt-1">Sendo o vazamento oriundo de área comum (prumada central), a responsabilidade em regra é do condomínio, que deve sanar a tubulação e arcar com a recomposição do ambiente atingido.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O que fazer se o vizinho de cima se recusar a permitir a entrada do encanador?</h4>
+                <p className="text-text-muted text-xs mt-1">Pode ser cabível o ajuizamento de Ação de Obrigação de Fazer com pedido de liminar. O Poder Judiciário pode fixar multa diária e autorizar o ingresso de técnicos para efetuar o reparo necessário.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Qual prazo costuma ser concedido ao vizinho para reparar um vazamento no teto?</h4>
+                <p className="text-text-muted text-xs mt-1">Geralmente, as notificações estipulam prazo de 24 horas a 5 dias para o início das obras, dada a urgência em evitar agravamento dos danos e riscos à saúde.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. É possível reaver custos de hospedagem em hotel durante a reforma de uma infiltração grave?</h4>
+                <p className="text-text-muted text-xs mt-1">Em tese, sim. Se o laudo demonstrar que a unidade ficou inabitável em decorrência do mofo ou da obra provocada pelo vazamento do responsável, os gastos de estadia podem integrar os danos materiais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. A infiltração do vizinho de cima gera direito a indenização por danos morais?</h4>
+                <p className="text-text-muted text-xs mt-1">A depender da duração da infiltração, do descaso do causador e dos transtornos gerados à rotina e saúde dos moradores, os tribunais do RJ podem fixar indenização por danos morais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. De quem é a responsabilidade se o vazamento ocorrer na terraço de cobertura privativa?</h4>
+                <p className="text-text-muted text-xs mt-1">Se o terraço for de uso exclusivo da unidade superior, o custeio da impermeabilização da manta em regra recai sobre o seu proprietário (Art. 1.344 do Código Civil).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O seguro condominial cobre danos causados por vazamento no teto do apartamento?</h4>
+                <p className="text-text-muted text-xs mt-1">Depende das garantias contratadas na apólice. Coberturas adicionais de responsabilidade civil do condomínio podem cobrir danos hidráulicos causados por falhas na prumada central.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Como comprovar quem paga infiltração no apartamento se a obra for feita antes do processo?</h4>
+                <p className="text-text-muted text-xs mt-1">Relatórios técnicos detalhados feitos por profissionais habilitados, fotos, vídeos, trocas de mensagens e testemunhos de funcionários do prédio ajudam a constituir conjunto probatório.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O inquilino que sofre com infiltração do vizinho de cima pode exigir providências judiciais?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O morador que possui a posse direta do imóvel possui legitimidade para buscar a cessação do vazamento no teto e o ressarcimento dos prejuízos materiais sofridos em seus pertences.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Posso descontar o custo do conserto do vazamento da minha taxa de condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A retenção da cota condominial unilateralmente não é admitida em regra e sujeita o condômino a encargos moratórios. As compensações devem ser acertadas de forma amigável ou judicial.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 118,
+      slug: 'construtora-atrasou-entrega-do-apartamento-o-que-fazer-quando-cabe-indenizacao',
+      title: 'Construtora atrasou a entrega do apartamento, o que fazer e quando cabe a indenização',
+      excerpt: 'A construtora atrasou a entrega das chaves do apartamento na planta? Entenda os direitos em caso de atraso na entrega do imóvel na planta, rescisão com 100% de reembolso e o auxílio de um advogado imobiliário no Rio de Janeiro.',
+      readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário',
+      date: '08 Ago, 2026',
+      dateIso: '2026-08-08',
+      image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Comprar um imóvel na planta é um dos marcos financeiros e pessoais mais importantes na vida de uma família. Contudo, quando a data contratual expira e a obra permanece inacabada, o consumidor se depara com o desgastante <strong>atraso na entrega do imóvel na planta</strong>. O sonho da casa própria se transforma em ansiedade, custos imprevistos com aluguel temporário e prejuízos com o pagamento contínuo de juros de obra. Diante de um <strong>apartamento na planta atrasado</strong> e da <strong>entrega das chaves atrasada</strong>, surge a dúvida fundamental: <strong>Construtora atrasou a entrega do apartamento: o que fazer, quais são meus direitos e como a atuação de um advogado imobiliário no Rio de Janeiro pode garantir a devida indenização?</strong>
+          </p>
+
+          <p>
+            A relação jurídica entre o comprador e a incorporadora ou construtora é regida pelo Código de Defesa do Consumidor (Lei nº 8.078/1990) e pela Lei do Distrato Imobiliário (Lei nº 13.786/2018), em conjunto com a Lei de Incorporação Imobiliária (Lei nº 4.591/1964) e as teses vinculantes do Superior Tribunal de Justiça (STJ). Seja para buscar o cumprimento do contrato ou a devolução de valores, o adquirente que enfrenta o <strong>atraso na entrega do imóvel na planta</strong> possui garantias legais consolidadas para resguardar seu patrimônio.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual é o prazo legal de tolerância para o atraso das chaves?</h2>
+          <p>
+            A legislação brasileira (Artigo 43-A da Lei nº 4.591/1964, incluído pela Lei do Distrato) autoriza a inclusão de uma cláusula contratual prevendo o prazo de <strong>tolerância de até 180 dias corridos</strong> para a conclusão da obra, contado a partir da data inicialmente prevista no contrato de promessa de compra e venda.
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Dentro do prazo de 180 dias de carência:</strong> O atraso não gera direito à rescisão imediata por culpa da construtora nem à cobrança de penalidades, desde que essa carência esteja redigida de forma clara e expressa no contrato.</li>
+            <li><strong>Após o transcurso dos 180 dias com o apartamento na planta atrasado:</strong> Configura-se a mora absoluta da construtora. Alegações frequentes como falta de insumos, escassez de mão de obra, chuvas atípicas ou demora na expedição do 'Habite-se' constituem <strong>fortuito interno</strong> (risco inerente à atividade empresarial) e não eximem a construtora da obrigação de indenizar.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Os dois caminhos do comprador diante da entrega das chaves atrasada</h2>
+          <p>
+            Excedido o prazo de tolerância de 180 dias e confirmada a <strong>entrega das chaves atrasada</strong>, a legislação e o Tema 970 do STJ asseguram ao comprador a faculdade de optar livremente por uma das duas soluções jurídicas:
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-5 mb-2">Opção 1: Rescisão Contratual por Culpa Exclusiva da Construtora</h3>
+          <p>
+            Caso o comprador não deseje mais aguardar a conclusão do empreendimento com <strong>atraso na entrega do imóvel na planta</strong>, ele tem o direito de pleitear o distrato e a rescisão do contrato com o auxílio de um <strong>advogado imobiliário no Rio de Janeiro</strong>.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Devolução de 100% das quantias pagas:</strong> O consumidor tem direito ao reembolso integral de <strong>todos os valores desembolsados</strong> (incluindo sinal, parcelas intermediárias, comissão de corretagem e taxa de assessoria), atualizados monetariamente desde a data de cada pagamento (Súmula 543 do STJ).</li>
+            <li><strong>Prazo de reembolso e Multa:</strong> A restituição deve ser efetuada em parcela única no prazo de até 60 dias após a resolução do contrato, acrescida da multa estipulada em cláusula penal.</li>
+          </ul>
+
+          <h3 className="text-white text-xl font-serif mt-5 mb-2">Opção 2: Manutenção do Contrato e Cobrança de Indenização Mensal</h3>
+          <p>
+            Se a opção for manter a aquisição do imóvel e aguardar a entrega da unidade, o adquirente prejudicado pelo <strong>apartamento na planta atrasado</strong> faz jus a uma indenização moratória equivalente a <strong>0,5% (meio por cento) do valor efetivamente pago à construtora por cada mês de atraso</strong>, devida até a efetiva entrega das chaves (Art. 43-A, § 2º, da Lei 4.591/64).
+          </p>
+
+          <div className="bg-bronze/10 p-6 rounded-2xl border border-bronze/20 my-6">
+            <h3 className="text-bronze text-lg font-serif font-bold mb-3">Quadro de Dicas: Proteção Financeira quando a Entrega das Chaves Atrasada Ocorre</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Congelamento ou Substituição do INCC:</strong> Durante o período de mora excedente aos 180 dias, o saldo devedor não deve ser reajustado pelo INCC, devendo o <strong>advogado imobiliário no Rio de Janeiro</strong> requerer a substituição pelo IPCA ou congelamento do saldo.</li>
+              <li><strong>Inexigibilidade de 'Taxa de Evolução de Obra' (Juros de Obra):</strong> A cobrança de juros de obra cobrados pela instituição financeira após o prazo limite contratual é indevida e deve ser custeada ou ressarcida pela construtora.</li>
+              <li><strong>Cota Condominial e IPTU Apenas após a Posse:</strong> Cobranças de condomínio e IPTU antes do recebimento efetivo das chaves são consideradas abusivas pela jurisprudência, cabendo devolução simples ou em dobro.</li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Danos Morais pelo Atraso na Entrega do Imóvel</h2>
+          <p>
+            Quando o <strong>atraso na entrega do imóvel na planta</strong> extrapola prazos razoáveis (geralmente superiores a 6 meses) ou impacta compromissos de vida relevantes — como casamentos agendados, nascimento de filhos ou necessidade de desocupação imprevista de imóvel alugado —, os tribunais no Estado do Rio de Janeiro reconhecem o direito à indenização por danos morais para além do ressarcimento das perdas materiais.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Prático: Apartamento na Planta Atrasado na Barra da Tijuca</h3>
+            <p className="text-text-muted text-sm">
+              Um casal de compradores enfrentava a situação de um <strong>apartamento na planta atrasado</strong> na Barra da Tijuca por mais de 14 meses além do prazo de carência, mantendo a <strong>entrega das chaves atrasada</strong>. Por meio de ação patrocinada por nosso escritório, obteve-se a interrupção da cobrança do INCC e de taxas de condomínio antecipadas, culminando na condenação da construtora ao pagamento da indenização moratória de 0,5% ao mês pelo período de atraso e compensação por danos morais fixada pelo Judiciário.
+            </p>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns do Consumidor com Apartamento na Planta Atrasado</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Assinar Termos de Aditivo sem Orientação de um Advogado Imobiliário no Rio de Janeiro:</strong> Firmar acordos unilaterais propostos pela construtora renunciando a direitos de indenização e dando quitação irrestrita sem a devida compensação.</li>
+              <li><strong>Aceitar a Entrega das Chaves sem Vistoria Técnica:</strong> Receber as chaves do imóvel sem relatar no termo de vistoria a presença de vícios de construção ou pendências de acabamento.</li>
+              <li><strong>Pagamento de Taxas Condominiais Antes da Imissão na Posse:</strong> Arcar com taxas de condomínio e IPTU antes do recebimento formal do apartamento.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Conteúdos Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Consulte outros artigos explicativos elaborados por nossa equipe especializada:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Atuação em Direito Imobiliário</Link>: suporte em contratos, distratos e litígios com construtoras.
+              </li>
+              <li>
+                <Link to="/blog/guia-compra-venda-segura-imoveis-rj/" className="text-bronze hover:underline font-bold">Guia de Compra e Venda Segura de Imóveis no RJ</Link>: dicas práticas para evitar riscos contratuais.
+              </li>
+              <li>
+                <Link to="/blog/direito-imobiliario-due-diligence-compra/" className="text-bronze hover:underline font-bold">Due Diligence Imobiliária</Link>: análise de risco financeiro e jurídico de incorporadoras.
+              </li>
+              <li>
+                <Link to="/contact/" className="text-bronze hover:underline font-bold">Agende uma Consulta com Advogado Imobiliário no Rio de Janeiro</Link>: obtenha análise detalhada do seu contrato na planta.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Em suma, lidar com o <strong>atraso na entrega do imóvel na planta</strong> exige firmeza probatória e orientação jurídica qualificada. Contar com a assessoria de um <strong>advogado imobiliário no Rio de Janeiro</strong> permite acionar as garantias da Lei do Distrato e assegurar a justa reparação quando se deparar com a <strong>entrega das chaves atrasada</strong>.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Atuação do Soares Martins Advogados em Atraso de Obras de Construtoras</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Com sede em Ipanema, o escritório Soares Martins Advogados oferece assessoria especializada para adquirentes que enfrentam <strong>apartamento na planta atrasado</strong> no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Notificação extrajudicial de construtoras para suspensão de reajustes abusivos do INCC e cobranças indevidas de condomínio;</li>
+              <li>Ajuizamento de Ações de Rescisão Contratual por culpa da construtora com restituição de 100% dos valores pagos;</li>
+              <li>Cobrança de indenização moratória de 0,5% ao mês, ressarcimento de juros de obra e danos materiais;</li>
+              <li>Defesa técnica conduzida por <strong>advogado imobiliário no Rio de Janeiro</strong> visando à reparação por danos morais pela <strong>entrega das chaves atrasada</strong>.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma consulta com nossos advogados imobiliários</Link> ou envie uma mensagem direta pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Atraso da Construtora (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A construtora tem direito de atrasar a entrega em até 180 dias sem pagar multa?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, desde que a cláusula de tolerância de até 180 dias corridos esteja prevista de forma clara e destacada no contrato de promessa de compra e venda.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. A construtora pode alegar falta de mão de obra ou chuva para justificar atraso além dos 180 dias?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O STJ pacificou o entendimento de que burocracia, greves ou chuvas são fortuito interno (riscos intrínsecos à atividade imobiliária) e não justificam atrasos superiores a 180 dias.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Se eu rescindir por atraso na entrega do imóvel na planta, perco a comissão de corretagem?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. Em caso de rescisão motivada por descumprimento da construtora, a devolução abrange 100% de todos os valores pagos, inclusive comissão de corretagem e taxa de assessoria.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Posso parar de pagar as parcelas se meu apartamento na planta estiver atrasado?</h4>
+                <p className="text-text-muted text-xs mt-1">É recomendável obter uma liminar judicial com o suporte de um advogado imobiliário autorizando a suspensão dos pagamentos ou o depósito judicial para evitar a negativação do nome.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O que fazer quando ocorre a entrega das chaves atrasada?</h4>
+                <p className="text-text-muted text-xs mt-1">O comprador pode pleitear judicialmente a indenização moratória de 0,5% do valor pago por mês de atraso ou requerer a rescisão contratual com restituição de 100% das parcelas quitadas.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. A construtora pode cobrar condomínio antes da expedição do 'Habite-se' e da entrega das chaves?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A jurisprudência do STJ é pacífica no sentido de que a responsabilidade pelo pagamento das despesas condominiais e IPTU é da construtora até a efetiva imissão do comprador na posse do imóvel.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O que acontece com a taxa de juros de obra cobrada pelo banco financiador durante o atraso?</h4>
+                <p className="text-text-muted text-xs mt-1">O comprador pode pleitear judicialmente que a construtora seja condenada a ressarcir todos os valores pagos a título de taxa de evolução de obra após o encerramento do prazo de tolerância.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. A rescisão por atraso da construtora devolve o dinheiro parcelado ou à vista?</h4>
+                <p className="text-text-muted text-xs mt-1">A devolução deve ser feita em parcela única e imediata (Súmula 543 do STJ), sendo nula qualquer cláusula contratual que preveja devolução parcelada ou retenção abusiva.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. Por que consultar um advogado imobiliário no Rio de Janeiro ao enfrentar atraso na obra?</h4>
+                <p className="text-text-muted text-xs mt-1">O profissional especializado avalia o contrato, notifica formalmente a construtora, requer a suspensão do INCC e ajuíza a ação competente para cobrar indenização mensal e danos morais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Posso recusar o recebimento das chaves se o apartamento apresentar defeitos de acabamento?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Na vistoria de entrega das chaves, o comprador pode recusar o recebimento caso a unidade apresente vícios de construção aparentes, exigindo a reparação antes da imissão definitiva na posse.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 119,
+      slug: 'advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos',
+      title: 'Advogado condominial no Rio de janeiro: Guia Completo para Síndicos, Condomínios, Condôminos, Administradoras e Imobiliárias',
+      excerpt: 'Guia definitivo sobre a atuação do advogado especialista em Direito Condominial no Rio de Janeiro. Descubra a importância da assessoria preventiva para síndicos, condôminos, administradoras e imobiliárias.',
+      readTime: `18 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Condominial',
+      date: '08 Ago, 2026',
+      dateIso: '2026-08-08',
+      image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            Viver ou gerir um condomínio no Rio de Janeiro é um desafio dinâmico que envolve a gestão de pessoas, manutenção patrimonial milionária, cumprimento de legislações urbanísticas complexas e a prevenção de litígios. Com o aumento de edifícios residenciais e comerciais de grande porte em bairros como Ipanema, Copacabana, Botafogo, Barra da Tijuca, Recreio e Tijuca, as relações condominiais exigem cada vez mais profissionalismo e respaldo jurídico especializado. Diante desse cenário, surge a dúvida central: <strong>Como um advogado especialista em Direito Condominial no Rio de Janeiro protege síndicos, condôminos, administradoras e imobiliárias contra riscos contratuais, financeiros e judiciais?</strong>
+          </p>
+
+          <p>
+            O Direito Condominial é um ramo multidisciplinar que engloba dispositivos do Código Civil Brasileiro (Arts. 1.331 a 1.358), da Lei de Condomínios e Incorporações (Lei nº 4.591/1964), do Código de Processo Civil (CPC), do Direito do Trabalho, do Direito Ambiental e de normas municipais de autovistoria predial e combate a incêndios do Corpo de Bombeiros (CBMERJ). A atuação de uma bancada jurídica especializada transcende a mera cobrança de cotas atrasadas; trata-se de um pilar essencial para garantir a segurança da gestão, a harmonia comunitária e a valorização patrimonial dos imóveis.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">1. Assessoria Jurídica Especializada para Síndicos e Conselhos Consultivos</h2>
+          <p>
+            O síndico (seja ele morador ou profissional) exerce função de alta responsabilidade civil e criminal (Art. 1.348 do Código Civil). Decisões administrativas equivocadas, contratação de prestadores de serviço sem retenções tributárias adequadas ou omissão em obras estruturais de autovistoria podem expor o patrimônio pessoal do gestor a processos de ressarcimento ou responsabilização penal.
+          </p>
+          <p>
+            A assessoria do <strong>advogado condominial consultivo e litigioso</strong> atua como um escudo protetor para o síndico por meio de:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Pareceres Jurídicos Preventivos:</strong> Orientação prévia fundamentada antes da assinatura de contratos de grande porte (como reformas de fachada, portaria remota, modernização de elevadores e instalação de energia solar);</li>
+            <li><strong>Acompanhamento e Condução de Assembleias:</strong> Presença presencial ou virtual do advogado na Mesa Direta da Assembleia Geral Ordinária (AGO) ou Extraordinária (AGE), garantindo o cumprimento dos quóruns legais, ordem dos trabalhos e elaboração irrepreensível da ata de votação;</li>
+            <li><strong>Mitigação de Responsabilidade do Síndico:</strong> Proteção contra acusações infundadas de condôminos e defesa em ações de prestação de contas e destituição de cargo;</li>
+            <li><strong>Garantia do Compliance Condominial:</strong> Adequação do condomínio às exigências da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018) no uso de câmeras de segurança, controle de biometria e dados de visitantes.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">2. Defesa dos Direitos dos Condôminos e Solução de Conflitos de Vizinhança</h2>
+          <p>
+            Para os condôminos, o apartamento representa o principal refúgio da família e o bem mais valioso do seu patrimônio. No entanto, abusos de poder por parte de síndicos, aplicações de multas arbitrárias sem direito a ampla defesa, perturbação do sossego decorrente de barulho excessivo, infiltrações não reparadas e uso irregular de vagas de garagem são fontes constantes de litígios.
+          </p>
+          <p>
+            O advogado especializado defende os interesses do morador por meio de estratégias jurídicas céleres:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Anulação de Penalidades e Multas Abusivas:</strong> Impugnação judicial de advertências ou multas aplicadas sem o devido processo administrativo prévio e garantia do contraditório;</li>
+            <li><strong>Ações de Direito de Vizinhança e Uso Abusivo da Propriedade:</strong> Medidas judiciais urgentes com pedido de liminar para conter barulho excessivo, odores insuportáveis, animais antissociais ou obras irregulares no apartamento vizinho (Art. 1.277 do Código Civil);</li>
+            <li><strong>Ação de Obrigação de Fazer por Infiltração em Apartamento:</strong> Obtenção de ordem judicial para constranger o vizinho ou o condomínio a sanar vazamentos hidráulicos e indenizar danos materiais e morais;</li>
+            <li><strong>Direito à Fiscalização e Prestação de Contas:</strong> Requisição formal de balancetes, extratos bancários e notas fiscais de despesas condominiais suspeitas.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">3. Suporte Estratégico para Administradoras de Condomínio e Imobiliárias no RJ</h2>
+          <p>
+            Administradoras e imobiliárias lidam diariamente com um volume massivo de contratos, gestão de cobranças, folha de pagamento de funcionários próprios e terceirizados, além de conflitos entre locadores e locatários. A parceria técnica com um escritório de advocacia especializado em Direito Condominial fortalece a autoridade no mercado imobiliário e reduz sensivelmente o passivo trabalhista e cível da empresa.
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Padronização e Revisão de Minutas Contratuais:</strong> Atualização contínua de modelos de prestação de serviços, locação e termos de vistoria alinhados às mais recentes decisões do Superior Tribunal de Justiça (STJ);</li>
+            <li><strong>Blindagem e Gestão Trabalhista Própria e Terceirizada:</strong> Orientação preventiva sobre escala de folgas de porteiros e zeladores, horas extras, adicionais de insalubridade/periculosidade e responsabilidade subsidiária da Súmula 331 do TST;</li>
+            <li><strong>Suporte em Casos Complexos de Locação e Inadimplência:</strong> Intervenção rápida em inadimplências de aluguel e taxa condominial com ajuizamento de cobranças e execução de garantias.</li>
+          </ul>
+
+          <div className="bg-bronze/10 p-6 rounded-2xl border border-bronze/20 my-6">
+            <h3 className="text-bronze text-lg font-serif font-bold mb-3">Quadro de Dicas: Como Garantir uma Gestão Condominial Juridicamente Blindada</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Atualize a Convenção do Condomínio:</strong> Convenções anteriores ao Código Civil de 2002 frequentemente contêm cláusulas obsoletas ou ilegais sobre quóruns e multas. A modernização exige aprovação de 2/3 dos condôminos (Art. 1.351).</li>
+              <li><strong>Promova Notificação Antes da Aplicação de Multa:</strong> Salvo casos gravíssimos, aplique uma notificação/advertência por escrito concedendo prazo para defesa prévia, evitando a anulação judicial posterior da sanção.</li>
+              <li><strong>Rigor na Convocação das Assembleias:</strong> Garanta que todos os proprietários (incluindo promitentes compradores) sejam regularmente convocados. A ausência de convocação de um único condômino pode anular toda a assembleia (Art. 1.354 do CC).</li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">4. Cobrança de Inadimplência Condominial com Penhora do Próprio Imóvel</h2>
+          <p>
+            A taxa de condomínio é uma obrigação <i>propter rem</i> (aderente à coisa). O Código de Processo Civil de 2015 classificou os créditos referentes às contribuições ordinárias e extraordinárias de condomínio como <strong>Títulos Executivos Extrajudiciais</strong> (Art. 784, X, do CPC).
+          </p>
+          <p>
+            Essa inovação legislativa permite que o advogado do condomínio ajuíze diretamente a <strong>Ação de Execução de Título Extrajudicial</strong>. O devedor é citado para realizar o pagamento integral do débito (com multa de 2%, juros moratórios e correção) em apenas 3 (três) dias úteis. Caso não efetue o pagamento, o juiz determina a penhora imediata de saldo bancário via SisbaJud e, persistindo a dívida, a <strong>penhora e leilão do próprio apartamento devedor</strong>, não se aplicando a proteção da impenhorabilidade do bem de família (Art. 3º, IV, da Lei nº 8.009/1990).
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">5. Atualização da Convenção Condominial, Regimento Interno e Regras de Segurança</h2>
+          <p>
+            A evolução dos hábitos urbanos traz novos desafios constantes para os condomínios cariocas. Temas como a instalação de estações de carregamento de veículos elétricos nas garagens, regras para locação por temporada de curta duração (Airbnb/Booking), permissão de cães de serviço e animais de estimação, e implementação de portarias virtuais exigem regras comunitárias atualizadas.
+          </p>
+          <p>
+            O escritório de advocacia condominial elabora a redação técnica da nova Convenção Condominial e do Regimento Interno, harmonizando a autonomia da assembleia com a legislação federal e a jurisprudência consolidada do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ).
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Prático: Recuperação de Crédito e Regularização em Botafogo</h3>
+            <p className="text-text-muted text-sm">
+              Um condomínio residencial tradicional em Botafogo acumulava uma taxa de inadimplência superior a 18%, inviabilizando obras urgentes de reforma da fachada e impermeabilização. A convenção do prédio datava de 1978. Por meio de assessoria jurídica especializada do Soares Martins Advogados, implementou-se um programa de recuperação de crédito com cobranças judiciais e extrajudiciais simultâneas. Em apenas 8 meses, reduziu-se a inadimplência para menos de 3% e realizou-se a assembleia que aprovou a nova Convenção e o Regimento Interno do edifício com 100% de adequação legal.
+            </p>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns na Gestão Condominial sem Acompanhamento Jurídico</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Cortes Arbitrários de Serviços ou Proibição de Uso de Áreas Comuns por Inadimplentes:</strong> Impedir o morador devedor de usar elevadores, salão de festas ou piscina é considerado conduta ilegal e gera condenação do condomínio por danos morais.</li>
+              <li><strong>Exposição do Nome de Devedores no Elevador ou Mural:</strong> Divulgar listas nominais de inadimplentes configura violação do direito à imagem e à honra (dano moral e violação da LGPD).</li>
+              <li><strong>Contratação de Obras sem Parecer Jurídico sobre a Empreiteira:</strong> Falta de análise prévia de certidões trabalhistas e tributárias das empresas contratadas, gerando responsabilização do condomínio por dívidas terceirizadas.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Especializados Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Acesse nossas áreas de atuação e conteúdos aprofundados sobre Direito Condominial no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-condominial/" className="text-bronze hover:underline font-bold">Atuação Completa em Direito Condominial</Link>: assessoria contínua para condomínios residenciais, comerciais e mistos.
+              </li>
+              <li>
+                <Link to="/assessoria-juridica-para-sindicos/" className="text-bronze hover:underline font-bold">Assessoria Jurídica Especializada para Síndicos</Link>: consultoria preventiva, elaboração de pareceres e suporte em assembleias.
+              </li>
+              <li>
+                <Link to="/cobranca-condominial/" className="text-bronze hover:underline font-bold">Cobrança Judicial e Extrajudicial de Inadimplência</Link>: execuções céleres e penhora de bens de devedores.
+              </li>
+              <li>
+                <Link to="/assembleias-convencao-regimento/" className="text-bronze hover:underline font-bold">Revisão de Convenção e Regimento Interno</Link>: modernização normativa e regras de segurança.
+              </li>
+              <li>
+                <Link to="/compliance-condominial-penal/" className="text-bronze hover:underline font-bold">Compliance Condominial e Proteção de Dados (LGPD)</Link>: adequação de portarias, câmeras e controle de acesso.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Conclui-se que a contratação de um advogado condominial no Rio de Janeiro é um investimento preventivo essencial que preserva a paz social, protege o síndico contra riscos pessoais e valoriza o patrimônio imobiliário de todos os proprietários.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Por que Escolher o Soares Martins Advogados para a Gestão do seu Condomínio?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Localizado em Ipanema, o escritório Soares Martins Advogados é referência em Direito Condominial e Imobiliário na cidade do Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted mb-6">
+              <li>Atendimento personalizado por advogados altamente especializados e experientes no setor imobiliário carioca;</li>
+              <li>Cobrança de inadimplência focada em resultados ágeis com uso de tecnologia e execução direta de títulos;</li>
+              <li>Presença em assembleias gerais para suporte decisório e pacificação de conflitos entre condôminos;</li>
+              <li>Auditoria jurídica preventiva em contratos de fornecedores e adequação integral à LGPD.</li>
+            </ul>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma reunião presencial ou virtual com nossos especialistas</Link> ou envie uma mensagem direta pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Advogado Condominial e Direito Condominial no RJ (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Qual é a principal vantagem de contratar uma assessoria jurídica mensal para o condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">A assessoria contínua previne demandas judiciais custosas, analisa contratos antes de sua assinatura, garante cobrança imediata de inadimplentes e orienta o síndico em decisões cotidianas de alta responsabilidade.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O condomínio pode penhorar o próprio apartamento do morador devedor por dívida de taxa condominial?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A dívida condominial é propter rem e excepciona a regra do bem de família (Art. 3º, IV, da Lei nº 8.009/90), permitindo a penhora e leilão do próprio imóvel para quitação do débito.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Qual é o quórum necessário para alterar a Convenção do Condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">De acordo com o Art. 1.351 do Código Civil, a alteração da convenção exige a aprovação de 2/3 (dois terços) dos votos de todos os condôminos que compõem o edifício.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O condomínio pode proibir a locação por temporada estilo Airbnb no edifício?</h4>
+                <p className="text-text-muted text-xs mt-1">O STJ pacificou o entendimento de que a assembleia condominial pode proibir ou regulamentar a locação por temporada de curtíssima duração com rotatividade diária mediante previsão na Convenção.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O síndico pode ser responsabilizado pessoalmente por prejuízos causados ao condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Caso o síndico atue com excesso de poder, dolo, negligência grave ou descumprimento dos deveres do Art. 1.348 do Código Civil, ele pode responder civil e criminalmente com seus bens pessoais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. O condômino inadimplente tem direito de votar nas assembleias?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O Art. 1.335, III, do Código Civil estipula que é direito do condômino votar nas deliberações da assembleia e delas participar desde que esteja totalmente quite com as obrigações.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O condomínio é obrigado a se adequar à LGPD (Lei Geral de Proteção de Dados)?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Como o condomínio coleta e trata dados pessoais sensíveis (biometria, imagens de câmeras, registros de visitantes e documentos de moradores), a adequação à LGPD é obrigatória para evitar sanções e vazamentos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Como funciona a cobrança judicial de cobranças de condomínio atrasadas sob o CPC?</h4>
+                <p className="text-text-muted text-xs mt-1">A cobrança tramita como Execução de Título Extrajudicial. O devedor é citado para pagar em 3 dias sob pena de bloqueio bancário online imediato ou penhora de bens.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O condomínio pode proibir a presença de animais de estimação no apartamento?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O STJ proíbe a vedação genérica de animais em apartamentos. A proibição só é legítima se o animal individualmente considerado causar risco à segurança, saúde ou perturbação comprovada do sossego.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. O morador que sofre com barulho excessivo pode processar o condomínio ou apenas o vizinho causador?</h4>
+                <p className="text-text-muted text-xs mt-1">A ação direta deve ser proposta contra o vizinho infrator. O condomínio pode ser acionado se houver omissão deliberada do síndico em aplicar as penalidades e multas regimentais previstas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     }
   ];
 };

@@ -1915,5 +1915,78 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
       ]
     }
+  },
+
+  // Tijuca - Rua Uruguai nº 94, Apto 104 (40 m² / 1 Quarto / 1 Vaga)
+  'tijuca-uruguai-94': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Tijuca — Rua Uruguai nº 94, Apto 104',
+      subtitle: 'Rua Uruguai, nº 94, Apto 104 — Tijuca, Rio de Janeiro/RJ | 40 m² • 1 Quarto • Sacada • Dependências Completa • 1 Vaga • Portaria 24h',
+      address: 'Rua Uruguai, 94 - Apto 104 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '31/08/2026 às 12:40h',
+      p2Date: '02/09/2026 às 12:40h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.723.354-5',
+      rgi: '19.467 (10º RGI/RJ)',
+      val: 'R$ 250.000,00',
+      p2Val: 'R$ 125.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial de fundos na Rua Uruguai nº 94, apto 104, Tijuca, Rio de Janeiro/RJ, com 40 m² de área edificada. Composto por sala, 1 quarto, 1 banheiro social, dependências completas, sacada e direito a 1 vaga de garagem. Edifício residencial datado de 1985, afastado do alinhamento da via pública, com portão de ferro, entradas social e de serviço, portaria 24h, câmeras de segurança, interfone, 2 elevadores, playground com salão de festas. Composto por 9 andares, 36 apartamentos e 3 pavimentos de garagem. Excelente localização no coração da Tijuca, próxima ao metrô Uruguai, comércio, bancos e escolas.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor da avaliação oficial e o lance inicial na 2ª Praça para o apartamento na Rua Uruguai nº 94/104?", a: "O imóvel possui avaliação judicial atribuída de R$ 250.000,00. Na 1ª Praça (31/08/2026 às 12:40h), o lance mínimo é R$ 250.000,00. Na 2ª Praça (02/09/2026 às 12:40h), o lance inicial conta com 50% de desconto, fixado em R$ 125.000,00." },
+        { q: "Quais são as principais características do apartamento e da infraestrutura do edifício na Rua Uruguai?", a: "Apartamento de 40 m², posição fundos, composto por sala, 1 quarto, 1 banheiro social, dependências completas, sacada e 1 vaga de garagem. Edifício de 1985 com portaria 24h, 2 elevadores, câmeras, interfone, playground, salão de festas e 3 pavimentos de garagem (36 apartamentos no total)." },
+        { q: "Como é realizada a auditoria jurídica da Matrícula nº 19.467 (10º RGI/RJ) e IPTU nº 1.723.354-5?", a: "Nosso escritório realiza due diligence jurídica completa da Matrícula nº 19.467 perante o 10º RGI/RJ, levantamento de eventuais débitos de IPTU (1.723.354-5), taxas de condomínio e processos no TJRJ para garantir a sub-rogação dos débitos no preço da arrematação (art. 130 do CTN)." },
+        { q: "Por que investir em um apartamento de 1 quarto na Rua Uruguai na Tijuca?", a: "A Rua Uruguai é um dos endereços mais valorizados e procurados da Tijuca, a poucos passos da estação de metrô Uruguai, com infraestrutura completa de serviços, alta liquidez para locação e excelente potencial de valorização imobiliária." },
+        { q: "Como contratar a assessoria jurídica para arrematar este imóvel?", a: "Basta entrar em contato pelo WhatsApp do escritório Soares Martins Advogados para receber análise prévia de viabilidade, estudo do edital e acompanhamento jurídico integral até a imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Tijuca — Rua Uruguai nº 94, Apto 104',
+      subtitle: 'Rua Uruguai, nº 94, Apto 104 — Tijuca, Río de Janeiro/RJ | 40 m² • 1 Habitación • Balcón • Dependencias Completa • 1 Garaje • Consejería 24h',
+      address: 'Rua Uruguai, 94 - Apto 104 — Tijuca, Río de Janeiro - RJ',
+      p1Date: '31/08/2026 a las 12:40h',
+      p2Date: '02/09/2026 a las 12:40h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.723.354-5',
+      rgi: '19.467 (10º RGI/RJ)',
+      val: 'R$ 250.000,00',
+      p2Val: 'R$ 125.000,00 (50% de descuento)',
+      description: 'Apartamento de 40 m² interior ubicado en la Calle Uruguai nº 94, Apto 104, Tijuca, Río de Janeiro/RJ. Dispone de salón, 1 habitación, baño, dependencias completas, balcón y 1 plaza de garaje. Edificio de 1985 con consejería 24h, 2 ascensores, playground y salón de eventos.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja en 2ª Subasta del apartamento en Rua Uruguai nº 94?", a: "Valoración judicial de R$ 250.000,00. En 2ª Subasta (02/09/2026 a las 12:40h), la puja abre en R$ 125.000,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del inmueble?", a: "Apartamento de 40 m², 1 habitación, dependencias completas, balcón y 1 plaza de garaje. Edificio con consejería 24h y área de ocio." },
+        { q: "¿Cómo se audita la Matrícula nº 19.467 del 10º RGI/RJ?", a: "Auditoría integral de la Matrícula 19.467, certidões de IPTU 1.723.354-5 y expediente judicial en TJRJ." },
+        { q: "¿Por qué adquirir un inmueble en Tijuca cerca del metro Uruguai?", a: "Zona tradicional de Río con excelente conectividad, seguridad y alta demanda de alquiler." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp para estudio de viabilidad legal y acompañamiento." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Tijuca — Rua Uruguai #94, Apt 104',
+      subtitle: 'Rua Uruguai, #94, Apt 104 — Tijuca, Rio de Janeiro/RJ | 40 m² • 1 Bedroom • Balcony • Maid\'s Quarters • 1 Parking Space • 24h Concierge',
+      address: 'Rua Uruguai, 94 - Apt 104 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '08/31/2026 at 12:40 PM',
+      p2Date: '09/02/2026 at 12:40 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.723.354-5',
+      rgi: 'Title #19.467 (10th Land Registry)',
+      val: 'R$ 250,000.00',
+      p2Val: 'R$ 125,000.00 (50% discount)',
+      description: '40 m² residential apartment located at Rua Uruguai #94, Apt 104, Tijuca, Rio de Janeiro/RJ. Comprising living room, 1 bedroom, bathroom, maid\'s quarters, balcony, and 1 parking space. 1985 building featuring 24h concierge, 2 elevators, security cameras, playground, and party room. Prime Tijuca location near Uruguai subway station.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Apt 104 at Rua Uruguai #94?", a: "Official court appraisal is R$ 250,000.00. 1st Auction opens at R$ 250,000.00. 2nd Auction (09/02/2026 at 12:40 PM) opens at R$ 125,000.00 (50% discount)." },
+        { q: "What are the specs of the apartment and building?", a: "40 m² 1-bedroom apartment with balcony, maid\'s room, and 1 parking space. 1985 building with 24h concierge, elevators, playground, and party hall." },
+        { q: "How is legal due diligence conducted for Title #19.467?", a: "We audit Title #19.467 (10th Registry), IPTU tax records (1.723.354-5), condo debts, and TJRJ court records." },
+        { q: "Why invest in real estate in Tijuca near Uruguai Metro?", a: "Highly sought-after residential hub with top amenities, subway access, and strong rental yields." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
   }
 };

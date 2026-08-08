@@ -394,6 +394,17 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 258.913,50',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117-apto-301/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Haddock%20Lobo%20117%20Apto%20301.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Tijuca na Rua Uruguai nº 94/104',
+        desc: 'Apartamento de 40 m² de fundos com sala, 1 quarto, banheiro social, dependências completas, sacada e 1 vaga de garagem. Edifício de 1985 com portaria 24h, 2 elevadores, playground e salão de festas a passos do metrô Uruguai. Matrícula nº 19.467 (10º RGI/RJ) e IPTU nº 1.723.354-5.',
+        p1Label: '1ª Praça (31/08/2026):',
+        p1Val: 'R$ 250.000,00',
+        p2Label: '2ª Praça (02/09/2026):',
+        p2Val: 'R$ 125.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Uruguai%2094%20Apto%20104.'
       }
     ]
   },
@@ -703,6 +714,17 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 317.500,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Calle%20Santa%20Clara%20431%20Apto%20704%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Tijuca en Calle Uruguai nº 94/104',
+        desc: 'Apartamento de 40 m² con salón, 1 habitación, baño, dependencias completas, balcón y 1 plaza de garaje. Edificio de 1985 con consejería 24h y área de ocio junto al metro Uruguai. Matrícula nº 19.467 del 10º RGI/RJ e IPTU nº 1.723.354-5.',
+        p1Label: '1ª Subasta (31/08/2026):',
+        p1Val: 'R$ 250.000,00',
+        p2Label: '2ª Subasta (02/09/2026):',
+        p2Val: 'R$ 125.000,00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Calle%20Uruguai%2094%20Apto%20104.'
       }
     ]
   },
@@ -1012,6 +1034,17 @@ const pageTranslations: Record<string, any> = {
         p2Val: 'R$ 317,500.00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-santa-clara-431-apto-704/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Santa%20Clara%20431%20Apt%20704%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Tijuca/RJ',
+        title: 'Judicial Auction of Apartment in Tijuca at Rua Uruguai #94/104',
+        desc: '40 m² apartment featuring living room, 1 bedroom, bathroom, maid\'s quarters, balcony, and 1 parking space. 1985 building with 24h concierge, elevators, and playground steps from Uruguai Subway Station. Title #19,467 (10th Land Registry) and IPTU #1.723.354-5.',
+        p1Label: '1st Auction (08/31/2026):',
+        p1Val: 'R$ 250,000.00',
+        p2Label: '2nd Auction (09/02/2026):',
+        p2Val: 'R$ 125,000.00',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Uruguai%2094%20Apt%20104.'
       }
     ]
   }

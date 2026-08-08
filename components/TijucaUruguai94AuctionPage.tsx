@@ -3,27 +3,27 @@ import { Link } from 'react-router-dom';
 import { 
   ArrowLeft, ChevronRight, ChevronDown, ChevronUp, Building2, Gavel, 
   FileText, HelpCircle, PhoneCall, MapPin, Calendar, ExternalLink,
-  ShieldCheck, FileCheck, Landmark, CheckCircle2, Scale, Hotel
+  ShieldCheck, FileCheck, Landmark, CheckCircle2, Scale
 } from 'lucide-react';
 import SEO from './SEO';
-import buildingImage from '../src/assets/images/regenerated_image_1785853652914.png';
+import buildingImage from '../src/assets/images/regenerated_image_1786190966111.png';
 import { useLanguage } from '../context/LanguageContext';
 import { editalCommon, editaisData } from '../translations/editais';
 
-interface CopacabanaTonelero202AuctionPageProps {
+interface TijucaUruguai94AuctionPageProps {
   onBack?: () => void;
 }
 
-const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPageProps> = () => {
+const TijucaUruguai94AuctionPage: React.FC<TijucaUruguai94AuctionPageProps> = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [showEditalModal, setShowEditalModal] = useState<boolean>(false);
   const { language } = useLanguage();
 
   const tC = editalCommon[language] || editalCommon.pt;
-  const editalEntry = editaisData['copacabana-tonelero-202'] || editaisData['copacabana-atlantica'];
+  const editalEntry = editaisData['tijuca-uruguai-94'] || editaisData['copacabana-atlantica'];
   const item = editalEntry[language] || editalEntry.pt;
 
-  const canonicalUrl = "https://www.juniorsadvogados.com.br/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/hotel/rua-tonelero-202/";
+  const canonicalUrl = "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/";
 
   const pageSchema = [
     {
@@ -34,19 +34,19 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
           "@type": "ListItem",
           "position": 1,
           "name": tC.home,
-          "item": "https://www.juniorsadvogados.com.br/"
+          "item": "https://soaresmartinsadv.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": tC.practiceAreas,
-          "item": "https://www.juniorsadvogados.com.br/servicos/"
+          "item": "https://soaresmartinsadv.com/servicos/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": tC.auctionsTitle,
-          "item": "https://www.juniorsadvogados.com.br/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/"
+          "item": "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/"
         },
         {
           "@type": "ListItem",
@@ -59,11 +59,11 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
     {
       "@context": "https://schema.org",
       "@type": "LegalService",
-      "@id": "https://www.juniorsadvogados.com.br/#legalservice",
+      "@id": "https://soaresmartinsadv.com/#legalservice",
       "name": "Soares Martins Advogados",
-      "url": "https://www.juniorsadvogados.com.br/",
-      "logo": "https://www.juniorsadvogados.com.br/favicon.svg",
-      "image": "https://www.juniorsadvogados.com.br/favicon.svg",
+      "url": "https://soaresmartinsadv.com/",
+      "logo": "https://soaresmartinsadv.com/favicon.svg",
+      "image": "https://soaresmartinsadv.com/favicon.svg",
       "telephone": "+55-21-97954-9241",
       "email": "Juniorsadv@hotmail.com",
       "address": {
@@ -86,12 +86,12 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
       "@type": "Product",
       "name": item.title,
       "description": item.description,
-      "image": "https://www.juniorsadvogados.com.br/favicon.svg",
+      "image": "https://soaresmartinsadv.com/favicon.svg",
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "BRL",
-        "lowPrice": "22918102.40",
-        "highPrice": "45836204.80",
+        "lowPrice": "125000.00",
+        "highPrice": "250000.00",
         "offerCount": "2",
         "availability": "https://schema.org/InStock"
       }
@@ -149,7 +149,7 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
       <section className="max-w-7xl mx-auto px-6 pb-12 sm:pb-16">
         <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl p-6 sm:p-10 border border-white/10 shadow-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-bronze/10 border border-bronze/30 text-bronze text-xs font-semibold uppercase tracking-wider mb-6">
-            <Gavel size={14} /> {tC.badgeTag}
+            <Gavel size={14} /> Residencial • Tijuca/RJ
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-white font-bold leading-tight mb-4 text-left">
@@ -187,20 +187,20 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
               <div>
                 <div className="flex items-center justify-between pb-4 border-b border-white/10">
                   <span className="text-xs uppercase tracking-widest text-text-muted font-bold">{tC.valuationLabel}</span>
-                  <span className="text-xl sm:text-2xl font-serif font-bold text-bronze">{item.val}</span>
+                  <span className="text-2xl sm:text-3xl font-serif font-bold text-bronze">{item.val}</span>
                 </div>
 
                 {/* Praças Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+                <div className="grid grid-cols-2 gap-4 mt-6">
                   {/* 1ª Praça */}
                   <div className="bg-midnight-light/50 p-4 rounded-xl border border-white/10">
                     <div className="text-[10px] uppercase font-bold text-bronze tracking-wider mb-1 flex items-center gap-1">
                       <Calendar size={12} /> {tC.p1Title}
                     </div>
-                    <div className="text-xs font-semibold text-white mb-2">{tC.p1Desc}</div>
-                    <div className="text-[11px] text-text-muted mb-1">{tC.minBidLabel}</div>
-                    <div className="text-sm sm:text-base font-serif font-bold text-white leading-tight">{item.val}</div>
-                    <div className="text-[10px] text-white/70 mt-2 font-mono leading-tight">{item.p1Date}</div>
+                    <div className="text-sm font-semibold text-white mb-2">{tC.p1Desc}</div>
+                    <div className="text-xs text-text-muted mb-1">{tC.minBidLabel}</div>
+                    <div className="text-base sm:text-lg font-serif font-bold text-white">{item.val}</div>
+                    <div className="text-[11px] text-white/60 mt-2 font-mono">{item.p1Date}</div>
                   </div>
 
                   {/* 2ª Praça */}
@@ -208,10 +208,10 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
                     <div className="text-[10px] uppercase font-bold text-emerald-400 tracking-wider mb-1 flex items-center gap-1">
                       <Calendar size={12} /> {tC.p2Title}
                     </div>
-                    <div className="text-xs font-semibold text-emerald-300 mb-2">{tC.p2Desc}</div>
-                    <div className="text-[11px] text-text-muted mb-1">{tC.minBidLabel}</div>
-                    <div className="text-sm sm:text-base font-serif font-bold text-emerald-400 leading-tight">{item.p2Val}</div>
-                    <div className="text-[10px] text-white/70 mt-2 font-mono leading-tight">{item.p2Date}</div>
+                    <div className="text-sm font-semibold text-emerald-300 mb-2">{tC.p2Desc}</div>
+                    <div className="text-xs text-text-muted mb-1">{tC.minBidLabel}</div>
+                    <div className="text-base sm:text-lg font-serif font-bold text-emerald-400">{item.p2Val}</div>
+                    <div className="text-[11px] text-white/60 mt-2 font-mono">{item.p2Date}</div>
                   </div>
                 </div>
 
@@ -243,7 +243,7 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
                   </button>
 
                   <a 
-                    href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20pr%C3%A9dio%20hoteleiro%20na%20Rua%20Tonelero%20202%20em%20Copacabana."
+                    href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Uruguai%2094%20Apto%20104."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-bronze text-midnight hover:bg-white font-bold text-xs uppercase tracking-wider py-3.5 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2"
@@ -278,13 +278,16 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
                 <FileCheck size={18} /> Identificação Imobiliária
               </h3>
               <ul className="text-xs sm:text-sm text-text-muted space-y-2">
-                <li><strong className="text-white">Endereço Principal:</strong> Rua Tonelero, nº 202 — Copacabana, Rio de Janeiro/RJ</li>
-                <li><strong className="text-white">Registro Imobiliário:</strong> Matrícula nº 4.864 do Cartório do 5º Ofício do Registro Geral de Imóveis do Rio de Janeiro (5º RGI/RJ)</li>
-                <li><strong className="text-white">Inscrição Municipal (IPTU):</strong> 0.411.728-9</li>
-                <li><strong className="text-white">Área Edificada Total:</strong> 3.760 metros quadrados (3.760 m²)</li>
-                <li><strong className="text-white">Tipologia e Destinação:</strong> Hotel/Motel e similares, para utilização como hotel</li>
-                <li><strong className="text-white">Acessibilidade e Entorno:</strong> Estação de Metrô Siqueira Campos, linhas de ônibus, pontos de táxi, denso comércio e a poucos metros da Praia de Copacabana</li>
-                <li><strong className="text-white">Bairro / Região:</strong> Copacabana — Rio de Janeiro/RJ</li>
+                <li><strong className="text-white">Endereço Principal:</strong> Rua Uruguai, nº 94, Apartamento 104 — Tijuca, Rio de Janeiro/RJ</li>
+                <li><strong className="text-white">Registro Imobiliário:</strong> Matrícula nº 19.467 do Cartório do 10º Ofício de Registro de Imóveis do Rio de Janeiro (10º RGI/RJ)</li>
+                <li><strong className="text-white">Inscrição Municipal (IPTU):</strong> 1.723.354-5</li>
+                <li><strong className="text-white">Área Edificada:</strong> 40 metros quadrados (40 m²)</li>
+                <li><strong className="text-white">Distribuição Interna:</strong> Sala, 1 quarto, 1 banheiro social, dependências completas, sacada e direito a 1 vaga de garagem</li>
+                <li><strong className="text-white">Posição:</strong> Fundos</li>
+                <li><strong className="text-white">Infraestrutura do Edifício:</strong> Edifício de 1985, residencial, afastado do alinhamento da via pública, portão de ferro antes do hall de entrada, 2 entradas (serviço e social), portaria 24h, câmeras de segurança, interfone, 2 elevadores, playground com salão de festas. Composto por 9 andares, 36 apartamentos e 3 pavimentos de garagem</li>
+                <li><strong className="text-white">Vaga de Garagem:</strong> Direito a 1 vaga de garagem no condomínio</li>
+                <li><strong className="text-white">Mobilidade & Entorno:</strong> Localização nobre na Tijuca, a poucos passos do Metrô Uruguai, supermercados, farmácias, bancos e farto comércio local</li>
+                <li><strong className="text-white">Bairro / Região:</strong> Tijuca — Rio de Janeiro/RJ</li>
               </ul>
             </div>
 
@@ -294,9 +297,9 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
               </h3>
               <ul className="text-xs sm:text-sm text-text-muted space-y-2">
                 <li><strong className="text-white">Processo de Origem:</strong> Execução Judicial / TJRJ</li>
-                <li><strong className="text-white">Valor da Avaliação Oficial:</strong> R$ 45.836.204,80</li>
-                <li><strong className="text-white">1º Leilão (100%):</strong> Abertura de lances em 03/08/2026 (18:00h) | Fechamento em 06/10/2026 às 13:00h — Lance inicial: R$ 45.836.204,80</li>
-                <li><strong className="text-white">2º Leilão (50%):</strong> Abertura de lances em 06/10/2026 (13:03h) | Fechamento em 08/10/2026 às 13:00h — Lance inicial: R$ 22.918.102,40 (50% do valor da avaliação)</li>
+                <li><strong className="text-white">Valor da Avaliação Oficial:</strong> R$ 250.000,00</li>
+                <li><strong className="text-white">Lance Mínimo 1ª Praça (100%):</strong> R$ 250.000,00 (31/08/2026 às 12:40h)</li>
+                <li><strong className="text-white">Lance Mínimo 2ª Praça (50%):</strong> R$ 125.000,00 (02/09/2026 às 12:40h) — desconto de 50% do valor avaliado</li>
                 <li><strong className="text-white">Foro / Juízo:</strong> Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) / Comarca da Capital</li>
               </ul>
             </div>
@@ -308,24 +311,24 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
           <div className="flex items-center gap-3 text-bronze">
             <ShieldCheck size={24} className="shrink-0" />
             <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Caracterização da Região e Potencial de Investimento Hoteleiro em Copacabana
+              Caracterização da Região e Potencial de Investimento na Rua Uruguai
             </h2>
           </div>
 
           <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            Copacabana é o maior polo do turismo internacional e nacional na América Latina, mantendo taxas de ocupação hoteleira elevadas durante todo o ano e receita média por quarto disponível (RevPAR) extremamente competitiva.
+            A Rua Uruguai é uma das vias residenciais mais cobiçadas e valorizadas do tradicional bairro da Tijuca, na Zona Norte do Rio de Janeiro. Reconhecida por sua excelente qualidade de vida, arborização, proximidade com a estação de metrô Uruguai e acesso direto a uma completa rede de conveniências — incluindo colégios tradicionais, hortifrutis, academias, bancos e polos gastronômicos.
           </p>
 
           <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            Localizado na Rua Tonelero, nº 202, o imóvel de 3.760 m² usufrui de localização estratégica imediatamente adjacente à Estação Siqueira Campos do Metrô, permitindo rápido deslocamento aos aeroportos (Santos Dumont e Galeão), Centro Financeiro e à Zona Sul. A proximidade com a Orla de Copacabana consolida a vocação natural do ativo para operação como hotel, hospedagem boutique ou retrofit para residência multifamiliar/coliving.
+            O apartamento de 40 m² oferece layout prático com sala, 1 quarto, dependências completas, sacada agradável e 1 vaga de garagem, combinação extremamente rara e procurada na região para locação rápida. O condomínio oferece segurança reforçada com portaria 24h, 2 elevadores, câmeras e área de lazer com playground e salão de festas em prédio com apenas 36 unidades.
           </p>
 
           <div className="p-6 bg-bronze/10 border border-bronze/30 rounded-2xl space-y-2">
-            <div className="text-bronze font-serif font-bold text-base flex items-center gap-2">
-              <Hotel size={18} /> Desconto de R$ 22,9 Milhões na 2ª Praça Judicial
+            <div className="text-bronze font-serif font-bold text-base">
+              Oportunidade de Investimento a Partir de R$ 125.000,00 na 2ª Praça
             </div>
             <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-              Avaliado judicialmente em R$ 45.836.204,80, o prédio poderá ser arrematado no 2º Leilão por R$ 22.918.102,40 (50% do valor de avaliação). Um desconto expressivo de quase R$ 23 milhões, proporcionando margem de segurança excepcional para investidores institucionais e fundos imobiliários.
+              Com avaliação judicial de R$ 250.000,00, o lance de abertura na 2ª praça judicial por R$ 125.000,00 representa um custo de aproximadamente R$ 3.125/m², valor incomparavelmente inferior à média do mercado imobiliário da Tijuca para imóveis com vaga de garagem.
             </p>
           </div>
         </article>
@@ -335,48 +338,48 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
           <div className="flex items-center gap-3 text-bronze">
             <Scale size={24} className="shrink-0" />
             <h2 className="text-2xl sm:text-3xl font-serif text-white font-bold">
-              Importância da Assessoria Jurídica Especializada em Leilões de Grande Porte
+              Importância da Assessoria Jurídica Especializada e Fases do Acompanhamento
             </h2>
           </div>
 
           <p className="text-text-muted text-sm sm:text-base leading-relaxed">
-            A aquisição judicial de ativos imobiliários comerciais/hoteleiros de grande porte exige due diligence rigorosa. O Soares Martins Advogados analisa a higidez do processo de execução no TJRJ, a auditoria da Matrícula nº 4.864 do 5º RGI/RJ, passivos fiscais de IPTU (0.411.728-9), passivos trabalhistas, cíveis e condominiais, garantindo a sub-rogação dos débitos no preço da arrematação (art. 130 do CTN) e a expedição segura da Carta de Arrematação e Imissão na Posse.
+            A aquisição via leilão judicial exige criteriosa auditoria dos aspectos jurídicos do edital e da matrícula. O escritório Soares Martins Advogados analisa a Matrícula nº 19.467 perante o 10º RGI/RJ, os débitos municipais inscritos sob o IPTU nº 1.723.354-5, passivos de cota condominial e a higidez do processo judicial no TJRJ, garantindo a arrematação segura com a devida sub-rogação das dívidas fiscais sobre o valor depositado (art. 130 do CTN).
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-2">
             <div className="bg-midnight/60 p-5 rounded-2xl border border-white/10 space-y-2">
               <div className="text-bronze font-bold text-sm flex items-center gap-1.5">
-                <CheckCircle2 size={16} /> 1. Audit & Due Diligence
+                <CheckCircle2 size={16} /> 1. Due Diligence
               </div>
               <p className="text-xs text-text-muted">
-                Análise completa do edital, certidões dos executados, débitos fiscais (IPTU/ISS) e Matrícula nº 4.864 (5º RGI).
+                Auditoria minuciosa da Matrícula nº 19.467 (10º RGI/RJ), certidões do IPTU e regularidade processual no TJRJ.
               </p>
             </div>
 
             <div className="bg-midnight/60 p-5 rounded-2xl border border-white/10 space-y-2">
               <div className="text-bronze font-bold text-sm flex items-center gap-1.5">
-                <CheckCircle2 size={16} /> 2. Estratégia de Arrematação
+                <CheckCircle2 size={16} /> 2. Estratégia de Lance
               </div>
               <p className="text-xs text-text-muted">
-                Planejamento de lances em 1ª ou 2ª praça, montagem de estrutura jurídica de arrematação (Pessoa Física, Jurídica ou FII).
+                Habilitação legal no portal do leiloeiro e orientação para definição de teto financeiro competitivo e seguro.
               </p>
             </div>
 
             <div className="bg-midnight/60 p-5 rounded-2xl border border-white/10 space-y-2">
               <div className="text-bronze font-bold text-sm flex items-center gap-1.5">
-                <CheckCircle2 size={16} /> 3. Depósito & Carta
+                <CheckCircle2 size={16} /> 3. Homologação & Guia
               </div>
               <p className="text-xs text-text-muted">
-                Emissão de guias judiciais, auto de arrematação, intimação dos credores e obtenção da Carta de Arrematação.
+                Acompanhamento da lavratura do Auto de Arrematação, quitação das guias judiciais e comissão de leilão.
               </p>
             </div>
 
             <div className="bg-midnight/60 p-5 rounded-2xl border border-white/10 space-y-2">
               <div className="text-bronze font-bold text-sm flex items-center gap-1.5">
-                <CheckCircle2 size={16} /> 4. Registro & Imissão
+                <CheckCircle2 size={16} /> 4. Carta & Imissão
               </div>
               <p className="text-xs text-text-muted">
-                Registro no 5º RGI/RJ, quitação do ITBI e imissão judicial na posse do edifício hoteleiro.
+                Expedição da Carta de Arrematação, averbação no 10º RGI e providências jurídicas para imissão na posse.
               </p>
             </div>
           </div>
@@ -506,7 +509,7 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
 
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center pt-4">
               <a 
-                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20assessoria%20jur%C3%ADdica%20para%20o%20leil%C3%A3o%20do%20pr%C3%A9dio%20hoteleiro%20na%20Rua%20Tonelero%20202%20em%20Copacabana."
+                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20assessoria%20jur%C3%ADdica%20para%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Uruguai%2094%20Apto%20104."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2.5 bg-midnight text-white px-8 py-4 rounded-xl font-bold uppercase tracking-widest text-xs hover:bg-white hover:text-midnight transition-all shadow-lg"
@@ -579,7 +582,7 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
                 {tC.modalClose}
               </button>
               <a 
-                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20o%20parecer%20completo%20do%20edital%20da%20Rua%20Tonelero%20202%20em%20Copacabana."
+                href="https://wa.me/5521979549241?text=Ol%C3%A1,%20gostaria%20de%20solicitar%20o%20parecer%20completo%20do%20edital%20da%20Rua%20Uruguai%2094%20Apto%20104."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-5 py-2.5 bg-bronze text-midnight font-bold rounded-xl text-xs uppercase tracking-wider hover:bg-white transition-all inline-flex items-center gap-1.5"
@@ -594,4 +597,4 @@ const CopacabanaTonelero202AuctionPage: React.FC<CopacabanaTonelero202AuctionPag
   );
 };
 
-export default CopacabanaTonelero202AuctionPage;
+export default TijucaUruguai94AuctionPage;

@@ -396,7 +396,7 @@ const PraiaBotafogo356AuctionPage: React.FC<PraiaBotafogo356AuctionPageProps> = 
               {
                 title: 'É Possível Visitar um Imóvel de Leilão Antes de Dar o Lance?',
                 desc: 'Saiba como funciona a visitação em leilões judiciais e extrajudiciais e cuidados essenciais.',
-                path: '/blog/e-possivel-visitar-imovel-leilao-antes-dar-lance/'
+                path: '/blog/e-possivel-visitar-imovel-de-leilao-antes-de-dar-o-lance/'
               },
               {
                 title: 'Apartamento em Leilão por Débito de Condomínio',

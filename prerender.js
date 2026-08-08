@@ -37,6 +37,7 @@ const routesToPrerender = [
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-haddock-lobo-191-apto-405/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-347/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/rua-haddock-lobo-117-apto-301/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
   // Blog Posts (Portuguese)
   '/blog/lgpd-condominios-portaria-cameras/',
   '/blog/stj-regras-animais-condominios-o-que-mudou/',
@@ -55,6 +56,10 @@ const routesToPrerender = [
   '/blog/leilao-judicial-ou-compra-direta-qual-vale-mais-a-pena/',
   '/blog/carro-eletrico-condominio-pode-proibir-instalacao-carregador/',
   '/blog/cao-de-servico-condominio-pode-proibir/',
+  '/blog/inquilino-inadimplente-o-que-fazer-quando-cabe-despejo-como-cobrar/',
+  '/blog/infiltracao-no-apartamento-como-identificar-origem-quem-paga-reparo-indenizacao/',
+  '/blog/construtora-atrasou-entrega-do-apartamento-o-que-fazer-quando-cabe-indenizacao/',
+  '/blog/advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos/',
   // Blog Posts (English)
   '/blog/lgpd-condominiums-concierge-cameras/',
   '/blog/stj-rules-animals-condominiums-what-changed/',

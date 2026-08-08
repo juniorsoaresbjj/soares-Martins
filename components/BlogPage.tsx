@@ -169,7 +169,15 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
               </div>
               <h1 className="font-serif text-white text-3xl sm:text-4xl md:text-6xl leading-tight break-words">{selectedPost.title}</h1>
               <div className="w-full h-64 sm:h-96 overflow-hidden rounded-2xl sm:rounded-3xl shadow-2xl">
-                <img src={selectedPost.image} className="w-full h-full object-cover" alt="" />
+                <img 
+                  src={selectedPost.image || 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80'} 
+                  className="w-full h-full object-cover" 
+                  alt={selectedPost.title || ''} 
+                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80';
+                  }}
+                />
               </div>
             </header>
             <div className="prose prose-invert max-w-none text-text-muted text-base sm:text-lg leading-relaxed">
@@ -258,7 +266,15 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
                   className="group cursor-pointer bg-midnight-light/60 rounded-2xl sm:rounded-3xl overflow-hidden border border-white/5 hover:border-bronze/30 transition-all flex flex-col h-full shadow-lg"
                 >
                   <div className="h-48 sm:h-56 overflow-hidden relative">
-                    <img src={post.image} className="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="" />
+                    <img 
+                      src={post.image || 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80'} 
+                      className="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" 
+                      alt={post.title || ''} 
+                      referrerPolicy="no-referrer"
+                      onError={(e) => {
+                        (e.currentTarget as HTMLImageElement).src = 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80';
+                      }}
+                    />
                     <div className="absolute top-4 left-4">
                       <span className="bg-bronze text-midnight text-[8px] sm:text-[9px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">{post.category}</span>
                     </div>
