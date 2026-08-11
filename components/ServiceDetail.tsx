@@ -143,6 +143,61 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Comercial/Residencial • Santa Teresa/RJ',
+        title: 'Leilão Judicial de Casarão em Santa Teresa — Rua Joaquim Murtinho nº 587 — Antiga Pousada (1.132 m²)',
+        desc: 'Singular propriedade de 1938 com 1.132 m², composta por casa principal (4 andares/suítes/biblioteca), área de lazer com piscina, sauna e churrasqueira, bangalô em mezanino, prédio anexo com 5 unidades e área de mata preservada. Matrícula nº 2.117 (7º RGI) e IPTU nº 0113118-4.',
+        p1Label: '1ª Praça (28/09/2026):',
+        p1Val: 'R$ 2.900.000,00',
+        p2Label: '2ª Praça (01/10/2026):',
+        p2Val: 'R$ 1.740.000,00 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/pousada-casarao/rua-joaquim-murtinho-587/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20casar%C3%A3o%20na%20Rua%20Joaquim%20Murtinho%20587%20em%20Santa%20Teresa.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Cobertura em Copacabana — Rua Silva Castro nº 44 — Apto 1001 (206 m²)',
+        desc: 'Excepcional cobertura duplex de frente com 206 m², 3 quartos (1 suíte), terraço em ardósia com deck de madeira, piscina redonda de fibra e churrasqueira privativa. Matrícula nº 107.466 (5º RGI) e IPTU nº 0.065.088-7.',
+        p1Label: '1ª Praça (14/09/2026):',
+        p1Val: 'R$ 2.500.000,00',
+        p2Label: '2ª Praça (17/09/2026):',
+        p2Val: 'R$ 1.500.000,00 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44-apto-1001/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20cobertura%20na%20Rua%20Silva%20Castro%2044%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Marechal Mascarenhas de Morais nº 190 — Apto 703 (79 m²)',
+        desc: 'Apartamento residencial de 79 m² em prédio de 1982 com 7 andares mais cobertura. Condomínio com garagem, 3 elevadores, playground com salão de festas, portaria 24h e câmeras de segurança. Matrícula nº 49.437 (5º RGI) e IPTU nº 1.534.550-7.',
+        p1Label: '1ª Praça (17/09/2026):',
+        p1Val: 'R$ 1.091.500,00',
+        p2Label: '2ª Praça (22/09/2026):',
+        p2Val: 'R$ 545.750,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Marechal%20Mascarenhas%20de%20Morais%20190%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Maracanã/RJ',
+        title: 'Leilão Judicial de Apartamento no Maracanã — Rua Dona Zulmira nº 19 — Apto 101 (66 m²)',
+        desc: 'Apartamento residencial de frente com varanda, composto por quarto, sala, banheiro social, cozinha e dependências. Edifício de 1984 com 2 elevadores, segurança, 2 andares de garagem, playground, salão de festas e churrasqueira. Matrícula nº 41.819 (10º RGI) e IPTU nº 1.640.226-5.',
+        p1Label: '1ª Praça (02/09/2026):',
+        p1Val: 'R$ 406.923,00',
+        p2Label: '2ª Praça (09/09/2026):',
+        p2Val: 'R$ 203.461,50 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-dona-zulmira-19-apto-101/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Dona%20Zulmira%2019%20no%20Maracan%C3%A3.'
+      },
+      {
+        tag: 'Residencial • Cosme Velho/RJ',
+        title: 'Leilão Judicial de Cobertura no Cosme Velho — Praça São Judas Tadeu nº 6 — Apto 601 (590 m²)',
+        desc: 'Cobertura residencial de altíssimo padrão com 590 m² na Praça São Judas Tadeu nº 06, Cosme Velho. Composta por amplo salão, sala de jantar, terraço frontal e lateral, 5 quartos (3 suítes), banheiro social, depósito e duas dependências. Matrícula nº 124374 (9º RGI) e IPTU nº 14013544.',
+        p1Label: '1ª Praça (09/09/2026):',
+        p1Val: 'R$ 4.411.000,00',
+        p2Label: '2ª Praça (16/09/2026):',
+        p2Val: 'R$ 1.543.850,00 (35% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/cosme-velho/cobertura/praca-sao-judas-tadeu-6-apto-601/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20cobertura%20na%20Pra%C3%A7a%20S%C3%A3o%20Judas%20Tadeu%206%20no%20Cosme%20Velho.'
+      },
+      {
         tag: 'Residencial • Copacabana/RJ',
         title: 'Leilão Judicial de Apartamento em Copacabana — Rua M. V. Castro, 32',
         desc: 'Unidade residencial situada em Copacabana, próximo à praia e metrô Cardeal Arcoverde. Análise preventiva de edital, sub-rogação de tributos e verificação de passivos condominiais concluídas.',
@@ -485,6 +540,61 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Comercial/Residencial • Santa Teresa/RJ',
+        title: 'Subasta Judicial de Casona en Santa Teresa — Calle Joaquim Murtinho nº 587 — Antigua Posada (1.132 m²)',
+        desc: 'Propiedad histórica de 1938 de 1.132 m², con casa principal (4 plantas/suites), área de piscina, sauna y barbacoa, bungalow independiente, edificio anexo con 5 unidades y zona verde arbolada. Matrícula nº 2.117 (7º RGI) e IPTU nº 0113118-4.',
+        p1Label: '1ª Subasta (28/09/2026):',
+        p1Val: 'R$ 2.900.000,00',
+        p2Label: '2ª Subasta (01/10/2026):',
+        p2Val: 'R$ 1.740.000,00 (60% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/pousada-casarao/rua-joaquim-murtinho-587/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20de%20la%20casona%20en%20Santa%20Teresa.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Ático Duplex en Copacabana — Calle Silva Castro nº 44 — Apto 1001 (206 m²)',
+        desc: 'Ático duplex residencial de 206 m², 3 dormitorios (1 suite), terraza en pizarra con deck de madera, piscina de fibra y barbacoa. Matrícula nº 107.466 (5º RGI) e IPTU nº 0.065.088-7.',
+        p1Label: '1ª Subasta (14/09/2026):',
+        p1Val: 'R$ 2.500.000,00',
+        p2Label: '2ª Subasta (17/09/2026):',
+        p2Val: 'R$ 1.500.000,00 (60% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44-apto-1001/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20%C3%A1tico%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Calle Marechal Mascarenhas de Morais nº 190 — Apto 703 (79 m²)',
+        desc: 'Apartamento residencial de 79 m² en edificio de 1982. Dispone de garaje, 3 ascensores, playground con salón de fiestas, portería 24h y cámaras de seguridad. Matrícula nº 49.437 (5º RGI) e IPTU nº 1.534.550-7.',
+        p1Label: '1ª Subasta (17/09/2026):',
+        p1Val: 'R$ 1.091.500,00',
+        p2Label: '2ª Subasta (22/09/2026):',
+        p2Val: 'R$ 545.750,00 (50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Maracanã/RJ',
+        title: 'Subasta Judicial de Apartamento en Maracanã — Calle Dona Zulmira nº 19 — Apto 101 (66 m²)',
+        desc: 'Apartamento residencial de frente con balcón, compuesto por habitación, salón, baño, cocina y dependencias. Edificio de 1984 con 2 ascensores, seguridad, 2 pisos de garaje, playground, salón de fiestas y barbacoa. Matrícula nº 41.819 (10º RGI) e IPTU nº 1.640.226-5.',
+        p1Label: '1ª Subasta (02/09/2026):',
+        p1Val: 'R$ 406.923,00',
+        p2Label: '2ª Subasta (09/09/2026):',
+        p2Val: 'R$ 203.461,50 (50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-dona-zulmira-19-apto-101/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Maracan%C3%A3.'
+      },
+      {
+        tag: 'Residencial • Cosme Velho/RJ',
+        title: 'Subasta Judicial de Ático en Cosme Velho — Plaza São Judas Tadeu nº 6 — Apto 601 (590 m²)',
+        desc: 'Ático residencial de alto estándar con 590 m² en Plaza São Judas Tadeu nº 06, Cosme Velho. Consta de amplio salón, comedor, terraza frontal y lateral, 5 dormitorios (3 suites), baño social, depósito y 2 dependencias. Matrícula nº 124374 (9º RGI) e IPTU nº 14013544.',
+        p1Label: '1ª Subasta (09/09/2026):',
+        p1Val: 'R$ 4.411.000,00',
+        p2Label: '2ª Subasta (16/09/2026):',
+        p2Val: 'R$ 1.543.850,00 (35% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/cosme-velho/cobertura/praca-sao-judas-tadeu-6-apto-601/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20%C3%A1tico%20en%20Cosme%20Velho.'
+      },
+      {
         tag: 'Residencial • Copacabana/RJ',
         title: 'Subasta Judicial de Apartamento en Copacabana — Calle M. V. Castro, 32',
         desc: 'Unidad residencial situada en Copacabana, cerca de la playa y metro Cardeal Arcoverde. Análisis preventivo de edicto, subrogación de tributos y verificación de pasivos condominiales concluidos.',
@@ -804,6 +914,61 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Commercial/Residential • Santa Teresa/RJ',
+        title: 'Judicial Auction of Historic Mansion in Santa Teresa — Joaquim Murtinho Street #587 — Former Inn (1,132 sqm)',
+        desc: '1938 historic 1,132 sqm property featuring 4-story main mansion with suites, pool/sauna/BBQ leisure grounds, mezzanine bungalow, upper annex building with 5 units, and preserved forest. Title #2.117 (7th Registry) & IPTU #0113118-4.',
+        p1Label: '1st Auction (09/28/2026):',
+        p1Val: 'R$ 2,900,000.00',
+        p2Label: '2nd Auction (10/01/2026):',
+        p2Val: 'R$ 1,740,000.00 (60% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/pousada-casarao/rua-joaquim-murtinho-587/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20historic%20mansion%20auction%20at%20Joaquim%20Murtinho%20587%20in%20Santa%20Teresa.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Penthouse in Copacabana — Silva Castro Street #44 — Apt 1001 (206 sqm)',
+        desc: 'Exceptional 206 sqm duplex penthouse with 3 bedrooms (1 suite), terrace with slate tiles, wooden deck, round fiberglass pool, and private BBQ. Title #107.466 (5th Registry) & IPTU #0.065.088-7.',
+        p1Label: '1st Auction (09/14/2026):',
+        p1Val: 'R$ 2,500,000.00',
+        p2Label: '2nd Auction (09/17/2026):',
+        p2Val: 'R$ 1,500,000.00 (60% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44-apto-1001/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20penthouse%20auction%20at%20Silva%20Castro%2044%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment in Copacabana — Marechal Mascarenhas de Morais Street #190 — Apt 703 (79 sqm)',
+        desc: 'Residential 79 sqm apartment in a 1982 building with 3 elevators, garage, playground with party room, 24/7 doorman, and security cameras. Title #49.437 (5th Registry) & IPTU #1.534.550-7.',
+        p1Label: '1st Auction (09/17/2026):',
+        p1Val: 'R$ 1,091,500.00',
+        p2Label: '2nd Auction (09/22/2026):',
+        p2Val: 'R$ 545,750.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Marechal%20Mascarenhas%20de%20Morais%20190%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Maracanã/RJ',
+        title: 'Judicial Auction of Apartment in Maracanã — Dona Zulmira Street #19 — Apt 101 (66 sqm)',
+        desc: 'Front-facing residential apartment with balcony, bedroom, living room, bathroom, kitchen, and maid quarters. 1984 building with 2 elevators, security cameras, 2 garage levels, playground, party room, and BBQ. Title #41.819 (10th Registry) & IPTU #1.640.226-5.',
+        p1Label: '1st Auction (09/02/2026):',
+        p1Val: 'R$ 406,923.00',
+        p2Label: '2nd Auction (09/09/2026):',
+        p2Val: 'R$ 203,461.50 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-dona-zulmira-19-apto-101/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20in%20Maracan%C3%A3.'
+      },
+      {
+        tag: 'Residential • Cosme Velho/RJ',
+        title: 'Judicial Auction of Penthouse in Cosme Velho — Praça São Judas Tadeu #6 — Apt 601 (590 sqm)',
+        desc: 'Luxury 590 sqm residential penthouse at Praça São Judas Tadeu #06, Cosme Velho. Featuring large living room, dining hall, front and side terraces, 5 bedrooms (3 suites), social bathroom, storage room, and 2 maid quarters. Title #124374 (9th Registry) & IPTU #14013544.',
+        p1Label: '1st Auction (09/09/2026):',
+        p1Val: 'R$ 4,411,000.00',
+        p2Label: '2nd Auction (09/16/2026):',
+        p2Val: 'R$ 1,543,850.00 (35% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/cosme-velho/cobertura/praca-sao-judas-tadeu-6-apto-601/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20penthouse%20auction%20in%20Cosme%20Velho.'
+      },
       {
         tag: 'Residential • Copacabana/RJ',
         title: 'Judicial Auction of Apartment in Copacabana — M. V. Castro St, 32',

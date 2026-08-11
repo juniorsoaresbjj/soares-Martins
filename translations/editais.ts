@@ -1988,5 +1988,370 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
       ]
     }
+  },
+
+  // Cosme Velho - Praça São Judas Tadeu nº 6, Apto 601 (Cobertura 590 m²)
+  'cosme-velho-sao-judas-tadeu-6': {
+    pt: {
+      title: 'Leilão Judicial de Cobertura no Cosme Velho — Praça São Judas Tadeu nº 6 — Apto 601',
+      subtitle: 'Praça São Judas Tadeu, nº 06, Apto 601 (Cobertura) — Cosme Velho, Rio de Janeiro/RJ | 590 m² • 5 Quartos (3 Suítes) • Terraços Frontal e Lateral • Depósito • 2 Dependências',
+      address: 'Praça São Judas Tadeu, 06 - Apto 601 (Cobertura) — Cosme Velho, Rio de Janeiro - RJ',
+      p1Date: '09/09/2026 às 11:00h',
+      p2Date: '16/09/2026 às 11:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '14013544',
+      rgi: '124374 (9º RGI/RJ)',
+      val: 'R$ 4.411.000,00',
+      p2Val: 'R$ 1.543.850,00 (35% do valor da avaliação)',
+      description: 'Apartamento de cobertura, uso residencial, localizado na Praça São Judas Tadeu, nº 06, Apto 601, bairro do Cosme Velho, Zona Sul da cidade do Rio de Janeiro/RJ, com 590 m² de área edificada. Composto por amplo salão, sala de jantar, terraço frontal e lateral, extenso corredor entre a frente e os fundos ligando o salão aos 5 quartos (três suítes) e o banheiro social. Área de serviço com lavanderia, depósito e duas dependências de empregada. Devidamente dimensionado e caracterizado no 9º Ofício do Registro Geral de Imóveis, matrícula nº 124374, Inscrição Municipal nº 14013544 (IPTU). Foi atribuído ao bem o valor de R$ 4.411.000,00, com abertura da segunda praça tendo como início 35% do valor da avaliação (R$ 1.543.850,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para a cobertura na Praça São Judas Tadeu nº 06?", a: "A cobertura de 590 m² possui avaliação judicial de R$ 4.411.000,00. Na 1ª Praça (09/09/2026 às 11:00h), o lance mínimo é R$ 4.411.000,00 (100%). Na 2ª Praça (16/09/2026 às 11:00h), o lance inicial conta com desconto extraordinário, fixado a partir de 35% do valor da avaliação (R$ 1.543.850,00)." },
+        { q: "Quais são as características da cobertura residencial no Cosme Velho?", a: "Trata-se de magnífica cobertura residencial com 590 m² de área edificada, composta por amplo salão, sala de jantar, terraço frontal e lateral, corredor de circulação, 5 quartos (sendo 3 suítes), banheiro social, área de serviço com lavanderia, depósito e duas dependências de empregada." },
+        { q: "Como funciona a auditoria de débitos de IPTU e condomínio na Matrícula nº 124374 (9º RGI)?", a: "Realizamos due diligence jurídica completa da Matrícula nº 124374 perante o 9º RGI/RJ e da Inscrição IPTU nº 14013544, assegurando a sub-rogação dos débitos fiscais no preço da arrematação (Art. 130 do CTN) e analisando o edital para isenção do arrematante quanto a encargos pretéritos." },
+        { q: "É possível apresentar proposta de parcelamento na 1ª ou 2ª Praça?", a: "Sim. Nos termos do Art. 895 do Código de Processo Civil (CPC), o arrematante pode apresentar proposta por escrito com sinal de no mínimo 25% à vista e o saldo em até 30 parcelas mensais corrigidas, mediante garantia hipotecária da própria cobertura." },
+        { q: "Como contratar a assessoria jurídica especializada para a arrematação desta cobertura?", a: "Basta entrar em contato via WhatsApp com o escritório Soares Martins Advogados para solicitar o parecer prévio de viabilidade jurídica e acompanhamento completo do leilão até a imissão na posse e registro imobiliário." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Ático en Cosme Velho — Plaza São Judas Tadeu nº 6 — Apto 601',
+      subtitle: 'Plaza São Judas Tadeu, nº 06, Apto 601 (Ático) — Cosme Velho, Río de Janeiro/RJ | 590 m² • 5 Habitaciones (3 Suites) • Terrazas • Depósito • 2 Dependencias',
+      address: 'Plaza São Judas Tadeu, 06 - Apto 601 (Ático) — Cosme Velho, Río de Janeiro - RJ',
+      p1Date: '09/09/2026 a las 11:00h',
+      p2Date: '16/09/2026 a las 11:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '14013544',
+      rgi: '124374 (9º RGI/RJ)',
+      val: 'R$ 4.411.000,00',
+      p2Val: 'R$ 1.543.850,00 (35% de la evaluación)',
+      description: 'Ático residencial de 590 m² ubicado en Plaza São Judas Tadeu, nº 06, Apto 601, Cosme Velho, Zona Sur de Río de Janeiro. Consta de amplio salón, comedor, terraza frontal y lateral, pasillo distribuidor, 5 dormitorios (3 suites), baño social, lavandería, depósito y 2 dependencias de servicio. Registrado en el 9º RGI con Matrícula nº 124374 e IPTU nº 14013544. Evaluación de R$ 4.411.000,00, con la 2ª subasta abriendo a partir del 35% (R$ 1.543.850,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja inicial en 2ª Subasta para el ático en Plaza São Judas Tadeu nº 06?", a: "Valoración judicial de R$ 4.411.000,00. En 2ª Subasta (16/09/2026 a las 11:00h), la puja abre a partir del 35% de la evaluación (R$ 1.543.850,00)." },
+        { q: "¿Cuáles son las características del ático en Cosme Velho?", a: "Inmueble de 590 m², amplio salón, comedor, terrazas frontal y lateral, 5 dormitorios (3 suites), lavandería, depósito y 2 dependencias de servicio." },
+        { q: "¿Cómo se audita la Matrícula nº 124374 del 9º RGI/RJ?", a: "Auditoría integral de la Matrícula 124374, certidões de IPTU 14013544 y expediente judicial en TJRJ." },
+        { q: "¿Es posible presentar propuesta de pago a plazos?", a: "Sí, conforme al Art. 895 del CPC (25% de enganche y hasta 30 cuotas mensuales)." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp para estudio de viabilidad legal y acompañamiento." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Penthouse in Cosme Velho — Praça São Judas Tadeu #6 — Apt 601',
+      subtitle: 'Praça São Judas Tadeu, #06, Apt 601 (Penthouse) — Cosme Velho, Rio de Janeiro/RJ | 590 m² • 5 Bedrooms (3 Suites) • Front & Side Terraces • Storage • 2 Maid Quarters',
+      address: 'Praça São Judas Tadeu, 06 - Apt 601 (Penthouse) — Cosme Velho, Rio de Janeiro - RJ',
+      p1Date: '09/09/2026 at 11:00 AM',
+      p2Date: '09/16/2026 at 11:00 AM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '14013544',
+      rgi: 'Title #124374 (9th Land Registry)',
+      val: 'R$ 4,411,000.00',
+      p2Val: 'R$ 1,543,850.00 (35% starting bid)',
+      description: '590 m² residential penthouse located at Praça São Judas Tadeu #06, Apt 601, Cosme Velho, South Zone of Rio de Janeiro/RJ. Featuring large living room, dining hall, front and side terraces, hallway, 5 bedrooms (3 suites), social bathroom, laundry room, storage room, and 2 maid quarters. Registered under Title #124374 (9th Registry) and IPTU #14013544. Court appraisal R$ 4,411,000.00, 2nd auction starting bid at 35% of appraisal value (R$ 1,543,850.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Apt 601 at Praça São Judas Tadeu #6?", a: "Official court appraisal is R$ 4,411,000.00. 1st Auction opens at R$ 4,411,000.00. 2nd Auction (09/16/2026 at 11:00 AM) opens at 35% of appraisal value (R$ 1,543,850.00)." },
+        { q: "What are the specs of the penthouse?", a: "590 m² residential penthouse with living room, dining hall, front and side terraces, 5 bedrooms (3 suites), social bathroom, laundry, storage, and 2 maid quarters." },
+        { q: "How is legal due diligence conducted for Title #124374?", a: "We audit Title #124374 (9th Registry), IPTU tax records (14013544), condo debts, and TJRJ court records." },
+        { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
+  },
+
+  // Maracanã - Rua Dona Zulmira nº 19, Apto 101 (66 m²)
+  'maracana-dona-zulmira-19': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Maracanã — Rua Dona Zulmira nº 19 — Apto 101',
+      subtitle: 'Rua Dona Zulmira, nº 19, Apto 101 — Maracanã, Rio de Janeiro/RJ | 66 m² • Varanda • Quarto • Sala • Cozinha • Dependências • Lazer & Garagem',
+      address: 'Rua Dona Zulmira, 19 - Apto 101 — Maracanã, Rio de Janeiro - RJ',
+      p1Date: '02/09/2026 às 14:00h',
+      p2Date: '09/09/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.640.226-5',
+      rgi: '41.819 (10º RGI/RJ)',
+      val: 'R$ 406.923,00',
+      p2Val: 'R$ 203.461,50 (50% do valor da avaliação)',
+      description: 'Apartamento de frente, uso residencial, localizado na Rua Dona Zulmira, nº 19, Apto 101, no tradicional bairro do Maracanã, Zona Norte do Rio de Janeiro/RJ, com 66 m² de área edificada em edifício construído em 1984. Imóvel de frente com boa varanda, composto por quarto, sala, banheiro social, cozinha e dependências de serviço. Edifício dotado de 2 elevadores (social e serviço), sistema de segurança com 4 câmeras no térreo e acessos, e 2 pavimentos de garagem (térreo e 2G). Estrutura de lazer completa com playground, salão de festas e churrasqueira. Devidamente cadastrado no Cartório do 10º Ofício do Registro Geral de Imóveis, matrícula nº 41.819, Inscrição Municipal nº 1.640.226-5 (IPTU). Avaliado em R$ 406.923,00, com abertura da 2ª praça tendo como valor inicial 50% da avaliação (R$ 203.461,50).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para o apartamento na Rua Dona Zulmira nº 19?", a: "O apartamento possui avaliação judicial de R$ 406.923,00. Na 1ª Praça (02/09/2026 às 14:00h), o lance mínimo é R$ 406.923,00 (100%). Na 2ª Praça (09/09/2026 às 14:00h), o lance inicial conta com 50% de desconto, fixado em R$ 203.461,50." },
+        { q: "Quais são as características do apartamento e da infraestrutura do condomínio no Maracanã?", a: "O imóvel de 66 m² é de frente com varanda, composto por quarto, sala, banheiro, cozinha e dependências. O prédio construído em 1984 possui 2 elevadores, 4 câmeras de segurança, 2 andares de garagem (térreo e 2G), além de lazer com playground, salão de festas e churrasqueira." },
+        { q: "Como é realizada a verificação de débitos de IPTU e condomínio na Matrícula nº 41.819 (10º RGI)?", a: "Inspecionamos a Matrícula nº 41.819 do 10º RGI/RJ e a Inscrição IPTU nº 1.640.226-5, aplicando a regra de sub-rogação dos débitos tributários sobre o preço da arrematação (Art. 130 do CTN) e conferindo o edital para resguardar o arrematante quanto a débitos condominiais." },
+        { q: "É possível apresentar proposta de parcelamento no leilão de acordo com o Art. 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta de arrematação parcelada por escrito antes do leilão, mediante sinal de 25% à vista e o saldo em até 30 parcelas mensais corrigidas, com garantia de hipoteca do próprio imóvel." },
+        { q: "Como contratar a assessoria jurídica especializada para a arrematação deste apartamento?", a: "Entre em contato via WhatsApp com o escritório Soares Martins Advogados para obter a análise de viabilidade jurídica do edital e o acompanhamento integral desde o cadastramento até a expedição da carta de arrematação e posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Maracanã — Calle Dona Zulmira nº 19 — Apto 101',
+      subtitle: 'Calle Dona Zulmira, nº 19, Apto 101 — Maracanã, Río de Janeiro/RJ | 66 m² • Balcón • 1 Habitación • Sala • Cocina • Dependencias • Áreas Comunes y Garaje',
+      address: 'Calle Dona Zulmira, 19 - Apto 101 — Maracanã, Río de Janeiro - RJ',
+      p1Date: '02/09/2026 a las 14:00h',
+      p2Date: '09/09/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.640.226-5',
+      rgi: '41.819 (10º RGI/RJ)',
+      val: 'R$ 406.923,00',
+      p2Val: 'R$ 203.461,50 (50% de la evaluación)',
+      description: 'Apartamento de frente de 66 m² en Calle Dona Zulmira, nº 19, Apto 101, Maracanã, Zona Norte de Río de Janeiro. Edificio de 1984. Consta de balcón, habitación, salón, baño, cocina y dependencias. Edificio con 2 ascensores, 4 cámaras de seguridad, 2 niveles de garaje, playground, salón de fiestas y barbacoa. Registrado en el 10º RGI (Matrícula nº 41.819) e IPTU nº 1.640.226-5. Evaluación de R$ 406.923,00, 2ª subasta abriendo a partir del 50% (R$ 203.461,50).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja inicial en 2ª Subasta para el apartamento en Calle Dona Zulmira nº 19?", a: "Valoración judicial de R$ 406.923,00. En 2ª Subasta (09/09/2026 a las 14:00h), la puja abre al 50% (R$ 203.461,50)." },
+        { q: "¿Cuáles son las características del apartamento en Maracanã?", a: "Inmueble de 66 m² de frente con balcón, 1 habitación, sala, baño, cocina y dependencias. El edificio ofrece 2 ascensores, seguridad, 2 pisos de garaje, playground, salón de fiestas y barbacoa." },
+        { q: "¿Cómo se audita la Matrícula nº 41.819 del 10º RGI/RJ?", a: "Estudio de la Matrícula 41.819, IPTU 1.640.226-5 y expedientes judiciales." },
+        { q: "¿Es posible presentar propuesta a plazos?", a: "Sí, según el Art. 895 del CPC (25% de enganche y hasta 30 cuotas)." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp para estudio de viabilidad y acompañamiento." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Maracanã — Dona Zulmira Street #19 — Apt 101',
+      subtitle: 'Dona Zulmira Street, #19, Apt 101 — Maracanã, Rio de Janeiro/RJ | 66 m² • Balcony • 1 Bedroom • Living Room • Kitchen • Maid Quarters • Amenities & Parking',
+      address: 'Dona Zulmira Street, 19 - Apt 101 — Maracanã, Rio de Janeiro - RJ',
+      p1Date: '09/02/2026 at 2:00 PM',
+      p2Date: '09/09/2026 at 2:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.640.226-5',
+      rgi: 'Title #41.819 (10th Land Registry)',
+      val: 'R$ 406,923.00',
+      p2Val: 'R$ 203,461.50 (50% starting bid)',
+      description: 'Front-facing 66 sqm residential apartment at Dona Zulmira Street #19, Apt 101, Maracanã, North Zone of Rio de Janeiro/RJ. Building built in 1984. Features balcony, bedroom, living room, bathroom, kitchen, and maid quarters. Condominium includes 2 elevators, 4 security cameras, 2 garage levels, playground, party room, and BBQ area. Registered under Title #41.819 (10th Registry) and IPTU #1.640.226-5. Court appraisal R$ 406,923.00, 2nd auction starting bid at 50% (R$ 203,461.50).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Apt 101 at Dona Zulmira Street #19?", a: "Official court appraisal is R$ 406,923.00. 1st Auction opens at R$ 406,923.00. 2nd Auction (09/09/2026 at 2:00 PM) opens at 50% of appraisal value (R$ 203,461.50)." },
+        { q: "What are the specs of the apartment and condominium amenities?", a: "66 sqm apartment with balcony, bedroom, living room, bathroom, kitchen, and maid quarters. Building has 2 elevators, security cameras, 2 garage levels, playground, party room, and BBQ." },
+        { q: "How is legal due diligence conducted for Title #41.819?", a: "We audit Title #41.819 (10th Registry), IPTU tax records (1.640.226-5), condo debts, and TJRJ court records." },
+        { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
+  },
+
+  // Copacabana - Rua Marechal Mascarenhas de Morais nº 190, Apto 703 (79 m²)
+  'copacabana-mascarenhas-morais-190': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana — Rua Marechal Mascarenhas de Morais nº 190 — Apto 703',
+      subtitle: 'Rua Marechal Mascarenhas de Morais, nº 190, Apto 703 — Copacabana, Rio de Janeiro/RJ | 79 m² • Prédio de 1982 • Portaria 24h • Garagem • 3 Elevadores • Lazer Completo',
+      address: 'Rua Marechal Mascarenhas de Morais, 190 - Apto 703 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '17/09/2026 às 12:20h',
+      p2Date: '22/09/2026 às 12:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.534.550-7',
+      rgi: '49.437 (5º RGI/RJ - Livro 2º/7, Fls. 174)',
+      val: 'R$ 1.091.500,00',
+      p2Val: 'R$ 545.750,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial de 79 m² localizado na prestigiada Rua Marechal Mascarenhas de Morais, nº 190, Apto 703, no coração do bairro de Copacabana, Zona Sul do Rio de Janeiro/RJ. Edifício construído em 1982, composto por sete andares e um andar de cobertura (quatro apartamentos por andar), contando com infraestrutura diferenciada: garagem, 3 elevadores, playground com salão de festas, serviço de portaria 24 horas e sistema completo de monitoramento por câmeras de segurança em todo o prédio. Imóvel devidamente registrado no Cartório do 5º Ofício do Registro Geral de Imóveis do Rio de Janeiro, Matrícula nº 49.437, Livro nº 2º/7, Fls. 174, e Inscrição Municipal nº 1.534.550-7 (IPTU). Avaliado judicialmente em R$ 1.091.500,00, com 2ª praça iniciando em 50% do valor da avaliação (R$ 545.750,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para o apartamento na Rua Marechal Mascarenhas de Morais nº 190?", a: "O apartamento possui avaliação judicial de R$ 1.091.500,00. Na 1ª Praça (17/09/2026 às 12:20h), o lance mínimo é R$ 1.091.500,00. Na 2ª Praça (22/09/2026 às 12:20h), o lance inicial conta com 50% de desconto, fixado em R$ 545.750,00." },
+        { q: "Quais são as características do edifício e a infraestrutura em Copacabana?", a: "O prédio de 1982 possui 7 andares mais cobertura, com apenas 4 apartamentos por andar. O condomínio oferece garagem, 3 elevadores, playground com salão de festas, portaria 24h e monitoramento por câmeras de segurança em todo o edifício." },
+        { q: "Como é realizada a auditoria jurídica da Matrícula nº 49.437 do 5º RGI/RJ?", a: "Realizamos o levantamento minucioso da Matrícula 49.437 (Livro 2º/7, Fls. 174) no 5º RGI/RJ, verificação da Inscrição IPTU 1.534.550-7, análise da sub-rogação de débitos fiscais (Art. 130 do CTN) e checagem de débitos condominiais." },
+        { q: "É possível apresentar proposta de parcelamento de acordo com o Art. 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta de arrematação parcelada por escrito antes do leilão, mediante sinal de 25% à vista e o saldo em até 30 parcelas mensais corrigidas, com garantia de hipoteca do próprio imóvel." },
+        { q: "Como contratar a assessoria jurídica especializada para a arrematação deste apartamento em Copacabana?", a: "Entre em contato via WhatsApp com o escritório Soares Martins Advogados para obter a análise de viabilidade jurídica do edital e o acompanhamento integral desde o cadastramento até a expedição da carta de arrematação e posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Copacabana — Calle Marechal Mascarenhas de Morais nº 190 — Apto 703',
+      subtitle: 'Calle Marechal Mascarenhas de Morais, nº 190, Apto 703 — Copacabana, Río de Janeiro/RJ | 79 m² • Edificio de 1982 • Portería 24h • Garaje • 3 Ascensores • Áreas Comunes',
+      address: 'Calle Marechal Mascarenhas de Morais, 190 - Apto 703 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '17/09/2026 a las 12:20h',
+      p2Date: '22/09/2026 a las 12:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.534.550-7',
+      rgi: '49.437 (5º RGI/RJ - Libro 2º/7, Fs. 174)',
+      val: 'R$ 1.091.500,00',
+      p2Val: 'R$ 545.750,00 (50% de la evaluación)',
+      description: 'Apartamento de 79 m² en Calle Marechal Mascarenhas de Morais, nº 190, Apto 703, Copacabana, Zona Sur de Río de Janeiro. Edificio de 1982 con 7 pisos y cobertura (4 unidades por piso). Dispone de garaje, 3 ascensores, playground con salón de fiestas, portería 24h y cámaras de seguridad. Registrado en el 5º RGI (Matrícula nº 49.437) e IPTU nº 1.534.550-7. Evaluación de R$ 1.091.500,00, 2ª subasta iniciando al 50% (R$ 545.750,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja inicial en 2ª Subasta para el apartamento en Calle Marechal Mascarenhas de Morais nº 190?", a: "Valoración judicial de R$ 1.091.500,00. En 2ª Subasta (22/09/2026 a las 12:20h), la puja abre al 50% (R$ 545.750,00)." },
+        { q: "¿Cuáles son las características del edificio en Copacabana?", a: "Inmueble de 79 m² en edificio de 1982. Ofrece garaje, 3 ascensores, playground con salón de fiestas, portería 24h y seguridad con cámaras." },
+        { q: "¿Cómo se audita la Matrícula nº 49.437 del 5º RGI/RJ?", a: "Estudio de la Matrícula 49.437, IPTU 1.534.550-7 y expedientes judiciales." },
+        { q: "¿Es posible presentar propuesta a plazos?", a: "Sí, según el Art. 895 del CPC (25% de enganche y hasta 30 cuotas)." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp para estudio de viabilidad y acompañamiento." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Copacabana — Marechal Mascarenhas de Morais Street #190 — Apt 703',
+      subtitle: 'Marechal Mascarenhas de Morais Street, #190, Apt 703 — Copacabana, Rio de Janeiro/RJ | 79 m² • 1982 Building • 24h Doorman • Garage • 3 Elevators • Party Hall',
+      address: 'Marechal Mascarenhas de Morais Street, 190 - Apt 703 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '09/17/2026 at 12:20 PM',
+      p2Date: '09/22/2026 at 12:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.534.550-7',
+      rgi: 'Title #49.437 (5th Land Registry)',
+      val: 'R$ 1,091,500.00',
+      p2Val: 'R$ 545,750.00 (50% starting bid)',
+      description: 'Residential 79 sqm apartment located at Marechal Mascarenhas de Morais Street #190, Apt 703, Copacabana, South Zone of Rio de Janeiro/RJ. Built in 1982, 7 floors plus penthouse (4 apartments per floor). Condominium includes garage, 3 elevators, playground with party hall, 24-hour doorman, and security cameras throughout. Registered under Title #49.437 (5th Registry) and IPTU #1.534.550-7. Court appraisal R$ 1,091,500.00, 2nd auction starting bid at 50% (R$ 545,750.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Apt 703 at Marechal Mascarenhas de Morais Street #190?", a: "Official court appraisal is R$ 1,091,500.00. 1st Auction opens at R$ 1,091,500.00. 2nd Auction (09/22/2026 at 12:20 PM) opens at 50% of appraisal value (R$ 545,750.00)." },
+        { q: "What are the building specs and amenities in Copacabana?", a: "79 sqm apartment in a 1982 building with 3 elevators, garage, playground with party room, 24/7 security doorman, and camera surveillance." },
+        { q: "How is legal due diligence conducted for Title #49.437?", a: "We audit Title #49.437 (5th Registry), IPTU tax records (1.534.550-7), condo debts, and TJRJ court records." },
+        { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
+  },
+
+  // Copacabana - Rua Silva Castro nº 44, Apto 1001 (Cobertura - 206 m²)
+  'copacabana-silva-castro-44': {
+    pt: {
+      title: 'Leilão Judicial de Cobertura em Copacabana — Rua Silva Castro nº 44 — Apto 1001',
+      subtitle: 'Rua Silva Castro, nº 44, Apto 1001 (Cobertura) — Copacabana, Rio de Janeiro/RJ | 206 m² • Duplex • 3 Quartos (1 Suíte) • Terraço com Piscina de Fibra • Deck de Madeira • Churrasqueira • Dependência Completa',
+      address: 'Rua Silva Castro, 44 - Apto 1001 (Cobertura) — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '14/09/2026 às 12:20h',
+      p2Date: '17/09/2026 às 12:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.065.088-7',
+      rgi: '107.466 (5º RGI/RJ)',
+      val: 'R$ 2.500.000,00',
+      p2Val: 'R$ 1.500.000,00 (60% do valor da avaliação)',
+      description: 'Excepcional cobertura duplex residencial de frente com 206 m² localizada na Rua Silva Castro, nº 44, Apto 1001, em área nobre e tranquila do bairro de Copacabana, Rio de Janeiro/RJ. O imóvel é composto por 1º pavimento com ampla sala de frente em piso porcelanato e parede com textura cinza, 3 quartos (sendo 2 de frente para a rua e 1 suíte de fundos), hall em porcelanato, banheiro social, banheiro da suíte, cozinha, área de serviço e dependência completa de empregada (quarto e banheiro). O 2º pavimento, acessado por escada de alvenaria revestida em madeira, conta com sala em porcelanato, banheiro social, área privativa de aproximadamente 22 m² com churrasqueira (área comum do condomínio de uso exclusivo do apartamento) e espaçoso terraço com varanda em ardósia, canteiro de plantas em pastilhas, deck de madeira e piscina redonda de fibra. Imóvel registrado no Cartório do 5º Ofício do RGI/RJ sob a Matrícula nº 107.466 e Inscrição Municipal IPTU nº 0.065.088-7. Avaliação judicial de R$ 2.500.000,00, com 2ª praça iniciando a 60% da avaliação (R$ 1.500.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para a cobertura na Rua Silva Castro nº 44?", a: "A cobertura possui avaliação judicial de R$ 2.500.000,00. Na 1ª Praça (14/09/2026 às 12:20h), o lance mínimo é R$ 2.500.000,00. Na 2ª Praça (17/09/2026 às 12:20h), o lance inicial conta com 40% de desconto, fixado em 60% da avaliação, ou seja, R$ 1.500.000,00." },
+        { q: "Quais são as características detalhadas da cobertura duplex em Copacabana?", a: "A cobertura possui 206 m² divididos em 2 pavimentos: no 1º pavimento há sala de frente em porcelanato, 3 quartos (1 suíte), banheiro social, cozinha, área de serviço e dependência completa. No 2º pavimento há sala em porcelanato, banheiro, área de 22 m² de uso exclusivo com churrasqueira, terraço em ardósia, deck de madeira e piscina de fibra." },
+        { q: "Como é feita a verificação cartorária da Matrícula nº 107.466 no 5º RGI/RJ?", a: "A assessoria realiza a auditoria completa da Matrícula 107.466 no 5º RGI/RJ, validação da Inscrição IPTU nº 0.065.088-7, verificação da área privativa de uso exclusivo do condomínio, análise da sub-rogação de tributos (Art. 130 do CTN) e certidões de ônus reais." },
+        { q: "É possível solicitar o parcelamento da arrematação conforme o Art. 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta de arrematação parcelada por escrito antes do leilão, mediante sinal de 25% à vista e o saldo em até 30 parcelas mensais corrigidas, com garantia de hipoteca sobre a própria cobertura." },
+        { q: "Como contratar a assessoria jurídica especializada para a arrematação desta cobertura?", a: "Entre em contato via WhatsApp com o escritório Soares Martins Advogados para obter a análise de viabilidade jurídica do edital e o acompanhamento integral em todas as etapas até a imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Ático Duplex en Copacabana — Calle Silva Castro nº 44 — Apto 1001',
+      subtitle: 'Calle Silva Castro, nº 44, Apto 1001 (Ático) — Copacabana, Río de Janeiro/RJ | 206 m² • Duplex • 3 Habitaciones (1 Suite) • Terraza con Piscina de Fibra • Deck de Madera • Barbacoa • Dependencia Completa',
+      address: 'Calle Silva Castro, 44 - Apto 1001 (Ático) — Copacabana, Río de Janeiro - RJ',
+      p1Date: '14/09/2026 a las 12:20h',
+      p2Date: '17/09/2026 a las 12:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.065.088-7',
+      rgi: '107.466 (5º RGI/RJ)',
+      val: 'R$ 2.500.000,00',
+      p2Val: 'R$ 1.500.000,00 (60% de la evaluación)',
+      description: 'Ático duplex residencial de 206 m² en Calle Silva Castro nº 44, Apto 1001, Copacabana, Río de Janeiro. El 1er piso cuenta con salón exterior en porcelanato, 3 dormitorios (1 suite), baño social, cocina, área de servicio y dependencia de servicio. El 2º piso incluye salón, baño, área exclusiva de 22 m² con barbacoa, terraza en pizarra, deck de madera y piscina redonda de fibra. Registrado en el 5º RGI (Matrícula nº 107.466) e IPTU nº 0.065.088-7. Valoración judicial de R$ 2.500.000,00, 2ª subasta iniciando al 60% (R$ 1.500.000,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja inicial en 2ª Subasta para el ático en Calle Silva Castro nº 44?", a: "Valoración judicial de R$ 2.500.000,00. En 2ª Subasta (17/09/2026 a las 12:20h), la puja abre al 60% de la evaluación (R$ 1.500.000,00)." },
+        { q: "¿Cuáles son las características principales de este ático duplex en Copacabana?", a: "Propiedad de 206 m² con 3 habitaciones (1 suite), salón en porcelanato, cocina, dependencia completa, área privada de 22 m² con barbacoa, terraza con deck de madera y piscina de fibra." },
+        { q: "¿Cómo se verifica la Matrícula nº 107.466 del 5º RGI/RJ?", a: "Se realiza auditoría de la Matrícula 107.466, consulta de la Inscripción IPTU 0.065.088-7 y revisión de expedientes judiciales." },
+        { q: "¿Se puede pagar de forma financiada/a plazos?", a: "Sí, conforme al Art. 895 del CPC (25% de enganche y hasta 30 cuotas mensuales)." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp con el equipo de Soares Martins Advogados para representación integral." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Penthouse in Copacabana — Silva Castro Street #44 — Apt 1001',
+      subtitle: 'Silva Castro Street, #44, Apt 1001 (Penthouse) — Copacabana, Rio de Janeiro/RJ | 206 sqm • Duplex • 3 Bedrooms (1 Suite) • Terrace with Fiber Pool • Wooden Deck • BBQ Area • Maid Quarters',
+      address: 'Silva Castro Street, 44 - Apt 1001 (Penthouse) — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '09/14/2026 at 12:20 PM',
+      p2Date: '09/17/2026 at 12:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.065.088-7',
+      rgi: 'Title #107.466 (5th Land Registry)',
+      val: 'R$ 2,500,000.00',
+      p2Val: 'R$ 1,500,000.00 (60% starting bid)',
+      description: 'Exceptional 206 sqm duplex residential penthouse at Silva Castro Street #44, Apt 1001, Copacabana, Rio de Janeiro/RJ. First floor features front-facing living room with porcelain tile floors, 3 bedrooms (1 suite), guest bathroom, kitchen, laundry area, and full maid quarters. Second floor features living room, bathroom, exclusive 22 sqm patio with BBQ, terrace with slate tile, wooden deck, and round fiberglass swimming pool. Registered under Title #107.466 (5th Registry) and IPTU #0.065.088-7. Court appraisal R$ 2,500,000.00, 2nd auction starting bid at 60% (R$ 1,500,000.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Apt 1001 at Silva Castro Street #44?", a: "Official court appraisal is R$ 2,500,000.00. 1st Auction opens at R$ 2,500,000.00. 2nd Auction (09/17/2026 at 12:20 PM) opens at 60% of appraisal value (R$ 1,500,000.00)." },
+        { q: "What are the specs and amenities of this Copacabana penthouse?", a: "206 sqm duplex penthouse with 3 bedrooms (1 suite), porcelain tile living room, full maid quarters, exclusive 22 sqm BBQ area, terrace with wooden deck, and round fiber pool." },
+        { q: "How is legal due diligence conducted for Title #107.466?", a: "We audit Title #107.466 (5th Registry), IPTU tax records (0.065.088-7), condo usage rights, and TJRJ court records." },
+        { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
+  },
+
+  // Santa Teresa - Rua Joaquim Murtinho nº 587 (Antiga Pousada Casa Mango Mango - 1.132 m²)
+  'santa-teresa-joaquim-murtinho-587': {
+    pt: {
+      title: 'Leilão Judicial de Casarão em Santa Teresa — Rua Joaquim Murtinho nº 587',
+      subtitle: 'Rua Joaquim Murtinho, nº 587 — Santa Teresa, Rio de Janeiro/RJ | 1.132 m² • Imóvel Histórico de 1938 (Antiga Pousada Casa Mango Mango) • Casa Principal (3 Andares + Suíte Externa) • Bangalô • Prédio Superior (5 Anexos) • Piscina, Sauna, Churrasqueira e Mata Preservada',
+      address: 'Rua Joaquim Murtinho, 587 (Antiga Pousada Casa Mango Mango) — Santa Teresa, Rio de Janeiro - RJ',
+      p1Date: '28/09/2026 às 12:00h',
+      p2Date: '01/10/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.113.118-4',
+      rgi: '2.117 (7º RGI/RJ)',
+      val: 'R$ 2.900.000,00',
+      p2Val: 'R$ 1.740.000,00 (60% do valor da avaliação)',
+      description: 'Singular propriedade histórica de 1938 com 1.132 m² de área na Rua Joaquim Murtinho, nº 587, no bucólico e cultural bairro de Santa Teresa, Rio de Janeiro/RJ (antiga pousada "Casa Mango Mango"). O imóvel é composto por: 1) Casa Principal em 3 pavimentos principais mais 4º andar (1º andar com 3 suítes e área para estacionamento; 2º andar com sala com biblioteca, 3 suítes, 2 quartos e 2 suítes com entrada lateral; 3º andar com 1 quarto e banheiro social via escada caracol; 4º andar com 1 suíte acessada pela área externa); 2) Área de Lazer e Funcionamento com piscina de tamanho médio, sauna, banheiros, jardim de inverno, churrasqueira coberta com banheiros, cozinha, quarto e despensa; 3) Bangalô Independente construído à parte, em ótimo estado, com quarto em mezanino, sala, cozinha e banheiro; 4) Prédio Superior Anexo com 5 unidades integradas (casa térrea com 2 suítes + amplo apartamento duplex com cozinha americana e closet/escritório + casa anexa de 2 pavimentos com suíte com jardim privativo); 5) Área com Mata Preservada ao fundo do terreno com árvores nativas e paisagismo natural; 6) Garagem no início do terreno com entrada independente, adaptada para quarto/depósito. Registrado no Cartório do 7º Ofício do RGI/RJ sob a Matrícula nº 2.117 e IPTU nº 0.113.118-4. Avaliação de R$ 2.900.000,00, com 2ª praça iniciando a 60% da avaliação (R$ 1.740.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para o imóvel na Rua Joaquim Murtinho nº 587?", a: "A propriedade possui avaliação oficial de R$ 2.900.000,00. Na 1ª Praça (28/09/2026 às 12:00h), o lance mínimo é R$ 2.900.000,00. Na 2ª Praça (01/10/2026 às 12:00h), o lance inicial conta com 40% de desconto, fixado em 60% da avaliação, ou seja, R$ 1.740.000,00." },
+        { q: "Quais são as principais estruturas que compõem os 1.132 m² deste casarão histórico em Santa Teresa?", a: "A propriedade inclui: Casa Principal de 4 pavimentos (múltiplas suítes e sala/biblioteca), área de lazer com piscina, sauna, jardim de inverno e churrasqueira, bangalô independente em mezanino, prédio superior anexo com 5 unidades residenciais, área de mata preservada e garagem com entrada independente." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 2.117 no 7º RGI/RJ e IPTU nº 0113118-4?", a: "A assessoria jurídica realiza due diligence minuciosa da Matrícula 2.117 perante o 7º RGI/RJ, consulta da Inscrição IPTU 0.113.118-4, análise de tombamento ou restrições do patrimônio histórico em Santa Teresa, verificação da sub-rogação de tributos (Art. 130 do CTN) e certidões cíveis e fiscais." },
+        { q: "É possível arrematar o imóvel de forma parcelada via Art. 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta de arrematação parcelada por escrito antes do início da praça, mediante sinal mínimo de 25% à vista e o saldo em até 30 parcelas mensais corrigidas, garantido por hipoteca judicial sobre a própria propriedade." },
+        { q: "Como contratar a assessoria jurídica especializada para a arrematação deste casarão/pousada?", a: "Entre em contato via WhatsApp com o escritório Soares Martins Advogados para obter a análise de viabilidade e representação jurídica completa em todas as fases até a entrega das chaves e imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Casona en Santa Teresa — Calle Joaquim Murtinho nº 587',
+      subtitle: 'Calle Joaquim Murtinho, nº 587 — Santa Teresa, Río de Janeiro/RJ | 1.132 m² • Propiedad Histórica de 1938 (Antigua Posada Casa Mango Mango) • Casa Principal • Bungalow • Edificio Anexo Superior • Piscina, Sauna y Bosque Preservado',
+      address: 'Calle Joaquim Murtinho, 587 (Antigua Posada Casa Mango Mango) — Santa Teresa, Río de Janeiro - RJ',
+      p1Date: '28/09/2026 a las 12:00h',
+      p2Date: '01/10/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.113.118-4',
+      rgi: '2.117 (7º RGI/RJ)',
+      val: 'R$ 2.900.000,00',
+      p2Val: 'R$ 1.740.000,00 (60% de la evaluación)',
+      description: 'Propiedad histórica de 1938 de 1.132 m² en Calle Joaquim Murtinho nº 587, Santa Teresa, Río de Janeiro (antigua posada "Casa Mango Mango"). Incluye casa principal de 4 pisos, área de ocio con piscina, sauna y barbacoa, bungalow independiente, edificio anexo superior con 5 unidades y área de bosque nativo preservado. Registrado en el 7º RGI (Matrícula nº 2.117) e IPTU nº 0.113.118-4. Valoración judicial de R$ 2.900.000,00, 2ª subasta iniciando al 60% (R$ 1.740.000,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración y puja inicial en 2ª Subasta para la propiedad en Calle Joaquim Murtinho nº 587?", a: "Valoración de R$ 2.900.000,00. En 2ª Subasta (01/10/2026 a las 12:00h), la puja abre al 60% de la evaluación (R$ 1.740.000,00)." },
+        { q: "¿Qué estructuras componen los 1.132 m² de esta propiedad en Santa Teresa?", a: "Casa principal de 4 plantas con múltiples suites, área de piscina, sauna y barbacoa, bungalow independiente, edificio anexo superior con 5 unidades y zona verde arbolada." },
+        { q: "¿Cómo se verifica la Matrícula nº 2.117 del 7º RGI/RJ?", a: "Se realiza auditoría de la Matrícula 2.117, consulta de la Inscripción IPTU 0.113.118-4 y revisión de licencias o patrimonio histórico." },
+        { q: "¿Se puede pagar de forma financiada/a plazos?", a: "Sí, conforme al Art. 895 del CPC (25% de enganche y hasta 30 cuotas mensuales)." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp con el equipo de Soares Martins Advogados para representación integral." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Historic Mansion in Santa Teresa — Joaquim Murtinho Street #587',
+      subtitle: 'Joaquim Murtinho Street, #587 — Santa Teresa, Rio de Janeiro/RJ | 1,132 sqm • 1938 Historic Property (Former "Casa Mango Mango" Inn) • Main Mansion • Bungalow • Upper Annex Building (5 Units) • Pool, Sauna, BBQ & Preserved Forest',
+      address: 'Joaquim Murtinho Street, 587 (Former Casa Mango Mango Inn) — Santa Teresa, Rio de Janeiro - RJ',
+      p1Date: '09/28/2026 at 12:00 PM',
+      p2Date: '10/01/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.113.118-4',
+      rgi: 'Title #2.117 (7th Land Registry)',
+      val: 'R$ 2,900,000.00',
+      p2Val: 'R$ 1,740,000.00 (60% starting bid)',
+      description: 'Historic 1,132 sqm property built in 1938 at Joaquim Murtinho Street #587, Santa Teresa, Rio de Janeiro/RJ (former "Casa Mango Mango" boutique inn). Features: 1) 4-story Main Mansion with multiple suites and library; 2) Leisure & Utility area with swimming pool, sauna, winter garden, BBQ pavilion, and kitchen; 3) Independent Mezzanine Bungalow; 4) Upper Annex Building containing 5 self-contained residential units; 5) Preserved Native Forest Area at the back; 6) Separate Street-Level Garage. Registered under Title #2.117 (7th Land Registry) and IPTU #0.113.118-4. Court appraisal R$ 2,900,000.00, 2nd auction starting bid at 60% (R$ 1,740,000.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Joaquim Murtinho Street #587?", a: "Official court appraisal is R$ 2,900,000.00. 1st Auction opens at R$ 2,900,000.00. 2nd Auction (10/01/2026 at 12:00 PM) opens at 60% of appraisal value (R$ 1,740,000.00)." },
+        { q: "What are the key facilities included in this 1,132 sqm property?", a: "4-story main mansion with suites, pool/sauna/BBQ leisure grounds, mezzanine bungalow, upper annex building with 5 units, preserved green forest, and garage." },
+        { q: "How is legal due diligence conducted for Title #2.117?", a: "We audit Title #2.117 (7th Registry), IPTU tax records (0.113.118-4), historic heritage regulations, and TJRJ court records." },
+        { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
+      ]
+    }
   }
 };
