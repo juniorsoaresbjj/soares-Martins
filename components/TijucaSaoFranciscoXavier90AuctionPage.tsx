@@ -23,7 +23,7 @@ const TijucaSaoFranciscoXavier90AuctionPage: React.FC<TijucaSaoFranciscoXavier90
   const editalEntry = editaisData['tijuca-sao-francisco-xavier-90'] || editaisData['copacabana-atlantica'];
   const item = editalEntry[language] || editalEntry.pt;
 
-  const canonicalUrl = "https://www.juniorsadvogados.com.br/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/";
+  const canonicalUrl = "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/";
 
   const pageSchema = [
     {
@@ -34,19 +34,19 @@ const TijucaSaoFranciscoXavier90AuctionPage: React.FC<TijucaSaoFranciscoXavier90
           "@type": "ListItem",
           "position": 1,
           "name": tC.home,
-          "item": "https://www.juniorsadvogados.com.br/"
+          "item": "https://soaresmartinsadv.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": tC.practiceAreas,
-          "item": "https://www.juniorsadvogados.com.br/servicos/"
+          "item": "https://soaresmartinsadv.com/servicos/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": tC.auctionsTitle,
-          "item": "https://www.juniorsadvogados.com.br/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/"
+          "item": "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/"
         },
         {
           "@type": "ListItem",
@@ -59,11 +59,11 @@ const TijucaSaoFranciscoXavier90AuctionPage: React.FC<TijucaSaoFranciscoXavier90
     {
       "@context": "https://schema.org",
       "@type": "LegalService",
-      "@id": "https://www.juniorsadvogados.com.br/#legalservice",
+      "@id": "https://soaresmartinsadv.com/#legalservice",
       "name": "Soares Martins Advogados",
-      "url": "https://www.juniorsadvogados.com.br/",
-      "logo": "https://www.juniorsadvogados.com.br/favicon.svg",
-      "image": "https://www.juniorsadvogados.com.br/favicon.svg",
+      "url": "https://soaresmartinsadv.com/",
+      "logo": "https://soaresmartinsadv.com/favicon.svg",
+      "image": "https://soaresmartinsadv.com/favicon.svg",
       "telephone": "+55-21-97954-9241",
       "email": "Juniorsadv@hotmail.com",
       "address": {
@@ -86,7 +86,7 @@ const TijucaSaoFranciscoXavier90AuctionPage: React.FC<TijucaSaoFranciscoXavier90
       "@type": "Product",
       "name": item.title,
       "description": item.description,
-      "image": "https://www.juniorsadvogados.com.br/favicon.svg",
+      "image": "https://soaresmartinsadv.com/favicon.svg",
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "BRL",
