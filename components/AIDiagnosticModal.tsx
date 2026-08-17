@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { generateLegalDiagnostic, DiagnosticResult } from '../services/geminiService';
 import { useLanguage } from '../context/LanguageContext';
+import { trackFormSubmit } from '../services/analytics';
 
 interface AIDiagnosticModalProps {
   onClose: () => void;
@@ -38,6 +39,7 @@ const AIDiagnosticModal: React.FC<AIDiagnosticModalProps> = ({ onClose, initialI
     try {
       const diag = await generateLegalDiagnostic(input);
       setResult(diag);
+      trackFormSubmit('ai_diagnostic');
     } catch (err) {
       console.error(err);
     } finally {

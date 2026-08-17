@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
+import { trackWhatsAppClick, trackPhoneClick } from './services/analytics';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutSection from './components/AboutSection';
@@ -187,6 +188,30 @@ const AppContent: React.FC = () => {
       });
     }
   }, [location]);
+
+  // Google Analytics 4 (GA4) - Rastreamento de cliques em WhatsApp e Telefone
+  useEffect(() => {
+    const handleGlobalClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (!target) return;
+
+      const anchor = target.closest('a');
+      if (!anchor || !anchor.href) return;
+
+      const href = anchor.href;
+      if (href.includes('wa.me') || href.includes('api.whatsapp.com')) {
+        trackWhatsAppClick(href);
+      } else if (href.startsWith('tel:')) {
+        const phoneNumber = href.replace(/^tel:/, '');
+        trackPhoneClick(phoneNumber);
+      }
+    };
+
+    document.addEventListener('click', handleGlobalClick, { capture: true });
+    return () => {
+      document.removeEventListener('click', handleGlobalClick, { capture: true });
+    };
+  }, []);
 
   const navigateToHome = () => {
     navigate('/');

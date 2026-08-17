@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { trackFormSubmit } from '../services/analytics';
 
 const ContactSection: React.FC = () => {
   const { t } = useLanguage();
@@ -15,6 +16,8 @@ const ContactSection: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const { name, whatsapp, email, message } = formData;
+
+    trackFormSubmit('contact_section');
     
     const subject = encodeURIComponent(`Novo Contato: ${name}`);
     const body = encodeURIComponent(

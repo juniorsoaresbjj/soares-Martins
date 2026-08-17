@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { ArrowLeft, MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { trackFormSubmit } from '../services/analytics';
 import SEO from './SEO';
 
 interface ContactPageProps {
@@ -27,6 +28,8 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const { name, phone, email, message } = formData;
+
+    trackFormSubmit('contact_page');
     
     const subject = encodeURIComponent(`Novo Contato: ${name}`);
     const body = encodeURIComponent(
