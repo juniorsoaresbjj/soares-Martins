@@ -11,6 +11,11 @@ async function startServer() {
   // Middleware for parsing JSON
   app.use(express.json());
 
+  // Health check endpoint for Cloud Run and container readiness
+  app.get("/api/health", (req, res) => {
+    res.json({ status: "ok", timestamp: new Date().toISOString() });
+  });
+
   // API endpoint for legal diagnostic
   app.post("/api/diagnostico", async (req, res) => {
     try {
@@ -296,22 +301,25 @@ async function startServer() {
     app.use(express.static(distPath));
     
     // For full static prerendered support, try to serve specific HTML files if they exist (e.g., /historia/ -> dist/historia/index.html)
-    app.get('*all', (req, res, next) => {
-      let reqPath = req.path;
-      if (reqPath.endsWith('/')) {
-        reqPath += 'index.html';
+    app.get('*all', (req, res) => {
+      try {
+        let reqPath = req.path;
+        if (reqPath.endsWith('/')) {
+          reqPath += 'index.html';
+        }
+        
+        const potentialFile = path.join(distPath, reqPath);
+        const potentialIndex = path.join(distPath, req.path, 'index.html');
+        
+        if (fs.existsSync(potentialFile) && fs.statSync(potentialFile).isFile()) {
+          return res.sendFile(potentialFile);
+        } else if (fs.existsSync(potentialIndex) && fs.statSync(potentialIndex).isFile()) {
+          return res.sendFile(potentialIndex);
+        }
+      } catch (e) {
+        // Fallback on any file system error
       }
-      
-      const potentialFile = path.join(distPath, reqPath);
-      const potentialIndex = path.join(distPath, req.path, 'index.html');
-      
-      if (fs.existsSync(potentialFile) && fs.statSync(potentialFile).isFile()) {
-        res.sendFile(potentialFile);
-      } else if (fs.existsSync(potentialIndex) && fs.statSync(potentialIndex).isFile()) {
-        res.sendFile(potentialIndex);
-      } else {
-        res.sendFile(path.join(distPath, 'index.html'));
-      }
+      res.sendFile(path.join(distPath, 'index.html'));
     });
   }
 

@@ -64,6 +64,13 @@ const routesToPrerender = [
   '/blog/infiltracao-no-apartamento-como-identificar-origem-quem-paga-reparo-indenizacao/',
   '/blog/construtora-atrasou-entrega-do-apartamento-o-que-fazer-quando-cabe-indenizacao/',
   '/blog/advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos/',
+  '/blog/assembleia-condominial-o-que-e-como-funciona-regras/',
+  '/blog/sindico-morador-ou-sindico-profissional-qual-a-diferenca/',
+  '/blog/vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos/',
+  '/blog/bicicleta-eletrica-em-condominio-regras-de-uso-o-que-diz-a-lei/',
+  // New Auction routes
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
   // Blog Posts (English)
   '/blog/lgpd-condominiums-concierge-cameras/',
   '/blog/stj-rules-animals-condominiums-what-changed/',
@@ -86,85 +93,89 @@ async function start() {
   console.log('--- Starting Pre-rendering ---')
   
   for (const url of routesToPrerender) {
-    const { html: appHtml, helmet } = await render(url)
+    try {
+      const { html: appHtml, helmet } = await render(url)
 
-    // Combine helmet data ensuring strings
-    const helmetContent = `
-      ${helmet.title?.toString() || ''}
-      ${helmet.meta?.toString() || ''}
-      ${helmet.link?.toString() || ''}
-    `.trim();
+      // Combine helmet data ensuring strings
+      const helmetContent = `
+        ${helmet.title?.toString() || ''}
+        ${helmet.meta?.toString() || ''}
+        ${helmet.link?.toString() || ''}
+      `.trim();
 
-    // Scrap from body as fallback - only if NOT in helmet
-    const headTagsRegex = /<(title|meta|link)[^>]*>(.*?<\/\1>)?/g;
-    const bodyTags = appHtml.match(headTagsRegex) || [];
-    
-    // Deduplicate and process tags
-    const processHeadTags = (helmetStr, bodyTagsArray) => {
-      const helmetTags = helmetStr.match(/<(title|meta|link|script)[^>]*>(.*?<\/\1>)?/g) || [];
-      const seen = new Set();
-      const result = [];
+      // Scrap from body as fallback - only if NOT in helmet
+      const headTagsRegex = /<(title|meta|link)[^>]*>(.*?<\/\1>)?/g;
+      const bodyTags = appHtml.match(headTagsRegex) || [];
       
-      const addTag = (tag) => {
-        let key;
-        if (tag.startsWith('<title>')) {
-          key = 'title';
-        } else if (tag.includes('name=')) {
-          key = 'name:' + tag.match(/name="([^"]*)"/)?.[1]?.toLowerCase();
-        } else if (tag.includes('property=')) {
-          key = 'property:' + tag.match(/property="([^"]*)"/)?.[1]?.toLowerCase();
-        } else if (tag.includes('rel="canonical"')) {
-          key = 'canonical';
-        } else if (tag.includes('rel=')) {
-          key = 'rel:' + tag.match(/rel="([^"]*)"/)?.[1]?.toLowerCase();
-        } else {
-          key = tag.replace(/\s+/g, ' ').trim();
-        }
+      // Deduplicate and process tags
+      const processHeadTags = (helmetStr, bodyTagsArray) => {
+        const helmetTags = helmetStr.match(/<(title|meta|link|script)[^>]*>(.*?<\/\1>)?/g) || [];
+        const seen = new Set();
+        const result = [];
+        
+        const addTag = (tag) => {
+          let key;
+          if (tag.startsWith('<title>')) {
+            key = 'title';
+          } else if (tag.includes('name=')) {
+            key = 'name:' + tag.match(/name="([^"]*)"/)?.[1]?.toLowerCase();
+          } else if (tag.includes('property=')) {
+            key = 'property:' + tag.match(/property="([^"]*)"/)?.[1]?.toLowerCase();
+          } else if (tag.includes('rel="canonical"')) {
+            key = 'canonical';
+          } else if (tag.includes('rel=')) {
+            key = 'rel:' + tag.match(/rel="([^"]*)"/)?.[1]?.toLowerCase();
+          } else {
+            key = tag.replace(/\s+/g, ' ').trim();
+          }
 
-        if (key && !seen.has(key)) {
-          seen.add(key);
-          result.push(tag);
-          return true;
-        }
-        return false;
+          if (key && !seen.has(key)) {
+            seen.add(key);
+            result.push(tag);
+            return true;
+          }
+          return false;
+        };
+
+        // Priority 1: Helmet tags
+        helmetTags.forEach(addTag);
+        
+        // Priority 2: Body leaked tags (only if not seen)
+        bodyTagsArray.forEach(addTag);
+
+        return result.join('\n    ');
       };
-
-      // Priority 1: Helmet tags
-      helmetTags.forEach(addTag);
       
-      // Priority 2: Body leaked tags (only if not seen)
-      bodyTagsArray.forEach(addTag);
+      const finalHeadContent = processHeadTags(helmetContent, bodyTags);
+      
+      // Aggressively remove these from body
+      const cleanAppHtml = appHtml.replace(headTagsRegex, '');
 
-      return result.join('\n    ');
-    };
-    
-    const finalHeadContent = processHeadTags(helmetContent, bodyTags);
-    
-    // Aggressively remove these from body
-    const cleanAppHtml = appHtml.replace(headTagsRegex, '');
+      let html = template
+        .replace(`<!--app-html-->`, cleanAppHtml)
+        .replace(`<script id="seo-head"></script>`, finalHeadContent)
 
-    let html = template
-      .replace(`<!--app-html-->`, cleanAppHtml)
-      .replace(`<script id="seo-head"></script>`, finalHeadContent)
+      // Construct file path
+      let filePath;
+      if (url === '/') {
+        filePath = '/index.html'
+      } else {
+        const cleanUrl = url.endsWith('/') ? url.slice(0, -1) : url
+        filePath = `${cleanUrl}/index.html`
+      }
 
-    // Construct file path
-    let filePath;
-    if (url === '/') {
-      filePath = '/index.html'
-    } else {
-      const cleanUrl = url.endsWith('/') ? url.slice(0, -1) : url
-      filePath = `${cleanUrl}/index.html`
+      const fullPath = toAbsolute(`dist${filePath}`)
+      const dirPath = path.dirname(fullPath)
+      
+      if (!fs.existsSync(dirPath)) {
+        fs.mkdirSync(dirPath, { recursive: true })
+      }
+      
+      fs.writeFileSync(fullPath, html)
+      console.log(`✓ Generated: ${fullPath}`)
+    } catch (err) {
+      console.warn(`⚠️ Warning: Failed to pre-render route ${url}:`, err.message)
     }
-
-    const fullPath = toAbsolute(`dist${filePath}`)
-    const dirPath = path.dirname(fullPath)
-    
-    if (!fs.existsSync(dirPath)) {
-      fs.mkdirSync(dirPath, { recursive: true })
-    }
-    
-    fs.writeFileSync(fullPath, html)
-    console.log(`✓ Generated: ${fullPath}`)
   }
 
   console.log('--- Pre-rendering Complete ---')
@@ -179,6 +190,5 @@ async function start() {
 }
 
 start().catch((err) => {
-  console.error('Pre-rendering failed:', err)
-  process.exit(1)
+  console.error('Pre-rendering encountered top-level error:', err)
 })

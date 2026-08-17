@@ -3539,6 +3539,875 @@ export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] =>
           </div>
         </div>
       )
+    },
+    {
+      id: 126,
+      slug: 'assembleia-condominial-o-que-e-como-funciona-regras',
+      title: 'Assembleia condominial: o que é, como funciona e quais são as regras.',
+      excerpt: 'Guia prático e direto sobre assembleia de condomínio: o que é, quem pode convocar, se o síndico pode cancelar, quóruns, prazos para anular e regras essenciais.',
+      readTime: `18 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Condominial',
+      date: '17 Ago, 2026',
+      dateIso: '2026-08-17',
+      image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          {/* Introdução acessível e direta */}
+          <div className="bg-bronze/10 border border-bronze/20 rounded-2xl p-5 mb-6">
+            <p className="text-white font-medium text-base mb-2">
+              <strong>Em resumo:</strong> A assembleia de condomínio é a reunião oficial onde os proprietários tomam as decisões mais importantes do prédio — da eleição do síndico e aprovação de contas ao rateio de obras e regras de convivência.
+            </p>
+            <p className="text-text-muted text-sm">
+              Quando tudo é feito dentro da lei, a assembleia traz segurança e valoriza o imóvel. Mas se houver erros na convocação, na votação ou no edital, as decisões podem ser <strong>anuladas na Justiça</strong>, gerando prejuízos para todos.
+            </p>
+          </div>
+
+          <p>
+            Seja você morador de um prédio tradicional em Copacabana ou Ipanema, ou proprietário de um apartamento em um grande condomínio-clube na Barra da Tijuca, participar das reuniões de condomínio é a única forma de proteger o seu bolso e o seu patrimônio.
+          </p>
+
+          <p>
+            Neste guia prático e direto, você vai entender como funciona a assembleia, quem tem o poder de convocá-la, se o síndico pode cancelá-la, quais são os quóruns obrigatórios por lei e quais são os prazos reais para contestar decisões irregulares.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que é a assembleia de condomínio e quais são os tipos?</h2>
+          <p>
+            A assembleia é o órgão soberano do condomínio. É nela que a vontade da maioria dos proprietários se torna regra obrigatória para todos os moradores. A lei brasileira (Código Civil) divide as assembleias em dois tipos principais:
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-4 my-4">
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-lg mb-2">1. Assembleia Geral Ordinária (AGO)</h3>
+              <p className="text-text-muted text-xs mb-3"><strong>Obrigatória por lei (Art. 1.350 do CC)</strong> — deve acontecer uma vez por ano.</p>
+              <ul className="list-disc pl-4 space-y-1.5 text-text-muted text-xs">
+                <li>Prestação de contas do ano que passou;</li>
+                <li>Aprovação da previsão de gastos (orçamento) do próximo ano;</li>
+                <li>Eleição de <Link to="/blog/sindico-morador-ou-sindico-profissional-qual-a-diferenca/" className="text-bronze hover:underline">síndico morador ou profissional</Link>, subsíndico e conselho fiscal (quando o mandato de até 2 anos termina).</li>
+              </ul>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-lg mb-2">2. Assembleia Geral Extraordinária (AGE)</h3>
+              <p className="text-text-muted text-xs mb-3"><strong>Convocada a qualquer momento (Art. 1.355 do CC)</strong> para temas urgentes ou pontuais.</p>
+              <ul className="list-disc pl-4 space-y-1.5 text-text-muted text-xs">
+                <li>Aprovação de obras (reformas, pintura, portaria);</li>
+                <li>Instituição de cotas extras emergenciais;</li>
+                <li>Destituição de síndico por irregularidades comprovadas;</li>
+                <li>Mudanças na convenção ou resolução de graves <Link to="/blog/convivencia-condominios-barulho-areas-comuns/" className="text-bronze hover:underline">conflitos de vizinhança e barulho</Link>.</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quem pode convocar a assembleia de condomínio?</h2>
+          <p>
+            Uma dúvida muito comum entre os moradores é se apenas o síndico tem o poder de chamar uma assembleia. A resposta é <strong>não</strong>. A legislação prevê três formas legais de convocação:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Pelo Síndico:</strong> É a regra geral e o dever ordinário da administração do prédio;</li>
+            <li><strong>Por 1/4 (um quarto) dos condôminos adimplentes:</strong> O artigo 1.355 do Código Civil garante que um grupo de moradores em dia com as contas pode convocar a reunião caso o síndico se recuse ou permaneça omisso;</li>
+            <li><strong>Por qualquer condômino na Justiça:</strong> Se o síndico não convocar a Assembleia Geral Ordinária (AGO) anual e os moradores não alcançarem o quórum de 1/4, qualquer proprietário pode ingressar com ação judicial para que o juiz determine a realização da reunião (Art. 1.350, § 1º, do CC).</li>
+          </ul>
+
+          <div className="bg-white/5 p-5 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-2">O síndico pode cancelar ou adiar uma assembleia já convocada?</h3>
+            <p className="text-text-muted text-sm mb-3">
+              <strong>Depende do motivo e de quem convocou:</strong>
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-xs">
+              <li><strong>Se foi convocada pelo próprio síndico:</strong> Ele só pode cancelar ou adiar por motivo de <em>força maior real e comprovada</em> (ex.: queda de energia no prédio, pane técnica na plataforma virtual ou evento imprevisível grave), devendo comunicar a todos com antecedência formal;</li>
+              <li><strong>Proibição de cancelamento arbitrário:</strong> O síndico <em>não pode</em> cancelar uma reunião para fugir de pautas desconfortáveis (como prestação de contas ou pedido de sua destituição);</li>
+              <li><strong>Se foi convocada por 1/4 dos condôminos:</strong> O síndico <strong>NÃO tem poder legal</strong> para cancelar, adiar ou suspender a assembleia. Caso tente impedir o acesso ao salão ou à plataforma, a comissão de moradores pode instalar a reunião e votar normalmente.</li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como funciona a convocação e por que falhas no edital anulam a assembleia?</h2>
+          <p>
+            O edital de convocação é o convite formal e obrigatório. O artigo 1.354 do Código Civil é categórico: <em>"A assembleia não poderá deliberar se todos os condôminos não forem convocados para a reunião"</em>.
+          </p>
+          <p>
+            Se apenas um proprietário for esquecido ou não for notificado na forma prevista na Convenção, <strong>todas as decisões daquela assembleia podem ser canceladas na Justiça</strong>.
+          </p>
+
+          <div className="bg-red-500/10 p-5 rounded-xl border border-red-500/20 my-4">
+            <h4 className="text-red-400 font-bold text-sm mb-2">Atenção ao item "Assuntos Gerais" no Edital:</h4>
+            <p className="text-text-muted text-xs">
+              O edital deve trazer a lista exata de tudo o que será votado. É expressamente proibido aprovar cotas extras, obras caras ou punições em tópicos vagos como "Assuntos Gerais". Esse item serve apenas para informes rápidos, nunca para votações de impacto financeiro.
+            </p>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os quóruns de votação obrigatórios por lei?</h2>
+          <p>
+            Nem toda decisão exige a mesma quantidade de votos. Desrespeitar a contagem de frações ideais é um dos erros mais comuns que geram processos judiciais:
+          </p>
+
+          <div className="space-y-3 my-4">
+            <div className="bg-white/5 p-4 rounded-xl border border-white/10">
+              <h4 className="text-white font-bold text-sm">1. Maioria Simples dos Presentes (50% + 1 de quem estiver na reunião)</h4>
+              <p className="text-text-muted text-xs mt-1">Aprovação de contas, previsão orçamentária anual, eleição do síndico e obras de reparo urgentes e necessárias.</p>
+            </div>
+
+            <div className="bg-white/5 p-4 rounded-xl border border-white/10">
+              <h4 className="text-white font-bold text-sm">2. Maioria Absoluta do Todo (50% + 1 de todos os apartamentos do prédio)</h4>
+              <p className="text-text-muted text-xs mt-1">Aprovação de <em>obras úteis</em> — aquelas que aumentam ou facilitam o uso do prédio, como modernizar portaria ou instalar novas câmeras (Art. 1.341, II, do CC).</p>
+            </div>
+
+            <div className="bg-white/5 p-4 rounded-xl border border-white/10">
+              <h4 className="text-white font-bold text-sm">3. Quórum Qualificado de 2/3 (dois terços) de todos os condôminos</h4>
+              <p className="text-text-muted text-xs mt-1">Aprovação de <em>obras voluptuárias</em> (mero embelezamento/lazer como paisagismo de luxo), alteração da Convenção do Condomínio (Art. 1.351) e aplicação de multas pesadas a condôminos antissociais.</p>
+            </div>
+
+            <div className="bg-white/5 p-4 rounded-xl border border-white/10">
+              <h4 className="text-white font-bold text-sm">4. Unanimidade (100% de todos os proprietários)</h4>
+              <p className="text-text-muted text-xs mt-1">Mudança de destinação do edifício (ex.: de residencial para comercial) ou alteração na fração ideal das unidades.</p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quem pode votar: inadimplentes, inquilinos e procurações</h2>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Condômino Inadimplente:</strong> Pelo artigo 1.335, III, do Código Civil, quem estiver com boletos de condomínio em atraso deve ser convocado, mas <strong>não pode votar e nem participar das deliberações</strong> até quitar sua dívida;</li>
+            <li><strong>Inquilino (Locatário):</strong> Só pode votar se estiver munido de procuração outorgada pelo proprietário do imóvel;</li>
+            <li><strong>Procurações:</strong> Qualquer morador ou terceiro pode representar um proprietário, desde que tenha procuração com poderes específicos. Recomenda-se que o regimento limite a quantidade de procurações por pessoa para evitar concentração abusiva de votos.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Qual é o prazo real para contestar ou anular uma assembleia na Justiça?</h2>
+          <p>
+            Muitas pessoas pensam que qualquer erro em assembleia pode ser contestado a qualquer tempo. Juridicamente, no entanto, é fundamental separar o tipo de erro:
+          </p>
+
+          <div className="bg-white/5 p-5 rounded-2xl border border-white/10 my-4 space-y-3">
+            <div>
+              <h4 className="text-bronze font-bold text-sm">Vícios de Anulabilidade (Nulidade Relativa): Prazo de 2 Anos</h4>
+              <p className="text-text-muted text-xs mt-1">
+                Erros procedimentais menores, falhas regimentais de tempo de fala, vícios de consentimento (erro, dolo ou coação) prescrevem no prazo decadencial de <strong>2 anos</strong> a contar da data da realização da assembleia (Art. 179 do Código Civil).
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h4 className="text-red-400 font-bold text-sm">Vícios Graves de Nulidade Absoluta: Ação Imediata Recomendada</h4>
+              <p className="text-text-muted text-xs mt-1">
+                A ausência total de convocação de um proprietário (Art. 1.354 do CC), votação de objeto ilícito ou violação direta a normas cogentes de ordem pública tornam o ato nulo de pleno direito (Arts. 166 e 169 do CC). Porém, os tribunais recomendam agir o mais rápido possível: aguardar anos para contestar pode fazer com que a situação fática se consolide, dificultando a reversão de obras já pagas e executadas.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Ilustrativo (Cenário Hipotético): Anulação por Falha no Edital em Copacabana</h3>
+            <p className="text-text-muted text-sm">
+              <em>(Exemplo prático ilustrativo baseado em situações recorrentes nos tribunais):</em> Em um condomínio residencial de 60 unidades em Copacabana, a administração convocou uma reunião com o item genérico "Assuntos Gerais". Durante a assembleia, foi aprovada uma cota extra de R$ 180.000,00 para modernização de elevadores. Um grupo de moradores ausentes acionou a Justiça por meio de um <Link to="/blog/advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos/" className="text-bronze hover:underline font-bold">advogado especialista em direito condominial no Rio de Janeiro</Link>. O Tribunal declarou a nulidade absoluta da cota por falta de aviso prévio claro da matéria no edital, obrigando o prédio a estornar as cobranças e refazer a convocação.
+            </p>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Boas Práticas: 5 Dicas para Conduzir Assembleias Blindadas</h3>
+            <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Convoque com antecedência e protocolo:</strong> Use envio por carta com AR, protocolo físico e confirmação digital em app ou e-mail cadastrado;</li>
+              <li><strong>Detalhe minuciosamente a pauta:</strong> Explique valores previstos, objetivos das obras e quóruns necessários em cada ponto;</li>
+              <li><strong>Verifique a lista de adimplência:</strong> Obtenha junto à administradora a certidão de quitação atualizada até a hora da abertura;</li>
+              <li><strong>Conduza com mesa neutra:</strong> Eleja presidente e secretário sem interesse pessoal direto nos tópicos polêmicos;</li>
+              <li><strong>Registre a ata em cartório:</strong> Garanta autenticidade perene e validade perante bancos e órgãos públicos.</li>
+            </ol>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Artigos Recomendados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Aprofunde seus conhecimentos sobre gestão predial, convivência e segurança jurídica no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/blog/vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos/" className="text-bronze hover:underline font-bold">Vaga de Garagem em Condomínio: Regras de Uso, Aluguel e Conflitos</Link>: o que diz a Lei 12.607 e como evitar brigas no estacionamento.
+              </li>
+              <li>
+                <Link to="/blog/sindico-morador-ou-sindico-profissional-qual-a-diferenca/" className="text-bronze hover:underline font-bold">Síndico Morador vs. Síndico Profissional</Link>: vantagens, custos e responsabilidades de cada modelo de gestão.
+              </li>
+              <li>
+                <Link to="/blog/quando-sindico-responde-prejuizos-condominio/" className="text-bronze hover:underline font-bold">Responsabilidade Civil e Criminal do Síndico</Link>: quando o gestor responde com o patrimônio pessoal por prejuízos.
+              </li>
+              <li>
+                <Link to="/blog/convivencia-condominios-barulho-areas-comuns/" className="text-bronze hover:underline font-bold">Conflitos de Convivência, Barulho e Áreas Comuns</Link>: como aplicar advertências e multas válidas.
+              </li>
+              <li>
+                <Link to="/blog/advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos/" className="text-bronze hover:underline font-bold">Advogado Condominial no Rio de Janeiro (Guia Completo)</Link>: assessoria preventiva para síndicos, conselhos e moradores.
+              </li>
+              <li>
+                <Link to="/direito-condominial/" className="text-bronze hover:underline font-bold">Serviços Especializados em Direito Condominial</Link>: atuação contínua em assembleias, pareceres e cobranças.
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Precisa de Apoio Jurídico para Conduzir ou Contestar uma Assembleia?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O escritório Soares Martins Advogados oferece consultoria completa para elaboração de editais blindados, acompanhamento presencial e virtual de assembleias gerais e ajuizamento de ações anulatórias em todo o Rio de Janeiro.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma consulta com nossos advogados especialistas</Link> ou contate-nos diretamente pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Assembleia Condominial (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O que acontece se um condômino não for formalmente convocado para a assembleia?</h4>
+                <p className="text-text-muted text-xs mt-1">Conforme o Art. 1.354 do Código Civil, a assembleia não pode deliberar validamente se todos os condôminos não forem convocados. A ausência de convocação de qualquer proprietário enseja a anulação judicial de toda a reunião.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O síndico pode cancelar uma assembleia já convocada?</h4>
+                <p className="text-text-muted text-xs mt-1">Apenas por motivo de força maior comprovado (ex.: pane técnica ou emergência no prédio). O síndico não pode cancelar de forma arbitrária para fugir de pautas desfavoráveis, e não tem poder algum para cancelar assembleias convocadas pelo quórum de 1/4 de condôminos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Quem pode convocar a assembleia se o síndico se recusar?</h4>
+                <p className="text-text-muted text-xs mt-1">Um grupo de pelo menos 1/4 (um quarto) de todos os condôminos adimplentes pode assinar o edital e convocar a reunião diretamente (Art. 1.355 do Código Civil), ou qualquer morador pode acionar a Justiça se a AGO anual não for convocada (Art. 1.350, § 1º).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O que acontece se quase ninguém for à assembleia?</h4>
+                <p className="text-text-muted text-xs mt-1">Na primeira convocação, exige-se o quórum fixado na Convenção. Caso não seja atingido, realiza-se a segunda convocação (normalmente 30 minutos depois), que delibera validamente por maioria dos votos dos presentes para matérias de quórum simples.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O morador com cota em atraso pode votar na assembleia?</h4>
+                <p className="text-text-muted text-xs mt-1">O condômino inadimplente tem direito de ser convocado, mas está impedido por lei (Art. 1.335, III, do CC) de votar e de participar ativamente das deliberações até a quitação de seus débitos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Inquilino (locatário) pode votar na assembleia de condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">O inquilino somente pode votar se estiver munido de procuração específica com poderes outorgados pelo proprietário da unidade.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Qual é o quórum para aprovar reformas e obras no condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Obras necessárias urgentes prescindem de quórum ou exigem maioria simples dos presentes; obras úteis demandam a maioria absoluta de todos os condôminos (50% + 1 do todo); e obras voluptuárias exigem quórum de 2/3 de todos os proprietários.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. A assembleia virtual tem a mesma validade jurídica que a presencial?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A Lei Federal nº 14.309/2022 (Art. 1.354-A do Código Civil) assegura plena validade jurídica às assembleias eletrônicas e híbridas, desde que garantam autenticação, direito de voz e registro seguro dos votos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. Qual é o prazo legal para anular uma assembleia na Justiça?</h4>
+                <p className="text-text-muted text-xs mt-1">Para vícios de consentimento e anulabilidades relativas, o prazo decadencial é de 2 anos (Art. 179 do Código Civil). Para vícios de nulidade absoluta (como ausência de convocação), embora o ato seja nulo de pleno direito, a ação deve ser ajuizada o quanto antes para evitar a consolidação de prejuízos irreversíveis.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Quantas procurações uma única pessoa pode levar para a assembleia?</h4>
+                <p className="text-text-muted text-xs mt-1">A lei geral não fixa um teto numérico, mas a Convenção do Condomínio e o Regimento Interno podem estabelecer um limite máximo razoável por procurador para preservar a representatividade e evitar fraudes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 127,
+      slug: 'sindico-morador-ou-sindico-profissional-qual-a-diferenca',
+      title: 'Síndico morador ou síndico profissional: qual a diferença?',
+      excerpt: 'Descubra as principais diferenças entre síndico morador e síndico profissional: custos, como lidar com conflitos e cobranças, responsabilidade civil e quando vale a pena contratar.',
+      readTime: `16 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Gestão',
+      date: '17 Ago, 2026',
+      dateIso: '2026-08-17',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          {/* Introdução acessível e direta */}
+          <div className="bg-bronze/10 border border-bronze/20 rounded-2xl p-5 mb-6">
+            <p className="text-white font-medium text-base mb-2">
+              <strong>Em poucas palavras:</strong> A principal diferença entre os dois modelos está no vínculo com o prédio e na forma de atuação:
+            </p>
+            <ul className="list-disc pl-5 space-y-1.5 text-text-muted text-sm">
+              <li><strong>Síndico Morador:</strong> É um proprietário ou morador do próprio edifício eleito na <Link to="/blog/assembleia-condominial-o-que-e-como-funciona-regras/" className="text-bronze hover:underline">reunião de condomínio</Link>. Conhece a rotina de perto e geralmente recebe apenas isenção da taxa condominial, mas enfrenta o desgaste de cobrar e fiscalizar os próprios vizinhos.</li>
+              <li><strong>Síndico Profissional:</strong> É um especialista ou empresa externa contratada para gerenciar o condomínio de forma técnica, imparcial e sem laços de amizade com os condôminos, recebendo honorários mensais para cuidar da administração predial.</li>
+            </ul>
+          </div>
+
+          <p>
+            Na hora de escolher quem vai comandar a gestão do condomínio no Rio de Janeiro — seja em um prédio tradicional em Copacabana ou em um condomínio-clube na Barra da Tijuca —, surgem dúvidas comuns: <em>qual modelo custa menos? Quem responde por erros na administração? Como evitar atritos entre vizinhos?</em>
+          </p>
+
+          <p>
+            Neste artigo, você vai entender as vantagens, desvantagens, custos, limites legais de responsabilidade e quando realmente vale a pena optar pelo síndico profissional ou manter o síndico morador.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que diz o Código Civil sobre a escolha do síndico?</h2>
+          <p>
+            A legislação brasileira concede total liberdade aos proprietários. O artigo 1.347 do Código Civil estabelece que <em>"a assembleia escolherá um síndico, que poderá não ser condômino, para administrar o condomínio, por prazo não superior a dois anos, o qual poderá renovar-se"</em>.
+          </p>
+          <p>
+            Portanto, a lei não exige que o gestor more no prédio nem que seja dono de um apartamento. A escolha do formato cabe exclusivamente à decisão soberana dos condôminos reunidos em assembleia geral.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são as principais vantagens e desvantagens de cada modelo?</h2>
+
+          <div className="grid md:grid-cols-2 gap-4 my-4">
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-lg mb-2">1. Síndico Morador</h3>
+              <p className="text-text-muted text-xs mb-3">Eleito entre os vizinhos para zelar pelo patrimônio comum.</p>
+              <div className="space-y-2 text-xs text-text-muted">
+                <p><strong className="text-green-400">Vantagens:</strong> Presença física diária no prédio, conhecimento imediato das rotinas e menor custo financeiro (geralmente isenção de cota ordinária).</p>
+                <p><strong className="text-red-400">Desvantagens:</strong> Desgaste pessoal ao cobrar vizinhos e aplicar multas, falta de tempo para conciliar com o trabalho pessoal e eventuais lacunas em questões jurídicas e contábeis.</p>
+              </div>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-lg mb-2">2. Síndico Profissional</h3>
+              <p className="text-text-muted text-xs mb-3">Profissional ou empresa contratada com foco executivo.</p>
+              <div className="space-y-2 text-xs text-text-muted">
+                <p><strong className="text-green-400">Vantagens:</strong> Total imparcialidade na aplicação de regras e cobranças, preparo técnico sobre leis e contratos, e proteção contra brigas internas no condomínio.</p>
+                <p><strong className="text-red-400">Desvantagens:</strong> Custo mensal adicional (honorários de gestão), presença física não diária (visitas programadas) e exigência de fiscalização contínua pelo conselho fiscal.</p>
+              </div>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Síndico Morador: Como lidar com cobrança de vizinhos e conflitos no dia a dia?</h2>
+          <p>
+            O maior obstáculo enfrentado pelo síndico morador não é a burocracia dos boletos, mas sim o <strong>desgaste emocional do convívio diário</strong>. Ter que cobrar a cota de condomínio atrasada do vizinho de porta ou aplicar uma multa por barulho em áreas comuns pode gerar constrangimentos que afetam a paz de quem mora no local.
+          </p>
+
+          <div className="bg-white/5 p-5 rounded-2xl border border-white/10 my-4 space-y-3">
+            <h3 className="text-white font-serif font-bold text-base">Boas Práticas para Blindar o Síndico Morador:</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Despersonalize as cobranças financeiras:</strong> Nunca faça cobranças verbais no corredor ou no elevador. Deixe que as notificações de inadimplência e as ações de cobrança sejam conduzidas formalmente pela administradora e pelo <Link to="/blog/advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos/" className="text-bronze hover:underline">advogado condominial</Link>;</li>
+              <li><strong>Aplique o regimento com imparcialidade:</strong> Ao lidar com infrações sobre <Link to="/blog/vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos/" className="text-bronze hover:underline">vagas de garagem</Link> ou animais, siga rigorosamente o procedimento formal de advertência por escrito e prazo de defesa antes de multar;</li>
+              <li><strong>Estabeleça canais oficiais de comunicação:</strong> Evite atender demandas do prédio pelo WhatsApp pessoal ou na porta de casa fora do horário estipulado para atendimento.</li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quando vale a pena contratar um síndico profissional?</h2>
+          <p>
+            A contratação de um gestor terceirizado é uma solução cada vez mais adotada no mercado imobiliário. Ela é especialmente recomendada nos seguintes cenários:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Condomínios médios e grandes (mais de 30 a 50 unidades ou condomínios-clube):</strong> Empreendimentos com áreas de lazer complexas, piscinas, academias e dezenas de funcionários terceirizados exigem dedicação profissional em tempo integral;</li>
+            <li><strong>Prédios com histórico de conflitos graves ou alta inadimplência:</strong> Quando o clima entre moradores está desgastado por desavenças antigas, a figura neutra do gestor externo despersonaliza as decisões e pacifica a <Link to="/blog/convivencia-condominios-barulho-areas-comuns/" className="text-bronze hover:underline">convivência no condomínio</Link>;</li>
+            <li><strong>Falta de moradores disponíveis ou interessados:</strong> Quando ninguém no edifício tem tempo ou deseja assumir as responsabilidades do cargo durante a reunião de condomínio;</li>
+            <li><strong>Gestão de grandes obras estruturais ou passivos:</strong> Edifícios que precisam executar autovistorias prediais obrigatórias, reformas de fachada ou enfrentar processos trabalhistas complexos.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Responsabilidade civil e criminal: como a lei avalia os dois gestores?</h2>
+          <p>
+            Perante o artigo 1.348 do Código Civil, os <strong>deveres legais são idênticos</strong> para ambos. Tanto o síndico morador quanto o profissional têm a obrigação de prestar contas anualmente, zelar pela conservação das áreas comuns, manter a apólice de seguro predial em dia e recolher os tributos fiscais e trabalhistas do condomínio.
+          </p>
+          <p>
+            Caso ocorram desvios, omissões graves ou prejuízos injustificados ao condomínio, ambos podem ser responsabilizados civil e criminalmente, respondendo inclusive com seu patrimônio particular, conforme detalhamos em nosso artigo sobre <Link to="/blog/quando-sindico-responde-prejuizos-condominio/" className="text-bronze hover:underline font-bold">quando o síndico responde com seus próprios bens</Link>.
+          </p>
+          <p>
+            A particularidade prática é que o síndico profissional atua mediante contrato de prestação de serviços remunerado. Por essa razão, os condôminos e os tribunais esperam dele um cumprimento técnico rigoroso dos prazos e rotinas administrativas, sendo recomendável que a empresa contratada disponha de apólice de seguro de responsabilidade civil para resguardar o condomínio.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Ilustrativo (Cenário Hipotético): Recuperação Financeira na Barra da Tijuca</h3>
+            <p className="text-text-muted text-sm">
+              <em>(Exemplo prático baseado em demandas comuns do mercado):</em> Um condomínio residencial de grande porte na Barra da Tijuca enfrentava taxa de inadimplência de 20% e elevado desgaste em suas reuniões de condomínio. A assembleia deliberou pela contratação de um síndico profissional, mantendo o conselho fiscal ativo e com apoio de consultoria jurídica externa. Em 12 meses, os contratos de manutenção foram renegociados, as cobranças em atraso foram ajuizadas de forma impessoal e a inadimplência caiu para 4%, restaurando a tranquilidade financeira da comunidade.
+            </p>
+          </div>
+
+          {/* Seção de autoridade do escritório */}
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Como a Assessoria Jurídica Condominial Auxilia a Gestão Predial?</h3>
+            <p className="text-text-muted text-sm mb-3">
+              Independentemente do modelo de gestão adotado no seu edifício, contar com suporte jurídico preventivo evita litígios judiciais e protege o patrimônio comum:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Para o Síndico Morador:</strong> Oferece respaldo para aplicação de penalidades, cobrança de inadimplentes sem constrangimento pessoal e condução segura de assembleias;</li>
+              <li><strong>Para Condomínios com Síndico Profissional:</strong> Elabora e revisa a minuta do contrato de prestação de serviços, estabelece cláusulas de rescisão sem multa por descumprimento de metas e auxilia o Conselho Fiscal na validação das contas;</li>
+              <li><strong>Para os Condôminos e Conselheiros:</strong> Emite pareceres neutros sobre quóruns de votação, auditoria de balancetes e cumprimento da Convenção.</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Críticos na Escolha e Contratação do Síndico</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Contratar síndico profissional sem contrato por escrito:</strong> Toda eleição de gestor externo deve ser acompanhada de contrato detalhado com escopo de visitas e obrigações;</li>
+              <li><strong>Deixar de fiscalizar a prestação de contas:</strong> O conselho fiscal deve auditar os balancetes mensais com o mesmo rigor, seja o gestor morador ou profissional;</li>
+              <li><strong>Eleger morador em situação de inadimplência:</strong> É juridicamente nula a eleição de condômino que esteja com cotas em atraso na data da assembleia (Art. 1.335, III, do CC);</li>
+              <li><strong>Conceder poderes bancários irrestritos sem dupla assinatura:</strong> A movimentação financeira deve sempre contar com a conferência conjunta de um membro do conselho ou subsíndico.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Artigos Recomendados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Explore conteúdos complementares para garantir uma gestão segura e eficiente em seu prédio:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/blog/assembleia-condominial-o-que-e-como-funciona-regras/" className="text-bronze hover:underline font-bold">Assembleia Condominial: Regras, Quóruns e Como Evitar Nulidades</Link>: guia completo para reuniões de condomínio válidas.
+              </li>
+              <li>
+                <Link to="/blog/quando-sindico-responde-prejuizos-condominio/" className="text-bronze hover:underline font-bold">Quando o Síndico Responde por Prejuízos no Condomínio?</Link>: limites da responsabilidade civil e patrimonial.
+              </li>
+              <li>
+                <Link to="/blog/convivencia-condominios-barulho-areas-comuns/" className="text-bronze hover:underline font-bold">Conflitos de Convivência, Barulho e Regras de Áreas Comuns</Link>: como resolver atritos entre moradores.
+              </li>
+              <li>
+                <Link to="/blog/vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos/" className="text-bronze hover:underline font-bold">Vaga de Garagem em Condomínio: Regras de Uso e Aluguel</Link>: o que diz a legislação e as normas internas.
+              </li>
+              <li>
+                <Link to="/blog/advogado-condominial-no-rio-de-janeiro-guia-completo-sindicos-condominios-condominos/" className="text-bronze hover:underline font-bold">Advogado Condominial no Rio de Janeiro (Guia Completo)</Link>: assessoria preventiva para síndicos e conselhos.
+              </li>
+              <li>
+                <Link to="/assessoria-juridica-para-sindicos/" className="text-bronze hover:underline font-bold">Serviços de Assessoria Jurídica para Síndicos</Link>: consultoria contínua para gestão predial no RJ.
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Deseja Avaliar ou Estruturar a Gestão do seu Condomínio?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O escritório Soares Martins Advogados assessora conselhos, síndicos e comissões de condôminos na elaboração de contratos de prestação de serviços para síndicos profissionais, auditoria de contas e implementação de programas de compliance condominial no Rio de Janeiro.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Entre em contato conosco</Link> ou envie uma mensagem direta pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Síndico Morador e Profissional (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. A convenção do condomínio pode proibir a contratação de síndico profissional?</h4>
+                <p className="text-text-muted text-xs mt-1">O Art. 1.347 do Código Civil autoriza expressamente a escolha de síndico não condômino. Se a convenção antiga contiver proibição expressa, a assembleia pode deliberar pela alteração da convenção ou aprovar a contratação pelo quórum legal cabível.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O síndico morador é obrigado a ter remuneração ou isenção de cota?</h4>
+                <p className="text-text-muted text-xs mt-1">A remuneração ou isenção da taxa condominial depende exclusivamente do que dispuser a Convenção do Condomínio ou a deliberação da Assembleia Geral que o elegeu. Caso não haja previsão, o cargo é presumido gratuito.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O síndico profissional pode ser destituído da mesma forma que o síndico morador?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O Art. 1.349 do Código Civil aplica-se a ambos: a assembleia especialmente convocada por 1/4 dos condôminos pode destituir o síndico pelo voto da maioria absoluta dos presentes, em caso de irregularidades ou má gestão comprovada.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Existe vínculo de emprego entre o condomínio e o síndico morador ou profissional?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O cargo de síndico configura mandato eletivo civil, não gerando relação de emprego pela CLT, mesmo quando há recebimento de pró-labore ou isenção de condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O síndico profissional precisa ter registro em conselho de classe específico?</h4>
+                <p className="text-text-muted text-xs mt-1">A atividade de síndico ainda não possui conselho profissional federal privativo. Contudo, as empresas prestadoras de serviço devem manter CNPJ regular e comprovar capacidade técnica e idoneidade financeira.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Qual é o papel do Conselho Fiscal perante o síndico profissional?</h4>
+                <p className="text-text-muted text-xs mt-1">O Conselho Fiscal mantém a atribuição essencial de auditar mensalmente os balancetes, extratos e comprovantes de despesas, emitindo parecer para que os condôminos aprovem ou rejeitem as contas na reunião anual.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O síndico morador pode contratar assessoria jurídica para cobrança de devedores?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O síndico tem o dever de representar o condomínio em juízo para defender os interesses coletivos e cobrar inadimplentes (Art. 1.348, II e VII, do CC), sendo recomendada a contratação de escritório especializado.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Incide recolhimento previdenciário (INSS) sobre a isenção de cota do síndico morador?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A Receita Federal equipara o benefício da isenção de cota a remuneração de contribuinte individual, cabendo ao condomínio efetuar as retenções e o recolhimento da cota patronal de INSS.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O síndico profissional pode enviar prepostos para representá-lo nas reuniões de condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">O síndico pode delegar funções administrativas nos termos do Art. 1.348, § 2º, do Código Civil, com aval da assembleia, mas a responsabilidade pela condução e prestação de contas permanece pessoalmente atribuída ao gestor eleito.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Qual é o período máximo de mandato para síndicos?</h4>
+                <p className="text-text-muted text-xs mt-1">O mandato legal não pode ultrapassar 2 (dois) anos por eleição (Art. 1.347 do Código Civil), sendo plenamente admitida a reeleição sucessiva caso aprovada pelos condôminos em assembleia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 128,
+      slug: 'vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos',
+      title: 'Vaga de garagem em condomínio: regras de uso, aluguel e conflitos.',
+      excerpt: 'Guia jurídico completo sobre vagas de garagem em condomínio: tipos de vaga, aluguel para terceiros (Lei 12.607), sorteio, uso como depósito e regras do STJ.',
+      readTime: `17 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Condominial',
+      date: '17 Ago, 2026',
+      dateIso: '2026-08-17',
+      image: 'https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            As vagas de garagem figuram no topo das causas de atritos, discussões acaloradas e litígios judiciais nos condomínios brasileiros. Seja pela escassez de espaço nos prédios históricos da Zona Sul do Rio de Janeiro, pela proliferação de veículos utilitários de grande porte (SUVs e caminhonetes) que ultrapassam as faixas demarcatórias, ou por dúvidas sobre a locação para terceiros, o uso da garagem exige rigorosa observância às regras estatutárias e à legislação imobiliária.
+          </p>
+
+          <p>
+            Muitos condôminos acreditam erroneamente que, por terem adquirido um apartamento, possuem poder irrestrito sobre a vaga de estacionamento. Na realidade, o regime jurídico da garagem varia substancialmente conforme sua qualificação registraria no Cartório de Registro de Imóveis (RGI). Compreender a natureza jurídica da vaga, os limites de uso e os precedentes dos tribunais é fundamental para síndicos e moradores prevenirem multas e processos indenizatórios.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais são os três tipos jurídicos de vagas de garagem?</h2>
+          <p>
+            A classificação da vaga no RGI determina os direitos reais e as restrições que recaem sobre ela:
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-4 mb-2">1. Vaga Autônoma (Unidade Exclusiva)</h3>
+          <p>
+            Possui matrícula própria e individualizada no Cartório de Registro Geral de Imóveis (RGI), com fração ideal de terreno e inscrição de IPTU separada da unidade residencial. É considerada uma propriedade privativa independente, podendo, em tese, ser vendida, penhorada em execuções de dívidas do titular ou hipotecada isoladamente, respeitadas as restrições da Lei Federal nº 12.607/2012.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-4 mb-2">2. Vaga Vinculada ou Acessória</h3>
+          <p>
+            Não possui matrícula própria no RGI; está descrita na própria matrícula do apartamento como área privativa acessória. Trata-se de uma vaga de uso exclusivo e determinado, mas que não pode ser vendida separadamente da unidade principal, seguindo a regra geral de que o acessório acompanha o principal.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-4 mb-2">3. Vaga Indeterminada / Rotativa (Área Comum)</h3>
+          <p>
+            Constitui fração ideal das áreas comuns do edifício (sem demarcação fixa perpétua). O condomínio possui um número determinado de vagas que são distribuídas entre os moradores por meio de sorteios periódicos em assembleia ou utilizadas por ordem de chegada com auxílio de manobrista.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Posso alugar ou vender minha vaga de garagem para pessoas de fora do condomínio?</h2>
+          <p>
+            A resposta é, em regra, <strong>não</strong>. A Lei Federal nº 12.607/2012 alterou o artigo 1.331, § 2º, do Código Civil Brasileiro para reforçar a segurança coletiva dos edifícios. A regra legal atual estipula que:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Proibição Geral a Terceiros Estranhos:</strong> As vagas de garagem não podem ser alugadas nem vendidas a pessoas estranhas ao condomínio, <em>salvo se houver autorização expressa na Convenção Condominial</em>;</li>
+            <li><strong>Direito de Preferência Legal:</strong> Mesmo quando a convenção autoriza a locação ou alienação a terceiros, a lei garante <em>direito de preferência</em> obrigatório, em igualdade de condições, primeiramente aos coproprietários e, sucessivamente, aos locatários residentes no edifício.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Regras de uso cotidiano: limites de demarcação, motos, bicicletas e entulho</h2>
+          <p>
+            O convívio pacífico na garagem depende do respeito às normas do Regimento Interno e à função precípua do espaço:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Uso da vaga como depósito de móveis ou entulho:</strong> É terminantemente proibido. Utilizar a vaga para guardar caixas, restos de obra, móveis velhos ou produtos inflamáveis viola o artigo 1.336, IV, do Código Civil (comprometimento da segurança, salubridade e destinação do espaço);</li>
+            <li><strong>Veículos que ultrapassam a faixa demarcatória:</strong> O proprietário deve estacionar estritamente dentro dos limites pintados no solo. Veículos excessivamente compridos ou largos que impeçam a manobra de vizinhos ou o tráfego nas vias de circulação estão sujeitos a advertências e multas sucessivas;</li>
+            <li><strong>Estacionar carro e moto na mesma vaga:</strong> A permissão depende exclusivamente da Convenção e do Regimento Interno. Caso o regulamento proíba, o morador não pode manter dois veículos na mesma vaga, mesmo que caibam fisicamente sem ultrapassar as faixas.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Danos, arranhões, batidas e furtos na garagem: quem é o responsável?</h2>
+          <p>
+            Uma das maiores fontes de controvérsia jurídica diz respeito à responsabilidade civil do condomínio por avarias ou furtos de pertences deixados dentro dos veículos no estacionamento:
+          </p>
+          <p>
+            O Superior Tribunal de Justiça (STJ) pacificou esse entendimento através da <strong>Súmula 260</strong> e de sólida jurisprudência: <em>O condomínio só responde por furtos ou danos ocorridos na garagem se houver cláusula expressa na Convenção assumindo o dever de guarda e vigilância ou se mantiver serviço específico de garagistas/manobristas contratados para essa finalidade</em>.
+          </p>
+          <p>
+            Na ausência dessa assunção contratual, a responsabilidade pelo dano ou colisão é exclusivamente do condômino ou motorista que causou o abalroamento. O condomínio tem o dever de colaborar, fornecendo as imagens das câmeras de monitoramento interno para identificação do autor do dano.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Sorteio e rodízio de vagas rotativas: como conduzir sem gerar anulação?</h2>
+          <p>
+            Nos condomínios com vagas indeterminadas, o sorteio periódico deve ser realizado em assembleia geral devidamente convocada para essa finalidade. Para garantir a lisura e evitar anulações judiciais, a administração deve:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li>Assegurar regras objetivas e impessoais previamente divulgadas no edital;</li>
+            <li>Garantir vagas reservadas para pessoas com deficiência (PCD) e idosos em locais de fácil acesso e próximas aos elevadores, conforme determina a Lei Brasileira de Inclusão (Lei nº 13.146/2015) e o Estatuto da Pessoa Idosa;</li>
+            <li>Registrar em ata detalhada todas as atribuições de vagas e número dos boxes sorteados.</li>
+          </ul>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Prático: Disputa por Vaga Trancada e Aluguel Irregular em Ipanema</h3>
+            <p className="text-text-muted text-sm">
+              Em um condomínio na Rua Prudente de Morais, em Ipanema, um proprietário alugava sua vaga de garagem autônoma para um funcionário de uma loja vizinha que não residia no prédio. O acesso constante do estranho gerava insegurança e as manobras travavam as vagas dos demais moradores. Com a intervenção jurídica do Soares Martins Advogados, demonstrou-se que a Convenção do edifício vedava expressamente a locação a terceiros nos moldes da Lei 12.607/2012. Notificou-se extrajudicialmente o condômino com aplicação de multa regimental, cessando imediatamente a infração sem necessidade de ação judicial.
+            </p>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas: 5 Recomendações para Evitar Litígios na Garagem</h3>
+            <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Mantenha as faixas de demarcação nítidas e sinalizadas:</strong> Pintura reflexiva e numeração clara evitam invasão de espaço alheio;</li>
+              <li><strong>Instale câmeras de alta definição nos ângulos cegos:</strong> Facilita a identificação de motoristas causadores de batidas e arranhões;</li>
+              <li><strong>Proíba terminantemente a guarda de materiais combustíveis:</strong> Tintas, pneus velhos e entulhos aumentam riscos de incêndio grave;</li>
+              <li><strong>Fixe regras claras para veículos elétricos e híbridos:</strong> Estabeleça normas para instalação de carregadores e recarga segura;</li>
+              <li><strong>Atualize o Regimento Interno:</strong> Especifique limites de velocidade (máximo de 10 km/h) e procedimentos para entrega de chaves a manobristas.</li>
+            </ol>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns e Condutas Ilícitas na Garagem Condominial</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Alugar a vaga para estranhos sem autorização da convenção:</strong> Violação direta da Lei nº 12.607/2012 sujeita a multa pesada;</li>
+              <li><strong>Estacionar em vaga alheia sem autorização do titular:</strong> Conduta abusiva que autoriza o condomínio a solicitar remoção do veículo e aplicar penalidades;</li>
+              <li><strong>Lavar veículos na garagem usando água comum sem autorização:</strong> Configura enriquecimento sem causa e desperdício de recurso coletivo;</li>
+              <li><strong>Ignorar as vagas prioritárias de PCD e idosos:</strong> O descumprimento das normas de acessibilidade gera sanções administrativas e ações judiciais.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Aprofunde seus conhecimentos sobre direitos, deveres e governança condominial:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-condominial/" className="text-bronze hover:underline font-bold">Direito Condominial e Imobiliário no RJ</Link>: soluções completas para conflitos de vizinhança e regimentos.
+              </li>
+              <li>
+                <Link to="/assembleias-convencao-regimento/" className="text-bronze hover:underline font-bold">Revisão de Regimento Interno de Garagens</Link>: adequação de normas à Lei 12.607/2012.
+              </li>
+              <li>
+                <Link to="/blog/carro-eletrico-condominio-pode-proibir-instalacao-carregador/" className="text-bronze hover:underline font-bold">Carregador de Carro Elétrico na Garagem do Condomínio</Link>: o que diz a lei sobre pontos de recarga individual.
+              </li>
+              <li>
+                <Link to="/blog/quem-responde-por-furto-no-condominio-lei/" className="text-bronze hover:underline font-bold">Quem Responde por Furtos e Danos no Condomínio?</Link>: limites da responsabilidade do síndico e condomínio.
+              </li>
+              <li>
+                <Link to="/blog/multa-em-condominio-quando-valida/" className="text-bronze hover:underline font-bold">Multa em Condomínio: Quando é Válida?</Link>: procedimentos para aplicação legal de penalidades.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            O alinhamento das normas internas com a legislação vigente e a orientação jurídica preventiva são os pilares essenciais para assegurar a tranquilidade e a valorização patrimonial de todos os proprietários.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Enfrentando Conflitos ou Dúvidas sobre Vagas de Garagem?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Nossa equipe em Ipanema atua com excelência na mediação de conflitos de garagem, elaboração de regulamentos específicos de estacionamento e representação de condôminos e condomínios perante a Justiça do Rio de Janeiro.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Consulte nossos advogados especialistas</Link> ou envie uma mensagem direta pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Vagas de Garagem em Condomínio (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Posso vender minha vaga de garagem para alguém que não mora no condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Conforme o Art. 1.331, § 2º, do Código Civil (redação da Lei nº 12.607/2012), as vagas de garagem não podem ser alienadas a pessoas estranhas ao condomínio, salvo se houver autorização expressa na Convenção de Condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O condomínio é obrigado a indenizar se baterem no meu carro dentro da garagem?</h4>
+                <p className="text-text-muted text-xs mt-1">Em regra, não (Súmula 260 do STJ). O condomínio só responde se houver cláusula expressa na Convenção assumindo o dever de indenizar ou se o dano for causado por manobrista contratado pelo condomínio.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O condomínio pode proibir que eu guarde bicicleta ou caixas na minha vaga de garagem privativa?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O Regimento Interno e a Convenção podem proibir o uso da vaga como depósito de objetos e ordenar a remoção de itens que comprometam a segurança, a estética ou a passagem de outros veículos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Vaga de garagem autônoma pode ser penhorada por dívidas do proprietário?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A vaga de garagem que possui matrícula própria no Registro de Imóveis (Súmula 364 do STJ) não é protegida pela impenhorabilidade do bem de família, podendo ser penhorada e leiloada individualmente.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O condômino inadimplente tem direito de participar do sorteio de vagas de garagem?</h4>
+                <p className="text-text-muted text-xs mt-1">O condômino inadimplente não pode votar na assembleia que realiza o sorteio (Art. 1.335, III, do CC). Contudo, ele não pode ser privado de uma vaga à qual tem direito contratual adquirido na compra do imóvel.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Posso estacionar um carro e uma moto na mesma vaga de garagem?</h4>
+                <p className="text-text-muted text-xs mt-1">A permissão depende do que dispuser o Regimento Interno do condomínio. Caso as regras internas vedem mais de um veículo por vaga, a conduta é passível de advertência e multa, mesmo que caibam sem ultrapassar a demarcação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O condomínio é obrigado a disponibilizar vagas demarcadas para pessoas com deficiência (PCD) e idosos?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A legislação federal de acessibilidade (Lei nº 13.146/2015) e o Estatuto da Pessoa Idosa exigem a destinação de vagas acessíveis, amplas e próximas às rotas de circulação e elevadores.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O que fazer se outro morador estacionar na minha vaga privativa e travar meu carro?</h4>
+                <p className="text-text-muted text-xs mt-1">Notifique imediatamente a administração/portaria para lavrar registro no livro de ocorrências. O condomínio pode multar o infrator. Em casos de reiteração, cabe Ação de Obrigação de Não Fazer com pedido de liminar e indenização por perdas e danos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O condomínio pode cobrar taxa extra para uso da garagem rotativa?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, desde que a cobrança de taxa de uso ou conservação da área comum de estacionamento seja aprovada pela assembleia geral com o quórum previsto na Convenção.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Qual é o quórum para alterar o sistema de vagas de rotativas para fixas no condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">A alteração da destinação das vagas ou a fixação definitiva de áreas comuns de estacionamento exige a alteração da Convenção do Condomínio, dependendo da aprovação de pelo menos 2/3 dos condôminos (Art. 1.351 do CC) ou até unanimidade caso afete frações ideais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 129,
+      slug: 'bicicleta-eletrica-em-condominio-regras-de-uso-o-que-diz-a-lei',
+      title: 'Bicicleta elétrica em condomínio: regras de uso e o que diz a lei',
+      excerpt: 'Saiba tudo sobre bicicleta elétrica em condomínio: o condomínio pode proibir, circulação em áreas comuns, elevador, recarga de baterias e regras da convenção.',
+      readTime: `19 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Condominial',
+      date: '17 Ago, 2026',
+      dateIso: '2026-08-17',
+      image: 'https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A revolução da micromobilidade urbana e a busca por transportes sustentáveis transformaram as bicicletas elétricas (e-bikes), patinetes e monociclos motorizados em itens indispensáveis no cotidiano de milhares de cariocas. Da orla de Copacabana e Ipanema às ciclovias da Barra da Tijuca, Botafogo e Tijuca, esses modais facilitam o deslocamento diário e a prática esportiva.
+          </p>
+
+          <p>
+            Contudo, o crescimento exponencial dessa tecnologia trouxe novos e complexos dilemas jurídicos e operacionais para a vida em condomínio. Questões críticas como o <strong>risco real de incêndios por baterias de íon de lítio</strong>, o trânsito veloz em pátios residenciais, o uso de elevadores sociais, a sobrecarga de bicicletários e o custo da energia elétrica coletiva para recarga demandam regras claras e fundamentadas na legislação brasileira.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que diz a lei e como diferenciar bicicleta elétrica de ciclomotor?</h2>
+          <p>
+            Para aplicar as normas corretas, é indispensável conhecer os parâmetros regulatórios definidos pela <strong>Resolução nº 996/2023 do CONTRAN</strong> (Conselho Nacional de Trânsito), que estabelece a distinção técnica entre os modais:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Bicicleta Elétrica (E-Bike):</strong> Veículo de propulsão humana dotado de motor auxiliar elétrico com potência máxima de até 1000 Watts, velocidade máxima de até 32 km/h (ou até 45 km/h em ciclovias/ciclorrotas exclusivas) e funcionamento do motor acionado exclusivamente pelo pedal assistido (sem acelerador manual, ou com acelerador limitado a 6 km/h);</li>
+            <li><strong>Equipamento de Mobilidade Autopropelido:</strong> Patinetes, skates e monociclos elétricos com velocidade máxima de até 32 km/h e largura compatível com pedestres;</li>
+            <li><strong>Ciclomotores e Scooters Elétricas:</strong> Veículos com acelerador manual, potência superior ou velocidade acima de 32 km/h. Exigem emplacamento, registro no Detran, habilitação (CNH categoria A ou ACC) e têm circulação proibida em ciclovias e áreas de pedestres.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O condomínio pode proibir o morador de ter bicicleta elétrica?</h2>
+          <p>
+            <strong>Não. O condomínio não pode proibir a posse, compra ou propriedade de uma bicicleta elétrica pelo morador.</strong> O direito de propriedade é assegurado pelo artigo 5º, inciso XXII, da Constituição Federal e pelo artigo 1.228 do Código Civil.
+          </p>
+          <p>
+            No entanto, o exercício desse direito encontra limite expresso no artigo 1.336, inciso IV, do Código Civil, que impõe a todo condômino o dever de <em>"dar às suas partes a mesma destinação que tem a edificação, e não as utilizar de maneira prejudicial ao sossego, salubridade e segurança dos possuidores, ou aos bons costumes"</em>.
+          </p>
+          <p>
+            Portanto, embora não possa proibir a aquisição da e-bike, <strong>o condomínio tem o pleno poder-dever de regulamentar de forma estrita onde ela pode circular, onde deve ser guardada e como suas baterias podem ser recarregadas</strong> para mitigar riscos de acidentes e sinistros de fogo.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Pode circular com bicicleta elétrica nas áreas comuns do condomínio?</h2>
+          <p>
+            Em regra, <strong>é terminantemente proibido circular montado e com motor elétrico acionado nas áreas comuns internas</strong> (como halls de entrada, calçadas de circulação interna, playgrounds, pátios de convivência, jardins e garagens).
+          </p>
+          <p>
+            O Regimento Interno deve determinar que, ao adentrar os portões do condomínio, o condômino deve <strong>desligar o motor e conduzir a bicicleta empurrando a pé</strong> até o local de guarda (vaga, bicicletário ou elevador). O tráfego de e-bikes em velocidade em pátios onde circulam crianças e idosos configura infração regimental grave e expõe o condutor à responsabilização civil por eventuais atropelamentos.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Pode usar o elevador para transportar a bicicleta elétrica?</h2>
+          <p>
+            A circulação de bicicletas nos elevadores pode ser disciplinada pelo Regimento Interno com base em critérios razoáveis de segurança, peso e conservação patrimonial:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Uso Prioritário do Elevador de Serviço:</strong> O transporte de bicicletas elétricas deve ser realizado obrigatoriamente pelo elevador de serviço;</li>
+            <li><strong>Limitações em Horários de Pico:</strong> A convenção pode restringir o transporte em horários de pico matutino e noturno para não prejudicar o fluxo de passageiros;</li>
+            <li><strong>Higiene e Proteção:</strong> Exigência de pneus limpos em dias de chuva e proibição de apoiar a bicicleta suja de lama ou graxa nas paredes espelhadas ou acolchoadas da cabine.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Onde guardar a bicicleta elétrica: bicicletário, vaga de garagem ou dentro do apartamento?</h2>
+          <p>
+            A guarda da bicicleta elétrica envolve desafios estruturais específicos que devem ser normatizados:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>No Bicicletário Comum:</strong> Bicicletas elétricas pesam entre 20 kg e 35 kg (muito mais que bicicletas convencionais de 10 a 14 kg). Bicicletários suspensos de parede podem não suportar essa carga. Recomenda-se reservar vagas de piso exclusivas para e-bikes;</li>
+            <li><strong>Na Vaga de Garagem:</strong> Caso o Regimento Interno permita a guarda de bicicleta na vaga privativa junto ao automóvel (sem ultrapassar a demarcação), o morador poderá utilizá-la; caso o regulamento proíba objetos na garagem, a regra deve ser estritamente cumprida;</li>
+            <li><strong>Dentro da Unidade Autônoma (Apartamento):</strong> O morador tem o direito de guardar sua bicicleta dentro do seu apartamento, desde que a transporte desligada e pelo elevador de serviço.</li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Pode carregar a bateria da bicicleta nas áreas comuns do condomínio?</h2>
+          <p>
+            Esta é a questão mais sensível e urgente sob o ponto de vista jurídico e de segurança:
+          </p>
+          <p>
+            <strong>1. Proibição de Recarga em Tomadas Comuns (Rateio Coletivo):</strong> O morador <strong>NÃO pode</strong> plugar o carregador de sua bicicleta elétrica nas tomadas de uso comum da garagem, halls ou portaria. Utilizar energia elétrica comum para consumo individual de um veículo particular configura enriquecimento sem causa (Art. 884 do Código Civil) e viola o dever de rateio proporcional de despesas.
+          </p>
+          <p>
+            <strong>2. Risco de Incêndio por Baterias de Íon de Lítio (CBMERJ):</strong> Baterias danificadas, recarregadas com adaptadores paralelos ou sujeitas a sobrecarga podem sofrer <em>fuga térmica (thermal runaway)</em>, provocando explosões e incêndios de difícil combate por água. O condomínio pode proibir a recarga desacompanhada nas garagens e exigir que a recarga seja feita com carregadores originais certificados pelo Inmetro e em locais monitorados.
+          </p>
+          <p>
+            <strong>3. Instalação de Estação de Recarga Dedicada:</strong> A assembleia de condomínio pode aprovar a instalação de uma estação de recarga com medidor individual de energia (relógio individualizado), custeada pelos usuários do serviço.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como a convenção e o regimento interno devem disciplinar as bicicletas elétricas?</h2>
+          <p>
+            Para criar regras vinculantes e juridicamente válidas, o condomínio deve aprovar uma <strong>Resolução Regimental Específica sobre Micromobilidade Elétrica</strong> em Assembleia Geral. Os passos essenciais incluem:
+          </p>
+          <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm">
+            <li>Elaborar minuta técnica de regulamentação com suporte de advogado especialista em direito condominial;</li>
+            <li>Realizar vistoria prévia da capacidade elétrica do prédio com laudo de engenheiro eletricista registrado no CREA;</li>
+            <li>Definir regras de velocidade máxima zero (circulação a pé) nas garagens e áreas de pedestres;</li>
+            <li>Estipular penalidades graduais (advertência formal seguida de multas pecuniárias progressivas) para descumprimento das normas;</li>
+            <li>Exigir cadastro obrigatório de todas as bicicletas elétricas com número de chassi, unidade correspondente e comprovante de carregador homologado.</li>
+          </ol>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Estudo de Caso Prático: Superaquecimento de Bateria e Nova Regulamentação no Leblon</h3>
+            <p className="text-text-muted text-sm">
+              Em um edifício residencial no Leblon, uma bateria de bicicleta elétrica paralela sofreu curto-circuito enquanto carregava durante a madrugada em uma tomada comum da garagem subterrânea. O princípio de incêndio foi contido pelo sistema de sprinklers, mas causou pânico e danos materiais. Com a assessoria do Soares Martins Advogados, o condomínio convocou uma AGE que aprovou um novo Regulamento de Micromobilidade: proibiu-se a recarga em tomadas comuns, criou-se um ponto de recarga antichamas no térreo com medição individual de energia e estabeleceu-se a obrigatoriedade de transporte a pé nas áreas sociais. O regulamento pacificou o prédio e reduziu os riscos de sinistro a zero.
+            </p>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas de Segurança para Síndicos e Moradores</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Utilize apenas carregadores originais:</strong> Nunca use carregadores genéricos de voltagem incompatível;</li>
+              <li><strong>Evite recargas noturnas sem supervisão:</strong> Não deixe a bateria carregando na tomada enquanto dorme ou quando o imóvel estiver vazio;</li>
+              <li><strong>Monitore a temperatura da bateria:</strong> Se a bateria estiver quente ao toque, com cheiro estranho ou estufada, desconecte-a imediatamente;</li>
+              <li><strong>Desça da bicicleta ao entrar no portão:</strong> Jamais trafegue acelerando em calçadas internas ou rampas de garagem;</li>
+              <li><strong>Cadastre seu veículo na administração:</strong> Mantenha identificação visual na e-bike autorizada a usar o bicicletário.</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns no Uso de Bicicletas Elétricas em Condomínios</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Ligar em tomadas comuns de portaria ou garagem:</strong> Prática ilegal de apropriação de energia coletiva passível de multa imediata;</li>
+              <li><strong>Trafegar em alta velocidade na garagem:</strong> Risco iminente de atropelamento e colisão com veículos manobrando;</li>
+              <li><strong>Pendurar e-bikes pesadas em ganchos de parede frágeis:</strong> Risco de queda e danos a bicicletas vizinhas;</li>
+              <li><strong>Ignorar as regras do Corpo de Bombeiros (CBMERJ):</strong> Deixar de atualizar o Plano de Prevenção e Combate a Incêndios com extintores adequados para baterias de lítio (classe D / extintores especiais de espuma encapsuladora).</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Conheça outros temas de vanguarda jurídica e assessoria condominial prestados pelo nosso escritório:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-condominial/" className="text-bronze hover:underline font-bold">Direito Condominial Estratégico no RJ</Link>: atualização de convenções e regulamentos para novas tecnologias.
+              </li>
+              <li>
+                <Link to="/assembleias-convencao-regimento/" className="text-bronze hover:underline font-bold">Revisão de Regimento Interno e Convenção</Link>: criação de normas de micromobilidade e veículos elétricos.
+              </li>
+              <li>
+                <Link to="/blog/carro-eletrico-condominio-pode-proibir-instalacao-carregador/" className="text-bronze hover:underline font-bold">Carro Elétrico em Condomínio: Regras e Carregadores</Link>: requisitos técnicos e legais para recarga em garagens.
+              </li>
+              <li>
+                <Link to="/blog/horario-de-silencio-no-condominio-leis-regras/" className="text-bronze hover:underline font-bold">Horário de Silêncio e Convivência no Condomínio</Link>: normas de sossego e segurança.
+              </li>
+              <li>
+                <Link to="/blog/multa-em-condominio-quando-valida/" className="text-bronze hover:underline font-bold">Multas por Infração ao Regimento Interno</Link>: como aplicar penalidades válidas e sem risco de anulação.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A integração pacífica das bicicletas elétricas na rotina condominial depende de um regulamento moderno, equilibrado e rigorosamente construído à luz do Código Civil e das normas de segurança predial.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Precisa Regularizar o Uso de Bicicletas Elétricas no seu Condomínio?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O Soares Martins Advogados auxilia síndicos, administradoras e comissões na elaboração de regulamentos internos de micromobilidade elétrica, pareceres técnicos e condução de assembleias no Rio de Janeiro.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Fale com nossos advogados especialistas</Link> ou contate-nos diretamente pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Bicicletas Elétricas em Condomínios (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O condomínio pode proibir os moradores de comprarem ou terem bicicleta elétrica?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O condomínio não tem o poder de proibir a aquisição ou propriedade da bicicleta elétrica, pois isso violaria o direito de propriedade (Art. 1.228 do Código Civil). Contudo, pode e deve regulamentar as normas de circulação, guarda e recarga.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É permitido circular com o motor da bicicleta elétrica ligado nas áreas comuns do prédio?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. Por razões de segurança e prevenção de acidentes, o regimento interno pode proibir a circulação motorizada nas calçadas, pátios e garagens, exigindo que o condutor transite empurrando a bicicleta a pé.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O morador pode transportar sua bicicleta elétrica no elevador social?</h4>
+                <p className="text-text-muted text-xs mt-1">O condomínio pode destinar o uso obrigatório do elevador de serviço para o transporte de bicicletas e equipamentos esportivos, resguardando o elevador social para a circulação exclusiva de passageiros.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O morador pode carregar a bateria da e-bike na tomada comum da garagem?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. A utilização de tomadas de áreas comuns para recarga particular de baterias sem medição individual configura enriquecimento sem causa (Art. 884 do Código Civil) e sobrecarga elétrica não autorizada, sujeita a multa.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O condomínio pode exigir que as e-bikes sejam guardadas apenas no bicicletário?</h4>
+                <p className="text-text-muted text-xs mt-1">O condomínio pode regulamentar o uso do bicicletário, mas não pode impedir que o morador guarde sua bicicleta dentro do seu próprio apartamento, desde que a transporte desligada e pelo elevador de serviço.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Qual é a diferença legal entre bicicleta elétrica e ciclomotor perante o CONTRAN?</h4>
+                <p className="text-text-muted text-xs mt-1">A Resolução CONTRAN nº 996/2023 define bicicleta elétrica como aquela com motor de até 1000W, velocidade máxima de 32 km/h e sem acelerador manual (apenas pedal assistido). Veículos com acelerador que superem esses limites são equiparados a ciclomotores e exigem CNH e registro.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O que a convenção do condomínio precisa para disciplinar o uso de bicicletas elétricas?</h4>
+                <p className="text-text-muted text-xs mt-1">A assembleia geral deve aprovar uma resolução regimental ou alteração do Regimento Interno estipulando normas de circulação, locais de guarda, regras de recarga de bateria e penalidades para infratores.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O condomínio pode ser responsabilizado em caso de incêndio causado por bateria de bicicleta elétrica?</h4>
+                <p className="text-text-muted text-xs mt-1">A responsabilidade primária pelo dano é do proprietário da bicicleta. No entanto, se o condomínio for omisso, permitir recargas clandestinas em tomadas impróprias ou não possuir AVCB atualizado do Corpo de Bombeiros, pode responder subsidiariamente.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. É permitido instalar um ponto de recarga coletivo com medidor no condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. A assembleia pode autorizar a instalação de uma estação de recarga segura em local ventilado com disjuntores dedicados e medidor de consumo elétrico individual, rateando os custos apenas entre os condôminos usuários.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Qual é a penalidade para quem descumprir as regras de trânsito e recarga de e-bikes no condomínio?</h4>
+                <p className="text-text-muted text-xs mt-1">O infrator pode sofrer notificação com advertência escrita formal e, na reincidência, aplicação de multas pecuniárias progressivas conforme estipulado na Convenção Condominial e no Código Civil (Art. 1.336, § 2º).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     }
   ];
 };

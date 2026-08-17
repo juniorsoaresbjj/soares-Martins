@@ -2353,5 +2353,227 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to engage legal advisory services for this auction?", a: "Contact us via WhatsApp for complete legal analysis and full representation." }
       ]
     }
+  },
+
+  // Santa Teresa - Rua Júlio Otoni nº 254 (Casa 203 m² - 12 Quartos, Piscina, Vista Cristo Redentor)
+  'santa-teresa-julio-otoni-254': {
+    pt: {
+      title: 'Leilão Judicial de Casa em Santa Teresa — Rua Júlio Otoni nº 254',
+      subtitle: 'Rua Júlio Otoni, nº 254 — Santa Teresa, Rio de Janeiro/RJ | 203 m² • Casa com 12 Quartos (Suíte Presidencial) • Jardim de Entrada • Bar e Restaurante • Piscina e Sauna a Vapor • Vista Panorâmica para o Cristo Redentor, Pão de Açúcar e Baía de Guanabara',
+      address: 'Rua Júlio Otoni, 254 — Santa Teresa, Rio de Janeiro - RJ',
+      p1Date: '21/09/2026 às 12:50h',
+      p2Date: '23/09/2026 às 12:50h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.417.443-9',
+      rgi: '52318 (9º RGI/RJ)',
+      val: 'R$ 3.153.239,03',
+      p2Val: 'R$ 1.577.000,00 (50% do valor da avaliação)',
+      description: 'Casa residencial em ótimo estado de conservação com diversas benfeitorias, com 203 m² de área construída, situada na Rua Júlio Otoni, nº 254, no bucólico e nobre bairro de Santa Teresa, Rio de Janeiro/RJ. O imóvel possui muro alto cuja entrada se inicia por um belo jardim que conduz a uma recepção e sala; dali uma escada dá acesso aos quartos e às áreas comuns. A propriedade conta com 12 quartos de tamanhos diversos, incluindo uma requintada Suíte Presidencial. Dispõe de estrutura completa com bar e restaurante, cozinha equipada, piscina e sauna a vapor. Destaca-se pela vista espetacular e panorâmica para a Zona Sul do Rio de Janeiro, sendo possível contemplar o Cristo Redentor, o Pão de Açúcar e a Baía de Guanabara, tanto dos quartos quanto da área da piscina. Região servida por iluminação pública, energia elétrica, asfaltamento, água, esgoto e telefonia, localizada próxima a Laranjeiras e no caminho de acesso ao Corcovado/Cristo Redentor, contando com transporte público por ônibus e o tradicional bonde de Santa Teresa na Rua Almirante Alexandrino. Devidamente registrada no 9º Ofício do Registro Geral de Imóveis sob a Matrícula nº 52318 e Inscrição Municipal nº 0.417.443-9. Avaliação judicial oficial de R$ 3.153.239,03, com 2ª praça iniciando com 50% de desconto por R$ 1.577.000,00.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para a casa na Rua Júlio Otoni nº 254?", a: "O imóvel possui avaliação judicial de R$ 3.153.239,03. Na 1ª Praça (21/09/2026 às 12:50h), o lance mínimo é R$ 3.153.239,03 (100% da avaliação). Na 2ª Praça (23/09/2026 às 12:50h), o lance inicial conta com 50% de desconto, fixado em R$ 1.577.000,00." },
+        { q: "Quais são as características físicas e benfeitorias da casa em Santa Teresa?", a: "Com 203 m² em ótimo estado de conservação, a casa dispõe de muro alto, jardim de entrada, recepção, sala, 12 quartos de tamanhos diversos (incluindo uma Suíte Presidencial), bar e restaurante, cozinha, sauna a vapor e piscina com vista cinematográfica para o Cristo Redentor, Pão de Açúcar e Baía de Guanabara." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 52318 no 9º RGI/RJ e IPTU nº 0.417.443-9?", a: "Nossa equipe realiza due diligence imobiliária completa na Matrícula nº 52318 perante o 9º RGI/RJ, consulta de débitos fiscais do IPTU nº 0.417.443-9, aplicação da sub-rogação de tributos sobre o preço da arrematação (Art. 130 do CTN) e certidões cíveis e de ônus reais no TJRJ." },
+        { q: "É possível arrematar o imóvel mediante proposta de parcelamento (Art. 895 do CPC)?", a: "Sim. Qualquer interessado pode apresentar proposta escrita de arrematação parcelada antes do início do leilão, com entrada mínima de 25% à vista e o saldo restante em até 30 parcelas mensais corrigidas, garantidas por hipoteca sobre o próprio imóvel." },
+        { q: "Como contratar a assessoria jurídica especializada do escritório Soares Martins Advogados?", a: "Entre em contato via WhatsApp ou e-mail corporativo com nossos advogados especialistas para análise minuciosa do edital e condução segura de todo o procedimento até a posse e entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Casa en Santa Teresa — Calle Júlio Otoni nº 254',
+      subtitle: 'Calle Júlio Otoni, nº 254 — Santa Teresa, Río de Janeiro/RJ | 203 m² • Casa con 12 Habitaciones (Suite Presidencial) • Jardín de Entrada • Bar y Restaurante • Piscina y Sauna de Vapor • Vista Panorámica al Cristo Redentor, Pan de Azúcar y Bahía de Guanabara',
+      address: 'Calle Júlio Otoni, 254 — Santa Teresa, Río de Janeiro - RJ',
+      p1Date: '21/09/2026 a las 12:50h',
+      p2Date: '23/09/2026 a las 12:50h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.417.443-9',
+      rgi: '52318 (9º RGI/RJ)',
+      val: 'R$ 3.153.239,03',
+      p2Val: 'R$ 1.577.000,00 (50% de la evaluación)',
+      description: 'Casa residencial de 203 m² en excelente estado de conservación en Calle Júlio Otoni nº 254, Santa Teresa, Río de Janeiro/RJ. Muro alto con jardín de entrada, recepción, salón, 12 habitaciones (incluyendo Suite Presidencial), bar/restaurante, cocina, piscina y sauna de vapor. Magnífica vista panorámica hacia la Zona Sur de Río de Janeiro, Cristo Redentor, Pan de Azúcar y Bahía de Guanabara. Próxima a Laranjeiras, con servicios públicos completos y transporte público por autobús y tranvía de Santa Teresa. Registrada en el 9º RGI (Matrícula nº 52318) e IPTU nº 0.417.443-9. Evaluación judicial de R$ 3.153.239,03, 2ª subasta iniciando al 50% (R$ 1.577.000,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y puja mínima en 2ª Subasta para la casa en Calle Júlio Otoni nº 254?", a: "Valoración judicial de R$ 3.153.239,03. En 2ª Subasta (23/09/2026 a las 12:50h), la puja abre al 50% de la evaluación oficial (R$ 1.577.000,00)." },
+        { q: "¿Cuáles son las características principales de esta casa en Santa Teresa?", a: "Propiedad de 203 m² con 12 dormitorios (Suite Presidencial), jardín de acceso, bar y restaurante, cocina, sauna y piscina con vista al Cristo Redentor, Pan de Azúcar y Bahía de Guanabara." },
+        { q: "¿Cómo se verifica la Matrícula nº 52318 del 9º RGI/RJ?", a: "Se efectúa auditoría integral de la Matrícula 52318, consulta del IPTU 0.417.443-9, verificación de cargas e informes de no gravamen." },
+        { q: "¿Se puede pagar de forma financiada a plazos (Art. 895 CPC)?", a: "Sí, con un 25% de enganche inicial al contado y saldo en hasta 30 cuotas mensuales con garantía hipotecaria." },
+        { q: "¿Cómo solicitar la asesoría jurídica?", a: "Contáctenos vía WhatsApp con Soares Martins Advogados para representación jurídica integral en todas las etapas." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Estate House in Santa Teresa — Júlio Otoni Street #254',
+      subtitle: 'Júlio Otoni Street, #254 — Santa Teresa, Rio de Janeiro/RJ | 203 sqm • 12-Bedroom House (Presidential Suite) • Entrance Garden • Bar & Restaurant • Swimming Pool & Steam Sauna • Panoramic Views of Christ the Redeemer, Sugarloaf & Guanabara Bay',
+      address: 'Júlio Otoni Street, 254 — Santa Teresa, Rio de Janeiro - RJ',
+      p1Date: '09/21/2026 at 12:50 PM',
+      p2Date: '09/23/2026 at 12:50 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.417.443-9',
+      rgi: 'Title #52318 (9th Land Registry)',
+      val: 'R$ 3,153,239.03',
+      p2Val: 'R$ 1,577,000.00 (50% starting bid)',
+      description: 'Charming 203 sqm estate house in excellent condition located at Júlio Otoni Street #254, Santa Teresa, Rio de Janeiro/RJ. High perimeter wall with front entrance tropical garden leading into reception foyer and living hall; staircase accessing guestrooms and common areas. Features 12 bedrooms of various sizes, including an executive Presidential Suite. Outfitted with bar and restaurant area, kitchen, steam sauna, and swimming pool terrace with panoramic views of Rio\'s South Zone, Christ the Redeemer, Sugarloaf Mountain, and Guanabara Bay. Full municipal public utilities, close to Laranjeiras and Corcovado access, served by bus line and Santa Teresa historic tram on Almirante Alexandrino Street. Registered under Title #52318 (9th Land Registry) and IPTU Tax #0.417.443-9. Official court valuation R$ 3,153,239.03, 2nd auction starting at 50% (R$ 1,577,000.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Júlio Otoni Street #254?", a: "Official appraisal is R$ 3,153,239.03. 1st Auction opens at R$ 3,153,239.03. 2nd Auction (09/23/2026 at 12:50 PM) opens with a 50% discount at R$ 1,577,000.00." },
+        { q: "What are the key facilities and amenities of this Santa Teresa house?", a: "203 sqm built area in top condition with 12 bedrooms (Presidential Suite), reception, bar/restaurant, kitchen, steam sauna, and pool terrace overlooking Christ the Redeemer, Sugarloaf, and Guanabara Bay." },
+        { q: "How is legal due diligence conducted for Title #52318?", a: "We conduct complete title search on Title #52318 (9th Registry), municipal tax audits (IPTU #0.417.443-9), Art. 130 tax subrogation, and court lien clearance." },
+        { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
+        { q: "How to engage legal advisory services for this auction?", a: "Contact Soares Martins Advogados via WhatsApp for comprehensive legal analysis and representation." }
+      ]
+    }
+  },
+
+  // Barra da Tijuca - Avenida Lúcio Costa nº 6500 - Apto 203 (Condomínio Alfa Plaza / 60 m²)
+  'barra-lucio-costa-6500-apto-203': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Avenida Lúcio Costa nº 6500 — Apto 203 (Condomínio Alfa Plaza)',
+      subtitle: 'Avenida Lúcio Costa, nº 6500, Apto 203 — Condomínio Alfa Plaza — Barra da Tijuca, Rio de Janeiro/RJ | 60 m² • Posição de Frente • Orla da Praia da Barra • Elevadores, Churrasqueira, Ônibus do Condomínio, Clubes, Piscinas, Segurança 24h e Comércio Próximo',
+      address: 'Avenida Lúcio Costa, 6500 - Apto 203 (Condomínio Alfa Plaza) — Barra da Tijuca, Rio de Janeiro - RJ',
+      p1Date: '27/08/2026 às 12:20h',
+      p2Date: '01/09/2026 às 12:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.690.545-7',
+      rgi: '121.926 (9º RGI/RJ)',
+      val: 'R$ 850.000,00',
+      p2Val: 'R$ 425.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 203, com 60 m² de área privativa e posição de frente, situado na Avenida Lúcio Costa, nº 6500, no conceituado Condomínio Alfa Plaza, no coração da Barra da Tijuca, Rio de Janeiro/RJ. O condomínio possui localização nobre e privilegiada de frente para a praia da Barra da Tijuca (Posto 7 / orla marítima), dispondo de infraestrutura completa com elevadores sociais e de serviço, churrasqueira, ônibus executivo exclusivo do condomínio para moradores (itinerários para Zona Sul, Centro e principais polos), acesso a clubes com complexo de piscinas adulto e infantil, quadras esportivas, segurança e portaria 24 horas, além de farto comércio próximo (shoppings, restaurantes, farmácias e supermercados). Imóvel devidamente registrado, dimensionado e caracterizado no 9º Ofício do Registro Geral de Imóveis sob a Matrícula nº 121.926 e pela Inscrição Municipal de IPTU nº 1.690.545-7. Avaliação judicial oficial de R$ 850.000,00, com 2ª praça iniciando com 50% de desconto pelo valor de R$ 425.000,00.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação oficial e o lance mínimo na 2ª Praça do apartamento no Alfa Plaza?", a: "O imóvel possui avaliação judicial oficial homologada de R$ 850.000,00. Na 1ª Praça (27/08/2026 às 12:20h), o lance mínimo corresponde a 100% da avaliação (R$ 850.000,00). Na 2ª Praça (01/09/2026 às 12:20h), o lance mínimo abre com 50% de desconto por apenas R$ 425.000,00." },
+        { q: "Quais são as características físicas e a infraestrutura do Condomínio Alfa Plaza?", a: "O apartamento 203 possui 60 m² de área privativa e posição de frente. O Condomínio Alfa Plaza oferece localização privilegiada de frente para o mar da Barra da Tijuca, elevadores, churrasqueira, complexo de piscinas, clube privativo, segurança 24 horas e serviço de ônibus exclusivo para moradores com linhas para a Zona Sul e Centro do Rio." },
+        { q: "Como é feita a auditoria jurídica da Matrícula nº 121.926 do 9º RGI/RJ e do IPTU nº 1.690.545-7?", a: "Nossa assessoria jurídica especializada realiza due diligence aprofundada na Matrícula nº 121.926 perante o 9º Ofício do RGI/RJ, consulta de débitos de IPTU (nº 1.690.545-7), levantamento de taxas condominiais e análise da execução no TJRJ, assegurando que os débitos tributários se sub-roguem no preço da arrematação conforme o art. 130, parágrafo único, do CTN." },
+        { q: "É permitido o parcelamento judicial do lance (Artigo 895 do Código de Processo Civil)?", a: "Sim. O interessado pode apresentar proposta judicial de pagamento parcelado antes do encerramento da praça, com sinal de 25% à vista e o saldo remanescente em até 30 parcelas mensais corrigidas, com garantia hipotecária sobre o próprio apartamento." },
+        { q: "Como contratar a assessoria do escritório Soares Martins Advogados para este leilão?", a: "Entre em contato via WhatsApp ou agende uma reunião em nossa sede em Ipanema/RJ para receber um parecer jurídico preventivo e acompanhamento presencial ou virtual em todas as etapas até a imissão na posse e entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Avenida Lúcio Costa nº 6500 — Apto 203 (Condominio Alfa Plaza)',
+      subtitle: 'Avenida Lúcio Costa, nº 6500, Apto 203 — Condominio Alfa Plaza — Barra da Tijuca, Río de Janeiro/RJ | 60 m² • Orientación Exterior • Primera Línea de Playa • Ascensores, Barbacoa, Autobús Privado, Clubes, Piscinas, Seguridad 24h y Comercio',
+      address: 'Avenida Lúcio Costa, 6500 - Apto 203 (Condominio Alfa Plaza) — Barra da Tijuca, Río de Janeiro - RJ',
+      p1Date: '27/08/2026 a las 12:20h',
+      p2Date: '01/09/2026 a las 12:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.690.545-7',
+      rgi: '121.926 (9º RGI/RJ)',
+      val: 'R$ 850.000,00',
+      p2Val: 'R$ 425.000,00 (50% de la evaluación)',
+      description: 'Apartamento residencial nº 203 con 60 m² de superficie privativa, orientación exterior (frente a la calle), ubicado en la Avenida Lúcio Costa nº 6500, en el prestigioso Condominio Alfa Plaza en Barra da Tijuca, Río de Janeiro/RJ. El condominio se encuentra en primera línea de playa frente al mar de Barra da Tijuca y dispone de infraestructura completa: ascensores, zona de barbacoa, autobús exclusivo para residentes hacia Zona Sur y Centro de Río, acceso a clubes, piscinas, seguridad 24 horas y comercio cercano. Registrado en el 9º Registro de Inmuebles bajo la Matrícula nº 121.926 e IPTU nº 1.690.545-7. Evaluación oficial de R$ 850.000,00, segunda subasta con puja inicial del 50% (R$ 425.000,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta para el apartamento en Alfa Plaza?", a: "Valoración oficial de R$ 850.000,00. En 1ª Subasta (27/08/2026 a las 12:20h) puja del 100%. En 2ª Subasta (01/09/2026 a las 12:20h) la puja inicial abre al 50% por R$ 425.000,00." },
+        { q: "¿Qué comodidades y características ofrece el Condominio Alfa Plaza?", a: "Apartamento exterior de 60 m² en primera línea de playa en Barra da Tijuca. El complejo cuenta con autobús privado hacia Zona Sur/Centro, piscinas, club recreativo, barbacoa, ascensores y seguridad 24 horas." },
+        { q: "¿Cómo se audita la Matrícula nº 121.926 del 9º RGI/RJ?", a: "Realizamos una due diligence completa sobre la Matrícula 121.926 del 9º RGI, deudas de IPTU (1.690.545-7) y proceso judicial en el TJRJ con garantía de subrogación de deudas según la legislación brasileña." },
+        { q: "¿Es posible pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante pago inicial del 25% al contado y saldo restante financiado en hasta 30 mensualidades con hipoteca sobre el inmueble." },
+        { q: "¿Cómo contratar la asesoría de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp para obtener un informe preventivo y asesoramiento integral hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment on Lúcio Costa Ave #6500 — Apt 203 (Alfa Plaza Condominium)',
+      subtitle: 'Lúcio Costa Ave, #6500, Apt 203 — Alfa Plaza Condominium — Barra da Tijuca, Rio de Janeiro/RJ | 60 sqm • Front-Facing Unit • Oceanfront Beachfront • Elevators, BBQ, Private Bus Service, Clubs, Pools, 24/7 Security & Local Shops',
+      address: 'Lúcio Costa Ave, 6500 - Apt 203 (Alfa Plaza Condominium) — Barra da Tijuca, Rio de Janeiro - RJ',
+      p1Date: '08/27/2026 at 12:20 PM',
+      p2Date: '09/01/2026 at 12:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.690.545-7',
+      rgi: 'Title #121.926 (9th Land Registry)',
+      val: 'R$ 850,000.00',
+      p2Val: 'R$ 425,000.00 (50% starting bid)',
+      description: 'Residential 60 sqm front-facing apartment (Unit 203) located at Lúcio Costa Avenue #6500, in the premier beachfront Condomínio Alfa Plaza in Barra da Tijuca, Rio de Janeiro/RJ. Prime oceanfront location facing Barra da Tijuca beach, offering top-tier amenities: passenger and service elevators, barbecue grills, private shuttle bus service for residents (daily routes to South Zone and Downtown Rio), access to private leisure clubs with swimming pools, sports courts, 24/7 monitored security, and local shops/dining within short walking distance. Registered under Title #121.926 at the 9th Real Estate Registry of Rio de Janeiro and Municipal Tax IPTU #1.690.545-7. Court appraisal of R$ 850,000.00, with 2nd auction opening bid starting at 50% discount for R$ 425,000.00.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official appraisal and 2nd auction minimum bid for Apt 203 in Alfa Plaza?", a: "Court valuation is R$ 850,000.00. 1st Auction (08/27/2026 at 12:20 PM) starts at 100% (R$ 850,000.00). 2nd Auction (09/01/2026 at 12:20 PM) opens at a 50% discount for R$ 425,000.00." },
+        { q: "What are the specs and amenities of Alfa Plaza Condominium?", a: "60 sqm front-facing unit located right on Barra da Tijuca beach. Amenities include resident shuttle bus to South Zone/Downtown, swimming pool complex, sports clubs, BBQ, elevators, and 24/7 security." },
+        { q: "How is legal due diligence conducted on Title #121.926 (9th Land Registry)?", a: "We perform full legal audit on Title #121.926 (9th Registry), municipal tax audits (IPTU #1.690.545-7), and TJRJ court records, ensuring full debt subrogation under Brazilian Tax Code Art. 130." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a judicial mortgage on the apartment." },
+        { q: "How to contact the Soares Martins Advogados team for legal representation?", a: "Reach out via WhatsApp or visit our Ipanema office for complete legal due diligence and courtroom representation through key handover." }
+      ]
+    }
+  },
+
+  // Botafogo - Rua Guilhermina Guinle nº 18 - Apto 401 (72 m²)
+  'botafogo-guilhermina-guinle-18-apto-401': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Botafogo — Rua Guilhermina Guinle nº 18 — Apto 401',
+      subtitle: 'Rua Guilhermina Guinle, nº 18, Apto 401 — Botafogo, Rio de Janeiro/RJ | 72 m² • Posição de Frente • Esquina com Rua Voluntários da Pátria • Prédio de 1959 • Excelente Localização, Próximo ao Metrô e Farto Comércio',
+      address: 'Rua Guilhermina Guinle, 18 - Apto 401 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '24/09/2026 às 12:20h',
+      p2Date: '29/09/2026 às 12:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.277.088-1',
+      rgi: '60.137 (3º RGI/RJ)',
+      val: 'R$ 828.000,00',
+      p2Val: 'R$ 496.800,00 (60% do valor da avaliação)',
+      description: 'Apartamento residencial nº 401, com 72 m² de área privativa e posição de frente, situado na Rua Guilhermina Guinle, nº 18, em Botafogo, Rio de Janeiro/RJ. O edifício, construído em 1959, possui implantação tradicional de esquina entre a Rua Guilhermina Guinle e a Rua Voluntários da Pátria. Trata-se de uma rua residencial arborizada e tranquila, beneficiada pela imediata proximidade do vibrante polo comercial, gastronômico e de transportes de Botafogo, a poucos passos da Estação de Metrô Botafogo, supermercados, colégios tradicionais, hospitais, clínicas e cinemas. O prédio não possui garagem e nem playground, refletindo taxa condominial enxuta e alta eficiência de custos. Imóvel devidamente registrado, dimensionado e caracterizado no 3º Ofício do Registro Geral de Imóveis sob a Matrícula nº 60.137 e pela Inscrição Municipal de IPTU nº 0.277.088-1. Avaliação judicial oficial de R$ 828.000,00, com 2ª praça iniciando com 60% do valor de avaliação por R$ 496.800,00 (desconto de R$ 331.200,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação oficial e o lance mínimo na 2ª Praça do apartamento na Rua Guilhermina Guinle?", a: "O imóvel possui avaliação judicial homologada em R$ 828.000,00. Na 1ª Praça (24/09/2026 às 12:20h), o lance inicial é de 100% da avaliação (R$ 828.000,00). Na 2ª Praça (29/09/2026 às 12:20h), o lance mínimo tem início em 60% do valor da avaliação, saindo por R$ 496.800,00." },
+        { q: "Quais são as características físicas do imóvel e a infraestrutura do edifício?", a: "O apartamento 401 tem 72 m² e posição de frente para a rua. O edifício é uma construção clássica de 1959, de esquina entre a Rua Guilhermina Guinle e a Rua Voluntários da Pátria, sem vaga de garagem e sem playground, o que resulta em custos condominiais reduzidos e alta atratividade para moradia ou locação." },
+        { q: "Como é a localização do imóvel no bairro de Botafogo?", a: "A Rua Guilhermina Guinle é uma rua residencial aprazível e charmosa, estrategicamente conectada à Rua Voluntários da Pátria. Está cercada por ampla oferta de serviços, restaurantes, farmácias, escolas e com fácil acesso a pé ao Metrô Botafogo e principais vias para Copacabana, Humaitá e Centro." },
+        { q: "Como é realizada a auditoria da Matrícula nº 60.137 do 3º RGI/RJ e débitos de IPTU?", a: "Nossa assessoria jurídica especializada realiza due diligence aprofundada na Matrícula nº 60.137 do 3º RGI/RJ, apuração de débitos fiscais de IPTU (nº 0.277.088-1), taxas condominiais e exame integral da execução no TJRJ, assegurando a sub-rogação dos débitos no preço da arrematação conforme o art. 130, parágrafo único, do CTN." },
+        { q: "É possível adquirir o imóvel de forma parcelada (Artigo 895 do Código de Processo Civil)?", a: "Sim. É facultado ao arrematante protocolar proposta judicial de pagamento parcelado antes do início de cada praça, com sinal de 25% à vista e saldo em até 30 parcelas mensais corrigidas com hipoteca judicial sobre a própria unidade." },
+        { q: "Como contratar a assessoria do escritório Soares Martins Advogados para este leilão?", a: "Entre em contato via WhatsApp ou visite nosso escritório em Ipanema/RJ para receber análise preventiva completa e representação processual até a entrega das chaves e posse efetiva." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Botafogo — Calle Guilhermina Guinle nº 18 — Apto 401',
+      subtitle: 'Calle Guilhermina Guinle, nº 18, Apto 401 — Botafogo, Río de Janeiro/RJ | 72 m² • Orientación Exterior • Esquina con Calle Voluntários da Pátria • Edificio de 1959 • Excelente Ubicación, Cerca del Metro y Comercio',
+      address: 'Calle Guilhermina Guinle, 18 - Apto 401 — Botafogo, Río de Janeiro - RJ',
+      p1Date: '24/09/2026 a las 12:20h',
+      p2Date: '29/09/2026 a las 12:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.277.088-1',
+      rgi: '60.137 (3º RGI/RJ)',
+      val: 'R$ 828.000,00',
+      p2Val: 'R$ 496.800,00 (60% de la evaluación)',
+      description: 'Apartamento residencial nº 401, con 72 m² de superficie privativa y orientación exterior, ubicado en la Calle Guilhermina Guinle nº 18, en Botafogo, Río de Janeiro/RJ. Edificio tradicional de 1959 en esquina con la Calle Voluntários da Pátria. Calle tranquila con excelente conectividad, a pocos minutos a pie de la estación de Metro Botafogo y de un vibrante eje comercial y gastronómico. Sin garaje ni zona infantil, garantizando gastos de comunidad reducidos. Registrado en el 3º Registro de Inmuebles bajo la Matrícula nº 60.137 e IPTU nº 0.277.088-1. Valoración oficial de R$ 828.000,00, segunda subasta con puja inicial del 60% por R$ 496.800,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta para el apartamento en Rua Guilhermina Guinle?", a: "Valoración judicial homologada de R$ 828.000,00. En 1ª Subasta (24/09/2026 a las 12:20h) puja del 100%. En 2ª Subasta (29/09/2026 a las 12:20h) puja inicial del 60% por R$ 496.800,00." },
+        { q: "¿Cuáles son las características del apartamento y el edificio?", a: "Apartamento exterior de 72 m² en edificio de 1959 en esquina. Ubicación privilegiada sin garaje ni parque infantil, con gastos comunitarios moderados." },
+        { q: "¿Cómo es la ubicación en el barrio de Botafogo?", a: "Ubicación estratégica en esquina con Voluntários da Pátria, cerca del Metro Botafogo, comercios, colegios y clínicas." },
+        { q: "¿Cómo se audita la Matrícula nº 60.137 del 3º RGI/RJ?", a: "Realizamos due diligence registral completa en el 3º RGI, verificación fiscal del IPTU 0.277.088-1 y auditoría procesal en el TJRJ." },
+        { q: "¿Es posible pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante pago inicial del 25% al contado y hasta 30 mensualidades con garantía hipotecaria." },
+        { q: "¿Cómo contratar la asesoría de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp para un dictamen preventivo y acompañamiento hasta la posesión del inmueble." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Botafogo — Guilhermina Guinle Street #18 — Apt 401',
+      subtitle: 'Guilhermina Guinle Street, #18, Apt 401 — Botafogo, Rio de Janeiro/RJ | 72 sqm • Front-Facing Unit • Corner of Voluntários da Pátria • 1959 Building • Prime Location Near Subway & Bustling Commerce',
+      address: 'Guilhermina Guinle Street, 18 - Apt 401 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '09/24/2026 at 12:20 PM',
+      p2Date: '09/29/2026 at 12:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.277.088-1',
+      rgi: 'Title #60.137 (3rd Land Registry)',
+      val: 'R$ 828,000.00',
+      p2Val: 'R$ 496,800.00 (60% starting bid)',
+      description: 'Residential 72 sqm front-facing apartment (Unit 401) located at Guilhermina Guinle Street #18 in Botafogo, Rio de Janeiro/RJ. Constructed in 1959, this traditional corner building sits at the junction of peaceful Guilhermina Guinle Street and lively Voluntários da Pátria Street. Steps away from the Botafogo Metro Station, top private schools, hospitals, supermarkets, and cultural hubs. The building features no garage and no playground, keeping HOA monthly maintenance costs minimal and yielding high rental appeal. Registered under Title #60.137 at the 3rd Real Estate Registry and Municipal Tax IPTU #0.277.088-1. Court valuation of R$ 828,000.00, with 2nd auction opening bid starting at 60% of appraisal value for R$ 496,800.00.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official court valuation and 2nd auction minimum bid for Apt 401 on Guilhermina Guinle?", a: "Court valuation is R$ 828,000.00. 1st Auction (09/24/2026 at 12:20 PM) starts at 100% (R$ 828,000.00). 2nd Auction (09/29/2026 at 12:20 PM) opens at a 40% discount for R$ 496,800.00 (60% starting bid)." },
+        { q: "What are the specs and features of this Botafogo apartment?", a: "72 sqm front-facing unit in a 1959 corner building with Voluntários da Pátria. Highly cost-efficient property without garage or playground fees." },
+        { q: "What makes the Botafogo location attractive?", a: "A tranquil residential street cornering major transit routes, walking distance to Botafogo subway station, dining, and healthcare centers." },
+        { q: "How is legal due diligence conducted on Title #60.137 (3rd Registry)?", a: "We conduct a complete title search at the 3rd Land Registry, municipal tax audits (IPTU #0.277.088-1), and TJRJ litigation checks ensuring full debt clearance under Brazilian Tax Code Art. 130." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% cash down payment and up to 30 monthly installments secured by a mortgage on the unit." },
+        { q: "How to contact the Soares Martins Advogados team for legal representation?", a: "Reach out via WhatsApp or visit our Ipanema office for comprehensive due diligence and courtroom representation through key delivery." }
+      ]
+    }
   }
 };

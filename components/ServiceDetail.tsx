@@ -143,6 +143,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Guilhermina Guinle nº 18 — Apto 401 (72 m²)',
+        desc: 'Apartamento de frente com 72 m² em clássico edifício de esquina de 1959 entre a Rua Guilhermina Guinle e Rua Voluntários da Pátria. Localização nobre em rua tranquila, a poucos passos do Metrô Botafogo e farto comércio. Matrícula nº 60.137 (3º RGI) e IPTU nº 0.277.088-1.',
+        p1Label: '1ª Praça (24/09/2026):',
+        p1Val: 'R$ 828.000,00',
+        p2Label: '2ª Praça (29/09/2026):',
+        p2Val: 'R$ 496.800,00 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20401%20na%20Rua%20Guilhermina%20Guinle%2018%20em%20Botafogo.'
+      },
+      {
+        tag: 'Residencial • Barra da Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Avenida Lúcio Costa nº 6500 — Apto 203 (Condomínio Alfa Plaza — 60 m²)',
+        desc: 'Apartamento de frente com 60 m² no prestigiado Condomínio Alfa Plaza, de frente para a praia da Barra da Tijuca. Condomínio com elevadores, churrasqueira, ônibus exclusivo para moradores (itinerários Zona Sul e Centro), complexo de piscinas, clubes, portaria e segurança 24h. Matrícula nº 121.926 (9º RGI) e IPTU nº 1.690.545-7.',
+        p1Label: '1ª Praça (27/08/2026):',
+        p1Val: 'R$ 850.000,00',
+        p2Label: '2ª Praça (01/09/2026):',
+        p2Val: 'R$ 425.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20203%20no%20Alfa%20Plaza%20na%20Avenida%20L%C3%BAcio%20Costa%206500%20na%20Barra%20da%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Santa Teresa/RJ',
+        title: 'Leilão Judicial de Casa em Santa Teresa — Rua Júlio Otoni nº 254 (203 m²)',
+        desc: 'Casa residencial com 12 quartos (incluindo Suíte Presidencial), entrada por jardim, recepção, bar, restaurante, cozinha, piscina, sauna a vapor e vista panorâmica espetacular para o Cristo Redentor e Pão de Açúcar. Matrícula nº 52318 (9º RGI) e IPTU nº 0.417.443-9.',
+        p1Label: '1ª Praça (21/09/2026):',
+        p1Val: 'R$ 3.153.239,03',
+        p2Label: '2ª Praça (23/09/2026):',
+        p2Val: 'R$ 1.577.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casa/rua-julio-otoni-254/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20casa%20na%20Rua%20J%C3%BAlio%20Otoni%20254%20em%20Santa%20Teresa.'
+      },
+      {
         tag: 'Comercial/Residencial • Santa Teresa/RJ',
         title: 'Leilão Judicial de Casarão em Santa Teresa — Rua Joaquim Murtinho nº 587 — Antiga Pousada (1.132 m²)',
         desc: 'Singular propriedade de 1938 com 1.132 m², composta por casa principal (4 andares/suítes/biblioteca), área de lazer com piscina, sauna e churrasqueira, bangalô em mezanino, prédio anexo com 5 unidades e área de mata preservada. Matrícula nº 2.117 (7º RGI) e IPTU nº 0113118-4.',
@@ -540,6 +573,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Calle Guilhermina Guinle nº 18 — Apto 401 (72 m²)',
+        desc: 'Apartamento exterior de 72 m² en edificio de 1959 en esquina entre Calle Guilhermina Guinle y Calle Voluntários da Pátria. Ubicación privilegiada en calle tranquila, a pocos pasos del Metro Botafogo y comercio. Matrícula nº 60.137 (3º RGI) e IPTU nº 0.277.088-1.',
+        p1Label: '1ª Subasta (24/09/2026):',
+        p1Val: 'R$ 828.000,00',
+        p2Label: '2ª Subasta (29/09/2026):',
+        p2Val: 'R$ 496.800,00 (60% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20401%20en%20Calle%20Guilhermina%20Guinle%2018%20en%20Botafogo.'
+      },
+      {
+        tag: 'Residencial • Barra da Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Avenida Lúcio Costa nº 6500 — Apto 203 (Condominio Alfa Plaza — 60 m²)',
+        desc: 'Apartamento de orientación exterior de 60 m² en el prestigioso Condominio Alfa Plaza, en primera línea de playa en Barra da Tijuca. Edificio con ascensores, barbacoa, autobús privado para residentes (itinerarios Zona Sur y Centro), piscinas, clubes y seguridad 24h. Matrícula nº 121.926 (9º RGI) e IPTU nº 1.690.545-7.',
+        p1Label: '1ª Subasta (27/08/2026):',
+        p1Val: 'R$ 850.000,00',
+        p2Label: '2ª Subasta (01/09/2026):',
+        p2Val: 'R$ 425.000,00 (50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20203%20en%20Alfa%20Plaza%20en%20Avenida%20L%C3%BAcio%20Costa%206500%20en%20Barra%20da%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Santa Teresa/RJ',
+        title: 'Subasta Judicial de Casa en Santa Teresa — Calle Júlio Otoni nº 254 (203 m²)',
+        desc: 'Casa residencial con 12 habitaciones (incluyendo Suite Presidencial), jardín de entrada, recepción, bar, restaurante, cocina, piscina, sauna de vapor y vista panorámica espectacular al Cristo Redentor y Pan de Azúcar. Matrícula nº 52318 (9º RGI) e IPTU nº 0.417.443-9.',
+        p1Label: '1ª Subasta (21/09/2026):',
+        p1Val: 'R$ 3.153.239,03',
+        p2Label: '2ª Subasta (23/09/2026):',
+        p2Val: 'R$ 1.577.000,00 (50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casa/rua-julio-otoni-254/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20de%20la%20casa%20en%20la%20Calle%20J%C3%BAlio%20Otoni%20254%20en%20Santa%20Teresa.'
+      },
+      {
         tag: 'Comercial/Residencial • Santa Teresa/RJ',
         title: 'Subasta Judicial de Casona en Santa Teresa — Calle Joaquim Murtinho nº 587 — Antigua Posada (1.132 m²)',
         desc: 'Propiedad histórica de 1938 de 1.132 m², con casa principal (4 plantas/suites), área de piscina, sauna y barbacoa, bungalow independiente, edificio anexo con 5 unidades y zona verde arbolada. Matrícula nº 2.117 (7º RGI) e IPTU nº 0113118-4.',
@@ -914,6 +980,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment in Botafogo — Guilhermina Guinle Street #18 — Apt 401 (72 sqm)',
+        desc: 'Front-facing 72 sqm apartment in a 1959 corner building between Guilhermina Guinle and Voluntários da Pátria. Prime quiet residential street steps away from Botafogo Metro and dining. Title #60.137 (3rd Registry) & IPTU #0.277.088-1.',
+        p1Label: '1st Auction (09/24/2026):',
+        p1Val: 'R$ 828,000.00',
+        p2Label: '2nd Auction (09/29/2026):',
+        p2Val: 'R$ 496,800.00 (60% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Guilhermina%20Guinle%2018%20in%20Botafogo.'
+      },
+      {
+        tag: 'Residential • Barra da Tijuca/RJ',
+        title: 'Judicial Auction of Apartment on Lúcio Costa Ave #6500 — Apt 203 (Alfa Plaza Condominium — 60 sqm)',
+        desc: 'Front-facing 60 sqm apartment in the premier oceanfront Alfa Plaza Condominium on Barra da Tijuca beach. Amenities include elevators, BBQ, private resident shuttle bus to South Zone & Downtown, swimming pools, sports clubs, and 24/7 security. Title #121.926 (9th Registry) & IPTU #1.690.545-7.',
+        p1Label: '1st Auction (08/27/2026):',
+        p1Val: 'R$ 850,000.00',
+        p2Label: '2nd Auction (09/01/2026):',
+        p2Val: 'R$ 425,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Alfa%20Plaza%20on%20L%C3%BAcio%20Costa%206500%20in%20Barra%20da%20Tijuca.'
+      },
+      {
+        tag: 'Residential • Santa Teresa/RJ',
+        title: 'Judicial Auction of House in Santa Teresa — Júlio Otoni Street #254 (203 sqm)',
+        desc: 'Residential house with 12 bedrooms (including Presidential Suite), entry garden, reception, bar, restaurant, kitchen, pool, steam sauna, and panoramic views of Christ the Redeemer and Sugarloaf Mountain. Title #52318 (9th Registry) & IPTU #0.417.443-9.',
+        p1Label: '1st Auction (09/21/2026):',
+        p1Val: 'R$ 3,153,239.03',
+        p2Label: '2nd Auction (09/23/2026):',
+        p2Val: 'R$ 1,577,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casa/rua-julio-otoni-254/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20house%20auction%20at%20J%C3%BAlio%20Otoni%20254%20in%20Santa%20Teresa.'
+      },
       {
         tag: 'Commercial/Residential • Santa Teresa/RJ',
         title: 'Judicial Auction of Historic Mansion in Santa Teresa — Joaquim Murtinho Street #587 — Former Inn (1,132 sqm)',

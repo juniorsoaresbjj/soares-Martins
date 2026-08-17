@@ -48,6 +48,9 @@ import MaracanaDonaZulmira19AuctionPage from './components/MaracanaDonaZulmira19
 import CopacabanaMascarenhasMorais190AuctionPage from './components/CopacabanaMascarenhasMorais190AuctionPage';
 import CopacabanaSilvaCastro44AuctionPage from './components/CopacabanaSilvaCastro44AuctionPage';
 import SantaTeresaJoaquimMurtinho587AuctionPage from './components/SantaTeresaJoaquimMurtinho587AuctionPage';
+import SantaTeresaJulioOtoni254AuctionPage from './components/SantaTeresaJulioOtoni254AuctionPage';
+import BarraDaTijucaLucioCosta6500AuctionPage from './components/BarraDaTijucaLucioCosta6500AuctionPage';
+import BotafogoGuilherminaGuinle18AuctionPage from './components/BotafogoGuilherminaGuinle18AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -403,6 +406,21 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/pousada-casarao/rua-joaquim-murtinho-587" element={<SantaTeresaJoaquimMurtinho587AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casarao/rua-joaquim-murtinho-587/" element={<SantaTeresaJoaquimMurtinho587AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casarao/rua-joaquim-murtinho-587" element={<SantaTeresaJoaquimMurtinho587AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casa/rua-julio-otoni-254/" element={<SantaTeresaJulioOtoni254AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casa/rua-julio-otoni-254" element={<SantaTeresaJulioOtoni254AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/imovel-residencial/rua-julio-otoni-254/" element={<SantaTeresaJulioOtoni254AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/imovel-residencial/rua-julio-otoni-254" element={<SantaTeresaJulioOtoni254AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/" element={<BotafogoGuilherminaGuinle18AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401" element={<BotafogoGuilherminaGuinle18AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18/" element={<BotafogoGuilherminaGuinle18AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18" element={<BotafogoGuilherminaGuinle18AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500/" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
 
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />
