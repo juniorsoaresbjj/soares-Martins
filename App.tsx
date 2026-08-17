@@ -177,6 +177,15 @@ const AppContent: React.FC = () => {
     if (!hash) {
       window.scrollTo(0, 0);
     }
+
+    // Google Analytics 4 (GA4) - Rastreamento de visualização de páginas em SPA
+    if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
+      (window as any).gtag('config', 'G-XKSBFW851Q', {
+        page_path: location.pathname + location.search + location.hash,
+        page_location: window.location.href,
+        page_title: document.title,
+      });
+    }
   }, [location]);
 
   const navigateToHome = () => {
