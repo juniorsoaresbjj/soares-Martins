@@ -51,6 +51,9 @@ import SantaTeresaJoaquimMurtinho587AuctionPage from './components/SantaTeresaJo
 import SantaTeresaJulioOtoni254AuctionPage from './components/SantaTeresaJulioOtoni254AuctionPage';
 import BarraDaTijucaLucioCosta6500AuctionPage from './components/BarraDaTijucaLucioCosta6500AuctionPage';
 import BotafogoGuilherminaGuinle18AuctionPage from './components/BotafogoGuilherminaGuinle18AuctionPage';
+import FlamengoHonorioDeBarros23AuctionPage from './components/FlamengoHonorioDeBarros23AuctionPage';
+import UrcaPortugal584AuctionPage from './components/UrcaPortugal584AuctionPage';
+import MaracanaMoraisSilva51AuctionPage from './components/MaracanaMoraisSilva51AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -411,6 +414,21 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/casa/rua-julio-otoni-254" element={<SantaTeresaJulioOtoni254AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/imovel-residencial/rua-julio-otoni-254/" element={<SantaTeresaJulioOtoni254AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/imovel-residencial/rua-julio-otoni-254" element={<SantaTeresaJulioOtoni254AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/" element={<FlamengoHonorioDeBarros23AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601" element={<FlamengoHonorioDeBarros23AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23/" element={<FlamengoHonorioDeBarros23AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23" element={<FlamengoHonorioDeBarros23AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/" element={<UrcaPortugal584AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501" element={<UrcaPortugal584AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584/" element={<UrcaPortugal584AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584" element={<UrcaPortugal584AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/" element={<MaracanaMoraisSilva51AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401" element={<MaracanaMoraisSilva51AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51/" element={<MaracanaMoraisSilva51AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51" element={<MaracanaMoraisSilva51AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/" element={<BotafogoGuilherminaGuinle18AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401" element={<BotafogoGuilherminaGuinle18AuctionPage />} />

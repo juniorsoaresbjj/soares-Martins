@@ -2575,5 +2575,309 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to contact the Soares Martins Advogados team for legal representation?", a: "Reach out via WhatsApp or visit our Ipanema office for comprehensive due diligence and courtroom representation through key delivery." }
       ]
     }
+  },
+
+  // Flamengo - Rua Honório de Barros nº 23 - Apto 601 (70 m²)
+  'flamengo-honorio-de-barros-23-apto-601': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Flamengo — Rua Honório de Barros nº 23 — Apto 601',
+      subtitle: 'Rua Honório de Barros, nº 23, Apto 601 — Flamengo, Rio de Janeiro/RJ | 70 m² • Edifício de 1963 com 4 Elevadores e Portaria 24 Horas • Sem Vaga de Garagem para a Unidade • Localização Nobre e Arborizada no Flamengo',
+      address: 'Rua Honório de Barros, 23 - Apto 601 — Flamengo, Rio de Janeiro - RJ',
+      p1Date: '08/09/2026 às 15:00h',
+      p2Date: '10/09/2026 às 15:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0714891-9',
+      rgi: '281.699 (9º RGI/RJ)',
+      val: 'R$ 720.000,00',
+      p2Val: 'R$ 432.000,00 (60% do valor da avaliação)',
+      description: 'Apartamento residencial nº 601, com 70 m² de área privativa, situado na Rua Honório de Barros, nº 23, no tradicional bairro do Flamengo, Zona Sul do Rio de Janeiro/RJ. O edifício possui sólida construção datada de 1963, contando com excelente infraestrutura condominial com 4 elevadores, portaria presencial 24 horas e rigoroso controle de acesso. Segundo informações prestadas pela portaria do condomínio, embora haja garagem no prédio, o apartamento 601 não possui direito à vaga, resultando em custo condominial proporcionalmente mais eficiente. Imóvel devidamente registrado, dimensionado e caracterizado perante o 9º Ofício do Registro Geral de Imóveis da Capital sob a Matrícula nº 281.699 e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a Inscrição Municipal (IPTU) nº 0714891-9. Foi atribuído ao bem o valor de avaliação judicial de R$ 720.000,00, tendo a 2ª praça início com lance mínimo a 60% da avaliação pelo valor de R$ 432.000,00 (desconto de R$ 288.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação oficial e o lance mínimo na 2ª Praça do apartamento no Flamengo?", a: "O imóvel foi avaliado judicialmente em R$ 720.000,00. Na 1ª Praça (08/09/2026 às 15:00h), o lance mínimo corresponde a 100% da avaliação (R$ 720.000,00). Na 2ª Praça (10/09/2026 às 15:00h), o lance mínimo abre com 40% de desconto por R$ 432.000,00 (60% do valor da avaliação)." },
+        { q: "Quais são as características físicas do imóvel e a infraestrutura do edifício na Rua Honório de Barros?", a: "O apartamento 601 tem 70 m² de área privativa. O edifício é uma construção sólida de 1963, dotado de 4 elevadores e portaria presencial 24 horas. Conforme informado pela portaria, o apartamento 601 não possui direito a vaga de garagem, o que assegura custos condominiais mais equilibrados." },
+        { q: "Como é a localização da Rua Honório de Barros no bairro do Flamengo?", a: "A Rua Honório de Barros é uma via residencial arborizada e tranquila, situada em ponto nobre do Flamengo. Fica a poucos minutos a pé do Aterro do Flamengo (Parque Brigadeiro Eduardo Gomes), da Praia do Flamengo, e próxima às estações de Metrô Flamengo e Largo do Machado, com facilidade de acesso ao Centro e demais bairros da Zona Sul." },
+        { q: "Como é realizada a auditoria da Matrícula nº 281.699 do 9º RGI/RJ e do IPTU nº 0714891-9?", a: "O escritório Soares Martins Advogados realiza due diligence documental aprofundada na Matrícula nº 281.699 (9º RGI), certidões enfitêuticas e tributárias municipais (IPTU nº 0714891-9), certidões fiscais e verificação de eventuais passivos condominiais, garantindo a sub-rogação dos débitos no preço do arremate (art. 130 do CTN)." },
+        { q: "É possível adquirir o imóvel de forma parcelada (Artigo 895 do Código de Processo Civil)?", a: "Sim. O arrematante pode apresentar proposta de pagamento parcelado antes do encerramento da praça, com sinal de 25% à vista e saldo dividido em até 30 parcelas mensais corrigidas, com garantia hipotecária sobre o próprio imóvel." },
+        { q: "Como contratar a assessoria do escritório Soares Martins Advogados para este leilão?", a: "Entre em contato via WhatsApp (+55 21 97954-9241) ou agende atendimento em nossa sede em Ipanema/RJ para receber análise preventiva e representação jurídica completa até a imissão na posse e entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Flamengo — Calle Honório de Barros nº 23 — Apto 601',
+      subtitle: 'Calle Honório de Barros, nº 23, Apto 601 — Flamengo, Río de Janeiro/RJ | 70 m² • Edificio de 1963 con 4 Ascensores y Portería 24 Horas • Sin Plaza de Garaje para la Unidad • Ubicación Exclusiva y Arbolada en Flamengo',
+      address: 'Calle Honório de Barros, 23 - Apto 601 — Flamengo, Río de Janeiro - RJ',
+      p1Date: '08/09/2026 a las 15:00h',
+      p2Date: '10/09/2026 a las 15:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0714891-9',
+      rgi: '281.699 (9º RGI/RJ)',
+      val: 'R$ 720.000,00',
+      p2Val: 'R$ 432.000,00 (60% de la evaluación)',
+      description: 'Apartamento residencial nº 601, con 70 m² de superficie privativa, ubicado en la Calle Honório de Barros nº 23, en el tradicional barrio de Flamengo, Zona Sur de Río de Janeiro/RJ. El edificio, construido en 1963, cuenta con 4 ascensores, portería 24 horas y estricto control de acceso. Según información de la portería, aunque el edificio tiene garaje, el apartamento 601 no tiene derecho a plaza de aparcamiento, lo que reduce los gastos comunitarios. Registrado en el 9º Registro de la Propiedad bajo la Matrícula nº 281.699 e Inscripción Municipal de IPTU nº 0714891-9. Valoración judicial de R$ 720.000,00, segunda subasta con puja inicial del 60% por R$ 432.000,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta para el apartamento en Flamengo?", a: "Valoración oficial de R$ 720.000,00. En 1ª Subasta (08/09/2026 a las 15:00h) puja del 100%. En 2ª Subasta (10/09/2026 a las 15:00h) la puja inicial abre al 60% por R$ 432.000,00." },
+        { q: "¿Cuáles son las características del apartamento y del edificio en Calle Honório de Barros?", a: "Apartamento de 70 m² en edificio de 1963 con 4 ascensores y portería 24 horas. La unidad no dispone de plaza de garaje, optimizando los gastos mensuales de comunidad." },
+        { q: "¿Cómo es la ubicación en el barrio de Flamengo?", a: "Calle residencial tranquila y arbolada en Flamengo, muy próxima al Parque do Flamengo (Aterro), la Playa de Flamengo y las estaciones de Metro Flamengo y Largo do Machado." },
+        { q: "¿Cómo se audita la Matrícula nº 281.699 del 9º RGI/RJ?", a: "Realizamos una due diligence completa sobre la Matrícula 281.699 en el 9º RGI, deudas de IPTU (0714891-9) y proceso judicial en el TJRJ con garantía de subrogación legal." },
+        { q: "¿Es posible pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante pago inicial del 25% al contado y saldo restante en hasta 30 cuotas mensuales con garantía hipotecaria sobre el inmueble." },
+        { q: "¿Cómo contratar la asesoría de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp para un dictamen preventivo y asesoramiento legal integral hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Flamengo — Honório de Barros Street #23 — Apt 601',
+      subtitle: 'Honório de Barros Street, #23, Apt 601 — Flamengo, Rio de Janeiro/RJ | 70 sqm • 1963 Building with 4 Elevators & 24/7 Concierge • No Garage Space for Unit • Prime Tree-Lined Location in Flamengo',
+      address: 'Honório de Barros Street, 23 - Apt 601 — Flamengo, Rio de Janeiro - RJ',
+      p1Date: '09/08/2026 at 3:00 PM',
+      p2Date: '09/10/2026 at 3:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0714891-9',
+      rgi: 'Title #281.699 (9th Land Registry)',
+      val: 'R$ 720,000.00',
+      p2Val: 'R$ 432,000.00 (60% starting bid)',
+      description: 'Residential 70 sqm apartment (Unit 601) located at Honório de Barros Street #23, in the esteemed Flamengo neighborhood, South Zone of Rio de Janeiro/RJ. Constructed in 1963, the building features robust architectural engineering with 4 elevators, 24/7 attended lobby, and security access. According to building concierge staff, although the building has a garage, Unit 601 has no assigned parking space, ensuring lower and more cost-effective monthly HOA condominium maintenance fees. Properly registered and dimensioned at the 9th Real Estate Registry of Rio de Janeiro under Title #281.699 and Municipal Tax IPTU #0714891-9. Official court appraisal is R$ 720,000.00, with 2nd auction opening bid starting at 60% of valuation for R$ 432,000.00 (a R$ 288,000.00 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official court valuation and 2nd auction minimum bid for Apt 601 in Flamengo?", a: "Court valuation is R$ 720,000.00. 1st Auction (09/08/2026 at 3:00 PM) starts at 100% (R$ 720,000.00). 2nd Auction (09/10/2026 at 3:00 PM) opens at 60% for R$ 432,000.00." },
+        { q: "What are the specs and amenities of the building on Honório de Barros Street?", a: "70 sqm residential unit in a solid 1963 building equipped with 4 elevators and 24/7 concierge security. The unit does not include a garage space, reducing monthly maintenance overhead." },
+        { q: "What makes the Flamengo location advantageous?", a: "Tranquil tree-lined residential street close to Flamengo Beach, Aterro do Flamengo park, dining, and both Flamengo and Largo do Machado metro stations." },
+        { q: "How is legal due diligence conducted for Title #281.699 (9th Registry)?", a: "We conduct complete title verification on Title #281.699 at the 9th Registry, municipal tax audits (IPTU #0714891-9), and TJRJ court records ensuring full debt subrogation under Art. 130 of the Brazilian Tax Code." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% cash down payment and up to 30 monthly installments secured by a mortgage on the unit." },
+        { q: "How to contact Soares Martins Advogados for legal representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for thorough legal audit and representation through key delivery." }
+      ]
+    }
+  },
+
+  // Urca - Avenida Portugal nº 584 - Apto 501 (Edifício Urca-Mar) (68 m²)
+  'urca-portugal-584-apto-501': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Urca — Avenida Portugal nº 584 — Apto 501 (Edifício Urca-Mar)',
+      subtitle: 'Avenida Portugal, nº 584, Apto 501 — Urca, Rio de Janeiro/RJ | 68 m² • Cobertura/Último Pavimento no Edifício Urca-Mar • Grande Terraço Frontal Descoberto • Suíte, Sala, Cozinha e Área • Localização Privilegiada à Beira da Baía de Guanabara',
+      address: 'Avenida Portugal, 584 - Apto 501 — Urca, Rio de Janeiro - RJ',
+      p1Date: '25/08/2026 às 13:00h',
+      p2Date: '27/08/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0650419-5',
+      rgi: '40.262 (3º RGI/RJ)',
+      val: 'R$ 1.091.220,92',
+      p2Val: 'R$ 545.610,46 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 501, integrante do Condomínio do Edifício Urca-Mar, situado na emblemática Avenida Portugal, nº 584, no nobre e exclusivo bairro da Urca, Zona Sul do Rio de Janeiro/RJ. O imóvel conta com 68 m² de área e está localizado no último pavimento de apartamentos do edifício, possuindo como diferencial expressivo um grande terraço frontal descoberto com vista panorâmica para a Enseada de Botafogo e Baía de Guanabara. Sua divisão interna compreende sala de estar, cozinha, 01 (uma) suíte, 01 (um) banheiro social, área de serviço e o terraço frontal descoberto; unidade sem vaga de garagem vinculada. Imóvel devidamente registrado, dimensionado e caracterizado perante o 3º Ofício do Registro Geral de Imóveis da Capital sob a Matrícula nº 40.262 e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a Inscrição Municipal (IPTU) nº 0650419-5. Foi atribuído ao bem o valor de avaliação judicial de R$ 1.091.220,92, tendo a 2ª praça início com lance mínimo a 50% da avaliação pelo valor de R$ 545.610,46 (desconto de R$ 545.610,46).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação oficial e o lance mínimo na 2ª Praça do apartamento na Urca?", a: "O imóvel foi avaliado judicialmente em R$ 1.091.220,92. Na 1ª Praça (25/08/2026 às 13:00h), o lance mínimo corresponde a 100% da avaliação (R$ 1.091.220,92). Na 2ª Praça (27/08/2026 às 13:00h), o lance mínimo abre com 50% de desconto por R$ 545.610,46 (50% do valor da avaliação)." },
+        { q: "Quais são as características da unidade 501 e do Edifício Urca-Mar na Avenida Portugal?", a: "O apartamento 501 possui 68 m² de área e situa-se no último pavimento residencial do Edifício Urca-Mar. Possui como ponto alto um grande terraço frontal descoberto, sala, cozinha, 1 suíte, 1 banheiro social e área de serviço, sendo uma oportunidade rara de cobertura na orla da Urca. Não possui vaga de garagem." },
+        { q: "Por que a Urca e a Avenida Portugal são consideradas localizações ultraexclusivas no Rio de Janeiro?", a: "A Urca é o bairro residencial com o metro quadrado mais disputado e os mais elevados índices de segurança e qualidade de vida da capital. A Avenida Portugal contorna a enseada da Baía de Guanabara com vista para o Pão de Açúcar, ambiente calmo e bucólico, sem tráfego de passagem e com restrições arquitetônicas que preservam o gabarito histórico." },
+        { q: "Como é realizada a auditoria da Matrícula nº 40.262 do 3º RGI/RJ e do IPTU nº 0650419-5?", a: "O escritório Soares Martins Advogados audita integralmente a Matrícula nº 40.262 junto ao 3º RGI, o cadastro municipal de IPTU nº 0650419-5 e eventuais débitos condominiais ou fiscais, elaborando parecer de viabilidade jurídica que assegura a sub-rogação no preço e a segurança do arrematante." },
+        { q: "É possível adquirir o imóvel de forma parcelada (Artigo 895 do Código de Processo Civil)?", a: "Sim. O interessado pode apresentar proposta de pagamento parcelado antes da data do leilão, com entrada de 25% à vista e o restante em até 30 parcelas mensais corrigidas por índice oficial, com hipoteca judicial averbada na matrícula." },
+        { q: "Como contratar a assessoria do escritório Soares Martins Advogados para este leilão?", a: "Entre em contato via WhatsApp (+55 21 97954-9241) ou agende atendimento em nossa sede em Ipanema/RJ para receber análise preventiva e representação jurídica completa até a imissão na posse e entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Urca — Avenida Portugal nº 584 — Apto 501 (Edificio Urca-Mar)',
+      subtitle: 'Avenida Portugal, nº 584, Apto 501 — Urca, Río de Janeiro/RJ | 68 m² • Ático/Última Planta en el Edificio Urca-Mar • Gran Terraza Frontal Descubierta • 1 Suite, Salón, Cocina y Área • Ubicación Privilegiada frente a la Bahía de Guanabara',
+      address: 'Avenida Portugal, 584 - Apto 501 — Urca, Río de Janeiro - RJ',
+      p1Date: '25/08/2026 a las 13:00h',
+      p2Date: '27/08/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0650419-5',
+      rgi: '40.262 (3º RGI/RJ)',
+      val: 'R$ 1.091.220,92',
+      p2Val: 'R$ 545.610,46 (50% de la evaluación)',
+      description: 'Apartamento residencial nº 501 en el Condominio del Edificio Urca-Mar, situado en la emblemática Avenida Portugal nº 584, en el prestigioso barrio de Urca, Zona Sur de Río de Janeiro/RJ. Con 68 m² de superficie en la última planta del edificio, cuenta con una gran terraza frontal descubierta con vistas a la Ensenada de Botafogo y la Bahía de Guanabara. Consta de salón, cocina, 1 suite, 1 baño social, área de servicio y terraza frontal; sin plaza de garaje. Registrado en el 3º Registro de la Propiedad (Matrícula nº 40.262) e Inscripción Municipal de IPTU nº 0650419-5. Valoración judicial de R$ 1.091.220,92, segunda subasta con puja inicial del 50% por R$ 545.610,46.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta en Urca?", a: "Valoración oficial de R$ 1.091.220,92. En 1ª Subasta (25/08/2026 a las 13:00h) puja del 100%. En 2ª Subasta (27/08/2026 a las 13:00h) la puja inicial abre al 50% por R$ 545.610,46." },
+        { q: "¿Cuáles son las características del ático en el Edificio Urca-Mar?", a: "Apartamento de 68 m² en última planta con gran terraza frontal descubierta, salón, cocina, 1 suite, baño social y área de servicio frente a la Bahía de Guanabara. Sin plaza de garaje." },
+        { q: "¿Por qué Urca y la Avenida Portugal son tan exclusivas?", a: "Urca es el barrio más seguro y bucólico de Río de Janeiro, con vistas al Pan de Azúcar y la bahía, sin tráfico de paso y con altísima demanda inmobiliaria." },
+        { q: "¿Cómo se audita la Matrícula nº 40.262 del 3º RGI/RJ?", a: "Auditoría integral en el 3º RGI, deudas de IPTU (0650419-5), comunidad y proceso judicial con garantía de subrogación legal según el Art. 130 del CTN." },
+        { q: "¿Es posible pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante pago inicial del 25% al contado y saldo restante en hasta 30 cuotas mensuales con garantía hipotecaria sobre el inmueble." },
+        { q: "¿Cómo contratar la asesoría de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp para un dictamen preventivo y asesoramiento legal integral hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Top-Floor Apartment in Urca — Portugal Avenue #584 — Apt 501 (Urca-Mar Building)',
+      subtitle: 'Portugal Avenue, #584, Apt 501 — Urca, Rio de Janeiro/RJ | 68 sqm • Top-Floor Penthouse Unit in Urca-Mar Building • Large Open Front Terrace • 1 Suite, Living Room, Kitchen & Laundry • Exclusive Waterfront Location by Guanabara Bay',
+      address: 'Portugal Avenue, 584 - Apt 501 — Urca, Rio de Janeiro - RJ',
+      p1Date: '08/25/2026 at 1:00 PM',
+      p2Date: '08/27/2026 at 1:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0650419-5',
+      rgi: 'Title #40.262 (3rd Land Registry)',
+      val: 'R$ 1,091,220.92',
+      p2Val: 'R$ 545,610.46 (50% starting bid)',
+      description: 'Top-floor residential 68 sqm apartment (Unit 501) in Condomínio do Edifício Urca-Mar, located along iconic Portugal Avenue #584 in the premier, serene neighborhood of Urca, South Zone of Rio de Janeiro/RJ. Situated on the top residential floor, the property stands out with an expansive open front terrace offering breathtaking waterfront vistas of Guanabara Bay and Botafogo Cove. Interior layout features living room, kitchen, 1 suite, 1 guest bathroom, laundry area, and the open terrace; unit does not include an assigned parking space. Registered at the 3rd Real Estate Registry under Title #40.262 and Municipal Tax IPTU #0650419-5. Court appraisal is R$ 1,091,220.92, with 2nd auction minimum opening bid starting at 50% for R$ 545,610.46 (a R$ 545,610.46 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official court valuation and 2nd auction minimum bid for Apt 501 in Urca?", a: "Court valuation is R$ 1,091,220.92. 1st Auction (08/25/2026 at 1:00 PM) starts at 100% (R$ 1,091,220.92). 2nd Auction (08/27/2026 at 1:00 PM) opens at 50% for R$ 545,610.46." },
+        { q: "What are the specs of Unit 501 in the Urca-Mar Building on Portugal Avenue?", a: "68 sqm top-floor unit with an expansive open front terrace overlooking Guanabara Bay, living room, kitchen, 1 suite, 1 guest bathroom, and laundry area. No assigned garage space." },
+        { q: "What makes Urca and Portugal Avenue one of Rio's most coveted residential settings?", a: "Urca is Rio's safest and most charming neighborhood, featuring tranquil tree-lined waterfront avenues, panoramic views of Sugarloaf Mountain, zero through-traffic, and strict preservation guidelines." },
+        { q: "How is legal due diligence conducted for Title #40.262 (3rd Registry)?", a: "We conduct complete title verification on Title #40.262 at the 3rd Registry, municipal tax audits (IPTU #0650419-5), and court records ensuring full debt clearance under Art. 130 of the Brazilian Tax Code." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court-registered mortgage on the property." },
+        { q: "How to contact Soares Martins Advogados for legal representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for thorough legal audit and representation through key delivery." }
+      ]
+    }
+  },
+
+  // Maracanã - Rua Morais e Silva nº 51 - Apto 1401, Bloco 2 (85 m² / Vaga na Garagem Elevada / Matrícula 30.179)
+  'maracana-morais-e-silva-51-apto-1401': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Maracanã — Rua Morais e Silva nº 51 — Apto 1401, Bloco 2',
+      subtitle: 'Rua Morais e Silva, nº 51, Apto 1401, Bloco 2 — Maracanã, Rio de Janeiro/RJ | 85 m² • Andar Alto • Vaga na Garagem Elevada • Próximo à UERJ, Estádio do Maracanã e Metrô',
+      address: 'Rua Morais e Silva, 51 - Apto 1401, Bloco 2 — Maracanã, Rio de Janeiro - RJ',
+      p1Date: '08/09/2026 às 11:30h',
+      p2Date: '10/09/2026 às 14:30h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.514.716-8',
+      rgi: '30.179 (11º RGI/RJ)',
+      val: 'R$ 610.000,00',
+      p2Val: 'R$ 305.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 1401 do Bloco 2, com 85 metros quadrados (85 m²) de área edificada e direito a 01 (uma) vaga de garagem destinada, indistintamente, na garagem elevada do mesmo bloco, situado no Condomínio da Rua Morais e Silva, nº 51, no tradicional bairro do Maracanã, Zona Norte do Rio de Janeiro/RJ. Imóvel situado em andar alto, atualmente fechado, desfrutando de ótima iluminação e vista livre. Devidamente registrado, dimensionado e caracterizado perante o Cartório do 11º Ofício de Registro de Imóveis da Capital sob a Matrícula nº 30.179 e cadastrado na Prefeitura Municipal sob a Inscrição de IPTU nº 1.514.716-8. Avaliado judicialmente em R$ 610.000,00, com lance inicial na 2ª Praça a partir de 50% da avaliação por R$ 305.000,00 (desconto de R$ 305.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação oficial e o lance mínimo na 2ª Praça para o apartamento no Maracanã?", a: "O imóvel foi avaliado judicialmente em R$ 610.000,00. Na 1ª Praça (08/09/2026 às 11:30h), o lance mínimo corresponde a 100% da avaliação (R$ 610.000,00). Na 2ª Praça (10/09/2026 às 14:30h), o lance mínimo abre com 50% de desconto por apenas R$ 305.000,00 (50% da avaliação)." },
+        { q: "Quais são as características do apartamento 1401 no Bloco 2 da Rua Morais e Silva nº 51?", a: "O imóvel possui 85 m² de área edificada, localiza-se no 14º pavimento (andar alto) do Bloco 2 e possui direito a 1 vaga de garagem situada na garagem elevada do condomínio. O apartamento encontra-se atualmente fechado." },
+        { q: "Por que a localização na Rua Morais e Silva no Maracanã é tão valorizada?", a: "A Rua Morais e Silva está no coração do Maracanã, próxima à Universidade do Estado do Rio de Janeiro (UERJ), Estádio Mário Filho (Maracanã), Parque Aquático Júlio Delamare, Estação de Metrô Maracanã e São Francisco Xavier, com vasto comércio, colégios e acesso rápido ao Centro e Zona Sul." },
+        { q: "Como é realizada a auditoria da Matrícula nº 30.179 do 11º RGI/RJ e do IPTU nº 1.514.716-8?", a: "O escritório Soares Martins Advogados realiza due diligence profunda da Matrícula nº 30.179 no 11º RGI, averiguações de débitos de IPTU (1.514.716-8), débitos condominiais e regularidade do processo judicial perante o TJRJ, assegurando sub-rogação de tributos no preço (art. 130 do CTN)." },
+        { q: "É possível adquirir o apartamento de forma parcelada (Artigo 895 do CPC)?", a: "Sim. O interessado pode apresentar proposta formal antes do leilão com entrada de no mínimo 25% à vista e o saldo remanescente em até 30 parcelas mensais corrigidas por índice oficial, com hipoteca judicial averbada na matrícula." },
+        { q: "Como contratar a assessoria jurídica de Soares Martins Advogados para este leilão?", a: "Entre em contato via WhatsApp (+55 21 97954-9241) ou agende atendimento em nossa sede em Ipanema/RJ para obter relatório completo de viabilidade e representação jurídica até a imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Maracanã — Calle Morais e Silva nº 51 — Apto 1401, Bloque 2',
+      subtitle: 'Rua Morais e Silva, nº 51, Apto 1401, Bloque 2 — Maracanã, Río de Janeiro/RJ | 85 m² • Piso Alto • Plaza en Garaje Elevado • Cerca de UERJ, Estadio Maracanã y Metro',
+      address: 'Rua Morais e Silva, 51 - Apto 1401, Bloco 2 — Maracanã, Río de Janeiro - RJ',
+      p1Date: '08/09/2026 a las 11:30h',
+      p2Date: '10/09/2026 a las 14:30h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.514.716-8',
+      rgi: '30.179 (11º RGI/RJ)',
+      val: 'R$ 610.000,00',
+      p2Val: 'R$ 305.000,00 (50% de la evaluación)',
+      description: 'Apartamento residencial nº 1401 del Bloque 2, con 85 metros cuadrados (85 m²) de superficie y derecho a 01 (una) plaza de garaje en el garaje elevado del mismo bloque, situado en Rua Morais e Silva nº 51, Maracanã, Río de Janeiro/RJ. Ubicado en planta alta, actualmente cerrado, con excelente iluminación natural. Registrado en el 11º Registro de la Propiedad (Matrícula nº 30.179) e IPTU nº 1.514.716-8. Valoración judicial de R$ 610.000,00, segunda subasta con puja inicial del 50% por R$ 305.000,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta en Maracanã?", a: "Valoración judicial de R$ 610.000,00. En 1ª Subasta (08/09/2026 a las 11:30h) puja del 100%. En 2ª Subasta (10/09/2026 a las 14:30h) la puja inicial abre al 50% por R$ 305.000,00." },
+        { q: "¿Cuáles son las características del apartamento 1401 en el Bloque 2?", a: "Apartamento de 85 m² en planta alta del Bloque 2 con 1 plaza de garaje en garaje elevado. Actualmente se encuentra cerrado." },
+        { q: "¿Por qué invertir en Rua Morais e Silva en Maracanã?", a: "Excelente ubicación junto a la UERJ, Estadio Maracanã y metro, con gran demanda residencial y fácil acceso a toda la ciudad." },
+        { q: "¿Cómo se audita la Matrícula nº 30.179 del 11º RGI?", a: "Auditoría integral de la matrícula, deudas de IPTU (1.514.716-8) y proceso judicial con garantía de subrogación fiscal según el Art. 130 del CTN." },
+        { q: "¿Es posible pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, 25% de entrada y hasta 30 cuotas mensuales con garantía hipotecaria sobre la matrícula del inmueble." },
+        { q: "¿Cómo contratar la asesoría legal?", a: "Contáctenos vía WhatsApp para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Maracanã — Rua Morais e Silva #51 — Apt 1401, Block 2',
+      subtitle: 'Rua Morais e Silva, #51, Apt 1401, Block 2 — Maracanã, Rio de Janeiro/RJ | 85 sqm • High Floor • Elevated Garage Space • Near UERJ, Maracanã Stadium & Metro',
+      address: 'Rua Morais e Silva, 51 - Apt 1401, Block 2 — Maracanã, Rio de Janeiro - RJ',
+      p1Date: '09/08/2026 at 11:30 AM',
+      p2Date: '09/10/2026 at 2:30 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.514.716-8',
+      rgi: 'Title #30,179 (11th Land Registry)',
+      val: 'R$ 610,000.00',
+      p2Val: 'R$ 305,000.00 (50% starting bid)',
+      description: 'Residential 85 sqm apartment (Unit 1401, Block 2) with right to one (1) parking space in the elevated garage structure of the same block, located in the condominium at Rua Morais e Silva #51 in Maracanã, Rio de Janeiro/RJ. Positioned on a high floor, currently closed, enjoying open views and great natural lighting. Registered at the 11th Real Estate Registry under Title #30,179 and Municipal Tax IPTU #1.514.716-8. Official court appraisal is R$ 610,000.00, with 2nd auction minimum bid opening at 50% for R$ 305,000.00 (a R$ 305,000.00 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official court valuation and 2nd auction opening bid in Maracanã?", a: "Court valuation is R$ 610,000.00. 1st Auction (09/08/2026 at 11:30 AM) opens at 100% (R$ 610,000.00). 2nd Auction (09/10/2026 at 2:30 PM) opens at a 50% discount for R$ 305,000.00." },
+        { q: "What are the specs of Unit 1401, Block 2 on Rua Morais e Silva #51?", a: "85 sqm high-floor apartment in Block 2 with 1 parking space in the elevated garage structure. The unit is currently closed." },
+        { q: "Why is Maracanã and Rua Morais e Silva a prime residential location?", a: "Located near UERJ University, Maracanã Stadium, metro stations, and key transport corridors connecting to Downtown and the South Zone." },
+        { q: "How is legal due diligence conducted for Title #30,179 (11th Registry)?", a: "We audit Title #30,179 at the 11th Registry, municipal tax records (IPTU #1.514.716-8), condo debts, and court files ensuring clean transfer under Art. 130 of the CTN." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the property title." },
+        { q: "How to hire Soares Martins Advogados for legal representation?", a: "Reach out via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for comprehensive risk analysis and full representation." }
+      ]
+    }
+  },
+
+  // Niterói - Avenida Ary Parreiras nº 689 - Apto 401, Edifício Lungomare (2 Vagas de Garagem / Matrícula 19.697 - 8º RGI)
+  'niteroi-ary-parreiras-689-apto-401': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Niterói — Avenida Ary Parreiras nº 689 — Apto 401 (Edifício Lungomare)',
+      subtitle: 'Avenida Ary Parreiras, nº 689, Apto 401 — Edifício Lungomare, Santa Rosa, Niterói/RJ | 2 Vagas de Garagem • Próximo a Icaraí, Polo Gastronômico e Ponte Rio-Niterói',
+      address: 'Avenida Ary Parreiras, 689 - Apto 401 (Edifício Lungomare) — Santa Rosa, Niterói - RJ',
+      p1Date: '27/08/2026 às 12:30h',
+      p2Date: '08/09/2026 às 12:30h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca de Niterói',
+      iptu: '1.923.978',
+      rgi: '19.697 (8º RGI)',
+      val: 'R$ 500.000,00',
+      p2Val: 'R$ 250.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 401 do Edifício "LUNGOMARE", situado na Avenida Ary Parreiras, nº 689, no valorizado bairro de Santa Rosa, Niterói/RJ, com direito a 02 (duas) vagas de garagem. O condomínio dispõe de excelente padrão construtivo, portaria e segurança, localizado estrategicamente com acesso imediato a Icaraí, polo médico, colégios de excelência e vias expressas para o Centro do Rio de Janeiro. Devidamente registrado, dimensionado e caracterizado perante o Cartório do 8º Ofício de Registro de Imóveis sob a Matrícula nº 19.697 e cadastrado na Prefeitura de Niterói sob a Inscrição Municipal de IPTU nº 1.923.978. Avaliado judicialmente em R$ 500.000,00, com abertura da 2ª Praça a partir de 50% da avaliação por R$ 250.000,00 (economia direta de R$ 250.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial e o lance mínimo na 2ª Praça para o Edifício Lungomare em Niterói?", a: "O imóvel foi avaliado judicialmente em R$ 500.000,00. Na 1ª Praça (27/08/2026 às 12:30h), o lance mínimo corresponde a 100% da avaliação (R$ 500.000,00). Na 2ª Praça (08/09/2026 às 12:30h), o lance inicial abre com 50% de desconto por apenas R$ 250.000,00." },
+        { q: "Quais são as principais características do apartamento 401 na Avenida Ary Parreiras nº 689?", a: "O apartamento 401 integra o Edifício Lungomare em Santa Rosa, Niterói, possuindo como diferencial expressivo o direito a 2 (duas) vagas de garagem, em condomínio estruturado e em localização nobre." },
+        { q: "Por que Santa Rosa e a Avenida Ary Parreiras são altamente valorizadas em Niterói?", a: "A Avenida Ary Parreiras é uma das principais vias arteriais de Niterói, interligando Santa Rosa diretamente à Praia de Icaraí, à Rua Nóbrega (Polo Gastronômico) e à subida da Ponte Rio-Niterói. Região com forte infraestrutura de serviços, hospitais de ponta e escolas tradicionais." },
+        { q: "Como é conduzida a auditoria jurídica da Matrícula nº 19.697 do 8º RGI e do IPTU nº 1.923.978?", a: "O escritório Soares Martins Advogados audita a Matrícula nº 19.697 do 8º RGI de Niterói, débitos de IPTU (1.923.978), quitação condominial e a higidez do processo judicial no TJRJ, assegurando a sub-rogação de tributos no preço arrematado (Art. 130 do CTN)." },
+        { q: "É possível adquirir o apartamento de forma parcelada (Artigo 895 do CPC)?", a: "Sim. O interessado pode apresentar proposta formal antes do início da praça com entrada de no mínimo 25% à vista e o saldo em até 30 parcelas mensais corrigidas por índice oficial, com hipoteca judicial averbada na matrícula." },
+        { q: "Como contratar a assessoria jurídica do escritório para arrematar este imóvel?", a: "Entre em contato via WhatsApp (+55 21 97954-9241) ou agende atendimento para elaboração do relatório preventivo de riscos e condução integral até a posse física do imóvel." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Niterói — Avenida Ary Parreiras nº 689 — Apto 401 (Edificio Lungomare)',
+      subtitle: 'Avenida Ary Parreiras, nº 689, Apto 401 — Edificio Lungomare, Santa Rosa, Niterói/RJ | 2 Plazas de Garaje • Cerca de Icaraí, Polo Gastronómico y Puente Río-Niterói',
+      address: 'Avenida Ary Parreiras, 689 - Apto 401 (Edificio Lungomare) — Santa Rosa, Niterói - RJ',
+      p1Date: '27/08/2026 a las 12:30h',
+      p2Date: '08/09/2026 a las 12:30h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de Niterói',
+      iptu: '1.923.978',
+      rgi: '19.697 (8º RGI)',
+      val: 'R$ 500.000,00',
+      p2Val: 'R$ 250.000,00 (50% de la evaluación)',
+      description: 'Apartamento residencial nº 401 del Edificio "LUNGOMARE", situado en Avenida Ary Parreiras nº 689, Santa Rosa, Niterói/RJ, con derecho a 02 (dos) plazas de garaje. Edificio de excelente categoría y seguridad, con conexión directa a Icaraí, comercios y acceso rápido a Río de Janeiro. Registrado en el 8º Registro de la Propiedad (Matrícula nº 19.697) e IPTU nº 1.923.978. Valoración judicial de R$ 500.000,00, segunda subasta con puja inicial del 50% por R$ 250.000,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la valoración oficial y la puja mínima en 2ª Subasta en Niterói?", a: "Valoración judicial de R$ 500.000,00. En 1ª Subasta (27/08/2026 a las 12:30h) puja del 100%. En 2ª Subasta (08/09/2026 a las 12:30h) la puja inicial abre al 50% por R$ 250.000,00." },
+        { q: "¿Cuáles son las características del apartamento 401 en el Edificio Lungomare?", a: "Apartamento en el Edificio Lungomare en Santa Rosa, Niterói, con 2 plazas de garaje en condominio consolidado." },
+        { q: "¿Por qué invertir en Avenida Ary Parreiras en Santa Rosa?", a: "Excelente ubicación conectada con la Playa de Icaraí, polo gastronómico y acceso al Puente Río-Niterói." },
+        { q: "¿Cómo se audita la Matrícula nº 19.697 del 8º RGI?", a: "Auditoría completa de matrícula, deudas de IPTU (1.923.978) y proceso judicial con garantía de subrogación fiscal según el Art. 130 del CTN." },
+        { q: "¿Es posible pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, 25% de entrada y hasta 30 cuotas mensuales con garantía hipotecaria sobre la matrícula del inmueble." },
+        { q: "¿Cómo contratar la asesoría legal?", a: "Contáctenos vía WhatsApp para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Niterói — Avenida Ary Parreiras #689 — Apt 401 (Lungomare Building)',
+      subtitle: 'Avenida Ary Parreiras, #689, Apt 401 — Edifício Lungomare, Santa Rosa, Niterói/RJ | 2 Parking Spaces • Near Icaraí Beach, Gourmet District & Rio-Niterói Bridge',
+      address: 'Avenida Ary Parreiras, 689 - Apt 401 (Edifício Lungomare) — Santa Rosa, Niterói - RJ',
+      p1Date: '08/27/2026 at 12:30 PM',
+      p2Date: '09/08/2026 at 12:30 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Niterói Comarca',
+      iptu: '1.923.978',
+      rgi: 'Title #19,697 (8th Land Registry)',
+      val: 'R$ 500,000.00',
+      p2Val: 'R$ 250,000.00 (50% starting bid)',
+      description: 'Residential Apartment #401 in "EDIFÍCIO LUNGOMARE", located at Avenida Ary Parreiras #689 in the desirable neighborhood of Santa Rosa, Niterói/RJ, including the right to 02 (two) parking spaces. The Lungomare condominium features solid construction quality, 24h concierge, and strategic proximity to Icaraí beach, hospitals, schools, and rapid access to Rio de Janeiro via the Rio-Niterói bridge. Registered at the 8th Real Estate Registry under Title #19,697 and Municipal Tax IPTU #1.923.978. Official court appraisal is R$ 500,000.00, with 2nd auction minimum bid opening at 50% for R$ 250,000.00 (a R$ 250,000.00 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official court valuation and 2nd auction opening bid in Niterói?", a: "Court valuation is R$ 500,000.00. 1st Auction (08/27/2026 at 12:30 PM) opens at 100% (R$ 500,000.00). 2nd Auction (09/08/2026 at 12:30 PM) opens at a 50% discount for R$ 250,000.00." },
+        { q: "What are the specs of Unit 401 in Edifício Lungomare on Avenida Ary Parreiras #689?", a: "Apartment in Edifício Lungomare with the major asset of 2 private parking spaces in a prime Santa Rosa location." },
+        { q: "Why is Santa Rosa and Avenida Ary Parreiras a prime residential hub in Niterói?", a: "Avenida Ary Parreiras directly connects Santa Rosa to Icaraí Beach, the Nóbrega culinary hub, top hospitals, and the Rio-Niterói bridge." },
+        { q: "How is legal due diligence conducted for Title #19,697 (8th Registry)?", a: "We audit Title #19,697 at the 8th Registry, municipal tax records (IPTU #1.923.978), condo debts, and court files ensuring clean transfer under Art. 130 of the CTN." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the property title." },
+        { q: "How to hire Soares Martins Advogados for legal representation?", a: "Reach out via WhatsApp (+55 21 97954-9241) or visit our office for comprehensive risk analysis and representation through key delivery." }
+      ]
+    }
   }
 };

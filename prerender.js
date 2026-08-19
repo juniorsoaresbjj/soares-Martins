@@ -69,6 +69,9 @@ const routesToPrerender = [
   '/blog/vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos/',
   '/blog/bicicleta-eletrica-em-condominio-regras-de-uso-o-que-diz-a-lei/',
   // New Auction routes
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
   // Blog Posts (English)

@@ -143,6 +143,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Maracanã/RJ',
+        title: 'Leilão Judicial de Apartamento no Maracanã — Rua Morais e Silva nº 51 — Apto 1401, Bloco 2 (85 m²)',
+        desc: 'Apartamento em andar alto com 85 m² e direito a 1 vaga em garagem elevada no Bloco 2. Localização estratégica próximo à UERJ, Estádio do Maracanã e Metrô. Unidade fechada. Matrícula nº 30.179 (11º RGI) e IPTU nº 1.514.716-8.',
+        p1Label: '1ª Praça (08/09/2026):',
+        p1Val: 'R$ 610.000,00',
+        p2Label: '2ª Praça (10/09/2026):',
+        p2Val: 'R$ 305.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201401%20Bloco%202%20na%20Rua%20Morais%20e%20Silva%2051%20no%20Maracan%C3%A3.'
+      },
+      {
+        tag: 'Residencial • Urca/RJ',
+        title: 'Leilão Judicial de Apartamento na Urca — Avenida Portugal nº 584 — Apto 501 (Edifício Urca-Mar — 68 m²)',
+        desc: 'Apartamento no último pavimento com 68 m² no Edifício Urca-Mar, com grande terraço frontal descoberto e vista para a Enseada de Botafogo e Baía de Guanabara. Sala, cozinha, 1 suíte, banheiro social e área de serviço; sem vaga de garagem. Matrícula nº 40.262 (3º RGI) e IPTU nº 0650419-5.',
+        p1Label: '1ª Praça (25/08/2026):',
+        p1Val: 'R$ 1.091.220,92',
+        p2Label: '2ª Praça (27/08/2026):',
+        p2Val: 'R$ 545.610,46 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20501%20no%20Edif%C3%ADcio%20Urca-Mar%20na%20Avenida%20Portugal%20584%20na%20Urca.'
+      },
+      {
+        tag: 'Residencial • Flamengo/RJ',
+        title: 'Leilão Judicial de Apartamento no Flamengo — Rua Honório de Barros nº 23 — Apto 601 (70 m²)',
+        desc: 'Apartamento de 70 m² em sólida construção de 1963 com 4 elevadores e portaria 24h na Rua Honório de Barros, via nobre e arborizada do Flamengo próxima ao Aterro e ao Metrô. Sem vaga de garagem vinculada à unidade. Matrícula nº 281.699 (9º RGI) e IPTU nº 0714891-9.',
+        p1Label: '1ª Praça (08/09/2026):',
+        p1Val: 'R$ 720.000,00',
+        p2Label: '2ª Praça (10/09/2026):',
+        p2Val: 'R$ 432.000,00 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20601%20na%20Rua%20Hon%C3%B3rio%20de%20Barros%2023%20no%20Flamengo.'
+      },
+      {
         tag: 'Residencial • Botafogo/RJ',
         title: 'Leilão Judicial de Apartamento em Botafogo — Rua Guilhermina Guinle nº 18 — Apto 401 (72 m²)',
         desc: 'Apartamento de frente com 72 m² em clássico edifício de esquina de 1959 entre a Rua Guilhermina Guinle e Rua Voluntários da Pátria. Localização nobre em rua tranquila, a poucos passos do Metrô Botafogo e farto comércio. Matrícula nº 60.137 (3º RGI) e IPTU nº 0.277.088-1.',
@@ -573,6 +606,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Maracanã/RJ',
+        title: 'Subasta Judicial de Apartamento en Maracanã — Calle Morais e Silva nº 51 — Apto 1401, Bloque 2 (85 m²)',
+        desc: 'Apartamento en planta alta con 85 m² y 1 plaza en garaje elevado en el Bloque 2. Ubicación estratégica junto a la UERJ, Estadio Maracanã y metro. Unidad cerrada. Matrícula nº 30.179 (11º RGI) e IPTU nº 1.514.716-8.',
+        p1Label: '1ª Subasta (08/09/2026):',
+        p1Val: 'R$ 610.000,00',
+        p2Label: '2ª Subasta (10/09/2026):',
+        p2Val: 'R$ 305.000,00 (50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201401%20Bloque%202%20en%20Calle%20Morais%20e%20Silva%2051%20en%20Maracan%C3%A3.'
+      },
+      {
+        tag: 'Residencial • Urca/RJ',
+        title: 'Subasta Judicial de Apartamento en Urca — Avenida Portugal nº 584 — Apto 501 (Edificio Urca-Mar — 68 m²)',
+        desc: 'Apartamento en última planta de 68 m² en el Edificio Urca-Mar, con gran terraza frontal descubierta y vistas a la Ensenada de Botafogo y Bahía de Guanabara. Salón, cocina, 1 suite, baño social y área de servicio; sin plaza de garaje. Matrícula nº 40.262 (3º RGI) e IPTU nº 0650419-5.',
+        p1Label: '1ª Subasta (25/08/2026):',
+        p1Val: 'R$ 1.091.220,92',
+        p2Label: '2ª Subasta (27/08/2026):',
+        p2Val: 'R$ 545.610,46 (50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20501%20en%20Avenida%20Portugal%20584%20en%20Urca.'
+      },
+      {
+        tag: 'Residencial • Flamengo/RJ',
+        title: 'Subasta Judicial de Apartamento en Flamengo — Calle Honório de Barros nº 23 — Apto 601 (70 m²)',
+        desc: 'Apartamento de 70 m² en sólida construcción de 1963 con 4 ascensores y portería 24h en Calle Honório de Barros, vía exclusiva y arbolada en Flamengo cerca del Parque y del Metro. Sin plaza de garaje asignada a la unidad. Matrícula nº 281.699 (9º RGI) e IPTU nº 0714891-9.',
+        p1Label: '1ª Subasta (08/09/2026):',
+        p1Val: 'R$ 720.000,00',
+        p2Label: '2ª Subasta (10/09/2026):',
+        p2Val: 'R$ 432.000,00 (60% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20601%20en%20Calle%20Hon%C3%B3rio%20de%20Barros%2023%20en%20Flamengo.'
+      },
+      {
         tag: 'Residencial • Botafogo/RJ',
         title: 'Subasta Judicial de Apartamento en Botafogo — Calle Guilhermina Guinle nº 18 — Apto 401 (72 m²)',
         desc: 'Apartamento exterior de 72 m² en edificio de 1959 en esquina entre Calle Guilhermina Guinle y Calle Voluntários da Pátria. Ubicación privilegiada en calle tranquila, a pocos pasos del Metro Botafogo y comercio. Matrícula nº 60.137 (3º RGI) e IPTU nº 0.277.088-1.',
@@ -980,6 +1046,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Maracanã/RJ',
+        title: 'Judicial Auction of Apartment in Maracanã — Rua Morais e Silva #51 — Apt 1401, Block 2 (85 sqm)',
+        desc: 'High-floor 85 sqm apartment with 1 parking space in elevated garage of Block 2. Strategic location near UERJ University, Maracanã Stadium, and Metro. Currently closed. Title #30,179 (11th Registry) & IPTU #1.514.716-8.',
+        p1Label: '1st Auction (09/08/2026):',
+        p1Val: 'R$ 610,000.00',
+        p2Label: '2nd Auction (09/10/2026):',
+        p2Val: 'R$ 305,000.00 (50% discount)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/',
+        waText: 'Hello,%20I%20would%20like%20information%20regarding%20the%20auction%20for%20apartment%201401%20Block%202%20at%20Rua%20Morais%20e%20Silva%2051%20in%20Maracan%C3%A3.'
+      },
+      {
+        tag: 'Residential • Urca/RJ',
+        title: 'Judicial Auction of Top-Floor Apartment in Urca — Portugal Avenue #584 — Apt 501 (Urca-Mar Building — 68 sqm)',
+        desc: 'Top-floor 68 sqm apartment in the Urca-Mar Building, featuring an expansive open front terrace with panoramic views of Botafogo Cove and Guanabara Bay. Living room, kitchen, 1 suite, guest bathroom, and laundry; no garage space. Title #40.262 (3rd Registry) & IPTU #0650419-5.',
+        p1Label: '1st Auction (08/25/2026):',
+        p1Val: 'R$ 1,091,220.92',
+        p2Label: '2nd Auction (08/27/2026):',
+        p2Val: 'R$ 545,610.46 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Portugal%20Avenue%20584%20Apt%20501%20in%20Urca.'
+      },
+      {
+        tag: 'Residential • Flamengo/RJ',
+        title: 'Judicial Auction of Apartment in Flamengo — Honório de Barros Street #23 — Apt 601 (70 sqm)',
+        desc: 'Residential 70 sqm apartment in a 1963 building with 4 elevators and 24/7 concierge on Honório de Barros Street, a tree-lined prime residential street in Flamengo near the park and metro. Unit has no assigned parking. Title #281.699 (9th Registry) & IPTU #0714891-9.',
+        p1Label: '1st Auction (09/08/2026):',
+        p1Val: 'R$ 720,000.00',
+        p2Label: '2nd Auction (09/10/2026):',
+        p2Val: 'R$ 432,000.00 (60% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Hon%C3%B3rio%20de%20Barros%2023%20in%20Flamengo.'
+      },
       {
         tag: 'Residential • Botafogo/RJ',
         title: 'Judicial Auction of Apartment in Botafogo — Guilhermina Guinle Street #18 — Apt 401 (72 sqm)',
