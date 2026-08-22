@@ -68,7 +68,13 @@ const routesToPrerender = [
   '/blog/sindico-morador-ou-sindico-profissional-qual-a-diferenca/',
   '/blog/vaga-de-garagem-em-condominio-regras-uso-aluguel-conflitos/',
   '/blog/bicicleta-eletrica-em-condominio-regras-de-uso-o-que-diz-a-lei/',
+  '/blog/benfeitorias-no-imovel-alugado-quais-sao-os-direitos/',
+  '/blog/estrangeiro-pode-comprar-imovel-em-leilao-no-brasil/',
+  '/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/',
+  '/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/',
   // New Auction routes
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22-apto-620/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159-apto-803/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/',

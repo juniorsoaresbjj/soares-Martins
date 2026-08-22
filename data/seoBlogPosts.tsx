@@ -4408,6 +4408,874 @@ export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] =>
           </div>
         </div>
       )
+    },
+    {
+      id: 130,
+      slug: 'benfeitorias-no-imovel-alugado-quais-sao-os-direitos',
+      title: 'Benfeitorias no imóvel alugado: quais são os direitos?',
+      excerpt: 'Entenda as regras sobre benfeitorias no imóvel alugado: necessárias, úteis e voluptuárias. Saiba se o locador é obrigado a indenizar e o que diz o STJ.',
+      readTime: `19 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário',
+      date: '21 Ago, 2026',
+      dateIso: '2026-08-21',
+      image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <h1 className="text-white text-3xl md:text-4xl font-serif font-bold leading-tight">
+            Benfeitorias no Imóvel Alugado: Quais São os Direitos do Locador e do Inquilino?
+          </h1>
+
+          <p>
+            Ao alugar um imóvel residencial ou comercial no Rio de Janeiro, é comum que o inquilino queira ou precise realizar modificações, reparos e adequações para tornar o espaço mais confortável, funcional ou adequado à sua atividade profissional. Desde a substituição de uma tubulação antiga com vazamento até a instalação de armários planejados, pisos modernos ou ar-condicionado split, as reformas trazem valorização ao bem, mas costumam ser o estopim de acalorados conflitos jurídicos ao final da locação.
+          </p>
+
+          <p>
+            Muitas dúvidas surgem na hora da entrega das chaves: o proprietário é obrigado a ressarcir o dinheiro gasto na obra? O locatário pode descontar as notas fiscais do valor do aluguel mensal? É permitido desmontar e levar embora as melhorias realizadas? E, principalmente, o contrato de locação pode anular completamente o direito a qualquer reembolso? Compreender com precisão a distinção entre os tipos de obras e o posicionamento consolidado dos tribunais é a única forma de garantir segurança jurídica e evitar perdas patrimoniais expressivas.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que são benfeitorias e quais são os 3 tipos previstos no Código Civil?</h2>
+          <p>
+            No Direito Imobiliário brasileiro, o conceito de <strong>benfeitoria</strong> refere-se a qualquer obra, intervenção ou melhoramento realizado pelo homem na estrutura de um bem imóvel já existente. O Código Civil (Lei Federal nº 10.406/2002), em seu artigo 96, classifica as benfeitorias em três modalidades com naturezas e consequências jurídicas totalmente distintas:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-3 text-text-muted text-sm">
+            <li>
+              <strong>1. Benfeitorias Necessárias (Art. 96, § 3º do Código Civil):</strong> São aquelas que têm por finalidade essencial conservar o imóvel, evitar sua ruína, deterioração ou garantir a sua habitabilidade básica e segurança estrutural. Não visam ao embelezamento, mas sim à preservação do patrimônio. <em>Exemplos práticos:</em> conserto de telhado com goteiras graves, substituição de encanamento hidráulico rompido embutido na parede, restauração de fiação elétrica em curto-circuito, escoramento de paredes com risco de desabamento ou reforço na fundação contra abalos.
+            </li>
+            <li>
+              <strong>2. Benfeitorias Úteis (Art. 96, § 2º do Código Civil):</strong> São aquelas que aumentam ou facilitam o uso, a comodidade, a segurança e a funcionalidade do imóvel, embora não sejam estritamente indispensáveis à sua conservação. <em>Exemplos práticos:</em> instalação de grades de proteção em janelas, envidraçamento de varanda (cortina de vidro), colocação de portão eletrônico na garagem, instalação de aquecedor a gás de passagem, ampliação da rede de tomadas ou construção de um lavabo adicional.
+            </li>
+            <li>
+              <strong>3. Benfeitorias Voluptuárias (Art. 96, § 1º do Código Civil):</strong> São aquelas destinadas ao mero deleite, recreio, estética, luxo ou preferência pessoal do ocupante, não aumentando a utilidade prática do bem nem sendo necessárias para sua conservação. <em>Exemplos práticos:</em> aplicação de papéis de parede importados, sancas de gesso decorativas com iluminação indireta (LED), colocação de painéis de madeira ripada, espelhos bisotados colados em alvenaria, torneiras douradas de design ou paisagismo ornamental no jardim.
+            </li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que diz a Lei do Inquilinato (Lei nº 8.245/1991) sobre reembolso e indenização?</h2>
+          <p>
+            A <strong>Lei do Inquilinato</strong> disciplina de forma expressa, em seus artigos 35 e 36, o regime de indenização e o direito de retenção de cada categoria de benfeitoria realizada pelo locatário:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">Regra para Benfeitorias Necessárias (Art. 35):</h3>
+              <p className="text-text-muted text-sm">
+                Salvo disposição contratual em contrário, as benfeitorias necessárias introduzidas pelo locatário, <strong>ainda que não autorizadas pelo locador</strong>, são sempre indenizáveis e conferem ao inquilino o <strong>direito de retenção</strong> do imóvel (direito de permanecer na posse do bem até receber o ressarcimento integral comprovado).
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">Regra para Benfeitorias Úteis (Art. 35):</h3>
+              <p className="text-text-muted text-sm">
+                As benfeitorias úteis são indenizáveis e geram direito de retenção <strong>somente se tiverem sido prévia e expressamente autorizadas por escrito pelo locador</strong>. Caso o inquilino execute uma obra útil por conta própria, sem a anuência formal do proprietário, ele não terá direito a qualquer reembolso financeiro.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">Regra para Benfeitorias Voluptuárias (Art. 36):</h3>
+              <p className="text-text-muted text-sm">
+                As benfeitorias voluptuárias <strong>nunca são indenizáveis pelo locador</strong>. Contudo, o inquilino tem o direito de levantá-las (retirá-las ao sair), desde que a remoção possa ser feita sem causar danos físicos ou deterioração à estrutura do imóvel (<em>jus tollendi</em>).
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O contrato de aluguel pode afastar o direito de indenização? A Súmula 335 do STJ</h2>
+          <p>
+            Esta é a dúvida mais frequente e o ponto em que ocorrem os maiores prejuízos financeiros para locatários desavisados. A resposta jurídica é taxativa: <strong>SIM, o contrato de locação pode afastar totalmente o direito a indenização e retenção por qualquer tipo de benfeitoria</strong>.
+          </p>
+          <p>
+            O Superior Tribunal de Justiça (STJ) pacificou a matéria ao editar a <strong>Súmula nº 335</strong>, cujo enunciado determina:
+          </p>
+          <blockquote className="border-l-2 border-bronze pl-4 py-2 my-4 text-white italic bg-white/5 rounded-r-xl">
+            "Nos contratos de locação, é válida a cláusula de renúncia à indenização das benfeitorias e ao direito de retenção." (Súmula 335, Terceira Seção, STJ).
+          </blockquote>
+          <p>
+            Isso significa que, se o contrato de aluguel possuir a tradicional cláusula padrão estipulando que <em>"todas as benfeitorias ou melhorias realizadas pelo locatário, ainda que necessárias ou autorizadas, incorporar-se-ão ao imóvel, sem direito a qualquer indenização ou retenção"</em>, essa cláusula é <strong>plenamente legal e válida</strong>. O inquilino que assina essa minuta não poderá cobrar judicialmente o reembolso das obras executadas, pois renunciou voluntariamente a essa faculdade legal no momento da contratação.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O inquilino pode retirar as benfeitorias e itens instalados ao desocupar o imóvel?</h2>
+          <p>
+            O direito de retirada ou levantamento (chamado no meio jurídico de <em>jus tollendi</em>) aplica-se primordialmente às benfeitorias voluptuárias e aos bens móveis guarnecidos. O locatário pode remover armários modulados, luminárias, cortinas, aparelhos de ar-condicionado e equipamentos instalados, <strong>desde que restaure as paredes, recomponha a fiação e tape furos</strong>, devolvendo o imóvel no estado exato constante do Laudo de Vistoria Inicial.
+          </p>
+          <p>
+            Contudo, se a retirada da benfeitoria for provocar destruição, descolamento de reboco, quebra de alvenaria ou inutilização da estrutura (como arrancar um piso de porcelanato assentado ou quebrar azulejos), a retirada é <strong>terminantemente proibida por lei</strong>, devendo a obra permanecer integrada ao imóvel.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas Práticas para Locadores e Inquilinos</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Formalize tudo por escrito:</strong> Nunca realize reformas baseado em conversas informais de WhatsApp ou promessas verbais. Exija aditivo contratual assinado;</li>
+              <li><strong>Especifique o desconto no aluguel:</strong> Se o proprietário concordar em reembolsar a obra, estipule expressamente que o valor será abatido em parcelas mensais do aluguel;</li>
+              <li><strong>Guarde todas as notas fiscais e recibos:</strong> Guarde cupons de compra de materiais de construção e recibos com CPF/CNPJ de pedreiros, eletricistas e engenheiros;</li>
+              <li><strong>Realize vistorias fotográficas com data:</strong> Fotografe e filme detalhadamente o estado do imóvel antes do início e logo após o término da reforma;</li>
+              <li><strong>Consulte um advogado imobiliário antes de assinar:</strong> Avalie a cláusula de renúncia a benfeitorias para negociar termos de compensação equilibrados.</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns em Obras e Reformas de Imóveis Alugados</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Investir alto em reforma sem autorização prévia por escrito:</strong> Realizar reformas úteis vultosas e depois descobrir que o locador não é obrigado a indenizar nem um centavo;</li>
+              <li><strong>Reter as chaves do imóvel de forma arbitrária:</strong> Recusar-se a entregar as chaves por conta de obras sem possuir respaldo legal de retenção, gerando cobrança contínua de aluguel e encargos moratórios;</li>
+              <li><strong>Descontar valores unilateralmente do boleto:</strong> Abater o custo de materiais da cota de aluguel sem autorização expressa do locador, ensejando ação de despejo por falta de pagamento;</li>
+              <li><strong>Danificar o imóvel ao retirar móveis e acessórios:</strong> Retirar luminárias e aparelhos deixando fios expostos e paredes esburacadas, o que gera cobrança na vistoria de saída.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Aprofunde seus conhecimentos jurídicos sobre locação e gestão patrimonial no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Direito Imobiliário e Contratos de Locação no RJ</Link>: elaboração de minutas personalizadas e assessoria em rescisões.
+              </li>
+              <li>
+                <Link to="/servicos/" className="text-bronze hover:underline font-bold">Nossos Serviços Jurídicos Especializados</Link>: consultoria para proprietários, imobiliárias e locatários.
+              </li>
+              <li>
+                <Link to="/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/" className="text-bronze hover:underline font-bold">Responsabilidade por Reparos no Imóvel Alugado</Link>: o que cabe ao locador e ao locatário na manutenção.
+              </li>
+              <li>
+                <Link to="/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/" className="text-bronze hover:underline font-bold">Quando o Proprietário Pode Pedir o Imóvel de Volta</Link>: regras de denúncia cheia e denúncia vazia.
+              </li>
+              <li>
+                <Link to="/blog/inquilino-inadimplente-o-que-fazer-quando-cabe-despejo-como-cobrar/" className="text-bronze hover:underline font-bold">Inquilino Inadimplente: Ação de Despejo e Cobrança</Link>: como agir dentro da legalidade.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A realização de benfeitorias em imóveis alugados exige planejamento prévio, análise minuciosa do contrato de locação e estrito alinhamento entre as partes. Agir com suporte técnico especializado previne prejuízos substanciais e assegura que qualquer investimento reverta em tranquilidade para proprietários e inquilinos.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Precisa de Análise Jurídica do seu Contrato de Locação ou Reforma?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O escritório Soares Martins Advogados atua em Ipanema/RJ com foco na prevenção de litígios locatícios, elaboração de aditivos contratuais, notificações extrajudiciais e resolução de disputas sobre benfeitorias.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma consulta com nossos advogados</Link> ou entre em contato diretamente pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Benfeitorias em Imóveis Alugados (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O proprietário é sempre obrigado a pagar pelas benfeitorias feitas no imóvel alugado?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O proprietário só é obrigado a indenizar benfeitorias necessárias e úteis autorizadas se não houver cláusula expressa no contrato de renúncia a indenização e retenção (Súmula 335 do STJ).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O que acontece se o inquilino fizer uma obra útil sem autorização por escrito do locador?</h4>
+                <p className="text-text-muted text-xs mt-1">A obra será considerada não indenizável. O inquilino não receberá nenhum ressarcimento e a melhoria se incorporará ao imóvel, sem direito de retenção (Art. 35 da Lei nº 8.245/1991).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que é a cláusula de renúncia a benfeitorias e ela é realmente válida perante a Justiça?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, é plenamente válida segundo a Súmula 335 do STJ. Ela estabelece que o locatário abre mão de qualquer direito a indenização ou retenção por reformas realizadas durante a locação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O inquilino pode abater por conta própria o valor da reforma no boleto do aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O abatimento unilateral é ilegal e configura inadimplência parcial, sujeitando o locatário a juros, multa moratória e até ação de despejo por falta de pagamento.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O inquilino pode retirar o ar-condicionado e armários modulados ao desocupar o imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, desde que a retirada não danifique a estrutura do imóvel e o locatário recomponha a pintura e feche os furos nas paredes, entregando o bem no estado da vistoria inicial.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. A troca de fiação antiga com risco de incêndio é considerada qual tipo de benfeitoria?</h4>
+                <p className="text-text-muted text-xs mt-1">É uma benfeitoria necessária, pois visa à conservação da integridade estrutural e à segurança dos ocupantes do imóvel.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O que é direito de retenção por benfeitorias na locação?</h4>
+                <p className="text-text-muted text-xs mt-1">É a prerrogativa legal do locatário de permanecer no imóvel até que o locador pague o valor das benfeitorias indenizáveis, quando não houver cláusula de renúncia no contrato.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. A pintura de paredes e aplicação de papel de parede são consideradas benfeitorias de que tipo?</h4>
+                <p className="text-text-muted text-xs mt-1">A aplicação de papel de parede decorativo é benfeitoria voluptuária (estética). Já a pintura geral desgastada pelo tempo insere-se nos deveres de manutenção e conservação do bem.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O proprietário pode exigir que o inquilino desfaça a reforma feita sem autorização?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O locador pode exigir que o imóvel seja restituído exatamente no estado em que foi entregue, arcando o inquilino com os custos para desfazer as alterações não autorizadas.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Como formalizar um acordo para que o locador pague parte dos custos de uma reforma?</h4>
+                <p className="text-text-muted text-xs mt-1">Por meio de um Termo Aditivo ao Contrato de Locação, assinado por ambas as partes, discriminando o escopo da obra, orçamentos aprovados, forma de abatimento no aluguel e prazos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 131,
+      slug: 'estrangeiro-pode-comprar-imovel-em-leilao-no-brasil',
+      title: 'Estrangeiro pode comprar imóvel em leilão no Brasil?',
+      excerpt: 'Descubra se estrangeiro pode comprar imóvel em leilão no Brasil. Veja documentos exigidos, regras cambiais, restrições rurais e leilões judiciais e extrajudiciais.',
+      readTime: `20 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário',
+      date: '21 Ago, 2026',
+      dateIso: '2026-08-21',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <h1 className="text-white text-3xl md:text-4xl font-serif font-bold leading-tight">
+            Estrangeiro Pode Comprar Imóvel em Leilão no Brasil? Regras, Documentos e Cuidados
+          </h1>
+
+          <p>
+            O mercado imobiliário brasileiro tem se consolidado como um destino altamente atrativo para investidores e cidadãos internacionais. Com a valorização de capitais como o Rio de Janeiro e a oportunidade de arrematar apartamentos, coberturas, casas e imóveis comerciais com descontos de 40% a 50% sobre o valor de avaliação de mercado, os leilões judiciais e extrajudiciais despertam grande interesse de pessoas físicas e jurídicas estrangeiras.
+          </p>
+
+          <p>
+            No entanto, investir em leilões no Brasil a partir do exterior exige o cumprimento de regras regulatórias, fiscais e cambiais específicas. Muitos investidores têm dúvidas sobre a necessidade de residir no país, os documentos exigidos pela Receita Federal, as distinções entre leilões judiciais e extrajudiciais e, principalmente, as restrições territoriais aplicáveis a imóveis rurais em comparação com imóveis urbanos. Neste guia completo, explicamos passo a passo todos os requisitos legais.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quem é considerado estrangeiro perante a legislação brasileira?</h2>
+          <p>
+            Para fins imobiliários, cambiais e tributários, a legislação brasileira divide os adquirentes internacionais em quatro categorias principais:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-3 text-text-muted text-sm">
+            <li>
+              <strong>Pessoa Física Estrangeira Não Residente:</strong> Cidadão de outra nacionalidade que reside no exterior e não possui domicílio fiscal ou visto permanente no Brasil. Pode adquirir imóveis urbanos livremente, desde que inscrito no CPF;
+            </li>
+            <li>
+              <strong>Pessoa Física Estrangeira Residente no Brasil:</strong> Cidadão estrangeiro que reside legalmente no território nacional, titular de Carteira de Registro Nacional Migratório (CRNM/RNM) e visto temporário ou permanente;
+            </li>
+            <li>
+              <strong>Pessoa Jurídica Estrangeira:</strong> Sociedade ou empresa legalmente constituída, registrada e com sede social fora do território brasileiro;
+            </li>
+            <li>
+              <strong>Pessoa Jurídica Brasileira Equiparada a Estrangeira:</strong> Empresa constituída sob as leis brasileiras, mas cujo capital social pertença, direta ou indiretamente, em sua maioria, a pessoas físicas ou jurídicas estrangeiras não residentes no país (Art. 1º, § 1º da Lei nº 5.709/1971).
+            </li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quais documentos são indispensáveis para o estrangeiro participar de leilões?</h2>
+          <p>
+            A participação em leilões no Brasil é aberta e democrática, mas requer a regularização documental prévia junto aos órgãos públicos e plataformas de leilão:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">1. Inscrição no CPF (Cadastro de Pessoas Físicas):</h3>
+              <p className="text-text-muted text-sm">
+                O CPF é o documento fiscal <strong>obrigatório e indispensável</strong> para qualquer operação imobiliária no Brasil. Estrangeiros que residem no exterior podem emitir o CPF diretamente através da rede consular brasileira em seu país de origem ou online pelo portal oficial da Receita Federal do Brasil (RFB).
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">2. Documento de Identificação e Passaporte:</h3>
+              <p className="text-text-muted text-sm">
+                Apresentação de passaporte válido emitido pelo país de cidadania ou da CRNM/RNM no caso de residentes no Brasil.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">3. Certidão de Estado Civil e Outorga Uxória:</h3>
+              <p className="text-text-muted text-sm">
+                Se casado, é necessária a apresentação da certidão de casamento. Documentos estrangeiros devem conter o <strong>Apostilamento de Haia</strong> (ou legalização consular) e tradução juramentada por tradutor público juramentado no Brasil. Caso o regime de bens exija, o cônjuge também deve possuir CPF e anuir formalmente.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">4. Procuração Pública com Poderes Específicos:</h3>
+              <p className="text-text-muted text-sm">
+                Caso o investidor não esteja fisicamente no Brasil para assinar os autos ou interagir com o leiloeiro, é fundamental outorgar uma <strong>procuração pública a um advogado imobiliário brasileiro</strong> com poderes especiais para ofertar lances, assinar auto de arrematação, pagar guias judiciais e receber a posse do imóvel.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">5. Cadastro e Habilitação na Plataforma do Leiloeiro:</h3>
+              <p className="text-text-muted text-sm">
+                Habilitação prévia no site oficial do leiloeiro público credenciado perante a Junta Comercial (como a JUCERJA no Rio de Janeiro), enviando os documentos com antecedência mínima de 48 a 72 horas úteis antes do leilão.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Diferenças entre Leilão Judicial e Extrajudicial para o investidor estrangeiro</h2>
+          <p>
+            O investidor internacional pode disputar oportunidades tanto na esfera judicial quanto na extrajudicial, compreendendo os ritos de cada modalidade:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-3 text-text-muted text-sm">
+            <li>
+              <strong>Leilão Judicial (Código de Processo Civil):</strong> Decorre de processos executivos na Justiça Estadual ou Federal (cobrança de dívidas cíveis, trabalhistas, execuções fiscais ou débitos de condomínio). O leilão é conduzido sob a fiscalização direta de um juiz togado. Após a homologação e o pagamento do preço e da comissão do leiloeiro (5%), o juízo expede a <strong>Carta de Arrematação</strong> e o <strong>Mandado de Imissão na Posse</strong>, determinando o cancelamento de penhoras e hipotecas anteriores na matrícula imobiliária;
+            </li>
+            <li>
+              <strong>Leilão Extrajudicial (Lei nº 9.514/1997 e Dec.-Lei nº 70/1966):</strong> Ocorre fora do âmbito judicial, decorrente da inadimplência de financiamentos bancários com alienação fiduciária em garantia. A instituição financeira consolida a propriedade em cartório e leva o bem a leilão público. A formalização é feita por Escritura Pública de Compra e Venda ou Escritura de Arrematação lavrada em Cartório de Notas e registrada no Cartório de Registro de Imóveis (RGI).
+            </li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Restrições para Imóveis Rurais versus Plena Liberdade para Imóveis Urbanos</h2>
+          <p>
+            É essencial esclarecer uma das maiores fontes de confusão entre investidores internacionais: a <strong>diferença de tratamento legal entre imóveis rurais e urbanos no Brasil</strong>.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-bronze font-serif font-bold text-base mb-1">Imóveis Urbanos: Liberdade Plena e Irrestrita</h3>
+              <p className="text-text-muted text-sm">
+                Para a aquisição de <strong>imóveis situados em zonas urbanas</strong> (como apartamentos residenciais, coberturas, casas, salas comerciais, galpões e terrenos na capital do Rio de Janeiro e outras cidades), <strong>NÃO EXISTE QUALQUER RESTRIÇÃO LEGAL DE NACIONALIDADE</strong>. O estrangeiro (residente ou não) pode arrematar quantos imóveis desejar, sem limite de metragem, sem necessidade de autorização prévia de ministérios ou do INCRA.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-red-400 font-serif font-bold text-base mb-1">Imóveis Rurais: Restrições Severas (Lei nº 5.709/1971)</h3>
+              <p className="text-text-muted text-sm">
+                A compra ou arrematação de <strong>terras e imóveis rurais</strong> por estrangeiros sujeita-se a rigorosos limites de módulos de exploração indefinida (MEI), aprovação obrigatória do INCRA e/ou do Congresso Nacional para áreas extensas, e vedação absoluta em Faixas de Fronteira (150 km das fronteiras nacionais) sem o aval do Conselho de Defesa Nacional.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Operações de Câmbio, Envio de Recursos e Comprovação de Origem</h2>
+          <p>
+            Para efetuar o pagamento da arrematação no Brasil, os recursos financeiros do exterior devem ingressar regularmente no sistema bancário nacional:
+          </p>
+          <p>
+            A remessa internacional é processada mediante contrato de câmbio registrado junto ao <strong>Banco Central do Brasil (BACEN)</strong>, transferindo-se moeda estrangeira (Dólar, Euro, Libra etc.) para Reais (BRL). Os fundos podem ser direcionados para uma conta bancária de não residente (conta CC5) mantida no Brasil em nome do investidor ou remetidos diretamente à conta de depósito judicial vinculado ao processo de leilão, mediante a respectiva comprovação da origem lícita dos recursos.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas para Estrangeiros Investirem com Segurança em Leilões</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Obtenha o CPF com antecedência:</strong> Inicie a emissão do CPF no consulado semanas antes da data do leilão;</li>
+              <li><strong>Realize uma Due Diligence Imobiliária Completa:</strong> Contrate advogados locais para auditar a matrícula no RGI, débitos de IPTU, taxa de condomínio e processos judiciais do executado;</li>
+              <li><strong>Planeje o fluxo de fechamento de câmbio:</strong> Os prazos judiciais para depósito do valor arrematado são curtos (normalmente de 24 horas a 3 dias úteis);</li>
+              <li><strong>Constitua procurador com poderes expressos:</strong> Garanta que a procuração pública preveja representação perante tribunais, leiloeiros e cartórios de registro de imóveis;</li>
+              <li><strong>Calcule os custos tributários e cartorários:</strong> Provisione os valores de ITBI (Imposto de Transmissão de Bens Imóveis), custas judiciais/cartorárias e emolumentos de RGI.</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns de Investidores Internacionais</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Dar lances sem ter o CPF ativo:</strong> A arrematação é sumariamente anulada se o proponente não estiver regularmente inscrito na Receita Federal;</li>
+              <li><strong>Ignorar os prazos peremptórios de pagamento:</strong> Deixar de honrar o lance no prazo judicial gera multa de 20%, perda da caução e penalidade de inidoneidade;</li>
+              <li><strong>Supor que dívidas de condomínio somem automaticamente:</strong> Não analisar o edital quanto à responsabilidade pelo passivo condominial propter rem;</li>
+              <li><strong>Usar procurações particulares sem apostilamento:</strong> Procurações do exterior sem o selo da Convenção de Haia e tradução juramentada não têm validade em tribunais brasileiros.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Explore nossos conteúdos e serviços especializados em assessoria de leilões imobiliários no Rio de Janeiro:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" className="text-bronze hover:underline font-bold">Assessoria em Leilões Judiciais de Imóveis no RJ</Link>: auditoria preventiva e suporte completo até a posse.
+              </li>
+              <li>
+                <Link to="/blog/como-analisar-imovel-em-leilao-antes-de-dar-um-lance-guia-completo/" className="text-bronze hover:underline font-bold">Como Analisar um Imóvel em Leilão Antes do Lance</Link>: checklist prático de Due Diligence.
+              </li>
+              <li>
+                <Link to="/blog/quais-dividas-acompanham-imovel-adquirido-em-leilao/" className="text-bronze hover:underline font-bold">Quais Dívidas Acompanham o Imóvel de Leilão?</Link>: regras de IPTU, condomínio e hipotecas.
+              </li>
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Serviços em Direito Imobiliário Internacional</Link>: representação de investidores não residentes no Brasil.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A aquisição de imóveis urbanos em leilões no Brasil por estrangeiros é um procedimento totalmente legal, seguro e altamente rentável, desde que respaldado por auditoria jurídica especializada e assessoria local qualificada.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Assessoria Jurídica Internacional para Investimento em Leilões no RJ</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O Soares Martins Advogados presta assessoria completa para investidores estrangeiros, fundos e não residentes que buscam arrematar imóveis no Rio de Janeiro: emissão de CPF, Due Diligence, representação em lances, regularização cambial e imissão na posse.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma conferência internacional</Link> ou fale com nossa equipe via WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Estrangeiros em Leilões no Brasil (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. É obrigatório residir no Brasil para arrematar um imóvel em leilão?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O estrangeiro que reside no exterior (não residente) pode participar e arrematar imóveis urbanos em leilões no Brasil, necessitando apenas de CPF válido e de procurador constituído no país.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Como um estrangeiro pode obter o CPF brasileiro estando no exterior?</h4>
+                <p className="text-text-muted text-xs mt-1">O CPF pode ser solicitado presencialmente ou por agendamento nos consulados ou embaixadas do Brasil no exterior, ou diretamente pelo formulário online para não residentes no portal da Receita Federal.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Existe limite na quantidade de apartamentos ou casas urbanas que um estrangeiro pode comprar?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. Não há limite quantitativo ou de metragem para a aquisição de imóveis urbanos por estrangeiros no Brasil.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. Estrangeiros podem comprar imóveis rurais em leilão no Brasil?</h4>
+                <p className="text-text-muted text-xs mt-1">Apenas com severas restrições previstas na Lei nº 5.709/1971, respeitados limites de módulos fiscais (MEI) e autorização prévia do INCRA e/ou do Congresso Nacional, sendo vedado em faixas de fronteira sem autorização de defesa.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O arrematante estrangeiro precisa de um advogado no Brasil?</h4>
+                <p className="text-text-muted text-xs mt-1">Embora a habilitação técnica no leiloeiro possa ser feita pelo próprio titular, a assistência jurídica de um advogado imobiliário é indispensável para auditar o processo judicial, verificar a ausência de recursos pendentes, providenciar a transferência cambial e conduzir a desocupação do imóvel.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Como é feita a transferência do dinheiro do exterior para pagar a arrematação?</h4>
+                <p className="text-text-muted text-xs mt-1">Por meio de transferência bancária internacional (SWIFT/IBAN) com fechamento de contrato de câmbio registrado no Banco Central (BACEN), convertendo os valores em Reais para a conta judicial ou bancária indicada.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Quais são os impostos cobrados na arrematação de um imóvel por estrangeiro?</h4>
+                <p className="text-text-muted text-xs mt-1">O principal imposto é o ITBI (Imposto de Transmissão de Bens Imóveis), tributo municipal com alíquota que varia normalmente de 2% a 3% sobre o valor da transação, além das custas de registro no RGI e comissão do leiloeiro (5%).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Comprar imóvel em leilão no Brasil concede visto permanente ou cidadania ao estrangeiro?</h4>
+                <p className="text-text-muted text-xs mt-1">Investimentos imobiliários no Brasil a partir de determinados valores fixados pelo Conselho Nacional de Imigração (Resolução Normativa CNIg nº 36/2018 - R$ 700 mil no Norte/Nordeste ou R$ 1 milhão nas demais regiões) permitem solicitar a Autorização de Residência com base em Investimento Imobiliário (Golden Visa brasileiro).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O que acontece se o estrangeiro arrematar e não pagar a guia judicial no prazo?</h4>
+                <p className="text-text-muted text-xs mt-1">A arrematação é desfeita, o licitante perde o valor da caução, é multado em até 20% do valor do lance e pode ser proibido de participar de novos leilões judiciais pelo prazo legal.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Como o estrangeiro assume a posse física de um imóvel arrematado que esteja ocupado?</h4>
+                <p className="text-text-muted text-xs mt-1">No leilão judicial, o juiz do processo expede o Mandado de Imissão na Posse, executado por Oficial de Justiça com auxílio de força policial, se necessário, sem a necessidade de ajuizar uma nova ação de despejo autônoma.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 132,
+      slug: 'responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino',
+      title: 'Responsabilidade por reparos no imóvel alugado: o que cabe ao locador e ao inquilino',
+      excerpt: 'Descubra a responsabilidade por reparos no imóvel alugado: o que cabe ao locador e ao inquilino. Veja exemplos de infiltração, piso, pintura e ar-condicionado.',
+      readTime: `21 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário',
+      date: '21 Ago, 2026',
+      dateIso: '2026-08-21',
+      image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <h1 className="text-white text-3xl md:text-4xl font-serif font-bold leading-tight">
+            Responsabilidade por Reparos no Imóvel Alugado: Quem Paga o Quê entre Locador e Inquilino?
+          </h1>
+
+          <p>
+            A divisão de despesas e a responsabilidade pelas manutenções de um imóvel alugado são os temas que mais geram atritos, notificações extrajudiciais e processos na Justiça entre proprietários e locatários. Quando surge um vazamento na parede, o piso do quarto começa a estufar, a pintura desbota com o sol ou o ar-condicionado deixa de gelar, a dúvida imediata é sempre a mesma: de quem é a obrigação legal de pagar o conserto?
+          </p>
+
+          <p>
+            A <strong>Lei do Inquilinato (Lei Federal nº 8.245/1991)</strong> estabelece critérios objetivos para delimitar os deveres de cada parte, separando com precisão o que são vícios estruturais anteriores e desgastes naturais da coisa daquilo que decorre do uso rotineiro ou de eventuais danos causados pelo inquilino. Neste artigo detalhado, analisamos as principais situações práticas do cotidiano e explicamos o que a legislação brasileira determina.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O que diz a Lei do Inquilinato sobre as obrigações do locador e do locatário?</h2>
+          <p>
+            O equilíbrio contratual da locação fundamenta-se na separação das obrigações previstas nos artigos 22 e 23 da Lei nº 8.245/1991:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">Deveres do Locador / Proprietário (Art. 22):</h3>
+              <p className="text-text-muted text-sm">
+                O locador é obrigado a entregar o imóvel ao locatário em estado de servir ao uso a que se destina, <strong>garantir a habitabilidade durante todo o tempo da locação</strong>, responder pelos <strong>vícios ou defeitos estruturais anteriores à locação</strong> e arcar com as despesas extraordinárias de conservação patrimonial.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">Deveres do Locatário / Inquilino (Art. 23):</h3>
+              <p className="text-text-muted text-sm">
+                O locatário é obrigado a servir-se do imóvel para o uso convencionado, <strong>cuidar do bem com o mesmo zelo como se fosse seu</strong>, restituí-lo finda a locação no estado em que o recebeu (<strong>salvo as deteriorações decorrentes do seu uso normal</strong>) e realizar a imediata reparação dos danos a que der causa por uso inadequado ou negligência.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Exemplos Práticos: Quem paga a conta em cada tipo de conserto?</h2>
+
+          <div className="space-y-4 text-sm text-text-muted">
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-base mb-2">1. Infiltrações, Umidade e Vazamentos Hidráulicos</h3>
+              <p className="mb-2">
+                <strong>Responsabilidade do Locador:</strong> Vazamentos decorrentes de canos mestres internos da parede, colunas de esgoto antigas, infiltração pelo telhado ou laje externa, estufamento de reboco por umidade crônica do solo e problemas de impermeabilização estrutural.
+              </p>
+              <p>
+                <strong>Responsabilidade do Inquilino:</strong> Troca de carrapetas e borrachas de vedação de torneiras que pingam pelo uso diário, desentupimento de pias e vasos sanitários por acúmulo de detritos, limpeza de ralos e manutenção do rejunte de azulejos do box para evitar vazamento para o vizinho de baixo.
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-base mb-2">2. Troca de Pisos, Revestimentos e Rachaduras</h3>
+              <p className="mb-2">
+                <strong>Responsabilidade do Locador:</strong> Pisos que estufam ou soltam por vício construtivo, umidade subterrânea ou desgaste pelo tempo de vida útil do material, bem como conserto de trincas e rachaduras estruturais em paredes ou vigas.
+              </p>
+              <p>
+                <strong>Responsabilidade do Inquilino:</strong> Substituição de peças de piso quebradas por impacto ou queda de objetos pesados, tacos arrancados por arrastar móveis pesados sem proteção e manchas de queimadura ou produtos químicos abrasivos não autorizados.
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-base mb-2">3. Pintura das Paredes Internas e Fachada</h3>
+              <p className="mb-2">
+                <strong>Responsabilidade do Locador:</strong> Pintura externa de fachadas, muros coletivos e desgaste natural da pintura interna provocado pela passagem natural do tempo e incidência de luz solar (Art. 23, inciso III).
+              </p>
+              <p>
+                <strong>Responsabilidade do Inquilino:</strong> Caso o imóvel tenha sido entregue com pintura 100% nova comprovada em vistoria inicial, o inquilino deve devolvê-lo nas mesmas condições. Também responde por paredes riscadas por crianças, manchas de gordura, sujeira de animais de estimação e furos de quadros e prateleiras não recompostos.
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-5 rounded-xl border border-white/10">
+              <h3 className="text-white font-serif font-bold text-base mb-2">4. Ar-Condicionado, Rede Elétrica e Quadro de Disjuntores</h3>
+              <p className="mb-2">
+                <strong>Responsabilidade do Locador:</strong> Troca de fiação antiga e subdimensionada, substituição de disjuntores gerais no quadro de força, instalação da tubulação frigorígena de cobre embutida na alvenaria e defeito grave no motor compressor do aparelho que guarnecia o imóvel na entrega inicial.
+              </p>
+              <p>
+                <strong>Responsabilidade do Inquilino:</strong> Higienização e limpeza periódica dos filtros de ar, manutenção preventiva durante o uso contínuo e recarga de gás refrigerante decorrente do uso diário do aparelho.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Quando o inquilino pode pedir abatimento do aluguel ou rescindir o contrato sem multa?</h2>
+          <p>
+            A Lei do Inquilinato protege o locatário contra reformas demoradas e vícios graves que inviabilizem a moradia digna:
+          </p>
+          <p>
+            De acordo com o <strong>Artigo 26 da Lei nº 8.245/1991</strong>, caso o imóvel necessite de reparações urgentes cuja execução incumba ao locador:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li>
+              Se a realização das obras obrigatórias durar <strong>mais de 10 (dez) dias</strong>, o locatário tem o direito garantido por lei ao <strong>abatimento proporcional do valor do aluguel</strong> correspondente ao período excedente;
+            </li>
+            <li>
+              Se a execução dos reparos demorar <strong>mais de 30 (trinta) dias</strong>, o inquilino pode <strong>rescindir o contrato de locação imediatamente, com isenção total de qualquer multa rescisória</strong>!
+            </li>
+          </ul>
+          <p>
+            Além disso, caso o imóvel apresente vícios ocultos graves e estruturais (como vazamento de esgoto, goteiras generalizadas no teto ou risco iminente de desabamento atestado pela Defesa Civil) tornando o local inabitável, configura-se <strong>infração contratual culposa do proprietário</strong>, podendo o inquilino pleitear a rescisão judicial do contrato com aplicação de multa contra o locador e indenização por danos materiais e morais.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como notificar formalmente o proprietário para exigir os reparos?</h2>
+          <p>
+            A comunicação informal via mensagens rápidas muitas vezes não possui força probatória suficiente em juízo. Ao identificar um vício de responsabilidade do locador, o inquilino deve:
+          </p>
+          <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm">
+            <li><strong>Registrar fotografias e vídeos em alta resolução:</strong> Demonstre a extensão do problema com registros datados;</li>
+            <li><strong>Elaborar Notificação Extrajudicial formal:</strong> Encaminhar notificação por e-mail com confirmação de leitura ou carta com Aviso de Recebimento (AR), descrevendo o defeito detalhadamente e estipulando um prazo razoável (por exemplo, de 5 a 10 dias úteis) para o início dos consertos;</li>
+            <li><strong>Obter orçamentos técnicos:</strong> Solicitar 2 ou 3 orçamentos de profissionais credenciados para apresentar ao proprietário caso ele prefira autorizar a execução direta mediante reembolso.</li>
+          </ol>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas Práticas para Evitar Disputas de Manutenção</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Exija Laudo de Vistoria Inicial minucioso:</strong> Teste todas as torneiras, descargas, tomadas, fechaduras e aparelhos elétricos antes de assinar a posse;</li>
+              <li><strong>Conteste a vistoria nos primeiros 15 dias:</strong> Caso identifique defeitos não apontados na vistoria inicial, envie contestação formal por escrito de imediato;</li>
+              <li><strong>Não execute reformas estruturais por conta própria:</strong> Aguarde sempre a concordância expressa do proprietário antes de intervir na alvenaria;</li>
+              <li><strong>Realize manutenções preventivas:</strong> Limpe ralos e calhas para evitar entupimentos que causem refluxo de água.</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns em Reparos de Locação</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Suspender o pagamento do aluguel integral:</strong> O inquilino não pode simplesmente deixar de pagar o aluguel sob a alegação de defeito no imóvel, devendo utilizar as vias judiciais cabíveis;</li>
+              <li><strong>Inércia do proprietário diante de vícios graves:</strong> Proprietários que ignoram chamados de infiltração crônica acabam condenados a indenizar móveis estragados e danos morais;</li>
+              <li><strong>Contratar serviços sem comprovação fiscal:</strong> Realizar pagamentos em dinheiro vivo sem recibo discriminado impede o ressarcimento contábil.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Consulte nossos conteúdos especializados sobre gestão de locações e direitos imobiliários:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/blog/infiltracao-no-apartamento-como-identificar-origem-quem-paga-reparo-indenizacao/" className="text-bronze hover:underline font-bold">Infiltração no Apartamento: Quem Paga o Reparo?</Link>: guia para identificar a origem do vazamento.
+              </li>
+              <li>
+                <Link to="/blog/benfeitorias-no-imovel-alugado-quais-sao-os-direitos/" className="text-bronze hover:underline font-bold">Benfeitorias no Imóvel Alugado: Seus Direitos</Link>: o que pode ser retirado e o que deve ser indenizado.
+              </li>
+              <li>
+                <Link to="/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/" className="text-bronze hover:underline font-bold">Quando o Proprietário Pode Pedir o Imóvel de Volta</Link>: prazos e condições legais.
+              </li>
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Direito Imobiliário Estratégico no RJ</Link>: assessoria para locadores, locatários e imobiliárias.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            Identificar a responsabilidade pelos reparos com rapidez e formalidade evita a deterioração do imóvel e resguarda os direitos financeiros de locadores e inquilinos perante a Lei do Inquilinato.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Está Enfrentando Conflitos sobre Reparos ou Vícios no Imóvel?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O Soares Martins Advogados oferece consultoria jurídica especializada para notificação de locadores, negociação de abatimentos de aluguel, rescisão contratual sem multa e defesas de proprietários no Rio de Janeiro.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Entre em contato com nossa equipe</Link> ou envie uma mensagem via WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Reparos em Imóveis Alugados (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O proprietário é obrigado a consertar vazamento dentro da parede?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Canos embutidos na alvenaria, prumadas estruturais e colunas hidráulicas integram a estrutura predial do imóvel e são de responsabilidade exclusiva do locador (Art. 22, X da Lei nº 8.245/1991).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O inquilino é obrigado a pintar o imóvel mesmo quando a pintura desgasta naturalmente?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O artigo 23, inciso III, da Lei do Inquilinato isenta o locatário das deteriorações decorrentes do uso normal e do decurso do tempo. A repintura integral só é exigível se houver estragos culposos ou cláusula válida vinculada a vistoria inicial nova.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. Quando o inquilino tem direito a abatimento proporcional no valor do aluguel por causa de obras?</h4>
+                <p className="text-text-muted text-xs mt-1">Quando as obras e reparações estruturais urgentes executadas pelo locador demorarem mais de 10 dias corridos para serem finalizadas (Art. 26 da Lei do Inquilinato).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O que o inquilino pode fazer se a reforma do imóvel demorar mais de 30 dias?</h4>
+                <p className="text-text-muted text-xs mt-1">O inquilino pode rescindir o contrato de locação imediatamente, ficando 100% isento do pagamento de qualquer multa rescisória (Art. 26, parágrafo único da Lei nº 8.245/1991).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. De quem é a obrigação de pagar a manutenção e limpeza do ar-condicionado?</h4>
+                <p className="text-text-muted text-xs mt-1">A limpeza de filtros e manutenção rotineira de uso cabe ao inquilino. Defeitos de instalação na rede elétrica do prédio ou queima estrutural pré-existente cabem ao locador.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. O inquilino pode mandar fazer o conserto urgente e descontar do aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">Em situações de emergência que ameacem a habitabilidade ou a segurança e na inércia comprovada do locador após notificação, o inquilino pode executar a benfeitoria necessária e cobrar o reembolso, mas deve preferencialmente formalizar a compensação.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Quem paga a dedetização contra cupins que atacaram os armários embutidos?</h4>
+                <p className="text-text-muted text-xs mt-1">Se a infestação de cupins decorre de vício estrutural pré-existente ou ataque à madeira original do imóvel, a obrigação é do locador. Se foi introduzida por móveis trazidos pelo inquilino durante a locação, cabe ao locatário.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O inquilino pode processar o locador se móveis forem danificados por infiltração não consertada?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Comprovada a notificação prévia do proprietário e sua omissão negligente no conserto, cabe ação de indenização por perdas e danos materiais e danos morais.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. Quem deve pagar pela troca do aquecedor a gás que parou de funcionar de repente?</h4>
+                <p className="text-text-muted text-xs mt-1">Caso o aquecedor guarnecesse o imóvel na locação e tenha chegado ao fim de sua vida útil ou apresente defeito interno irreparável, a substituição cabe ao proprietário. Pequenos ajustes de pilhas ou regulagem cabem ao inquilino.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. O que fazer se a imobiliária se recusar a intermediar o conserto de um vazamento urgente?</h4>
+                <p className="text-text-muted text-xs mt-1">O inquilino deve notificar diretamente o proprietário por escrito com cópia para a administradora, produzir prova pericial/fotográfica e buscar assistência jurídica para ingresso com Ação de Obrigação de Fazer com pedido de tutela de urgência.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    },
+    {
+      id: 133,
+      slug: 'contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta',
+      title: 'Contrato de aluguel ativo: quando o proprietário pode pedir o imóvel de volta?',
+      excerpt: 'Saiba quando o proprietário pode pedir o imóvel alugado de volta. Entenda a regra do prazo determinado, denúncia cheia, denúncia vazia, venda e penalidades.',
+      readTime: `20 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário',
+      date: '21 Ago, 2026',
+      dateIso: '2026-08-21',
+      image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <h1 className="text-white text-3xl md:text-4xl font-serif font-bold leading-tight">
+            Contrato de Aluguel Ativo: Quando o Proprietário Pode Pedir o Imóvel de Volta?
+          </h1>
+
+          <p>
+            Existe um mito muito difundido no mercado imobiliário brasileiro de que o proprietário, por ser o dono do imóvel, poderia solicitar a sua devolução a qualquer momento, bastando pagar uma multa ou conceder um prazo de 30 dias para a mudança do inquilino. No entanto, perante a legislação civil brasileira, <strong>essa premissa é completamente falsa</strong>.
+          </p>
+
+          <p>
+            A <strong>Lei do Inquilinato (Lei Federal nº 8.245/1991)</strong> foi concebida para proteger a estabilidade da posse e o direito fundamental à moradia, impondo regras rigorosas e taxativas para a retomada de imóveis residenciais e comerciais. Durante a vigência de um contrato com prazo determinado ativo, o locador não pode simplesmente reaver o bem por vontade própria. Compreender as diferenças entre prazo determinado e indeterminado, denúncia cheia (motivada), denúncia vazia (imotivada), venda do bem e as severas penalidades para a retomada ilegal é indispensável para evitar processos judiciais indenizatórios.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">A Regra de Ouro do Artigo 4º: O locador NÃO pode reaver o imóvel no prazo determinado!</h2>
+          <p>
+            O artigo 4º da Lei nº 8.245/1991 estabelece uma das diretrizes mais protetivas do Direito Imobiliário:
+          </p>
+          <blockquote className="border-l-2 border-bronze pl-4 py-2 my-4 text-white italic bg-white/5 rounded-r-xl">
+            "Durante o prazo estipulado para a duração do contrato, não poderá o locador reaver o imóvel alugado." (Artigo 4º, caput, Lei nº 8.245/1991).
+          </blockquote>
+          <p>
+            Essa norma consagra uma assimetria proposital da lei: enquanto o <strong>locatário (inquilino) pode devolver o imóvel a qualquer momento</strong> durante o contrato mediante o pagamento da multa rescisória proporcional (prevista no Art. 4º, parte final, e Art. 413 do Código Civil), <strong>o proprietário NÃO possui esse mesmo direito</strong>. O locador não pode rescindir antecipadamente o contrato durante o prazo determinado, nem mesmo se oferecer pagar a multa rescisória estipulada em contrato ou indenizações em dinheiro.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Prazo Determinado versus Prazo Indeterminado: Como funciona a prorrogação?</h2>
+          <p>
+            As regras de retomada mudam drasticamente conforme o tempo de vigência e o formato original do contrato de locação:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">Contratos Residenciais por Escrito com Prazo Igual ou Superior a 30 Meses (Art. 46):</h3>
+              <p className="text-text-muted text-sm">
+                Ao término do prazo original de 30 meses, o contrato extingue-se de pleno direito. Se o inquilino permanecer no imóvel por mais de 30 dias sem oposição do locador, a locação fica <strong>prorrogada automaticamente por prazo indeterminado</strong>. A partir desse momento, o proprietário ganha o direito de exercer a <strong>denúncia vazia (imotivada)</strong>, podendo pedir o imóvel a qualquer momento, bastando conceder <strong>aviso prévio por escrito de 30 dias</strong> para a desocupação voluntária.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">Contratos com Prazo Inferior a 30 Meses ou Ajustados Verbalmente (Art. 47):</h3>
+              <p className="text-text-muted text-sm">
+                Nos contratos com prazo inferior a 30 meses (por exemplo, contratos de 12 meses), findo o prazo original, a locação prorroga-se automaticamente por tempo indeterminado, mas <strong>o proprietário NÃO pode exercer a denúncia vazia</strong>! Ele só poderá retomar o imóvel mediante as hipóteses específicas de <strong>denúncia cheia</strong> ou quando a locação ininterrupta <strong>completar 5 (cinco) anos consecutivos</strong>.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Denúncia Cheia (Motivada): Quais são as hipóteses legais para pedir o imóvel?</h2>
+          <p>
+            A <strong>denúncia cheia</strong> ocorre quando a lei exige uma justificativa legal expressa para a retomada do imóvel. As principais hipóteses previstas nos artigos 9º e 47 da Lei do Inquilinato são:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-3 text-text-muted text-sm">
+            <li>
+              <strong>1. Falta de Pagamento do Aluguel ou Encargos (Art. 9º, III):</strong> O inadimplemento financeiro autoriza o ajuizamento imediato de Ação de Despejo por Falta de Pagamento, com possibilidade de liminar desocupatória caso o contrato não possua garantias ativas;
+            </li>
+            <li>
+              <strong>2. Infração Legal ou Contratual Grave (Art. 9º, II):</strong> Descumprimento de regras do contrato ou do regimento interno, como sublocação não autorizada, desvio de finalidade (usar imóvel residencial para comércio) ou realização de obras estruturais sem consentimento;
+            </li>
+            <li>
+              <strong>3. Realização de Reparações Urgentes Determinadas pelo Poder Público (Art. 9º, IV):</strong> Obras ordenadas pela Prefeitura ou Defesa Civil que não possam ser executadas com o morador no local ou que ele se recuse a consentir;
+            </li>
+            <li>
+              <strong>4. Pedido para Uso Próprio, Cônjuge ou Companheiro (Art. 47, III):</strong> O proprietário pode pedir o imóvel para sua própria moradia ou de seu cônjuge/companheiro, desde que comprove em juízo a real necessidade e a inexistência de outro imóvel residencial próprio na mesma localidade;
+            </li>
+            <li>
+              <strong>5. Pedido para Uso de Ascendente (Pais) ou Descendente (Filhos) (Art. 47, III):</strong> É permitido pedir o bem para moradia de pais ou filhos, contanto que estes não disponham de imóvel residencial próprio na mesma cidade e comprovem a necessidade da moradia;
+            </li>
+            <li>
+              <strong>6. Demolição e Edificação Licenciada (Art. 47, IV):</strong> Obras aprovadas pelos órgãos municipais que resultem em acréscimo de pelo menos 20% da área construída (ou 50% para empreendimentos hoteleiros).
+            </li>
+          </ul>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Venda do imóvel durante a locação: O comprador pode pedir a desocupação?</h2>
+          <p>
+            Se o proprietário resolver vender o imóvel durante a locação, deve respeitar um rito estrito:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">1. O Direito de Preferência do Inquilino (Arts. 27 a 34):</h3>
+              <p className="text-text-muted text-sm">
+                O locador é obrigado por lei a notificar o inquilino, informando todas as condições do negócio (preço, forma de pagamento, prazos e certidões). O inquilino tem o <strong>prazo decadencial de 30 (trinta) dias</strong> para manifestar formalmente se aceita comprar o bem nas mesmas condições oferecidas a terceiros.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">2. Cláusula de Vigência Averbada no RGI (Art. 8º):</h3>
+              <p className="text-text-muted text-sm">
+                Se o contrato de locação tiver prazo determinado, contiver <strong>cláusula expressa de vigência em caso de alienação</strong> e estiver <strong>averbado junto à matrícula do imóvel no Cartório de Registro de Imóveis (RGI)</strong>, o novo comprador será obrigado a respeitar o contrato e a permanência do inquilino até o seu termo final!
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">3. Inexistência de Cláusula de Vigência Registrada:</h3>
+              <p className="text-text-muted text-sm">
+                Caso não haja cláusula de vigência averbada, o novo comprador poderá denunciar a locação, devendo conceder ao inquilino o <strong>prazo de 90 (noventa) dias para a desocupação voluntária</strong>. Essa notificação deve ser expedida no prazo máximo de 90 dias após o registro da escritura de compra e venda no RGI, sob pena de presumir-se a concordância na manutenção da locação.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Consequências graves e penalidades para a retomada indevida ou fraudulenta</h2>
+          <p>
+            Proprietários que inventam motivos falsos para expulsar o inquilino sofrem sanções civis e criminais gravíssimas. O <strong>Artigo 44 da Lei nº 8.245/1991</strong> tipifica como crime de ação penal pública a chamada simulação de uso próprio:
+          </p>
+          <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+            <li>
+              <strong>Pena Criminal:</strong> Detenção de 3 (três) meses a 1 (um) ano, que pode ser convertida em prestação de serviços comunitários;
+            </li>
+            <li>
+              <strong>Multa Civil Obrigatória:</strong> Multa em favor do locatário prejudicado no valor de <strong>12 (doze) a 24 (vinte e quatro) meses do valor do último aluguel atualizado</strong>, além do ressarcimento integral das despesas de mudança, perdas e danos e indenização por danos morais fixados pela Justiça!
+            </li>
+          </ul>
+          <p>
+            Portanto, se o locador pedir o imóvel alegando uso próprio e, dentro do prazo de 180 dias, não o ocupar ou colocá-lo novamente para alugar para terceiros por um valor mais alto, o ex-inquilino pode ajuizar ação indenizatória com vitória praticamente certa nos tribunais.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas Práticas para Locadores e Inquilinos</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Priorize contratos escritos de 30 meses:</strong> Essa modalidade oferece flexibilidade ao locador após o término do prazo, permitindo a denúncia vazia;</li>
+              <li><strong>Inquilino: registre o contrato na matrícula do imóvel:</strong> Garanta que a cláusula de vigência seja averbada no RGI para blindar sua posse em caso de venda;</li>
+              <li><strong>Formalize notificações com comprovação de entrega:</strong> Utilize notificações extrajudiciais por cartório de títulos e documentos ou telegrama com cópia e confirmação;</li>
+              <li><strong>Respeite rigorosamente o prazo de desocupação:</strong> O prazo concedido na notificação válida deve ser cumprido para evitar custas e honorários de ação de despejo.</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns na Retomada de Imóveis</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Trocar fechaduras ou cortar água e luz:</strong> Prática ilegal de exercício arbitrário das próprias razões (crime do Art. 345 do Código Penal) que gera indenização milionária por danos morais;</li>
+              <li><strong>Notificar por telefone ou WhatsApp informal:</strong> Notificações sem comprovação de recebimento inequívoco são desconsideradas pela Justiça;</li>
+              <li><strong>Simular necessidade de moradia para parentes:</strong> Pedir o bem para o filho morar e colocar placa de aluga na semana seguinte sujeita o locador à multa do Art. 44 da Lei 8.245/91.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Conheça outros artigos jurídicos e soluções especializadas prestadas pelo nosso escritório:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Direito Imobiliário e Despejos no RJ</Link>: assessoria em ações de despejo, rescisões e contratos.
+              </li>
+              <li>
+                <Link to="/blog/inquilino-inadimplente-o-que-fazer-quando-cabe-despejo-como-cobrar/" className="text-bronze hover:underline font-bold">Inquilino Inadimplente: Ação de Despejo e Cobrança</Link>: passos legais para recuperar o imóvel por falta de pagamento.
+              </li>
+              <li>
+                <Link to="/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/" className="text-bronze hover:underline font-bold">Responsabilidade por Reparos no Imóvel Alugado</Link>: divisão de custos de manutenção.
+              </li>
+              <li>
+                <Link to="/blog/benfeitorias-no-imovel-alugado-quais-sao-os-direitos/" className="text-bronze hover:underline font-bold">Benfeitorias no Imóvel Alugado</Link>: regras de indenização e retenção.
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-6">
+            A retomada de um imóvel alugado exige observância estrita aos prazos e formalidades previstos na Lei do Inquilinato. A condução orientada por advogados especialistas resguarda o patrimônio do proprietário e garante a legalidade de todo o procedimento.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Precisa Retomar seu Imóvel ou Recebeu Notificação de Desocupação?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O Soares Martins Advogados assessora locadores e locatários em todo o Rio de Janeiro na elaboração de notificações válidas, defesas contra desocupações arbitrárias, ações de despejo e mediação de conflitos locatícios.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende um atendimento com nossos especialistas</Link> ou envie uma mensagem direta pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Retomada de Imóveis Alugados (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. O proprietário pode pedir o imóvel de volta durante o prazo determinado se pagar a multa contratual?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O Artigo 4º da Lei do Inquilinato veda expressamente ao locador a retomada do imóvel durante a vigência do prazo determinado, mesmo mediante o pagamento de multa.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. O proprietário pode pedir o imóvel alugado de volta porque quer vendê-lo?</h4>
+                <p className="text-text-muted text-xs mt-1">O proprietário pode colocar o imóvel à venda, mas não pode exigir a desocupação imediata durante o prazo determinado. Deve oferecer o direito de preferência ao inquilino por 30 dias. Caso o inquilino não compre e um terceiro adquira, o novo comprador poderá conceder 90 dias para a desocupação se não houver cláusula de vigência averbada no RGI.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O locador pode pedir o imóvel para moradia de um filho ou familiar?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, mas apenas quando o contrato já estiver vigendo por prazo indeterminado (ou em contratos com prazo inferior a 30 meses) e se for comprovado que o descendente ou ascendente não possui imóvel residencial próprio no mesmo município.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O que acontece se o proprietário pedir o imóvel para uso próprio e não for morar nele?</h4>
+                <p className="text-text-muted text-xs mt-1">Comete crime e infração civil prevista no Artigo 44 da Lei nº 8.245/1991, ficando sujeito a pagar ao ex-inquilino multa no valor de 12 a 24 meses de aluguel atualizado, além de indenização por perdas e danos.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O que é denúncia vazia e quando o proprietário pode utilizá-la?</h4>
+                <p className="text-text-muted text-xs mt-1">Denúncia vazia é o pedido de retomada sem necessidade de justificativa. É permitida ao final de contratos de 30 meses ou após a prorrogação para prazo indeterminado, mediante aviso prévio por escrito de 30 dias.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Qual é o prazo concedido para o inquilino desocupar o imóvel após notificação de denúncia vazia?</h4>
+                <p className="text-text-muted text-xs mt-1">O prazo legal concedido na notificação prévia é de 30 (trinta) dias corridos para a entrega pacífica das chaves.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O que acontece se o inquilino se recusar a sair após o término do prazo da notificação?</h4>
+                <p className="text-text-muted text-xs mt-1">O locador deve ajuizar a Ação de Despejo. Se o pedido for feito dentro de 30 dias após o término do prazo, cabe pedido de liminar para desocupação em 15 dias mediante caução.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O novo comprador do imóvel é obrigado a manter o contrato de aluguel ativo?</h4>
+                <p className="text-text-muted text-xs mt-1">Apenas se o contrato contiver cláusula de vigência em caso de alienação e estiver averbado junto à matrícula do imóvel no RGI competente. Caso contrário, o comprador pode pedir a desocupação em 90 dias.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. O proprietário pode entrar no imóvel sem autorização do inquilino para mostrar a compradores?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. As visitas de compradores devem ser previamente combinadas em dia e hora razoáveis com o inquilino (Art. 23, IX). A invasão sem autorização configura violação de domicílio (Art. 150 do Código Penal).</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. O inquilino tem direito a indenização se o proprietário descumprir o direito de preferência na venda?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O inquilino preterido pode pleitear perdas e danos na Justiça ou, havendo o contrato registrado no RGI há mais de 30 dias antes da alienação, depositar o preço e haver o imóvel para si no prazo de 6 meses (Art. 33 da Lei 8.245/91).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     }
   ];
 };

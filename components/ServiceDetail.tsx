@@ -143,6 +143,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Leilão Judicial de Apartamento no Centro do Rio — Rua Leandro Martins nº 22 — Apto 620 (38 m²)',
+        desc: 'Apartamento de 38 m² no 6º andar do Edifício Sagres na Rua Leandro Martins, próximo ao VLT e Metrô. Salão dividido em antessala e 2 salas (fundos), banheiro e copa. Portaria 24h e 4 elevadores modernizados. Matrícula nº 14672 (4º RGI) e IPTU nº 0568243-0.',
+        p1Label: '1ª Praça (24/09/2026):',
+        p1Val: 'R$ 194.619,76',
+        p2Label: '2ª Praça (29/09/2026):',
+        p2Val: 'R$ 98.000,00 (~50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22-apto-620/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20620%20no%20Edif%C3%ADcio%20Sagres%20na%20Rua%20Leandro%20Martins%2022%20no%20Centro%20do%20Rio.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua da Passagem nº 159 — Apto 803 (22 m²)',
+        desc: 'Apartamento de frente no 8º andar com 22 m² na Rua da Passagem, próximo ao Metrô Botafogo e Botafogo Praia Shopping. Unidade desocupada há vários anos. Portaria 24h e 2 elevadores. Matrícula nº 0053374 (3º RGI) e IPTU nº 0.691.419-6.',
+        p1Label: '1ª Praça (21/09/2026):',
+        p1Val: 'R$ 340.000,00',
+        p2Label: '2ª Praça (23/09/2026):',
+        p2Val: 'R$ 204.000,00 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159-apto-803/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20803%20na%20Rua%20da%20Passagem%20159%20em%20Botafogo.'
+      },
+      {
         tag: 'Residencial • Maracanã/RJ',
         title: 'Leilão Judicial de Apartamento no Maracanã — Rua Morais e Silva nº 51 — Apto 1401, Bloco 2 (85 m²)',
         desc: 'Apartamento em andar alto com 85 m² e direito a 1 vaga em garagem elevada no Bloco 2. Localização estratégica próximo à UERJ, Estádio do Maracanã e Metrô. Unidade fechada. Matrícula nº 30.179 (11º RGI) e IPTU nº 1.514.716-8.',
@@ -606,6 +628,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Subasta Judicial de Apartamento en Centro de Río — Calle Leandro Martins nº 22 — Apto 620 (38 m²)',
+        desc: 'Apartamento de 38 m² en 6º piso del Edificio Sagres en Calle Leandro Martins, junto al VLT y Metro. Salón dividido en antesala y 2 salas (contrafrente), baño y cocina. Portería 24h y 4 ascensores modernizados. Matrícula nº 14672 (4º RGI) e IPTU nº 0568243-0.',
+        p1Label: '1ª Subasta (24/09/2026):',
+        p1Val: 'R$ 194.619,76',
+        p2Label: '2ª Subasta (29/09/2026):',
+        p2Val: 'R$ 98.000,00 (~50% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22-apto-620/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20620%20en%20el%20Edificio%20Sagres%20en%20Calle%20Leandro%20Martins%2022%20en%20Centro%20de%20R%C3%ADo.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Calle de la Passagem nº 159 — Apto 803 (22 m²)',
+        desc: 'Apartamento de frente en 8º piso con 22 m² en Calle de la Passagem, junto al Metro Botafogo y centro comercial. Unidad desocupada desde hace años. Portería 24h y 2 ascensores. Matrícula nº 0053374 (3º RGI) e IPTU nº 0.691.419-6.',
+        p1Label: '1ª Subasta (21/09/2026):',
+        p1Val: 'R$ 340.000,00',
+        p2Label: '2ª Subasta (23/09/2026):',
+        p2Val: 'R$ 204.000,00 (60% de evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159-apto-803/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20803%20en%20Calle%20de%20la%20Passagem%20159%20en%20Botafogo.'
+      },
+      {
         tag: 'Residencial • Maracanã/RJ',
         title: 'Subasta Judicial de Apartamento en Maracanã — Calle Morais e Silva nº 51 — Apto 1401, Bloque 2 (85 m²)',
         desc: 'Apartamento en planta alta con 85 m² y 1 plaza en garaje elevado en el Bloque 2. Ubicación estratégica junto a la UERJ, Estadio Maracanã y metro. Unidad cerrada. Matrícula nº 30.179 (11º RGI) e IPTU nº 1.514.716-8.',
@@ -1046,6 +1090,28 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Centro/RJ',
+        title: 'Judicial Auction of Apartment in Downtown Rio — Rua Leandro Martins #22 — Apt 620 (38 sqm)',
+        desc: '38 sqm apartment on the 6th floor of Sagres Building on Rua Leandro Martins, near VLT light rail and Metro. Salon partitioned into anteroom and 2 rear-facing rooms, bathroom, and kitchen area. 24/7 concierge and 4 elevators. Title #14672 (4th Registry) & IPTU #0568243-0.',
+        p1Label: '1st Auction (09/24/2026):',
+        p1Val: 'R$ 194,619.76',
+        p2Label: '2nd Auction (09/29/2026):',
+        p2Val: 'R$ 98,000.00 (~50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22-apto-620/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Leandro%20Martins%2022%20Apt%20620%20in%20Downtown%20Rio.'
+      },
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment in Botafogo — Rua da Passagem #159 — Apt 803 (22 sqm)',
+        desc: 'Front-facing 22 sqm studio on the 8th floor on Rua da Passagem, steps from Botafogo Metro and shopping. Vacant for several years. 24/7 concierge and 2 elevators. Title #0053374 (3rd Registry) & IPTU #0.691.419-6.',
+        p1Label: '1st Auction (09/21/2026):',
+        p1Val: 'R$ 340,000.00',
+        p2Label: '2nd Auction (09/23/2026):',
+        p2Val: 'R$ 204,000.00 (60% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159-apto-803/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20da%20Passagem%20159%20Apt%20803%20in%20Botafogo.'
+      },
       {
         tag: 'Residential • Maracanã/RJ',
         title: 'Judicial Auction of Apartment in Maracanã — Rua Morais e Silva #51 — Apt 1401, Block 2 (85 sqm)',

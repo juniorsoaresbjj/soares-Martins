@@ -54,6 +54,8 @@ import BotafogoGuilherminaGuinle18AuctionPage from './components/BotafogoGuilher
 import FlamengoHonorioDeBarros23AuctionPage from './components/FlamengoHonorioDeBarros23AuctionPage';
 import UrcaPortugal584AuctionPage from './components/UrcaPortugal584AuctionPage';
 import MaracanaMoraisSilva51AuctionPage from './components/MaracanaMoraisSilva51AuctionPage';
+import BotafogoPassagem159AuctionPage from './components/BotafogoPassagem159AuctionPage';
+import CentroLeandroMartins22AuctionPage from './components/CentroLeandroMartins22AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -424,6 +426,16 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501" element={<UrcaPortugal584AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584/" element={<UrcaPortugal584AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584" element={<UrcaPortugal584AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22-apto-620/" element={<CentroLeandroMartins22AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22-apto-620" element={<CentroLeandroMartins22AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22/" element={<CentroLeandroMartins22AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-leandro-martins-22" element={<CentroLeandroMartins22AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159-apto-803/" element={<BotafogoPassagem159AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159-apto-803" element={<BotafogoPassagem159AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159/" element={<BotafogoPassagem159AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-da-passagem-159" element={<BotafogoPassagem159AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401/" element={<MaracanaMoraisSilva51AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-morais-e-silva-51-apto-1401" element={<MaracanaMoraisSilva51AuctionPage />} />
