@@ -273,8 +273,8 @@ const SiqueiraCamposAuctionPage: React.FC<SiqueiraCamposAuctionPageProps> = () =
                 <li><strong className="text-white">Número do Processo:</strong> 0018542-43.2022.8.19.0001</li>
                 <li><strong className="text-white">Valor da Avaliação:</strong> R$ 400.000,00</li>
                 <li><strong className="text-white">Lance Mínimo na 2ª Praça (50%):</strong> R$ 200.000,00</li>
-                <li><strong className="text-white">Data 1ª Praça:</strong> 05/08/2026 às 15:00h</li>
-                <li><strong className="text-white">Data 2ª Praça:</strong> 12/08/2026 às 15:00h</li>
+                <li><strong className="text-white">Data 1ª Praça:</strong> {item.p1Date}</li>
+                <li><strong className="text-white">Data 2ª Praça:</strong> {item.p2Date}</li>
               </ul>
             </div>
           </div>

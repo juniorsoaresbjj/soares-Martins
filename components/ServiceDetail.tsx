@@ -143,6 +143,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Maracanã/RJ',
+        title: 'Leilão Judicial de Apartamento no Maracanã — Av. Maracanã nº 480 — Apto 902 (95 m²)',
+        desc: 'Apartamento de 95 m² no 9º andar com direito a 1 vaga de garagem em condomínio com portaria 24h, reconhecimento facial, CFTV, hall em mármore e lambri de madeira, 2 blocos com 2 elevadores cada e salão de festas. Matrícula nº 27.191 (11º RGI) e IPTU nº 1.227.137-5.',
+        p1Label: '1ª Praça (28/09/2026):',
+        p1Val: 'R$ 484.690,00',
+        p2Label: '2ª Praça (30/09/2026):',
+        p2Val: 'R$ 242.345,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480-apto-902/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20902%20na%20Av.%20Maracan%C3%A3%20480%20no%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Barra da Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Barra da Tijuca — Av. Jornalista Ricardo Marinho nº 300 — Apto 312 (101 m²)',
+        desc: 'Apartamento de 101 m² com posição fundos (silencioso) no 3º andar em condomínio com lazer completo, serviços, portaria 24h e 1 vaga coberta. Prédio construído em 1989 em localização nobre na Barra. Matrícula nº 150903 (9º RGI) e IPTU nº 1.845.927-1.',
+        p1Label: '1ª Praça (24/08/2026):',
+        p1Val: 'R$ 1.300.000,00',
+        p2Label: '2ª Praça (26/08/2026):',
+        p2Val: 'R$ 650.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20312%20na%20Av.%20Jornalista%20Ricardo%20Marinho%20300%20na%20Barra%20da%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Flamengo/RJ',
+        title: 'Leilão Judicial de Apartamento na Praia do Flamengo nº 284 — Apto 301 (463 m²)',
+        desc: 'Apartamento de altíssimo padrão com 463 m² na nobre orla da Praia do Flamengo. Prédio com 09 pavimentos, 2 apartamentos por andar, portaria 24h e 3 elevadores. Vista deslumbrante para a Baía de Guanabara, Aterro e Pão de Açúcar. Matrícula nº 293012 (9º RGI) e IPTU nº 0245475-9.',
+        p1Label: '1ª Praça (05/10/2026):',
+        p1Val: 'R$ 4.100.000,00',
+        p2Label: '2ª Praça (08/10/2026):',
+        p2Val: 'R$ 2.050.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20301%20na%20Praia%20do%20Flamengo%20284%20no%20Flamengo.'
+      },
+      {
         tag: 'Residencial • Centro/RJ',
         title: 'Leilão Judicial de Apartamento no Centro do Rio — Rua Leandro Martins nº 22 — Apto 620 (38 m²)',
         desc: 'Apartamento de 38 m² no 6º andar do Edifício Sagres na Rua Leandro Martins, próximo ao VLT e Metrô. Salão dividido em antessala e 2 salas (fundos), banheiro e copa. Portaria 24h e 4 elevadores modernizados. Matrícula nº 14672 (4º RGI) e IPTU nº 0568243-0.',
@@ -399,9 +432,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residencial • Copacabana/RJ',
         title: 'Leilão Judicial de Apartamento em Copacabana na Rua Siqueira Campos nº 43 — Apto 1123',
         desc: 'Apartamento 1123 com 38 m² de área edificada e posição de frente no Edifício Centro Comercial de Copacabana. Composto de banheiro com box de granito, cozinha e sala acopladas e quarto separado por móvel. Matrícula nº 5098 no 5º RGI e IPTU nº 0.686.319-5.',
-        p1Label: '1ª Praça (05/08/2026):',
+        p1Label: '1ª Praça (16/09/2026):',
         p1Val: 'R$ 400.000,00',
-        p2Label: '2ª Praça (12/08/2026):',
+        p2Label: '2ª Praça (23/09/2026):',
         p2Val: 'R$ 200.000,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201123%20na%20Rua%20Siqueira%20Campos%2043%20em%20Copacabana.'
@@ -627,6 +660,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Enviar Email Corporativo',
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
+      {
+        tag: 'Residencial • Maracanã/RJ',
+        title: 'Subasta Judicial de Apartamento en Maracanã — Av. Maracanã nº 480 — Apto 902 (95 m²)',
+        desc: 'Apartamento de 95 m² en 9º piso con 1 plaza de garaje en condominio con portería 24h, reconocimiento facial, CCTV, vestíbulo en mármol y madera, 2 bloques con 2 ascensores cada uno y salón de fiestas. Matrícula nº 27.191 (11º RGI) e IPTU nº 1.227.137-5.',
+        p1Label: '1ª Subasta (28/09/2026):',
+        p1Val: 'R$ 484.690,00',
+        p2Label: '2ª Subasta (30/09/2026):',
+        p2Val: 'R$ 242.345,00 (50% de la evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480-apto-902/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20902%20en%20Av.%20Maracan%C3%A3%20480%20en%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Barra da Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Barra da Tijuca — Av. Jornalista Ricardo Marinho nº 300 — Apto 312 (101 m²)',
+        desc: 'Apartamento de 101 m² con posición contrafrente (silencioso) en 3º piso en condominio con ocio completo, servicios, portería 24h y 1 cochera cubierta. Edificio construido en 1989 en ubicación noble en Barra. Matrícula nº 150903 (9º RGI) e IPTU nº 1.845.927-1.',
+        p1Label: '1ª Subasta (24/08/2026):',
+        p1Val: 'R$ 1.300.000,00',
+        p2Label: '2ª Subasta (26/08/2026):',
+        p2Val: 'R$ 650.000,00 (50% de la evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20312%20en%20Av.%20Jornalista%20Ricardo%20Marinho%20300%20en%20Barra%20da%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Flamengo/RJ',
+        title: 'Subasta Judicial de Apartamento en Praia do Flamengo nº 284 — Apto 301 (463 m²)',
+        desc: 'Apartamento de altísimo estándar con 463 m² en la exclusiva orla de Praia do Flamengo. Edificio de 09 pisos, 2 apartamentos por planta, portería 24h y 3 ascensores. Vista panorámica a la Bahía de Guanabara, Aterro y Pan de Azúcar. Matrícula nº 293012 (9º RGI) e IPTU nº 0245475-9.',
+        p1Label: '1ª Subasta (05/10/2026):',
+        p1Val: 'R$ 4.100.000,00',
+        p2Label: '2ª Subasta (08/10/2026):',
+        p2Val: 'R$ 2.050.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20301%20en%20Praia%20do%20Flamengo%20284%20en%20Flamengo.'
+      },
       {
         tag: 'Residencial • Centro/RJ',
         title: 'Subasta Judicial de Apartamento en Centro de Río — Calle Leandro Martins nº 22 — Apto 620 (38 m²)',
@@ -884,9 +950,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residencial • Copacabana/RJ',
         title: 'Subasta Judicial de Apartamento en Copacabana en Calle Siqueira Campos nº 43 — Apto 1123',
         desc: 'Apartamento 1123 con 38 m² construidos, posición al frente en el Edificio Centro Comercial de Copacabana. Cuenta con baño con box de granito, sala/cocina integradas y dormitorio separado. Matrícula nº 5098 no 5º RGI e IPTU nº 0.686.319-5.',
-        p1Label: '1ª Subasta (05/08/2026):',
+        p1Label: '1ª Subasta (16/09/2026):',
         p1Val: 'R$ 400.000,00',
-        p2Label: '2ª Subasta (12/08/2026):',
+        p2Label: '2ª Subasta (23/09/2026):',
         p2Val: 'R$ 200.000,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%201123%20en%20Siqueira%20Campos.'
@@ -1090,6 +1156,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Maracanã/RJ',
+        title: 'Judicial Auction of Apartment in Maracanã — Av. Maracanã #480 — Apt 902 (95 sqm)',
+        desc: '95 sqm 9th floor apartment with 1 parking space in a condominium featuring 24/7 concierge, facial recognition access, CCTV, marble and wood lobby, 2 blocks with 2 elevators each, and party hall. Title #27.191 (11th Registry) & IPTU #1.227.137-5.',
+        p1Label: '1st Auction (09/28/2026):',
+        p1Val: 'R$ 484,690.00',
+        p2Label: '2nd Auction (09/30/2026):',
+        p2Val: 'R$ 242,345.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480-apto-902/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Av.%20Maracan%C3%A3%20480%20Apt%20902%20in%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Barra da Tijuca/RJ',
+        title: 'Judicial Auction of Apartment in Barra da Tijuca — Av. Jornalista Ricardo Marinho #300 — Apt 312 (101 sqm)',
+        desc: '101 sqm quiet rear-facing apartment on the 3rd floor in a full resort amenity condominium with services, 24/7 security concierge, and 1 covered garage space. Built in 1989 in prime Barra location. Title #150903 (9th Registry) & IPTU #1.845.927-1.',
+        p1Label: '1st Auction (08/24/2026):',
+        p1Val: 'R$ 1,300,000.00',
+        p2Label: '2nd Auction (08/26/2026):',
+        p2Val: 'R$ 650,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Av.%20Jornalista%20Ricardo%20Marinho%20300%20Apt%20312%20in%20Barra%20da%20Tijuca.'
+      },
+      {
+        tag: 'Residential • Flamengo/RJ',
+        title: 'Judicial Auction of Luxury Apartment at Praia do Flamengo #284 — Apt 301 (463 sqm)',
+        desc: 'Ultra-luxury 463 sqm residence along prestigious Praia do Flamengo. 9-story building with 2 residences per floor, 24/7 concierge, and 3 elevators. Spectacular views of Guanabara Bay, Flamengo Park, and Sugarloaf Mountain. Title #293012 (9th Registry) & IPTU #0245475-9.',
+        p1Label: '1st Auction (10/05/2026):',
+        p1Val: 'R$ 4,100,000.00',
+        p2Label: '2nd Auction (10/08/2026):',
+        p2Val: 'R$ 2,050,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Praia%20do%20Flamengo%20284%20Apt%20301%20in%20Flamengo.'
+      },
       {
         tag: 'Residential • Centro/RJ',
         title: 'Judicial Auction of Apartment in Downtown Rio — Rua Leandro Martins #22 — Apt 620 (38 sqm)',
@@ -1347,9 +1446,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residential • Copacabana/RJ',
         title: 'Judicial Auction of Apartment in Copacabana at Siqueira Campos St #43 — Apt 1123',
         desc: 'Apartment 1123 with 38 sqm built area, front-facing in Edifício Centro Comercial de Copacabana. Features granite bathroom, open kitchen/living area, and partitioned bedroom. Title #5098 at 5th Registry and IPTU tax #0.686.319-5.',
-        p1Label: '1st Auction (08/05/2026):',
+        p1Label: '1st Auction (09/16/2026):',
         p1Val: 'R$ 400,000.00',
-        p2Label: '2nd Auction (08/12/2026):',
+        p2Label: '2nd Auction (09/23/2026):',
         p2Val: 'R$ 200,000.00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-43/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20apt%201123%20in%20Copacabana.'

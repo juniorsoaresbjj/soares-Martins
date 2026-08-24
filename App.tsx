@@ -56,6 +56,9 @@ import UrcaPortugal584AuctionPage from './components/UrcaPortugal584AuctionPage'
 import MaracanaMoraisSilva51AuctionPage from './components/MaracanaMoraisSilva51AuctionPage';
 import BotafogoPassagem159AuctionPage from './components/BotafogoPassagem159AuctionPage';
 import CentroLeandroMartins22AuctionPage from './components/CentroLeandroMartins22AuctionPage';
+import FlamengoPraiaDoFlamengo284AuctionPage from './components/FlamengoPraiaDoFlamengo284AuctionPage';
+import BarraRicardoMarinho300AuctionPage from './components/BarraRicardoMarinho300AuctionPage';
+import MaracanaAvenidaMaracana480AuctionPage from './components/MaracanaAvenidaMaracana480AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -421,6 +424,21 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601" element={<FlamengoHonorioDeBarros23AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23/" element={<FlamengoHonorioDeBarros23AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23" element={<FlamengoHonorioDeBarros23AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301/" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284/" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312/" element={<BarraRicardoMarinho300AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312" element={<BarraRicardoMarinho300AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300/" element={<BarraRicardoMarinho300AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300" element={<BarraRicardoMarinho300AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480-apto-902/" element={<MaracanaAvenidaMaracana480AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480-apto-902" element={<MaracanaAvenidaMaracana480AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480/" element={<MaracanaAvenidaMaracana480AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480" element={<MaracanaAvenidaMaracana480AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501/" element={<UrcaPortugal584AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/avenida-portugal-584-apto-501" element={<UrcaPortugal584AuctionPage />} />
