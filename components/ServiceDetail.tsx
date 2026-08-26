@@ -143,6 +143,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Rio Comprido/RJ',
+        title: 'Leilão Judicial de Apartamento em Rio Comprido — Av. Presidente Vargas nº 3555 — Bloco E, Apto 403 (57 m²)',
+        desc: 'Apartamento de 57 m² no Bloco E, atualmente desocupado (vazio), o que garante posse imediata. Condomínio com infraestrutura, portaria e elevadores em localização com rápido acesso ao Centro e Zona Sul. Matrícula nº 14.273 (11º RGI) e IPTU nº 0013203-5.',
+        p1Label: '1ª Praça (14/09/2026):',
+        p1Val: 'R$ 228.000,00',
+        p2Label: '2ª Praça (17/09/2026):',
+        p2Val: 'R$ 171.000,00 (75% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/avenida-presidente-vargas-3555-bloco-e-apto-403/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20403%20do%20Bloco%20E%20na%20Av.%20Presidente%20Vargas%203555%20no%20Rio%20Comprido%20-%20Rio%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Botafogo/RJ',
         title: 'Leilão Judicial de Apartamento em Botafogo — Rua Lauro Müller nº 26 — Apto 1001 (39 m²)',
         desc: 'Apartamento de 39 m² no 10º andar (frente, sol da manhã) com vista livre para a Enseada de Botafogo, Cristo Redentor e UFRJ. Sala, 1 quarto, banheiro e cozinha em prédio com portaria 24h e 3 elevadores a passos do Rio Sul. Matrícula nº 35.489 (3º RGI) e IPTU nº 0.351.945-1.',
@@ -672,6 +683,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Rio Comprido/RJ',
+        title: 'Subasta Judicial de Apartamento en Rio Comprido — Av. Presidente Vargas nº 3555 — Bloque E, Apto 403 (57 m²)',
+        desc: 'Apartamento de 57 m² en Bloque E, actualmente desocupado (vacío) con entrega de llaves y posesión inmediata. Condominio con infraestructura, portería y ascensores con rápido acceso al Centro y Zona Sur. Matrícula nº 14.273 (11º RGI) e IPTU nº 0013203-5.',
+        p1Label: '1ª Subasta (14/09/2026):',
+        p1Val: 'R$ 228.000,00',
+        p2Label: '2ª Subasta (17/09/2026):',
+        p2Val: 'R$ 171.000,00 (75% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/avenida-presidente-vargas-3555-bloco-e-apto-403/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20403%20del%20Bloque%20E%20en%20Av.%20Presidente%20Vargas%203555%20en%20Rio%20Comprido%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Botafogo/RJ',
         title: 'Subasta Judicial de Apartamento en Botafogo — Rua Lauro Müller nº 26 — Apto 1001 (39 m²)',
         desc: 'Apartamento de 39 m² en 10º piso (frente, sol de mañana) con vista despejada a la Ensenada de Botafogo, Cristo Redentor y UFRJ. Sala, 1 dormitorio, baño y cocina en edificio con portería 24h y 3 ascensores junto a Rio Sul. Matrícula nº 35.489 (3º RGI) e IPTU nº 0.351.945-1.',
@@ -1178,6 +1200,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Rio Comprido/RJ',
+        title: 'Judicial Auction of Apartment in Rio Comprido — Av. Presidente Vargas #3555 — Block E, Apt 403 (57 sqm)',
+        desc: '57 sqm apartment in Block E, currently vacant (unoccupied) guaranteeing immediate key handover and possession. Condominium with infrastructure, concierge, and elevators with fast transit to Downtown and South Zone. Title #14.273 (11th Registry) & IPTU #0013203-5.',
+        p1Label: '1st Auction (09/14/2026):',
+        p1Val: 'R$ 228,000.00',
+        p2Label: '2nd Auction (09/17/2026):',
+        p2Val: 'R$ 171,000.00 (75% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/avenida-presidente-vargas-3555-bloco-e-apto-403/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Av.%20Presidente%20Vargas%203555%20Block%20E%20Apt%20403%20in%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Botafogo/RJ',
         title: 'Judicial Auction of Apartment in Botafogo — Rua Lauro Müller #26 — Apt 1001 (39 sqm)',

@@ -3251,5 +3251,78 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
       ]
     }
+  },
+  'rio-comprido-presidente-vargas-3555-apto-403': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Rio Comprido — Av. Presidente Vargas nº 3555 — Bloco E, Apto 403 (57 m²)',
+      subtitle: 'Avenida Presidente Vargas, nº 3555, Bloco E, Apto 403 — Rio Comprido, Rio de Janeiro/RJ | 57 m² • Imóvel Desocupado (Vazio) • Condomínio com Infraestrutura, Portaria e Elevadores • 11º RGI (Matrícula 14.273)',
+      address: 'Avenida Presidente Vargas, 3555 - Bloco E, Apto 403 — Rio Comprido, Rio de Janeiro - RJ',
+      p1Date: '14/09/2026 às 12:00h',
+      p2Date: '17/09/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0013203-5',
+      rgi: '14.273 (11º RGI/RJ)',
+      val: 'R$ 228.000,00',
+      p2Val: 'R$ 171.000,00 (75% da avaliação / 25% de desconto)',
+      description: 'Apartamento residencial nº 403 do Bloco E, com 57 m² de área privativa, situado no conjunto residencial localizado na Avenida Presidente Vargas, nº 3555, no bairro do Rio Comprido / Região Central, Rio de Janeiro/RJ. O imóvel encontra-se DESOCUPADO (VAZIO), o que proporciona celeridade imediata na imissão e tomada de posse após a expedição da carta de arrematação. O condomínio dispõe de infraestrutura completa, portaria, segurança, interfonia e elevadores. Imóvel devidamente registrado no 11º Ofício de Registro de Imóveis (11º RGI/RJ) sob a Matrícula nº 14.273 e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a Inscrição Municipal (IPTU) nº 0013203-5. Avaliado judicialmente em R$ 228.000,00, com 2ª praça iniciando em 75% da avaliação (R$ 171.000,00), possibilitando grande margem de rentabilidade patrimonial ou revenda rápida.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial e o lance mínimo na 2ª Praça para o imóvel na Av. Presidente Vargas nº 3555?", a: "O imóvel foi avaliado judicialmente em R$ 228.000,00. Na 1ª Praça (14/09/2026 às 12:00h), o lance mínimo corresponde a 100% da avaliação (R$ 228.000,00). Na 2ª Praça (17/09/2026 às 12:00h), o lance inicial abre por 75% da avaliação judicial (R$ 171.000,00), proporcionando um desconto de 25% (economia de R$ 57.000,00 em relação à avaliação homologada)." },
+        { q: "Quais são as principais vantagens de o apartamento 403 do Bloco E estar vazio/desocupado?", a: "Por estar desocupado, o arrematante não enfrentará litígios de desocupação com inquilinos ou antigos proprietários, possibilitando a entrega imediata das chaves e a imissão na posse célere assim que expedida e registrada a Carta de Arrematação." },
+        { q: "Quais são as características do condomínio e localização na Av. Presidente Vargas / Rio Comprido?", a: "O condomínio residencial dispõe de infraestrutura, portaria com controle de acesso, elevadores e áreas comuns. Situa-se em ponto estratégico com conexão rápida ao Centro da Cidade, Tijuca, Zona Sul e Linha Vermelha/Avenida Brasil, com farta oferta de transporte público (metrô, ônibus e trens)." },
+        { q: "Como é realizada a auditoria jurídica da Matrícula nº 14.273 (11º RGI) e IPTU nº 0013203-5?", a: "Nossa equipe realiza auditoria jurídica completa (Due Diligence) de todo o processo judicial de execução, verificando certidões vintenárias no 11º RGI (Matrícula 14.273), débitos municipais no IPTU 0013203-5 (com sub-rogação no preço nos termos do Art. 130 do CTN), taxa de incêndio (FUNESBOM) e taxas condominiais." },
+        { q: "É possível adquirir o imóvel de forma parcelada (Art. 895 do CPC)?", a: "Sim. O interessado pode apresentar proposta de parcelamento judicial antes do término do leilão, com entrada de 25% à vista e saldo restante dividido em até 30 parcelas mensais corrigidas judicialmente, com garantia de hipoteca judiciária." },
+        { q: "Como a assessoria de Soares Martins Advogados auxilia em todas as etapas?", a: "Oferecemos parecer prévio de viabilidade, assessoria durante os lances, homologação do leilão, registro no 11º RGI e cumprimento rápido do mandado de imissão na posse com entrega das chaves." },
+        { q: "Como entrar em contato para participar deste leilão no Rio Comprido?", a: "Fale diretamente com nossos advogados pelo WhatsApp (+55 21 97954-9241) ou agende atendimento em nosso escritório na Rua Visconde de Pirajá, 414 - Sala 718, Ipanema/RJ." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Rio Comprido — Av. Presidente Vargas nº 3555 — Bloque E, Apto 403 (57 m²)',
+      subtitle: 'Avenida Presidente Vargas, nº 3555, Bloque E, Apto 403 — Rio Comprido, Río de Janeiro/RJ | 57 m² • Inmueble Desocupado (Vacío) • Condominio con Infraestructura y Ascensores • 11º RGI (Matrícula 14.273)',
+      address: 'Avenida Presidente Vargas, 3555 - Bloque E, Apto 403 — Rio Comprido, Río de Janeiro - RJ',
+      p1Date: '14/09/2026 a las 12:00h',
+      p2Date: '17/09/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0013203-5',
+      rgi: '14.273 (11º RGI/RJ)',
+      val: 'R$ 228.000,00',
+      p2Val: 'R$ 171.000,00 (75% de la tasación / 25% descuento)',
+      description: 'Apartamento residencial nº 403 del Bloque E, con 57 m² de superficie privativa, ubicado en el complejo residencial en Avenida Presidente Vargas nº 3555, Rio Comprido, Río de Janeiro/RJ. El inmueble se encuentra DESOCUPADO (VACÍO), garantizando toma de posesión expedita. Condominio con infraestructura, portería y ascensores. Registrado en el 11º Registro Inmobiliario bajo la Matrícula nº 14.273 e IPTU nº 0013203-5. Tasación judicial de R$ 228.000,00, con 2ª subasta inicial en el 75% (R$ 171.000,00).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja mínima en 2ª Subasta en Av. Presidente Vargas nº 3555?", a: "Tasación judicial de R$ 228.000,00. En 1ª Subasta (14/09/2026 a las 12:00h) puja del 100%. En 2ª Subasta (17/09/2026 a las 12:00h) la puja inicial abre en R$ 171.000,00 (75% de la tasación judicial)." },
+        { q: "¿Cuáles son las ventajas de que el inmueble esté desocupado?", a: "Permite una toma de posesión inmediata sin litigios con ocupantes tras la expedición del auto de adjudicación." },
+        { q: "¿Cómo se audita la Matrícula nº 14.273 del 11º RGI e IPTU?", a: "Auditoría legal preventiva integral del proceso judicial, deudas fiscales (Art. 130 CTN) y condominio." },
+        { q: "¿Es posible adquirir mediante pago a plazos (Art. 895 CPC)?", a: "Sí, propuesta con 25% de entrada y saldo en hasta 30 cuotas mensuales con garantía hipotecaria." },
+        { q: "¿Cómo contratar la asesoría legal para esta subasta en Río de Janeiro?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Rio Comprido — Av. Presidente Vargas #3555 — Block E, Apt 403 (57 sqm)',
+      subtitle: 'Avenida Presidente Vargas, #3555, Block E, Apt 403 — Rio Comprido, Rio de Janeiro/RJ | 57 sqm (613 sq ft) • Vacant Property (Unoccupied) • Condominium with Infrastructure & Elevators • 11th Registry (Title #14.273)',
+      address: 'Avenida Presidente Vargas, 3555 - Block E, Apt 403 — Rio Comprido, Rio de Janeiro - RJ',
+      p1Date: '09/14/2026 at 12:00 PM',
+      p2Date: '09/17/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0013203-5',
+      rgi: 'Title #14.273 (11th Land Registry)',
+      val: 'R$ 228,000.00',
+      p2Val: 'R$ 171,000.00 (75% starting bid / 25% discount)',
+      description: 'Residential apartment #403 in Block E, with 57 square meters (57 sqm / 613 sq ft) of private area, situated in the residential condominium complex located at Avenida Presidente Vargas #3555, Rio Comprido / Central Area, Rio de Janeiro/RJ. The unit is currently VACANT (UNOCCUPIED), enabling immediate physical possession upon recording the Certificate of Auction Sale. Condominium features complete infrastructure, 24/7 security concierge, and elevators. Registered at the 11th Land Registry under Title #14.273 and municipal tax IPTU #0013203-5. Court appraisal is R$ 228,000.00, with 2nd auction opening bid starting at 75% (R$ 171,000.00).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the court appraisal and 2nd auction opening bid for Av. Presidente Vargas #3555?", a: "Court appraisal is R$ 228,000.00. 1st Auction (09/14/2026 at 12:00 PM) opens at 100% (R$ 228,000.00). 2nd Auction (09/17/2026 at 12:00 PM) opens at 75% (R$ 171,000.00 / R$ 57,000.00 discount)." },
+        { q: "What are the benefits of Apt 403 being vacant/unoccupied?", a: "Vacant status eliminates eviction delays and allows immediate key handover and possession once the Certificate of Auction Sale is registered." },
+        { q: "How is legal due diligence conducted for Title #14.273 (11th Registry)?", a: "We audit Title #14.273, municipal tax IPTU #0013203-5, condo debts, and judicial notifications ensuring clean title transfer under CTN Art. 130." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
   }
 };
