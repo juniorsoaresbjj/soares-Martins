@@ -73,6 +73,7 @@ const routesToPrerender = [
   '/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/',
   '/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/',
   // New Auction routes
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-26-apto-1001/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/avenida-maracana-480-apto-902/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301/',

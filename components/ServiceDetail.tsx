@@ -143,6 +143,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Lauro Müller nº 26 — Apto 1001 (39 m²)',
+        desc: 'Apartamento de 39 m² no 10º andar (frente, sol da manhã) com vista livre para a Enseada de Botafogo, Cristo Redentor e UFRJ. Sala, 1 quarto, banheiro e cozinha em prédio com portaria 24h e 3 elevadores a passos do Rio Sul. Matrícula nº 35.489 (3º RGI) e IPTU nº 0.351.945-1.',
+        p1Label: '1ª Praça (14/09/2026):',
+        p1Val: 'R$ 541.158,40',
+        p2Label: '2ª Praça (16/09/2026):',
+        p2Val: 'R$ 271.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-26-apto-1001/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201001%20na%20Rua%20Lauro%20M%C3%BCller%2026%20em%20Botafogo%20-%20Rio%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Maracanã/RJ',
         title: 'Leilão Judicial de Apartamento no Maracanã — Av. Maracanã nº 480 — Apto 902 (95 m²)',
         desc: 'Apartamento de 95 m² no 9º andar com direito a 1 vaga de garagem em condomínio com portaria 24h, reconhecimento facial, CFTV, hall em mármore e lambri de madeira, 2 blocos com 2 elevadores cada e salão de festas. Matrícula nº 27.191 (11º RGI) e IPTU nº 1.227.137-5.',
@@ -661,6 +672,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Rua Lauro Müller nº 26 — Apto 1001 (39 m²)',
+        desc: 'Apartamento de 39 m² en 10º piso (frente, sol de mañana) con vista despejada a la Ensenada de Botafogo, Cristo Redentor y UFRJ. Sala, 1 dormitorio, baño y cocina en edificio con portería 24h y 3 ascensores junto a Rio Sul. Matrícula nº 35.489 (3º RGI) e IPTU nº 0.351.945-1.',
+        p1Label: '1ª Subasta (14/09/2026):',
+        p1Val: 'R$ 541.158,40',
+        p2Label: '2ª Subasta (16/09/2026):',
+        p2Val: 'R$ 271.000,00 (50% de la evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-26-apto-1001/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201001%20en%20Rua%20Lauro%20M%C3%BCller%2026%20en%20Botafogo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Maracanã/RJ',
         title: 'Subasta Judicial de Apartamento en Maracanã — Av. Maracanã nº 480 — Apto 902 (95 m²)',
         desc: 'Apartamento de 95 m² en 9º piso con 1 plaza de garaje en condominio con portería 24h, reconocimiento facial, CCTV, vestíbulo en mármol y madera, 2 bloques con 2 ascensores cada uno y salón de fiestas. Matrícula nº 27.191 (11º RGI) e IPTU nº 1.227.137-5.',
@@ -1156,6 +1178,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment in Botafogo — Rua Lauro Müller #26 — Apt 1001 (39 sqm)',
+        desc: '39 sqm 10th floor front-facing apartment with morning sun and open views of Botafogo Bay, Christ the Redeemer, and UFRJ. 1 bedroom, living room, bathroom, kitchen in building with 24/7 concierge and 3 elevators right by Rio Sul. Title #35.489 (3rd Registry) & IPTU #0.351.945-1.',
+        p1Label: '1st Auction (09/14/2026):',
+        p1Val: 'R$ 541,158.40',
+        p2Label: '2nd Auction (09/16/2026):',
+        p2Val: 'R$ 271,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-26-apto-1001/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Lauro%20M%C3%BCller%2026%20Apt%201001%20in%20Botafogo%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Maracanã/RJ',
         title: 'Judicial Auction of Apartment in Maracanã — Av. Maracanã #480 — Apt 902 (95 sqm)',

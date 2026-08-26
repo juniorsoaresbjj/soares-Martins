@@ -3178,5 +3178,78 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
       ]
     }
+  },
+  'botafogo-rua-lauro-muller-26-apto-1001': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Botafogo — Rua Lauro Müller nº 26 — Apto 1001 (39 m²)',
+      subtitle: 'Rua Lauro Müller, nº 26, Apto 1001 — Botafogo, Rio de Janeiro/RJ | 39 m² • 10º Andar (Frente) • Sol da Manhã • Vista Livre para a Enseada de Botafogo, Cristo Redentor e UFRJ • Portaria 24h e 3 Elevadores',
+      address: 'Rua Lauro Müller, 26 - Apto 1001 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '14/09/2026 às 12:10h',
+      p2Date: '16/09/2026 às 12:10h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital - Botafogo/Zona Sul',
+      iptu: '0.351.945-1',
+      rgi: '35.489 (3º RGI/RJ)',
+      val: 'R$ 541.158,40',
+      p2Val: 'R$ 271.000,00 (aprox. 50% da avaliação)',
+      description: 'Apartamento residencial nº 1001 com 39 m² de área privativa, situado no 10º pavimento (posição frente, sol da manhã) do tradicional edifício residencial erguido no ano de 1961 na Rua Lauro Müller, nº 26, em Botafogo, Rio de Janeiro/RJ. O imóvel desfruta de vista livre e panorâmica para a Enseada de Botafogo, o monumento do Cristo Redentor e as dependências históricas da UFRJ (Campus da Praia Vermelha). A unidade é constituída por sala, um quarto, banheiro social e cozinha, apresentando bom estado geral de conservação (não dispondo de vaga de garagem). O edifício possui 10 pavimentos com 12 apartamentos por andar, portaria 24 horas e 3 elevadores (sendo 2 modernizados), sem playground. Imóvel devidamente registrado no 3º Ofício de Registro de Imóveis (3º RGI/RJ) sob a Matrícula nº 35.489 e inscrito na municipalidade sob o IPTU nº 0.351.945-1. Avaliado judicialmente em R$ 541.158,40, com 2ª praça iniciando em R$ 271.000,00.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial e o lance mínimo na 2ª Praça para o imóvel na Rua Lauro Müller nº 26?", a: "O imóvel foi avaliado judicialmente em R$ 541.158,40. Na 1ª Praça (14/09/2026 às 12:10h), o lance mínimo corresponde ao valor total da avaliação (R$ 541.158,40). Na 2ª Praça (16/09/2026 às 12:10h), o lance inicial abre por R$ 271.000,00, proporcionando um desconto de 50% (economia de R$ 270.158,40 em relação à avaliação judicial homologada)." },
+        { q: "Quais são as características do Apartamento 1001 e os diferenciais de sua vista e posição?", a: "O apartamento possui 39 m² de área útil no 10º andar, com posição de frente e orientação voltada para o sol da manhã. Composto por sala, um quarto, banheiro e cozinha em bom estado de conservação. O grande destaque é a vista livre e definitiva para a Enseada de Botafogo, o Cristo Redentor e as dependências da UFRJ." },
+        { q: "Qual é a infraestrutura e a localização do condomínio na Rua Lauro Müller?", a: "Construído em 1961, o edifício dispõe de portaria presencial 24 horas e 3 elevadores (2 modernizados), com 10 andares e 12 unidades por andar. Localiza-se em ponto nobre de Botafogo, a poucos passos do Shopping Rio Sul, Enseada de Botafogo, Urca, Praia Vermelha, Iate Clube e com fácil acesso a Copacabana, Aterro do Flamengo e Centro." },
+        { q: "Como é realizada a auditoria jurídica da Matrícula nº 35.489 (3º RGI) e IPTU nº 0.351.945-1?", a: "Realizamos rigorosa Due Diligence jurídica analisando a certidão vintenária e de ônus reais no 3º RGI/RJ (Matrícula 35.489), a situação fiscal municipal no IPTU 0.351.945-1, taxa de incêndio (FUNESBOM), eventuais débitos condominiais e todas as intimações processuais, garantindo a sub-rogação de débitos tributários sobre o preço arrematado (Art. 130 do CTN)." },
+        { q: "É permitida a aquisição do imóvel parcelada com base no Artigo 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta de arrematação parcelada antes do encerramento de cada leilão, com sinal mínimo de 25% à vista e o saldo restante financiado em até 30 parcelas mensais corrigidas por índice judicial, com hipoteca judicial do próprio imóvel." },
+        { q: "Como a assessoria de Soares Martins Advogados atua na arrematação e imissão na posse?", a: "Nossa equipe jurídica cuida de todas as etapas: parecer preliminar de viabilidade e riscos, assessoria no momento dos lances, homologação judicial do leilão, expedição e registro da Carta de Arrematação no 3º RGI e cumprimento ágil do Mandado de Imissão na Posse com entrega efetiva das chaves." },
+        { q: "Como entrar em contato para participar deste leilão em Botafogo?", a: "Fale com nossa equipe pelo WhatsApp (+55 21 97954-9241) ou agende uma reunião em nosso escritório na Rua Visconde de Pirajá, 414 - Sala 718, Ipanema/RJ." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Botafogo — Rua Lauro Müller nº 26 — Apto 1001 (39 m²)',
+      subtitle: 'Rua Lauro Müller, nº 26, Apto 1001 — Botafogo, Río de Janeiro/RJ | 39 m² • 10º Piso (Frente) • Sol de Mañana • Vista Despejada a la Ensenada de Botafogo, Cristo Redentor y UFRJ • Portería 24h y 3 Ascensores',
+      address: 'Rua Lauro Müller, 26 - Apto 1001 — Botafogo, Río de Janeiro - RJ',
+      p1Date: '14/09/2026 a las 12:10h',
+      p2Date: '16/09/2026 a las 12:10h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital - Botafogo/Zona Sul',
+      iptu: '0.351.945-1',
+      rgi: '35.489 (3º RGI/RJ)',
+      val: 'R$ 541.158,40',
+      p2Val: 'R$ 271.000,00 (50% de descuento)',
+      description: 'Apartamento residencial nº 1001 con 39 m² de superficie privativa, ubicado en el 10º piso (al frente, sol de mañana) de edificio construido en 1961 en Rua Lauro Müller nº 26, Botafogo, Río de Janeiro/RJ. El inmueble cuenta con vista panorámica abierta a la Ensenada de Botafogo, Cristo Redentor y dependencias de la UFRJ. Consta de sala, 1 dormitorio, baño y cocina en buen estado de conservación (sin plaza de garaje). Edificio de 10 plantas con 12 apartamentos por piso, portería 24 horas y 3 ascensores (2 modernizados). Registrado en el 3º Registro Inmobiliario bajo la Matrícula nº 35.489 e IPTU nº 0.351.945-1. Tasación judicial de R$ 541.158,40, con 2ª subasta inicial en R$ 271.000,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja mínima en 2ª Subasta en Rua Lauro Müller nº 26?", a: "Tasación judicial de R$ 541.158,40. En 1ª Subasta (14/09/2026 a las 12:10h) puja del 100%. En 2ª Subasta (16/09/2026 a las 12:10h) la puja inicial abre en R$ 271.000,00 (50% de descuento directo)." },
+        { q: "¿Cuáles son las características del apartamento 1001 y su vista?", a: "39 m² en el 10º piso, al frente con sol de mañana, sala, 1 dormitorio, baño y cocina. Vista despejada a la Ensenada de Botafogo, Cristo Redentor y UFRJ." },
+        { q: "¿Cómo se audita la Matrícula nº 35.489 del 3º RGI e IPTU?", a: "Auditoría legal minuciosa del título, gravámenes, deudas de IPTU (0.351.945-1) y regularidad procesal con subrogación fiscal según el Art. 130 del CTN." },
+        { q: "¿Es posible adquirir mediante pago a plazos (Art. 895 CPC)?", a: "Sí, propuesta con 25% de entrada y saldo en hasta 30 cuotas mensuales con garantía hipotecaria." },
+        { q: "¿Cómo contratar la asesoría legal para esta subasta en Botafogo?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Botafogo — Rua Lauro Müller #26 — Apt 1001 (39 sqm)',
+      subtitle: 'Rua Lauro Müller, #26, Apt 1001 — Botafogo, Rio de Janeiro/RJ | 39 sqm (420 sq ft) • 10th Floor (Front) • Morning Sun • Open Views of Botafogo Bay, Christ the Redeemer & UFRJ • 24/7 Security & 3 Elevators',
+      address: 'Rua Lauro Müller, 26 - Apt 1001 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '09/14/2026 at 12:10 PM',
+      p2Date: '09/16/2026 at 12:10 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca - Botafogo/South Zone',
+      iptu: '0.351.945-1',
+      rgi: 'Title #35.489 (3rd Land Registry)',
+      val: 'R$ 541,158.40',
+      p2Val: 'R$ 271,000.00 (50% starting bid)',
+      description: 'Residential apartment #1001 with 39 square meters (39 sqm / 420 sq ft) of private area, situated on the 10th floor (front-facing, morning sun orientation) of the residential building built in 1961 at Rua Lauro Müller #26, Botafogo, Rio de Janeiro/RJ. The unit boasts unobstructed panoramic views of Botafogo Bay, Christ the Redeemer, and UFRJ Praia Vermelha grounds. Comprising living room, one bedroom, bathroom, and kitchen in good condition (no garage parking). Building has 10 floors with 12 units per floor, 24/7 concierge, and 3 elevators (2 modernized). Registered at the 3rd Land Registry under Title #35.489 and municipal tax IPTU #0.351.945-1. Court appraisal is R$ 541,158.40, with 2nd auction opening bid starting at R$ 271,000.00.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the court appraisal and 2nd auction opening bid for Rua Lauro Müller #26?", a: "Court appraisal is R$ 541,158.40. 1st Auction (09/14/2026 at 12:10 PM) opens at 100% (R$ 541,158.40). 2nd Auction (09/16/2026 at 12:10 PM) opens at R$ 271,000.00 (50% discount saving R$ 270,158.40)." },
+        { q: "What are the features of Apt 1001 and building amenities?", a: "39 sqm layout on the 10th floor with front orientation and morning sun. Living room, 1 bedroom, bathroom, kitchen, open views of Botafogo Bay and Christ the Redeemer. Building with 24/7 security and 3 elevators." },
+        { q: "How is legal due diligence conducted for Title #35.489 (3rd Registry)?", a: "We audit Title #35.489, municipal tax IPTU #0.351.945-1, condo debts, and judicial notifications ensuring clean title transfer under CTN Art. 130." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
   }
 };
