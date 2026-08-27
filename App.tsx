@@ -304,7 +304,9 @@ const AppContent: React.FC = () => {
           <Route path="/equipe/" element={<TeamPage onBack={navigateToHome} />} />
           <Route path="/contato/" element={<ContactPage onBack={navigateToHome} />} />
           <Route path="/blog/" element={<BlogPage onBack={navigateToHome} />} />
+          <Route path="/blog" element={<BlogPage onBack={navigateToHome} />} />
           <Route path="/blog/:slug/" element={<BlogPage onBack={navigateToHome} />} />
+          <Route path="/blog/:slug" element={<BlogPage onBack={navigateToHome} />} />
           
           {/* Subpágina de leilão específico em Copacabana */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/" element={<CopacabanaAuctionPage />} />

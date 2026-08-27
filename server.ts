@@ -6,7 +6,7 @@ import { createServer as createViteServer } from "vite";
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 
   // Middleware for parsing JSON
   app.use(express.json());
@@ -293,8 +293,10 @@ async function startServer() {
     };
   }
 
-  // Serve static assets/Vite middleware
-  if (process.env.NODE_ENV !== "production") {
+  // Serve static assets / Vite middleware
+  const isDev = process.env.NODE_ENV === "development";
+
+  if (isDev) {
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
@@ -305,7 +307,7 @@ async function startServer() {
     app.use(express.static(distPath));
     
     // For full static prerendered support, try to serve specific HTML files if they exist (e.g., /historia/ -> dist/historia/index.html)
-    app.get('*all', (req, res) => {
+    app.use((req, res) => {
       try {
         let reqPath = req.path;
         if (reqPath.endsWith('/')) {

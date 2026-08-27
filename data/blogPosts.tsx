@@ -19,6 +19,320 @@ export interface Post {
 export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
   const newSeoPosts: Post[] = [
     {
+      id: 50,
+      slug: 'comprar-imovel-para-alugar-vale-a-pena-em-2026',
+      title: 'Comprar Imóvel para Alugar Vale a Pena em 2026?',
+      excerpt: 'Descubra se comprar imóvel para alugar vale a pena em 2026. Análise de rentabilidade real, custos ocultos (ITBI, RGI, vacância), simulações, leilões e Airbnb vs. Tradicional.',
+      readTime: `18 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            O investimento imobiliário sempre ocupou uma posição de destaque na cultura financeira do brasileiro como sinônimo de segurança, solidez patrimonial e proteção contra a inflação. Contudo, diante do panorama econômico contemporâneo e das novas dinâmicas urbanas, uma pergunta recorrente entre investidores e famílias é: <strong>comprar imóvel para alugar vale a pena em 2026?</strong>
+          </p>
+
+          <p>
+            A resposta técnica exige ir muito além do cálculo ingênuo de dividir o valor estimado do aluguel mensal pelo preço de anúncio do imóvel. Investir no mercado imobiliário com sucesso demanda uma avaliação rigorosa do <em>Cap Rate</em> líquido (taxa de capitalização real), a consideração dos custos de aquisição e manutenção que frequentemente passam despercebidos, o impacto da vacância, a segurança jurídica do contrato de locação e as diferenças fundamentais entre a locação residencial tradicional e a locação por temporada (como Airbnb).
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">O Cenário Imobiliário e Macroeconômico: Vale a Pena Comprar Imóvel para Renda?</h2>
+          <p>
+            Avaliar a atratividade do investimento imobiliário exige confrontá-lo com as alternativas de renda fixa e com a valorização de capital no longo prazo. Um imóvel não gera apenas rendimentos periódicos de aluguel; ele proporciona <strong>apreciação do valor venal do ativo</strong>, blindagem contra corrosão monetária (já que os contratos de locação são reajustados por índices de inflação como IPCA ou IGP-M) e a consolidação de um patrimônio tangível inalienável.
+          </p>
+          <p>
+            No mercado do Rio de Janeiro — especialmente em bairros consolidados da Zona Sul e Zona Norte como Copacabana, Ipanema, Botafogo, Flamengo, Tijuca, Maracanã e na Barra da Tijuca —, a escassez de terrenos para novos lançamentos sustenta a valorização contínua do metro quadrado e garante uma demanda resiliente por locação residencial e turística.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como Calcular a Rentabilidade Real do Imóvel (Cap Rate Bruto vs. Líquido)</h2>
+          <p>
+            Um dos erros mais graves do investidor iniciante é calcular a rentabilidade com base no <strong>Yield Bruto</strong>, ignorando que tributos, taxas de administração, períodos sem inquilino e despesas extraordinárias corroem substancialmente o fluxo de caixa.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-4 space-y-3">
+            <h3 className="text-bronze font-serif font-bold text-lg">Fórmulas Essenciais de Rentabilidade Imobiliária</h3>
+            <p className="text-sm text-gray-300">
+              <strong>1. Rental Yield Bruto Anual:</strong> <br />
+              <span className="font-mono text-xs bg-midnight px-2 py-1 rounded inline-block mt-1">Yield Bruto (%) = (Aluguel Mensal × 12) ÷ Preço de Compra do Imóvel × 100</span>
+            </p>
+            <p className="text-sm text-gray-300">
+              <strong>2. Cap Rate Líquido Real (NOI - Net Operating Income):</strong> <br />
+              <span className="font-mono text-xs bg-midnight px-2 py-1 rounded inline-block mt-1">Cap Rate Líquido (%) = (Receita Líquida Anual − Despesas Operacionais Totais) ÷ Custo Total de Aquisição × 100</span>
+            </p>
+          </div>
+
+          <p>
+            Para obter o retorno efetivo, o denominador da fração não pode ser apenas o valor de compra registrado em contrato, mas sim o <strong>Custo Total de Aquisição (Investimento Total)</strong>, que engloba tributos, emolumentos cartorários e eventuais reformas iniciais.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Os Custos de Aquisição e Operação que a Maioria dos Investidores Esquece</h2>
+          <p>
+            Ao planejar a compra de um imóvel para gerar renda de locação, é crucial provisionar despesas que podem representar de <strong>8% a 15% além do valor venal do imóvel</strong>. Vejamos os principais encargos:
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">1. Custos de Transmissão e Cartório</h4>
+              <ul className="text-xs text-gray-300 space-y-1.5 list-disc pl-4">
+                <li><strong>ITBI (Imposto de Transmissão de Bens Imóveis):</strong> alíquota municipal (no Rio de Janeiro, 3% sobre o valor venal ou de transação);</li>
+                <li><strong>Escritura Pública de Compra e Venda:</strong> custas do Cartório de Notas tabeladas por faixas de valor;</li>
+                <li><strong>Registro de Imóveis (RGI):</strong> emolumentos para inscrição da matrícula definitiva no Registro de Imóveis competente;</li>
+                <li><strong>Certidões e Auditoria Prévia (Due Diligence):</strong> pesquisa forense e certidões cíveis, fiscais e trabalhistas do vendedor.</li>
+              </ul>
+            </div>
+
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">2. Custos Operacionais e Recorrentes</h4>
+              <ul className="text-xs text-gray-300 space-y-1.5 list-disc pl-4">
+                <li><strong>Taxa de Administração Imobiliária:</strong> varia entre 8% e 10% do aluguel mensal na locação tradicional (ou 15% a 25% na gestão profissional de temporada);</li>
+                <li><strong>Imposto de Renda sobre Aluguel (Carnê-Leão):</strong> tributação progressiva da Pessoa Física (de 7,5% a 27,5%) ou planejamento via holding imobiliária;</li>
+                <li><strong>Taxa de Vacância Financeira:</strong> períodos sem locatário em que o proprietário assume condomínio e IPTU integralmente;</li>
+                <li><strong>Fundo de Reserva e Manutenção Preventiva:</strong> reparos estruturais, hidráulicos, elétricos e pinturas periódicas.</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Simulação Numérica Real: Comprando um Imóvel Tradicional de R$ 500.000</h2>
+          <p>
+            Vejamos uma simulação prática e transparente de rentabilidade para a compra de um apartamento padrão de <strong>R$ 500.000,00</strong> no mercado tradicional, com locação residencial de 30 meses:
+          </p>
+
+          <div className="bg-midnight-light/50 rounded-2xl p-6 border border-white/10 space-y-4 my-6">
+            <h3 className="text-white font-serif font-bold text-lg">Cenário Financeiro: Aquisição e Fluxo Anual</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div className="space-y-2 bg-midnight/60 p-4 rounded-xl border border-white/5">
+                <div className="text-bronze font-bold uppercase tracking-wider">Desembolso Inicial Total</div>
+                <div className="flex justify-between"><span>Preço de Compra:</span><span className="text-white font-medium">R$ 500.000,00</span></div>
+                <div className="flex justify-between"><span>ITBI (3% no RJ):</span><span className="text-white font-medium">R$ 15.000,00</span></div>
+                <div className="flex justify-between"><span>Escritura e RGI:</span><span className="text-white font-medium">R$ 8.500,00</span></div>
+                <div className="flex justify-between"><span>Pequena Reforma / Pintura:</span><span className="text-white font-medium">R$ 15.000,00</span></div>
+                <div className="flex justify-between border-t border-white/10 pt-1 font-bold"><span className="text-white">Investimento Total (A):</span><span className="text-bronze font-bold">R$ 538.500,00</span></div>
+              </div>
+
+              <div className="space-y-2 bg-midnight/60 p-4 rounded-xl border border-white/5">
+                <div className="text-bronze font-bold uppercase tracking-wider">Fluxo de Caixa Operacional Anual</div>
+                <div className="flex justify-between"><span>Aluguel Mensal Estimado:</span><span className="text-white font-medium">R$ 2.600,00</span></div>
+                <div className="flex justify-between"><span>Receita Bruta (12 meses):</span><span className="text-white font-medium">R$ 31.200,00</span></div>
+                <div className="flex justify-between"><span>Taxa de Adm (8%):</span><span className="text-red-400 font-medium">- R$ 2.496,00</span></div>
+                <div className="flex justify-between"><span>Provisão Vacância (1 mês a cada 24m):</span><span className="text-red-400 font-medium">- R$ 1.300,00</span></div>
+                <div className="flex justify-between"><span>Manutenção Ordinária:</span><span className="text-red-400 font-medium">- R$ 1.500,00</span></div>
+                <div className="flex justify-between border-t border-white/10 pt-1 font-bold"><span className="text-white">Receita Líquida Anual (B):</span><span className="text-emerald-400 font-bold">R$ 25.904,00</span></div>
+              </div>
+            </div>
+
+            <div className="bg-midnight/80 p-4 rounded-xl border border-emerald-500/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div>
+                <div className="text-xs text-text-muted uppercase tracking-wider">Rentabilidade Líquida Real (Cap Rate Anual)</div>
+                <div className="text-xl sm:text-2xl font-serif font-bold text-emerald-400">4,81% ao ano + Valorização Imobiliária</div>
+              </div>
+              <div className="text-xs text-gray-300 text-right sm:max-w-xs">
+                Acrescentando uma valorização patrimonial média histórica de <strong>5% a 7% ao ano</strong>, o retorno total composto atinge <strong>9,8% a 11,8% a.a.</strong>, blindado da inflação.
+              </div>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Aluguel Tradicional vs. Aluguel por Temporada (Airbnb): Qual Vale Mais a Pena?</h2>
+          <p>
+            Uma das dúvidas mais frequentes no mercado imobiliário diz respeito à escolha entre a locação tradicional de longo prazo (regida pela <Link to="/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/" className="text-bronze hover:underline font-bold">Lei do Inquilinato nº 8.245/1991</Link>) e o aluguel por temporada ou plataformas digitais (como Airbnb e Booking).
+          </p>
+
+          <div className="overflow-x-auto my-6">
+            <table className="w-full text-left text-xs border border-white/10 rounded-2xl overflow-hidden">
+              <thead className="bg-midnight-light text-bronze uppercase tracking-wider font-bold">
+                <tr>
+                  <th className="p-4 border-b border-white/10">Critério Comparativo</th>
+                  <th className="p-4 border-b border-white/10">Locação Tradicional (30 meses)</th>
+                  <th className="p-4 border-b border-white/10">Locação por Temporada (Airbnb)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5 bg-midnight/40 text-gray-300">
+                <tr>
+                  <td className="p-4 font-bold text-white">Previsibilidade de Renda</td>
+                  <td className="p-4 text-emerald-400 font-medium">Alta (fluxo mensal fixo contratual)</td>
+                  <td className="p-4 text-amber-400 font-medium">Variável (sujeita a sazonalidade e turismo)</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Potencial de Rentabilidade</td>
+                  <td className="p-4">Cap Rate líquido de 4,5% a 6,5% a.a.</td>
+                  <td className="p-4 text-emerald-400 font-bold">Cap Rate líquido de 7,5% a 12% a.a. (se bem localizado)</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Custos Operacionais Iniciais</td>
+                  <td className="p-4">Baixos (imóvel desocupado ou semi-mobiliado)</td>
+                  <td className="p-4 text-red-300">Altos (mobília completa, enxoval, ar-condicionado, Wi-Fi)</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Gestão e Dedicação</td>
+                  <td className="p-4">Passiva (delegável a uma administradora tradicional)</td>
+                  <td className="p-4 text-amber-300">Ativa (check-in/check-out, limpeza, atendimento 24h)</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Quem Paga Condomínio e IPTU?</td>
+                  <td className="p-4 text-emerald-400">Repassado integralmente ao inquilino</td>
+                  <td className="p-4 text-red-300">Pago pelo proprietário em todos os meses</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Inadimplência e Risco de Despejo</td>
+                  <td className="p-4">Risco existe (exige garantia locatícia sólida)</td>
+                  <td className="p-4 text-emerald-400">Quase nulo (pagamento antecipado via plataforma)</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Restrições Condominiais</td>
+                  <td className="p-4 text-emerald-400">Totalmente permitida por lei</td>
+                  <td className="p-4 text-amber-400">Necessita checagem prévia na Convenção do Edifício</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            <strong>Veredito:</strong> Para imóveis compactos (estúdios, 1 quarto e conjugados) situados em polos turísticos e corporativos (como Copacabana, Ipanema, Leblon, Botafogo e Barra da Tijuca), o aluguel por temporada pode proporcionar até o <strong>dobro do rendimento bruto</strong>. No entanto, se o proprietário não tiver tempo para administrar a operação ou residir fora da cidade, a taxa de administração de operadoras de temporada (18% a 25%) reduz a diferença em relação à estabilidade da locação tradicional.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Como os Imóveis de Leilão Judicial Maximizam a Rentabilidade do Aluguel</h2>
+          <p>
+            Uma das estratégias mais eficientes para investidores sofisticados multiplicarem a taxa de retorno na compra para renda é a aquisição de imóveis por meio de <Link to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" className="text-bronze hover:underline font-bold">leilões judiciais imobiliários</Link>.
+          </p>
+          <p>
+            Enquanto na compra convencional de mercado o investidor adquire o bem pelo valor integral de tabela, nos leilões judiciais em 2ª praça é possível arrematar imóveis com <strong>descontos reais de 40% a 50% sobre o valor da avaliação judicial</strong>.
+          </p>
+
+          <div className="bg-midnight-light/50 rounded-2xl p-6 border border-bronze/30 space-y-4 my-6">
+            <h3 className="text-bronze font-serif font-bold text-lg flex items-center gap-2">
+              Comparativo de Yield: Compra de Mercado vs. Arrematação em Leilão
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div className="bg-midnight/60 p-4 rounded-xl border border-white/5 space-y-2">
+                <div className="text-white font-bold uppercase tracking-wider">Cenário A: Compra Tradicional de Mercado</div>
+                <p><strong>Preço de Compra:</strong> R$ 500.000,00</p>
+                <p><strong>Aluguel de Mercado:</strong> R$ 2.600,00 / mês</p>
+                <p><strong>Yield Bruto Anual:</strong> <span className="text-amber-400 font-bold">6,24% a.a.</span></p>
+              </div>
+
+              <div className="bg-midnight/60 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+                <div className="text-emerald-400 font-bold uppercase tracking-wider">Cenário B: Imóvel Idêntico em Leilão (2ª Praça a 50%)</div>
+                <p><strong>Preço de Arrematação:</strong> R$ 250.000,00</p>
+                <p><strong>Despesas Processuais + Reforma (R$ 50.000):</strong> R$ 300.000,00</p>
+                <p><strong>Aluguel de Mercado:</strong> R$ 2.600,00 / mês</p>
+                <p><strong>Yield Bruto Anual:</strong> <span className="text-emerald-400 font-bold">10,40% a.a. (Quase o dobro de rentabilidade!)</span></p>
+              </div>
+            </div>
+            <p className="text-xs text-text-muted italic">
+              *Nota: A arrematação judicial exige assessoria jurídica especializada em <Link to="/blog/como-analisar-imovel-em-leilao-antes-de-dar-um-lance-guia-completo/" className="text-bronze hover:underline font-bold">Due Diligence de leilões</Link> para auditar a matrícula no RGI, débitos condominiais anteriores e garantir a rápida desocupação e imissão na posse.
+            </p>
+          </div>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-6">
+            <h3 className="text-white text-lg font-serif font-bold mb-3">Quadro de Dicas Práticas para Investir com Segurança em 2026</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Priorize bairros com liquidez consolidada:</strong> Imóveis próximos a estações de metrô, praias, polos universitários e centros comerciais têm vacância reduzida e valorização mais rápida;</li>
+              <li><strong>Audite a Convenção Condominial antes da compra:</strong> Se o seu objetivo for locação por Airbnb, verifique se a convenção não contém cláusula expressa que proíba locações de curta duração;</li>
+              <li><strong>Exija garantias locatícias sólidas:</strong> Em contratos tradicionais, dê preferência ao seguro-fiança locatício ou caução imobiliária registrada, prevenindo prejuízos em caso de inadimplência;</li>
+              <li><strong>Formalize vistorias minuciosas:</strong> Realize laudos de vistoria de entrada e saída com fotos e assinaturas digitais, resguardando o direito à <Link to="/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/" className="text-bronze hover:underline font-bold">cobrança de reparos por mau uso</Link>;</li>
+              <li><strong>Considere a estrutura societária (Holding Patrimonial):</strong> Para quem possui múltiplos imóveis de aluguel, tributar a receita imobiliária na Pessoa Jurídica (Lucro Presumido ~11,33%) costuma ser muito mais vantajoso que o Carnê-Leão da Pessoa Física (até 27,5%).</li>
+            </ul>
+          </div>
+
+          <div className="bg-red-500/10 p-6 rounded-2xl border border-red-500/20 my-6">
+            <h3 className="text-red-400 text-lg font-serif font-bold mb-3">Erros Comuns ao Comprar Imóvel para Alugar</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li><strong>Superestimar o valor do aluguel:</strong> Basear-se em anúncios com valores inflacionados sem consultar o valor efetivo de fechamento na região;</li>
+              <li><strong>Desconsiderar os meses de vacância:</strong> Não planejar uma reserva financeira para arcar com IPTU e condomínio durante os períodos entre locatários;</li>
+              <li><strong>Utilizar minutas de contrato genéricas da internet:</strong> Contratos desatualizados sem cláusulas claras sobre desocupação, rescisão e responsabilidade tributária geram litígios longos;</li>
+              <li><strong>Comprar imóvel com pendências documentais:</strong> Adquirir bens sem certidões fiscais, inventários pendentes ou indisponibilidades registradas na matrícula do RGI.</li>
+            </ul>
+          </div>
+
+          <div className="border-t border-white/5 my-8 pt-6">
+            <h4 className="text-white font-serif font-bold text-lg mb-3">Links Úteis e Serviços Relacionados</h4>
+            <p className="text-text-muted text-sm mb-4">
+              Aprofunde seu conhecimento com outros artigos jurídicos e serviços estratégicos do nosso escritório:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Direito Imobiliário e Contratos de Locação no RJ</Link>: elaboração de contratos blindados, despejos e revisões de aluguel.
+              </li>
+              <li>
+                <Link to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" className="text-bronze hover:underline font-bold">Assessoria Jurídica em Leilões Judiciais de Imóveis</Link>: assessoria técnica completa para arrematar com até 50% de desconto.
+              </li>
+              <li>
+                <Link to="/blog/inquilino-inadimplente-o-que-fazer-quando-cabe-despejo-como-cobrar/" className="text-bronze hover:underline font-bold">Inquilino Inadimplente: Quando Cabe Ação de Despejo e Cobrança</Link>: estratégias jurídicas para recuperação célere do imóvel.
+              </li>
+              <li>
+                <Link to="/blog/quais-dividas-acompanham-imovel-adquirido-em-leilao/" className="text-bronze hover:underline font-bold">Quais Dívidas Acompanham o Imóvel de Leilão?</Link>: análise do Art. 130 do CTN e débitos condominiais.
+              </li>
+            </ul>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">Conclusão: Afinal, Comprar Imóvel para Renda Vale a Pena em 2026?</h2>
+          <p>
+            <strong>Sim, comprar imóvel para alugar em 2026 continua sendo um excelente investimento</strong>, desde que realizado com método, análise criteriosa de custos reais e sólida segurança jurídica. O imóvel protege o poder de compra contra a inflação, garante um fluxo de rendimentos previsível e constrói patrimônio perpétuo para gerações.
+          </p>
+          <p>
+            A chave para obter retornos acima da média está na <strong>estratégia de aquisição</strong> (aproveitando oportunidades de leilões judiciais ou negociações abaixo do valor de mercado), na <strong>precificação correta</strong> e na <strong>blindagem contratual preventiva</strong>.
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Planejando Comprar Imóvel para Renda ou Investir em Leilões no Rio de Janeiro?</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O escritório <strong>Soares Martins Advogados</strong> oferece assessoria jurídica especializada em Direito Imobiliário e Leilões Judiciais na capital fluminense. Nós realizamos a auditoria completa da compra (Due Diligence), elaboramos contratos de locação personalizados e estruturamos arrematações lucrativas com segurança patrimonial total.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contact/" className="hover:underline text-bronze">Agende uma análise jurídica com nossos especialistas</Link> ou converse diretamente com nossa equipe pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">Perguntas Frequentes sobre Compra de Imóveis para Alugar (FAQ)</h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Qual é a média de rentabilidade (Cap Rate) de um imóvel alugado no Brasil?</h4>
+                <p className="text-text-muted text-xs mt-1">No mercado residencial tradicional, a rentabilidade bruta média situa-se entre 4,5% e 6,5% ao ano sobre o valor do imóvel. Com a valorização patrimonial anual histórica, o retorno total composto frequentemente supera 10% a 12% ao ano.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. Quais são os custos esquecidos que reduzem o retorno do aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">Os custos mais ignorados são o ITBI (3% no Rio de Janeiro), emolumentos de escritura e RGI (~1,5% a 2%), taxa de administração da imobiliária (8% a 10%), imposto de renda da pessoa física (até 27,5%), vacância entre contratos e fundos de manutenção periódica.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O que vale mais a pena financeiramente: Airbnb ou aluguel tradicional?</h4>
+                <p className="text-text-muted text-xs mt-1">O Airbnb pode render de 40% a 80% a mais em receita bruta em bairros nobres e turísticos. Contudo, possui custos de mobília, limpeza, manutenção contínua, taxas de plataformas e exige que o proprietário pague condomínio e IPTU todos os meses. Se a taxa de ocupação for baixa, a locação tradicional pode ser mais lucrativa e estável.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O condomínio pode proibir a locação por temporada ou Airbnb?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O Superior Tribunal de Justiça (STJ) pacificou o entendimento de que a Convenção de Condomínio pode proibir expressamente a locação por curtíssima temporada via aplicativos se houver deliberação assemblear com o quórum qualificado previsto em lei.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. Vale a pena comprar imóveis em leilão judicial para colocar para alugar?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim, é uma das formas mais lucrativas de investimento imobiliário, pois permite adquirir imóveis com descontos de 40% a 50% em relação ao valor de mercado. Com o custo de aquisição reduzido, o rendimento percentual do aluguel (Yield) pode dobrar em comparação com a compra tradicional.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Como funciona a tributação do aluguel para Pessoa Física e quando vale a pena abrir empresa (Holding)?</h4>
+                <p className="text-text-muted text-xs mt-1">Na Pessoa Física, o aluguel é tributado pela tabela progressiva do IRPF via Carnê-Leão (alíquotas de até 27,5%). Quando a renda mensal de aluguéis ultrapassa determinado volume, abrir uma holding patrimonial no regime de Lucro Presumido reduz a tributação total para aproximadamente 11,33% a 14,53%, gerando economia tributária expressiva.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. O que é taxa de vacância e como calculá-la na simulação do imóvel?</h4>
+                <p className="text-text-muted text-xs mt-1">A taxa de vacância representa a proporção de tempo em que o imóvel permanece desocupado entre a saída de um inquilino e a entrada de outro. Recomenda-se provisionar o equivalente a 1 mês de aluguel a cada 18 a 24 meses como reserva para cobrir despesas de condomínio, IPTU e manutenção durante a transição.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. Qual o prazo ideal para um contrato de locação residencial?</h4>
+                <p className="text-text-muted text-xs mt-1">O prazo padrão recomendado pela Lei nº 8.245/1991 é de 30 meses. Contratos celebrados por 30 meses ou mais conferem ao locador o direito de solicitar a retomada do imóvel por denúncia vazia (sem necessidade de justificativa legal) assim que findar o prazo pactuado.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. É seguro comprar imóvel financiado para pagar com o próprio aluguel?</h4>
+                <p className="text-text-muted text-xs mt-1">A estratégia é viável, mas exige cautela. Com taxas de juros elevadas, a parcela do financiamento pode ser superior ao valor do aluguel líquido, exigindo aporte mensal do proprietário. Além disso, em momentos de vacância ou inadimplência, o comprador deve ter fôlego financeiro para honrar as parcelas do banco sem risco de perder o imóvel.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Por que realizar uma Due Diligence jurídica antes de comprar um imóvel para renda?</h4>
+                <p className="text-text-muted text-xs mt-1">A Due Diligence imobiliária analisa certidões de distribuidores cíveis, criminais, trabalhistas e fiscais dos vendedores e da matrícula no RGI. Ela previne que o comprador seja surpreendido por fraudes contra credores, penhoras ocultas, indisponibilidades de bens ou débitos pretéritos de condomínio e IPTU.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ),
+      date: '27 Ago, 2026',
+      dateIso: '2026-08-27',
+      category: 'Direito Imobiliário',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80'
+    },
+    {
       id: 15,
       slug: 'problemas-enfrentados-sindicos-rio-de-janeiro',
       title: 'Problemas Enfrentados por Síndicos no Rio de Janeiro',
@@ -1458,6 +1772,8 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
 
   // Default to Portuguese
   return [
+    ...newSeoPosts,
+    ...getSeoBlogPosts(language, t),
     {
       id: 1,
       slug: 'lgpd-condominios-portaria-cameras',
@@ -2967,8 +3283,6 @@ export const getBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] => {
       dateIso: "2026-05-14",
       category: "Direito Imobiliário",
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
-    },
-    ...newSeoPosts,
-    ...getSeoBlogPosts(language, t)
+    }
   ];
 };

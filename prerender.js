@@ -72,6 +72,7 @@ const routesToPrerender = [
   '/blog/estrangeiro-pode-comprar-imovel-em-leilao-no-brasil/',
   '/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/',
   '/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/',
+  '/blog/comprar-imovel-para-alugar-vale-a-pena-em-2026/',
   // New Auction routes
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/avenida-presidente-vargas-3555-bloco-e-apto-403/',

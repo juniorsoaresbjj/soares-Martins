@@ -15,14 +15,22 @@ const BlogPage: React.FC<BlogPageProps> = ({ onBack }) => {
   const { slug } = useParams<{ slug?: string }>();
   const navigate = useNavigate();
   
-  // Memoize posts to prevent infinite re-renders
-  const posts = useMemo(() => getBlogPosts(language, t), [language, t]);
+  // Memoize posts to prevent infinite re-renders and sort by dateIso descending
+  const posts = useMemo(() => {
+    const rawList = getBlogPosts(language, t);
+    return [...rawList].sort((a, b) => {
+      const timeA = a.dateIso ? new Date(a.dateIso).getTime() : 0;
+      const timeB = b.dateIso ? new Date(b.dateIso).getTime() : 0;
+      return timeB - timeA;
+    });
+  }, [language, t]);
 
   // DERIVE selectedPost directly from slug for SSR compatibility
   // This ensures the content is available on the very first render (required for SSG)
   const selectedPost = useMemo(() => {
     if (!slug) return null;
-    return posts.find(p => p.slug === slug) || null;
+    const cleanSlug = decodeURIComponent(slug).replace(/\/+$/, '').trim().toLowerCase();
+    return posts.find(p => p.slug.replace(/\/+$/, '').trim().toLowerCase() === cleanSlug) || null;
   }, [slug, posts]);
 
   // Structured Data for BlogPosting
