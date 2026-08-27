@@ -11,7 +11,11 @@ async function startServer() {
   // Middleware for parsing JSON
   app.use(express.json());
 
-  // Health check endpoint for Cloud Run and container readiness
+  // Health check endpoints for Cloud Run and container readiness
+  app.get("/healthz", (req, res) => {
+    res.status(200).send("OK");
+  });
+
   app.get("/api/health", (req, res) => {
     res.json({ status: "ok", timestamp: new Date().toISOString() });
   });

@@ -61,6 +61,7 @@ import BarraRicardoMarinho300AuctionPage from './components/BarraRicardoMarinho3
 import MaracanaAvenidaMaracana480AuctionPage from './components/MaracanaAvenidaMaracana480AuctionPage';
 import BotafogoLauroMuller26AuctionPage from './components/BotafogoLauroMuller26AuctionPage';
 import RioCompridoPresidenteVargas3555AuctionPage from './components/RioCompridoPresidenteVargas3555AuctionPage';
+import IpanemaBaraoDaTorreAuctionPage from './components/IpanemaBaraoDaTorreAuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -481,6 +482,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500/" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500" element={<BarraDaTijucaLucioCosta6500AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404/" element={<IpanemaBaraoDaTorreAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404" element={<IpanemaBaraoDaTorreAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292/" element={<IpanemaBaraoDaTorreAuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292" element={<IpanemaBaraoDaTorreAuctionPage />} />
 
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />

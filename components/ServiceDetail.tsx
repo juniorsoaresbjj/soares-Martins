@@ -143,6 +143,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Ipanema/RJ',
+        title: 'Leilão Judicial de Apartamento em Ipanema — Rua Barão da Torre nº 292 — Apto 404 (45 m²)',
+        desc: 'Apartamento de 45 m² no 4º andar com 1 vaga de garagem na escritura em condomínio de excelente padrão com infraestrutura de lazer, elevadores e portaria no coração nobre de Ipanema. Matrícula nº 104771 (5º RGI) e IPTU nº 3009818-0.',
+        p1Label: '1ª Praça (09/09/2026):',
+        p1Val: 'R$ 1.357.354,55',
+        p2Label: '2ª Praça (11/09/2026):',
+        p2Val: 'R$ 814.412,73 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20404%20na%20Rua%20Bar%C3%A3o%20da%20Torre%20292%20em%20Ipanema%20-%20Rio%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Rio Comprido/RJ',
         title: 'Leilão Judicial de Apartamento em Rio Comprido — Av. Presidente Vargas nº 3555 — Bloco E, Apto 403 (57 m²)',
         desc: 'Apartamento de 57 m² no Bloco E, atualmente desocupado (vazio), o que garante posse imediata. Condomínio com infraestrutura, portaria e elevadores em localização com rápido acesso ao Centro e Zona Sul. Matrícula nº 14.273 (11º RGI) e IPTU nº 0013203-5.',
@@ -443,9 +454,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residencial • Leblon/RJ',
         title: 'Leilão Judicial de Apartamento no Leblon na Rua General Urquiza nº 263 — Apto 402',
         desc: 'Apartamento 402 com 40 m² no Edifício Palm Beach, construído em 1950, localizado na agradável quadra sem saída da Rua General Urquiza no Leblon. Matrícula nº 10.627 no 2º RGI e IPTU nº 0.565.962-8.',
-        p1Label: '1ª Praça (20/07/2026):',
+        p1Label: '1ª Praça (29/09/2026):',
         p1Val: 'R$ 890.000,00',
-        p2Label: '2ª Praça (01/09/2026):',
+        p2Label: '2ª Praça (01/10/2026):',
         p2Val: 'R$ 445.000,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20na%20Rua%20General%20Urquiza%20263%20no%20Leblon.'
@@ -682,6 +693,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Enviar Email Corporativo',
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
+      {
+        tag: 'Residencial • Ipanema/RJ',
+        title: 'Subasta Judicial de Apartamento en Ipanema — Rua Barão da Torre nº 292 — Apto 404 (45 m²)',
+        desc: 'Apartamento de 45 m² en 4º piso con 1 plaza de garaje en escritura en condominio de excelente categoría con área de ocio, elevadores y portería en zona noble de Ipanema. Matrícula nº 104771 (5º RGI) e IPTU nº 3009818-0.',
+        p1Label: '1ª Subasta (09/09/2026):',
+        p1Val: 'R$ 1.357.354,55',
+        p2Label: '2ª Subasta (11/09/2026):',
+        p2Val: 'R$ 814.412,73 (60% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20404%20en%20Rua%20Bar%C3%A3o%20da%20Torre%20292%20en%20Ipanema%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
       {
         tag: 'Residencial • Rio Comprido/RJ',
         title: 'Subasta Judicial de Apartamento en Rio Comprido — Av. Presidente Vargas nº 3555 — Bloque E, Apto 403 (57 m²)',
@@ -983,9 +1005,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residencial • Leblon/RJ',
         title: 'Subasta Judicial de Apartamento en Leblon en Calle General Urquiza nº 263 — Apto 402',
         desc: 'Apartamento 402 con 40 m² en el Edificio Palm Beach, construido en 1950, ubicado en el tramo residencial sin salida de la Calle General Urquiza en Leblon. Matrícula nº 10.627 no 2º RGI e IPTU nº 0.565.962-8.',
-        p1Label: '1ª Subasta (20/07/2026):',
+        p1Label: '1ª Subasta (29/09/2026):',
         p1Val: 'R$ 890.000,00',
-        p2Label: '2ª Subasta (01/09/2026):',
+        p2Label: '2ª Subasta (01/10/2026):',
         p2Val: 'R$ 445.000,00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20402%20en%20Leblon.'
@@ -1200,6 +1222,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Ipanema/RJ',
+        title: 'Judicial Auction of Apartment in Ipanema — Rua Barão da Torre #292 — Apt 404 (45 sqm)',
+        desc: '45 sqm apartment on the 4th floor with 1 deeded parking space in a luxury condominium featuring leisure amenities, elevators, and security in prime Ipanema. Title #104771 (5th Registry) & IPTU #3009818-0.',
+        p1Label: '1st Auction (09/09/2026):',
+        p1Val: 'R$ 1,357,354.55',
+        p2Label: '2nd Auction (09/11/2026):',
+        p2Val: 'R$ 814,412.73 (60% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Bar%C3%A3o%20da%20Torre%20292%20Apt%20404%20in%20Ipanema%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Rio Comprido/RJ',
         title: 'Judicial Auction of Apartment in Rio Comprido — Av. Presidente Vargas #3555 — Block E, Apt 403 (57 sqm)',
@@ -1501,9 +1534,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residential • Leblon/RJ',
         title: 'Judicial Auction of Apartment in Leblon at General Urquiza St #263 — Apt 402',
         desc: 'Apartment 402 with 40 sqm in Edifício Palm Beach, built in 1950, located on the quiet cul-de-sac block of General Urquiza St in Leblon. Title #10.627 at 2nd Registry and IPTU tax #0.565.962-8.',
-        p1Label: '1st Auction (07/20/2026):',
+        p1Label: '1st Auction (09/29/2026):',
         p1Val: 'R$ 890,000.00',
-        p2Label: '2nd Auction (09/01/2026):',
+        p2Label: '2nd Auction (10/01/2026):',
         p2Val: 'R$ 445,000.00',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-263/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20402%20in%20Leblon.'
