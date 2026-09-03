@@ -74,6 +74,11 @@ const routesToPrerender = [
   '/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/',
   '/blog/comprar-imovel-para-alugar-vale-a-pena-em-2026/',
   // New Auction routes
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45-apto-204/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/rio-comprido/apartamento/avenida-presidente-vargas-3555-bloco-e-apto-403/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-26-apto-1001/',

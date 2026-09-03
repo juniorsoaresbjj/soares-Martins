@@ -62,6 +62,11 @@ import MaracanaAvenidaMaracana480AuctionPage from './components/MaracanaAvenidaM
 import BotafogoLauroMuller26AuctionPage from './components/BotafogoLauroMuller26AuctionPage';
 import RioCompridoPresidenteVargas3555AuctionPage from './components/RioCompridoPresidenteVargas3555AuctionPage';
 import IpanemaBaraoDaTorreAuctionPage from './components/IpanemaBaraoDaTorreAuctionPage';
+import UrcaCandidoGaffree166AuctionPage from './components/UrcaCandidoGaffree166AuctionPage';
+import LagoaFonteDaSaudade270AuctionPage from './components/LagoaFonteDaSaudade270AuctionPage';
+import SaoConradoMendesMorais1400AuctionPage from './components/SaoConradoMendesMorais1400AuctionPage';
+import TijucaEnesDeSouza45AuctionPage from './components/TijucaEnesDeSouza45AuctionPage';
+import BotafogoVoluntarios166AuctionPage from './components/BotafogoVoluntarios166AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -489,6 +494,33 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292-apto-404" element={<IpanemaBaraoDaTorreAuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292/" element={<IpanemaBaraoDaTorreAuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-barao-da-torre-292" element={<IpanemaBaraoDaTorreAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202/" element={<UrcaCandidoGaffree166AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202" element={<UrcaCandidoGaffree166AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166/" element={<UrcaCandidoGaffree166AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166" element={<UrcaCandidoGaffree166AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402/" element={<LagoaFonteDaSaudade270AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402" element={<LagoaFonteDaSaudade270AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270/" element={<LagoaFonteDaSaudade270AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270" element={<LagoaFonteDaSaudade270AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/rua-fonte-da-saudade-270-apto-402/" element={<LagoaFonteDaSaudade270AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/rua-fonte-da-saudade-270-apto-402" element={<LagoaFonteDaSaudade270AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503/" element={<SaoConradoMendesMorais1400AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503" element={<SaoConradoMendesMorais1400AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400/" element={<SaoConradoMendesMorais1400AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400" element={<SaoConradoMendesMorais1400AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203/" element={<BotafogoVoluntarios166AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203" element={<BotafogoVoluntarios166AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166/" element={<BotafogoVoluntarios166AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166" element={<BotafogoVoluntarios166AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45-apto-204/" element={<TijucaEnesDeSouza45AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45-apto-204" element={<TijucaEnesDeSouza45AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45/" element={<TijucaEnesDeSouza45AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45" element={<TijucaEnesDeSouza45AuctionPage />} />
 
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />

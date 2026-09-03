@@ -143,6 +143,61 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Voluntários da Pátria nº 166 — Apto 203',
+        desc: 'Apartamento clássico de 115 m² com 3 quartos, banheiro social, sala ampla, cozinha, área de serviço e dependências completas em prédio tradicional de 1946 com 13 andares, hall em granito com jardim, portaria 24h, terraço com churrasqueira e vagas rotativas em parqueamento. Necessita de reforma geral (potencial de retrofit com aquisição a ~R$ 3.900/m² na 2ª praça). Avaliação de R$ 897.000,00 e 2ª Praça a 50% por R$ 448.500,00. Matrícula nº 6.877 (3º RGI) e IPTU nº 0.540.237-5.',
+        p1Label: '1ª Praça (18/09/2026):',
+        p1Val: 'R$ 897.000,00',
+        p2Label: '2ª Praça (28/09/2026):',
+        p2Val: 'R$ 448.500,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20203%20na%20Rua%20Volunt%C3%A1rios%20da%20P%C3%A1tria%20166%20em%20Botafogo.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Tijuca — Rua Enes de Souza nº 45 — Apto 204',
+        desc: 'Apartamento de 50 m², posição de fundos, com sala, 2 quartos (1 suíte), banheiro social, cozinha e área de serviço em prédio de 1967 com 1 elevador e baixo condomínio. Laudo aponta necessidade de reforma total (oportunidade ideal para retrofit com aquisição a ~R$ 2.600/m² na 2ª praça). Avaliação de R$ 260.000,00 e 2ª Praça a 50% por R$ 130.000,00. Matrícula nº 143.042 (11º RGI) e IPTU nº 0.913.176-4.',
+        p1Label: '1ª Praça (13/10/2026):',
+        p1Val: 'R$ 260.000,00',
+        p2Label: '2ª Praça (15/10/2026):',
+        p2Val: 'R$ 130.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45-apto-204/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20204%20na%20Rua%20Enes%20de%20Souza%2045%20na%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • São Conrado/RJ',
+        title: 'Leilão Judicial de Apartamento em São Conrado — Av. Prefeito Mendes de Morais nº 1400 — Bloco 2, Apto 503',
+        desc: 'Apartamento de 268,84 m² no prestigiado Condomínio Praia Guinle, em frente ao mar da Praia de São Conrado. Infraestrutura completa de lazer (piscina, academia, sauna, quadra, salão de festas, playground) e 3 vagas de garagem. Avaliação judicial de R$ 5.221.000,00 e 2ª Praça a 50% por R$ 2.610.500,00. Matrícula nº 46126 (2º RGI) e IPTU nº 1.730.497-3.',
+        p1Label: '1ª Praça (22/09/2026):',
+        p1Val: 'R$ 5.221.000,00',
+        p2Label: '2ª Praça (29/09/2026):',
+        p2Val: 'R$ 2.610.500,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20503%20do%20Bloco%202%20no%20Condom%C3%ADnio%20Praia%20Guinle%20(Av.%20Prefeito%20Mendes%20de%20Morais%201400)%20em%20S%C3%A3o%20Conrado.'
+      },
+      {
+        tag: 'Residencial • Lagoa/RJ',
+        title: 'Leilão Judicial de Cobertura Duplex na Lagoa — Rua Fonte da Saudade nº 270 — Apto 402',
+        desc: 'Exclusiva cobertura duplex de 308 m² (e ~390 m² úteis) com 4 suítes, escritório, salão de 90 m², piscina, sauna, hidromassagem, terraço solarium e 4 vagas em endereço nobre na Lagoa. Avaliação judicial de R$ 5.685.000,00 e 2ª Praça a 50% por R$ 2.842.500,00. Matrícula nº 96157 (2º RGI) e IPTU nº 3118779-2.',
+        p1Label: '1ª Praça (21/09/2026):',
+        p1Val: 'R$ 5.685.000,00',
+        p2Label: '2ª Praça (24/09/2026):',
+        p2Val: 'R$ 2.842.500,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20cobertura%20duplex%20402%20na%20Rua%20Fonte%20da%20Saudade%20270%20na%20Lagoa%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Urca/RJ',
+        title: 'Leilão Judicial de Apartamento na Urca — Rua Cândido Gaffrée nº 166 — Apto 202 (121 m²)',
+        desc: 'Apartamento de 121 m² no Condomínio do Edifício Enseada, em rua bucólica e arborizada da Urca, próximo à mureta e ao Morro da Urca. Excelente planta residencial de 121 m² com 50% de desconto na 2ª Praça. Matrícula nº 28.527 (3º RGI) e IPTU nº 1.173906-7.',
+        p1Label: '1ª Praça (14/10/2026):',
+        p1Val: 'R$ 1.700.000,00',
+        p2Label: '2ª Praça (20/10/2026):',
+        p2Val: 'R$ 850.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20202%20no%20Edif%C3%ADcio%20Enseada%20na%20Rua%20C%C3%A2ndido%20Gaffr%C3%A9e%20166%20na%20Urca%20-%20Rio%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Ipanema/RJ',
         title: 'Leilão Judicial de Apartamento em Ipanema — Rua Barão da Torre nº 292 — Apto 404 (45 m²)',
         desc: 'Apartamento de 45 m² no 4º andar com 1 vaga de garagem na escritura em condomínio de excelente padrão com infraestrutura de lazer, elevadores e portaria no coração nobre de Ipanema. Matrícula nº 104771 (5º RGI) e IPTU nº 3009818-0.',
@@ -694,6 +749,61 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Rua Voluntários da Pátria nº 166 — Apto 203',
+        desc: 'Apartamento clásico de 115 m² con 3 dormitorios, baño social, salón amplio, cocina, lavadero y dependencias completas en edificio tradicional de 1946 de 13 plantas con zaguán de granito y jardín, portería 24h, terraza con barbacoa y plazas en parking rotativo. Necesita reforma integral (potencial de retrofit con compra a ~R$ 3.900/m² en 2ª subasta). Tasación de R$ 897.000,00 y 2ª Subasta al 50% por R$ 448.500,00. Matrícula nº 6.877 (3º RGI) e IPTU nº 0.540.237-5.',
+        p1Label: '1ª Subasta (18/09/2026):',
+        p1Val: 'R$ 897.000,00',
+        p2Label: '2ª Subasta (28/09/2026):',
+        p2Val: 'R$ 448.500,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20203%20en%20Rua%20Volunt%C3%A1rios%20da%20P%C3%A1tria%20166%20en%20Botafogo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Tijuca — Rua Enes de Souza nº 45 — Apto 204',
+        desc: 'Apartamento de 50 m², orientación interior silenciosa, con salón, 2 dormitorios (1 suite), baño social, cocina y lavadero en edificio de 1967 con 1 ascensor y bajos gastos comunitarios. Requiere reforma integral (oportunidad para retrofit con adquisición a ~R$ 2.600/m² en 2ª subasta). Tasación de R$ 260.000,00 y 2ª Subasta al 50% por R$ 130.000,00. Matrícula nº 143.042 (11º RGI) e IPTU nº 0.913.176-4.',
+        p1Label: '1ª Subasta (13/10/2026):',
+        p1Val: 'R$ 260.000,00',
+        p2Label: '2ª Subasta (15/10/2026):',
+        p2Val: 'R$ 130.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45-apto-204/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20204%20en%20Rua%20Enes%20de%20Souza%2045%20en%20Tijuca%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • São Conrado/RJ',
+        title: 'Subasta Judicial de Apartamento en São Conrado — Av. Prefeito Mendes de Morais nº 1400 — Bloco 2, Apto 503',
+        desc: 'Apartamento de 268,84 m² en el exclusivo Condominio Praia Guinle, primera línea de playa en São Conrado. Seguridad 24h, piscina, gimnasio, sauna, pista deportiva, salón de fiestas, parque infantil y 3 plazas de garaje. Tasación de R$ 5.221.000,00 con 2ª Subasta al 50% por R$ 2.610.500,00. Matrícula nº 46126 (2º RGI) e IPTU nº 1.730.497-3.',
+        p1Label: '1ª Subasta (22/09/2026):',
+        p1Val: 'R$ 5.221.000,00',
+        p2Label: '2ª Subasta (29/09/2026):',
+        p2Val: 'R$ 2.610.500,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20503%20del%20Bloque%202%20en%20Condominio%20Praia%20Guinle%20en%20S%C3%A3o%20Conrado%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Lagoa/RJ',
+        title: 'Subasta Judicial de Ático Dúplex en Lagoa — Rua Fonte da Saudade nº 270 — Apto 402',
+        desc: 'Exclusivo ático dúplex de 308 m² (~390 m² útiles) con 4 suites, despacho, salón de 90 m², piscina privada, sauna, hidromasaje, terraza y 4 plazas de garaje en zona noble de Lagoa. Tasación judicial de R$ 5.685.000,00 con 2ª Subasta al 50% por R$ 2.842.500,00. Matrícula nº 96157 (2º RGI) e IPTU nº 3118779-2.',
+        p1Label: '1ª Subasta (21/09/2026):',
+        p1Val: 'R$ 5.685.000,00',
+        p2Label: '2ª Subasta (24/09/2026):',
+        p2Val: 'R$ 2.842.500,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20%C3%A1tico%20d%C3%BAplex%20402%20en%20Rua%20Fonte%20da%20Saudade%20270%20en%20Lagoa%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Urca/RJ',
+        title: 'Subasta Judicial de Apartamento en Urca — Rua Cândido Gaffrée nº 166 — Apto 202 (121 m²)',
+        desc: 'Apartamento de 121 m² en el Condominio Edificio Enseada, en calle tranquila y arbolada de Urca, cerca de la costa y el Morro da Urca. Gran distribución residencial con 50% de descuento en 2ª Subasta. Matrícula nº 28.527 (3º RGI) e IPTU nº 1.173906-7.',
+        p1Label: '1ª Subasta (14/10/2026):',
+        p1Val: 'R$ 1.700.000,00',
+        p2Label: '2ª Subasta (20/10/2026):',
+        p2Val: 'R$ 850.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20202%20en%20el%20Edificio%20Enseada%20en%20Rua%20C%C3%A2ndido%20Gaffr%C3%A9e%20166%20en%20Urca%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Ipanema/RJ',
         title: 'Subasta Judicial de Apartamento en Ipanema — Rua Barão da Torre nº 292 — Apto 404 (45 m²)',
         desc: 'Apartamento de 45 m² en 4º piso con 1 plaza de garaje en escritura en condominio de excelente categoría con área de ocio, elevadores y portería en zona noble de Ipanema. Matrícula nº 104771 (5º RGI) e IPTU nº 3009818-0.',
@@ -1222,6 +1332,61 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of 3-Bedroom Apartment in Botafogo — Rua Voluntários da Pátria #166 — Apt 203',
+        desc: 'Spacious 115 sqm classic apartment with 3 bedrooms, guest bathroom, living room, kitchen, laundry room, and full maid quarters in a classic 1946 building with 13 stories, granite entrance hall with garden, 24h doorman, rooftop terrace with BBQ, and rotary parking spaces. In need of complete renovation (prime retrofit opportunity with acquisition at ~R$ 3,900/sqm on 2nd auction). Appraisal of R$ 897,000.00 with 2nd Auction opening at 50% for R$ 448,500.00. Title #6,877 (3rd Registry) & IPTU #0.540.237-5.',
+        p1Label: '1st Auction (09/18/2026):',
+        p1Val: 'R$ 897,000.00',
+        p2Label: '2nd Auction (09/28/2026):',
+        p2Val: 'R$ 448,500.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Volunt%C3%A1rios%20da%20P%C3%A1tria%20166%20Apt%20203%20in%20Botafogo%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Tijuca/RJ',
+        title: 'Judicial Auction of 2-Bedroom Apartment in Tijuca — Rua Enes de Souza #45 — Apt 204',
+        desc: '50 sqm apartment, quiet rear orientation, featuring living room, 2 bedrooms (1 suite), guest bathroom, kitchen, and laundry room in a 1967 building with 1 elevator and low monthly fees. Requires complete renovation (prime retrofit opportunity with 2nd auction price at ~R$ 2,600/sqm). Appraisal of R$ 260,000.00 with 2nd Auction starting at 50% for R$ 130,000.00. Title #143.042 (11th Registry) & IPTU #0.913.176-4.',
+        p1Label: '1st Auction (10/13/2026):',
+        p1Val: 'R$ 260,000.00',
+        p2Label: '2nd Auction (10/15/2026):',
+        p2Val: 'R$ 130,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-enes-de-souza-45-apto-204/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Enes%20de%20Souza%2045%20Apt%20204%20in%20Tijuca%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • São Conrado/RJ',
+        title: 'Judicial Auction of Luxury Apartment in São Conrado — Av. Prefeito Mendes de Morais #1400 — Block 2, Apt 503',
+        desc: 'Spacious 268.84 sqm apartment in landmark oceanfront Praia Guinle Condominium on São Conrado Beach. High-end resort amenities (pool, gym, sauna, multisport court, party hall, playground) and 3 parking spaces. Appraisal of R$ 5,221,000.00 with 2nd Auction opening at 50% for R$ 2,610,500.00. Title #46126 (2nd Registry) & IPTU #1.730.497-3.',
+        p1Label: '1st Auction (09/22/2026):',
+        p1Val: 'R$ 5,221,000.00',
+        p2Label: '2nd Auction (09/29/2026):',
+        p2Val: 'R$ 2,610,500.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20for%20apartment%20503%20Block%202%20in%20Praia%20Guinle%20Condominium%20on%20Avenida%20Prefeito%20Mendes%20de%20Morais%201400%20in%20S%C3%A3o%20Conrado.'
+      },
+      {
+        tag: 'Residential • Lagoa/RJ',
+        title: 'Judicial Auction of Duplex Penthouse in Lagoa — Rua Fonte da Saudade #270 — Apt 402',
+        desc: 'Exclusive 308 sqm duplex penthouse (~390 sqm usable) with 4 suites, office, 90 sqm salon, private pool, sauna, hot tub, sun terrace, and 4 parking spaces in prime Lagoa. Appraisal of R$ 5,685,000.00 with 2nd Auction opening at 50% for R$ 2,842,500.00. Title #96157 (2nd Registry) & IPTU #3118779-2.',
+        p1Label: '1st Auction (09/21/2026):',
+        p1Val: 'R$ 5,685,000.00',
+        p2Label: '2nd Auction (09/24/2026):',
+        p2Val: 'R$ 2,842,500.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20for%20duplex%20penthouse%20402%20on%20Rua%20Fonte%20da%20Saudade%20270%20in%20Lagoa%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Urca/RJ',
+        title: 'Judicial Auction of Apartment in Urca — Rua Cândido Gaffrée #166 — Apt 202 (121 sqm)',
+        desc: '121 sqm apartment in Edifício Enseada Condominium, located on peaceful and leafy Rua Cândido Gaffrée in Urca, steps from the shoreline and Sugarloaf trails. Expansive layout with 50% discount on 2nd Auction. Title #28.527 (3rd Registry) & IPTU #1.173906-7.',
+        p1Label: '1st Auction (10/14/2026):',
+        p1Val: 'R$ 1,700,000.00',
+        p2Label: '2nd Auction (10/20/2026):',
+        p2Val: 'R$ 850,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Edif%C3%ADcio%20Enseada%20on%20Rua%20C%C3%A2ndido%20Gaffr%C3%A9e%20166%20Apt%20202%20in%20Urca%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Ipanema/RJ',
         title: 'Judicial Auction of Apartment in Ipanema — Rua Barão da Torre #292 — Apt 404 (45 sqm)',

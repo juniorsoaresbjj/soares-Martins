@@ -3397,5 +3397,378 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
       ]
     }
+  },
+
+  // Urca - Rua Cândido Gaffrée nº 166 - Apto 202 (Condomínio do Edifício Enseada) (121 m²)
+  'urca-candido-gaffree-166-apto-202': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Urca — Rua Cândido Gaffrée nº 166 — Apto 202 (121 m²)',
+      subtitle: 'Rua Cândido Gaffrée, nº 166, Apto 202 — Urca, Rio de Janeiro/RJ | 121 m² • Condomínio do Edifício Enseada • 3º Ofício RGI (Matrícula 28.527) • IPTU: 1.173906-7 • 2ª Praça a 50% por R$ 850.000,00',
+      address: 'Rua Cândido Gaffrée, 166 - Apto 202 — Urca, Rio de Janeiro - RJ',
+      p1Date: '14/10/2026 às 12:50h',
+      p2Date: '20/10/2026 às 12:50h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.173906-7',
+      rgi: '28.527 (3º RGI/RJ)',
+      val: 'R$ 1.700.000,00',
+      p2Val: 'R$ 850.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 202 do Condomínio do Edifício Enseada, situado na Rua Cândido Gaffrée, nº 166, no tradicional, tranquilo e arborizado bairro da Urca, Zona Sul do Rio de Janeiro/RJ. O imóvel possui 121 metros quadrados (121 m²) de área privativa edificada, oferecendo ampla planta residencial em uma das ruas mais aprazíveis e valorizadas do bairro, próximo à orla, à mureta da Urca e aos pés do Morro da Urca. O imóvel encontra-se devidamente registrado, dimensionado e caracterizado no Cartório do 3º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 28.527 e devidamente inscrito na Prefeitura da Cidade do Rio de Janeiro sob a Inscrição Municipal (IPTU) nº 1.173906-7. Foi atribuído ao bem acima descrito o valor de avaliação judicial de R$ 1.700.000,00, tendo a 2ª praça início a partir de 50% do valor da avaliação pelo montante de R$ 850.000,00 (desconto de R$ 850.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial e o lance mínimo na 2ª Praça para o imóvel na Urca?", a: "O imóvel foi judicialmente avaliado em R$ 1.700.000,00. Na 1ª Praça (14/10/2026 às 12:50h), a arrematação exige lance mínimo equivalente a 100% da avaliação (R$ 1.700.000,00). Na 2ª Praça (20/10/2026 às 12:50h), o lance mínimo abre com 50% de desconto por R$ 850.000,00 (50% do valor da avaliação judicial)." },
+        { q: "Quais são as características do apartamento 202 no Condomínio do Edifício Enseada?", a: "O apartamento possui 121 m² de área privativa, localizado no 2º andar do Condomínio do Edifício Enseada, situado na Rua Cândido Gaffrée nº 166, em ponto nobre e tranquilo da Urca. Conta com planta espaçosa e excelente luminosidade em ambiente estritamente residencial." },
+        { q: "Quais são os dados registrais e cadastrais deste imóvel na Urca?", a: "O bem está devidamente registrado no Cartório do 3º Ofício de Registro de Imóveis da Capital (3º RGI/RJ) sob a Matrícula nº 28.527 e inscrito na Secretaria Municipal de Fazenda sob a Inscrição Municipal (IPTU) nº 1.173906-7." },
+        { q: "Como é realizada a due diligence preventiva e auditoria de certidões?", a: "A assessoria jurídica de Soares Martins Advogados realiza a verificação de toda a cadeia dominial na Matrícula 28.527 do 3º RGI, pesquisa de débitos fiscais junto ao Município (IPTU nº 1.173906-7), dívidas condominiais propter rem e análise de todos os atos e intimações do processo judicial perante o TJRJ." },
+        { q: "É admitido parcelamento judicial nos termos do Artigo 895 do Código de Processo Civil?", a: "Sim. Qualquer interessado pode apresentar por escrito, antes de cada praça, proposta para pagamento parcelado com entrada mínima de 25% à vista e o saldo em até 30 parcelas mensais corrigidas, gravando-se hipoteca judicial na matrícula do imóvel." },
+        { q: "Como contratar a assessoria jurídica do escritório Soares Martins Advogados para este leilão?", a: "Entre em contato diretamente via WhatsApp (+55 21 97954-9241) ou agende uma reunião em nossa sede em Ipanema (Rua Visconde de Pirajá, 414 - Sala 718, Rio de Janeiro/RJ) para receber o parecer jurídico preventivo e representação completa até a imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Urca — Rua Cândido Gaffrée nº 166 — Apto 202 (121 m²)',
+      subtitle: 'Rua Cândido Gaffrée, nº 166, Apto 202 — Urca, Río de Janeiro/RJ | 121 m² • Condominio Edificio Enseada • 3º Registro Inmobiliario (Matrícula 28.527) • IPTU: 1.173906-7 • 2ª Subasta al 50% por R$ 850.000,00',
+      address: 'Rua Cândido Gaffrée, 166 - Apto 202 — Urca, Río de Janeiro - RJ',
+      p1Date: '14/10/2026 a las 12:50h',
+      p2Date: '20/10/2026 a las 12:50h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.173906-7',
+      rgi: '28.527 (3º RGI/RJ)',
+      val: 'R$ 1.700.000,00',
+      p2Val: 'R$ 850.000,00 (50% de la tasación / 50% descuento)',
+      description: 'Apartamento residencial nº 202 del Condominio del Edificio Enseada, ubicado en Rua Cândido Gaffrée nº 166, en el barrio bucólico y exclusivo de Urca, Zona Sur de Río de Janeiro/RJ. El inmueble cuenta con 121 m² de superficie privativa, ofreciendo una amplia distribución en una de las calles más valoradas del barrio, junto al Morro da Urca y la costa. Registrado en el 3º Registro Inmobiliario bajo la Matrícula nº 28.527 e IPTU nº 1.173906-7. Tasación judicial de R$ 1.700.000,00, con segunda subasta inicial al 50% por R$ 850.000,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja mínima en 2ª Subasta en Rua Cândido Gaffrée 166?", a: "Tasación judicial de R$ 1.700.000,00. En 1ª Subasta (14/10/2026 a las 12:50h) puja del 100%. En 2ª Subasta (20/10/2026 a las 12:50h) puja inicial al 50% por R$ 850.000,00 (descuento de R$ 850.000,00)." },
+        { q: "¿Cuáles son las características del apartamento 202 en el Edificio Enseada?", a: "Cuenta con 121 m² en el 2º piso del Edificio Enseada, con excelente luz natural y generosa distribución en zona residencial tranquila de Urca." },
+        { q: "¿Cómo se auditan los datos de registro (Matrícula 28.527 del 3º RGI) e IPTU?", a: "Auditoría legal preventiva integral de títulos, proceso judicial, deudas tributarias (IPTU 1.173906-7) y cuotas de condominio." },
+        { q: "¿Se puede abonar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante pago inicial del 25% al contado y saldo en hasta 30 cuotas mensuales corregidas con garantía hipotecaria." },
+        { q: "¿Cómo contratar la asesoría jurídica de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Urca — Rua Cândido Gaffrée #166 — Apt 202 (121 sqm)',
+      subtitle: 'Rua Cândido Gaffrée, #166, Apt 202 — Urca, Rio de Janeiro/RJ | 121 sqm (1,302 sq ft) • Edifício Enseada Condominium • 3rd Land Registry (Title #28.527) • IPTU: 1.173906-7 • 2nd Auction at 50% for R$ 850,000.00',
+      address: 'Rua Cândido Gaffrée, 166 - Apt 202 — Urca, Rio de Janeiro - RJ',
+      p1Date: '10/14/2026 at 12:50 PM',
+      p2Date: '10/20/2026 at 12:50 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.173906-7',
+      rgi: 'Title #28.527 (3rd Land Registry)',
+      val: 'R$ 1,700,000.00',
+      p2Val: 'R$ 850,000.00 (50% starting bid / 50% discount)',
+      description: 'Residential apartment #202 in Condomínio do Edifício Enseada, located on Rua Cândido Gaffrée #166, in the serene, charming, and highly secure neighborhood of Urca, South Zone of Rio de Janeiro/RJ. The unit boasts 121 square meters (121 sqm / 1,302 sq ft) of private built area with generous room layouts on one of the most idyllic streets in the city, steps from Sugarloaf Mountain paths and the bay shoreline. Registered at the 3rd Land Registry under Title #28.527 and municipal tax IPTU #1.173906-7. Official court appraisal is R$ 1,700,000.00, with 2nd auction opening bid starting at 50% for R$ 850,000.00 (a R$ 850,000.00 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the court appraisal and 2nd auction opening bid for Apt 202 on Rua Cândido Gaffrée?", a: "Court valuation is R$ 1,700,000.00. 1st Auction (10/14/2026 at 12:50 PM) starts at 100% (R$ 1,700,000.00). 2nd Auction (10/20/2026 at 12:50 PM) opens at 50% for R$ 850,000.00 (a R$ 850,000.00 discount)." },
+        { q: "What are the features of Apt 202 and Edifício Enseada?", a: "121 square meters on the 2nd floor of Edifício Enseada, offering expansive interior layout and quiet leafy residential surroundings in Urca." },
+        { q: "How is legal due diligence conducted for Title #28.527 (3rd Registry)?", a: "We audit Title #28.527 at the 3rd Land Registry, verify municipal tax IPTU #1.173906-7, evaluate condo debts, and scrutinize court notices under CTN Art. 130." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
+  },
+
+  // Lagoa - Rua Fonte da Saudade nº 270 - Cobertura Duplex 402 (308 m² / ~390 m²)
+  'lagoa-fonte-da-saudade-270-apto-402': {
+    pt: {
+      title: 'Leilão Judicial de Cobertura Duplex na Lagoa — Rua Fonte da Saudade nº 270 — Apto 402',
+      subtitle: 'Rua Fonte da Saudade, nº 270, Cobertura Duplex 402 — Lagoa, Rio de Janeiro/RJ | 308 m² (IPTU) e ~390 m² úteis • 4 Suítes, Piscina, Sauna, Hidromassagem, Terraço e 4 Vagas • 2º RGI (Matrícula 96157) • IPTU: 3118779-2 • 2ª Praça a 50% por R$ 2.842.500,00',
+      address: 'Rua Fonte da Saudade, 270 - Cobertura Duplex 402 — Lagoa, Rio de Janeiro - RJ',
+      p1Date: '21/09/2026 às 12:50h',
+      p2Date: '24/09/2026 às 12:50h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '3118779-2',
+      rgi: '96157 (2º RGI/RJ)',
+      val: 'R$ 5.685.000,00',
+      p2Val: 'R$ 2.842.500,00 (50% do valor da avaliação)',
+      description: 'Apartamento de cobertura duplex nº 402 situado na prestigiada Rua Fonte da Saudade, nº 270, no nobre bairro da Lagoa, Zona Sul do Rio de Janeiro/RJ. O imóvel possui área edificada registrada de 308 metros quadrados (308 m²) e área útil real estimada em laudo de aproximadamente 390 metros quadrados (~390 m²). Sua distribuição dispõe de quatro amplas suítes, um escritório planejado, dois lavabos sociais, duas salas amplas (sendo uma de estar/jantar de cerca de 90 m²), cozinha pequena e completa, dependência completa de empregada, quarto de despensa, área externa com terraço e solarium, piscina privativa, sauna, banheira de hidromassagem e direito a quatro (4) vagas de garagem no condomínio. O imóvel conta com acabamento em piso de porcelanato, cozinha com revestimento em cerâmica e teto com projeto de iluminação especial. Encontra-se em médio estado de conservação, apresentando pontos de infiltração e fissuras em paredes que demandam obras de reforma e pintura, representando extraordinária oportunidade de retrofit e valorização na Zona Sul. O bem encontra-se devidamente registrado, dimensionado e caracterizado no Cartório do 2º Ofício de Registro de Imóveis sob a Matrícula nº 96157 e inscrito na Secretaria Municipal de Fazenda sob a Inscrição Municipal (IPTU) nº 3118779-2. Avaliação judicial oficial de R$ 5.685.000,00, com 2ª praça iniciando em 50% da avaliação por R$ 2.842.500,00 (economia de R$ 2.842.500,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial e o lance mínimo na 2ª Praça para a cobertura na Lagoa?", a: "O imóvel foi judicialmente avaliado em R$ 5.685.000,00. Na 1ª Praça (21/09/2026 às 12:50h), a arrematação exige lance mínimo de 100% da avaliação (R$ 5.685.000,00). Na 2ª Praça (24/09/2026 às 12:50h), o lance mínimo abre com 50% de desconto por R$ 2.842.500,00 (50% do valor da avaliação judicial)." },
+        { q: "Quais são as características e dependências da cobertura duplex 402 na Rua Fonte da Saudade 270?", a: "Trata-se de cobertura duplex de 308 m² de área cadastrada e cerca de 390 m² de área útil, com 4 suítes, escritório, 2 lavabos, salão de ~90 m² mais segunda sala ampla, cozinha completa, piscina, sauna, hidromassagem, terraço com sala de tomar sol, dependência de empregada, despensa e 4 vagas de garagem." },
+        { q: "Qual é o estado de conservação da unidade apontado no laudo de avaliação?", a: "O laudo aponta médio estado de conservação, com pontos de infiltrações e fissuras pontuais em alvenarias que demandam reforma e pintura. Trata-se de perfil ideal para retrofit residencial de alto luxo, com margem de segurança proporcionada pelo deságio de 50%." },
+        { q: "Quais são os dados registrais e fiscais do imóvel?", a: "Registrado no Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 96157 e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a Inscrição Municipal (IPTU) nº 3118779-2." },
+        { q: "É possível adquirir a cobertura duplex por meio de parcelamento judicial (Art. 895 do CPC)?", a: "Sim. O interessado pode protocolar proposta de parcelamento antes do leilão, mediante pagamento de sinal mínimo de 25% à vista e saldo em até 30 parcelas mensais corrigidas, com caução/hipoteca judicial registrada na matrícula." },
+        { q: "Como contratar a assessoria de Soares Martins Advogados para arrematar com segurança?", a: "Entre em contato via WhatsApp (+55 21 97954-9241) ou agende atendimento em nossa sede em Ipanema para due diligence completa, cálculo de custos de regularização, defesa de arrematação e imissão célere na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Ático Dúplex en Lagoa — Rua Fonte da Saudade nº 270 — Apto 402',
+      subtitle: 'Rua Fonte da Saudade, nº 270, Ático Dúplex 402 — Lagoa, Río de Janeiro/RJ | 308 m² (IPTU) y ~390 m² útiles • 4 Suites, Piscina, Sauna, Hidromasaje, Terraza y 4 Plazas • 2º Registro Inmobiliario (Matrícula 96157) • IPTU: 3118779-2 • 2ª Subasta al 50% por R$ 2.842.500,00',
+      address: 'Rua Fonte da Saudade, 270 - Ático Dúplex 402 — Lagoa, Río de Janeiro - RJ',
+      p1Date: '21/09/2026 a las 12:50h',
+      p2Date: '24/09/2026 a las 12:50h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '3118779-2',
+      rgi: '96157 (2º RGI/RJ)',
+      val: 'R$ 5.685.000,00',
+      p2Val: 'R$ 2.842.500,00 (50% de la tasación / 50% descuento)',
+      description: 'Ático dúplex residencial nº 402 en la exclusiva Rua Fonte da Saudade nº 270, Lagoa, Zona Sur de Río de Janeiro/RJ. Registrado con 308 m² y superficie útil aproximada de 390 m². Dispone de 4 suites, despacho, 2 aseos, 2 amplios salones (uno de ~90 m²), cocina completa, piscina privada, sauna, hidromasaje, terraza con solárium, dependencias de servicio, despensa y 4 plazas de garaje. Tasación judicial de R$ 5.685.000,00 con 2ª subasta inicial al 50% por R$ 2.842.500,00. Matrícula 96157 (2º RGI) e IPTU 3118779-2.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja mínima en 2ª Subasta en Rua Fonte da Saudade 270?", a: "Tasación judicial de R$ 5.685.000,00. En 1ª Subasta (21/09/2026 a las 12:50h) puja del 100%. En 2ª Subasta (24/09/2026 a las 12:50h) puja inicial al 50% por R$ 2.842.500,00 (descuento de R$ 2.842.500,00)." },
+        { q: "¿Cuáles son las características del ático dúplex en Lagoa?", a: "Superficie de 308 m² cadastrales (~390 m² útiles), 4 suites, piscina privada, sauna, hidromasaje, salón de 90 m², terraza exterior y 4 plazas de garaje." },
+        { q: "¿Cómo se auditan los títulos en el 2º RGI (Matrícula 96157)?", a: "Auditoría legal preventiva integral de la cadena dominial, deudas de IPTU (3118779-2), gastos de comunidad e incidencias procesales." },
+        { q: "¿Se puede pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante 25% de entrada al contado y hasta 30 cuotas mensuales garantizadas con hipoteca judicial." },
+        { q: "¿Cómo contratar la asesoría jurídica de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Duplex Penthouse in Lagoa — Rua Fonte da Saudade #270 — Apt 402',
+      subtitle: 'Rua Fonte da Saudade, #270, Duplex Penthouse 402 — Lagoa, Rio de Janeiro/RJ | 308 sqm (3,315 sq ft) & ~390 sqm usable • 4 Suites, Private Pool, Sauna, Hot Tub, Sun Terrace & 4 Parking Spaces • 2nd Registry (Title #96157) • IPTU: 3118779-2 • 2nd Auction at 50% for R$ 2,842,500.00',
+      address: 'Rua Fonte da Saudade, 270 - Duplex Penthouse 402 — Lagoa, Rio de Janeiro - RJ',
+      p1Date: '09/21/2026 at 12:50 PM',
+      p2Date: '09/24/2026 at 12:50 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '3118779-2',
+      rgi: 'Title #96157 (2nd Land Registry)',
+      val: 'R$ 5,685,000.00',
+      p2Val: 'R$ 2,842,500.00 (50% starting bid / 50% discount)',
+      description: 'Luxury duplex penthouse #402 located on prestigious Rua Fonte da Saudade #270, in the premier Lagoa neighborhood, South Zone of Rio de Janeiro/RJ. Deeded area of 308 square meters (3,315 sq ft) and estimated usable area of approximately 390 square meters (~4,198 sq ft). Featuring four suites, private home office, two half-baths, two expansive living areas (including a grand ~90 sqm main salon), kitchen, staff quarters, pantry, outdoor sunbathing deck, private swimming pool, sauna, hot tub, and four (4) deeded garage spaces. The unit exhibits porcelain tile flooring and designer ceiling lighting, in fair/average condition needing cosmetic renovation and painting. Registered at the 2nd Land Registry under Title #96157 and municipal tax IPTU #3118779-2. Official court appraisal is R$ 5,685,000.00, with 2nd auction opening bid starting at 50% for R$ 2,842,500.00 (a R$ 2,842,500.00 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the court appraisal and 2nd auction opening bid for Penthouse 402 on Rua Fonte da Saudade?", a: "Court valuation is R$ 5,685,000.00. 1st Auction (09/21/2026 at 12:50 PM) starts at 100% (R$ 5,685,000.00). 2nd Auction (09/24/2026 at 12:50 PM) opens at 50% for R$ 2,842,500.00 (a R$ 2,842,500.00 discount)." },
+        { q: "What are the features of Penthouse 402 on Rua Fonte da Saudade 270?", a: "308 sqm registered area (~390 sqm usable), 4 suites, home office, 2 half-baths, grand ~90 sqm salon, private pool, sauna, hot tub, sun terrace, and 4 parking spaces in premier Lagoa." },
+        { q: "How is legal due diligence conducted for Title #96157 (2nd Registry)?", a: "We audit Title #96157 at the 2nd Land Registry, verify municipal tax IPTU #3118779-2, evaluate condo debts, and scrutinize court notices under CTN Art. 130." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
+  },
+
+  // São Conrado - Avenida Prefeito Mendes de Morais nº 1400 - Bloco 2, Apto 503 (268,84 m²) - Condomínio Praia Guinle
+  'sao-conrado-mendes-morais-1400-apto-503': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em São Conrado — Av. Prefeito Mendes de Morais nº 1400 — Bloco 2, Apto 503',
+      subtitle: 'Avenida Prefeito Mendes de Morais, nº 1400, Bloco 2, Apto 503 — São Conrado, Rio de Janeiro/RJ | 268,84 m² • Condomínio Praia Guinle • Frente Mar • Piscina, Academia, Sauna, Quadra, Playground e 3 Vagas • 2º RGI (Matrícula 46126) • IPTU: 1.730.497-3 • 2ª Praça a 50% por R$ 2.610.500,00',
+      address: 'Avenida Prefeito Mendes de Morais, nº 1400, Bloco 2, Apto 503 — São Conrado, Rio de Janeiro - RJ',
+      p1Date: '22/09/2026 às 13:20h',
+      p2Date: '29/09/2026 às 13:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.730.497-3',
+      rgi: '46126 (2º RGI/RJ)',
+      val: 'R$ 5.221.000,00',
+      p2Val: 'R$ 2.610.500,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 503 do Bloco 2 situado no prestigiado Condomínio Praia Guinle, na Avenida Prefeito Mendes de Morais, nº 1400, em frente à orla da Praia de São Conrado, Zona Sul do Rio de Janeiro/RJ. O imóvel possui área privativa edificada de 268,84 metros quadrados (268,84 m²), caracterizado por generosa planta com amplos ambientes e direito a 3 (três) vagas de garagem no condomínio. O Condomínio Praia Guinle é um empreendimento de altíssimo padrão com infraestrutura de resort à beira-mar: portaria e segurança 24 horas com controle rigoroso de acesso, elevadores modernos, piscina adulto e infantil, academia completa, quadra esportiva poliesportiva, sauna, salão de festas decorado e playground infantil. Imóvel devidamente registrado, dimensionado e caracterizado no Cartório do 2º Ofício de Registro de Imóveis sob a Matrícula nº 46126 e inscrito na Secretaria Municipal de Fazenda sob a Inscrição Municipal (IPTU) nº 1.730.497-3. Avaliação judicial oficial fixada em R$ 5.221.000,00, com abertura da 2ª Praça a 50% por R$ 2.610.500,00 (desconto de R$ 2.610.500,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial e o lance mínimo na 2ª Praça do imóvel em São Conrado?", a: "O apartamento foi judicialmente avaliado em R$ 5.221.000,00. Na 1ª Praça (22/09/2026 às 13:20h), a arrematação exige lance mínimo de 100% da avaliação (R$ 5.221.000,00). Na 2ª Praça (29/09/2026 às 13:20h), o certame é aberto com 50% de desconto pelo valor inicial de R$ 2.610.500,00 (economia de R$ 2.610.500,00)." },
+        { q: "Quais são as comodidades e diferenciais do Condomínio Praia Guinle?", a: "O Condomínio Praia Guinle é referência de alto luxo na orla de São Conrado. Dispõe de portaria com vigilância 24 horas, circuito interno, academia moderna, piscina, quadra esportiva, salão de festas, sauna, playground e localização privilegiada em frente à praia e próximo ao Fashion Mall e ao Gávea Golf and Country Club." },
+        { q: "Quais são as especificações do apartamento 503 (Bloco 2)?", a: "Possui 268,84 m² de área privativa, ampla planta com salas integradas e dormitórios espaçosos, vista para a orla/verde e direito a 3 vagas de garagem privativas na escritura." },
+        { q: "Quais são os dados registrais e cadastrais do imóvel?", a: "Registrado no Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 46126 e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a Inscrição Municipal (IPTU) nº 1.730.497-3." },
+        { q: "É admitida a arrematação com parcelamento judicial (Art. 895 do CPC)?", a: "Sim. O interessado pode apresentar proposta formal por escrito antes do leilão, com oferta de pelo menos 25% de sinal à vista e o saldo restante parcelado em até 30 meses corrigidos oficialmente, com garantia hipotecária averbada na matrícula." },
+        { q: "Como contratar a assessoria de Soares Martins Advogados para este leilão?", a: "Entre em contato via WhatsApp (+55 21 97954-9241) ou em nosso escritório em Ipanema. Conduzimos a due diligence prévia de débitos condominiais e fiscais, elaboramos a estratégia de lances e atuamos até a imissão formal na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en São Conrado — Av. Prefeito Mendes de Morais nº 1400 — Bloco 2, Apto 503',
+      subtitle: 'Avenida Prefeito Mendes de Morais, nº 1400, Bloco 2, Apto 503 — São Conrado, Río de Janeiro/RJ | 268,84 m² • Condominio Praia Guinle • Frente al Mar • Piscina, Gimnasio, Sauna, Pista, Salón y 3 Plazas • 2º Registro Inmobiliario (Matrícula 46126) • IPTU: 1.730.497-3 • 2ª Subasta al 50% por R$ 2.610.500,00',
+      address: 'Avenida Prefeito Mendes de Morais, nº 1400, Bloco 2, Apto 503 — São Conrado, Río de Janeiro - RJ',
+      p1Date: '22/09/2026 a las 13:20h',
+      p2Date: '29/09/2026 a las 13:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.730.497-3',
+      rgi: '46126 (2º RGI/RJ)',
+      val: 'R$ 5.221.000,00',
+      p2Val: 'R$ 2.610.500,00 (50% de la tasación / 50% descuento)',
+      description: 'Apartamento residencial nº 503 del Bloque 2 en el Condominio Praia Guinle, Avenida Prefeito Mendes de Morais nº 1400, primera línea de playa en São Conrado, Zona Sur de Río de Janeiro/RJ. Superficie de 268,84 m² con amplias estancias y 3 plazas de garaje. Condominio de alto nivel con vigilancia 24h, piscina, gimnasio, sauna, pista deportiva, salón de eventos y parque infantil. Matrícula 46126 (2º RGI) e IPTU 1.730.497-3. Tasación oficial de R$ 5.221.000,00 con 2ª subasta al 50% por R$ 2.610.500,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja mínima en 2ª Subasta en São Conrado?", a: "Tasación de R$ 5.221.000,00. En 1ª Subasta (22/09/2026 a las 13:20h) puja del 100%. En 2ª Subasta (29/09/2026 a las 13:20h) puja inicial al 50% por R$ 2.610.500,00 (descuento de R$ 2.610.500,00)." },
+        { q: "¿Qué servicios ofrece el Condominio Praia Guinle?", a: "Vigilancia 24 horas, piscina, gimnasio, pista deportiva, salón de fiestas, sauna, parque y ubicación frente al mar en São Conrado." },
+        { q: "¿Cuáles son las medidas y plazas de garaje del apartamento 503?", a: "268,84 m² de área privativa con 3 plazas de garaje asignadas." },
+        { q: "¿Se puede pagar mediante propuesta a plazos (Art. 895 CPC)?", a: "Sí, mediante 25% de entrada al contado y hasta 30 cuotas mensuales garantizadas con hipoteca judicial." },
+        { q: "¿Cómo contratar la asesoría jurídica de Soares Martins Advogados?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Luxury Apartment in São Conrado — Av. Prefeito Mendes de Morais #1400 — Block 2, Apt 503',
+      subtitle: 'Avenida Prefeito Mendes de Morais, #1400, Block 2, Apt 503 — São Conrado, Rio de Janeiro/RJ | 268.84 sqm (2,893 sq ft) • Praia Guinle Condominium • Beachfront • Pool, Gym, Sauna, Sports Court, 3 Parking Spaces • 2nd Registry (Title #46126) • IPTU: 1.730.497-3 • 2nd Auction at 50% for R$ 2,610,500.00',
+      address: 'Avenida Prefeito Mendes de Morais, #1400, Block 2, Apt 503 — São Conrado, Rio de Janeiro - RJ',
+      p1Date: '09/22/2026 at 1:20 PM',
+      p2Date: '09/29/2026 at 1:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.730.497-3',
+      rgi: 'Title #46126 (2nd Land Registry)',
+      val: 'R$ 5,221,000.00',
+      p2Val: 'R$ 2,610,500.00 (50% starting bid / 50% discount)',
+      description: 'Luxury beachfront residential apartment #503 in Block 2 of the prestigious Praia Guinle Condominium, situated at Avenida Prefeito Mendes de Morais #1400, right across from São Conrado Beach, South Zone of Rio de Janeiro/RJ. Deeded private area of 268.84 square meters (2,893 sq ft) with an expansive floor plan and three (3) dedicated parking spaces. Praia Guinle is a landmark high-end oceanfront condominium featuring 24/7 guarded gatehouse, modern elevators, swimming pools, fitness center, multisport court, sauna, decorated event hall, and children playground. Registered at the 2nd Land Registry under Title #46126 and municipal tax IPTU #1.730.497-3. Official court valuation is R$ 5,221,000.00, with 2nd auction opening bid starting at 50% for R$ 2,610,500.00 (a R$ 2,610,500.00 discount).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the court appraisal and 2nd auction opening bid for Apt 503 in São Conrado?", a: "Court valuation is R$ 5,221,000.00. 1st Auction (09/22/2026 at 1:20 PM) starts at 100% (R$ 5,221,000.00). 2nd Auction (09/29/2026 at 1:20 PM) opens at 50% for R$ 2,610,500.00 (a R$ 2,610,500.00 discount)." },
+        { q: "What are the features and amenities of Praia Guinle Condominium?", a: "Praia Guinle is a premier beachfront luxury development on São Conrado Beach with 24/7 security, swimming pool, gym, sauna, sports court, party room, and playground, situated near Fashion Mall and Gávea Golf Club." },
+        { q: "What are the specs for Apartment 503 (Block 2)?", a: "268.84 sqm of private living space, spacious layout, oceanfront location, and 3 deeded parking spaces." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
+  },
+
+  // Tijuca - Rua Enes de Souza nº 45 - Apartamento 204 (50 m²)
+  'tijuca-enes-de-souza-45-apto-204': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Tijuca — Rua Enes de Souza nº 45 — Apto 204',
+      subtitle: 'Rua Enes de Souza, nº 45, Apartamento 204 — Tijuca, Rio de Janeiro/RJ | 50 m² • 2 Quartos (1 Suíte), Banheiro Social, Sala, Cozinha e Área • De Fundos • Prédio com Elevador • 11º RGI (Matrícula 143.042) • IPTU: 0.913.176-4 • 2ª Praça a 50% por R$ 130.000,00',
+      address: 'Rua Enes de Souza, nº 45, Apartamento 204 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '13/10/2026 às 13:00h',
+      p2Date: '15/10/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.913.176-4',
+      rgi: '143.042 (11º RGI/RJ)',
+      val: 'R$ 260.000,00',
+      p2Val: 'R$ 130.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 204 situado na Rua Enes de Souza, nº 45, no tradicional bairro da Tijuca, Zona Norte do Rio de Janeiro/RJ. Imóvel com área privativa edificada de 50 metros quadrados (50 m²), voltado para os fundos da edificação, oferecendo maior silêncio e isolamento em relação à rua. A planta distribui-se em sala de estar, 2 (dois) quartos (sendo 1 suíte), banheiro social, cozinha e área de serviço independente. O laudo de avaliação judicial aponta que a unidade encontra-se em péssimo estado de conservação, com todos os pisos e revestimentos demandando reforma integral, configurando uma excelente oportunidade para retrofit, modernização completa e expressivo ganho de capital na revenda ou locação. O edifício, construído em 1967, conta com 1 (um) elevador social, não possuindo portaria presencial, câmeras de segurança, piscina, academia, salão de festas ou playground — características que favorecem um custo condominial bastante reduzido. O bem encontra-se devidamente registrado no 11º Ofício de Registro de Imóveis sob a Matrícula nº 143.042 e cadastrado no IPTU sob a Inscrição Municipal nº 0.913.176-4. Avaliação judicial oficial fixada em R$ 260.000,00, com abertura da 2ª Praça a 50% pelo lance mínimo de R$ 130.000,00 (desconto de R$ 130.000,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento na Tijuca?", a: "O imóvel foi avaliado judicialmente em R$ 260.000,00. Na 1ª Praça (13/10/2026 às 13:00h), o lance mínimo corresponde a 100% da avaliação (R$ 260.000,00). Na 2ª Praça (15/10/2026 às 13:00h), o leilão é aberto a 50% da avaliação, com lance inicial de R$ 130.000,00 (economia de R$ 130.000,00)." },
+        { q: "Quais são as características físicas e o estado de conservação do apartamento 204?", a: "Possui 50 m² de área edificada, posição de fundos, distribuído em sala, 2 quartos (sendo 1 suíte), banheiro social, cozinha e área de serviço. O laudo judicial registrou péssimo estado de conservação com pisos e revestimentos desgastados, ideal para investidores focados em reforma completa (retrofit) com custo de aquisição de apenas ~R$ 2.600/m² na 2ª praça." },
+        { q: "Como é a infraestrutura do condomínio na Rua Enes de Souza nº 45?", a: "O prédio foi construído em 1967 e dispõe de 1 elevador. Não possui portaria presencial, câmeras, piscina, academia ou áreas de lazer coletivas, o que mantém a taxa condominial em patamar econômico." },
+        { q: "Quais são os dados fiscais e registrais do imóvel?", a: "Está registrado no 11º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 143.042 e inscrito no IPTU sob o número 0.913.176-4." },
+        { q: "É possível arrematar mediante proposta parcelada com base no Art. 895 do CPC?", a: "Sim. O interessado pode apresentar proposta por escrito antes do encerramento do leilão, oferecendo pelo menos 25% de entrada à vista e o saldo restante parcelado em até 30 meses corrigidos, garantido por hipoteca judicial sobre o próprio imóvel." },
+        { q: "Como contratar a assessoria jurídica de Soares Martins Advogados?", a: "Basta entrar em contato pelo WhatsApp (+55 21 97954-9241) ou em nosso escritório em Ipanema. Conduzimos a auditoria de ônus do 11º RGI, débitos condominiais, débitos fiscais e acompanhamos até a imissão formal na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Tijuca — Rua Enes de Souza nº 45 — Apto 204',
+      subtitle: 'Rua Enes de Souza, nº 45, Apartamento 204 — Tijuca, Río de Janeiro/RJ | 50 m² • 2 Dormitorios (1 Suite), Baño, Salón, Cocina y Lavadero • Interior / Silencioso • Edificio con Ascensor • 11º Registro (Matrícula 143.042) • IPTU: 0.913.176-4 • 2ª Subasta al 50% por R$ 130.000,00',
+      address: 'Rua Enes de Souza, nº 45, Apartamento 204 — Tijuca, Río de Janeiro - RJ',
+      p1Date: '13/10/2026 a las 13:00h',
+      p2Date: '15/10/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.913.176-4',
+      rgi: '143.042 (11º RGI/RJ)',
+      val: 'R$ 260.000,00',
+      p2Val: 'R$ 130.000,00 (50% de la tasación / 50% descuento)',
+      description: 'Apartamento residencial nº 204 en Rua Enes de Souza nº 45, Tijuca, Río de Janeiro/RJ. Superficie de 50 m², orientación interior silenciosa, con salón, 2 dormitorios (1 suite), baño social, cocina y lavadero. El informe pericial constata muy mal estado de conservación de suelos y revestimientos, resultando ideal para reforma integral (retrofit) con excelente potencial de revalorización en Tijuca. Edificio de 1967 con 1 ascensor y bajos gastos de comunidad. Matrícula 143.042 del 11º RGI e IPTU 0.913.176-4. Tasación oficial de R$ 260.000,00 con 2ª subasta al 50% por R$ 130.000,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja en 2ª Subasta en Tijuca?", a: "Tasación de R$ 260.000,00. En 1ª Subasta (13/10/2026 a las 13:00h) puja del 100%. En 2ª Subasta (15/10/2026 a las 13:00h) puja inicial al 50% por R$ 130.000,00 (descuento de R$ 130.000,00)." },
+        { q: "¿Cuál es el estado del apartamento 204?", a: "50 m² con 2 dormitorios (1 suite), en muy mal estado de conservación, ideal para inversores que buscan comprar a ~R$ 2.600/m² y reformar completamente." },
+        { q: "¿Qué servicios tiene el edificio?", a: "Edificio de 1967 con 1 ascensor y sin áreas comunes costosas, lo que genera gastos de comunidad reducidos." },
+        { q: "¿Se puede pagar a plazos (Art. 895 CPC)?", a: "Sí, mediante propuesta formal con 25% de entrada y hasta 30 mensualidades garantizadas por hipoteca judicial." },
+        { q: "¿Cómo contratar la asesoría jurídica?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of 2-Bedroom Apartment in Tijuca — Rua Enes de Souza #45 — Apt 204',
+      subtitle: 'Rua Enes de Souza, #45, Apartment 204 — Tijuca, Rio de Janeiro/RJ | 50 sqm (538 sq ft) • 2 Bedrooms (1 Suite), Guest Bathroom, Living, Kitchen & Laundry • Rear View • Building with Elevator • 11th Registry (Title #143.042) • IPTU: 0.913.176-4 • 2nd Auction at 50% for R$ 130,000.00',
+      address: 'Rua Enes de Souza, #45, Apartment 204 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '10/13/2026 at 1:00 PM',
+      p2Date: '10/15/2026 at 1:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.913.176-4',
+      rgi: 'Title #143.042 (11th Land Registry)',
+      val: 'R$ 260,000.00',
+      p2Val: 'R$ 130,000.00 (50% starting bid / 50% discount)',
+      description: 'Residential apartment #204 located at Rua Enes de Souza #45 in the traditional neighborhood of Tijuca, North Zone of Rio de Janeiro/RJ. Deeded private area of 50 square meters (538 sq ft), facing the rear of the building for quiet living. Layout features a living room, 2 bedrooms (including 1 suite), guest bathroom, kitchen, and dedicated laundry room. The court appraisal indicates that the apartment is in poor condition, requiring full renovation of all flooring and fixtures, offering a prime value-add / retrofit investment opportunity with an ultra-low acquisition base (~R$ 2,600/sqm on 2nd auction). The 1967 building features 1 elevator and low monthly condominium fees. Registered at the 11th Land Registry under Title #143.042 and IPTU municipal tax #0.913.176-4. Official court valuation is R$ 260,000.00, with 2nd auction starting at 50% for R$ 130,000.00.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid for Apt 204 in Tijuca?", a: "Court valuation is R$ 260,000.00. 1st Auction (10/13/2026 at 1:00 PM) starts at 100% (R$ 260,000.00). 2nd Auction (10/15/2026 at 1:00 PM) opens at 50% for R$ 130,000.00 (a R$ 130,000.00 discount)." },
+        { q: "What is the condition and layout of the apartment?", a: "50 sqm with 2 bedrooms (1 suite), quiet rear orientation, requiring complete renovation, ideal for flip/rental investors." },
+        { q: "What building amenities are available?", a: "Built in 1967 with 1 elevator, featuring low condo maintenance costs." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on the title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
+  },
+
+  // Botafogo - Rua Voluntários da Pátria nº 166 - Apartamento 203 (115 m²)
+  'botafogo-voluntarios-da-patria-166-apto-203': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Botafogo — Rua Voluntários da Pátria nº 166 — Apto 203',
+      subtitle: 'Rua Voluntários da Pátria, nº 166, Apartamento 203 — Botafogo, Rio de Janeiro/RJ | 115 m² • 3 Quartos, Banheiro Social, Sala, Cozinha, Área de Serviço e Dependências Completas (Quarto e Banheiro) • Vagas em Parqueamento • Portaria 24h • 3º RGI (Matrícula 6.877) • IPTU: 0.540.237-5 • 2ª Praça a 50% por R$ 448.500,00',
+      address: 'Rua Voluntários da Pátria, nº 166, Apartamento 203 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '18/09/2026 às 13:00h',
+      p2Date: '28/09/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.540.237-5',
+      rgi: '6.877 (3º RGI/RJ)',
+      val: 'R$ 897.000,00',
+      p2Val: 'R$ 448.500,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 203 situado na valorizada Rua Voluntários da Pátria, nº 166, no coração de Botafogo, Zona Sul do Rio de Janeiro/RJ. Imóvel com área privativa edificada de 115 metros quadrados (115 m²), dotado de planta clássica generosa e excelente divisão interna, compreendendo sala de estar ampla, 3 quartos, banheiro social, cozinha espaçosa, área de serviço independente e dependências completas de empregada (quarto pequeno e banheiro auxiliar). O imóvel não possui vaga demarcada na escritura, porém conta com vagas disponíveis pelo sistema rotativo de parqueamento do condomínio. Segundo laudo pericial judicial, a unidade necessita de reformas com pontos de infiltração, conservando carpete sobre piso e áreas molhadas (banheiros e cozinha) com revestimentos originais de época — representando oportunidade ímpar para retrofit com alta valorização patrimonial na Zona Sul. O edifício, erguido em 1946 em elegante arquitetura clássica, possui 13 pavimentos e 46 unidades ao todo, hall social nobre revestido em granito com jardim frontal, portaria presencial 24 horas com circuito interno de vigilância (CFTV), playground, área livre e terraço comum equipado com churrasqueira e chuveiro. Registrado no 3º Ofício de Registro de Imóveis sob a Matrícula nº 6.877 e inscrito no IPTU sob o nº 0.540.237-5. Avaliação judicial oficial fixada em R$ 897.000,00, com abertura da 2ª Praça a 50% pelo lance mínimo de R$ 448.500,00 (deságio de R$ 448.500,00).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento em Botafogo?", a: "O imóvel foi avaliado judicialmente em R$ 897.000,00. Na 1ª Praça (18/09/2026 às 13:00h), o lance mínimo corresponde a 100% da avaliação (R$ 897.000,00). Na 2ª Praça (28/09/2026 às 13:00h), o certame abre a 50% da avaliação oficial, com lance inicial de R$ 448.500,00 (economia direta de R$ 448.500,00)." },
+        { q: "Quais são as características físicas e a distribuição do apartamento 203?", a: "Possui 115 m² de área privativa, planta clássica e bem distribuída com 3 quartos, banheiro social, sala, cozinha, área de serviço e dependência completa de empregada (quarto e banheiro). O laudo judicial registrou necessidade de reformas com pontos de infiltração e acabamentos originais, ideal para retrofit na Zona Sul com aquisição a apenas ~R$ 3.900/m² na 2ª praça." },
+        { q: "O imóvel possui vaga de garagem?", a: "O apartamento não dispõe de vaga vinculada na escritura, mas o condomínio oferece vagas de estacionamento em sistema de parqueamento rotativo para os moradores." },
+        { q: "Como é a infraestrutura e a segurança do edifício na Rua Voluntários da Pátria nº 166?", a: "Prédio tradicional de 1946 com 13 andares e 46 apartamentos, hall de entrada nobre em granito com jardim, portaria presencial 24h, câmeras de vigilância, playground, área livre e terraço com churrasqueira e chuveiro." },
+        { q: "Quais são os dados registrais e fiscais da unidade?", a: "Imóvel registrado no Cartório do 3º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 6.877 e inscrito no IPTU sob o número 0.540.237-5." },
+        { q: "É possível arrematar mediante proposta parcelada com base no Art. 895 do CPC?", a: "Sim. O interessado pode protocolar proposta escrita antes do término do leilão, oferecendo no mínimo 25% de entrada à vista e o saldo em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial averbada na matrícula." },
+        { q: "Como contratar a assessoria jurídica de Soares Martins Advogados?", a: "Entre em contato pelo WhatsApp (+55 21 97954-9241) ou em nosso escritório em Ipanema. Conduzimos a auditoria de ônus do 3º RGI, débitos condominiais, certidões fiscais e representamos até a imissão definitiva de posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Botafogo — Rua Voluntários da Pátria nº 166 — Apto 203',
+      subtitle: 'Rua Voluntários da Pátria, nº 166, Apartamento 203 — Botafogo, Río de Janeiro/RJ | 115 m² • 3 Dormitorios, Baño, Salón, Cocina, Lavadero y Dependencias Completas • Plazas en Parking Rotativo • Portería 24h • 3º Registro (Matrícula 6.877) • IPTU: 0.540.237-5 • 2ª Subasta al 50% por R$ 448.500,00',
+      address: 'Rua Voluntários da Pátria, nº 166, Apartamento 203 — Botafogo, Río de Janeiro - RJ',
+      p1Date: '18/09/2026 a las 13:00h',
+      p2Date: '28/09/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.540.237-5',
+      rgi: '6.877 (3º RGI/RJ)',
+      val: 'R$ 897.000,00',
+      p2Val: 'R$ 448.500,00 (50% de la tasación / 50% descuento)',
+      description: 'Apartamento residencial nº 203 en Rua Voluntários da Pátria nº 166, Botafogo, Zona Sur de Río de Janeiro/RJ. Superficie de 115 m² con 3 dormitorios, baño, salón, cocina, lavadero y dependencias completas de servicio. Necesita reforma integral con humedades y revestimientos originales (oportunidad ideal de retrofit con compra a ~R$ 3.900/m² en 2ª subasta). Edificio de 1946 con arquitectura clásica, zaguán de granito con jardín, portería 24h, circuito cerrado, terraza común con barbacoa y plazas en régimen de parking rotativo. Matrícula 6.877 del 3º RGI e IPTU 0.540.237-5. Tasación de R$ 897.000,00 con 2ª subasta al 50% por R$ 448.500,00.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y la puja en 2ª Subasta en Botafogo?", a: "Tasación de R$ 897.000,00. En 1ª Subasta (18/09/2026 a las 13:00h) puja del 100%. En 2ª Subasta (28/09/2026 a las 13:00h) puja inicial al 50% por R$ 448.500,00 (descuento de R$ 448.500,00)." },
+        { q: "¿Cómo es el apartamento 203?", a: "115 m² con 3 dormitorios, dependencias completas de servicio, precisando de reforma integral, ideal para retrofit en Botafogo." },
+        { q: "¿Dispone de plaza de garaje?", a: "No tiene plaza propia en escritura, pero el edificio dispone de plazas en régimen de parking rotativo." },
+        { q: "¿Qué servicios tiene el edificio?", a: "Construido en 1946 con 13 plantas y 46 apartamentos, portería 24h, videovigilancia, parque infantil y terraza con barbacoa." },
+        { q: "¿Se puede pagar a plazos (Art. 895 CPC)?", a: "Sí, mediante propuesta formal con 25% de entrada y hasta 30 mensualidades garantizadas por hipoteca judicial." },
+        { q: "¿Cómo contratar la asesoría jurídica?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para dictamen preventivo y acompañamiento hasta la toma de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of 3-Bedroom Apartment in Botafogo — Rua Voluntários da Pátria #166 — Apt 203',
+      subtitle: 'Rua Voluntários da Pátria, #166, Apartment 203 — Botafogo, Rio de Janeiro/RJ | 115 sqm (1,238 sq ft) • 3 Bedrooms, Guest Bathroom, Living, Kitchen, Laundry & Full Maid Quarters • Parking Lot Spaces • 24h Doorman • 3rd Registry (Title #6,877) • IPTU: 0.540.237-5 • 2nd Auction at 50% for R$ 448,500.00',
+      address: 'Rua Voluntários da Pátria, #166, Apartment 203 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '09/18/2026 at 1:00 PM',
+      p2Date: '09/28/2026 at 1:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.540.237-5',
+      rgi: 'Title #6,877 (3rd Land Registry)',
+      val: 'R$ 897,000.00',
+      p2Val: 'R$ 448,500.00 (50% starting bid / 50% discount)',
+      description: 'Residential apartment #203 located at Rua Voluntários da Pátria #166 in prime Botafogo, South Zone of Rio de Janeiro/RJ. Deeded private area of 115 square meters (1,238 sq ft), featuring a spacious classic layout with living room, 3 bedrooms, bathroom, kitchen, separate laundry room, and full maid quarters (small bedroom and bath). The unit does not have deeded garage ownership, but the building offers unassigned parking spaces on a rotary basis. Official appraisal notes need for full renovation with water infiltration and vintage original finishes, creating a prime retrofit opportunity with acquisition at ~R$ 3,900/sqm on 2nd auction. Classic 1946 building with 13 stories, 46 total units, granite entrance hall with landscaped garden, 24-hour doorman with CCTV, playground, open grounds, and a rooftop terrace with BBQ area and shower. Registered at the 3rd Land Registry under Title #6,877 and IPTU #0.540.237-5. Official valuation of R$ 897,000.00 with 2nd auction opening at 50% for R$ 448,500.00.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid for Apt 203 in Botafogo?", a: "Court valuation is R$ 897,000.00. 1st Auction (09/18/2026 at 1:00 PM) opens at 100% (R$ 897,000.00). 2nd Auction (09/28/2026 at 1:00 PM) opens at 50% for R$ 448,500.00 (a R$ 448,500.00 discount)." },
+        { q: "What is the layout and condition of apartment 203?", a: "115 sqm with 3 bedrooms, full maid quarters, needing full refurbishment, presenting high value-add potential in prime Botafogo." },
+        { q: "Is there garage parking?", a: "No deeded spot on title, but the condominium provides parking spaces under a rotary parking system." },
+        { q: "What are the building amenities?", a: "Built in 1946, 13 floors, 46 units, 24h security guard, CCTV, playground, and rooftop terrace with BBQ grill and shower." },
+        { q: "Can buyers submit installment proposals under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments secured by a court mortgage on title." },
+        { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
+      ]
+    }
   }
 };
