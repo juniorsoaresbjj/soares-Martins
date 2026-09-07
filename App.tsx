@@ -67,6 +67,7 @@ import LagoaFonteDaSaudade270AuctionPage from './components/LagoaFonteDaSaudade2
 import SaoConradoMendesMorais1400AuctionPage from './components/SaoConradoMendesMorais1400AuctionPage';
 import TijucaEnesDeSouza45AuctionPage from './components/TijucaEnesDeSouza45AuctionPage';
 import BotafogoVoluntarios166AuctionPage from './components/BotafogoVoluntarios166AuctionPage';
+import HumaitaDaviCampista296AuctionPage from './components/HumaitaDaviCampista296AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
 
@@ -511,6 +512,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503" element={<SaoConradoMendesMorais1400AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400/" element={<SaoConradoMendesMorais1400AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400" element={<SaoConradoMendesMorais1400AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603/" element={<HumaitaDaviCampista296AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603" element={<HumaitaDaviCampista296AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296/" element={<HumaitaDaviCampista296AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296" element={<HumaitaDaviCampista296AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203/" element={<BotafogoVoluntarios166AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-voluntarios-da-patria-166-apto-203" element={<BotafogoVoluntarios166AuctionPage />} />

@@ -3770,5 +3770,82 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for full auction representation?", a: "Contact us on WhatsApp (+55 21 97954-9241) or visit our Ipanema office for full due diligence and physical possession." }
       ]
     }
+  },
+
+  // Humaitá - Rua Davi Campista nº 296 - Apartamento 603 (135 m²)
+  'humaita-davi-campista-296-apto-603': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Humaitá — Rua Davi Campista nº 296 — Apto 603',
+      subtitle: 'Rua Davi Campista, nº 296, Apartamento 603 — Humaitá, Rio de Janeiro/RJ | 135 m² • 3 Quartos (1 com Varanda), Sala com Varanda, Piso em Taco, 1 Banheiro, Cozinha e Dependência Completa • 1 Vaga de Garagem • Portaria 24h e Lazer • 2º RGI • IPTU: 0520187-6 • 2ª Praça a 50% por R$ 973.098,80',
+      address: 'Rua Davi Campista, nº 296, Apartamento 603 — Humaitá, Rio de Janeiro - RJ',
+      p1Date: '21/09/2026 às 12:00h',
+      p2Date: '24/09/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0520187-6',
+      rgi: '2º Ofício de Registro de Imóveis do Rio de Janeiro (2º RGI/RJ)',
+      val: 'R$ 1.946.197,60',
+      p2Val: 'R$ 973.098,80 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 603 situado na valorizada e aprazível Rua Davi Campista, nº 296, no nobre bairro do Humaitá, Zona Sul do Rio de Janeiro/RJ. Imóvel com generosa área privativa edificada de 135 metros quadrados (135 m²), com direito a 1 vaga de garagem na escritura/convenção. Sua distribuição interna contempla sala ampla com varanda, 3 quartos (sendo um deles contemplado com charmosa varanda privativa), 1 banheiro social antigo, cozinha, área de serviço e dependência completa de empregada (quarto de serviço e banheiro auxiliar). A área social do imóvel apresenta elegante piso clássico em tacos de madeira. O laudo pericial judicial atesta que a unidade se encontra necessitando de obras de modernização e reforma global, constituindo excelente oportunidade para retrofit patrimonial em um dos bairros mais arborizados e cobiçados da Zona Sul carioca. O condomínio dispõe de portaria presencial 24 horas, estrutura de lazer com áreas de convivência e controle de acesso monitorado. Devidamente registrado, dimensionado e caracterizado perante o Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro (2º RGI) e cadastrado na municipalidade sob a inscrição de IPTU nº 0520187-6. Avaliação judicial oficial homologada em R$ 1.946.197,60, com abertura da 2ª Praça a 50% pelo valor de R$ 973.098,80 (expressivo deságio de R$ 973.098,80).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento no Humaitá?", a: "O imóvel foi avaliado judicialmente em R$ 1.946.197,60. Na 1ª Praça (21/09/2026 às 12:00h), o lance mínimo corresponde a 100% da avaliação (R$ 1.946.197,60). Na 2ª Praça (24/09/2026 às 12:00h), o certame inicia a 50% do valor pericial, com lance de abertura em R$ 973.098,80 (desconto direto de R$ 973.098,80)." },
+        { q: "Quais são as características físicas e a distribuição interna do apartamento 603?", a: "Com 135 m² de área privativa, o imóvel dispõe de sala ampla com varanda, 3 quartos (sendo 1 quarto com pequena varanda privativa), 1 banheiro antigo, cozinha espaçosa, área de serviço e dependência completa de serviço. A área social é revestida com clássico piso em tacos de madeira." },
+        { q: "O imóvel possui vaga de garagem e infraestrutura no edifício?", a: "Sim, o apartamento tem direito a 1 vaga de garagem. O edifício conta com portaria presencial 24 horas, infraestrutura de lazer e áreas comuns monitoradas por câmeras de vigilância." },
+        { q: "Qual é o estado de conservação do apartamento segundo o laudo judicial?", a: "O laudo oficial indica que a unidade está necessitando de obras de reforma geral e modernização nas áreas molhadas e acabamentos, o que viabiliza um projeto completo de retrofit com grande potencial de valorização na Zona Sul, onde o m² reformado atinge entre R$ 13.000 e R$ 16.000, ao passo que a aquisição na 2ª praça sai por cerca de ~R$ 7.200/m²." },
+        { q: "Quais são os dados registrais e fiscais da unidade?", a: "Imóvel devidamente registrado, dimensionado e caracterizado perante o Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro (2º RGI) e inscrito no IPTU sob o número 0520187-6." },
+        { q: "É possível arrematar o bem através de parcelamento judicial (Art. 895 do CPC)?", a: "Sim. A legislação processual permite a apresentação de proposta formal escrita de parcelamento antes do término do certame, com entrada de pelo menos 25% à vista e o restante em até 30 parcelas mensais corrigidas por índice da Justiça, garantidas por hipoteca judicial averbada na matrícula do 2º RGI." },
+        { q: "Como contratar a assessoria jurídica de Soares Martins Advogados?", a: "Entre em contato diretamente via WhatsApp (+55 21 97954-9241) ou em nossa sede em Ipanema (Rua Visconde de Pirajá, 414 - Sala 718). Realizamos a due diligence integral da matrícula do 2º RGI, certidões fiscais e condominiais e atuamos até a imissão formal na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Humaitá — Rua Davi Campista nº 296 — Apto 603',
+      subtitle: 'Rua Davi Campista, nº 296, Apartamento 603 — Humaitá, Río de Janeiro/RJ | 135 m² • 3 Dormitorios (1 con Balcón), Salón con Balcón, Suelo de Parquet, 1 Baño, Cocina y Dependencia Completa • 1 Plaza de Garaje • Portería 24h y Ocio • 2º Registro • IPTU: 0520187-6 • 2ª Subasta al 50% por R$ 973.098,80',
+      address: 'Rua Davi Campista, nº 296, Apartamento 603 — Humaitá, Río de Janeiro - RJ',
+      p1Date: '21/09/2026 a las 12:00h',
+      p2Date: '24/09/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0520187-6',
+      rgi: '2º Oficio de Registro de la Propiedad de Río de Janeiro (2º RGI/RJ)',
+      val: 'R$ 1.946.197,60',
+      p2Val: 'R$ 973.098,80 (50% de la tasación judicial)',
+      description: 'Apartamento residencial nº 603 situado en la prestigiosa Rua Davi Campista nº 296, Humaitá, Zona Sur de Río de Janeiro/RJ. Cuenta con 135 m² de superficie privativa y derecho a 1 plaza de garaje. Distribución con amplio salón con balcón, 3 dormitorios (uno con balcón privado), baño social clásico, cocina, lavadero y dependencia de servicio completa. Zona social con suelo de parquet de madera. El dictamen pericial judicial señala necesidad de obras de reforma y modernización integral, ofreciendo una oportunidad excepcional de retrofit con compra a ~R$ 7.200/m² en 2ª subasta en un barrio con precios reformados de R$ 13.000 a R$ 16.000/m². Edificio con portería 24 horas y estructura de ocio. Inscrito en el 2º Registro de Inmuebles e IPTU 0520187-6. Tasación oficial de R$ 1.946.197,60 y 2ª subasta al 50% por R$ 973.098,80.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de salida en 2ª Subasta en Humaitá?", a: "Tasación judicial de R$ 1.946.197,60. En 1ª Subasta (21/09/2026 a las 12:00h) puja del 100%. En 2ª Subasta (24/09/2026 a las 12:00h) se abre al 50% por R$ 973.098,80 (descuento de R$ 973.098,80)." },
+        { q: "¿Cómo es la distribución del apartamento 603?", a: "135 m² con salón con balcón, 3 dormitorios (1 con balcón), baño, cocina, lavadero, dependencia de servicio y suelo de parquet." },
+        { q: "¿Dispone de garaje y zonas comunes?", a: "Sí, cuenta con 1 plaza de garaje, portería 24 horas e instalaciones de ocio comunitario." },
+        { q: "¿Cuál es el estado de conservación?", a: "Necesita reformas generales de modernización, siendo ideal para un proyecto de retrofit de alta rentabilidad patrimonial en Humaitá." },
+        { q: "¿Se puede abonar a plazos según el Art. 895 del CPC?", a: "Sí, presentando propuesta con 25% de entrada y hasta 30 mensualidades avaladas por hipoteca judicial." },
+        { q: "¿Cómo contratar la asesoría jurídica?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para el estudio registral y procesal completo hasta la entrega de llaves." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of 3-Bedroom Apartment in Humaitá — Rua Davi Campista #296 — Apt 603',
+      subtitle: 'Rua Davi Campista, #296, Apartment 603 — Humaitá, Rio de Janeiro/RJ | 135 sqm (1,453 sq ft) • 3 Bedrooms (1 with Balcony), Living with Balcony, Parquet Flooring, 1 Bathroom, Kitchen & Full Maid Quarters • 1 Parking Space • 24h Security & Leisure Amenities • 2nd Registry • IPTU: 0520187-6 • 2nd Auction at 50% for R$ 973,098.80',
+      address: 'Rua Davi Campista, #296, Apartment 603 — Humaitá, Rio de Janeiro - RJ',
+      p1Date: '09/21/2026 at 12:00 PM',
+      p2Date: '09/24/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0520187-6',
+      rgi: '2nd Land Registry Office of Rio de Janeiro (2º RGI/RJ)',
+      val: 'R$ 1,946,197.60',
+      p2Val: 'R$ 973,098.80 (50% starting bid / 50% discount)',
+      description: 'Residential apartment #603 located at the prestigious and leafy Rua Davi Campista #296 in Humaitá, South Zone of Rio de Janeiro/RJ. Deeded private floor area of 135 square meters (1,453 sq ft), entitled to 1 garage parking space. Interior layout features a spacious living room opening onto a balcony, 3 bedrooms (one boasting a private charming balcony), vintage bathroom, kitchen, separate laundry room, and full maid quarters. Social areas are paved with classic genuine wood parquet. The court appraisal confirms the apartment requires comprehensive renovation and modernization, offering a prime value-add retrofit opportunity in one of Rio’s most sought-after neighborhoods where renovated units command R$ 13,000 to R$ 16,000/sqm, versus an acquisition price of ~R$ 7,200/sqm on 2nd auction. The building features 24-hour security doorman, leisure amenities, and surveillance. Registered with the 2nd Land Registry Office and municipal tax ID IPTU #0520187-6. Official judicial valuation of R$ 1,946,197.60 with 2nd auction opening at 50% for R$ 973,098.80.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid for Apt 603 in Humaitá?", a: "Judicial valuation is R$ 1,946,197.60. 1st Auction (09/21/2026 at 12:00 PM) opens at 100% (R$ 1,946,197.60). 2nd Auction (09/24/2026 at 12:00 PM) opens at 50% for R$ 973,098.80 (a R$ 973,098.80 discount)." },
+        { q: "What are the interior layout and key features of apartment 603?", a: "135 sqm private layout with living room and balcony, 3 bedrooms (1 with private balcony), vintage bathroom, kitchen, laundry room, full maid quarters, wood parquet flooring, and 1 deeded parking space." },
+        { q: "Does the building have parking and amenities?", a: "Yes, it includes 1 parking space, 24-hour security doorman, and leisure amenities for residents." },
+        { q: "What is the property's condition?", a: "In need of refurbishment and modernization, creating a high-upside retrofit investment in prime Humaitá." },
+        { q: "Can bidders submit installment proposals under CPC Art. 895?", a: "Yes, a 25% down payment in cash and up to 30 monthly installments indexed to official court inflation rates, secured by a mortgage." },
+        { q: "How to engage Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for thorough due diligence and full legal representation through possession." }
+      ]
+    }
   }
 };

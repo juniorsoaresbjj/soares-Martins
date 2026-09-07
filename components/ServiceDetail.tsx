@@ -143,6 +143,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Humaitá/RJ',
+        title: 'Leilão Judicial de Apartamento no Humaitá — Rua Davi Campista nº 296 — Apto 603',
+        desc: 'Apartamento de 135 m² com 3 quartos (1 com varanda privativa), sala ampla com varanda, piso em taco de madeira nobre, banheiro social antigo, cozinha e dependência completa de serviço. Direito a 1 vaga de garagem em condomínio com portaria 24 horas e estrutura de lazer no Humaitá. Necessitando de reforma geral (excelente oportunidade de retrofit com aquisição a ~R$ 7.200/m² na 2ª praça). Avaliação de R$ 1.946.197,60 e 2ª Praça a 50% por R$ 973.098,80. Matrícula no 2º RGI e IPTU nº 0520187-6.',
+        p1Label: '1ª Praça (21/09/2026):',
+        p1Val: 'R$ 1.946.197,60',
+        p2Label: '2ª Praça (24/09/2026):',
+        p2Val: 'R$ 973.098,80 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20603%20na%20Rua%20Davi%20Campista%20296%20no%20Humait%C3%A1.'
+      },
+      {
         tag: 'Residencial • Botafogo/RJ',
         title: 'Leilão Judicial de Apartamento em Botafogo — Rua Voluntários da Pátria nº 166 — Apto 203',
         desc: 'Apartamento clássico de 115 m² com 3 quartos, banheiro social, sala ampla, cozinha, área de serviço e dependências completas em prédio tradicional de 1946 com 13 andares, hall em granito com jardim, portaria 24h, terraço com churrasqueira e vagas rotativas em parqueamento. Necessita de reforma geral (potencial de retrofit com aquisição a ~R$ 3.900/m² na 2ª praça). Avaliação de R$ 897.000,00 e 2ª Praça a 50% por R$ 448.500,00. Matrícula nº 6.877 (3º RGI) e IPTU nº 0.540.237-5.',
@@ -749,6 +760,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Humaitá/RJ',
+        title: 'Subasta Judicial de Apartamento en Humaitá — Rua Davi Campista nº 296 — Apto 603',
+        desc: 'Apartamento de 135 m² con 3 dormitorios (1 con balcón privado), salón con balcón, suelo de parquet de madera noble, baño social clásico, cocina y dependencia de servicio completa. Derecho a 1 plaza de garaje en edificio con portería 24 horas y zona de ocio en Humaitá. Necesita reforma general (excelente ocasión para retrofit con adquisición a ~R$ 7.200/m² en 2ª subasta). Tasación de R$ 1.946.197,60 y 2ª Subasta al 50% por R$ 973.098,80. Matrícula en el 2º RGI e IPTU 0520187-6.',
+        p1Label: '1ª Subasta (21/09/2026):',
+        p1Val: 'R$ 1.946.197,60',
+        p2Label: '2ª Subasta (24/09/2026):',
+        p2Val: 'R$ 973.098,80 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20603%20en%20Rua%20Davi%20Campista%20296%20en%20Humait%C3%A1%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Botafogo/RJ',
         title: 'Subasta Judicial de Apartamento en Botafogo — Rua Voluntários da Pátria nº 166 — Apto 203',
         desc: 'Apartamento clásico de 115 m² con 3 dormitorios, baño social, salón amplio, cocina, lavadero y dependencias completas en edificio tradicional de 1946 de 13 plantas con zaguán de granito y jardín, portería 24h, terraza con barbacoa y plazas en parking rotativo. Necesita reforma integral (potencial de retrofit con compra a ~R$ 3.900/m² en 2ª subasta). Tasación de R$ 897.000,00 y 2ª Subasta al 50% por R$ 448.500,00. Matrícula nº 6.877 (3º RGI) e IPTU nº 0.540.237-5.',
@@ -1332,6 +1354,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Humaitá/RJ',
+        title: 'Judicial Auction of 3-Bedroom Apartment in Humaitá — Rua Davi Campista #296 — Apt 603',
+        desc: 'Spacious 135 sqm apartment with 3 bedrooms (1 with private balcony), expansive living room with balcony, genuine wood parquet floors, vintage bathroom, kitchen, and full maid quarters. Entitled to 1 parking space in a condominium offering 24h doorman and leisure amenities in Humaitá. In need of complete renovation (prime retrofit opportunity with acquisition at ~R$ 7,200/sqm on 2nd auction). Appraisal of R$ 1,946,197.60 with 2nd Auction opening at 50% for R$ 973,098.80. Registered at 2nd Registry & IPTU #0520187-6.',
+        p1Label: '1st Auction (09/21/2026):',
+        p1Val: 'R$ 1,946,197.60',
+        p2Label: '2nd Auction (09/24/2026):',
+        p2Val: 'R$ 973,098.80 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Davi%20Campista%20296%20Apt%20603%20in%20Humait%C3%A1%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Botafogo/RJ',
         title: 'Judicial Auction of 3-Bedroom Apartment in Botafogo — Rua Voluntários da Pátria #166 — Apt 203',
