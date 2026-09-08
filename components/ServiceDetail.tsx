@@ -143,6 +143,50 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Leilão Judicial de Apartamento no Centro do Rio — Avenida Rio Branco nº 185 — Apto 1224',
+        desc: 'Apartamento residencial de 33 m² no 12º pavimento do clássico Edifício Marquês do Herval, erguido na icônica esquina da Avenida Rio Branco com Avenida Almirante Barroso. Edifício de 21 pavimentos com 8 elevadores modernizados, portaria no subsolo em pedras portuguesas e mármore, galeria com 10 lojas (livrarias, bistrô e lanchonetes), banco e farmácia. Corredores em mármore e madeira, circuito de câmeras e vigilância 24h. Em bom estado de conservação. Excepcional custo de aquisição na 2ª praça (~R$ 2.847/m²). Avaliação de R$ 187.941,39 e 2ª Praça a 50% por R$ 93.970,70. Matrícula nº 39.611 (7º RGI) e IPTU nº 0.690.969-1.',
+        p1Label: '1ª Praça (05/10/2026):',
+        p1Val: 'R$ 187.941,39',
+        p2Label: '2ª Praça (08/10/2026):',
+        p2Val: 'R$ 93.970,70 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201224%20na%20Avenida%20Rio%20Branco%20185%20no%20Centro%20do%20Rio.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Barata Ribeiro nº 334 — Apto 303',
+        desc: 'Apartamento residencial compacto com 33 m² no coração de Copacabana, a apenas três quadras da praia e próximo ao metrô. Edifício de 12 pavimentos com 2 elevadores, total de 37 apartamentos (4 por andar do 2º ao 10º andar e cobertura), portaria simples com piso em pedra e portão de alumínio, área livre no terraço sem benfeitorias, em regular estado de conservação. Excelente potencial para locação tradicional ou por temporada (~R$ 7.884/m² na 2ª praça). Avaliação judicial de R$ 371.704,75 e 2ª Praça a 70% por R$ 260.193,33. Matrícula nº 102.946 (5º RGI) e IPTU nº 0904756-4.',
+        p1Label: '1ª Praça (28/09/2026):',
+        p1Val: 'R$ 371.704,75',
+        p2Label: '2ª Praça (01/10/2026):',
+        p2Val: 'R$ 260.193,33 (70% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-334-apto-303/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20303%20na%20Rua%20Barata%20Ribeiro%20334%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Ipanema/RJ',
+        title: 'Leilão Judicial de Apartamento em Ipanema — Rua Vinícius de Moraes nº 71 — Apto 402',
+        desc: 'Apartamento residencial de 105 m² com direito a 1 vaga de garagem escriturada no Condomínio Edifício Acapulco, situado na cobiçada Rua Vinícius de Moraes, a passos da Praia de Ipanema (Posto 9). Edifício exclusivo de 1972 com 8 pavimentos e apenas 2 apartamentos por andar (total de 16 unidades), segurança 24h, 2 elevadores, playground e salão de festas. Imóvel encontra-se fechado. Avaliação judicial de R$ 2.500.000,00 e 2ª Praça a 50% por R$ 1.250.000,00 (~R$ 11.904/m²). Matrícula nº 32.817 (5º RGI) e IPTU nº 1.227.500-4.',
+        p1Label: '1ª Praça (28/09/2026):',
+        p1Val: 'R$ 2.500.000,00',
+        p2Label: '2ª Praça (30/09/2026):',
+        p2Val: 'R$ 1.250.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-vinicius-de-moraes-71-apto-402/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20na%20Rua%20Vin%C3%ADcius%20de%20Moraes%2071%20em%20Ipanema.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Duvivier nº 50 — Apto 201',
+        desc: 'Apartamento de frente com 102 m² a apenas duas quadras da Praia de Copacabana. Sala ampla com tacos de madeira, varanda com cortina de vidro, 2 quartos, banheiro social, cozinha, área de serviço e dependência de empregada completa reversível e reformada. Prédio clássico de 1938 com 8 andares, apenas 3 por andar, 2 elevadores, salão de festas, interfone, câmeras e portaria de segunda a sábado das 9h às 21h. Sem vaga de garagem. Avaliação de R$ 1.085.883,50 e 2ª Praça a 50% por R$ 542.941,75 (~R$ 5.320/m²). Matrícula nº 52.950 (2º RGI) e IPTU nº 0.566.818-1.',
+        p1Label: '1ª Praça (22/09/2026):',
+        p1Val: 'R$ 1.085.883,50',
+        p2Label: '2ª Praça (23/09/2026):',
+        p2Val: 'R$ 542.941,75 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-duvivier-50-apto-201/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20201%20na%20Rua%20Duvivier%2050%20em%20Copacabana.'
+      },
+      {
         tag: 'Residencial • Humaitá/RJ',
         title: 'Leilão Judicial de Apartamento no Humaitá — Rua Davi Campista nº 296 — Apto 603',
         desc: 'Apartamento de 135 m² com 3 quartos (1 com varanda privativa), sala ampla com varanda, piso em taco de madeira nobre, banheiro social antigo, cozinha e dependência completa de serviço. Direito a 1 vaga de garagem em condomínio com portaria 24 horas e estrutura de lazer no Humaitá. Necessitando de reforma geral (excelente oportunidade de retrofit com aquisição a ~R$ 7.200/m² na 2ª praça). Avaliação de R$ 1.946.197,60 e 2ª Praça a 50% por R$ 973.098,80. Matrícula no 2º RGI e IPTU nº 0520187-6.',
@@ -760,6 +804,50 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Subasta Judicial de Apartamento en Centro de Río — Avenida Rio Branco nº 185 — Apto 1224',
+        desc: 'Apartamento residencial de 33 m² en la planta 12 del emblemático Edificio Marquês do Herval, en la confluencia de Avenida Rio Branco nº 185 con Avenida Almirante Barroso. Edificio de 21 plantas con 8 ascensores modernizados, galería comercial con 10 tiendas (librerías, cafeterías, bistró), banco y farmacia. Vigilancia 24h, cámaras y pasillos amplios en mármol y madera. Oportunidad en 2ª subasta (~R$ 2.847/m²). Tasación de R$ 187.941,39 y 2ª Subasta al 50% por R$ 93.970,70. Matrícula nº 39.611 (7º Registro) e IPTU 0.690.969-1.',
+        p1Label: '1ª Subasta (05/10/2026):',
+        p1Val: 'R$ 187.941,39',
+        p2Label: '2ª Subasta (08/10/2026):',
+        p2Val: 'R$ 93.970,70 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201224%20en%20Avenida%20Rio%20Branco%20185%20en%20Centro%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Rua Barata Ribeiro nº 334 — Apto 303',
+        desc: 'Apartamento residencial compacto de 33 m² en el centro de Copacabana, a tres calles de la playa y cerca del metro. Edificio de 12 plantas con 2 ascensores, 37 viviendas en total (4 por planta del 2º al 10º piso y ático), portería sencilla con suelo de piedra y portón de aluminio, terraza libre y estado de conservación regular. Excelente ocasión para inversión o alquiler (~R$ 7.884/m² en 2ª subasta). Tasación de R$ 371.704,75 y 2ª Subasta al 70% por R$ 260.193,33. Matrícula nº 102.946 (5º Registro) e IPTU 0904756-4.',
+        p1Label: '1ª Subasta (28/09/2026):',
+        p1Val: 'R$ 371.704,75',
+        p2Label: '2ª Subasta (01/10/2026):',
+        p2Val: 'R$ 260.193,33 (70% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-334-apto-303/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20303%20en%20Rua%20Barata%20Ribeiro%20334%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Ipanema/RJ',
+        title: 'Subasta Judicial de Apartamento en Ipanema — Rua Vinícius de Moraes nº 71 — Apto 402',
+        desc: 'Apartamento residencial de 105 m² con 1 plaza de garaje en escritura en el exclusivo Edificio Acapulco, en la prestigiosa Rua Vinícius de Moraes, a pasos de la playa de Ipanema (Posto 9). Edificio de 1972 con 8 plantas y solo 2 vecinos por planta (16 viviendas en total), seguridad 24h, 2 ascensores, parque infantil y salón social. La vivienda se encuentra cerrada. Tasación de R$ 2.500.000,00 y 2ª Subasta al 50% por R$ 1.250.000,00 (~R$ 11.904/m²). Matrícula nº 32.817 (5º Registro) e IPTU 1.227.500-4.',
+        p1Label: '1ª Subasta (28/09/2026):',
+        p1Val: 'R$ 2.500.000,00',
+        p2Label: '2ª Subasta (30/09/2026):',
+        p2Val: 'R$ 1.250.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-vinicius-de-moraes-71-apto-402/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20402%20en%20Rua%20Vin%C3%ADcius%20de%20Moraes%2071%20en%20Ipanema%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Rua Duvivier nº 50 — Apto 201',
+        desc: 'Apartamento exterior de 102 m² a solo dos manzanas de la playa de Copacabana. Salón amplio con parquet, balcón con cortina de cristal, 2 dormitorios, baño social, cocina, lavadero y dependencia de servicio completa reversible reformada. Edificio clásico de 1938 de 8 plantas, 3 por planta, 2 ascensores, salón de fiestas, cámaras y portería de lunes a sábado de 9h a 21h. Sin garaje. Tasación de R$ 1.085.883,50 y 2ª Subasta al 50% por R$ 542.941,75 (~R$ 5.320/m²). Matrícula nº 52.950 (2º Registro) e IPTU 0.566.818-1.',
+        p1Label: '1ª Subasta (22/09/2026):',
+        p1Val: 'R$ 1.085.883,50',
+        p2Label: '2ª Subasta (23/09/2026):',
+        p2Val: 'R$ 542.941,75 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-duvivier-50-apto-201/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20201%20en%20Rua%20Duvivier%2050%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Humaitá/RJ',
         title: 'Subasta Judicial de Apartamento en Humaitá — Rua Davi Campista nº 296 — Apto 603',
         desc: 'Apartamento de 135 m² con 3 dormitorios (1 con balcón privado), salón con balcón, suelo de parquet de madera noble, baño social clásico, cocina y dependencia de servicio completa. Derecho a 1 plaza de garaje en edificio con portería 24 horas y zona de ocio en Humaitá. Necesita reforma general (excelente ocasión para retrofit con adquisición a ~R$ 7.200/m² en 2ª subasta). Tasación de R$ 1.946.197,60 y 2ª Subasta al 50% por R$ 973.098,80. Matrícula en el 2º RGI e IPTU 0520187-6.',
@@ -1354,6 +1442,50 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Downtown/RJ',
+        title: 'Judicial Auction of Studio Apartment in Downtown Rio — Avenida Rio Branco #185 — Apt 1224',
+        desc: 'Residential 33 sqm apartment on the 12th floor of the landmark Edifício Marquês do Herval, at the corner of Avenida Rio Branco and Avenida Almirante Barroso. 21-story building with 8 modernized elevators, subterranean foyer in marble and Portuguese cobblestones, commercial arcade with 10 shops, bank, and pharmacy. 24h security, CCTV, and marble corridors in good maintenance condition. Exceptional acquisition cost on 2nd auction (~R$ 2,847/sqm). Appraisal of R$ 187,941.39 and 2nd Auction at 50% for R$ 93,970.70. 7th Registry Title #39,611 & IPTU #0.690.969-1.',
+        p1Label: '1st Auction (10/05/2026):',
+        p1Val: 'R$ 187,941.39',
+        p2Label: '2nd Auction (10/08/2026):',
+        p2Val: 'R$ 93,970.70 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Avenida%20Rio%20Branco%20185%20Apt%201224%20in%20Downtown%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Studio Apartment in Copacabana — Rua Barata Ribeiro #334 — Apt 303',
+        desc: 'Compact residential 33 sqm apartment in prime Copacabana, just three blocks from the beach and close to metro stations. 12-story building with 2 elevators, 37 apartments total (4 per floor from 2nd to 10th floors and penthouse), simple stone entry with aluminum gate, rooftop open terrace, in regular maintenance condition. Outstanding rental investment yield (~R$ 7,884/sqm on 2nd auction). Appraisal of R$ 371,704.75 with 2nd Auction opening at 70% for R$ 260,193.33. 5th Registry Title #102,946 & IPTU #0904756-4.',
+        p1Label: '1st Auction (09/28/2026):',
+        p1Val: 'R$ 371,704.75',
+        p2Label: '2nd Auction (10/01/2026):',
+        p2Val: 'R$ 260,193.33 (70% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-334-apto-303/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Barata%20Ribeiro%20334%20Apt%20303%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Ipanema/RJ',
+        title: 'Judicial Auction of Apartment in Ipanema — Rua Vinícius de Moraes #71 — Apt 402',
+        desc: 'Residential 105 sqm apartment with 1 deeded parking space in Edifício Acapulco, located on prestigious Rua Vinícius de Moraes, just steps from Ipanema Beach (Posto 9). Low-density 1972 building with 8 stories and only 2 units per floor (16 residences total), 24h security, 2 elevators, playground, and party hall. Property is currently closed/vacant. Appraisal of R$ 2,500,000.00 with 2nd Auction at 50% for R$ 1,250,000.00 (~R$ 11,904/sqm). 5th Registry Title #32,817 & IPTU #1.227.500-4.',
+        p1Label: '1st Auction (09/28/2026):',
+        p1Val: 'R$ 2,500,000.00',
+        p2Label: '2nd Auction (09/30/2026):',
+        p2Val: 'R$ 1,250,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-vinicius-de-moraes-71-apto-402/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Vin%C3%ADcius%20de%20Moraes%2071%20Apt%20402%20in%20Ipanema%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of 2-Bedroom Apartment in Copacabana — Rua Duvivier #50 — Apt 201',
+        desc: 'Front-facing 102 sqm apartment just two blocks from Copacabana Beach. Features parquet living room, balcony with glass curtains, 2 bedrooms, guest bathroom, kitchen, laundry area, and renovated reversible maid quarters. Classic 1938 building with 8 stories, 3 units per floor, 2 elevators, party hall, CCTV, and doorman Mon-Sat 9 AM - 9 PM. No garage. Appraisal of R$ 1,085,883.50 with 2nd Auction opening at 50% for R$ 542,941.75 (~R$ 5,320/sqm). 2nd Registry Title #52,950 & IPTU #0.566.818-1.',
+        p1Label: '1st Auction (09/22/2026):',
+        p1Val: 'R$ 1,085,883.50',
+        p2Label: '2nd Auction (09/23/2026):',
+        p2Val: 'R$ 542,941.75 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-duvivier-50-apto-201/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Duvivier%2050%20Apt%20201%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Humaitá/RJ',
         title: 'Judicial Auction of 3-Bedroom Apartment in Humaitá — Rua Davi Campista #296 — Apt 603',

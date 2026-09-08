@@ -3847,5 +3847,312 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to engage Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for thorough due diligence and full legal representation through possession." }
       ]
     }
+  },
+
+  // Copacabana - Rua Duvivier nº 50 - Apartamento 201 (102 m²)
+  'copacabana-duvivier-50-apto-201': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana — Rua Duvivier nº 50 — Apto 201',
+      subtitle: 'Rua Duvivier, nº 50, Apartamento 201 — Copacabana, Rio de Janeiro/RJ | 102 m² • 2 Quartos, Sala com Tacos, Varanda com Cortina de Vidro, Banheiro Social, Cozinha, Área e Dependência Reversível Reformada • Prédio Clássico (1938) com 2 Elevadores, Salão de Festas, Portaria e Câmeras • 2º RGI Matrícula 52.950 • IPTU: 0.566.818-1 • 2ª Praça a 50% por R$ 542.941,75',
+      address: 'Rua Duvivier, nº 50, Apartamento 201 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '22/09/2026 às 14:30h',
+      p2Date: '23/09/2026 às 14:30h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.566.818-1',
+      rgi: '2º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 52.950)',
+      val: 'R$ 1.085.883,50',
+      p2Val: 'R$ 542.941,75 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 201 de frente situado na tradicional Rua Duvivier, nº 50, no consagrado bairro de Copacabana, Zona Sul do Rio de Janeiro/RJ, a apenas duas quadras da orla da Praia de Copacabana e próximo à estação de metrô Cardeal Arcoverde. O imóvel conta com 102 metros quadrados (102 m²) de área privativa, distribuídos em: sala ampla com piso revestido em tacos de madeira de lei e paredes pintadas; charmosa varanda frontal com piso em pedra e fechamento em cortina de vidro retrátil; 2 dormitórios com piso em tacos de madeira e paredes pintadas; banheiro social com piso em cerâmica e paredes azulejadas; cozinha com piso cerâmico e azulejos brancos; área de serviço; quarto e banheiro de empregada reversíveis e reformados, com piso cerâmico no quarto e banheiro completo azulejado. O condomínio é sediado em sólido edifício residencial de 1938, com 8 pavimentos (térreo correspondendo ao primeiro andar) e apenas 3 apartamentos por andar, servido por 2 elevadores, salão de festas, interfonia e sistema de monitoramento por câmeras em todas as áreas comuns. Serviço de portaria de segunda a sábado das 9h às 21h (sem serviço de porteiros aos domingos). Fachada com duas lojas comerciais no térreo externo. Unidade sem vaga de garagem privativa. Imóvel devidamente registrado, dimensionado e caracterizado perante o Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a matrícula nº 52.950 e inscrito no IPTU sob o nº 0.566.818-1. Avaliação judicial oficial de R$ 1.085.883,50, com lance de abertura em 2ª Praça a 50% por R$ 542.941,75 (desconto direto de R$ 542.941,75).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento na Rua Duvivier?", a: "O imóvel foi avaliado judicialmente em R$ 1.085.883,50. Na 1ª Praça (22/09/2026 às 14:30h), o lance mínimo corresponde a 100% da avaliação (R$ 1.085.883,50). Na 2ª Praça (23/09/2026 às 14:30h), o certame se inicia a 50% da valoração pericial, por R$ 542.941,75, gerando uma economia direta de R$ 542.941,75." },
+        { q: "Quais são as características da planta e distribuição interna do apartamento 201?", a: "Com 102 m² de área privativa de frente para a Rua Duvivier, a unidade dispõe de sala ampla com varanda envidraçada em cortina de vidro, 2 quartos com piso em tacos de madeira, banheiro social completo, cozinha espaçosa com azulejos brancos, área de serviço e dependência de empregada completa reversível e reformada (quarto e banheiro)." },
+        { q: "Como é a infraestrutura do edifício na Rua Duvivier nº 50?", a: "Prédio residencial clássico de 1938, com 8 andares e apenas 3 apartamentos por andar, 2 elevadores, salão de festas, interfonia e circuito de câmeras de segurança. Serviço de portaria de segunda a sábado das 9h às 21h (sem expediente aos domingos). No térreo externo funcionam duas lojas comerciais independentes." },
+        { q: "O imóvel possui vaga de garagem?", a: "Não. Conforme consta no edital e convenção condominial, o imóvel não dispõe de vaga de garagem privativa. No entanto, há diversos estacionamentos particulares e garagens rotativas no entorno imediato da Rua Duvivier e Praça Cardeal Arcoverde." },
+        { q: "Quais são as informações registrais e fiscais do apartamento?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis do Rio de Janeiro (2º RGI/RJ) sob a matrícula nº 52.950 e cadastrado na Prefeitura sob a inscrição de IPTU nº 0.566.818-1." },
+        { q: "É possível adquirir o apartamento de forma parcelada (Art. 895 do CPC)?", a: "Sim. A legislação autoriza a apresentação de proposta formal escrita de parcelamento judicial antes do término da praça, com entrada mínima de 25% à vista e o saldo em até 30 parcelas mensais corrigidas por índice judicial, garantidas por hipoteca gravada na matrícula do 2º RGI." },
+        { q: "Como a assessoria jurídica de Soares Martins Advogados atua na arrematação?", a: "Nossa equipe realiza o exame prévio completo dos autos judiciais, certidões fiscais de IPTU nº 0.566.818-1, débitos condominiais e ônus na matrícula nº 52.950, atuando com presença no leilão e até a efetiva expedição do mandado de imissão na posse e entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Copacabana — Rua Duvivier nº 50 — Apto 201',
+      subtitle: 'Rua Duvivier, nº 50, Apartamento 201 — Copacabana, Río de Janeiro/RJ | 102 m² • 2 Dormitorios, Salón con Parquet, Balcón con Cortina de Cristal, Baño Social, Cocina, Lavadero y Dependencia Reversible Reformada • Edificio Clásico (1938) con 2 Ascensores, Salón de Fiestas y Portería • 2º Registro Matrícula 52.950 • IPTU: 0.566.818-1 • 2ª Subasta al 50% por R$ 542.941,75',
+      address: 'Rua Duvivier, nº 50, Apartamento 201 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '22/09/2026 a las 14:30h',
+      p2Date: '23/09/2026 a las 14:30h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.566.818-1',
+      rgi: '2º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 52.950)',
+      val: 'R$ 1.085.883,50',
+      p2Val: 'R$ 542.941,75 (50% de la tasación judicial)',
+      description: 'Apartamento residencial nº 201 exterior situado en la calle Rua Duvivier nº 50, Copacabana, Zona Sur de Río de Janeiro/RJ, a solo dos manzanas de la playa y junto a la estación de metro Cardeal Arcoverde. Cuenta con 102 m² privativos: salón amplio con parquet de madera, balcón exterior con cortina de cristal, 2 dormitorios con suelos de parquet, baño social completo, cocina con azulejos blancos, lavadero y dependencia de servicio completa reversible ya reformada. Edificio residencial de 1938 de 8 plantas con solo 3 pisos por planta, 2 ascensores, salón de fiestas, cámaras de seguridad y portería de lunes a sábado de 9h a 21h. Sin garaje. Registrado en el 2º Registro de Inmuebles bajo matrícula nº 52.950 e IPTU 0.566.818-1. Tasación oficial de R$ 1.085.883,50 con 2ª subasta al 50% por R$ 542.941,75.',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de salida en 2ª Subasta?", a: "Tasación pericial de R$ 1.085.883,50. En 1ª Subasta (22/09/2026 a las 14:30h) puja del 100%. En 2ª Subasta (23/09/2026 a las 14:30h) se abre al 50% por R$ 542.941,75 (desahogo de R$ 542.941,75)." },
+        { q: "¿Cómo es la distribución del apartamento 201?", a: "102 m² con salón con suelo de parquet, balcón con cortina de cristal, 2 dormitorios, baño social, cocina, lavadero y dependencia de servicio reversible reformada." },
+        { q: "¿Cuáles son las características del edificio?", a: "Construcción de 1938 con 8 plantas, 3 apartamentos por planta, 2 ascensores, salón de eventos, cámaras de vigilancia y portería de lunes a sábado de 9h a 21h." },
+        { q: "¿Cuenta con plaza de aparcamiento?", a: "No dispone de plaza de garaje privativa, existiendo varios parkings en las inmediaciones de la calle Duvivier." },
+        { q: "¿Se puede abonar a plazos según el Art. 895 del CPC?", a: "Sí, mediante propuesta escrita con 25% de entrada y hasta 30 mensualidades garantizadas por hipoteca judicial en el 2º Registro." },
+        { q: "¿Cómo contratar la asesoría jurídica de Soares Martins Advogados?", a: "Contáctenos por WhatsApp (+55 21 97954-9241) para la due diligence integral de la matrícula 52.950 y la representación judicial completa." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of 2-Bedroom Apartment in Copacabana — Rua Duvivier #50 — Apt 201',
+      subtitle: 'Rua Duvivier, #50, Apartment 201 — Copacabana, Rio de Janeiro/RJ | 102 sqm (1,098 sq ft) • 2 Bedrooms, Parquet Living Room, Balcony with Glass Curtains, Bathroom, Kitchen & Renovated Reversible Maid Quarters • Classic 1938 Building with 2 Elevators, Party Hall, Doorman & CCTV • 2nd Land Registry Title #52.950 • IPTU: 0.566.818-1 • 2nd Auction at 50% for R$ 542,941.75',
+      address: 'Rua Duvivier, #50, Apartment 201 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '09/22/2026 at 02:30 PM',
+      p2Date: '09/23/2026 at 02:30 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.566.818-1',
+      rgi: '2nd Land Registry Office of Rio de Janeiro (Title #52,950)',
+      val: 'R$ 1,085,883.50',
+      p2Val: 'R$ 542,941.75 (50% starting bid / 50% discount)',
+      description: 'Front-facing residential apartment #201 located at Rua Duvivier #50 in iconic Copacabana, South Zone of Rio de Janeiro/RJ, just two blocks from Copacabana Beach and moments from Cardeal Arcoverde subway station. Deeded private floor area of 102 square meters (1,098 sq ft), comprising: large living room with classic solid wood parquet flooring; charming front balcony with stone tiles and retractable glass curtain enclosure; 2 comfortable bedrooms with parquet flooring; full guest bathroom; spacious kitchen with white tiling; separate laundry area; and fully renovated reversible maid quarters (bedroom and bathroom). The building is an authentic 1938 classic residential structure with 8 floors, only 3 apartments per floor, 2 modernized elevators, private party hall, intercom, and comprehensive CCTV security coverage. Doorman service operates Monday through Saturday from 9 AM to 9 PM (no doorman on Sundays). Two street-level retail shops occupy the outer facade. No deeded parking space. Registered at the 2nd Land Registry Office under Title #52,950 and municipal tax ID IPTU #0.566.818-1. Official court valuation of R$ 1,085,883.50, opening on 2nd auction at 50% for R$ 542,941.75 (an immediate discount of R$ 542,941.75).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid for Apt 201 on Rua Duvivier?", a: "Appraised by court perit at R$ 1,085,883.50. 1st Auction (09/22/2026 at 02:30 PM) requires 100% bid (R$ 1,085,883.50). 2nd Auction (09/23/2026 at 02:30 PM) opens at 50% for R$ 542,941.75 (a R$ 542,941.75 discount)." },
+        { q: "What is the interior layout of apartment 201?", a: "102 sqm private layout with front balcony enclosed in glass curtains, wood parquet living room, 2 bedrooms, guest bathroom, kitchen, laundry room, and renovated reversible maid bedroom and bath." },
+        { q: "What are the building amenities and features?", a: "Historic 1938 building with 8 stories, 3 units per floor, 2 elevators, party hall, CCTV surveillance, and doorman service Mon-Sat 9 AM - 9 PM." },
+        { q: "Does the property include a parking space?", a: "No, this unit does not have a deeded garage space. Several commercial garages and rotary parking options exist in the immediate Copacabana area." },
+        { q: "What are the legal registration details?", a: "Registered with the 2nd Land Registry Office of Rio de Janeiro under Title #52,950 and municipal property tax IPTU #0.566.818-1." },
+        { q: "Can bidders submit installment bids under CPC Art. 895?", a: "Yes, 25% down payment in cash and up to 30 monthly installments with judicial interest and official inflation adjustments, secured by a mortgage." },
+        { q: "How to hire Soares Martins Advogados for auction legal representation?", a: "Reach out via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for complete title examination, due diligence, and full representation through physical possession." }
+      ]
+    }
+  },
+
+  // Ipanema - Rua Vinícius de Moraes nº 71 - Apartamento 402 (105 m²)
+  'ipanema-vinicius-de-moraes-71-apto-402': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Ipanema — Rua Vinícius de Moraes nº 71 — Apto 402',
+      subtitle: 'Rua Vinícius de Moraes, nº 71, Apartamento 402 — Edifício Acapulco, Ipanema, Rio de Janeiro/RJ | 105 m² • 1 Vaga de Garagem na Escritura • Prédio com 8 Pavimentos (Apenas 2 por Andar, 16 Unidades no Total), Portaria e Segurança 24h, 2 Elevadores, Playground e Salão de Festas • 5º RGI Matrícula 32.817 • IPTU: 1.227.500-4 • 2ª Praça a 50% por R$ 1.250.000,00',
+      address: 'Rua Vinícius de Moraes, nº 71, Apartamento 402 — Ipanema, Rio de Janeiro - RJ',
+      p1Date: '28/09/2026 às 12:00h',
+      p2Date: '30/09/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.227.500-4',
+      rgi: '5º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 32.817)',
+      val: 'R$ 2.500.000,00',
+      p2Val: 'R$ 1.250.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial nº 402 no prestigiado Condomínio Edifício Acapulco, situado na nobre Rua Vinícius de Moraes, nº 71, em Ipanema, Zona Sul do Rio de Janeiro/RJ — na quadra da praia, a poucos metros da orla de Ipanema (Posto 9) e da charmosa Praça Nossa Senhora da Paz e Praça General Osório. O imóvel possui área privativa edificada de 105 metros quadrados (105 m²), com direito a 01 (uma) vaga de garagem coberta na escritura. A unidade encontra-se atualmente fechada. O edifício, construído em 1972 no alinhamento da via pública com elegante portão de entrada em alumínio, conta com portaria presencial e segurança 24 horas, 2 elevadores modernizados, 8 pavimentos residenciais e exclusiva privacidade de apenas 2 apartamentos por andar (total de apenas 16 unidades no edifício). A infraestrutura condominial dispõe de playground e salão de festas privativo para moradores. Imóvel devidamente registrado, dimensionado e caracterizado perante o Cartório do 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a matrícula nº 32.817 e inscrito na municipalidade sob o IPTU nº 1.227.500-4. Avaliação judicial oficial homologada em R$ 2.500.000,00, com abertura da 2ª Praça a 50% da avaliação pelo valor de R$ 1.250.000,00 (desconto direto de R$ 1.250.000,00), representando um custo de aquisição excepcional de aproximadamente R$ 11.904/m² no quadrilátero mais valorizado de Ipanema.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento na Rua Vinícius de Moraes?", a: "O imóvel foi avaliado pela perícia judicial em R$ 2.500.000,00. No 1º Leilão (28/09/2026 às 12:00h), o lance mínimo corresponde a 100% da avaliação (R$ 2.500.000,00). No 2º Leilão (30/09/2026 às 13:00h), a disputa se inicia com 50% de deságio por R$ 1.250.000,00, gerando uma economia imediata de R$ 1.250.000,00." },
+        { q: "Quais são as dimensões e características do apartamento 402?", a: "O apartamento conta com 105 m² de área privativa, direito a 1 vaga de garagem escriturada, e encontra-se atualmente fechado, inserido em um edifício exclusivo de apenas 16 apartamentos no coração de Ipanema." },
+        { q: "Como é a infraestrutura e a segurança do Edifício Acapulco?", a: "Prédio residencial construído em 1972, no alinhamento da via pública com portão de entrada de alumínio, serviço de segurança e portaria 24 horas, 2 elevadores, playground infantil e salão de festas. Possui 8 andares com apenas 2 apartamentos por andar, garantindo exclusividade e tranquilidade aos moradores." },
+        { q: "O apartamento tem direito a vaga de garagem?", a: "Sim. O imóvel possui direito assegurado na escritura e na matrícula do 5º RGI a 01 (uma) vaga de garagem no condomínio." },
+        { q: "Quais são os dados registrais e de IPTU do imóvel?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do Rio de Janeiro (5º RGI/RJ) sob a matrícula nº 32.817 e inscrito no IPTU sob o número 1.227.500-4." },
+        { q: "O imóvel encontra-se ocupado ou fechado?", a: "Conforme laudo judicial e dados do edital, o imóvel encontra-se atualmente fechado, o que favorece um trâmite mais célere para a expedição e cumprimento do mandado judicial de imissão na posse com entrega definitiva das chaves." },
+        { q: "É possível parcelar a arrematação na forma do Art. 895 do CPC?", a: "Sim. A lei autoriza a apresentação de proposta formal escrita de parcelamento judicial antes do fechamento da praça, com pagamento de pelo menos 25% de sinal à vista e o saldo restante em até 30 parcelas mensais corrigidas por índice da Justiça, com hipoteca judicial averbada na matrícula nº 32.817." },
+        { q: "Como a assessoria de Soares Martins Advogados atua neste leilão em Ipanema?", a: "Nosso escritório, sediado na própria Rua Visconde de Pirajá em Ipanema, realiza a due diligence completa dos autos, verificação da certidão de ônus reais no 5º RGI, levantamento de eventuais débitos de IPTU (nº 1.227.500-4) e taxa condominial, atuando desde a habilitação até a imissão na posse e baixa registral." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Ipanema — Rua Vinícius de Moraes nº 71 — Apto 402',
+      subtitle: 'Rua Vinícius de Moraes, nº 71, Apartamento 402 — Edifício Acapulco, Ipanema, Río de Janeiro/RJ | 105 m² • 1 Plaza de Garaje en Escritura • Edificio de 8 Plantas (Solo 2 por Planta, 16 Unidades), Seguridad 24h, 2 Ascensores, Parque Infantil y Salón de Fiestas • 5º Registro Matrícula 32.817 • IPTU: 1.227.500-4 • 2ª Subasta al 50% por R$ 1.250.000,00',
+      address: 'Rua Vinícius de Moraes, nº 71, Apartamento 402 — Ipanema, Río de Janeiro - RJ',
+      p1Date: '28/09/2026 a las 12:00h',
+      p2Date: '30/09/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.227.500-4',
+      rgi: '5º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 32.817)',
+      val: 'R$ 2.500.000,00',
+      p2Val: 'R$ 1.250.000,00 (50% de la tasación judicial)',
+      description: 'Apartamento residencial nº 402 en el prestigioso Edificio Acapulco, situado en la exclusiva calle Rua Vinícius de Moraes nº 71, Ipanema, Zona Sur de Río de Janeiro/RJ — a pocos pasos de la playa de Ipanema (Posto 9) y de la Plaza General Osório. El inmueble cuenta con 105 m² de superficie privativa y derecho a 1 plaza de garaje en escritura. La propiedad se encuentra actualmente cerrada. Edificio de 1972 con portón de aluminio, seguridad y conserjería 24 horas, 2 ascensores, 8 plantas y solo 2 apartamentos por planta (16 unidades en total), además de parque infantil y salón de fiestas. Registrado en el 5º Registro de la Propiedad de Río de Janeiro bajo matrícula nº 32.817 e IPTU 1.227.500-4. Tasación oficial de R$ 2.500.000,00 con salida en 2ª subasta al 50% por R$ 1.250.000,00 (~R$ 11.904/m² en Ipanema).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de salida en 2ª Subasta?", a: "Tasación pericial de R$ 2.500.000,00. En 1ª Subasta (28/09/2026 a las 12:00h) puja del 100%. En 2ª Subasta (30/09/2026 a las 13:00h) se abre al 50% por R$ 1.250.000,00 (desahogo de R$ 1.250.000,00)." },
+        { q: "¿Qué características presenta la unidad 402?", a: "105 m² privativos con plaza de garaje en escritura, en edificio con solo 16 viviendas (2 por planta) en Ipanema, encontrándose actualmente cerrado." },
+        { q: "¿Cuáles son las comodidades del Edificio Acapulco?", a: "Construcción de 1972 con seguridad y portería 24h, 2 ascensores, parque infantil, salón social y solo 2 vecinos por planta." },
+        { q: "¿Dispone de plaza de garaje?", a: "Sí, cuenta con 1 plaza de garaje propia debidamente registrada en la escritura y matrícula del 5º Registro." },
+        { q: "¿Es posible pagar a plazos conforme al Art. 895 del CPC?", a: "Sí, mediante propuesta escrita antes del cierre de la subasta, con 25% de entrada y hasta 30 mensualidades con corrección judicial e hipoteca." },
+        { q: "¿Cómo contratar la asesoría legal de Soares Martins Advogados?", a: "Contáctenos por WhatsApp (+55 21 97954-9241) o en nuestro despacho en Ipanema (Visconde de Pirajá 414) para la auditoría y representación completa." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Ipanema — Rua Vinícius de Moraes #71 — Apt 402',
+      subtitle: 'Rua Vinícius de Moraes, #71, Apartment 402 — Edifício Acapulco, Ipanema, Rio de Janeiro/RJ | 105 sqm (1,130 sq ft) • 1 Deeded Garage Space • 8-Story Building (Only 2 Units per Floor, 16 Units Total), 24h Security & Doorman, 2 Elevators, Playground & Party Hall • 5th Land Registry Title #32,817 • IPTU: 1.227.500-4 • 2nd Auction at 50% for R$ 1,250,000.00',
+      address: 'Rua Vinícius de Moraes, #71, Apartment 402 — Ipanema, Rio de Janeiro - RJ',
+      p1Date: '09/28/2026 at 12:00 PM',
+      p2Date: '09/30/2026 at 01:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.227.500-4',
+      rgi: '5th Land Registry Office of Rio de Janeiro (Title #32,817)',
+      val: 'R$ 2,500,000.00',
+      p2Val: 'R$ 1,250,000.00 (50% starting bid / 50% discount)',
+      description: 'Residential apartment #402 located in the prestigious Edifício Acapulco at prime Rua Vinícius de Moraes #71 in Ipanema, South Zone of Rio de Janeiro/RJ — just steps from world-renowned Ipanema Beach (Posto 9) and General Osório Square. The apartment offers 105 square meters (1,130 sq ft) of private built area and includes 1 deeded covered parking space. The unit is currently closed/unoccupied. Built in 1972 on the street alignment with an aluminum entry gate, the building features 24-hour security and doorman services, 2 modernized elevators, 8 residential floors with only 2 apartments per floor (exclusive total of 16 apartments), a playground, and a private party reception hall. Formally registered and deeded at the 5th Land Registry Office under Title #32,817 and municipal tax ID IPTU #1.227.500-4. Official judicial appraisal of R$ 2,500,000.00, with 2nd auction opening at 50% for R$ 1,250,000.00 (an immediate R$ 1,250,000.00 discount), delivering an exceptional cost of approx. R$ 11,904/sqm in prime Ipanema.',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid for Apt 402 on Rua Vinícius de Moraes?", a: "Judicially appraised at R$ 2,500,000.00. 1st Auction (09/28/2026 at 12:00 PM) opens at 100% (R$ 2,500,000.00). 2nd Auction (09/30/2026 at 01:00 PM) opens at 50% for R$ 1,250,000.00 (a R$ 1,250,000.00 discount)." },
+        { q: "What are the characteristics and status of apartment 402?", a: "105 sqm of private floor area, 1 deeded parking space, situated in a low-density building of only 16 residences in Ipanema, currently closed and vacant." },
+        { q: "What are the building amenities at Edifício Acapulco?", a: "Built in 1972 with 24h security and doorman, 2 elevators, playground, party room, and high privacy with only 2 apartments per floor." },
+        { q: "Does the property include a parking space?", a: "Yes, it includes 1 covered parking space deeded in the title at the 5th Land Registry Office." },
+        { q: "Can bidders propose installment payments under CPC Art. 895?", a: "Yes, 25% minimum down payment and up to 30 monthly installments with judicial correction and mortgage security." },
+        { q: "How to retain Soares Martins Advogados for auction representation in Ipanema?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office on Visconde de Pirajá for comprehensive due diligence and full court representation." }
+      ]
+    }
+  },
+
+  // Copacabana - Rua Barata Ribeiro nº 334 - Apartamento 303 (33 m²)
+  'copacabana-barata-ribeiro-334-apto-303': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana — Rua Barata Ribeiro nº 334 — Apto 303',
+      subtitle: 'Rua Barata Ribeiro, nº 334, Apartamento 303 — Copacabana, Rio de Janeiro/RJ | 33 m² • Edifício com 12 Pavimentos e 2 Elevadores • 5º RGI Matrícula 102.946 • IPTU: 0904756-4 • Avaliação R$ 371.704,75 • 2ª Praça a 70% por R$ 260.193,33',
+      address: 'Rua Barata Ribeiro, nº 334, Apartamento 303 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '28/09/2026 às 12:00h',
+      p2Date: '01/10/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0904756-4',
+      rgi: '5º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 102.946)',
+      val: 'R$ 371.704,75',
+      p2Val: 'R$ 260.193,33 (70% do valor da avaliação)',
+      description: 'Apartamento residencial compacto com área privativa de 33 metros quadrados (33 m²), situado no 3º pavimento (apto 303) do edifício localizado na tradicional Rua Barata Ribeiro, nº 334, em Copacabana, Zona Sul do Rio de Janeiro/RJ. A localização é privilegiada no coração de Copacabana, a apenas três quadras da icônica Praia de Copacabana, próximo à Estação de Metrô Cantagalo / Siqueira Campos, farto comércio, supermercados, academias e serviços essenciais. O edifício é composto por 12 pavimentos, com 4 unidades por andar do 2º ao 10º andar e mais uma unidade na cobertura, totalizando 37 apartamentos residenciais. É servido por dois elevadores funcionais. A portaria é simples, com acabamento de piso em pedra, portão em alumínio e escada de acesso. O condomínio não possui playground ou salão de festas e se encontra em regular estado de conservação, contando ainda com uma área livre no terraço sem benfeitorias. Imóvel devidamente registrado, dimensionado e caracterizado perante o Cartório do 5º Ofício de Registro de Imóveis do Rio de Janeiro (5º RGI/RJ) sob a matrícula nº 102.946 e inscrito na municipalidade sob o IPTU nº 0904756-4. Avaliação pericial homologada em R$ 371.704,75, com 2ª Praça a 70% da avaliação com lance de largada em R$ 260.193,33 (economia imediata de R$ 111.511,42 e custo de aquisição na faixa de ~R$ 7.884/m² em Copacabana).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento na Rua Barata Ribeiro?", a: "O imóvel foi avaliado em R$ 371.704,75. No 1º Leilão (28/09/2026 às 12:00h), o lance inicial é de R$ 371.704,75 (100% da avaliação). No 2º Leilão (01/10/2026 às 12:00h), a disputa se inicia a 70% da avaliação por R$ 260.193,33, propiciando um desconto de R$ 111.511,42." },
+        { q: "Quais são as dimensões e características do apartamento 303?", a: "O imóvel possui 33 m² de área privativa (formato compacto/estúdio ideal para moradia prática ou investimento para locação residencial e por temporada) no 3º pavimento do prédio." },
+        { q: "Como é a infraestrutura e os elevadores do edifício na Rua Barata Ribeiro 334?", a: "O condomínio possui 12 pavimentos com 37 unidades ao todo (4 por andar do 2º ao 10º andar e uma cobertura), 2 elevadores, portaria simples com piso em pedra, portão de alumínio e escada de acesso, sem salão de festas ou playground, dispondo de terraço de área livre sem benfeitorias e encontrando-se em regular estado de conservação." },
+        { q: "Quais são os dados de registro no RGI e inscrição de IPTU?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do Rio de Janeiro (5º RGI) sob a matrícula nº 102.946 e cadastrado na Prefeitura do Rio sob a inscrição municipal de IPTU nº 0904756-4." },
+        { q: "Qual é o potencial de rentabilidade de um imóvel de 33 m² em Copacabana?", a: "Imóveis compactos de 30 a 35 m² na Rua Barata Ribeiro contam com altíssima liquidez para locação mensal ou plataformas de temporada em razão da proximidade com a praia, transporte sobre trilhos (metrô) e serviços, atingindo retornos expressivos sobre o capital arrematado a ~R$ 7.884/m²." },
+        { q: "É possível parcelar o pagamento na 2ª Praça na forma do Art. 895 do CPC?", a: "Sim. O CPC autoriza a apresentação de proposta escrita de parcelamento judicial antes do encerramento da praça, com sinal mínimo de 25% à vista e o restante em até 30 prestações mensais corrigidas por índice judicial, garantidas por hipoteca sobre a matrícula nº 102.946." },
+        { q: "Como a assessoria jurídica atua neste leilão em Copacabana?", a: "A assessoria jurídica examina o processo judicial no TJRJ, certidões do 5º RGI, débitos condominiais e eventuais pendências tributárias de IPTU (nº 0904756-4), preparando a estratégia de lances, representação no certame e trâmite célere até a entrega definitiva da posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Copacabana — Rua Barata Ribeiro nº 334 — Apto 303',
+      subtitle: 'Rua Barata Ribeiro, nº 334, Apartamento 303 — Copacabana, Río de Janeiro/RJ | 33 m² • Edificio de 12 Plantas con 2 Ascensores • 5º Registro Matrícula 102.946 • IPTU: 0904756-4 • Tasación R$ 371.704,75 • 2ª Subasta al 70% por R$ 260.193,33',
+      address: 'Rua Barata Ribeiro, nº 334, Apartamento 303 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '28/09/2026 a las 12:00h',
+      p2Date: '01/10/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0904756-4',
+      rgi: '5º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 102.946)',
+      val: 'R$ 371.704,75',
+      p2Val: 'R$ 260.193,33 (70% de la tasación oficial)',
+      description: 'Apartamento residencial compacto de 33 m² en la céntrica Rua Barata Ribeiro nº 334, Copacabana, Zona Sur de Río de Janeiro/RJ. Ubicación estratégica a pocas calles de la playa y del metro. Edificio de 12 plantas con 2 ascensores y 37 apartamentos en total (4 por planta del 2º al 10º piso y ático). Portería sencilla con suelo de piedra, portón de aluminio y escalera de acceso, en regular estado de conservación y terraza comunitaria. Registrado en el 5º Registro de la Propiedad de Río de Janeiro bajo matrícula nº 102.946 e IPTU 0904756-4. Tasación pericial de R$ 371.704,75 con 2ª subasta al 70% por R$ 260.193,33 (~R$ 7.884/m²).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de salida en 2ª Subasta?", a: "Tasación pericial de R$ 371.704,75. En 1ª Subasta (28/09/2026 a las 12:00h) puja del 100%. En 2ª Subasta (01/10/2026 a las 12:00h) se inicia al 70% por R$ 260.193,33." },
+        { q: "¿Qué características tiene el apartamento 303?", a: "Dispone de 33 m² privativos, ideal como estudio compacto con alta demanda de alquiler en Copacabana." },
+        { q: "¿Qué servicios tiene el edificio de Rua Barata Ribeiro 334?", a: "12 plantas, 2 ascensores, 37 viviendas, portería sencilla con suelo de piedra y portón de aluminio, terraza libre y estado de conservación regular." },
+        { q: "¿Es posible financiarlo mediante el Art. 895 del CPC?", a: "Sí, con propuesta escrita de pago fraccionado (25% de entrada y saldo en hasta 30 meses con garantía hipotecaria)." },
+        { q: "¿Cómo contratar la asesoría jurídica para esta subasta?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para una auditoría procesal y registral completa antes de la subasta." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Studio Apartment in Copacabana — Rua Barata Ribeiro #334 — Apt 303',
+      subtitle: 'Rua Barata Ribeiro, #334, Apartment 303 — Copacabana, Rio de Janeiro/RJ | 33 sqm (355 sq ft) • 12-Story Building with 2 Elevators • 5th Land Registry Title #102,946 • IPTU: 0904756-4 • Appraisal R$ 371,704.75 • 2nd Auction at 70% for R$ 260,193.33',
+      address: 'Rua Barata Ribeiro, #334, Apartment 303 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '09/28/2026 at 12:00 PM',
+      p2Date: '10/01/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0904756-4',
+      rgi: '5th Land Registry Office of Rio de Janeiro (Title #102,946)',
+      val: 'R$ 371,704.75',
+      p2Val: 'R$ 260,193.33 (70% starting bid / 30% discount)',
+      description: 'Compact residential apartment of 33 square meters (355 sq ft) located on the 3rd floor (Apt 303) at Rua Barata Ribeiro #334 in Copacabana, South Zone of Rio de Janeiro/RJ. Prime location just three blocks from Copacabana Beach and close to Cantagalo and Siqueira Campos subway stations. The 12-story building houses 37 residential apartments in total (4 per floor from floors 2 to 10 plus penthouse) and is served by 2 elevators. Simple entrance hall with stone flooring, aluminum entry gate, and access stairs. In regular state of maintenance, featuring an open terrace area without improvements. Formally deeded and recorded at the 5th Land Registry Office under Title #102,946 and municipal IPTU #0904756-4. Official judicial appraisal of R$ 371,704.75, with 2nd auction opening at 70% for R$ 260,193.33 (~R$ 7,884/sqm in Copacabana).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid for Apt 303 on Rua Barata Ribeiro?", a: "Officially appraised at R$ 371,704.75. 1st Auction (09/28/2026 at 12:00 PM) opens at 100% (R$ 371,704.75). 2nd Auction (10/01/2026 at 12:00 PM) opens at 70% for R$ 260,193.33." },
+        { q: "What are the dimensions and features of apartment 303?", a: "33 sqm compact floor plan, perfect for rental yields or vacation home in prime Copacabana." },
+        { q: "What are the building characteristics at Rua Barata Ribeiro 334?", a: "12 floors, 37 apartments, 2 elevators, simple stone entrance with aluminum gate, and rooftop terrace in regular maintenance condition." },
+        { q: "Are installment plans permitted under CPC Art. 895?", a: "Yes, bidders can submit written proposals with 25% down payment and up to 30 monthly installments with judicial correction and mortgage security." },
+        { q: "How to hire Soares Martins Advogados for auction legal representation?", a: "Reach out via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for complete due diligence and title review." }
+      ]
+    }
+  },
+
+  // Centro - Avenida Rio Branco nº 185 - Apto 1224 (Edifício Marquês do Herval - 33 m²)
+  'centro-rio-branco-185-apto-1224': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Centro do Rio — Avenida Rio Branco nº 185 — Apto 1224',
+      subtitle: 'Avenida Rio Branco, nº 185, Apto 1224 — Centro, Rio de Janeiro/RJ | 33 m² • Edifício Marquês do Herval • 21 Pavimentos • 8 Elevadores Modernizados • 7º RGI Matrícula 39.611 • IPTU: 0.690.969-1 • Avaliação R$ 187.941,39 • 2ª Praça a 50% por R$ 93.970,70',
+      address: 'Avenida Rio Branco, nº 185, Apartamento 1224 — Centro, Rio de Janeiro - RJ',
+      p1Date: '05/10/2026 às 12:00h',
+      p2Date: '08/10/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.690.969-1',
+      rgi: '7º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 39.611)',
+      val: 'R$ 187.941,39',
+      p2Val: 'R$ 93.970,70 (50% do valor da avaliação)',
+      description: 'Apartamento para utilização residencial com área privativa de 33 metros quadrados (33 m²), situado no 12º pavimento (apartamento 1224) do tradicional e imponente Edifício Marquês do Herval, erguido na icônica esquina da Avenida Rio Branco nº 185 com a Avenida Almirante Barroso, no epicentro financeiro, cultural e histórico do Centro do Rio de Janeiro/RJ. Construído em 1957 e em bom estado de conservação, o edifício possui 21 pavimentos, com 30 unidades por andar, servido por 8 elevadores modernizados de alta performance. Conta com portaria diferenciada no subsolo com piso em pedras portuguesas, paredes pastilhadas e em mármore, acesso por rampa circular, recepção em vidro e madeira, além de galeria com 10 lojas internas (livrarias, lanchonete e bistrô) e lojas de rua de alta conveniência (agência bancária e farmácia). Os corredores são largos, revestidos com lambris de madeira e piso em mármore, dotados de sistema de câmeras de segurança e vigilância 24 horas. O horário de circulação principal é de segunda a sexta-feira das 7h às 20h e aos sábados até às 13h. A fachada em concreto com esquadrias de alumínio confere solidez arquitetônica ao conjunto. O imóvel residencial possui matrícula nº 39.611 perante o 7º Ofício de Registro de Imóveis do Rio de Janeiro (7º RGI/RJ) e inscrição municipal de IPTU nº 0.690.969-1. Avaliação judicial oficial de R$ 187.941,39, com 2ª Praça a 50% com lance de largada em apenas R$ 93.970,70 (economia de R$ 93.970,69 e custo de aquisição na faixa inédita de ~R$ 2.847,60/m² no Centro da Capital).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento na Avenida Rio Branco 185?", a: "O imóvel foi avaliado pela perícia judicial em R$ 187.941,39. No 1º Leilão (05/10/2026 às 12:00h), o lance inicial é de R$ 187.941,39 (100% da avaliação). No 2º Leilão (08/10/2026 às 12:00h), o lance mínimo abre com 50% de desconto por R$ 93.970,70." },
+        { q: "O imóvel pode ser utilizado para moradia residencial?", a: "Sim. Trata-se de apartamento para utilização residencial com 33 m² de área privativa no 12º pavimento do Edifício Marquês do Herval, ideal para residência própria ou investimento de locação no Centro do Rio." },
+        { q: "Como é a infraestrutura do Edifício Marquês do Herval?", a: "O edifício foi construído em 1957 e possui 21 pavimentos, 8 elevadores modernizados, portaria no subsolo em pedras portuguesas e mármore com acesso em rampa circular, recepção em vidro e madeira, 10 lojas internas (livrarias, bistrô, lanchonetes), banco e farmácia na rua, corredores em mármore e madeira, circuito de câmeras e vigilância 24 horas." },
+        { q: "Quais são os dados registrais do 7º RGI e inscrição de IPTU?", a: "O bem está devidamente registrado, dimensionado e caracterizado no 7º Ofício de Registro de Imóveis do Rio de Janeiro (7º RGI/RJ) sob a matrícula nº 39.611 e inscrito na Prefeitura da Cidade do Rio de Janeiro sob o IPTU nº 0.690.969-1." },
+        { q: "Qual o atrativo de adquirir um imóvel a ~R$ 2.847/m² no Centro do Rio?", a: "O valor de 2ª praça (R$ 93.970,70) representa um custo por metro quadrado de aproximadamente R$ 2.847,60/m², patamar extremamente vantajoso no Centro da cidade, com acesso imediato a metrô (Carioca e Cinelândia), VLT Carioca, polos corporativos e incentivos urbanísticos do Reviver Centro." },
+        { q: "É possível realizar o pagamento parcelado nos termos do Art. 895 do CPC?", a: "Sim. Conforme o Art. 895 do CPC, interessados podem apresentar proposta escrita antes do leilão com sinal mínimo de 25% à vista e o saldo em até 30 parcelas mensais corrigidas por índice judicial, garantidas por hipoteca sobre a matrícula nº 39.611." },
+        { q: "Como a assessoria jurídica atua na arrematação do apartamento 1224?", a: "Realizamos o levantamento completo do processo de execução no TJRJ, certidões de ônus no 7º RGI, situação do condomínio e passivos fiscais do IPTU nº 0.690.969-1, além da representação no leilão, homologação, registro da Carta de Arrematação e entrega célere das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Centro de Río — Avenida Rio Branco nº 185 — Apto 1224',
+      subtitle: 'Avenida Rio Branco, nº 185, Apto 1224 — Centro, Río de Janeiro/RJ | 33 m² • Edificio Marquês do Herval • 21 Plantas • 8 Ascensores Modernizados • 7º Registro Matrícula 39.611 • IPTU: 0.690.969-1 • Tasación R$ 187.941,39 • 2ª Subasta al 50% por R$ 93.970,70',
+      address: 'Avenida Rio Branco, nº 185, Apartamento 1224 — Centro, Río de Janeiro - RJ',
+      p1Date: '05/10/2026 a las 12:00h',
+      p2Date: '08/10/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.690.969-1',
+      rgi: '7º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 39.611)',
+      val: 'R$ 187.941,39',
+      p2Val: 'R$ 93.970,70 (50% de la tasación oficial)',
+      description: 'Apartamento residencial de 33 m² en la planta 12 del emblemático Edificio Marquês do Herval, en la confluencia de Avenida Rio Branco nº 185 con Avenida Almirante Barroso, Centro de Río de Janeiro. Edificio de 1957 en buen estado de conservación, 21 plantas, 8 ascensores modernizados, galería comercial interior con 10 tiendas (librerías, cafeterías, bistró), banco y farmacia. Vigilancia 24 horas, cámaras, pasillos amplios en mármol y madera. Registrado en el 7º Registro de la Propiedad de Río de Janeiro (Matrícula nº 39.611) e IPTU 0.690.969-1. Tasación de R$ 187.941,39 y 2ª Subasta al 50% por R$ 93.970,70 (~R$ 2.847/m²).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de 2ª Subasta?", a: "Tasación de R$ 187.941,39. En 1ª Subasta (05/10/2026 a las 12:00h) el 100%. En 2ª Subasta (08/10/2026 a las 12:00h) se inicia al 50% por R$ 93.970,70." },
+        { q: "¿El apartamento puede destinarse a vivienda residencial?", a: "Sí, es un apartamento de 33 m² para uso residencial en la 12ª planta." },
+        { q: "¿Qué servicios tiene el Edificio Marquês do Herval?", a: "21 plantas, 8 ascensores modernos, conserjería en semisótano de mármol con rampa circular, 10 locales de comercio interior, banco, farmacia, cámaras y seguridad 24h." },
+        { q: "¿Se puede pagar a plazos según el Art. 895 del CPC?", a: "Sí, con un 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca sobre la matrícula 39.611." },
+        { q: "¿Cómo contratar asesoría para la subasta?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para auditar el expediente y representarle formalmente." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Studio Apartment in Downtown Rio — Avenida Rio Branco #185 — Apt 1224',
+      subtitle: 'Avenida Rio Branco, #185, Apt 1224 — Downtown Rio de Janeiro/RJ | 33 sqm (355 sq ft) • Marquês do Herval Building • 21 Floors • 8 Modernized Elevators • 7th Land Registry Title #39,611 • IPTU: 0.690.969-1 • Appraisal R$ 187,941.39 • 2nd Auction at 50% for R$ 93,970.70',
+      address: 'Avenida Rio Branco, #185, Apartment 1224 — Centro, Rio de Janeiro - RJ',
+      p1Date: '10/05/2026 at 12:00 PM',
+      p2Date: '10/08/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.690.969-1',
+      rgi: '7th Land Registry Office of Rio de Janeiro (Title #39,611)',
+      val: 'R$ 187,941.39',
+      p2Val: 'R$ 93,970.70 (50% starting bid / 50% discount)',
+      description: 'Residential 33 sqm (355 sq ft) apartment located on the 12th floor (Unit 1224) of the landmark Edifício Marquês do Herval, at the prime junction of Avenida Rio Branco #185 and Avenida Almirante Barroso in Downtown Rio de Janeiro/RJ. Built in 1957 in good maintenance status, the building rises 21 floors with 30 units per floor, served by 8 modernized high-speed elevators. Features subterranean foyer in Portuguese cobblestones and marble, circular ramp access, wood-and-glass reception, internal gallery with 10 commercial shops (bookstores, cafe, bistro), bank and pharmacy on street level. Wide corridors finished in wood paneling and marble, CCTV cameras, and 24-hour security. Formally registered at the 7th Land Registry Office under Title #39,611 and municipal IPTU #0.690.969-1. Official appraisal of R$ 187,941.39, with 2nd auction opening at 50% for R$ 93,970.70 (~R$ 2,847/sqm).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction minimum bid for Apt 1224 on Avenida Rio Branco 185?", a: "Appraised at R$ 187,941.39. 1st Auction (10/05/2026 at 12:00 PM) opens at 100%. 2nd Auction (10/08/2026 at 12:00 PM) opens at 50% for R$ 93,970.70." },
+        { q: "Can this unit be used for residential purposes?", a: "Yes, designated for residential use with 33 sqm of private area on the 12th floor." },
+        { q: "What amenities and features are in the Marquês do Herval Building?", a: "21 floors, 8 modernized elevators, 24h security, CCTV, indoor shopping arcade with 10 retail stores, bank and pharmacy, in good preservation status." },
+        { q: "Are judicial installments allowed under CPC Art. 895?", a: "Yes, 25% down payment and the remainder in up to 30 monthly installments with judicial correction and mortgage security." },
+        { q: "How to hire Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for due diligence and litigation support." }
+      ]
+    }
   }
 };
+
