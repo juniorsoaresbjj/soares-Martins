@@ -74,6 +74,7 @@ const routesToPrerender = [
   '/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/',
   '/blog/comprar-imovel-para-alugar-vale-a-pena-em-2026/',
   // New Auction routes
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-334-apto-303/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-vinicius-de-moraes-71-apto-402/',

@@ -143,6 +143,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Laranjeiras/RJ',
+        title: 'Leilão Judicial de Apartamento em Laranjeiras — Rua das Laranjeiras nº 336 — Apto 826',
+        desc: 'Apartamento residencial compacto com 24 m² no 8º pavimento do Bloco 1 (Entrada B) na tradicional Rua das Laranjeiras nº 336, Zona Sul do Rio de Janeiro. Edifício de 1972 em bom estado de conservação com portaria 24h, câmeras de segurança, churrasqueira, capela privativa e bicicletário. Imóvel fechado e sem direito a vaga de garagem. Excelente oportunidade para moradia ou investimento em aluguel na Zona Sul (~R$ 6.875/m² na 2ª praça). Avaliação judicial de R$ 330.000,00 e 2ª Praça a 50% por R$ 165.000,00. Matrícula nº 91.053 (9º RGI) e IPTU nº 0.986.826-6.',
+        p1Label: '1ª Praça (22/09/2026):',
+        p1Val: 'R$ 330.000,00',
+        p2Label: '2ª Praça (23/09/2026):',
+        p2Val: 'R$ 165.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20826%20na%20Rua%20das%20Laranjeiras%20336%20bloco%201%20em%20Laranjeiras.'
+      },
+      {
         tag: 'Residencial • Centro/RJ',
         title: 'Leilão Judicial de Apartamento no Centro do Rio — Avenida Rio Branco nº 185 — Apto 1224',
         desc: 'Apartamento residencial de 33 m² no 12º pavimento do clássico Edifício Marquês do Herval, erguido na icônica esquina da Avenida Rio Branco com Avenida Almirante Barroso. Edifício de 21 pavimentos com 8 elevadores modernizados, portaria no subsolo em pedras portuguesas e mármore, galeria com 10 lojas (livrarias, bistrô e lanchonetes), banco e farmácia. Corredores em mármore e madeira, circuito de câmeras e vigilância 24h. Em bom estado de conservação. Excepcional custo de aquisição na 2ª praça (~R$ 2.847/m²). Avaliação de R$ 187.941,39 e 2ª Praça a 50% por R$ 93.970,70. Matrícula nº 39.611 (7º RGI) e IPTU nº 0.690.969-1.',
@@ -804,6 +815,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Laranjeiras/RJ',
+        title: 'Subasta Judicial de Apartamento en Laranjeiras — Rua das Laranjeiras nº 336 — Apto 826',
+        desc: 'Apartamento residencial compacto de 24 m² en la 8ª planta del Bloque 1 (Entrada B) en la tradicional Rua das Laranjeiras nº 336, Zona Sur de Río de Janeiro. Edificio de 1972 en buen estado con conserjería 24h, cámaras, barbacoa, capilla para residentes y bicicletero. Inmueble cerrado y sin derecho a plaza de garaje. Gran oportunidad para alquiler o vivienda (~R$ 6.875/m² en 2ª subasta). Tasación de R$ 330.000,00 y 2ª Subasta al 50% por R$ 165.000,00. Matrícula nº 91.053 (9º Registro) e IPTU 0.986.826-6.',
+        p1Label: '1ª Subasta (22/09/2026):',
+        p1Val: 'R$ 330.000,00',
+        p2Label: '2ª Subasta (23/09/2026):',
+        p2Val: 'R$ 165.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20826%20en%20Rua%20das%20Laranjeiras%20336%20en%20Laranjeiras%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Centro/RJ',
         title: 'Subasta Judicial de Apartamento en Centro de Río — Avenida Rio Branco nº 185 — Apto 1224',
         desc: 'Apartamento residencial de 33 m² en la planta 12 del emblemático Edificio Marquês do Herval, en la confluencia de Avenida Rio Branco nº 185 con Avenida Almirante Barroso. Edificio de 21 plantas con 8 ascensores modernizados, galería comercial con 10 tiendas (librerías, cafeterías, bistró), banco y farmacia. Vigilancia 24h, cámaras y pasillos amplios en mármol y madera. Oportunidad en 2ª subasta (~R$ 2.847/m²). Tasación de R$ 187.941,39 y 2ª Subasta al 50% por R$ 93.970,70. Matrícula nº 39.611 (7º Registro) e IPTU 0.690.969-1.',
@@ -1442,6 +1464,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Laranjeiras/RJ',
+        title: 'Judicial Auction of Studio Apartment in Laranjeiras — Rua das Laranjeiras #336 — Apt 826',
+        desc: 'Compact residential 24 sqm apartment on the 8th floor of Block 1 (Entrance B) at Rua das Laranjeiras #336, in charming Laranjeiras, South Zone of Rio de Janeiro. 1972 building in good condition with 24-hour doorman, CCTV, BBQ social area, community chapel, and bike storage. Property is closed/vacant and without deeded parking space. Exceptional rental yield potential in South Zone (~R$ 6,875/sqm on 2nd auction). Appraisal of R$ 330,000.00 with 2nd Auction at 50% for R$ 165,000.00. 9th Registry Title #91,053 & IPTU #0.986.826-6.',
+        p1Label: '1st Auction (09/22/2026):',
+        p1Val: 'R$ 330,000.00',
+        p2Label: '2nd Auction (09/23/2026):',
+        p2Val: 'R$ 165,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20das%20Laranjeiras%20336%20Apt%20826%20in%20Laranjeiras%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Downtown/RJ',
         title: 'Judicial Auction of Studio Apartment in Downtown Rio — Avenida Rio Branco #185 — Apt 1224',

@@ -71,6 +71,7 @@ import HumaitaDaviCampista296AuctionPage from './components/HumaitaDaviCampista2
 import CopacabanaDuvivier50AuctionPage from './components/CopacabanaDuvivier50AuctionPage';
 import CopacabanaBarataRibeiro334AuctionPage from './components/CopacabanaBarataRibeiro334AuctionPage';
 import CentroRioBranco185AuctionPage from './components/CentroRioBranco185AuctionPage';
+import Laranjeiras336AuctionPage from './components/Laranjeiras336AuctionPage';
 import IpanemaVinicius71AuctionPage from './components/IpanemaVinicius71AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
@@ -526,6 +527,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224" element={<CentroRioBranco185AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185/" element={<CentroRioBranco185AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185" element={<CentroRioBranco185AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826/" element={<Laranjeiras336AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826" element={<Laranjeiras336AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336/" element={<Laranjeiras336AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336" element={<Laranjeiras336AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-334-apto-303/" element={<CopacabanaBarataRibeiro334AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-334-apto-303" element={<CopacabanaBarataRibeiro334AuctionPage />} />

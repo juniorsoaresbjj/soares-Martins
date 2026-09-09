@@ -4153,6 +4153,81 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for due diligence and litigation support." }
       ]
     }
+  },
+
+  // Laranjeiras - Rua das Laranjeiras nº 336 - Bloco 1 - Apto 826 (24 m²)
+  'laranjeiras-336-bloco-1-apto-826': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Laranjeiras — Rua das Laranjeiras nº 336 — Apto 826',
+      subtitle: 'Rua das Laranjeiras, nº 336, Entrada B, Bloco 1, Apto 826 — Laranjeiras, Rio de Janeiro/RJ | 24 m² • Portaria 24h • Churrasqueira • Capela • Bicicletário • 9º RGI Matrícula 91.053 • IPTU: 0.986.826-6 • Avaliação R$ 330.000,00 • 2ª Praça a 50% por R$ 165.000,00',
+      address: 'Rua das Laranjeiras, nº 336, Entrada B, Bloco 1, Apartamento 826 — Laranjeiras, Rio de Janeiro - RJ',
+      p1Date: '22/09/2026 às 14:30h',
+      p2Date: '23/09/2026 às 14:30h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.986.826-6',
+      rgi: '9º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 91.053)',
+      val: 'R$ 330.000,00',
+      p2Val: 'R$ 165.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial compacto com área privativa de 24 metros quadrados (24 m²), situado no 8º pavimento (apartamento 826) do Bloco 1 (Entrada B) do tradicional condomínio residencial localizado na aprazível e arborizada Rua das Laranjeiras, nº 336, no cobiçado bairro de Laranjeiras, Zona Sul do Rio de Janeiro/RJ. Construído em 1972 e em bom estado de conservação, o edifício conta com infraestrutura condominial completa e diferenciada para a região: portaria com controle de acesso e vigilância 24 horas, circuito interno de câmeras de segurança, agradável área de convivência com churrasqueira, capela privativa para moradores e prático bicicletário. A unidade residencial é de fundos/lateral, com 24 m², ideal para moradia prática de solteiros e estudantes ou locação de alta rentabilidade na Zona Sul. O imóvel encontra-se fechado e não possui direito a vaga de garagem. O bem está devidamente registrado, dimensionado e caracterizado perante o 9º Ofício de Registro de Imóveis do Rio de Janeiro (9º RGI/RJ) sob a matrícula nº 91.053, e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a inscrição municipal de IPTU nº 0.986.826-6. Avaliação judicial oficial homologada em R$ 330.000,00, com abertura da 2ª Praça a 50% por apenas R$ 165.000,00 — gerando um deságio de 50% (economia de R$ 165.000,00) e um valor por metro quadrado extraordinário de aproximadamente R$ 6.875/m² em plena Zona Sul carioca.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça do apartamento em Laranjeiras?", a: "O imóvel foi avaliado pela perícia judicial do TJRJ em R$ 330.000,00. No 1º Leilão (22/09/2026 às 14:30h), o lance mínimo corresponde a 100% da avaliação (R$ 330.000,00). No 2º Leilão (23/09/2026 às 14:30h), a praça tem início com 50% de desconto por R$ 165.000,00." },
+        { q: "Qual é a situação de ocupação do imóvel e ele possui vaga de garagem?", a: "Conforme laudo e certidão do edital, o imóvel encontra-se fechado. A unidade residencial não possui direito a vaga de garagem." },
+        { q: "Como é a infraestrutura do condomínio na Rua das Laranjeiras 336?", a: "Edifício construído em 1972 em bom estado de conservação, com portaria 24 horas, sistema de câmeras de segurança, bicicletário, área de churrasco e capela, situado em trecho nobre e arborizado de Laranjeiras com farto comércio e transporte." },
+        { q: "Quais são os dados de registro no RGI e IPTU?", a: "Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro (9º RGI/RJ) sob a matrícula nº 91.053 e inscrição municipal de IPTU nº 0.986.826-6." },
+        { q: "Qual é a atratividade do metro quadrado de ~R$ 6.875/m² em Laranjeiras?", a: "O metro quadrado residencial em Laranjeiras opera historicamente entre R$ 10.500 e R$ 14.000/m². Arrematar a R$ 6.875/m² representa uma expressiva margem de segurança patrimonial e alto potencial de rentabilidade líquida para locação na Zona Sul." },
+        { q: "É possível pagar de forma parcelada pela regra do Art. 895 do CPC?", a: "Sim. Interessados podem apresentar proposta formal antes do encerramento da praça, com entrada mínima de 25% à vista e o saldo em até 30 parcelas mensais corrigidas por índice judicial, garantidas por hipoteca sobre a matrícula 91.053." },
+        { q: "Como a assessoria jurídica atua na arrematação da unidade 826?", a: "Realizamos a due diligence do processo no TJRJ, certidões de ônus no 9º RGI, apuração de condomínio e débitos fiscais do IPTU nº 0.986.826-6, representação técnica no certame e atuação judicial para imissão na posse célere e entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Laranjeiras — Rua das Laranjeiras nº 336 — Apto 826',
+      subtitle: 'Rua das Laranjeiras, nº 336, Entrada B, Bloque 1, Apto 826 — Laranjeiras, Río de Janeiro/RJ | 24 m² • Conserjería 24h • Barbacoa • Capilla • Bicicletero • 9º Registro Matrícula 91.053 • IPTU: 0.986.826-6 • Tasación R$ 330.000,00 • 2ª Subasta al 50% por R$ 165.000,00',
+      address: 'Rua das Laranjeiras, nº 336, Entrada B, Bloque 1, Apartamento 826 — Laranjeiras, Río de Janeiro - RJ',
+      p1Date: '22/09/2026 a las 14:30h',
+      p2Date: '23/09/2026 a las 14:30h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.986.826-6',
+      rgi: '9º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 91.053)',
+      val: 'R$ 330.000,00',
+      p2Val: 'R$ 165.000,00 (50% de la tasación oficial)',
+      description: 'Apartamento residencial compacto de 24 m² en la 8ª planta (Apto 826) del Bloque 1 (Entrada B) en Rua das Laranjeiras nº 336, Laranjeiras, Zona Sur de Río de Janeiro. Construcción de 1972 en buen estado de conservación, conserjería 24 horas, zona de barbacoa, capilla para residentes, bicicletero y cámaras de seguridad. La vivienda se encuentra cerrada y no dispone de plaza de garaje. Registrado en el 9º Registro de la Propiedad de Río de Janeiro (Matrícula nº 91.053) e IPTU 0.986.826-6. Tasación judicial de R$ 330.000,00 con 2ª Subasta al 50% por R$ 165.000,00 (~R$ 6.875/m²).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de 2ª Subasta en Laranjeiras?", a: "Tasación de R$ 330.000,00. 1ª Subasta (22/09/2026 a las 14:30h) al 100%. 2ª Subasta (23/09/2026 a las 14:30h) inicia al 50% por R$ 165.000,00." },
+        { q: "¿Cuál es el estado del apartamento y si tiene garaje?", a: "El inmueble se encuentra cerrado y no dispone de plaza de garaje." },
+        { q: "¿Qué servicios ofrece el condominio de Rua das Laranjeiras 336?", a: "Edificio de 1972 en buen estado, conserjería 24h, barbacoa, capilla, bicicletero y cámaras de seguridad." },
+        { q: "¿Se puede pagar a plazos según el Art. 895 del CPC?", a: "Sí, con entrada del 25% y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca judicial sobre la matrícula 91.053." },
+        { q: "¿Cómo contratar asesoría para la subasta?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para la auditoría y representación legal completa." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Studio Apartment in Laranjeiras — Rua das Laranjeiras #336 — Apt 826',
+      subtitle: 'Rua das Laranjeiras, #336, Entrance B, Block 1, Apt 826 — Laranjeiras, Rio de Janeiro/RJ | 24 sqm (258 sq ft) • 24h Doorman • BBQ Area • Chapel • Bike Rack • 9th Registry Title #91,053 • IPTU: 0.986.826-6 • Appraisal R$ 330,000.00 • 2nd Auction at 50% for R$ 165,000.00',
+      address: 'Rua das Laranjeiras, #336, Entrance B, Block 1, Apartment 826 — Laranjeiras, Rio de Janeiro - RJ',
+      p1Date: '09/22/2026 at 02:30 PM',
+      p2Date: '09/23/2026 at 02:30 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.986.826-6',
+      rgi: '9th Land Registry Office of Rio de Janeiro (Title #91,053)',
+      val: 'R$ 330,000.00',
+      p2Val: 'R$ 165,000.00 (50% starting bid / 50% discount)',
+      description: 'Compact residential 24 sqm (258 sq ft) apartment situated on the 8th floor (Unit 826) of Block 1 (Entrance B) at Rua das Laranjeiras #336, in prime residential Laranjeiras, South Zone of Rio de Janeiro/RJ. Built in 1972 and in good preservation status, the residential complex features 24-hour concierge/security, CCTV monitoring, BBQ social area, community chapel, and bike storage rack. The unit is currently closed/vacant and does not include a parking space. Formally registered at the 9th Land Registry Office under Title #91,053 and IPTU #0.986.826-6. Appraised at R$ 330,000.00 with 2nd Auction starting at 50% for R$ 165,000.00 (~R$ 6,875/sqm in Rio’s South Zone).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction opening bid in Laranjeiras?", a: "Appraised at R$ 330,000.00. 1st Auction (09/22/2026 at 02:30 PM) at 100%. 2nd Auction (09/23/2026 at 02:30 PM) opens at 50% for R$ 165,000.00." },
+        { q: "Is the property occupied and does it have parking?", a: "The property is currently closed/vacant. It does not have deeded parking." },
+        { q: "What building amenities are available at Rua das Laranjeiras 336?", a: "Built in 1972 in good condition, with 24h security, CCTV, BBQ area, chapel, and bike rack." },
+        { q: "Are judicial installments permitted under CPC Art. 895?", a: "Yes, 25% down payment and the remainder in up to 30 monthly installments with judicial correction and mortgage security." },
+        { q: "How to hire Soares Martins Advogados for auction representation?", a: "Reach out via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for full due diligence." }
+      ]
+    }
   }
 };
 
