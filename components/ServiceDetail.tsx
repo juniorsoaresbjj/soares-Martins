@@ -143,6 +143,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Jardim Guanabara/RJ',
+        title: 'Leilão Judicial de Apartamento no Jardim Guanabara — Rua Breno Guimarães nº 106 — Apto 105',
+        desc: 'Apartamento residencial amplo com 122 m² de área privativa situado no 1º pavimento (unidade 105) do condomínio na Rua Breno Guimarães nº 106, em ponto nobre do Jardim Guanabara, Ilha do Governador, Rio de Janeiro. Condomínio com infraestrutura completa de lazer, dispondo de playground infantil e salão de festas. Direito exclusivo a 02 (duas) vagas de garagem. Bairro nobre e seguro com forte demanda residencial familiar e proximidade à Praia da Bica. Deságio de 50% na 2ª praça (~R$ 2.540/m² com 2 vagas). Avaliação judicial de R$ 620.000,00 e 2ª Praça a 50% por R$ 310.000,00. 11º RGI Matrícula nº 86.056 e IPTU nº 1.898.000-3.',
+        p1Label: '1ª Praça (19/11/2026):',
+        p1Val: 'R$ 620.000,00',
+        p2Label: '2ª Praça (26/11/2026):',
+        p2Val: 'R$ 310.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20105%20na%20Rua%20Breno%20Guimar%C3%A3es%20106%20no%20Jardim%20Guanabara%20(Ilha%20do%20Governador).'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Tijuca — Rua Barão de Itapagipe nº 417 — Bloco A, Apto 501',
+        desc: 'Apartamento residencial de 50 m² de área privativa, posição de frente, no 5º pavimento (unidade 501) do Bloco A na tradicional Rua Barão de Itapagipe nº 417, Tijuca, Zona Norte do Rio de Janeiro. Imóvel de frente com excelente iluminação e ventilação natural. Localização privilegiada próxima às estações de metrô Afonso Pena e São Francisco Xavier, comércio, colégios e hospitais. Oportunidade com deságio de 50% (~R$ 2.800/m² na 2ª praça). Avaliação judicial de R$ 280.000,00 e 2ª Praça a 50% por R$ 140.000,00. 11º RGI Matrícula nº 3553 e IPTU nº 11509312.',
+        p1Label: '1ª Praça (30/09/2026):',
+        p1Val: 'R$ 280.000,00',
+        p2Label: '2ª Praça (07/10/2026):',
+        p2Val: 'R$ 140.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417-bloco-a-apto-501/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20501%20bloco%20A%20na%20Rua%20Bar%C3%A3o%20de%20Itapagipe%20417%20na%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Leblon/RJ',
+        title: 'Leilão Judicial de Apartamento no Leblon — Rua General Urquiza nº 117 — Apto 501',
+        desc: 'Apartamento residencial de 75 m² de área privativa situado no 5º pavimento (unidade 501) do tradicional Edifício 24 de Outubro (1953), na Rua General Urquiza nº 117, no nobre bairro do Leblon, Zona Sul do Rio de Janeiro. Composto por sala para dois ambientes (piso cerâmico), dois quartos (piso de taco), banheiro social cerâmico, cozinha, área de serviço e banheiro de serviço. Não possui vaga de garagem. Oportunidade rara no metro quadrado mais valorizado do país (~R$ 9.660/m² na 2ª praça). Avaliação judicial de R$ 1.449.000,00 e 2ª Praça a 50% por R$ 724.500,00. 2º RGI Matrícula nº 995653 e IPTU nº 0642600-1.',
+        p1Label: '1ª Praça (28/09/2026):',
+        p1Val: 'R$ 1.449.000,00',
+        p2Label: '2ª Praça (01/10/2026):',
+        p2Val: 'R$ 724.500,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117-apto-501/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20501%20na%20Rua%20General%20Urquiza%20117%20no%20Leblon.'
+      },
+      {
         tag: 'Residencial • Laranjeiras/RJ',
         title: 'Leilão Judicial de Apartamento em Laranjeiras — Rua das Laranjeiras nº 336 — Apto 826',
         desc: 'Apartamento residencial compacto com 24 m² no 8º pavimento do Bloco 1 (Entrada B) na tradicional Rua das Laranjeiras nº 336, Zona Sul do Rio de Janeiro. Edifício de 1972 em bom estado de conservação com portaria 24h, câmeras de segurança, churrasqueira, capela privativa e bicicletário. Imóvel fechado e sem direito a vaga de garagem. Excelente oportunidade para moradia ou investimento em aluguel na Zona Sul (~R$ 6.875/m² na 2ª praça). Avaliação judicial de R$ 330.000,00 e 2ª Praça a 50% por R$ 165.000,00. Matrícula nº 91.053 (9º RGI) e IPTU nº 0.986.826-6.',
@@ -815,6 +848,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Jardim Guanabara/RJ',
+        title: 'Subasta Judicial de Apartamento en Jardim Guanabara — Rua Breno Guimarães nº 106 — Apto 105',
+        desc: 'Apartamento residencial de 122 m² de superficie privativa en la 1ª planta (Apto 105) en Rua Breno Guimarães nº 106, en el cotizado barrio residencial de Jardim Guanabara, Ilha do Governador, Río de Janeiro. Condominio con parque infantil (playground) y salón de fiestas. Incluye derecho a 2 plazas de garaje. Extraordinaria oportunidad con 50% de descuento (~R$ 2.540/m² con 2 plazas en 2ª subasta). Tasación oficial de R$ 620.000,00 y 2ª Subasta al 50% por R$ 310.000,00. 11º Registro Matrícula nº 86.056 e IPTU nº 1.898.000-3.',
+        p1Label: '1ª Subasta (19/11/2026):',
+        p1Val: 'R$ 620.000,00',
+        p2Label: '2ª Subasta (26/11/2026):',
+        p2Val: 'R$ 310.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20105%20en%20Rua%20Breno%20Guimar%C3%A3es%20106%20en%20Jardim%20Guanabara%20(Ilha%20do%20Governador).'
+      },
+      {
+        tag: 'Residencial • Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Tijuca — Rua Barão de Itapagipe nº 417 — Bloque A, Apto 501',
+        desc: 'Apartamento residencial de 50 m² de superficie privativa, orientación frontal en la 5ª planta (Apto 501) del Bloque A en Rua Barão de Itapagipe nº 417, Tijuca, Zona Norte de Río de Janeiro. Inmueble de frente con excelente ventilación e iluminación natural. Ubicación estratégica cercana a estaciones de metro Afonso Pena y São Francisco Xavier, comercio y colegios. Gran oportunidad con 50% de descuento (~R$ 2.800/m² en 2ª subasta). Tasación oficial de R$ 280.000,00 y 2ª Subasta al 50% por R$ 140.000,00. 11º Registro Matrícula nº 3553 e IPTU nº 11509312.',
+        p1Label: '1ª Subasta (30/09/2026):',
+        p1Val: 'R$ 280.000,00',
+        p2Label: '2ª Subasta (07/10/2026):',
+        p2Val: 'R$ 140.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417-bloco-a-apto-501/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20501%20bloque%20A%20en%20Rua%20Bar%C3%A3o%20de%20Itapagipe%20417%20en%20Tijuca.'
+      },
+      {
+        tag: 'Residencial • Leblon/RJ',
+        title: 'Subasta Judicial de Apartamento en Leblon — Rua General Urquiza nº 117 — Apto 501',
+        desc: 'Apartamento residencial de 75 m² en la 5ª planta (Apto 501) del Edificio 24 de Outubro (1953) en Rua General Urquiza nº 117, en el exclusivo barrio de Leblon, Zona Sur de Río de Janeiro. Consta de salón en dos ambientes (suelo cerámico), dos dormitorios (suelo de parquet/taco), baño completo, cocina, lavadero y baño de servicio. Sin plaza de garaje. Extraordinaria oportunidad en el metro cuadrado más cotizado de Brasil (~R$ 9.660/m² en 2ª subasta). Tasación oficial de R$ 1.449.000,00 y 2ª Subasta al 50% por R$ 724.500,00. 2º Registro Matrícula nº 995653 e IPTU nº 0642600-1.',
+        p1Label: '1ª Subasta (28/09/2026):',
+        p1Val: 'R$ 1.449.000,00',
+        p2Label: '2ª Subasta (01/10/2026):',
+        p2Val: 'R$ 724.500,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117-apto-501/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20501%20en%20Rua%20General%20Urquiza%20117%20en%20Leblon.'
+      },
+      {
         tag: 'Residencial • Laranjeiras/RJ',
         title: 'Subasta Judicial de Apartamento en Laranjeiras — Rua das Laranjeiras nº 336 — Apto 826',
         desc: 'Apartamento residencial compacto de 24 m² en la 8ª planta del Bloque 1 (Entrada B) en la tradicional Rua das Laranjeiras nº 336, Zona Sur de Río de Janeiro. Edificio de 1972 en buen estado con conserjería 24h, cámaras, barbacoa, capilla para residentes y bicicletero. Inmueble cerrado y sin derecho a plaza de garaje. Gran oportunidad para alquiler o vivienda (~R$ 6.875/m² en 2ª subasta). Tasación de R$ 330.000,00 y 2ª Subasta al 50% por R$ 165.000,00. Matrícula nº 91.053 (9º Registro) e IPTU 0.986.826-6.',
@@ -1464,6 +1530,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Jardim Guanabara/RJ',
+        title: 'Judicial Auction of Apartment in Jardim Guanabara — Rua Breno Guimarães #106 — Apt 105',
+        desc: 'Spacious residential 122 sqm (1,313 sq ft) apartment on the 1st floor (Unit 105) at Rua Breno Guimarães #106, in prime Jardim Guanabara, Ilha do Governador, Rio de Janeiro. Condominium with full leisure amenities including children playground and party room. Exclusive right to 2 deeded parking spaces. Upscale and safe neighborhood close to Praia da Bica. Exceptional 50% discount on 2nd auction (~R$ 2,540/sqm with 2 parking spaces). Appraisal of R$ 620,000.00 with 2nd Auction at 50% for R$ 310,000.00. 11th Land Registry Title #86.056 & IPTU #1.898.000-3.',
+        p1Label: '1st Auction (11/19/2026):',
+        p1Val: 'R$ 620,000.00',
+        p2Label: '2nd Auction (11/26/2026):',
+        p2Val: 'R$ 310,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Breno%20Guimar%C3%A3es%20106%20Apt%20105%20in%20Jardim%20Guanabara%20(Ilha%20do%20Governador)%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Tijuca/RJ',
+        title: 'Judicial Auction of Apartment in Tijuca — Rua Barão de Itapagipe #417 — Block A, Apt 501',
+        desc: 'Residential 50 sqm apartment, street-facing on the 5th floor (Unit 501) of Block A at Rua Barão de Itapagipe #417, Tijuca, North Zone of Rio de Janeiro. Street-facing unit offering superior daylight and natural ventilation. Prime residential street near Afonso Pena and São Francisco Xavier metro stations, schools, and commerce. Outstanding acquisition cost with 50% discount (~R$ 2,800/sqm on 2nd auction). Official appraisal of R$ 280,000.00 with 2nd Auction at 50% for R$ 140,000.00. 11th Land Registry Title #3553 & IPTU #11509312.',
+        p1Label: '1st Auction (09/30/2026):',
+        p1Val: 'R$ 280,000.00',
+        p2Label: '2nd Auction (10/07/2026):',
+        p2Val: 'R$ 140,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417-bloco-a-apto-501/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Bar%C3%A3o%20de%20Itapagipe%20417%20Block%20A%20Apt%20501%20in%20Tijuca%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Leblon/RJ',
+        title: 'Judicial Auction of 2-Bedroom Apartment in Leblon — Rua General Urquiza #117 — Apt 501',
+        desc: 'Residential 75 sqm apartment on the 5th floor (Unit 501) of Edifício 24 de Outubro (1953), at Rua General Urquiza #117, in prime Leblon, South Zone of Rio de Janeiro. Features double living room (ceramic floor), 2 bedrooms (parquet floors), ceramic bathroom, kitchen, laundry area, and service bathroom. No deeded parking space. Rare acquisition opportunity in Brazil’s most valued neighborhood (~R$ 9,660/sqm on 2nd auction). Appraisal of R$ 1,449,000.00 with 2nd Auction at 50% for R$ 724,500.00. 2nd Land Registry Title #995653 & IPTU #0642600-1.',
+        p1Label: '1st Auction (09/28/2026):',
+        p1Val: 'R$ 1,449,000.00',
+        p2Label: '2nd Auction (10/01/2026):',
+        p2Val: 'R$ 724,500.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117-apto-501/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20General%20Urquiza%20117%20Apt%20501%20in%20Leblon%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Laranjeiras/RJ',
         title: 'Judicial Auction of Studio Apartment in Laranjeiras — Rua das Laranjeiras #336 — Apt 826',

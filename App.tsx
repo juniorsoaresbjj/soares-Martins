@@ -72,6 +72,9 @@ import CopacabanaDuvivier50AuctionPage from './components/CopacabanaDuvivier50Au
 import CopacabanaBarataRibeiro334AuctionPage from './components/CopacabanaBarataRibeiro334AuctionPage';
 import CentroRioBranco185AuctionPage from './components/CentroRioBranco185AuctionPage';
 import Laranjeiras336AuctionPage from './components/Laranjeiras336AuctionPage';
+import LeblonGeneralUrquiza117AuctionPage from './components/LeblonGeneralUrquiza117AuctionPage';
+import TijucaBaraoDeItapagipe417AuctionPage from './components/TijucaBaraoDeItapagipe417AuctionPage';
+import JardimGuanabaraBrenoGuimaraes106AuctionPage from './components/JardimGuanabaraBrenoGuimaraes106AuctionPage';
 import IpanemaVinicius71AuctionPage from './components/IpanemaVinicius71AuctionPage';
 import SEO from './components/SEO';
 import ScrollReveal from './components/ScrollReveal';
@@ -522,6 +525,21 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603" element={<HumaitaDaviCampista296AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296/" element={<HumaitaDaviCampista296AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296" element={<HumaitaDaviCampista296AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105/" element={<JardimGuanabaraBrenoGuimaraes106AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105" element={<JardimGuanabaraBrenoGuimaraes106AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106/" element={<JardimGuanabaraBrenoGuimaraes106AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106" element={<JardimGuanabaraBrenoGuimaraes106AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417-bloco-a-apto-501/" element={<TijucaBaraoDeItapagipe417AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417-bloco-a-apto-501" element={<TijucaBaraoDeItapagipe417AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417/" element={<TijucaBaraoDeItapagipe417AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417" element={<TijucaBaraoDeItapagipe417AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117-apto-501/" element={<LeblonGeneralUrquiza117AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117-apto-501" element={<LeblonGeneralUrquiza117AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117/" element={<LeblonGeneralUrquiza117AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117" element={<LeblonGeneralUrquiza117AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224/" element={<CentroRioBranco185AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224" element={<CentroRioBranco185AuctionPage />} />

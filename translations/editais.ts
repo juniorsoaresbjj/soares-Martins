@@ -4228,6 +4228,229 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for auction representation?", a: "Reach out via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for full due diligence." }
       ]
     }
+  },
+
+  // Leblon - Rua General Urquiza nº 117 - Apto 501 (75 m²)
+  'leblon-general-urquiza-117-apto-501': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Leblon — Rua General Urquiza nº 117 — Apto 501',
+      subtitle: 'Rua General Urquiza, nº 117, Apto 501 — Leblon, Rio de Janeiro/RJ | 75 m² • 2 Quartos • Edifício 24 de Outubro (1953) • 2º RGI Matrícula 995653 • IPTU: 0642600-1 • Avaliação R$ 1.449.000,00 • 2ª Praça a 50% por R$ 724.500,00',
+      address: 'Rua General Urquiza, nº 117, Apartamento 501 — Leblon, Rio de Janeiro - RJ',
+      p1Date: '28/09/2026 às 12:00h',
+      p2Date: '01/10/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0642600-1',
+      rgi: '2º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 995653)',
+      val: 'R$ 1.449.000,00',
+      p2Val: 'R$ 724.500,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial com 75 metros quadrados (75 m²) de área privativa, situado no 5º pavimento (unidade 501) do condomínio do tradicional Edifício 24 de Outubro, localizado no número 117 da nobre e valorizada Rua General Urquiza, no coração do Leblon, Zona Sul do Rio de Janeiro/RJ. Construído em 1953, o edifício preserva a solidez da arquitetura modernista carioca da década de 50. A planta do apartamento é distribuída em sala ampla para dois ambientes com piso cerâmico, dois confortáveis quartos com piso de taco de madeira original, banheiro social com revestimento cerâmico nas paredes e piso, cozinha funcional, área de serviço ventilada e dependência completa com banheiro de serviço. O imóvel não possui direito a vaga de garagem. Registrado, dimensionado e caracterizado perante o 2º Ofício de Registro de Imóveis do Rio de Janeiro (2º RGI/RJ) sob a matrícula nº 995653, e cadastrado na Prefeitura do Rio sob a inscrição municipal de IPTU nº 0642600-1. Avaliação pericial judicial homologada em R$ 1.449.000,00, com abertura da 2ª Praça a 50% por R$ 724.500,00 — deságio expressivo de 50% (economia de R$ 724.500,00), viabilizando a aquisição por aproximadamente R$ 9.660 por metro quadrado em um dos bairros mais cobiçados e valorizados do Brasil.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça no Leblon?", a: "A avaliação judicial oficial do TJRJ é de R$ 1.449.000,00. No 1º Leilão (28/09/2026 às 12:00h), o lance mínimo é de 100% da avaliação (R$ 1.449.000,00). No 2º Leilão (01/10/2026 às 12:00h), a praça tem início a 50% do valor homologado por R$ 724.500,00." },
+        { q: "Como é a divisão interna do apartamento 501?", a: "O imóvel possui 75 m² de área privativa distribuídos em sala para dois ambientes (piso de cerâmica), dois quartos (piso de taco), banheiro social revestido em cerâmica, cozinha, área de serviço e banheiro de serviço. O apartamento não possui vaga de garagem." },
+        { q: "Quais são os dados registrais do imóvel no RGI e na Prefeitura?", a: "O bem está devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis do Rio de Janeiro (2º RGI/RJ) sob a matrícula nº 995653, com inscrição municipal de IPTU nº 0642600-1 perante a Prefeitura da Cidade do Rio de Janeiro." },
+        { q: "Qual o ano de construção e características do Edifício 24 de Outubro?", a: "O prédio tem data de construção de 1953, fazendo parte do condomínio do Edifício 24 de Outubro, situado em trecho nobilíssimo do Leblon, a poucas quadras da Praia do Leblon e da estação de metrô Antero de Quental." },
+        { q: "Qual a atratividade do preço de ~R$ 9.660/m² no Leblon?", a: "O Leblon possui o metro quadrado residencial mais valorizado do país, girando historicamente entre R$ 22.000 e R$ 35.000/m². A arrematação por R$ 724.500,00 (~R$ 9.660/m²) oferece uma oportunidade ímpar de deságio de 50%, com ampla margem de liquidez patrimonial e rentabilidade." },
+        { q: "É possível parcelar a arrematação pelas regras do Art. 895 do CPC?", a: "Sim. Interessados podem apresentar proposta formal por escrito antes do início ou término da praça, com entrada mínima de 25% à vista e o saldo restante parcelado em até 30 meses corrigidos com hipoteca judicial averbada na matrícula nº 995653." },
+        { q: "Como a assessoria jurídica atua na arrematação deste apartamento?", a: "Nosso escritório realiza a due diligence processual completa no TJRJ, certidões no 2º RGI, verificação de débitos de condomínio e IPTU, representação técnica no certame e as medidas judiciais necessárias para expedição da Carta de Arrematação e imissão na posse com entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Leblon — Rua General Urquiza nº 117 — Apto 501',
+      subtitle: 'Rua General Urquiza, nº 117, Apto 501 — Leblon, Río de Janeiro/RJ | 75 m² • 2 Dormitorios • Edificio 24 de Outubro (1953) • 2º Registro Matrícula 995653 • IPTU: 0642600-1 • Tasación R$ 1.449.000,00 • 2ª Subasta al 50% por R$ 724.500,00',
+      address: 'Rua General Urquiza, nº 117, Apartamento 501 — Leblon, Río de Janeiro - RJ',
+      p1Date: '28/09/2026 a las 12:00h',
+      p2Date: '01/10/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0642600-1',
+      rgi: '2º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 995653)',
+      val: 'R$ 1.449.000,00',
+      p2Val: 'R$ 724.500,00 (50% de la tasación oficial)',
+      description: 'Apartamento residencial de 75 m² en la 5ª planta (Apto 501) del Edificio 24 de Outubro (construcción de 1953) en Rua General Urquiza nº 117, en el corazón del exclusivo barrio de Leblon, Zona Sur de Río de Janeiro. Distribución: salón para dos ambientes (suelo cerámico), dos dormitorios (suelo de parquet/taco), baño completo en cerámica, cocina, zona de lavandería y baño de servicio. No dispone de plaza de garaje. Registrado en el 2º Registro de la Propiedad de Río de Janeiro (Matrícula nº 995653) e IPTU 0642600-1. Tasación oficial de R$ 1.449.000,00 con 2ª Subasta al 50% por R$ 724.500,00 (~R$ 9.660/m² en Leblon).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de 2ª Subasta en Leblon?", a: "Tasación de R$ 1.449.000,00. 1ª Subasta (28/09/2026 a las 12:00h) al 100%. 2ª Subasta (01/10/2026 a las 12:00h) al 50% por R$ 724.500,00." },
+        { q: "¿Cuál es la distribución del apartamento 501?", a: "Consta de salón en dos ambientes, dos dormitorios, baño completo, cocina, lavadero y baño de servicio. 75 m² sin plaza de garaje." },
+        { q: "¿Dónde está registrado el inmueble?", a: "Inscrito en el 2º Registro de la Propiedad de Río de Janeiro bajo matrícula nº 995653 e IPTU nº 0642600-1." },
+        { q: "¿Se puede pagar a plazos según el Art. 895 del CPC?", a: "Sí, mediante propuesta formal con 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca judicial." },
+        { q: "¿Cómo contratar asesoría para la subasta?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para la auditoría procesal e inmobiliaria integral." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of 2-Bedroom Apartment in Leblon — Rua General Urquiza #117 — Apt 501',
+      subtitle: 'Rua General Urquiza, #117, Apt 501 — Leblon, Rio de Janeiro/RJ | 75 sqm (807 sq ft) • 2 Bedrooms • Edifício 24 de Outubro (1953) • 2nd Registry Title #995653 • IPTU: 0642600-1 • Appraisal R$ 1,449,000.00 • 2nd Auction at 50% for R$ 724,500.00',
+      address: 'Rua General Urquiza, #117, Apartment 501 — Leblon, Rio de Janeiro - RJ',
+      p1Date: '09/28/2026 at 12:00 PM',
+      p2Date: '10/01/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0642600-1',
+      rgi: '2nd Land Registry Office of Rio de Janeiro (Title #995653)',
+      val: 'R$ 1,449,000.00',
+      p2Val: 'R$ 724,500.00 (50% starting bid / 50% discount)',
+      description: 'Residential 75 sqm (807 sq ft) 2-bedroom apartment located on the 5th floor (Unit 501) of Edifício 24 de Outubro (built in 1953) at Rua General Urquiza #117, in prime Leblon, South Zone of Rio de Janeiro/RJ. Interior layout: living room for two environments with ceramic tile floor, two bedrooms with original parquet hardwood floors, full ceramic bathroom, kitchen, laundry area, and maid’s bathroom. Property does not include a parking space. Registered at the 2nd Land Registry Office of Rio de Janeiro under Title #995653 and IPTU #0642600-1. Appraised at R$ 1,449,000.00 with 2nd Auction starting at 50% for R$ 724,500.00 (~R$ 9,660/sqm in prime Leblon).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction starting bid in Leblon?", a: "Official appraisal of R$ 1,449,000.00. 1st Auction (09/28/2026 at 12:00 PM) at 100%. 2nd Auction (10/01/2026 at 12:00 PM) opens at 50% for R$ 724,500.00." },
+        { q: "What is the layout of unit 501?", a: "75 sqm with double living room, 2 bedrooms, ceramic bathroom, kitchen, laundry room, and service bathroom. No deeded parking space." },
+        { q: "What are the registration details?", a: "2nd Land Registry Office under Title #995653 and municipal tax IPTU #0642600-1." },
+        { q: "Are judicial installments allowed under CPC Art. 895?", a: "Yes, 25% cash down payment and up to 30 monthly indexed installments backed by judicial mortgage on Title #995653." },
+        { q: "How to hire Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for comprehensive legal due diligence." }
+      ]
+    }
+  },
+
+  // Tijuca - Rua Barão de Itapagipe nº 417 - Bloco A - Apto 501 (50 m²)
+  'tijuca-barao-de-itapagipe-417-bloco-a-apto-501': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento na Tijuca — Rua Barão de Itapagipe nº 417 — Bloco A, Apto 501',
+      subtitle: 'Rua Barão de Itapagipe, nº 417, Bloco A, Apto 501 — Tijuca, Rio de Janeiro/RJ | 50 m² • Posição Frente • 11º RGI Matrícula 3553 • IPTU: 11509312 • Avaliação R$ 280.000,00 • 2ª Praça a 50% por R$ 140.000,00',
+      address: 'Rua Barão de Itapagipe, nº 417, Bloco A, Apartamento 501 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '30/09/2026 às 14:00h',
+      p2Date: '07/10/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '11509312',
+      rgi: '11º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 3553)',
+      val: 'R$ 280.000,00',
+      p2Val: 'R$ 140.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial com 50 metros quadrados (50 m²) de área privativa, posicionado de frente no 5º pavimento (unidade 501) do Bloco A do condomínio edilício situado na Rua Barão de Itapagipe nº 417, na tradicional e valorizada Tijuca, Zona Norte do Rio de Janeiro/RJ. A unidade conta com excelente iluminação e ventilação naturais decorrentes de sua posição frontal. Localizado em rua residencial arborizada e com farta oferta de transporte público, comércio, escolas, hospitais e facilidade de acesso às estações de metrô Afonso Pena e São Francisco Xavier. Devidamente registrado, dimensionado e caracterizado perante o 11º Ofício de Registro de Imóveis do Rio de Janeiro (11º RGI/RJ) sob a matrícula nº 3553, e cadastrado na Prefeitura da Cidade do Rio de Janeiro sob a inscrição municipal de IPTU nº 11509312. Avaliação judicial oficial homologada em R$ 280.000,00, com abertura da 2ª Praça a 50% por R$ 140.000,00 — gerando um deságio de R$ 140.000,00 (50% de economia) e viabilizando a aquisição por apenas R$ 2.800 por metro quadrado na Tijuca, patamar expressivamente abaixo do valor de mercado da região (que oscila entre R$ 6.000 e R$ 8.500/m²).',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça na Tijuca?", a: "A avaliação judicial oficial do imóvel é de R$ 280.000,00. No 1º Leilão (30/09/2026 às 14:00h), o lance inicial é de 100% (R$ 280.000,00). No 2º Leilão (07/10/2026 às 14:00h), o certame tem início a 50% do valor da avaliação por R$ 140.000,00." },
+        { q: "Quais são as características da unidade 501 do Bloco A?", a: "Trata-se de apartamento residencial de frente com 50 m² de área privativa, situado no 5º andar do Bloco A da Rua Barão de Itapagipe nº 417, na Tijuca." },
+        { q: "Quais os dados registrais do imóvel no RGI e no IPTU?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado perante o 11º Ofício de Registro de Imóveis do Rio de Janeiro sob a matrícula nº 3553, e possui inscrição municipal de IPTU nº 11509312 perante o Município do Rio de Janeiro." },
+        { q: "Qual a atratividade do custo de ~R$ 2.800/m² na Tijuca?", a: "O metro quadrado residencial na Tijuca varia habitualmente entre R$ 6.000 e R$ 8.500/m². Arrematar um apartamento de frente por R$ 140.000,00 (~R$ 2.800/m²) confere uma margem patrimonial de proteção excepcional e excelente liquidez para moradia ou locação." },
+        { q: "É possível parcelar o pagamento com base no Art. 895 do CPC?", a: "Sim. O interessado pode apresentar proposta formal escrita antes do encerramento da praça, com entrada mínima de 25% à vista e o saldo restante parcelado em até 30 meses corrigidos, com hipoteca judicial sobre a matrícula nº 3553 do 11º RGI." },
+        { q: "Como a assessoria jurídica atua na arrematação deste apartamento?", a: "Nosso escritório realiza a due diligence processual completa no TJRJ, certidões no 11º RGI, apuração de débitos de condomínio e IPTU, representação no leilão e as medidas judiciais necessárias para expedição da Carta de Arrematação e imissão na posse com entrega das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Tijuca — Rua Barão de Itapagipe nº 417 — Bloque A, Apto 501',
+      subtitle: 'Rua Barão de Itapagipe, nº 417, Bloque A, Apto 501 — Tijuca, Río de Janeiro/RJ | 50 m² • Orientación Frontal • 11º Registro Matrícula 3553 • IPTU: 11509312 • Tasación R$ 280.000,00 • 2ª Subasta al 50% por R$ 140.000,00',
+      address: 'Rua Barão de Itapagipe, nº 417, Bloque A, Apartamento 501 — Tijuca, Río de Janeiro - RJ',
+      p1Date: '30/09/2026 a las 14:00h',
+      p2Date: '07/10/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '11509312',
+      rgi: '11º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 3553)',
+      val: 'R$ 280.000,00',
+      p2Val: 'R$ 140.000,00 (50% de la tasación oficial)',
+      description: 'Apartamento residencial de 50 m² de superficie privativa, orientación frontal en la 5ª planta (Apto 501) del Bloque A en Rua Barão de Itapagipe nº 417, en el tradicional y céntrico barrio de Tijuca, Zona Norte de Río de Janeiro. Inmueble con excelente ventilación e iluminación natural. Ubicado en calle residencial arbolada con cercanía al metro (Afonso Pena y São Francisco Xavier), comercio, colegios y servicios. Registrado en el 11º Registro de la Propiedad de Río de Janeiro bajo matrícula nº 3553 e IPTU nº 11509312. Tasación judicial oficial de R$ 280.000,00 con 2ª Subasta al 50% por R$ 140.000,00 (~R$ 2.800/m² en Tijuca).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación judicial y el precio de 2ª Subasta en Tijuca?", a: "Tasación oficial de R$ 280.000,00. 1ª Subasta (30/09/2026 a las 14:00h) al 100%. 2ª Subasta (07/10/2026 a las 14:00h) al 50% por R$ 140.000,00." },
+        { q: "¿Cuáles son las características del apartamento 501 Bloque A?", a: "Apartamento residencial de frente con 50 m² en 5ª planta del Bloque A en Rua Barão de Itapagipe 417, Tijuca." },
+        { q: "¿Dónde está registrado el inmueble?", a: "Inscrito en el 11º Registro de la Propiedad de Río de Janeiro bajo matrícula nº 3553 e IPTU nº 11509312." },
+        { q: "¿Se puede pagar a plazos según el Art. 895 del CPC?", a: "Sí, mediante propuesta formal con 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca judicial." },
+        { q: "¿Cómo contratar asesoría para la subasta?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para la auditoría procesal e inmobiliaria integral." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Tijuca — Rua Barão de Itapagipe #417 — Block A, Apt 501',
+      subtitle: 'Rua Barão de Itapagipe, #417, Block A, Apt 501 — Tijuca, Rio de Janeiro/RJ | 50 sqm (538 sq ft) • Street-Facing • 11th Registry Title #3553 • IPTU: 11509312 • Appraisal R$ 280,000.00 • 2nd Auction at 50% for R$ 140,000.00',
+      address: 'Rua Barão de Itapagipe, #417, Block A, Apartment 501 — Tijuca, Rio de Janeiro - RJ',
+      p1Date: '09/30/2026 at 02:00 PM',
+      p2Date: '10/07/2026 at 02:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '11509312',
+      rgi: '11th Land Registry Office of Rio de Janeiro (Title #3553)',
+      val: 'R$ 280,000.00',
+      p2Val: 'R$ 140,000.00 (50% starting bid / 50% discount)',
+      description: 'Residential 50 sqm (538 sq ft) street-facing apartment located on the 5th floor (Unit 501) of Block A at Rua Barão de Itapagipe #417, in traditional Tijuca, North Zone of Rio de Janeiro/RJ. Prime street-facing exposure offering ample daylight and natural ventilation. Situated in a tree-lined residential street close to metro stations (Afonso Pena and São Francisco Xavier), supermarkets, schools, and medical centers. Formally registered at the 11th Land Registry Office under Title #3553 and municipal tax IPTU #11509312. Appraised at R$ 280,000.00 with 2nd Auction starting at 50% for R$ 140,000.00 (~R$ 2,800/sqm in Tijuca, well below local market averages of R$ 6,000–8,500/sqm).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction starting bid in Tijuca?", a: "Official appraisal of R$ 280,000.00. 1st Auction (09/30/2026 at 02:00 PM) at 100%. 2nd Auction (10/07/2026 at 02:00 PM) opens at 50% for R$ 140,000.00." },
+        { q: "What are the features of unit 501 Block A?", a: "Street-facing 50 sqm apartment on the 5th floor of Block A at Rua Barão de Itapagipe 417, Tijuca." },
+        { q: "What are the registration details?", a: "11th Land Registry Office of Rio de Janeiro under Title #3553 and municipal tax IPTU #11509312." },
+        { q: "Are judicial installments allowed under CPC Art. 895?", a: "Yes, 25% cash down payment and up to 30 monthly indexed installments backed by judicial mortgage on Title #3553." },
+        { q: "How to hire Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our nearby Ipanema office for comprehensive legal due diligence." }
+      ]
+    }
+  },
+
+  // Jardim Guanabara / Ilha do Governador - Rua Breno Guimarães nº 106 - Apto 105 (122 m²)
+  'jardim-guanabara-rua-breno-guimaraes-106-apto-105': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Jardim Guanabara — Rua Breno Guimarães nº 106 — Apto 105',
+      subtitle: 'Rua Breno Guimarães, nº 106, Apto 105 — Jardim Guanabara, Ilha do Governador, Rio de Janeiro/RJ | 122 m² • 2 Vagas de Garagem • Playground e Salão de Festas • 11º RGI Matrícula 86.056 • IPTU: 1.898.000-3 • Avaliação R$ 620.000,00 • 2ª Praça a 50% por R$ 310.000,00',
+      address: 'Rua Breno Guimarães, nº 106, Apartamento 105 — Jardim Guanabara, Ilha do Governador, Rio de Janeiro - RJ',
+      p1Date: '19/11/2026 às 13:00h',
+      p2Date: '26/11/2026 às 13:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.898.000-3',
+      rgi: '11º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 86.056)',
+      val: 'R$ 620.000,00',
+      p2Val: 'R$ 310.000,00 (50% do valor da avaliação)',
+      description: 'Apartamento residencial amplo com 122 metros quadrados (122 m²) de área privativa, situado no 1º pavimento (unidade 105) do edifício residencial localizado na aprazível Rua Breno Guimarães nº 106, no nobre e cobiçado bairro do Jardim Guanabara, na Ilha do Governador, Rio de Janeiro/RJ. O condomínio oferece excelente infraestrutura de lazer e convivência familiar, contando com playground equipado e salão de festas para eventos e celebrações. A unidade conta com o direito privativo a 02 (duas) vagas de garagem no condomínio. Situado em rua estritamente residencial, tranquila e arborizada, em ponto nobre do Jardim Guanabara, a poucos minutos da orla da Praia da Bica, polo gastronômico e dos melhores colégios e clubes da Ilha do Governador. Imóvel devidamente registrado, dimensionado e caracterizado perante o 11º Ofício de Registro de Imóveis do Rio de Janeiro (11º RGI) sob a matrícula nº 86.056 e cadastrado na Prefeitura sob a inscrição de IPTU nº 1.898.000-3. Avaliação judicial oficial homologada em R$ 620.000,00, com abertura da 2ª Praça a 50% por apenas R$ 310.000,00 — gerando um deságio extraordinário de R$ 310.000,00 (50% de economia direta) e viabilizando a aquisição por aproximadamente R$ 2.540 por metro quadrado com duas vagas de garagem, em bairro nobre onde o metro quadrado médio oscila entre R$ 5.500 e R$ 8.000/m².',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance inicial na 2ª Praça no Jardim Guanabara?", a: "A avaliação judicial oficial do imóvel é de R$ 620.000,00. No 1º Leilão (19/11/2026 às 13:00h), o lance inicial é pelo valor integral de 100% (R$ 620.000,00). No 2º Leilão (26/11/2026 às 13:00h), o certame se inicia com 50% do valor da avaliação por R$ 310.000,00." },
+        { q: "Quais são as comodidades do prédio e vagas de garagem da unidade 105?", a: "O edifício dispõe de playground infantil e salão de festas comunitário. A unidade 105 possui direito garantido a 02 (duas) vagas de garagem no condomínio, além de ampla área privativa de 122 m²." },
+        { q: "Quais os dados registrais no 11º RGI e no IPTU carioca?", a: "O imóvel está devidamente registrado perante o 11º Ofício de Registro de Imóveis do Rio de Janeiro sob a matrícula nº 86.056, e possui inscrição municipal de IPTU nº 1.898.000-3." },
+        { q: "Qual a atratividade do custo de ~R$ 2.540/m² com 2 vagas no Jardim Guanabara?", a: "O Jardim Guanabara é o bairro mais valorizado e seguro da Ilha do Governador, com valores de mercado oscilando entre R$ 5.500 e R$ 8.000/m². Adquirir um apartamento de 122 m² com 2 vagas por R$ 310.000,00 (~R$ 2.540/m²) proporciona margem patrimonial de lucro ou segurança imobiliária incomparável." },
+        { q: "É possível parcelar a arrematação nos termos do Art. 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta formal prévia com sinal mínimo de 25% à vista e o saldo remanescente em até 30 parcelas mensais corrigidas, gravando-se hipoteca judicial na matrícula nº 86.056 do 11º RGI." },
+        { q: "Como a assessoria de Soares Martins Advogados protege o arrematante?", a: "Realizamos a due diligence processual completa no TJRJ, certidões cíveis e de distribuidores, apuração de débitos propter rem (condomínio e IPTU), representação técnica no leilão e as medidas judiciais para imissão célere na posse do imóvel." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Jardim Guanabara — Rua Breno Guimarães nº 106 — Apto 105',
+      subtitle: 'Rua Breno Guimarães, nº 106, Apto 105 — Jardim Guanabara, Ilha do Governador, Río de Janeiro/RJ | 122 m² • 2 Plazas de Garaje • Parque Infantil y Salón de Fiestas • 11º Registro Matrícula 86.056 • IPTU: 1.898.000-3 • Tasación R$ 620.000,00 • 2ª Subasta al 50% por R$ 310.000,00',
+      address: 'Rua Breno Guimarães, nº 106, Apartamento 105 — Jardim Guanabara, Ilha do Governador, Río de Janeiro - RJ',
+      p1Date: '19/11/2026 a las 13:00h',
+      p2Date: '26/11/2026 a las 13:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.898.000-3',
+      rgi: '11º Oficio de Registro de la Propiedad de Río de Janeiro (Matrícula nº 86.056)',
+      val: 'R$ 620.000,00',
+      p2Val: 'R$ 310.000,00 (50% de la tasación oficial)',
+      description: 'Apartamento residencial espacioso con 122 m² de superficie privativa, situado en la 1ª planta (Apto 105) en Rua Breno Guimarães nº 106, en el exclusivo y arbolado barrio de Jardim Guanabara, Ilha do Governador, Río de Janeiro. El edificio cuenta con parque infantil (playground) y salón de fiestas. La unidad incluye derecho exclusivo a 2 plazas de garaje. Ubicado en calle residencial tranquila, a pocos minutos de Praia da Bica. Inscrito en el 11º Registro de la Propiedad bajo matrícula nº 86.056 e IPTU nº 1.898.000-3. Tasación oficial de R$ 620.000,00 y 2ª Subasta al 50% por R$ 310.000,00 (~R$ 2.540/m² con 2 plazas en Jardim Guanabara).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es el precio de tasación y 2ª Subasta en Jardim Guanabara?", a: "Tasación judicial de R$ 620.000,00. 1ª Subasta (19/11/2026 a las 13:00h) al 100%. 2ª Subasta (26/11/2026 a las 13:00h) al 50% por R$ 310.000,00." },
+        { q: "¿Qué características y comodidades tiene el inmueble?", a: "Superficie de 122 m², 2 plazas de garaje, edificio con salón de fiestas y parque infantil." },
+        { q: "¿Dónde está inscrito el inmueble?", a: "11º Registro de la Propiedad de Río de Janeiro, Matrícula nº 86.056 e IPTU 1.898.000-3." },
+        { q: "¿Se puede pagar a plazos judiciales según Art. 895 CPC?", a: "Sí, mediante propuesta formal previa con 25% de entrada y hasta 30 cuotas mensuales ajustadas." },
+        { q: "¿Cómo contratar asesoría para la subasta?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para el estudio procesal e inmobiliario completo." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Jardim Guanabara — Rua Breno Guimarães #106 — Apt 105',
+      subtitle: 'Rua Breno Guimarães, #106, Apt 105 — Jardim Guanabara, Ilha do Governador, Rio de Janeiro/RJ | 122 sqm (1,313 sq ft) • 2 Parking Spaces • Playground & Party Room • 11th Land Registry Title #86.056 • IPTU: 1.898.000-3 • Appraisal R$ 620,000.00 • 2nd Auction at 50% for R$ 310,000.00',
+      address: 'Rua Breno Guimarães, #106, Apartment 105 — Jardim Guanabara, Ilha do Governador, Rio de Janeiro - RJ',
+      p1Date: '11/19/2026 at 01:00 PM',
+      p2Date: '11/26/2026 at 01:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.898.000-3',
+      rgi: '11th Land Registry Office of Rio de Janeiro (Title #86.056)',
+      val: 'R$ 620,000.00',
+      p2Val: 'R$ 310,000.00 (50% starting bid / 50% discount)',
+      description: 'Spacious residential 122 sqm (1,313 sq ft) apartment situated on the 1st floor (Unit 105) at Rua Breno Guimarães #106, in upscale Jardim Guanabara, Ilha do Governador, Rio de Janeiro/RJ. The condominium offers a children playground and party room. Includes 2 deeded parking spaces. Located in a tranquil, tree-lined residential street close to Praia da Bica promenade, top schools, clubs, and dining. Registered at the 11th Land Registry Office under Title #86.056 and municipal tax IPTU #1.898.000-3. Official court appraisal of R$ 620,000.00 with 2nd Auction opening at 50% for R$ 310,000.00 (~R$ 2,540/sqm with 2 parking spots, in a prime neighborhood averaging R$ 5,500–8,000/sqm).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the appraisal and 2nd auction price in Jardim Guanabara?", a: "Official court appraisal of R$ 620,000.00. 1st Auction (11/19/2026 at 01:00 PM) at 100%. 2nd Auction (11/26/2026 at 01:00 PM) opens at 50% for R$ 310,000.00." },
+        { q: "What are the condominium amenities and parking spaces?", a: "Children playground, community event party room, 122 sqm private area, and 2 designated parking spaces." },
+        { q: "What are the official registration details?", a: "11th Land Registry Office of Rio de Janeiro Title #86.056 and municipal tax IPTU #1.898.000-3." },
+        { q: "Can the purchase be paid in installments under CPC Art. 895?", a: "Yes, 25% cash down payment and up to 30 monthly indexed installments backed by judicial mortgage on Title #86.056." },
+        { q: "How to hire Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for comprehensive legal due diligence." }
+      ]
+    }
   }
 };
 
