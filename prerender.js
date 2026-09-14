@@ -73,6 +73,8 @@ const routesToPrerender = [
   '/blog/responsabilidade-por-reparos-no-imovel-alugado-locador-inquilino/',
   '/blog/contrato-de-aluguel-ativo-quando-proprietario-pode-pedir-imovel-de-volta/',
   '/blog/comprar-imovel-para-alugar-vale-a-pena-em-2026/',
+  '/blog/usucapiao-de-imovel-requisitos-prazos-documentos-como-funciona/',
+  '/blog/usucapiao-extrajudicial-como-funciona-requisitos-documentos-etapas/',
   // New Auction routes
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-barao-de-itapagipe-417-bloco-a-apto-501/',
