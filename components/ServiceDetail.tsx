@@ -143,6 +143,50 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Santa Rosa / Niterói/RJ',
+        title: 'Leilão Judicial de Apartamento em Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloco 3, Apto 402',
+        desc: 'Amplo apartamento residencial com 138 m² de área privativa edificada no 4º andar (unidade 402 do Bloco 03) na Rua Vereador Duque Estrada nº 169, no nobre bairro de Santa Rosa, Niterói/RJ. Composto por living e sala de jantar, 2 quartos, banheiro social, copa, cozinha, varanda, área de serviço, quarto e banheiro de empregada (dependência completa), com direito a 1 vaga de garagem. Condomínio clube composto por 4 prédios, sendo o Bloco 3 com 5 andares (apenas 4 aptos/andar + 2 coberturas), fachada em pastilha e 1 elevador. Lazer completo com 2 piscinas (adulto e infantil), academia, salão de festas com churrasqueira, jogos, jardins, estacionamento, portaria 24h e CFTV. Avaliação judicial de R$ 470.000,00 e 2ª Praça a 50% por R$ 235.000,00 (~R$ 1.702,89/m²). 8º RGI Matrícula nº 15.819 e IPTU nº 824741.',
+        p1Label: '1ª Praça (22/09/2026):',
+        p1Val: 'R$ 470.000,00',
+        p2Label: '2ª Praça (24/09/2026):',
+        p2Val: 'R$ 235.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20do%20Bloco%203%20na%20Rua%20Vereador%20Duque%20Estrada%20169%20em%20Santa%20Rosa%20-%20Niter%C3%B3i.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Barão de Ipanema nº 105 — Apto 604',
+        desc: 'Apartamento residencial de 70 m² de área edificada no 6º pavimento (unidade 604) do Edifício Condomínio Carmem D´Almeida na Rua Barão de Ipanema nº 105, Copacabana, Rio de Janeiro. Prédio estritamente residencial construído em 1971 no alinhamento da via pública, dispondo de portaria 24 horas, 3 elevadores (dois sociais e um de serviço), playground e câmeras de vigilância (CFTV). Avaliação judicial de R$ 750.000,00 e 2ª Praça a 50% por R$ 375.000,00 (~R$ 5.357,14/m²). 5º RGI Matrícula nº 31.436 e IPTU nº 0.984.275-8.',
+        p1Label: '1ª Praça (14/10/2026):',
+        p1Val: 'R$ 750.000,00',
+        p2Label: '2ª Praça (21/10/2026):',
+        p2Val: 'R$ 375.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barao-de-ipanema-105-apto-604/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20604%20na%20Rua%20Bar%C3%A3o%20de%20Ipanema%20105%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Siqueira Campos nº 143 — Apto 740',
+        desc: 'Apartamento residencial de 44 m² de área edificada, situado na posição de fundos do 7º pavimento (unidade 740) do tradicional edifício na Rua Siqueira Campos nº 143, em Copacabana, Rio de Janeiro. Edifício de 1970 com fachada em argamassa, janelas em esquadria de madeira, lojas comerciais no alinhamento da via pública no térreo, 2 elevadores para 7 pessoas e portaria simples com piso em marmorite, sem modernização. Sem vaga de garagem. Avaliação judicial de R$ 390.000,00 e 2ª Praça a 50% por R$ 195.000,00 (~R$ 4.431,81/m²). 5º RGI Matrícula nº 27773 e IPTU nº 046100-9.',
+        p1Label: '1ª Praça (05/10/2026):',
+        p1Val: 'R$ 390.000,00',
+        p2Label: '2ª Praça (08/10/2026):',
+        p2Val: 'R$ 195.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-143-apto-740/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20740%20na%20Rua%20Siqueira%20Campos%20143%20em%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Leilão Judicial de Apartamento no Centro do Rio — Rua Evaristo da Veiga nº 21 — Apto 503',
+        desc: 'Apartamento residencial compacto com 27 m² de área privativa no 5º pavimento (unidade 503) do clássico edifício na Rua Evaristo da Veiga nº 21, Centro do Rio de Janeiro. Edifício em concreto armado e alvenaria de tijolos com 80 anos, 7 pavimentos, 49 unidades mistas (salas e moradia) e 2 lojas no térreo. Entrada com porta de ferro, pequeno hall em granito preto, 2 elevadores sociais novos e circuito interno de câmeras CFTV em todos os andares e elevadores. Localização estratégica adjacente à Cinelândia, Theatro Municipal, Passeio Público e Lapa. Oportunidade com 50% de desconto (~R$ 2.968,05/m² na 2ª praça). Avaliação judicial de R$ 160.275,10 e 2ª Praça a 50% por R$ 80.137,55. 7º RGI Matrícula nº 19262-2 e IPTU nº 0704066-0.',
+        p1Label: '1ª Praça (26/10/2026):',
+        p1Val: 'R$ 160.275,10',
+        p2Label: '2ª Praça (05/11/2026):',
+        p2Val: 'R$ 80.137,55 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-evaristo-da-veiga-21-apto-503/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20503%20na%20Rua%20Evaristo%20da%20Veiga%2021%20no%20Centro%20do%20Rio.'
+      },
+      {
         tag: 'Residencial • Jardim Guanabara/RJ',
         title: 'Leilão Judicial de Apartamento no Jardim Guanabara — Rua Breno Guimarães nº 106 — Apto 105',
         desc: 'Apartamento residencial amplo com 122 m² de área privativa situado no 1º pavimento (unidade 105) do condomínio na Rua Breno Guimarães nº 106, em ponto nobre do Jardim Guanabara, Ilha do Governador, Rio de Janeiro. Condomínio com infraestrutura completa de lazer, dispondo de playground infantil e salão de festas. Direito exclusivo a 02 (duas) vagas de garagem. Bairro nobre e seguro com forte demanda residencial familiar e proximidade à Praia da Bica. Deságio de 50% na 2ª praça (~R$ 2.540/m² com 2 vagas). Avaliação judicial de R$ 620.000,00 e 2ª Praça a 50% por R$ 310.000,00. 11º RGI Matrícula nº 86.056 e IPTU nº 1.898.000-3.',
@@ -848,6 +892,50 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Santa Rosa / Niterói/RJ',
+        title: 'Subasta Judicial de Apartamento en Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloque 3, Apto 402',
+        desc: 'Amplio apartamento residencial de 138 m² privativos en 4ª planta (Apto 402 del Bloque 3) en Rua Vereador Duque Estrada nº 169, Santa Rosa, Niterói/RJ. Distribuido en living y comedor, 2 dormitorios, baño social, cocina con office, balcón, área de servicio, dormitorio y baño de servicio (dependencia completa), con derecho a 1 plaza de garaje. Condominio con 4 edificios, fachada de gresite, ascensor, portería 24h, cámaras CCTV, estacionamiento, jardines, 2 piscinas (adultos e infantil), barbacoa, salón de fiestas, sala de juegos y gimnasio. Tasación judicial de R$ 470.000,00 y 2ª Subasta al 50% por R$ 235.000,00 (~R$ 1.702,89/m²). 8º Registro Matrícula nº 15.819 e IPTU nº 824741.',
+        p1Label: '1ª Subasta (22/09/2026):',
+        p1Val: 'R$ 470.000,00',
+        p2Label: '2ª Subasta (24/09/2026):',
+        p2Val: 'R$ 235.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20402%20Bloque%203%20en%20Rua%20Vereador%20Duque%20Estrada%20169%20en%20Santa%20Rosa%20-%20Niter%C3%B3i.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Rua Barão de Ipanema nº 105 — Apto 604',
+        desc: 'Apartamento residencial de 70 m² de superficie edificada en 6ª planta (Apto 604) en el Edificio Carmem D´Almeida, Rua Barão de Ipanema nº 105, Copacabana, Río de Janeiro. Edificio residencial de 1971 con portería 24 horas, 3 ascensores (dos sociales y uno de servicio), zona recreativa infantil (play) y cámaras CCTV. Tasación judicial de R$ 750.000,00 y 2ª Subasta al 50% por R$ 375.000,00 (~R$ 5.357,14/m²). 5º Registro Matrícula nº 31.436 e IPTU nº 0.984.275-8.',
+        p1Label: '1ª Subasta (14/10/2026):',
+        p1Val: 'R$ 750.000,00',
+        p2Label: '2ª Subasta (21/10/2026):',
+        p2Val: 'R$ 375.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barao-de-ipanema-105-apto-604/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20604%20en%20Rua%20Bar%C3%A3o%20de%20Ipanema%20105%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Copacabana/RJ',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Rua Siqueira Campos nº 143 — Apto 740',
+        desc: 'Apartamento residencial de 44 m² de superficie edificada en posición interior (fundos) en la 7ª planta (Apto 740) en Rua Siqueira Campos nº 143, Copacabana, Río de Janeiro. Edificio de 1970 con fachada de mortero, ventanas de madera, locales comerciales en planta baja, 2 ascensores para 7 personas y portal sencillo con suelo de marmorita. Sin plaza de garaje. Tasación judicial de R$ 390.000,00 y 2ª Subasta al 50% por R$ 195.000,00 (~R$ 4.431,81/m²). 5º Registro Matrícula nº 27773 e IPTU nº 046100-9.',
+        p1Label: '1ª Subasta (05/10/2026):',
+        p1Val: 'R$ 390.000,00',
+        p2Label: '2ª Subasta (08/10/2026):',
+        p2Val: 'R$ 195.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-143-apto-740/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20740%20en%20Rua%20Siqueira%20Campos%20143%20en%20Copacabana.'
+      },
+      {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Subasta Judicial de Apartamento en el Centro de Río — Rua Evaristo da Veiga nº 21 — Apto 503',
+        desc: 'Apartamento residencial compacto de 27 m² en la 5ª planta (Apto 503) en Rua Evaristo da Veiga nº 21, en el Centro Histórico de Río de Janeiro, junto a Cinelândia, Passeio Público y Lapa. Edificio de 80 años con 7 plantas, 49 unidades mixtas, 2 tiendas en planta baja, puerta de hierro, vestíbulo en granito negro, 2 ascensores nuevos y cámaras CCTV en todas las plantas y ascensores. Tasación de R$ 160.275,10 y 2ª Subasta al 50% por R$ 80.137,55 (~R$ 2.968,05/m²). 7º Registro Matrícula nº 19262-2 e IPTU nº 0704066-0.',
+        p1Label: '1ª Subasta (26/10/2026):',
+        p1Val: 'R$ 160.275,10',
+        p2Label: '2ª Subasta (05/11/2026):',
+        p2Val: 'R$ 80.137,55 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-evaristo-da-veiga-21-apto-503/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20503%20en%20Rua%20Evaristo%20da%20Veiga%2021%20en%20Centro%20de%20R%C3%ADo.'
+      },
+      {
         tag: 'Residencial • Jardim Guanabara/RJ',
         title: 'Subasta Judicial de Apartamento en Jardim Guanabara — Rua Breno Guimarães nº 106 — Apto 105',
         desc: 'Apartamento residencial de 122 m² de superficie privativa en la 1ª planta (Apto 105) en Rua Breno Guimarães nº 106, en el cotizado barrio residencial de Jardim Guanabara, Ilha do Governador, Río de Janeiro. Condominio con parque infantil (playground) y salón de fiestas. Incluye derecho a 2 plazas de garaje. Extraordinaria oportunidad con 50% de descuento (~R$ 2.540/m² con 2 plazas en 2ª subasta). Tasación oficial de R$ 620.000,00 y 2ª Subasta al 50% por R$ 310.000,00. 11º Registro Matrícula nº 86.056 e IPTU nº 1.898.000-3.',
@@ -1530,6 +1618,50 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Santa Rosa / Niterói/RJ',
+        title: 'Judicial Auction of Apartment in Santa Rosa / Niterói — Rua Vereador Duque Estrada #169 — Block 3, Apt 402',
+        desc: 'Spacious residential 138 sqm apartment on the 4th floor (Unit 402 of Block 3) at Rua Vereador Duque Estrada #169, in prime Santa Rosa, Niterói/RJ. Featuring living and dining room, 2 bedrooms, bathroom, breakfast kitchen, balcony, laundry area, maid suite (bedroom & bath), and 1 parking space. Club condominium with 4 buildings; Block 3 has 5 floors, tile facade and 1 elevator. Resort-style amenities: 2 swimming pools, gym, party hall with BBQ grill, games room, gardens, 24h security, and CCTV. Court appraisal of R$ 470,000.00 with 2nd Auction at 50% for R$ 235,000.00 (~R$ 1,702.89/sqm). 8th Land Registry Title #15.819 & IPTU #824741.',
+        p1Label: '1st Auction (09/22/2026):',
+        p1Val: 'R$ 470,000.00',
+        p2Label: '2nd Auction (09/24/2026):',
+        p2Val: 'R$ 235,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Vereador%20Duque%20Estrada%20169%20Block%203%20Apt%20402%20in%20Santa%20Rosa%20-%20Niter%C3%B3i.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment in Copacabana — Rua Barão de Ipanema #105 — Apt 604',
+        desc: 'Residential 70 sqm apartment on the 6th floor (Unit 604) in Edifício Carmem D´Almeida, at Rua Barão de Ipanema #105, Copacabana, Rio de Janeiro. 1971 residential building with 24-hour doorman, 3 elevators (2 passenger and 1 service), children playground, and full CCTV surveillance cameras. Court appraisal of R$ 750,000.00 with 2nd Auction at 50% for R$ 375,000.00 (~R$ 5,357.14/sqm). 5th Land Registry Title #31.436 & IPTU #0.984.275-8.',
+        p1Label: '1st Auction (10/14/2026):',
+        p1Val: 'R$ 750,000.00',
+        p2Label: '2nd Auction (10/21/2026):',
+        p2Val: 'R$ 375,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barao-de-ipanema-105-apto-604/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Bar%C3%A3o%20de%20Ipanema%20105%20Apt%20604%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Copacabana/RJ',
+        title: 'Judicial Auction of Apartment in Copacabana — Rua Siqueira Campos #143 — Apt 740',
+        desc: 'Residential 44 sqm apartment on the 7th floor (rear-facing, Unit 740) at Rua Siqueira Campos #143, in prime Copacabana, Rio de Janeiro. Established 1970 building with plaster mortar facade, wooden window frames, street-level retail stores, 2 elevators for 7 passengers, and entrance hall with marmorite floor without modernization. No parking space. Appraisal of R$ 390,000.00 with 2nd Auction at 50% for R$ 195,000.00 (~R$ 4,431.81/sqm). 5th Land Registry Title #27773 & IPTU #046100-9.',
+        p1Label: '1st Auction (10/05/2026):',
+        p1Val: 'R$ 390,000.00',
+        p2Label: '2nd Auction (10/08/2026):',
+        p2Val: 'R$ 195,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-siqueira-campos-143-apto-740/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Siqueira%20Campos%20143%20Apt%20740%20in%20Copacabana.'
+      },
+      {
+        tag: 'Residential • Centro/RJ',
+        title: 'Judicial Auction of Apartment in Downtown Rio — Rua Evaristo da Veiga #21 — Apt 503',
+        desc: 'Compact 27 sqm residential apartment on the 5th floor (Unit 503) at Rua Evaristo da Veiga #21, in prime Downtown Rio de Janeiro, next to Cinelândia, Passeio Público, and Lapa. Classic 80-year-old building with 7 floors, 49 commercial/residential units, 2 ground floor shops, iron gate, black granite lobby, 2 brand new elevators, and CCTV cameras. Appraisal of R$ 160,275.10 with 2nd Auction at 50% for R$ 80,137.55 (~R$ 2,968.05/sqm). 7th Land Registry Title #19262-2 & IPTU #0704066-0.',
+        p1Label: '1st Auction (10/26/2026):',
+        p1Val: 'R$ 160,275.10',
+        p2Label: '2nd Auction (11/05/2026):',
+        p2Val: 'R$ 80,137.55 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-evaristo-da-veiga-21-apto-503/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Evaristo%20da%20Veiga%2021%20Apt%20503%20in%20Downtown%20Rio.'
+      },
       {
         tag: 'Residential • Jardim Guanabara/RJ',
         title: 'Judicial Auction of Apartment in Jardim Guanabara — Rua Breno Guimarães #106 — Apt 105',

@@ -4451,6 +4451,410 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How to hire Soares Martins Advogados for auction representation?", a: "Contact us via WhatsApp (+55 21 97954-9241) or visit our Ipanema office for comprehensive legal due diligence." }
       ]
     }
+  },
+  // Centro - Rua Evaristo da Veiga 21 Apto 503
+  'centro-evaristo-da-veiga-21-apto-503': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento no Centro do Rio — Rua Evaristo da Veiga nº 21 — Apto 503',
+      subtitle: 'Rua Evaristo da Veiga, nº 21, Apto 503 — Centro, Rio de Janeiro/RJ | 27 m² • 2 Elevadores Novos • Portaria com CFTV • 7º RGI Matrícula 19262-2 • IPTU: 0704066-0 • Avaliação R$ 160.275,10 • 2ª Praça a 50% por R$ 80.137,55',
+      address: 'Rua Evaristo da Veiga, 21, Apto 503 — Centro, Rio de Janeiro - RJ',
+      p1Date: '26/10/2026 às 12:00h',
+      p2Date: '05/11/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0704066-0',
+      rgi: '7º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 19262-2)',
+      val: 'R$ 160.275,10',
+      p2Val: 'R$ 80.137,55 (50% do valor da avaliação)',
+      description: 'Apartamento residencial compacto com 27 m² de área privativa situado no 5º pavimento (unidade 503) do edifício na Rua Evaristo da Veiga nº 21, no Centro Histórico e Cultural do Rio de Janeiro, adjacente à Cinelândia, Passeio Público e Lapa. Edifício construído em concreto armado e alvenaria de tijolos com aproximadamente 80 anos de idade, constituído por 7 (sete) pavimentos e 49 (quarenta e nove) unidades de uso misto (salas comerciais e moradia), além de duas lojas no pavimento térreo. Portaria com porta de ferro, pequeno hall social com piso em granito preto, 02 (dois) elevadores sociais novos recentemente instalados e circuito interno de segurança (CFTV) em todos os andares e nos elevadores. Imóvel devidamente registrado, dimensionado e caracterizado no 7º Ofício de Registro de Imóveis do Rio de Janeiro sob a matrícula nº 19262-2 e inscrição fiscal de IPTU nº 0704066-0. Avaliação judicial oficial homologada de R$ 160.275,10 e lance inicial em 2ª praça a 50% por R$ 80.137,55 (~R$ 2.968,05/m²), viabilizando excelente rentabilidade para moradia própria ou locação no coração do Rio.',
+      checklist: defaultChecklist.pt,
+      modal: {
+        title: 'Resumo Estruturado do Edital — Rua Evaristo da Veiga 21 / Apto 503',
+        sections: [
+          { title: 'Identificação Registral e Cadastral', text: '7º Ofício de Registro de Imóveis do Rio de Janeiro (7º RGI/RJ), Matrícula nº 19262-2. Inscrição Municipal de IPTU nº 0704066-0. Unidade 503 com 27 m² de área privativa.' },
+          { title: 'Características do Edifício', text: 'Prédio de 80 anos, concreto armado e alvenaria de tijolos, 7 andares, 49 unidades mistas (comerciais e residenciais), duas lojas no térreo, porta de ferro na entrada, pequeno hall em granito preto, 2 elevadores sociais novos e câmeras CFTV em todos os pavimentos e elevadores.' },
+          { title: 'Avaliação e Praças Judiciais', text: 'Avaliação homologada de R$ 160.275,10. 1ª Praça em 26/10/2026 às 12:00h pelo valor integral. 2ª Praça em 05/11/2026 às 12:00h com lance mínimo de 50% (R$ 80.137,55).' },
+          { title: 'Pagamento e Parcelamento (Art. 895 CPC)', text: 'Admite-se arrematação à vista ou proposta de parcelamento com entrada mínima de 25% e saldo restante em até 30 parcelas mensais corrigidas, mediante caução idônea e garantia hipotecária sobre o próprio imóvel.' },
+          { title: 'Sub-rogação Fiscal e Ônus', text: 'Os débitos tributários de IPTU sub-rogam-se sobre o preço da arrematação conforme Art. 130, parágrafo único, do CTN. Débitos de condomínio requerem análise técnica do edital e prestação de contas pelo síndico.' }
+        ]
+      },
+      faqs: [
+        { q: "Qual é o valor de avaliação judicial do apartamento 503 na Rua Evaristo da Veiga nº 21 no Centro?", a: "O imóvel possui avaliação oficial homologada perante o Tribunal de Justiça do Estado do Rio de Janeiro no valor de R$ 160.275,10. Na 1ª Praça, o lance mínimo é integral (100%), e na 2ª Praça, o valor inicial parte de R$ 80.137,55, representando 50% de desconto." },
+        { q: "Quando ocorrerão o 1º e o 2º Leilão Judicial deste apartamento?", a: "O 1º Leilão está agendado para o dia 26/10/2026, às 12:00h (lance mínimo R$ 160.275,10). O 2º Leilão ocorrerá no dia 05/11/2026, às 12:00h (lance mínimo R$ 80.137,55)." },
+        { q: "Como funciona a 2ª Praça com 50% de desconto e qual o valor aproximado por metro quadrado?", a: "Na 2ª praça judicial, autorizada pelo Código de Processo Civil, o lance inicial é de metade da avaliação oficial (R$ 80.137,55). Dividindo esse valor pela área útil de 27 m², o custo de aquisição resulta em aproximadamente R$ 2.968,05 por metro quadrado, índice altamente atrativo para a região central do Rio." },
+        { q: "Quais são as características da edificação na Rua Evaristo da Veiga nº 21?", a: "Trata-se de edifício clássico com cerca de 80 anos de construção em concreto armado e alvenaria de tijolos. Possui 7 pavimentos, 49 unidades entre escritórios/salas comerciais e residências, 2 lojas comerciais no térreo, porta de ferro e hall de entrada com piso em granito preto, 2 elevadores sociais modernizados/novos e circuito fechado de TV (CFTV) em todos os andares e elevadores." },
+        { q: "É possível arrematar este imóvel de forma parcelada conforme o Artigo 895 do CPC?", a: "Sim. O interessado pode apresentar proposta de parcelamento judicial por escrito antes do encerramento da praça, com entrada mínima de 25% à vista e o restante em até 30 parcelas mensais corrigidas, gravando-se hipoteca judicial na matrícula do imóvel perante o 7º RGI." },
+        { q: "Como são tratados os débitos de IPTU (inscrição 0704066-0) e eventuais dívidas de condomínio?", a: "Os débitos de IPTU e taxas públicas sub-rogam-se sobre o preço obtido na arrematação judicial, nos termos do art. 130, parágrafo único, do CTN. Para débitos condominiais, nossa assessoria jurídica examina minuciosamente as cláusulas do edital e formula requerimentos ao juízo da execução para resguardar o arrematante." },
+        { q: "Qual é o cartório de registro de imóveis competente para este imóvel?", a: "O imóvel é devidamente registrado, dimensionado e caracterizado sob a Matrícula nº 19262-2 do Cartório do 7º Ofício de Registro de Imóveis da Comarca da Capital (7º RGI/RJ)." },
+        { q: "O imóvel possui potencial para locação residencial tradicional ou por temporada (Airbnb)?", a: "Sim. A Rua Evaristo da Veiga está situada no epicentro cultural e comercial do Rio, ao lado do Theatro Municipal, Passeio Público, Lapa, Consulado dos EUA e das estações de metrô Cinelândia e Carioca, atendendo com muita liquidez a estudantes, advogados, servidores públicos e turistas." },
+        { q: "Quais são as etapas processuais após a arrematação até a imissão na posse?", a: "Após o lance vencedor e assinatura do auto de arrematação, há o recolhimento das guias, pagamento do ITBI na Prefeitura do Rio, expedição da Carta de Arrematação pelo juiz, cancelamento de ônus no 7º RGI e o cumprimento do mandado judicial de imissão na posse pelo Oficial de Justiça." },
+        { q: "Por que contratar a assessoria jurídica especializada do escritório Soares Martins Advogados?", a: "Nosso escritório conta com atuação sólida e dedicada em leilões judiciais no Rio de Janeiro. Realizamos a auditoria completa de edital, matrícula e processos cíveis conexos, oferecendo segurança técnica e acompanhamento integral do lance à entrega efetiva das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en el Centro de Río — Rua Evaristo da Veiga nº 21 — Apto 503',
+      subtitle: 'Rua Evaristo da Veiga, nº 21, Apto 503 — Centro, Río de Janeiro/RJ | 27 m² • 2 Ascensores Nuevos • Conserjería con CCTV • 7º Registro Matrícula 19262-2 • IPTU: 0704066-0 • Tasación R$ 160.275,10 • 2ª Subasta al 50% por R$ 80.137,55',
+      address: 'Rua Evaristo da Veiga, 21, Apto 503 — Centro, Río de Janeiro - RJ',
+      p1Date: '26/10/2026 a las 12:00h',
+      p2Date: '05/11/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+      iptu: '0704066-0',
+      rgi: '7º Registro de Inmuebles de Río de Janeiro (Matrícula nº 19262-2)',
+      val: 'R$ 160.275,10',
+      p2Val: 'R$ 80.137,55 (50% de la tasación oficial)',
+      description: 'Apartamento residencial compacto de 27 m² de superficie privativa situado en la 5ª planta (unidad 503) del edificio en Rua Evaristo da Veiga nº 21, en el Centro Histórico de Río de Janeiro, junto a Cinelândia, Passeio Público y Lapa. Edificio de hormigón armado y albañilería con unos 80 años de antigüedad, 7 plantas, 49 unidades de uso mixto (comercial y residencial) y dos tiendas comerciales en planta baja. Puerta de hierro en la entrada, vestíbulo en granito negro, 2 ascensores nuevos y cámaras de circuito cerrado (CCTV) en todas las plantas y ascensores. Matrícula nº 19262-2 del 7º RGI/RJ e IPTU nº 0704066-0. Tasación judicial oficial de R$ 160.275,10 con puja mínima en 2ª subasta al 50% por R$ 80.137,55 (~R$ 2.968,05/m²).',
+      checklist: defaultChecklist.es,
+      modal: {
+        title: 'Resumen Estructurado del Edicto — Rua Evaristo da Veiga 21 / Apto 503',
+        sections: [
+          { title: 'Identificación Registral y Catastral', text: '7º Registro de la Propiedad de Río de Janeiro (7º RGI/RJ), Matrícula nº 19262-2. IPTU nº 0704066-0. Superficie privativa de 27 m².' },
+          { title: 'Características del Edificio', text: 'Edificio de 80 años, hormigón y ladrillo, 7 plantas, 49 unidades mixtas, 2 locales comerciales, puerta de hierro, vestíbulo de granito negro, 2 ascensores nuevos y cámaras CCTV.' },
+          { title: 'Tasación y Fechas de Subasta', text: 'Tasación homologada de R$ 160.275,10. 1ª Subasta el 26/10/2026 a las 12:00h (100%). 2ª Subasta el 05/11/2026 a las 12:00h al 50% (R$ 80.137,55).' },
+          { title: 'Pago y Facilidades a Plazos (Art. 895 CPC)', text: 'Pago al contado o propuesta judicial a plazos con 25% de entrada y hasta 30 cuotas mensuales ajustadas con hipoteca sobre el inmueble.' },
+          { title: 'Subrogación Fiscal y Deudas', text: 'Deudas fiscales de IPTU se subrogan sobre el precio de adjudicación (Art. 130 CTN). Cuotas de comunidad sujetas a análisis específico del edicto.' }
+        ]
+      },
+      faqs: [
+        { q: "¿Cuál es la tasación judicial del apartamento 503 en Rua Evaristo da Veiga 21 en Centro?", a: "Tasación oficial de R$ 160.275,10. En 1ª Subasta (26/10/2026 12:00h) puja mínima al 100%. En 2ª Subasta (05/11/2026 12:00h) parte del 50% por R$ 80.137,55." },
+        { q: "¿Cuáles son las características del edificio?", a: "Construcción clásica de 80 años con 7 plantas, 49 unidades mixtas, 2 locales comerciales, puerta de hierro, vestíbulo en granito negro, 2 ascensores nuevos y circuito cerrado CCTV." },
+        { q: "¿Cuál es el coste por metro cuadrado en 2ª subasta?", a: "Aproximadamente R$ 2.968,05 por metro cuadrado (R$ 80.137,55 por 27 m²), un valor excepcional para el centro histórico y comercial de Río de Janeiro." },
+        { q: "¿Se puede pagar a plazos judiciales según el Art. 895 del CPC?", a: "Sí, mediante propuesta formal antes del fin de la subasta, abonando un 25% al contado y el resto en hasta 30 cuotas mensuales con hipoteca judicial." },
+        { q: "¿Cómo contratar asesoría legal especializada con Soares Martins Advogados?", a: "Contáctenos vía WhatsApp (+55 21 97954-9241) para auditoría del edicto y representación completa en la subasta." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Downtown Rio — Rua Evaristo da Veiga #21 — Apt 503',
+      subtitle: 'Rua Evaristo da Veiga, #21, Apt 503 — Centro, Rio de Janeiro/RJ | 27 sqm (291 sq ft) • 2 New Elevators • CCTV Security • 7th Land Registry Title #19262-2 • IPTU: 0704066-0 • Appraisal R$ 160,275.10 • 2nd Auction at 50% for R$ 80,137.55',
+      address: 'Rua Evaristo da Veiga, 21, Apt 503 — Centro, Rio de Janeiro - RJ',
+      p1Date: '10/26/2026 at 12:00 PM',
+      p2Date: '11/05/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0704066-0',
+      rgi: '7th Land Registry Office of Rio de Janeiro (Title #19262-2)',
+      val: 'R$ 160,275.10',
+      p2Val: 'R$ 80,137.55 (50% starting bid / 50% discount)',
+      description: 'Compact 27 sqm (291 sq ft) residential apartment situated on the 5th floor (Unit 503) at Rua Evaristo da Veiga #21, in the cultural and historical core of Downtown Rio de Janeiro, next to Cinelândia, Passeio Público, and Lapa. Classic 80-year-old reinforced concrete and brick masonry building with 7 stories, 49 mixed-use units (offices and residential), plus two ground-floor storefronts. Front entrance features an iron security gate, entrance hall with black granite flooring, 2 newly installed modern elevators, and CCTV camera coverage across all floors and elevators. Registered at the 7th Land Registry Office under Title #19262-2 and municipal property tax IPTU #0704066-0. Official judicial appraisal of R$ 160,275.10 with 2nd Auction starting at 50% for R$ 80,137.55 (~R$ 2,968.05/sqm), offering outstanding returns for personal residence or rental income in revitalization zone.',
+      checklist: defaultChecklist.en,
+      modal: {
+        title: 'Structured Notice Summary — Rua Evaristo da Veiga 21 / Apt 503',
+        sections: [
+          { title: 'Registry & Tax Identification', text: '7th Land Registry Office of Rio de Janeiro (7th RGI/RJ), Title #19262-2. Municipal tax IPTU #0704066-0. Private area of 27 sqm (291 sq ft).' },
+          { title: 'Building Features', text: '80-year-old concrete and brick masonry building, 7 floors, 49 mixed units, 2 retail stores, iron door, black granite hall, 2 new passenger elevators, and CCTV system.' },
+          { title: 'Appraisal & Auction Schedule', text: 'Court appraisal R$ 160,275.10. 1st Auction on 10/26/2026 at 12:00 PM (100%). 2nd Auction on 11/05/2026 at 12:00 PM with 50% minimum bid (R$ 80,137.55).' },
+          { title: 'Payment & Installment Options (CPC Art. 895)', text: 'Cash payment or judicial installment proposal with 25% down payment and up to 30 monthly indexed installments secured by mortgage.' },
+          { title: 'Tax & Condominium Clearance', text: 'Property taxes subrogate to the auction proceeds per Art. 130 CTN. Condominium arrears are examined prior to bidding.' }
+        ]
+      },
+      faqs: [
+        { q: "What is the official judicial appraisal and minimum bid for Apt 503 at Rua Evaristo da Veiga 21?", a: "Official court appraisal of R$ 160,275.10. 1st Auction (10/26/2026 at 12:00 PM) at 100%. 2nd Auction (11/05/2026 at 12:00 PM) starts at 50% for R$ 80,137.55." },
+        { q: "What are the building characteristics and amenities?", a: "An 80-year-old reinforced concrete building with 7 floors, 49 commercial/residential units, 2 ground floor shops, iron door, black granite lobby, 2 brand new elevators, and CCTV cameras on all levels." },
+        { q: "What is the acquisition cost per square meter in the 2nd auction?", a: "Approximately R$ 2,968.05 per square meter (R$ 80,137.55 for 27 sqm), an extremely competitive entry price for Downtown Rio." },
+        { q: "Can foreign or domestic investors pay via judicial installments?", a: "Yes, under CPC Art. 895 (25% down payment and up to 30 monthly indexed installments backed by a judicial mortgage registered at the 7th Land Registry)." },
+        { q: "How to hire Soares Martins Advogados for auction advisory?", a: "Contact our team via WhatsApp (+55 21 97954-9241) or email for a full feasibility audit and procedural representation." }
+      ]
+    }
+  },
+  'copacabana-siqueira-campos-143-apto-740': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana — Rua Siqueira Campos nº 143 — Apto 740',
+      subtitle: 'Rua Siqueira Campos, nº 143, Apto 740 — Copacabana, Rio de Janeiro/RJ | 44 m² • Posição Fundos • 2 Elevadores (Cap. 7 pessoas) • Edifício de 1970 com Lojas no Térreo • 5º RGI Matrícula 27773 • IPTU: 046100-9 • Avaliação R$ 390.000,00 • 2ª Praça a 50% por R$ 195.000,00',
+      address: 'Rua Siqueira Campos, 143, Apto 740 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '05/10/2026 às 14:00h',
+      p2Date: '08/10/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '046100-9',
+      rgi: '5º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 27773)',
+      val: 'R$ 390.000,00',
+      p2Val: 'R$ 195.000,00',
+      description: 'Apartamento residencial com 44 m² de área privativa edificada, situado na posição de fundos do 7º pavimento (unidade 740) do tradicional edifício na Rua Siqueira Campos nº 143, no coração residencial e comercial de Copacabana, Rio de Janeiro. Edifício construído em 1970, com fachada em argamassa e esquadrias de madeira, lojas comerciais no alinhamento da via pública no pavimento térreo, portaria simples com portão de ferro, paredes em argamassa e piso em marmorite sem modernização. O condomínio dispõe de 02 (dois) elevadores com capacidade para 07 pessoas cada. Imóvel sem vaga de garagem. Devidamente registrado no 5º Ofício do RGI sob a matrícula nº 27773 e IPTU nº 046100-9. Avaliação judicial homologada de R$ 390.000,00, com 2ª praça iniciando em 50% por R$ 195.000,00 (~R$ 4.431,81/m²), conferindo expressivo desconto de R$ 195.000,00 em Copacabana.',
+      checklist: defaultChecklist.pt,
+      modal: {
+        title: 'Resumo Estruturado do Edital — Rua Siqueira Campos 143 / Apto 740',
+        sections: [
+          { title: 'Identificação Imobiliária e Registro', text: 'Apartamento nº 740 do edifício na Rua Siqueira Campos nº 143, Copacabana, Rio de Janeiro/RJ. Registrado no 5º Ofício de Registro de Imóveis (5º RGI/RJ) sob a matrícula nº 27773 e inscrição fiscal (IPTU) nº 046100-9.' },
+          { title: 'Características do Imóvel e do Prédio', text: 'Posição de fundos, com área edificada de 44 m². Prédio erguido em 1970 com fachada em argamassa, janelas em esquadria de madeira, lojas comerciais no alinhamento térreo, 2 elevadores para 7 pessoas, portaria simples com portão de ferro, piso em marmorite sem modernização. Sem vaga de garagem.' },
+          { title: 'Avaliação Oficial e Cronograma das Praças', text: 'Avaliação judicial de R$ 390.000,00. 1º Leilão em 05/10/2026 às 14:00h (lance mínimo de 100% — R$ 390.000,00). 2º Leilão em 08/10/2026 às 14:00h com 50% de deságio (lance mínimo de R$ 195.000,00).' },
+          { title: 'Formas de Pagamento e Parcelamento (Art. 895 do CPC)', text: 'Pagamento à vista via depósito judicial no TJRJ ou mediante proposta formal de parcelamento com sinal mínimo de 25% e saldo em até 30 meses corrigidos por índice oficial, com hipoteca judicial na matrícula 27773.' },
+          { title: 'Desoneração Tributária e Assessoria Jurídica', text: 'Sub-rogação dos débitos de IPTU no preço da arrematação conforme o Art. 130 do Código Tributário Nacional. Auditoria completa de passivos e condução da posse por advogados especialistas.' }
+        ]
+      },
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo no leilão da Rua Siqueira Campos 143?", a: "O apartamento foi avaliado pela Justiça do Rio de Janeiro em R$ 390.000,00. No 1º leilão (05/10/2026 às 14:00h), o lance mínimo é de 100% (R$ 390.000,00). No 2º leilão (08/10/2026 às 14:00h), o valor tem redução obrigatória para 50%, partindo de R$ 195.000,00." },
+        { q: "Quais são as características da unidade 740 e do edifício?", a: "O apartamento tem 44 m² de área privativa na posição de fundos. O prédio foi construído em 1970, possui fachada em argamassa, janelas em esquadria de madeira, lojas comerciais no térreo, 2 elevadores para 7 pessoas e portaria simples com portão de ferro e piso em marmorite, sem garagem." },
+        { q: "Qual é o valor do m² na 2ª praça em Copacabana?", a: "Na 2ª praça, com o lance de R$ 195.000,00 para 44 m², o custo do metro quadrado é de aproximadamente R$ 4.431,81/m², um valor raríssimo para Copacabana, onde a média de mercado supera R$ 11.000,00 a R$ 14.000,00/m²." },
+        { q: "Posso parcelar a compra do imóvel no leilão?", a: "Sim. O Artigo 895 do CPC autoriza proposta por escrito de pagamento parcelado: entrada de no mínimo 25% à vista e o saldo restante em até 30 parcelas mensais corrigidas por índice da Justiça estadual, com garantia hipotecária sobre o imóvel averbada no 5º RGI." },
+        { q: "Como o escritório Soares Martins Advogados atua neste leilão?", a: "Conduzimos a auditoria jurídica preventiva de certidões cíveis, fiscais e da Matrícula 27773 do 5º RGI, calculamos o lance seguro, acompanhamos o leiloeiro, providenciamos a homologação no TJRJ, o registro da carta de arrematação e o mandado de imissão na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Copacabana — Rua Siqueira Campos nº 143 — Apto 740',
+      subtitle: 'Rua Siqueira Campos, nº 143, Apto 740 — Copacabana, Río de Janeiro/RJ | 44 m² • Interior (Fundos) • 2 Ascensores (Cap. 7 personas) • Edificio de 1970 con Tiendas en Planta Baja • 5º Registro Matrícula 27773 • IPTU: 046100-9 • Tasación R$ 390.000,00 • 2ª Subasta al 50% por R$ 195.000,00',
+      address: 'Rua Siqueira Campos, 143, Apto 740 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '05/10/2026 a las 14:00h',
+      p2Date: '08/10/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+      iptu: '046100-9',
+      rgi: '5º Oficio de Registro de Inmuebles de Río de Janeiro (Matrícula nº 27773)',
+      val: 'R$ 390.000,00',
+      p2Val: 'R$ 195.000,00 (50% de la tasación)',
+      description: 'Apartamento residencial de 44 m² de superficie privativa construida, situado en la posición de fundos (interior) de la 7ª planta (unidad 740) en el edificio de Rua Siqueira Campos nº 143, en el corazón residencial y comercial de Copacabana, Río de Janeiro. Edificio construido en 1970 con fachada en mortero, carpintería de madera, locales comerciales en planta baja, 2 ascensores para 7 personas y portería sencilla con verja de hierro y suelo de marmorita sin modernizar. Sin plaza de garaje. Registrado en el 5º RGI con la matrícula 27773 e IPTU nº 046100-9. Tasación judicial de R$ 390.000,00 y 2ª subasta al 50% por R$ 195.000,00 (~R$ 4.431,81/m²), ofreciendo un ahorro extraordinario de R$ 195.000,00 en Copacabana.',
+      checklist: defaultChecklist.es,
+      modal: {
+        title: 'Resumen Estructurado del Edicto — Rua Siqueira Campos 143 / Apto 740',
+        sections: [
+          { title: 'Identificación Inmobiliaria y Registral', text: 'Apartamento 740 en Rua Siqueira Campos nº 143, Copacabana, Río de Janeiro/RJ. Registrado en el 5º Oficio de Registro de Inmuebles bajo la matrícula nº 27773 e inscripción municipal (IPTU) nº 046100-9.' },
+          { title: 'Características y Edificación', text: 'Posición interior (fundos) con 44 m² de superficie edificada. Edificio de 1970 con fachada de mortero, ventanas de madera, locales comerciales en planta baja, 2 ascensores para 7 pasajeros, portal sencillo con suelo de marmorita. Sin garaje.' },
+          { title: 'Tasación y Fechas de Subasta', text: 'Tasación oficial de R$ 390.000,00. 1ª Subasta el 05/10/2026 a las 14:00h (100% — R$ 390.000,00). 2ª Subasta el 08/10/2026 a las 14:00h con 50% de descuento (R$ 195.000,00).' },
+          { title: 'Condiciones de Pago y Fraccionamiento (Art. 895 CPC)', text: 'Pago al contado o propuesta de pago a plazos según el Art. 895 del CPC: 25% de entrada y saldo hasta en 30 mensualidades indexadas con hipoteca judicial en el 5º RGI.' },
+          { title: 'Saneamiento Jurídico y Posesión', text: 'Subrogación legal de impuestos municipales (Art. 130 CTN) en el precio y acompañamiento por abogados especializados hasta la entrega formal de llaves.' }
+        ]
+      },
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y el lance mínimo en Rua Siqueira Campos 143?", a: "La tasación judicial es de R$ 390.000,00. En 1ª subasta (05/10/2026 a las 14:00h) el precio de salida es del 100% (R$ 390.000,00). En 2ª subasta (08/10/2026 a las 14:00h) el lance inicial es de R$ 195.000,00 (50% de descuento)." },
+        { q: "¿Cuáles son las características del apartamento y del edificio?", a: "Tiene 44 m² privativos, posición interior en 7ª planta. Edificio construido en 1970, fachada de mortero, ventanas de madera, locales comerciales en planta baja, 2 ascensores para 7 personas y portal sencillo con suelo de marmorita, sin plaza de garaje." },
+        { q: "¿Cuál es el valor del m² en 2ª subasta en Copacabana?", a: "A R$ 195.000,00 por 44 m², el coste es de aproximadamente R$ 4.431,81 por metro cuadrado, un valor excepcional en Copacabana donde el mercado libre supera R$ 11.000/m²." },
+        { q: "¿Se puede pagar a plazos según el Art. 895 del CPC?", a: "Sí, se puede presentar propuesta con 25% de entrada al contado y hasta 30 cuotas mensuales indexadas con garantía hipotecaria judicial sobre la matrícula 27773 del 5º RGI." },
+        { q: "¿Cómo asesora Soares Martins Advogados al inversor?", a: "Realizamos la due diligence registral y fiscal completa, estructuramos la puja o propuesta fraccionada, tramitamos la adjudicación en el TJRJ y gestionamos el mandamiento de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Copacabana — Rua Siqueira Campos #143 — Apt 740',
+      subtitle: 'Rua Siqueira Campos #143, Apt 740 — Copacabana, Rio de Janeiro/RJ | 44 sqm • Rear Facing • 2 Elevators (Cap. 7 passengers) • 1970s Building with Retail Ground Floor • 5th Land Registry Title #27773 • IPTU: 046100-9 • Appraisal R$ 390,000.00 • 2nd Auction at 50% for R$ 195,000.00',
+      address: 'Rua Siqueira Campos, 143, Apt 740 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '10/05/2026 at 2:00 PM',
+      p2Date: '10/08/2026 at 2:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '046100-9',
+      rgi: '5th Land Registry Office of Rio de Janeiro (Title #27773)',
+      val: 'R$ 390,000.00',
+      p2Val: 'R$ 195,000.00 (50% starting bid / 50% discount)',
+      description: 'Residential 44 sqm (473 sq ft) apartment situated on the rear-facing position of the 7th floor (Unit 740) at Rua Siqueira Campos #143, in prime Copacabana, Rio de Janeiro. Established 1970 building with plaster mortar facade, classic wooden windows, street-front commercial shops on the ground level, 2 elevators with 7-person capacity each, and a simple entrance hall with iron gate and marmorite flooring without modernization. No parking space. Fully registered at the 5th Land Registry Office under Title #27773 and municipal tax IPTU #046100-9. Official court appraisal of R$ 390,000.00 with 2nd Auction starting at 50% for R$ 195,000.00 (~R$ 4,431.81/sqm), offering an immediate R$ 195,000.00 discount in Copacabana.',
+      checklist: defaultChecklist.en,
+      modal: {
+        title: 'Structured Notice Summary — Rua Siqueira Campos 143 / Apt 740',
+        sections: [
+          { title: 'Registry & Tax Identification', text: 'Apartment 740 at Rua Siqueira Campos #143, Copacabana, Rio de Janeiro/RJ. Registered at the 5th Land Registry Office under Title #27773 and municipal tax IPTU #046100-9.' },
+          { title: 'Property & Building Characteristics', text: 'Rear-facing unit with 44 sqm of private built area. 1970 building with plaster mortar exterior, wooden window frames, street-level retail stores, 2 elevators for 7 passengers, iron entrance gate, and marmorite floor. No parking space.' },
+          { title: 'Appraisal & Auction Dates', text: 'Court appraisal of R$ 390,000.00. 1st Auction on 10/05/2026 at 2:00 PM (100% — R$ 390,000.00). 2nd Auction on 10/08/2026 at 2:00 PM with 50% discount (starting bid of R$ 195,000.00).' },
+          { title: 'Payment & Installment Options (CPC Art. 895)', text: 'Single cash payment or judicial installment proposal under CPC Art. 895: 25% down payment and up to 30 monthly indexed installments secured by court mortgage on Title #27773.' },
+          { title: 'Tax Clearance & Legal Advisory', text: 'Municipal taxes subrogate into the auction proceeds under Art. 130 of the National Tax Code. Comprehensive due diligence and possession handover by specialized Rio auction attorneys.' }
+        ]
+      },
+      faqs: [
+        { q: "What is the official appraisal and minimum bid for Rua Siqueira Campos 143 Apt 740?", a: "Official court appraisal is R$ 390,000.00. 1st Auction (10/05/2026 at 2:00 PM) starts at 100% (R$ 390,000.00). 2nd Auction (10/08/2026 at 2:00 PM) features a 50% discount, starting at R$ 195,000.00." },
+        { q: "What are the building and apartment specifications?", a: "44 sqm private area, rear-facing on the 7th floor. Built in 1970, plaster mortar facade, wooden window frames, ground-floor shops, 2 elevators (7-person capacity), iron gate, and marmorite flooring. No parking space." },
+        { q: "What is the cost per square meter in the 2nd auction in Copacabana?", a: "At R$ 195,000.00 for 44 sqm, the acquisition cost is approximately R$ 4,431.81/sqm (~$780 USD/sqm), an exceptional value for Copacabana where standard market rates exceed R$ 11,000 to R$ 14,000/sqm." },
+        { q: "Can buyers acquire via judicial installments?", a: "Yes, under CPC Art. 895, investors can submit written installment proposals: minimum 25% down payment and up to 30 monthly indexed installments secured by a mortgage registered on Title #27773." },
+        { q: "How does Soares Martins Advogados assist the bidder?", a: "We conduct full title and tax due diligence, verify pending condominium obligations, structure auction bids or installment offers, secure court homologation, and obtain the writ of possession for immediate handover." }
+      ]
+    }
+  },
+  'copacabana-barao-de-ipanema-105-apto-604': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana — Rua Barão de Ipanema nº 105 — Apto 604',
+      subtitle: 'Rua Barão de Ipanema, nº 105, Apto 604 — Copacabana, Rio de Janeiro/RJ | 70 m² • Edifício Carmem D´Almeida (1971) • Portaria 24h • 3 Elevadores (2 Sociais e 1 de Serviço) • Play e Câmeras de Vigilância • 5º RGI Matrícula 31.436 • IPTU: 0.984.275-8 • Avaliação R$ 750.000,00 • 2ª Praça a 50% por R$ 375.000,00',
+      address: 'Rua Barão de Ipanema, 105, Apto 604 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '14/10/2026 às 14:00h',
+      p2Date: '21/10/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.984.275-8',
+      rgi: '5º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 31.436)',
+      val: 'R$ 750.000,00',
+      p2Val: 'R$ 375.000,00 (50% da avaliação)',
+      description: 'Apartamento residencial com 70 m² de área privativa edificada, situado no 6º pavimento (unidade 604) do Edifício Condomínio Carmem D´Almeida, situado na Rua Barão de Ipanema nº 105, em Copacabana, Rio de Janeiro/RJ. Prédio estritamente residencial construído em 1971 no alinhamento da via pública, dispondo de sólida infraestrutura: portaria 24 horas, três elevadores (sendo dois sociais e um de serviço), playground (play) e moderno sistema de câmeras de vigilância interna e perimetral (CFTV). Imóvel devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis sob a matrícula 31.436 e inscrição municipal (IPTU) sob o nº 0.984.275-8. Avaliado judicialmente em R$ 750.000,00, a segunda praça terá início por 50% do valor da avaliação (R$ 375.000,00), representando um custo efetivo de R$ 5.357,14 por metro quadrado em ponto nobre de Copacabana.',
+      checklist: defaultChecklist.pt,
+      modal: {
+        title: 'Resumo Estruturado do Edital — Rua Barão de Ipanema 105 / Apto 604',
+        sections: [
+          { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 604 no Edifício Carmem D´Almeida, Rua Barão de Ipanema nº 105, Copacabana, Rio de Janeiro/RJ. Registrado, dimensionado e caracterizado no Cartório do 5º Ofício de Registro de Imóveis (5º RGI) sob a matrícula nº 31.436 e inscrição cadastral municipal (IPTU) nº 0.984.275-8.' },
+          { title: 'Edificação e Infraestrutura do Condomínio', text: 'Imóvel com 70 m² de área edificada. Prédio residencial construído em 1971 no alinhamento da via pública, dispondo de portaria 24 horas, três elevadores (dois sociais e um de serviço), playground (área de lazer comum) e circuito de vigilância por câmeras (CFTV).' },
+          { title: 'Avaliação Judicial e Praças do Leilão', text: 'Avaliação homologada de R$ 750.000,00. 1º Leilão em 14/10/2026 às 14:00h (lance mínimo de 100% — R$ 750.000,00). 2º Leilão em 21/10/2026 às 14:00h com 50% de deságio (lance mínimo de R$ 375.000,00), gerando economia direta de R$ 375.000,00.' },
+          { title: 'Modalidades de Pagamento e Parcelamento (Art. 895 do CPC)', text: 'Pagamento à vista via depósito judicial vinculado aos autos do TJRJ ou proposta por escrito de parcelamento judicial: entrada de no mínimo 25% (R$ 93.750,00) e saldo em até 30 parcelas mensais corrigidas, com garantia hipotecária registrada na matrícula 31.436.' },
+          { title: 'Desoneração Tributária e Suporte Jurídico Especializado', text: 'Sub-rogação dos débitos de IPTU no preço da arrematação conforme o Art. 130 do CTN. Auditoria completa de certidões, cálculo de condomínio, homologação judicial da carta de arrematação e expedição do mandado de imissão na posse.' }
+        ]
+      },
+      faqs: [
+        { q: "Qual é o valor de avaliação e o lance mínimo no leilão da Rua Barão de Ipanema 105 Apto 604?", a: "O imóvel foi avaliado pela perícia judicial em R$ 750.000,00. No 1º leilão (14/10/2026 às 14:00h), o lance mínimo é o valor integral da avaliação (R$ 750.000,00). No 2º leilão (21/10/2026 às 14:00h), o lance inicial é de 50% da avaliação, ou seja, R$ 375.000,00, gerando um desconto judicial de R$ 375.000,00." },
+        { q: "Quais são as características do apartamento 604 e do Edifício Carmem D´Almeida?", a: "O apartamento conta com 70 m² de área privativa edificada no 6º pavimento. O Edifício Condomínio Carmem D´Almeida foi construído em 1971, situa-se no alinhamento da via pública, é estritamente residencial e conta com infraestrutura diferenciada: portaria 24 horas, três elevadores (dois sociais e um de serviço), playground (play) e sistema completo de câmeras de vigilância." },
+        { q: "Qual é o custo por metro quadrado na 2ª praça deste leilão em Copacabana?", a: "Com lance inicial de R$ 375.000,00 para 70 m², o custo de aquisição é de apenas R$ 5.357,14 por metro quadrado. Em Copacabana, especialmente no trecho nobre da Barão de Ipanema entre a Av. N. Sra. de Copacabana e a Av. Atlântica (Posto 4/Posto 5), os imóveis usados são transacionados habitualmente entre R$ 11.500,00 e R$ 16.000,00/m², conferindo excelente margem de segurança patrimonial." },
+        { q: "É possível comprar este apartamento parcelado pela Justiça?", a: "Sim. O Artigo 895 do Código de Processo Civil autoriza a apresentação de proposta formal de parcelamento judicial: pagamento de 25% de entrada à vista (R$ 93.750,00 na 2ª praça) e o saldo restante parcelado em até 30 meses corrigidos por índice oficial da Justiça, com caução hipotecária constituída e registrada na matrícula 31.436 do 5º RGI." },
+        { q: "Como a assessoria jurídica do escritório Soares Martins Advogados protege o arrematante?", a: "Nossa equipe realiza o levantamento prévio de certidões cíveis e fiscais, audita eventuais débitos condominiais perante a administração do Condomínio Carmem D´Almeida, assegura a aplicação do Artigo 130 do CTN para abatimento de débitos fiscais, acompanha o ato de leilão, recolhe guias de ITBI carioca e atua no TJRJ até a entrega efetiva das chaves e posse do imóvel." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Copacabana — Rua Barão de Ipanema nº 105 — Apto 604',
+      subtitle: 'Rua Barão de Ipanema, nº 105, Apto 604 — Copacabana, Río de Janeiro/RJ | 70 m² • Edificio Carmem D´Almeida (1971) • Portería 24h • 3 Ascensores • Play y Cámaras de Vigilancia • 5º Registro Matrícula 31.436 • IPTU: 0.984.275-8 • Tasación R$ 750.000,00 • 2ª Subasta al 50% por R$ 375.000,00',
+      address: 'Rua Barão de Ipanema, 105, Apto 604 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '14/10/2026 a las 14:00h',
+      p2Date: '21/10/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.984.275-8',
+      rgi: '5º Oficio de Registro de Inmuebles de Río de Janeiro (Matrícula nº 31.436)',
+      val: 'R$ 750.000,00',
+      p2Val: 'R$ 375.000,00 (50% de la tasación)',
+      description: 'Apartamento residencial de 70 m² de superficie privativa construida, situado en la 6ª planta (unidad 604) del Edificio Condominio Carmem D´Almeida, en Rua Barão de Ipanema nº 105, Copacabana, Río de Janeiro/RJ. Edificio residencial de 1971 en el alineamiento de la vía pública, con portería 24 horas, tres ascensores (dos sociales y uno de servicio), zona recreativa infantil (play) y cámaras de seguridad (CCTV). Registrado en el 5º RGI bajo la matrícula 31.436 e inscripción fiscal 0.984.275-8. Tasación judicial de R$ 750.000,00 con 2ª subasta al 50% por R$ 375.000,00 (~R$ 5.357,14/m²).',
+      checklist: defaultChecklist.es,
+      modal: {
+        title: 'Resumen Estructurado del Edicto — Rua Barão de Ipanema 105 / Apto 604',
+        sections: [
+          { title: 'Identificación Inmobiliaria y Registral', text: 'Apartamento 604 en Edificio Carmem D´Almeida, Rua Barão de Ipanema nº 105, Copacabana, Río de Janeiro/RJ. 5º Oficio de Registro de Inmuebles, matrícula nº 31.436, IPTU nº 0.984.275-8.' },
+          { title: 'Características e Infraestructura', text: '70 m² privativos en 6ª planta. Edificio residencial de 1971 con portería 24 horas, 3 ascensores (dos sociales y uno de servicio), playground y circuito cerrado de cámaras CCTV.' },
+          { title: 'Tasación y Fechas de Subasta', text: 'Tasación oficial de R$ 750.000,00. 1ª Subasta el 14/10/2026 a las 14:00h (100% — R$ 750.000,00). 2ª Subasta el 21/10/2026 a las 14:00h al 50% (R$ 375.000,00).' },
+          { title: 'Condiciones de Pago y Fraccionamiento (Art. 895 CPC)', text: 'Pago de contado o propuesta de fraccionamiento: 25% de anticipo al contado (R$ 93.750,00) y hasta 30 cuotas mensuales indexadas con hipoteca judicial en la matrícula 31.436.' },
+          { title: 'Saneamiento Jurídico y Posesión', text: 'Subrogación legal de impuestos municipales (Art. 130 CTN) en el precio de subasta y acompañamiento por abogados expertos hasta la entrega de llaves.' }
+        ]
+      },
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y el precio de salida en Rua Barão de Ipanema 105?", a: "La tasación judicial es de R$ 750.000,00. En la 1ª subasta (14/10/2026 a las 14:00h) el valor inicial es del 100% (R$ 750.000,00). En la 2ª subasta (21/10/2026 a las 14:00h) el precio de salida es del 50%, partiendo de R$ 375.000,00." },
+        { q: "¿Qué infraestructura ofrece el Edificio Carmem D´Almeida?", a: "El edificio residencial data de 1971 y ofrece portería 24 horas, tres ascensores (dos sociales y uno de servicio), zona recreativa infantil (play) y circuito cerrado de cámaras de vigilancia." },
+        { q: "¿Cuál es el valor del metro cuadrado en la 2ª subasta?", a: "A R$ 375.000,00 por 70 m², el coste es de apenas R$ 5.357,14/m², muy inferior a los R$ 11.500 a R$ 16.000/m² habituales en Copacabana." },
+        { q: "¿Se puede abonar en cuotas judiciales según el Art. 895 del CPC?", a: "Sí, mediante propuesta escrita con 25% de entrada (R$ 93.750,00 en 2ª subasta) y el resto hasta en 30 mensualidades indexadas con garantía hipotecaria judicial sobre la matrícula 31.436." },
+        { q: "¿Cómo actúa Soares Martins Advogados para blindar la operación?", a: "Efectuamos la due diligence jurídica de gravámenes, comprobamos deudas de condominio y tributarias, estructuramos la puja o propuesta fraccionada y tramitamos el mandamiento de posesión." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Copacabana — Rua Barão de Ipanema #105 — Apt 604',
+      subtitle: 'Rua Barão de Ipanema #105, Apt 604 — Copacabana, Rio de Janeiro/RJ | 70 sqm • Carmem D´Almeida Building (1971) • 24h Concierge • 3 Elevators • Playground & CCTV • 5th Registry Title #31.436 • IPTU: 0.984.275-8 • Appraisal R$ 750,000.00 • 2nd Auction at 50% for R$ 375,000.00',
+      address: 'Rua Barão de Ipanema, 105, Apt 604 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '10/14/2026 at 2:00 PM',
+      p2Date: '10/21/2026 at 2:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.984.275-8',
+      rgi: '5th Land Registry Office of Rio de Janeiro (Title #31.436)',
+      val: 'R$ 750,000.00',
+      p2Val: 'R$ 375,000.00 (50% starting bid / 50% discount)',
+      description: 'Residential 70 sqm (753 sq ft) apartment located on the 6th floor (Unit 604) of Condomínio Edifício Carmem D´Almeida, at Rua Barão de Ipanema #105, in Copacabana, Rio de Janeiro/RJ. Exclusively residential building constructed in 1971 at street alignment, offering robust infrastructure: 24-hour concierge, three elevators (two passenger and one service), community playground, and full CCTV surveillance system. Title #31.436 registered at the 5th Land Registry Office, municipal IPTU tax #0.984.275-8. Appraised by court experts at R$ 750,000.00, with 2nd Auction starting at 50% for R$ 375,000.00 (~R$ 5,357.14/sqm / ~$945 USD/sqm) in prime Copacabana.',
+      checklist: defaultChecklist.en,
+      modal: {
+        title: 'Structured Notice Summary — Rua Barão de Ipanema 105 / Apt 604',
+        sections: [
+          { title: 'Registry & Tax Identification', text: 'Apartment #604 in Edifício Carmem D´Almeida, Rua Barão de Ipanema #105, Copacabana, Rio de Janeiro/RJ. 5th Land Registry Office Title #31.436, IPTU tax #0.984.275-8.' },
+          { title: 'Building Infrastructure & Specifications', text: '70 sqm private area on the 6th floor. 1971 residential building with 24-hour doorman, 3 elevators (2 passenger and 1 service), children playground, and 24/7 CCTV surveillance cameras.' },
+          { title: 'Appraisal & Auction Schedule', text: 'Court appraisal of R$ 750,000.00. 1st Auction on 10/14/2026 at 2:00 PM (100% — R$ 750,000.00). 2nd Auction on 10/21/2026 at 2:00 PM with 50% discount (starting at R$ 375,000.00).' },
+          { title: 'Payment Terms & Judicial Installments (CPC Art. 895)', text: 'Single cash payment or judicial installment proposal under CPC Art. 895: 25% down payment (R$ 93,750.00) and up to 30 monthly indexed installments secured by court mortgage on Title #31.436.' },
+          { title: 'Tax Subrogation & Legal Advisory', text: 'Municipal taxes subrogate into the auction proceeds per Art. 130 of the National Tax Code. Full due diligence, judicial deed registration, and possession enforcement by specialized attorneys.' }
+        ]
+      },
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Rua Barão de Ipanema 105 Apt 604?", a: "Official court appraisal is R$ 750,000.00. 1st Auction (10/14/2026 at 2:00 PM) opens at 100% (R$ 750,000.00). 2nd Auction (10/21/2026 at 2:00 PM) starts at 50%, with opening bid of R$ 375,000.00." },
+        { q: "What amenities does the Carmem D´Almeida building offer?", a: "Built in 1971, the building features 24-hour concierge/security, 3 elevators (2 passenger and 1 service), a community playground, and full CCTV surveillance cameras." },
+        { q: "What is the cost per square meter in the 2nd auction?", a: "At R$ 375,000.00 for 70 sqm, the price is approximately R$ 5,357.14 per square meter (~$945 USD/sqm), far below typical Copacabana market prices ranging from R$ 11,500 to R$ 16,000/sqm." },
+        { q: "Can buyers purchase via court-approved installments?", a: "Yes, under CPC Art. 895, investors can submit written installment bids: 25% cash down payment (R$ 93,750.00 in 2nd auction) and up to 30 monthly indexed installments secured by a court mortgage on Title #31.436." },
+        { q: "How does Soares Martins Advogados protect the investor?", a: "We conduct exhaustive title due diligence, verify condo arrears, ensure property tax subrogation under Art. 130 CTN, submit formal bids or installment offers, and handle judicial possession takeover." }
+      ]
+    }
+  },
+  'niteroi-duque-estrada-169-bloco-3-apto-402': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloco 3, Apto 402',
+      subtitle: 'Rua Vereador Duque Estrada, nº 169, Bloco 03, Apto 402 — Santa Rosa, Niterói/RJ | 138 m² • Living e Sala de Jantar • 2 Quartos • Copa-Cozinha • Varanda • Dependência Completa • 1 Vaga • Condomínio Clube com 2 Piscinas, Academia, Salão com Churrasqueira, Jogos e Portaria 24h • 8º RGI Matrícula 15.819 • IPTU: 824741 • Avaliação R$ 470.000,00 • 2ª Praça a 50% por R$ 235.000,00',
+      address: 'Rua Vereador Duque Estrada, nº 169, Bloco 03, Apto 402 — Santa Rosa, Niterói - RJ',
+      p1Date: '22/09/2026 às 14:00h',
+      p2Date: '24/09/2026 às 14:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca de Niterói',
+      iptu: '824741',
+      rgi: '8º Ofício de Registro de Imóveis (Matrícula nº 15.819)',
+      val: 'R$ 470.000,00',
+      p2Val: 'R$ 235.000,00 (50% da avaliação)',
+      description: 'Amplo apartamento residencial com 138 m² de área privativa edificada, situado no 4º andar (unidade 402 do Bloco 03) de conceituado condomínio edilício na Rua Vereador Duque Estrada nº 169, no tradicional e valorizado bairro de Santa Rosa, em Niterói/RJ. Imóvel generoso e muito bem distribuído em living e sala de jantar, dois quartos confortáveis, banheiro social, copa e cozinha integradas, varanda arejada, área de serviço separada, quarto e banheiro de empregada (dependência completa de serviço), com direito privativo a 1 (uma) vaga de garagem no estacionamento do condomínio. O condomínio é composto por 4 blocos, sendo que o Bloco 3 possui 5 andares (apenas 4 apartamentos por pavimento mais 2 coberturas), fachada totalmente revestida em pastilha e 1 elevador. Estrutura completa de lazer e segurança com portaria presencial 24 horas, monitoramento por circuito de câmeras (CFTV), amplo estacionamento, áreas verdes ajardinadas, 2 piscinas (adulto e infantil), salão de festas com churrasqueira gourmet equipada, sala de jogos e academia de ginástica. Imóvel devidamente registrado, dimensionado e caracterizado no 8º Ofício de Registro de Imóveis sob a matrícula nº 15.819 e inscrição cadastral municipal (IPTU) nº 824741. Avaliado judicialmente em R$ 470.000,00, a segunda praça terá como início 50% do valor da avaliação (R$ 235.000,00), conferindo um custo por metro quadrado excepcional de apenas R$ 1.702,89/m² em Santa Rosa.',
+      checklist: defaultChecklist.pt,
+      modal: {
+        title: 'Resumo Estruturado do Edital — Rua Vereador Duque Estrada 169 / Bl 3 Apto 402',
+        sections: [
+          { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 402 do Bloco 03, Rua Vereador Duque Estrada nº 169, Santa Rosa, Niterói/RJ. Registrado, dimensionado e caracterizado no Cartório do 8º Ofício de Registro de Imóveis sob a matrícula nº 15.819 e inscrição municipal de IPTU nº 824741.' },
+          { title: 'Tipologia e Distribuição Interna (138 m²)', text: 'Apartamento de 138 m² composto por living e sala de jantar, dois dormitórios, banheiro social, copa, cozinha, varanda, área de serviço, quarto e banheiro de empregada, com direito a 1 (uma) vaga de garagem.' },
+          { title: 'Condomínio e Infraestrutura Completa', text: 'Condomínio com 4 prédios. O Bloco 3 possui 5 andares (4 aptos por andar + 2 coberturas), fachada em pastilhas e 1 elevador. O condomínio dispõe de portaria 24 horas com funcionário, sistema de CFTV, estacionamento, jardim, 2 piscinas (adulto e infantil), salão de festas com churrasqueira, sala de jogos e academia.' },
+          { title: 'Avaliação Judicial e Praças de Leilão', text: 'Avaliação judicial de R$ 470.000,00. 1º Leilão em 22/09/2026 às 14:00h (lance mínimo integral de R$ 470.000,00). 2º Leilão em 24/09/2026 às 14:00h com deságio de 50% (lance mínimo de R$ 235.000,00), propiciando economia direta de R$ 235.000,00.' },
+          { title: 'Modalidades de Pagamento e Parcelamento (Art. 895 CPC)', text: 'Pagamento à vista via guia judicial no TJRJ ou proposta formal de parcelamento nos moldes do Artigo 895 do CPC: 25% de sinal (R$ 58.750,00 na 2ª praça) e saldo em até 30 parcelas mensais corrigidas com hipoteca judicial averbada na matrícula nº 15.819 do 8º RGI.' },
+          { title: 'Auditoria Jurídica e Desoneração Fiscal', text: 'Sub-rogação dos débitos de IPTU no preço arrecadado conforme o Artigo 130 do CTN, auditoria preventiva das taxas condominiais, homologação judicial da carta de arrematação e acompanhamento até a expedição e cumprimento do mandado de imissão na posse.' }
+        ]
+      },
+      faqs: [
+        { q: "Qual é a avaliação oficial e os lances mínimos deste leilão em Santa Rosa / Niterói?", a: "O imóvel foi avaliado judicialmente em R$ 470.000,00. No 1º leilão (22/09/2026 às 14:00h), o lance mínimo corresponde ao valor total da avaliação de R$ 470.000,00. No 2º leilão (24/09/2026 às 14:00h), o lance de abertura tem 50% de abatimento, saindo por R$ 235.000,00, gerando um deságio imediato de R$ 235.000,00." },
+        { q: "Quais são as dimensões e os cômodos do apartamento 402 no Bloco 3?", a: "O imóvel conta com expressivos 138 m² de área privativa edificada. A planta é distribuída em living espaçoso integrado à sala de jantar, dois quartos, banheiro social, copa, cozinha, varanda, área de serviço independente, quarto e banheiro de empregada (dependência de serviço completa), além do direito a 1 vaga de garagem." },
+        { q: "Quais são as comodidades e itens de lazer do condomínio na Duque Estrada 169?", a: "O condomínio edilício conta com 4 edifícios. O Bloco 3 tem 5 andares, fachada moderna em pastilhas e elevador. O condomínio oferece portaria 24 horas presencial, sistema de monitoramento por câmeras, estacionamento, amplos jardins, 2 piscinas (adulto e infantil), salão de festas com churrasqueira, sala de jogos e academia montada." },
+        { q: "Qual é o valor por metro quadrado na 2ª praça em comparação com o mercado de Santa Rosa?", a: "A arrematação em 2ª praça por R$ 235.000,00 para 138 m² com vaga e lazer resulta em apenas R$ 1.702,89 por metro quadrado. Em Santa Rosa e na divisa com Icaraí, imóveis com essa metragem e estrutura de lazer são comercializados habitualmente na faixa de R$ 4.500,00 a R$ 6.800,00/m², conferindo uma margem de segurança e rentabilidade patrimonial excepcional." },
+        { q: "É possível comprar este imóvel de forma parcelada pela Justiça?", a: "Sim. O Artigo 895 do CPC permite o envio prévio de proposta formal de parcelamento ao juízo antes do início de cada leilão: entrada de 25% (R$ 58.750,00 na 2ª praça) e o restante dividido em até 30 meses corrigidos por índice oficial da Justiça, com hipoteca judicial registrada na matrícula 15.819 do 8º RGI." },
+        { q: "Como o escritório Soares Martins Advogados assegura a arrematação sem surpresas?", a: "Nossa banca analisa a íntegra dos autos na Comarca de Niterói, audita a matrícula 15.819 no 8º RGI, levanta a situação de IPTU (inscrição 824741) para assegurar a sub-rogação do Art. 130 do CTN, notifica o condomínio para certidão de quitação e conduz todo o processo até a imissão definitiva na posse." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloque 3, Apto 402',
+      subtitle: 'Rua Vereador Duque Estrada, nº 169, Bl 03, Apto 402 — Santa Rosa, Niterói/RJ | 138 m² • Living y Comedor • 2 Dormitorios • Balcón • Dependencia Completa • 1 Garaje • Condominio con 2 Piscinas, Gimnasio, Barbacoa y Portería 24h • 8º Registro Matrícula 15.819 • IPTU: 824741 • Tasación R$ 470.000,00 • 2ª Subasta al 50% por R$ 235.000,00',
+      address: 'Rua Vereador Duque Estrada, nº 169, Bloco 03, Apto 402 — Santa Rosa, Niterói - RJ',
+      p1Date: '22/09/2026 a las 14:00h',
+      p2Date: '24/09/2026 a las 14:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de Niterói',
+      iptu: '824741',
+      rgi: '8º Oficio de Registro de Inmuebles (Matrícula nº 15.819)',
+      val: 'R$ 470.000,00',
+      p2Val: 'R$ 235.000,00 (50% de la tasación)',
+      description: 'Amplio apartamento residencial de 138 m² privativos en 4ª planta (Apto 402 del Bloque 3) en Rua Vereador Duque Estrada nº 169, Santa Rosa, Niterói/RJ. Distribuido en living y comedor, 2 dormitorios, baño social, cocina con office, balcón, área de servicio, dormitorio y baño de servicio (dependencia completa), con derecho a 1 plaza de garaje. Condominio de 4 edificios con fachada de gresite, portería 24h, cámaras CCTV, estacionamiento, jardines, 2 piscinas (adultos e infantil), salón de eventos con barbacoa, sala de juegos y gimnasio. 8º Registro de Inmuebles Matrícula 15.819 e IPTU 824741. Tasación judicial de R$ 470.000,00 y 2ª subasta al 50% por R$ 235.000,00 (~R$ 1.702,89/m²).',
+      checklist: defaultChecklist.es,
+      modal: {
+        title: 'Resumen Estructurado del Edicto — Rua Vereador Duque Estrada 169 / Bl 3 Apto 402',
+        sections: [
+          { title: 'Identificación Inmobiliaria y Registral', text: 'Apartamento 402 del Bloque 3, Rua Vereador Duque Estrada nº 169, Santa Rosa, Niterói/RJ. 8º Oficio de Registro de Inmuebles, matrícula nº 15.819, IPTU municipal nº 824741.' },
+          { title: 'Distribución Interior (138 m²)', text: '138 m² de superficie edificada: living y comedor, 2 habitaciones, baño social, cocina-comedor, terraza, lavadero, cuarto y baño de servicio, y 1 plaza de garaje en el condominio.' },
+          { title: 'Infraestructura y Zonas Comunes', text: 'Bloque 3 de 5 plantas con fachada de gresite y ascensor. El complejo cuenta con portería 24h, circuito cerrado de cámaras, jardines, 2 piscinas (adultos y niños), barbacoa, salón de fiestas, sala de juegos y gimnasio.' },
+          { title: 'Fechas y Precios de Subasta', text: 'Tasación de R$ 470.000,00. 1ª Subasta el 22/09/2026 a las 14:00h (100% — R$ 470.000,00). 2ª Subasta el 24/09/2026 a las 14:00h al 50% (R$ 235.000,00).' },
+          { title: 'Propuesta de Fraccionamiento Judicial (Art. 895 CPC)', text: 'Pago al contado o propuesta fraccionada: 25% de entrada (R$ 58.750,00 en 2ª subasta) y saldo hasta en 30 mensualidades corregidas con garantía hipotecaria sobre la matrícula 15.819.' },
+          { title: 'Saneamiento y Asesoría Especializada', text: 'Subrogación legal de tributos (Art. 130 CTN) en el importe de remate, verificación de expensas de condominio y gestión de la toma de posesión judicial.' }
+        ]
+      },
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y el precio inicial en Santa Rosa / Niterói?", a: "La tasación judicial es de R$ 470.000,00. En la 1ª subasta (22/09/2026 a las 14:00h) el precio es de R$ 470.000,00. En la 2ª subasta (24/09/2026 a las 14:00h) se aplica el 50% de descuento, partiendo de R$ 235.000,00." },
+        { q: "¿Cómo está distribuido el apartamento de 138 m²?", a: "Cuenta con living y comedor, dos dormitorios, baño social, cocina con zona de comedor diario, balcón, lavadero independiente, habitación y baño de servicio, y 1 plaza de garaje asignada." },
+        { q: "¿Qué zonas de ocio ofrece el condominio?", a: "Condominio cerrado con portón y portero 24 horas, cámaras, estacionamiento, jardines, 2 piscinas (adultos y niños), salón con barbacoa, sala de juegos y gimnasio." },
+        { q: "¿Cuál es el valor del metro cuadrado en la 2ª subasta?", a: "A R$ 235.000,00 por 138 m², el coste es de solo R$ 1.702,89/m², muy inferior a los R$ 4.500 a R$ 6.800/m² habituales en Santa Rosa e Icaraí." },
+        { q: "¿Se puede adquirir mediante pago fraccionado judicial?", a: "Sí, a través del Art. 895 del CPC: 25% de anticipo (R$ 58.750,00 en 2ª subasta) y el resto hasta en 30 cuotas mensuales indexadas con hipoteca judicial en el 8º RGI." },
+        { q: "¿Cómo protege al comprador la asesoría de Soares Martins Advogados?", a: "Efectuamos el análisis integral del expediente, verificamos la matrícula 15.819 en Niterói, solicitamos la subrogación del IPTU por el Art. 130 del CTN y acompañamos hasta la entrega efectiva de llaves." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Santa Rosa / Niterói — Rua Vereador Duque Estrada #169 — Block 3, Apt 402',
+      subtitle: 'Rua Vereador Duque Estrada #169, Block 03, Apt 402 — Santa Rosa, Niterói/RJ | 138 sqm (1,485 sq ft) • Living & Dining Room • 2 Bedrooms • Balcony • Full Maid Quarters • 1 Parking Space • Gated Club Condominium with 2 Pools, Gym, BBQ, Games Room & 24h Concierge • 8th Registry Title #15.819 • IPTU: 824741 • Appraisal R$ 470,000.00 • 2nd Auction at 50% for R$ 235,000.00',
+      address: 'Rua Vereador Duque Estrada, #169, Block 03, Apt 402 — Santa Rosa, Niterói - RJ',
+      p1Date: '09/22/2026 at 2:00 PM',
+      p2Date: '09/24/2026 at 2:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Niterói Comarca',
+      iptu: '824741',
+      rgi: '8th Land Registry Office (Title #15.819)',
+      val: 'R$ 470,000.00',
+      p2Val: 'R$ 235,000.00 (50% starting bid / 50% discount)',
+      description: 'Generously sized residential apartment with 138 sqm (1,485 sq ft) private area, situated on the 4th floor (Unit 402 of Block 3) in a premier residential condominium on Rua Vereador Duque Estrada #169, in the prime Santa Rosa district of Niterói/RJ. Spacious floor plan featuring an expansive living and dining room, 2 comfortable bedrooms, full bathroom, breakfast kitchen, private balcony, dedicated laundry room, maid bedroom and bathroom (complete helper suite), and 1 assigned parking space. Condominium comprised of 4 buildings; Block 3 features 5 floors (4 apartments per floor + 2 penthouses), tile facade, and 1 elevator. Resort-style amenities include 24-hour doorman security, CCTV camera monitoring, parking, landscaped gardens, 2 swimming pools (adult and kids), social party hall with BBQ grill, games room, and fitness center. Title #15.819 at the 8th Land Registry Office, municipal IPTU tax #824741. Court appraised at R$ 470,000.00, 2nd Auction opens at 50% for R$ 235,000.00 (~R$ 1,702.89/sqm / ~$300 USD/sqm).',
+      checklist: defaultChecklist.en,
+      modal: {
+        title: 'Structured Notice Summary — Rua Vereador Duque Estrada 169 / Bl 3 Apt 402',
+        sections: [
+          { title: 'Registry & Tax Identification', text: 'Apartment #402, Block 03, Rua Vereador Duque Estrada #169, Santa Rosa, Niterói/RJ. 8th Land Registry Office Title #15.819, municipal IPTU tax #824741.' },
+          { title: 'Floor Plan & Living Spaces (138 sqm)', text: '138 sqm built area: living and dining room, 2 bedrooms, bathroom, kitchen with breakfast area, balcony, laundry, full maid quarters, plus 1 parking stall.' },
+          { title: 'Condominium Club Amenities', text: '4-building complex. Block 3 has 5 floors, tile facade and 1 elevator. Features 24-hour guard, CCTV surveillance, gardens, 2 swimming pools, barbecue pavilion, games room, and fitness center.' },
+          { title: 'Appraisal & Auction Schedule', text: 'Appraised at R$ 470,000.00. 1st Auction on 09/22/2026 at 2:00 PM (100% — R$ 470,000.00). 2nd Auction on 09/24/2026 at 2:00 PM with 50% discount (R$ 235,000.00).' },
+          { title: 'Judicial Installment Options (CPC Art. 895)', text: 'Single cash payment or judicial installment proposal under CPC Art. 895: 25% down payment (R$ 58,750.00 in 2nd auction) and up to 30 monthly indexed installments secured by court mortgage on Title #15.819.' },
+          { title: 'Legal Clearances & Possession Transfer', text: 'Municipal taxes subrogate into the auction price (Art. 130 CTN). Full due diligence, judicial deed registration, and enforcement of physical possession by specialized attorneys.' }
+        ]
+      },
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Rua Vereador Duque Estrada 169 Apt 402?", a: "Official court appraisal is R$ 470,000.00. 1st Auction (09/22/2026 at 2:00 PM) opens at 100% (R$ 470,000.00). 2nd Auction (09/24/2026 at 2:00 PM) opens at 50%, with opening bid of R$ 235,000.00." },
+        { q: "What are the dimensions and rooms of apartment 402 in Block 3?", a: "Spanning 138 sqm (1,485 sq ft), it features an expansive living/dining room, 2 bedrooms, full bathroom, breakfast kitchen, balcony, laundry area, maid quarters (room + bath), and 1 assigned parking space." },
+        { q: "What amenities are available in the Duque Estrada condominium?", a: "The complex includes 24h manned gatehouse, CCTV monitoring, 2 swimming pools (adult & kids), gourmet barbecue pavilion, party hall, games room, and fitness center." },
+        { q: "What is the cost per square meter in the 2nd auction?", a: "At R$ 235,000.00 for 138 sqm, the price is just R$ 1,702.89 per square meter (~$300 USD/sqm), far below typical market values in Santa Rosa and adjacent Icaraí (R$ 4,500 to R$ 6,800/sqm)." },
+        { q: "Can the purchase be financed through judicial installments?", a: "Yes, under CPC Art. 895, investors can submit written installment bids: 25% down payment (R$ 58,750.00 in 2nd auction) and up to 30 monthly installments with judicial mortgage on Title #15.819." },
+        { q: "How does Soares Martins Advogados assist the bidder?", a: "We examine the court file in Niterói, verify Title #15.819 at the 8th Land Registry, audit property tax and condominium dues, and oversee the entire process through judicial possession handover." }
+      ]
+    }
   }
 };
 
