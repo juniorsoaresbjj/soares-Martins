@@ -75,6 +75,9 @@ import CentroEvaristoDaVeiga21AuctionPage from './components/CentroEvaristoDaVei
 import CopacabanaSiqueiraCampos143AuctionPage from './components/CopacabanaSiqueiraCampos143AuctionPage';
 import CopacabanaBaraoDeIpanema105AuctionPage from './components/CopacabanaBaraoDeIpanema105AuctionPage';
 import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada169AuctionPage';
+import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
+import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
+import SaoConradoEstradaDasCanoas722AuctionPage from './components/SaoConradoEstradaDasCanoas722AuctionPage';
 import Laranjeiras336AuctionPage from './components/Laranjeiras336AuctionPage';
 import LeblonGeneralUrquiza117AuctionPage from './components/LeblonGeneralUrquiza117AuctionPage';
 import TijucaBaraoDeItapagipe417AuctionPage from './components/TijucaBaraoDeItapagipe417AuctionPage';
@@ -569,6 +572,21 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402" element={<NiteroiDuqueEstrada169AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169/" element={<NiteroiDuqueEstrada169AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169" element={<NiteroiDuqueEstrada169AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109/" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722/" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601/" element={<LemeGustavoSampaio723AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601" element={<LemeGustavoSampaio723AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723/" element={<LemeGustavoSampaio723AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723" element={<LemeGustavoSampaio723AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8-bloco-f-apto-203/" element={<BotafogoGeneralGoesMonteiro8AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8-bloco-f-apto-203" element={<BotafogoGeneralGoesMonteiro8AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8/" element={<BotafogoGeneralGoesMonteiro8AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8" element={<BotafogoGeneralGoesMonteiro8AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826/" element={<Laranjeiras336AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/laranjeiras/apartamento/rua-das-laranjeiras-336-bloco-1-apto-826" element={<Laranjeiras336AuctionPage />} />

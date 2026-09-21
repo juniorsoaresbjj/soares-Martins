@@ -4855,6 +4855,331 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
         { q: "How does Soares Martins Advogados assist the bidder?", a: "We examine the court file in Niterói, verify Title #15.819 at the 8th Land Registry, audit property tax and condominium dues, and oversee the entire process through judicial possession handover." }
       ]
     }
-  }
+  },
+  'botafogo-general-goes-monteiro-8-bloco-f-apto-203': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Botafogo — Rua General Góes Monteiro nº 8 — Bloco F, Apto 203',
+      subtitle: 'Rua General Góes Monteiro, nº 8, Bloco F, Apto 203 — Botafogo, Rio de Janeiro/RJ | 94 m² • Vista para o Pão de Açúcar • 3 Quartos • 2 Banheiros Sociais • Dependência Completa • 1 Vaga Coberta + 1 Vaga Externa para Convidado • Condomínio com 2 Piscinas, Bosque, Quadra, Parquinho, Mercadinho, Salões de Festa e Portaria 24h • 3º RGI Matrícula 52.894 • IPTU: 1.245.048-2 • Avaliação R$ 1.128.000,00 • 2ª Praça a 50% por R$ 564.000,00',
+      address: 'Rua General Góes Monteiro, nº 8, Bloco F, Apto 203 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '19/10/2026 às 12:20h',
+      p2Date: '22/10/2026 às 12:20h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '1.245.048-2',
+      rgi: '3º Ofício de Registro de Imóveis (Matrícula nº 52.894)',
+      val: 'R$ 1.128.000,00',
+      p2Val: 'R$ 564.000,00 (50% da avaliação)',
+      description: 'Apartamento residencial com 94 m² de área privativa no 2º andar (unidade 203 do Bloco F) de consagrado condomínio residencial na Rua General Góes Monteiro nº 8, no cobiçado bairro de Botafogo, Zona Sul do Rio de Janeiro. A unidade possui vista privilegiada para o Pão de Açúcar (privilégio das unidades com terminação final 3 e 4 do Bloco F) e excelente planta composta por sala ampla, 3 quartos, 2 banheiros sociais, cozinha, área de serviço e dependências completas de empregada (com quarto e banheiro de serviço). Conta com 1 vaga coberta de garagem e 1 vaga externa para visitante/convidado. Condomínio construído em 1974 com 7 blocos (de A a G), cada um com 25 andares e apenas 4 apartamentos por pavimento. Infraestrutura completa de lazer e serviços com 2 piscinas (1 adulta junto ao Bloco A e 1 infantil junto ao Bloco B), parquinho infantil e quadra poliesportiva (ambos no Bloco B), bosque privativo com área verde preservada, mercadinho de conveniência, salão de festas privativo em cada bloco, vigilância interna com rondas, garagista, portaria exclusiva com porteiro presencial em cada prédio e guarita com controle de acesso na entrada do condomínio. 3º RGI Matrícula nº 52.894 e IPTU nº 1.245.048-2. Avaliação de R$ 1.128.000,00 e 2ª praça a 50% por R$ 564.000,00 (apenas R$ 6.000,00/m²).',
+      checklist: defaultChecklist.pt,
+      modal: {
+        title: 'Resumo Estruturado do Edital — Rua General Góes Monteiro 8 / Bloco F Apto 203',
+        sections: [
+          { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 203 do Bloco F, Rua General Góes Monteiro nº 8, Botafogo, Rio de Janeiro/RJ. Registrado, dimensionado e caracterizado no 3º Ofício de Registro de Imóveis sob a matrícula nº 52.894 e inscrição municipal de IPTU nº 1.245.048-2.' },
+          { title: 'Planta e Distribuição Interna (94 m²)', text: 'Apartamento com 94 m²: sala de estar/jantar, 3 dormitórios, 2 banheiros sociais, cozinha, área de serviço, dependência completa de serviço (quarto e banheiro), 1 vaga coberta de garagem e 1 vaga externa para convidado.' },
+          { title: 'Vista e Atributos Exclusivos', text: 'Unidade 203 com vista privilegiada para o Pão de Açúcar, atributo restrito aos apartamentos de final 3 e 4 do Bloco F.' },
+          { title: 'Infraestrutura do Condomínio (Construção 1974)', text: 'Complexo de 7 blocos (A a G) de 25 andares (4 aptos/andar). Dispõe de 2 piscinas (adulta no Bloco A e infantil no Bloco B), quadra e parquinho no Bloco B, bosque privativo, mercadinho interno, salão de festas privativo em cada bloco, garagista, vigilância interna, portaria exclusiva com porteiro em cada prédio e guarita na portaria geral.' },
+          { title: 'Avaliação Judicial e Datas das Praças', text: 'Avaliação de R$ 1.128.000,00. 1ª Praça em 19/10/2026 às 12:20h por R$ 1.128.000,00 (100%). 2ª Praça em 22/10/2026 às 12:20h com 50% de desconto por R$ 564.000,00.' },
+          { title: 'Condições de Arrematação e Pagamento Parcelado (Art. 895 CPC)', text: 'Arrematação à vista ou parcelada mediante proposta judicial: sinal de 25% (R$ 141.000,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas, com hipoteca judicial averbada na matrícula nº 52.894 do 3º RGI.' },
+          { title: 'Segurança Jurídica e Desoneração de Passivos', text: 'Sub-rogação do IPTU sobre o preço da arrematação conforme Art. 130 do CTN, auditoria de débitos condominiais, confecção da carta de arrematação e mandado judicial de imissão na posse com assessoria integral de Soares Martins Advogados.' }
+        ]
+      },
+      faqs: [
+        { q: "Qual é a avaliação oficial e os valores das praças deste apartamento em Botafogo?", a: "O imóvel foi avaliado judicialmente em R$ 1.128.000,00. A 1ª praça ocorrerá em 19/10/2026 às 12:20h pelo valor de R$ 1.128.000,00 (100%). A 2ª praça ocorrerá em 22/10/2026 às 12:20h com deságio de 50%, iniciando os lances em R$ 564.000,00." },
+        { q: "Qual é a distribuição interna e a área do apartamento 203 do Bloco F?", a: "O apartamento conta com 94 m² de área privativa, distribuídos em sala de estar e jantar, 3 quartos, 2 banheiros sociais, cozinha, área de serviço e dependência de empregada completa (com quartinho e banheirinho de serviço)." },
+        { q: "O apartamento possui vaga de garagem e vista especial?", a: "Sim. O apartamento conta com 1 vaga coberta de garagem e direito a 1 vaga externa para convidado/visitante. Além disso, a unidade 203 do Bloco F tem vista privilegiada para o Pão de Açúcar, um diferencial reservado exclusivamente às unidades de terminação final 3 e 4 do Bloco F." },
+        { q: "Quais comodidades e itens de lazer o condomínio oferece?", a: "Construído em 1974, o condomínio possui 7 blocos (A a G) com 25 andares e 4 aptos por andar. Dispõe de 2 piscinas (1 adulta no Bloco A e 1 infantil no Bloco B), quadra esportiva, parquinho infantil (ambos no Bloco B), bosque privativo com área verde, mercadinho de conveniência, salão de festas privativo para cada bloco, garagista, vigilância interna, portaria independente em cada prédio com porteiro e guarita de segurança 24h na entrada." },
+        { q: "Qual é o valor do metro quadrado na 2ª praça comparado ao mercado de Botafogo?", a: "Na 2ª praça, por R$ 564.000,00, o custo por metro quadrado é de apenas R$ 6.000,00/m². Em Botafogo, apartamentos de 3 quartos com infraestrutura de clube, 2 vagas e vista Pão de Açúcar costumam ser negociados entre R$ 13.000,00 e R$ 18.000,00/m², gerando uma assimetria financeira e margem de valorização excepcionais." },
+        { q: "É possível comprar este imóvel de forma parcelada pela Justiça?", a: "Sim, através do Art. 895 do Código de Processo Civil. O interessado pode apresentar proposta antes da praça com entrada mínima de 25% (R$ 141.000,00 na 2ª praça) e o saldo restante parcelado em até 30 vezes corrigidas, com garantia hipotecária gravada na matrícula nº 52.894 do 3º RGI." },
+        { q: "Como a assessoria de Soares Martins Advogados protege a arrematação?", a: "Conduzimos a due diligence integral dos autos no TJRJ e da matrícula 52.894 no 3º RGI, asseguramos a sub-rogação tributária do IPTU (inscrição 1.245.048-2) via Art. 130 do CTN, auditamos débitos condominiais e acompanhamos desde o lance até a entrega judicial das chaves." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Botafogo — Rua General Góes Monteiro nº 8 — Bloque F, Apto 203',
+      subtitle: 'Rua General Góes Monteiro, nº 8, Bloque F, Apto 203 — Botafogo, Río de Janeiro/RJ | 94 m² • Vistas al Pan de Azúcar • 3 Dormitorios • 2 Baños Sociales • Dependencia Completa • 1 Garaje Cubierto + 1 Plaza de Visitante • Condominio con 2 Piscinas, Bosque, Cancha, Zona Infantil, Tienda, Salones de Fiestas y Portería 24h • 3º Registro Matrícula 52.894 • IPTU: 1.245.048-2 • Tasación R$ 1.128.000,00 • 2ª Subasta al 50% por R$ 564.000,00',
+      address: 'Rua General Góes Monteiro, nº 8, Bloco F, Apto 203 — Botafogo, Río de Janeiro - RJ',
+      p1Date: '19/10/2026 a las 12:20h',
+      p2Date: '22/10/2026 a las 12:20h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+      iptu: '1.245.048-2',
+      rgi: '3º Oficio de Registro de Inmuebles (Matrícula nº 52.894)',
+      val: 'R$ 1.128.000,00',
+      p2Val: 'R$ 564.000,00 (50% de la tasación)',
+      description: 'Apartamento residencial de 94 m² privativos en 2ª planta (Unidad 203 del Bloque F) en complejo residencial de gran tradición en Rua General Góes Monteiro nº 8, en el cotizado barrio de Botafogo, Zona Sur de Río de Janeiro. Con vistas privilegiadas al emblemático Pan de Azúcar (exclusivas para las unidades terminadas en 3 y 4 del Bloque F), su distribución consta de amplio salón, 3 dormitorios, 2 baños sociales, cocina, lavadero y dependencias completas de servicio (habitación y baño auxiliar). Incluye 1 plaza de garaje cubierta y 1 plaza exterior para invitados. Complejo de 1974 con 7 bloques (de A a G) de 25 plantas y 4 apartamentos por planta. Dispone de 2 piscinas (adulta en bloque A e infantil en bloque B), parque infantil y pista polideportiva en bloque B, bosque privado arbolado, tienda de ultramarinos interna, salón de eventos independiente en cada bloque, vigilancia con patrulla, aparcacoches, portería exclusiva con conserje en cada bloque y control de acceso 24h en la entrada general. 3º Registro Matrícula nº 52.894 e IPTU nº 1.245.048-2. Tasación de R$ 1.128.000,00 y 2ª subasta al 50% por R$ 564.000,00 (~R$ 6.000,00/m²).',
+      checklist: defaultChecklist.es,
+      modal: {
+        title: 'Resumen Estructurado del Edicto — Rua General Góes Monteiro 8 / Bloque F Apto 203',
+        sections: [
+          { title: 'Identificación Inmobiliaria y Registral', text: 'Apartamento 203 del Bloque F, Rua General Góes Monteiro nº 8, Botafogo, Río de Janeiro/RJ. 3º Registro de Inmuebles, matrícula 52.894, IPTU municipal nº 1.245.048-2.' },
+          { title: 'Distribución Interior y Vistas (94 m²)', text: '94 m² construidos: salón comedor, 3 habitaciones, 2 baños sociales completos, cocina, lavadero y cuarto y baño de servicio. Vistas abiertas al Pan de Azúcar.' },
+          { title: 'Aparcamiento', text: '1 plaza de garaje cubierta y asignada más 1 plaza exterior disponible para vehículos de visitantes/invitados.' },
+          { title: 'Equipamiento del Condominio (Construcción 1974)', text: '7 bloques de 25 plantas (4 aptos/planta). Incluye 2 piscinas (adulta e infantil), pista deportiva, zona de juegos, bosque privado, tienda de conveniencia, salón social en cada bloque, garajista, conserje en cada torre y control perimetral 24h.' },
+          { title: 'Fechas y Precios de Subasta', text: 'Tasación de R$ 1.128.000,00. 1ª Subasta el 19/10/2026 a las 12:20h (100% — R$ 1.128.000,00). 2ª Subasta el 22/10/2026 a las 12:20h al 50% (R$ 564.000,00).' },
+          { title: 'Pago a Plazos Judicial (Art. 895 CPC)', text: 'Propuesta judicial admisible: 25% de entrada (R$ 141.000,00 en 2ª subasta) y saldo hasta en 30 cuotas mensuales indexadas con hipoteca judicial en el 3º RGI.' },
+          { title: 'Saneamiento Legal y Subrogación', text: 'Subrogación de deudas tributarias en el precio (Art. 130 CTN), comprobación de cargas de comunidad y toma de posesión judicial con asistencia letrada integral.' }
+        ]
+      },
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y las fechas de subasta en Botafogo?", a: "La tasación judicial es de R$ 1.128.000,00. La 1ª subasta se celebrará el 19/10/2026 a las 12:20h por R$ 1.128.000,00 (100%). La 2ª subasta será el 22/10/2026 a las 12:20h con un 50% de descuento, comenzando en R$ 564.000,00." },
+        { q: "¿Cómo se compone el apartamento 203 del Bloque F?", a: "Dispone de 94 m² con salón, 3 dormitorios, 2 baños sociales, cocina, zona de lavandería y dependencia de servicio completa (habitación y baño auxiliar)." },
+        { q: "¿El inmueble tiene aparcamiento y vistas panorámicas?", a: "Sí. Cuenta con 1 plaza cubierta y 1 plaza para visitantes. Además, la unidad 203 del Bloque F posee vistas despejadas al emblemático Pan de Azúcar." },
+        { q: "¿Qué zonas comunes ofrece el condominio?", a: "Complejo residencial de 1974 con 7 torres de 25 plantas. Ofrece 2 piscinas, cancha de deportes, parque infantil, bosque privado, tienda de conveniencia, salón de fiestas en cada edificio, garajista, conserje en cada portal y portería 24h." },
+        { q: "¿Cuál es el valor del metro cuadrado en la 2ª subasta?", a: "A R$ 564.000,00 por 94 m², el coste es de solo R$ 6.000,00/m², frente a los R$ 13.000 a R$ 18.000/m² habituales en Botafogo con este nivel de equipamiento." },
+        { q: "¿Se puede pagar a plazos mediante la vía judicial?", a: "Sí, conforme al Art. 895 del CPC: pago del 25% inicial (R$ 141.000,00 en 2ª subasta) y el resto hasta en 30 mensualidades corregidas con garantía hipotecaria en el 3º RGI." },
+        { q: "¿Cómo garantiza Soares Martins Advogados una compra segura?", a: "Efectuamos el examen integral del expediente en el TJRJ y la matrícula 52.894, verificamos la exención de deudas de IPTU por el Art. 130 del CTN y acompañamos hasta la entrega efectiva de llaves." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment in Botafogo — Rua General Góes Monteiro #8 — Block F, Apt 203',
+      subtitle: 'Rua General Góes Monteiro, #8, Block F, Apt 203 — Botafogo, Rio de Janeiro/RJ | 94 sqm (1,011 sq ft) • Sugarloaf Mountain View • 3 Bedrooms • 2 Guest Bathrooms • Maid Quarters • 1 Covered Parking Spot + 1 Guest Spot • Condominium with 2 Pools, Woods, Sports Court, Playground, Convenience Market, Party Halls & 24h Security • 3rd Registry Title #52.894 • IPTU: 1.245.048-2 • Appraisal R$ 1,128,000.00 • 2nd Auction at 50% for R$ 564,000.00',
+      address: 'Rua General Góes Monteiro, #8, Block F, Apt 203 — Botafogo, Rio de Janeiro - RJ',
+      p1Date: '10/19/2026 at 12:20 PM',
+      p2Date: '10/22/2026 at 12:20 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '1.245.048-2',
+      rgi: '3rd Land Registry Office (Title #52.894)',
+      val: 'R$ 1,128,000.00',
+      p2Val: 'R$ 564,000.00 (50% starting bid / 50% discount)',
+      description: 'Prime residential apartment with 94 sqm (1,011 sq ft) private living space, situated on the 2nd floor (Unit 203 of Block F) of an established resort-style residential condominium at Rua General Góes Monteiro #8, in the sought-after Botafogo neighborhood in Rio de Janeiro’s South Zone. The unit enjoys breathtaking views of the iconic Sugarloaf Mountain (Pão de Açúcar) — an exclusive premium feature reserved for units ending in 3 and 4 in Block F. Well-designed layout featuring a spacious living and dining room, 3 bedrooms, 2 guest/social bathrooms, kitchen, separate laundry room, and full maid quarters (helper bedroom and private bathroom). Includes 1 covered garage parking space and 1 designated outdoor guest parking spot. Built in 1974, the community encompasses 7 residential towers (Blocks A to G), each featuring 25 stories with only 4 apartments per floor. Outstanding amenities include 2 swimming pools (1 adult pool near Block A and 1 children’s pool near Block B), children playground and multi-sport court (both at Block B), a private preserved urban forest (bosque), on-site convenience market, dedicated private event hall in each individual building, parking attendants, continuous mobile security patrols, private concierge and doorman in each lobby, and 24/7 guarded gatehouse entry. 3rd Land Registry Office Title #52.894, municipal tax IPTU #1.245.048-2. Court appraised at R$ 1,128,000.00, with 2nd Auction opening at 50% for R$ 564,000.00 (~R$ 6,000.00/sqm / ~$1,050 USD/sqm).',
+      checklist: defaultChecklist.en,
+      modal: {
+        title: 'Structured Notice Summary — Rua General Góes Monteiro 8 / Block F Apt 203',
+        sections: [
+          { title: 'Registry & Tax Identification', text: 'Apartment #203, Block F, Rua General Góes Monteiro #8, Botafogo, Rio de Janeiro/RJ. 3rd Land Registry Office Title #52.894, municipal IPTU tax #1.245.048-2.' },
+          { title: 'Floor Plan & Scenic Sugarloaf View (94 sqm)', text: '94 sqm built area: living/dining room, 3 bedrooms, 2 guest bathrooms, kitchen, laundry, and maid quarters (room + bath). Privileged direct view of Sugarloaf Mountain (Pão de Açúcar).' },
+          { title: 'Parking Allocations', text: '1 covered garage parking spot plus 1 outdoor visitor/guest parking spot.' },
+          { title: 'Community & Club Amenities (1974 Complex)', text: '7 towers of 25 floors (4 units/floor). Features 2 swimming pools (adult & children), sports court, kids playground, private nature woods, internal convenience market, individual party hall per tower, parking attendants, doorman in each building, and 24/7 security entrance.' },
+          { title: 'Appraisal & Auction Schedule', text: 'Court appraised at R$ 1,128,000.00. 1st Auction on 10/19/2026 at 12:20 PM (100% — R$ 1,128,000.00). 2nd Auction on 10/22/2026 at 12:20 PM with 50% discount (starting at R$ 564,000.00).' },
+          { title: 'Judicial Installment Options (CPC Art. 895)', text: 'Single cash payment or formal installment proposal under CPC Art. 895: 25% down payment (R$ 141,000.00 in 2nd auction) and up to 30 monthly indexed installments secured by court mortgage on Title #52.894.' },
+          { title: 'Legal Clearances & Possession Enforcement', text: 'Municipal taxes subrogate into the auction proceeds per Art. 130 of the National Tax Code. Comprehensive due diligence, judicial registration, and formal key handover led by Soares Martins Advogados.' }
+        ]
+      },
+      faqs: [
+        { q: "What is the official appraisal and starting bid for Rua General Góes Monteiro 8 Apt 203?", a: "The official court appraisal is R$ 1,128,000.00. The 1st Auction (10/19/2026 at 12:20 PM) starts at 100% (R$ 1,128,000.00). The 2nd Auction (10/22/2026 at 12:20 PM) starts at 50%, with opening bid of R$ 564,000.00." },
+        { q: "What is the floor plan and layout of apartment 203 in Block F?", a: "Spanning 94 sqm (1,011 sq ft), it features a generous living and dining room, 3 bedrooms, 2 social bathrooms, kitchen, laundry room, and maid quarters (bedroom and bathroom)." },
+        { q: "Does the property include parking and panoramic views?", a: "Yes. The apartment has 1 covered garage parking space and 1 designated outdoor guest spot. Additionally, unit 203 in Block F boasts a privileged view of Sugarloaf Mountain, exclusive to units ending in 3 and 4 in Block F." },
+        { q: "What resort-style amenities does the Góes Monteiro condominium provide?", a: "Built in 1974 with 7 towers of 25 stories, the complex offers 2 swimming pools (adult & kids), multi-sport court, children playground, private woods, on-site grocery market, private party hall for each tower, valet/parking attendants, dedicated doorman per building, and 24/7 gated security entrance." },
+        { q: "What is the cost per square meter in the 2nd auction compared to the Botafogo market?", a: "At R$ 564,000.00 for 94 sqm, the acquisition cost is only R$ 6,000.00 per square meter (~$1,050 USD/sqm). Prime Botafogo 3-bedroom apartments with full amenities, 2 parking spots, and Sugarloaf views typically trade between R$ 13,000.00 and R$ 18,000.00/sqm." },
+        { q: "Can buyers purchase via court-approved installments?", a: "Yes, under CPC Art. 895, bidders can submit written installment proposals: 25% cash down payment (R$ 141,000.00 in 2nd auction) and up to 30 monthly indexed installments secured by judicial mortgage on Title #52.894." },
+        { q: "How does Soares Martins Advogados assist the bidder throughout the process?", a: "We perform comprehensive title and court due diligence, ensure municipal tax subrogation under Art. 130 CTN (IPTU #1.245.048-2), verify condominium clearance, and manage the case through judicial deed issuance and physical possession." }
+      ]
+    }
+  },
+  'leme-gustavo-sampaio-723-apto-601': {
+    pt: {
+        title: 'Leilão Judicial de Apartamento no Leme — Rua Gustavo Sampaio nº 723 — Apto 601',
+        subtitle: 'Rua Gustavo Sampaio, nº 723, Apartamento 601 — Leme, Rio de Janeiro/RJ | 95 m² • 6º Andar • Edifício Waldorf (1952) • Prédio Residencial com 12 Pavimentos • 3 Elevadores (2 Sociais e 1 de Serviço) • Garagem • Portaria 24 Horas e CFTV • 5º Ofício RGI Matrícula nº 87.664 • IPTU: 0.578.298-2 • Avaliação R$ 1.400.000,00 • 2ª Praça a 50% por R$ 700.000,00',
+        address: 'Rua Gustavo Sampaio, nº 723, Apto 601 — Leme, Rio de Janeiro - RJ',
+        p1Date: '05/11/2026 às 12:20h',
+        p2Date: '10/11/2026 às 12:20h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.578.298-2',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 87.664)',
+        val: 'R$ 1.400.000,00',
+        p2Val: 'R$ 700.000,00 (50% da avaliação)',
+        description: 'Apartamento residencial com 95 m² de área privativa no 6º andar (unidade 601) do tradicional Edifício Waldorf, situado na Rua Gustavo Sampaio nº 723, no bucólico e nobre bairro do Leme, Zona Sul do Rio de Janeiro, a poucos passos da orla e da praia. Trata-se de sólida edificação erguida em 1952, construída no alinhamento do logradouro público, com 12 pavimentos de uso residencial (sendo 1 unidade no 1º andar, 3 unidades por andar do 2º ao 10º andar e 2 unidades no 11º e 12º andar). O edifício é servido por 3 elevadores (dois elevadores sociais e um elevador de serviço), guarita de portaria com monitoramento por circuito interno de TV (CFTV) e atendimento 24 horas, além de garagem coletiva do prédio (o condomínio não dispõe de playground nem de salão de festas, conferindo perfil de condomínio estritamente residencial, tranquilo e com custo de cota condominial mais racional). Imóvel devidamente registrado no 5º Ofício de Registro de Imóveis sob a Matrícula nº 87.664 e inscrito no IPTU municipal sob o nº 0.578.298-2. Avaliação judicial oficial homologada em R$ 1.400.000,00 e 2ª Praça com lance inicial fixado em 50% por R$ 700.000,00 — resultando em um custo de aquisição de apenas R$ 7.368,42/m², patamar excepcionalmente atrativo frente à média de mercado do Leme e Copacabana que oscila entre R$ 14.000,00 e R$ 20.000,00/m².',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Gustavo Sampaio 723 / Apto 601 (Leme)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento residencial nº 601, Edifício Waldorf, Rua Gustavo Sampaio nº 723, Leme, Rio de Janeiro/RJ. Registro imobiliário no 5º Ofício de Registro de Imóveis (5º RGI) sob a Matrícula nº 87.664 e inscrição municipal IPTU sob o nº 0.578.298-2.' },
+            { title: 'Área e Posição na Planta', text: '95 m² de área privativa edificada no 6º pavimento (unidade 601). Edifício residencial de 12 pavimentos com apenas 3 unidades por andar nos pavimentos intermediários (2º ao 10º andar).' },
+            { title: 'Características do Edifício Waldorf (1952)', text: 'Edificação datada de 1952, construída no alinhamento da via pública, 12 pavimentos (1 no 1º andar, 3 por andar do 2º ao 10º andar, 2 no 11º e 12º). Servido por 3 elevadores (2 sociais e 1 de serviço).' },
+            { title: 'Portaria, Segurança e Garagem', text: 'Portaria com serviço presencial 24 horas e circuito interno de segurança (CFTV). O edifício possui garagem. Não dispõe de playground nem de salão de festas.' },
+            { title: 'Datas e Valores das Praças', text: 'Avaliação judicial de R$ 1.400.000,00. 1ª Praça em 05/11/2026 às 12:20h por R$ 1.400.000,00 (100%). 2ª Praça em 10/11/2026 às 12:20h com 50% de deságio por R$ 700.000,00.' },
+            { title: 'Condições de Pagamento e Parcelamento Judicial (Art. 895 CPC)', text: 'Possibilidade de arrematação à vista ou mediante proposta formal de parcelamento judicial na forma do Art. 895 do Código de Processo Civil (mínimo de 25% de entrada e saldo em até 30 parcelas mensais corrigidas, com garantia hipotecária sobre a própria matrícula).' },
+            { title: 'Segurança Jurídica e Desoneração', text: 'Sub-rogação dos débitos de IPTU e taxas sobre o preço da arrematação judicial (Art. 130, parágrafo único do Código Tributário Nacional). Análise preventiva detalhada de débitos condominiais e condução integral até a expedição de carta de arrematação e imissão na posse.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual é o valor de avaliação e as datas das praças do leilão no Leme?", a: "O imóvel foi avaliado judicialmente em R$ 1.400.000,00. A 1ª Praça ocorrerá no dia 05/11/2026 às 12:20h pelo valor integral de R$ 1.400.000,00. Caso não haja arrematação na primeira data, a 2ª Praça será realizada no dia 10/11/2026 às 12:20h com deságio de 50%, com lance inicial de R$ 700.000,00." },
+          { q: "Onde fica o imóvel e qual o cartório de registro de imóveis competente?", a: "O imóvel situa-se na Rua Gustavo Sampaio nº 723, apartamento 601, no bairro do Leme, Rio de Janeiro/RJ. Encontra-se matriculado perante o 5º Ofício de Registro de Imóveis da Capital sob a matrícula nº 87.664, com inscrição de IPTU nº 0.578.298-2." },
+          { q: "Quais as características do Edifício Waldorf e infraestrutura predial?", a: "O Edifício Waldorf data de 1952, possui 12 pavimentos com uso estritamente residencial, construído no alinhamento da calçada. O primeiro andar tem 1 unidade, do 2º ao 10º andar são 3 unidades por andar, e o 11º e 12º contam com 2 unidades cada. É atendido por 3 elevadores (2 sociais e 1 de serviço), portaria 24 horas com CFTV e garagem coletiva. O prédio não possui playground nem salão de festas, o que garante maior tranquilidade e cotas condominiais controladas." },
+          { q: "Qual o desconto por metro quadrado alcançado na 2ª Praça?", a: "Com 95 m² de área privativa, o valor de R$ 700.000,00 na 2ª Praça equivale a apenas R$ 7.368,42/m². No Leme, apartamentos residenciais similares e próximos da praia costumam ser negociados no mercado livre entre R$ 14.000,00 e R$ 20.000,00/m², gerando potencial de valorização e margem de segurança excepcional." },
+          { q: "É possível parcelar a compra do imóvel no leilão judicial?", a: "Sim. O artigo 895 do Código de Processo Civil autoriza o envio de proposta escrita para pagamento parcelado com entrada de 25% (R$ 175.000,00 na 2ª Praça) e o saldo dividido em até 30 parcelas mensais, garantido por hipoteca judiciária gravada na própria matrícula 87.664 do 5º RGI." },
+          { q: "O que acontece com dívidas de IPTU e condomínio anteriores?", a: "Por força do artigo 130, parágrafo único do Código Tributário Nacional (CTN), débitos tributários de IPTU e taxas municipais sub-rogam-se sobre o preço pago pelo arrematante. Em relação aos débitos condominiais, nossa assessoria jurídica examina o edital e a ata processual da execução para assegurar a blindagem patrimonial do cliente ou provisionamento adequado no lance." },
+          { q: "Qual a importância da assessoria de Soares Martins Advogados?", a: "Nosso escritório em Ipanema realiza auditoria jurídica completa (due diligence processual, fiscal e registral), habilitação do cliente na plataforma do leiloeiro, protocolo de lances ou proposta de parcelamento, acompanhamento até a homologação judicial, obtenção da Carta de Arrematação no 5º RGI e a efetiva imissão na posse do apartamento 601." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Leme — Rua Gustavo Sampaio nº 723 — Apto 601',
+        subtitle: 'Rua Gustavo Sampaio, nº 723, Apartamento 601 — Leme, Río de Janeiro/RJ | 95 m² • 6ª Planta • Edificio Waldorf (1952) • 12 Plantas Residenciales • 3 Ascensores (2 Sociales y 1 de Servicio) • Garaje • Portería 24 Horas y CCTV • 5º Registro Matrícula nº 87.664 • IPTU: 0.578.298-2 • Tasación R$ 1.400.000,00 • 2ª Subasta al 50% por R$ 700.000,00',
+        address: 'Rua Gustavo Sampaio, nº 723, Apto 601 — Leme, Río de Janeiro - RJ',
+        p1Date: '05/11/2026 a las 12:20h',
+        p2Date: '10/11/2026 a las 12:20h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.578.298-2',
+        rgi: '5º Oficio de Registro de Inmuebles (Matrícula nº 87.664)',
+        val: 'R$ 1.400.000,00',
+        p2Val: 'R$ 700.000,00 (50% de la tasación)',
+        description: 'Apartamento residencial de 95 m² de superficie privativa en 6ª planta (unidad 601) del emblemático Edificio Waldorf, situado en Rua Gustavo Sampaio nº 723, en el apacible y exclusivo barrio de Leme, Zona Sur de Río de Janeiro, a pocos metros de la playa. Edificio de estilo clásico de 1952, con 12 plantas residenciales construidas a línea de calle (1 unidad en la 1ª planta, 3 por planta de la 2ª a la 10ª, y 2 unidades en las plantas 11ª y 12ª). El complejo dispone de 3 ascensores (dos sociales y uno de servicio), portería física con atención 24 horas, circuito cerrado de televisión (CCTV) y garaje. La comunidad no cuenta con zonas de recreo ni salón de fiestas, lo que asegura un ambiente tranquilo y gastos comunitarios contenidos. Inmueble inscrito en el 5º Registro de Inmuebles con Matrícula nº 87.664 y referencia catastral IPTU nº 0.578.298-2. Tasación judicial oficial de R$ 1.400.000,00 y 2ª Subasta con inicio fijado al 50% por R$ 700.000,00 (~R$ 7.368,42/m²), ofreciendo un notable margen de rentabilidad y seguridad patrimonial en una de las zonas más solicitadas de Río de Janeiro.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Rua Gustavo Sampaio 723 / Apto 601 (Leme)',
+          sections: [
+            { title: 'Identificación Inmobiliaria y Registral', text: 'Apartamento residencial 601, Edificio Waldorf, Rua Gustavo Sampaio nº 723, Leme, Río de Janeiro/RJ. 5º Registro de la Propiedad (5º RGI), Matrícula nº 87.664, IPTU municipal nº 0.578.298-2.' },
+            { title: 'Superficie y Distribución', text: '95 m² construidos en 6ª planta (unidad 601). Edificio residencial de 12 alturas con solo 3 viviendas por rellano en las plantas intermedias (2ª a 10ª planta).' },
+            { title: 'Características del Edificio Waldorf (1952)', text: 'Construcción de 1952 sobre rasante de acera, 12 plantas de viviendas con 3 ascensores (dos principales y uno de servicio).' },
+            { title: 'Seguridad y Aparcamiento', text: 'Servicio de portería presencial 24h, circuito cerrado de TV (CCTV) y garaje para residentes. Sin zonas de recreo ni salón comunitario.' },
+            { title: 'Fechas y Valores de Subasta', text: 'Tasación judicial de R$ 1.400.000,00. 1ª Subasta el 05/11/2026 a las 12:20h al 100% (R$ 1.400.000,00). 2ª Subasta el 10/11/2026 a las 12:20h al 50% (R$ 700.000,00).' },
+            { title: 'Pago Judicial Aplazado (Art. 895 CPC)', text: 'Opción de pago al contado o solicitud de financiación judicial (mínimo 25% de entrada y resto hasta en 30 cuotas mensuales indexadas garantizadas con hipoteca judicial en el 5º RGI).' },
+            { title: 'Garantía Legal y Posesión', text: 'Subrogación legal de deudas tributarias en el precio rematado (Art. 130 del Código Tributario Nacional). Verificación previa del expediente judicial y gestión de toma de posesión.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuál es la tasación judicial y las fechas de subasta en Leme?", a: "La tasación judicial es de R$ 1.400.000,00. La 1ª Subasta será el 05/11/2026 a las 12:20h por R$ 1.400.000,00. La 2ª Subasta tendrá lugar el 10/11/2026 a las 12:20h con un 50% de descuento, con puja inicial de R$ 700.000,00." },
+          { q: "¿Dónde está ubicado el inmueble y cuál es su registro?", a: "Se ubica en Rua Gustavo Sampaio nº 723, apartamento 601, barrio de Leme, Río de Janeiro/RJ. Consta en el 5º Registro de la Propiedad bajo la Matrícula nº 87.664 e IPTU nº 0.578.298-2." },
+          { q: "¿Cómo es el Edificio Waldorf y qué equipamiento tiene?", a: "Es una construcción de 1952 de 12 plantas residenciales con 3 ascensores (dos sociales y uno auxiliar), portería 24h con CCTV y garaje. No dispone de salón social ni zona infantil, lo que favorece la tranquilidad y cuotas comunitarias reducidas." },
+          { q: "¿Cuánto representa el metro cuadrado en la 2ª Subasta?", a: "Con 95 m², el precio de R$ 700.000,00 supone apenas R$ 7.368,42/m², frente a los R$ 14.000 a R$ 20.000/m² habituales en el mercado ordinario del Leme." },
+          { q: "¿Se puede pagar a plazos mediante la ley procesal brasileña?", a: "Sí, conforme al Art. 895 del CPC brasileño, es admisible formular propuesta de pago fraccionado con el 25% de entrada (R$ 175.000,00 en 2ª Subasta) y el remanente en hasta 30 cuotas mensuales avaladas por hipoteca registral en la matrícula 87.664." },
+          { q: "¿Cómo actúa Soares Martins Advogados para asegurar la inversión?", a: "Realizamos la auditoría preventiva (due diligence), asesoramos en la estrategia de puja, gestionamos la exención de cargas previas de IPTU por el Art. 130 del CTN y llevamos el procedimiento hasta la efectiva entrega de llaves." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Leme — Rua Gustavo Sampaio #723 — Apt 601',
+        subtitle: 'Rua Gustavo Sampaio, #723, Apt 601 — Leme, Rio de Janeiro/RJ | 95 sqm (1,022 sq ft) • 6th Floor • Waldorf Building (1952) • 12-Story Residential Tower • 3 Elevators (2 Passenger, 1 Service) • Garage Parking • 24/7 Doorman & CCTV • 5th Land Registry Office Title #87.664 • Municipal IPTU #0.578.298-2 • Court Appraisal R$ 1,400,000.00 • 2nd Auction at 50% for R$ 700,000.00',
+        address: 'Rua Gustavo Sampaio, #723, Apt 601 — Leme, Rio de Janeiro - RJ',
+        p1Date: '11/05/2026 at 12:20 PM',
+        p2Date: '11/10/2026 at 12:20 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Rio de Janeiro State Court / Capital Comarca',
+        iptu: '0.578.298-2',
+        rgi: '5th Land Registry Office (Title #87.664)',
+        val: 'R$ 1,400,000.00',
+        p2Val: 'R$ 700,000.00 (50% starting bid / 50% discount)',
+        description: 'Residential 95 sqm (1,022 sq ft) apartment located on the 6th floor (Unit 601) of the classic Edifício Waldorf, situated on Rua Gustavo Sampaio #723, in the charming and peaceful seaside enclave of Leme, Rio de Janeiro’s South Zone, just steps from Leme Beach and the iconic boardwalk. Erected in 1952, this 12-story residential landmark sits aligned with the public street curb and offers a private residential configuration: 1 unit on the 1st floor, 3 units per floor on the 2nd through 10th floors, and 2 units each on the 11th and 12th floors. The building is serviced by 3 elevators (2 passenger elevators and 1 service elevator), a 24-hour guarded entrance lobby with CCTV security monitoring, and community garage parking. The condominium purposely features no playground or party hall, preserving a remarkably quiet, secure residential environment with highly rational monthly condominium fees. Legally recorded at the 5th Land Registry Office under Title #87.664 and registered under Municipal Tax IPTU #0.578.298-2. Court appraisal of R$ 1,400,000.00, with 2nd Auction opening bid fixed at 50% for R$ 700,000.00 — representing an acquisition price of only R$ 7,368.42 per sqm (~$1,300 USD/sqm), significantly below prevailing Leme prime market values which standardly trade between R$ 14,000.00 and R$ 20,000.00/sqm.',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Gustavo Sampaio 723 / Apt 601 (Leme)',
+          sections: [
+            { title: 'Registry & Tax Identification', text: 'Apartment #601, Edifício Waldorf, Rua Gustavo Sampaio #723, Leme, Rio de Janeiro/RJ. 5th Land Registry Office Title #87.664, Municipal Tax IPTU #0.578.298-2.' },
+            { title: 'Living Space & Floor Plan Position', text: '95 sqm (1,022 sq ft) private area on the 6th floor (Unit 601). 12-story residential building with 3 units per floor on intermediate levels.' },
+            { title: 'Edifício Waldorf Architecture (1952)', text: 'Established 1952 building constructed along the street alignment, 12 residential stories, serviced by 3 elevators (2 passenger, 1 service).' },
+            { title: 'Doorman, Security & Garage', text: '24/7 physical doorman service, closed-circuit TV (CCTV) security, and garage parking. No playground or party hall, ensuring low noise and controlled condo dues.' },
+            { title: 'Auction Dates & Appraisal', text: 'Official court appraisal of R$ 1,400,000.00. 1st Auction on 11/05/2026 at 12:20 PM (100% — R$ 1,400,000.00). 2nd Auction on 11/10/2026 at 12:20 PM with 50% discount (R$ 700,000.00).' },
+            { title: 'Judicial Financing & Installments (CPC Art. 895)', text: 'Option for full cash payment or written installment proposal pursuant to Brazilian Civil Procedure Code Art. 895: 25% down payment (R$ 175,000.00 in 2nd auction) and up to 30 monthly indexed payments secured by court mortgage on Title #87.664.' },
+            { title: 'Legal Protection & Clear Title', text: 'Pre-existing municipal tax debts (IPTU) subrogate into the auction proceeds per Art. 130 of the National Tax Code. Comprehensive due diligence and court assistance through deed registration and physical possession.' }
+          ]
+        },
+        faqs: [
+          { q: "What is the official court appraisal and auction schedule for the Leme apartment?", a: "The official court appraisal is R$ 1,400,000.00. The 1st Auction is scheduled for 11/05/2026 at 12:20 PM at R$ 1,400,000.00 (100%). The 2nd Auction takes place on 11/10/2026 at 12:20 PM with a 50% discount, opening at R$ 700,000.00." },
+          { q: "Where is the property registered and located?", a: "The apartment is located at Rua Gustavo Sampaio #723, Apt 601, Leme, Rio de Janeiro/RJ. It is recorded at the 5th Land Registry Office of Rio de Janeiro under Title #87.664, with municipal IPTU #0.578.298-2." },
+          { q: "What are the characteristics and amenities of Edifício Waldorf?", a: "Built in 1952, Edifício Waldorf is a 12-story residential building featuring 3 elevators (2 passenger and 1 service), 24/7 doorman security with CCTV, and garage parking. The absence of party halls or playgrounds guarantees tranquil residential living and lower HOA dues." },
+          { q: "What is the price per square meter in the 2nd Auction?", a: "At R$ 700,000.00 for 95 sqm, the price is R$ 7,368.42/sqm (~$1,300 USD/sqm). In Leme, prime residential apartments just steps from the beach regularly trade between R$ 14,000.00 and R$ 20,000.00/sqm, providing an exceptional safety margin and upside." },
+          { q: "Can buyers purchase using judicial installment plans?", a: "Yes. Under Brazilian Civil Procedure Code (CPC) Article 895, buyers can submit a written proposal with a 25% down payment (R$ 175,000.00 in the 2nd Auction) and the balance in up to 30 monthly indexed installments secured by a mortgage on Title #87.664." },
+          { q: "How does Soares Martins Advogados protect the investor?", a: "We execute full title, court, and condominium due diligence, ensure municipal tax subrogation under Art. 130 CTN, submit the bidding proposal, and manage the case through judicial deed issuance and physical handover of the apartment." }
+        ]
+      }
+    },
+    'sao-conrado-estrada-das-canoas-722-bloco-2-apto-109': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento Duplex em São Conrado — Estrada das Canoas nº 722 — Bloco 2, Apto 109',
+        subtitle: 'Estrada das Canoas, nº 722, Bloco 2, Apto 109 — São Conrado, Rio de Janeiro/RJ | 29 m² (Área Original) • Configuração Singular Estilo Duplex com Pavimento Inferior Escavado • Dormitório no Nível Inferior • Sala, Cozinha Planejada por Arquiteto e Banheiro com Hidromassagem em Mármore Carrara no Nível Superior • Conjunto Residencial Recreio das Canoas (1960) • Piscina, Restaurante, Churrasqueira, Quadra, Campo de Terra, Academia, Salão de Festas, Lavanderia Coletiva e Portaria 24h • 5º Ofício RGI Matrícula nº 24.339 • IPTU: 0.385.263-9 • Avaliação R$ 728.710,50 • 2ª Praça a 50% por R$ 364.355,25',
+        address: 'Estrada das Canoas, nº 722, Bloco 2, Apto 109 — São Conrado, Rio de Janeiro - RJ',
+        p1Date: '04/11/2026 às 14:30h',
+        p2Date: '25/11/2026 às 14:30h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.385.263-9',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 24.339)',
+        val: 'R$ 728.710,50',
+        p2Val: 'R$ 364.355,25 (50% da avaliação)',
+        description: 'Apartamento residencial de posição fundos situado no Bloco 2 (unidade 109) do tradicional Conjunto Residencial Recreio das Canoas, erguido em 1960 na bucólica Estrada das Canoas nº 722, em São Conrado, Zona Sul do Rio de Janeiro. O imóvel apresenta uma configuração arquitetônica singular e altamente diferenciada: passou por modificação estrutural com escavação de aproximadamente 2 metros de profundidade sob o nível original, possibilitando a criação de um pavimento inferior e transformando a unidade em estilo duplex. No pavimento inferior localiza-se o dormitório privativo, guarnecido de cama de casal, televisor e armários. No pavimento superior distribuem-se a sala de estar, a cozinha funcional planejada e executada sob orientação e projeto de arquiteto, e o banheiro social completo equipado com banheira de hidromassagem — ressaltando-se que a cozinha e o banheiro contam com requintado revestimento em mármore Carrara. O condomínio clube é cercado pela exuberante Mata Atlântica de São Conrado e conta com restaurante privativo em funcionamento, piscina adulto e infantil, churrasqueira, quadra poliesportiva, campo de terra, academia aparelhada, salão de festas, lavanderia coletiva e portaria presencial 24 horas. Imóvel registrado no 5º Ofício do RGI sob a Matrícula nº 24.339 e cadastrado na Prefeitura do Rio sob o IPTU nº 0.385.263-9. Avaliação judicial oficial de R$ 728.710,50, com 2ª Praça a 50% por R$ 364.355,25.',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Estrada das Canoas 722 / Bloco 2 Apto 109 (São Conrado)',
+          sections: [
+            { title: 'Localização e Matrícula Registral', text: 'Apartamento nº 109 do Bloco 2, situado na Estrada das Canoas nº 722, São Conrado, Rio de Janeiro/RJ. Registro imobiliário perante o 5º Ofício de Registro de Imóveis sob a Matrícula nº 24.339 e Inscrição Municipal nº 0.385.263-9.' },
+            { title: 'Configuração Duplex e Modificação Estrutural', text: 'Área original de 29 m² expandida através de escavação estrutural de aprox. 2 metros de profundidade sob o piso, criando layout duplex com dormitório no nível inferior e sala, cozinha e banheiro no nível superior.' },
+            { title: 'Acabamentos Nobres em Mármore Carrara & Hidromassagem', text: 'Cozinha planejada sob orientação técnica de arquiteto e banheiro social equipado com banheira de hidromassagem, ambos com revestimento em mármore Carrara legítimo.' },
+            { title: 'Infraestrutura do Condomínio Recreio das Canoas (1960)', text: 'Condomínio fechado com portaria e segurança 24h, restaurante privativo, piscina, quiosque com churrasqueira, quadra poliesportiva, campo de futebol de terra, academia, salão de festas e lavanderia coletiva em meio à Mata Atlântica.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1ª Praça: 04/11/2026 às 14:30h por R$ 728.710,50 (100% da avaliação). 2ª Praça: 25/11/2026 às 14:30h por R$ 364.355,25 (início com 50% do valor da avaliação).' },
+            { title: 'Condições de Pagamento e Propostas (Art. 895 do CPC)', text: 'Possibilidade de pagamento integral à vista mediante guia de depósito judicial ou submissão de proposta formal de parcelamento com sinal de 25% (R$ 91.088,81 na 2ª praça) e saldo em até 30 meses garantido por hipoteca judicial.' },
+            { title: 'Garantias Jurídicas e Sub-rogação Tributária', text: 'Sub-rogação dos débitos tributários de IPTU no preço da arrematação conforme Art. 130, parágrafo único do CTN. Auditoria jurídica integral para validação documental das modificações estruturais e expedição de carta de arrematação com imissão na posse.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual é o valor de avaliação e lance mínimo no leilão do Apto 109 do Bloco 2 na Estrada das Canoas?", a: "O imóvel foi avaliado judicialmente em R$ 728.710,50. Na 1ª Praça (04/11/2026 às 14:30h), o lance mínimo corresponde a 100% da avaliação (R$ 728.710,50). Na 2ª Praça (25/11/2026 às 14:30h), a disputa tem início em 50% da avaliação, ou seja, pelo lance mínimo de R$ 364.355,25." },
+          { q: "Como funciona a configuração em estilo duplex do apartamento?", a: "O imóvel de posição fundos possui metragem original registrada de 29 m². Conforme constatado no processo e informado pelo proprietário, passou por escavação de aproximadamente 2 metros sob o piso térreo original, criando um dormitório privativo no piso inferior (com cama de casal, TV e armários). No piso superior encontram-se a sala de estar, cozinha planejada por arquiteto e banheiro com hidromassagem e mármore Carrara." },
+          { q: "Quais são os diferenciais de lazer e estrutura do Conjunto Residencial Recreio das Canoas?", a: "Construído em 1960 na Estrada das Canoas, o condomínio é um verdadeiro refúgio verde integrado à natureza de São Conrado. Possui restaurante próprio em funcionamento, piscina, churrasqueira, quadra poliesportiva, campo de terra, academia, salão de festas, lavanderia e portaria com vigilância 24 horas." },
+          { q: "O que diz a legislação sobre a dívida de IPTU na arrematação judicial?", a: "Em conformidade com o Art. 130, parágrafo único do Código Tributário Nacional (CTN), os débitos fiscais de IPTU anteriores à arrematação sub-rogam-se sobre o respectivo preço alcançado no leilão, recebendo o arrematante o bem livre de pendências tributárias municipais preexistentes." },
+          { q: "É possível adquirir o imóvel de forma parcelada?", a: "Sim. O Código de Processo Civil (Art. 895) autoriza qualquer interessado a apresentar proposta formal antes do leilão para pagamento parcelado: entrada mínima de 25% do lance (R$ 91.088,81 na 2ª praça) e o saldo dividido em até 30 prestações mensais corrigidas, registrando-se hipoteca na Matrícula nº 24.339 do 5º RGI." },
+          { q: "Por que a assessoria jurídica prévia é indispensável neste leilão específico?", a: "Pelo fato de o imóvel contar com alteração estrutural interna por escavação de subsolo e benfeitorias em mármore Carrara, a assessoria jurídica especializada do escritório Soares Martins Advogados realiza a due diligence da convenção de condomínio, regularidade perante a municipalidade, análise da certidão da matrícula 24.339 do 5º RGI e acompanhamento integral até a expedição da carta de arrematação e imissão presencial na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento Dúplex en São Conrado — Estrada das Canoas nº 722 — Bloque 2, Apto 109',
+        subtitle: 'Estrada das Canoas, nº 722, Bloque 2, Apto 109 — São Conrado, Río de Janeiro/RJ | 29 m² (Área Original) • Configuración Singular Estilo Dúplex con Planta Inferior Excavada • Dormitorio en Nivel Inferior • Salón, Cocina de Arquitecto y Baño con Hidromasaje en Mármol Carrara en Nivel Superior • Conjunto Residencial Recreio das Canoas (1960) • Piscina, Restaurante, Barbacoa, Pista Polideportiva, Campo de Tierra, Gimnasio, Salón de Fiestas, Lavandería y Portería 24h • 5º Registro Matrícula nº 24.339 • IPTU: 0.385.263-9 • Tasación R$ 728.710,50 • 2ª Subasta al 50% por R$ 364.355,25',
+        address: 'Estrada das Canoas, nº 722, Bloque 2, Apto 109 — São Conrado, Río de Janeiro - RJ',
+        p1Date: '04/11/2026 a las 14:30h',
+        p2Date: '25/11/2026 a las 14:30h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.385.263-9',
+        rgi: '5º Registro de la Propiedad Inmueble (Matrícula nº 24.339)',
+        val: 'R$ 728.710,50',
+        p2Val: 'R$ 364.355,25 (50% de la tasación)',
+        description: 'Apartamento residencial interior en el Bloque 2 (Apto 109) del tradicional Conjunto Residencial Recreio das Canoas (1960), situado en la apacible Estrada das Canoas nº 722 en São Conrado, Zona Sur de Río de Janeiro. El inmueble destaca por una singular modificación estructural que incluyó la excavación de aproximadamente 2 metros bajo el nivel original, transformando la unidad en un acogedor diseño dúplex. En el nivel inferior se ubica el dormitorio privado (con cama matrimonial, TV y armarios). En el nivel superior se encuentran el salón, una cocina planificada y ejecutada bajo dirección de arquitecto, y un baño completo equipado con bañera de hidromasaje — ambos espacios revestidos con refinado mármol Carrara. El condominio ofrece restaurante en funcionamiento, piscina, barbacoa, pista multideportiva, campo de fútbol de tierra, gimnasio equipado, salón de eventos, lavandería comunitaria y vigilancia 24 horas en plena Mata Atlántica. Registrado en el 5º Registro con Matrícula 24.339 e IPTU 0.385.263-9. Tasación de R$ 728.710,50 con 2ª Subasta al 50% por R$ 364.355,25.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Estrada das Canoas 722 / Bloque 2 Apto 109 (São Conrado)',
+          sections: [
+            { title: 'Identificación Registral e Inmobiliaria', text: 'Apartamento nº 109 del Bloque 2, Estrada das Canoas nº 722, São Conrado, Río de Janeiro/RJ. Inscrito en el 5º Registro bajo la Matrícula nº 24.339 e IPTU nº 0.385.263-9.' },
+            { title: 'Diseño Dúplex y Modificación Estructural', text: 'Superficie original de 29 m² expandida mediante excavación de aprox. 2 metros de profundidad, creando una configuración dúplex con dormitorio en la planta baja inferior y salón, cocina y baño en la planta alta.' },
+            { title: 'Acabados en Mármol Carrara e Hidromasaje', text: 'Cocina diseñada a medida por arquitecto y baño social equipado con hidromasaje, ambos con revestimiento en mármol Carrara de primera calidad.' },
+            { title: 'Amenidades del Conjunto Recreio das Canoas (1960)', text: 'Condominio cerrado con restaurante privado, piscina, barbacoa, pista deportiva, campo de tierra, gimnasio, salón de fiestas, lavandería y seguridad 24 horas.' },
+            { title: 'Calendario de Subastas y Valores', text: '1ª Subasta: 04/11/2026 a las 14:30h por R$ 728.710,50 (100%). 2ª Subasta: 25/11/2026 a las 14:30h por R$ 364.355,25 (inicio al 50% de la tasación).' },
+            { title: 'Opciones de Pago y Financiación Judicial (CPC Art. 895)', text: 'Pago al contado o propuesta formal a plazos con 25% de anticipo (R$ 91.088,81 en 2ª subasta) y saldo en hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Seguridad Jurídica y Subrogación Tributaria', text: 'Las deudas tributarias de IPTU se subrogan en el precio de la subasta conforme al Art. 130 del CTN. Auditoría jurídica integral para garantizar la regularidad y toma de posesión.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuál es la tasación oficial y el lance mínimo para el apartamento de Estrada das Canoas?", a: "La tasación judicial oficial es de R$ 728.710,50. La 1ª Subasta (04/11/2026 a las 14:30h) comienza al 100% (R$ 728.710,50). La 2ª Subasta (25/11/2026 a las 14:30h) parte del 50%, abriendo con R$ 364.355,25." },
+          { q: "¿En qué consiste la configuración dúplex del apartamento?", a: "El apartamento interior de 29 m² originales fue reformado mediante excavación de 2 metros bajo el suelo original, creando un dormitorio en la planta inferior. En la planta superior se ubican el salón, la cocina proyectada por arquitecto y el baño con hidromasaje y revestimiento de mármol Carrara." },
+          { q: "¿Qué instalaciones ofrece el Conjunto Residencial Recreio das Canoas?", a: "Construido en 1960 en São Conrado, dispone de restaurante propio, piscina, barbacoa, cancha multideportiva, campo de tierra, gimnasio, lavandería comunitaria y portería 24 horas rodeado de vegetación." },
+          { q: "¿Cómo se tratan las deudas de IPTU anteriores a la subasta?", a: "Según el Art. 130 del Código Tributario Nacional (CTN), los débitos fiscales de IPTU anteriores quedan subrogados en el precio pagado en la subasta, recibiendo el comprador el bien libre de gravámenes fiscales." },
+          { q: "¿Se puede abonar en cuotas judiciales?", a: "Sí, mediante propuesta formal bajo el Art. 895 del CPC con un pago inicial del 25% (R$ 91.088,81 en la 2ª subasta) y el resto financiado hasta en 30 meses con hipoteca judicial." },
+          { q: "¿Por qué es crucial la asesoría jurídica especializada en esta oportunidad?", a: "Dada la modificación estructural por excavación y benfeitorias, Soares Martins Advogados audita la convención condominal, la matrícula 24.339 del 5º Registro, la viabilidad registral y acompaña hasta la obtención de la escritura judicial y toma de posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Duplex Apartment in São Conrado — Estrada das Canoas #722 — Block 2, Apt 109',
+        subtitle: 'Estrada das Canoas, #722, Block 2, Apt 109 — São Conrado, Rio de Janeiro/RJ | 29 sqm (Original Title Area) • Unique Duplex Layout with Excavated Lower Floor • Bedroom on Lower Level • Living Room, Architect-Designed Kitchen & Bathroom with Jacuzzi in Carrara Marble on Upper Level • Conjunto Residencial Recreio das Canoas (1960) • Swimming Pool, On-Site Restaurant, BBQ Pavilion, Sports Court, Dirt Pitch, Gym, Party Hall, Laundry & 24/7 Doorman Security • 5th Land Registry Title #24.339 • IPTU: 0.385.263-9 • Court Appraisal R$ 728,710.50 • 2nd Auction at 50% for R$ 364,355.25',
+        address: 'Estrada das Canoas, #722, Block 2, Apt 109 — São Conrado, Rio de Janeiro - RJ',
+        p1Date: '11/04/2026 at 02:30 PM',
+        p2Date: '11/25/2026 at 02:30 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.385.263-9',
+        rgi: '5th Land Registry Office of Rio de Janeiro (Title #24.339)',
+        val: 'R$ 728,710.50',
+        p2Val: 'R$ 364,355.25 (50% starting bid)',
+        description: 'Residential rear-facing apartment situated in Block 2 (Unit 109) of the established Conjunto Residencial Recreio das Canoas (built in 1960) on charming Estrada das Canoas #722, nestled in the green hillside of São Conrado, Rio de Janeiro South Zone. The property features a bespoke duplex layout resulting from a structural excavation of approximately 2 meters under the original ground floor, creating a secluded lower-level bedroom (equipped with double bed, TV, and wardrobes). The upper level hosts the living room, a custom kitchen planned and executed under architectural supervision, and a full bathroom with a Jacuzzi whirlpool bathtub — both finished in authentic Carrara marble. The residential community offers an operating private restaurant, adult and children pools, barbecue area, multi-sport court, earthen soccer field, gym, event room, collective laundry, and 24-hour gated security surrounded by lush Atlantic Forest. Recorded at the 5th Land Registry under Title #24.339 with municipal tax ID IPTU #0.385.263-9. Official court appraisal of R$ 728,710.50, with 2nd Auction starting at 50% discount for R$ 364,355.25.',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Estrada das Canoas 722 / Block 2 Apt 109 (São Conrado)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment #109 of Block 2, Estrada das Canoas #722, São Conrado, Rio de Janeiro/RJ. 5th Land Registry Title #24.339 and municipal tax IPTU #0.385.263-9.' },
+            { title: 'Bespoke Duplex Architectural Conversion', text: 'Original recorded footprint of 29 sqm expanded through structural sub-level excavation, producing a two-story duplex configuration with private bedroom downstairs and living area upstairs.' },
+            { title: 'Carrara Marble & Jacuzzi Whirlpool Finishes', text: 'Architect-designed custom kitchen and bathroom featuring genuine Italian Carrara marble finishes and whirlpool bathtub.' },
+            { title: 'Recreio das Canoas Condominium Amenities (1960)', text: 'Gated resort community featuring an active restaurant, swimming pool, barbecue pavilion, sports court, soccer pitch, gym, party hall, laundry facilities, and 24/7 security doorman.' },
+            { title: 'Auction Schedule & Valuations', text: 'Court appraisal: R$ 728,710.50. 1st Auction on 11/04/2026 at 02:30 PM (100% — R$ 728,710.50). 2nd Auction on 11/25/2026 at 02:30 PM at 50% discount (R$ 364,355.25).' },
+            { title: 'Judicial Financing (CPC Art. 895)', text: 'Option for full cash payment or written installment proposal: 25% down payment (R$ 91,088.81 in 2nd auction) and up to 30 monthly indexed installments secured by court mortgage on Title #24.339.' },
+            { title: 'Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Pre-existing municipal property taxes subrogate into the auction proceeds under Art. 130 of the National Tax Code. Comprehensive due diligence and court assistance led by Soares Martins Advogados.' }
+          ]
+        },
+        faqs: [
+          { q: "What is the official court appraisal and auction schedule for the São Conrado apartment?", a: "The official court appraisal is R$ 728,710.50. The 1st Auction is on 11/04/2026 at 02:30 PM with a minimum bid of R$ 728,710.50 (100%). The 2nd Auction takes place on 11/25/2026 at 02:30 PM starting at 50% for R$ 364,355.25." },
+          { q: "How is the duplex layout structured within the apartment?", a: "The rear-facing unit has an original registered area of 29 sqm. Following an internal structural excavation of approximately 2 meters under the original floor level, the apartment was transformed into a duplex: the lower level features the bedroom, while the upper level comprises the living room, architect-designed kitchen, and a bathroom with a Jacuzzi and Carrara marble." },
+          { q: "What amenities does Conjunto Residencial Recreio das Canoas provide?", a: "Built in 1960 in São Conrado, the gated condominium offers an on-site restaurant, swimming pool, barbecue area, multi-sport court, earthen soccer field, gym, party hall, laundry, and 24/7 security surrounded by nature." },
+          { q: "What happens to past IPTU tax debts upon judicial purchase?", a: "Under Article 130 of the Brazilian National Tax Code (CTN), prior property tax debts subrogate into the auction sale price, granting the winning bidder a clean title free from pre-existing municipal tax encumbrances." },
+          { q: "Can buyers purchase this property using judicial installments?", a: "Yes. Under Civil Procedure Code Art. 895, buyers can submit a written installment proposal with a 25% down payment (R$ 91,088.81 in 2nd Auction) and up to 30 monthly installments secured by a mortgage on Title #24.339." },
+          { q: "Why is legal due diligence essential for this property?", a: "Because of the unique structural excavation and high-end marble improvements, Soares Martins Advogados conducts rigorous due diligence on condominium bylaws, municipal records, title #24.339, and oversees the process until physical possession is granted." }
+        ]
+      }
+    }
 };
 

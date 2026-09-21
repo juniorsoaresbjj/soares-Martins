@@ -143,6 +143,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • São Conrado/RJ',
+        title: 'Leilão Judicial de Apartamento Duplex em São Conrado — Estrada das Canoas nº 722 — Bloco 2, Apto 109',
+        desc: 'Apartamento de posição fundos situado no Bloco 2 (unidade 109) do tradicional Conjunto Residencial Recreio das Canoas (1960) na bucólica Estrada das Canoas nº 722, em São Conrado, Zona Sul do Rio de Janeiro. Imóvel com modificação estrutural por escavação de aproximadamente 2 metros sob o solo original, configurando estilo duplex: pavimento inferior com quarto privativo e pavimento superior com sala, cozinha e banheiro social em mármore Carrara (hidromassagem). Condomínio clube integrado à Mata Atlântica com restaurante, piscina, churrasqueira, quadra, campo de terra, academia, salão de festas, lavanderia e portaria 24h. Avaliação judicial de R$ 728.710,50 e 2ª Praça a 50% por R$ 364.355,25. 5º RGI Matrícula nº 24.339 e IPTU nº 0.385.263-9.',
+        p1Label: '1ª Praça (04/11/2026):',
+        p1Val: 'R$ 728.710,50',
+        p2Label: '2ª Praça (25/11/2026):',
+        p2Val: 'R$ 364.355,25 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20109%20do%20Bloco%202%20no%20Conjunto%20Residencial%20Recreio%20das%20Canoas%20(Estrada%20das%20Canoas%20722)%20em%20S%C3%A3o%20Conrado%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Leme/RJ',
+        title: 'Leilão Judicial de Apartamento no Leme — Rua Gustavo Sampaio nº 723 — Apto 601',
+        desc: 'Apartamento residencial de 95 m² de área privativa no 6º andar (unidade 601) do tradicional Edifício Waldorf (construção de 1952) na nobre Rua Gustavo Sampaio nº 723, no bucólico bairro do Leme, Zona Sul do Rio de Janeiro. Edifício de 12 pavimentos construído no alinhamento da via, servido por 3 elevadores (2 sociais e 1 de serviço), garagem coletiva, portaria 24 horas e circuito interno de TV (sem salão de festas ou playground). Avaliação judicial de R$ 1.400.000,00 e 2ª Praça a 50% por R$ 700.000,00 (~R$ 7.368,42/m²). 5º RGI Matrícula nº 87.664 e IPTU nº 0.578.298-2.',
+        p1Label: '1ª Praça (05/11/2026):',
+        p1Val: 'R$ 1.400.000,00',
+        p2Label: '2ª Praça (10/11/2026):',
+        p2Val: 'R$ 700.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20601%20do%20Edif%C3%ADcio%20Waldorf%20na%20Rua%20Gustavo%20Sampaio%20723%20no%20Leme%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua General Góes Monteiro nº 8 — Bloco F, Apto 203',
+        desc: 'Apartamento de 94 m² no 2º andar (unidade 203 do Bloco F) com vista privilegiada para o Pão de Açúcar, 3 quartos, 2 banheiros sociais, sala, cozinha, área de serviço, dependência completa (quarto e banheiro de serviço), 1 vaga coberta e 1 vaga externa para convidado. Condomínio de 1974 com 7 blocos de 25 andares (4 aptos/andar), 2 piscinas (adulta e infantil), bosque privativo, quadra, parquinho, mercadinho, salões de festa individuais por bloco, vigilância interna, garagista e portarias 24h. Avaliação judicial de R$ 1.128.000,00 e 2ª Praça a 50% por R$ 564.000,00 (~R$ 6.000,00/m²). 3º RGI Matrícula nº 52.894 e IPTU nº 1.245.048-2.',
+        p1Label: '1ª Praça (19/10/2026):',
+        p1Val: 'R$ 1.128.000,00',
+        p2Label: '2ª Praça (22/10/2026):',
+        p2Val: 'R$ 564.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8-bloco-f-apto-203/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20203%20do%20Bloco%20F%20na%20Rua%20General%20G%C3%B3es%20Monteiro%208%20em%20Botafogo%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Santa Rosa / Niterói/RJ',
         title: 'Leilão Judicial de Apartamento em Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloco 3, Apto 402',
         desc: 'Amplo apartamento residencial com 138 m² de área privativa edificada no 4º andar (unidade 402 do Bloco 03) na Rua Vereador Duque Estrada nº 169, no nobre bairro de Santa Rosa, Niterói/RJ. Composto por living e sala de jantar, 2 quartos, banheiro social, copa, cozinha, varanda, área de serviço, quarto e banheiro de empregada (dependência completa), com direito a 1 vaga de garagem. Condomínio clube composto por 4 prédios, sendo o Bloco 3 com 5 andares (apenas 4 aptos/andar + 2 coberturas), fachada em pastilha e 1 elevador. Lazer completo com 2 piscinas (adulto e infantil), academia, salão de festas com churrasqueira, jogos, jardins, estacionamento, portaria 24h e CFTV. Avaliação judicial de R$ 470.000,00 e 2ª Praça a 50% por R$ 235.000,00 (~R$ 1.702,89/m²). 8º RGI Matrícula nº 15.819 e IPTU nº 824741.',
@@ -892,6 +925,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • São Conrado/RJ',
+        title: 'Subasta Judicial de Apartamento Dúplex en São Conrado — Estrada das Canoas nº 722 — Bloque 2, Apto 109',
+        desc: 'Apartamento de posición interior situado en el Bloque 2 (unidad 109) del tradicional Conjunto Residencial Recreio das Canoas (1960) en la bucólica Estrada das Canoas nº 722, en São Conrado, Zona Sur de Río de Janeiro. Inmueble con modificación estructural mediante excavación de aprox. 2 metros bajo el suelo original, configurando estilo dúplex: planta inferior con dormitorio íntimo y planta superior con salón, cocina y baño completo en mármol Carrara con hidromasaje. Condominio club integrado en la Mata Atlántica con restaurante, piscina, barbacoa, pista multideporte, campo de tierra, gimnasio, salón de eventos, lavandería y portería 24h. Tasación judicial de R$ 728.710,50 y 2ª Subasta al 50% por R$ 364.355,25. 5º Registro Matrícula nº 24.339 e IPTU nº 0.385.263-9.',
+        p1Label: '1ª Subasta (04/11/2026):',
+        p1Val: 'R$ 728.710,50',
+        p2Label: '2ª Subasta (25/11/2026):',
+        p2Val: 'R$ 364.355,25 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20109%20del%20Bloque%202%20en%20Conjunto%20Residencial%20Recreio%20das%20Canoas%20(Estrada%20das%20Canoas%20722)%20en%20S%C3%A3o%20Conrado%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Leme/RJ',
+        title: 'Subasta Judicial de Apartamento en Leme — Rua Gustavo Sampaio nº 723 — Apto 601',
+        desc: 'Apartamento residencial de 95 m² de superficie privativa en la 6ª planta (unidad 601) del tradicional Edificio Waldorf (construcción de 1952) en Rua Gustavo Sampaio nº 723, en el selecto barrio de Leme, Zona Sur de Río de Janeiro. Edificio de 12 plantas construido sobre la alineación de la vía, con 3 ascensores (2 sociales y 1 de servicio), garaje colectivo, portería 24 horas y circuito cerrado de TV (sin salón de fiestas ni zona de juegos). Tasación judicial de R$ 1.400.000,00 y 2ª Subasta al 50% por R$ 700.000,00 (~R$ 7.368,42/m²). 5º Registro Matrícula nº 87.664 e IPTU nº 0.578.298-2.',
+        p1Label: '1ª Subasta (05/11/2026):',
+        p1Val: 'R$ 1.400.000,00',
+        p2Label: '2ª Subasta (10/11/2026):',
+        p2Val: 'R$ 700.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20601%20del%20Edificio%20Waldorf%20en%20Rua%20Gustavo%20Sampaio%20723%20en%20Leme%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Botafogo/RJ',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Rua General Góes Monteiro nº 8 — Bloque F, Apto 203',
+        desc: 'Apartamento de 94 m² en 2ª planta (unidad 203 del Bloque F) con vistas despejadas al Pan de Azúcar, 3 dormitorios, 2 baños sociales, salón, cocina, lavadero, dependencia de servicio completa, 1 plaza cubierta y 1 plaza para invitados. Complejo de 1974 con 7 torres de 25 plantas (4 aptos/planta), 2 piscinas, bosque privado, pista deportiva, parque infantil, tienda interna, salones de fiestas independientes, aparcacoches y porterías 24h. Tasación de R$ 1.128.000,00 y 2ª Subasta al 50% por R$ 564.000,00 (~R$ 6.000,00/m²). 3º Registro Matrícula nº 52.894 e IPTU nº 1.245.048-2.',
+        p1Label: '1ª Subasta (19/10/2026):',
+        p1Val: 'R$ 1.128.000,00',
+        p2Label: '2ª Subasta (22/10/2026):',
+        p2Val: 'R$ 564.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8-bloco-f-apto-203/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20203%20del%20Bloque%20F%20en%20Rua%20General%20G%C3%B3es%20Monteiro%208%20en%20Botafogo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Santa Rosa / Niterói/RJ',
         title: 'Subasta Judicial de Apartamento en Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloque 3, Apto 402',
         desc: 'Amplio apartamento residencial de 138 m² privativos en 4ª planta (Apto 402 del Bloque 3) en Rua Vereador Duque Estrada nº 169, Santa Rosa, Niterói/RJ. Distribuido en living y comedor, 2 dormitorios, baño social, cocina con office, balcón, área de servicio, dormitorio y baño de servicio (dependencia completa), con derecho a 1 plaza de garaje. Condominio con 4 edificios, fachada de gresite, ascensor, portería 24h, cámaras CCTV, estacionamiento, jardines, 2 piscinas (adultos e infantil), barbacoa, salón de fiestas, sala de juegos y gimnasio. Tasación judicial de R$ 470.000,00 y 2ª Subasta al 50% por R$ 235.000,00 (~R$ 1.702,89/m²). 8º Registro Matrícula nº 15.819 e IPTU nº 824741.',
@@ -1618,6 +1684,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • São Conrado/RJ',
+        title: 'Judicial Auction of Duplex Apartment in São Conrado — Estrada das Canoas #722 — Block 2, Apt 109',
+        desc: 'Quiet rear-facing residential unit in Block 2 (Unit 109) at the classic Conjunto Residencial Recreio das Canoas (built 1960) on Estrada das Canoas #722, São Conrado, Rio de Janeiro South Zone. Featuring a custom duplex configuration resulting from ~2-meter sublevel excavation: lower private floor with bedroom, and upper social floor with living room, architect-designed kitchen and full bathroom cladded in authentic Carrara marble with hydromassage. Resort-style amenities: active on-site restaurant, pool, BBQ pavilion, sports court, dirt soccer field, gym, party hall, laundry, and 24/7 manned security gate. Appraisal of R$ 728,710.50 with 2nd Auction at 50% for R$ 364,355.25. 5th Land Registry Title #24.339 & IPTU #0.385.263-9.',
+        p1Label: '1st Auction (11/04/2026):',
+        p1Val: 'R$ 728,710.50',
+        p2Label: '2nd Auction (11/25/2026):',
+        p2Val: 'R$ 364,355.25 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Estrada%20das%20Canoas%20722%20Block%202%20Apt%20109%20in%20S%C3%A3o%20Conrado%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Leme/RJ',
+        title: 'Judicial Auction of Apartment in Leme — Rua Gustavo Sampaio #723 — Apt 601',
+        desc: 'Traditional 95 sqm (1,022 sq ft) residential apartment on the 6th floor (Unit 601) in the classic Edifício Waldorf (built in 1952) at Rua Gustavo Sampaio #723, in the peaceful and prestigious neighborhood of Leme, Rio de Janeiro South Zone. 12-story building built on street alignment, serviced by 3 elevators (2 passenger, 1 service), collective garage, 24-hour doorman and CCTV (no party hall or playground, ensuring tranquility). Judicial appraisal of R$ 1,400,000.00 with 2nd Auction starting at 50% for R$ 700,000.00 (~R$ 7,368.42/sqm). 5th Land Registry Title #87.664 & IPTU #0.578.298-2.',
+        p1Label: '1st Auction (11/05/2026):',
+        p1Val: 'R$ 1,400,000.00',
+        p2Label: '2nd Auction (11/10/2026):',
+        p2Val: 'R$ 700,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Gustavo%20Sampaio%20723%20Apt%20601%20in%20Leme%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Botafogo/RJ',
+        title: 'Judicial Auction of Apartment in Botafogo — Rua General Góes Monteiro #8 — Block F, Apt 203',
+        desc: 'Prime 94 sqm (1,011 sq ft) residential apartment on the 2nd floor (Unit 203 of Block F) with direct views of Sugarloaf Mountain, 3 bedrooms, 2 social bathrooms, living/dining room, kitchen, laundry, full maid quarters, 1 covered parking stall and 1 guest stall. 1974 gated complex with 7 towers of 25 floors (4 units/floor), 2 pools, private woods, sports court, kids playground, on-site grocery, dedicated party halls per tower, parking attendants, and 24/7 security. Appraisal of R$ 1,128,000.00 with 2nd Auction at 50% for R$ 564,000.00 (~R$ 6,000.00/sqm). 3rd Land Registry Title #52.894 & IPTU #1.245.048-2.',
+        p1Label: '1st Auction (10/19/2026):',
+        p1Val: 'R$ 1,128,000.00',
+        p2Label: '2nd Auction (10/22/2026):',
+        p2Val: 'R$ 564,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-general-goes-monteiro-8-bloco-f-apto-203/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20General%20G%C3%B3es%20Monteiro%208%20Block%20F%20Apt%20203%20in%20Botafogo%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Santa Rosa / Niterói/RJ',
         title: 'Judicial Auction of Apartment in Santa Rosa / Niterói — Rua Vereador Duque Estrada #169 — Block 3, Apt 402',
