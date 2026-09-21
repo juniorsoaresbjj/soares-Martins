@@ -78,6 +78,7 @@ import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada1
 import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
 import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
 import SaoConradoEstradaDasCanoas722AuctionPage from './components/SaoConradoEstradaDasCanoas722AuctionPage';
+import BarraDaTijucaAfonsoDeTaunay631AuctionPage from './components/BarraDaTijucaAfonsoDeTaunay631AuctionPage';
 import Laranjeiras336AuctionPage from './components/Laranjeiras336AuctionPage';
 import LeblonGeneralUrquiza117AuctionPage from './components/LeblonGeneralUrquiza117AuctionPage';
 import TijucaBaraoDeItapagipe417AuctionPage from './components/TijucaBaraoDeItapagipe417AuctionPage';
@@ -577,6 +578,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722/" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631-apto-101/" element={<BarraDaTijucaAfonsoDeTaunay631AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631-apto-101" element={<BarraDaTijucaAfonsoDeTaunay631AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631/" element={<BarraDaTijucaAfonsoDeTaunay631AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631" element={<BarraDaTijucaAfonsoDeTaunay631AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601/" element={<LemeGustavoSampaio723AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leme/apartamento/rua-gustavo-sampaio-723-apto-601" element={<LemeGustavoSampaio723AuctionPage />} />

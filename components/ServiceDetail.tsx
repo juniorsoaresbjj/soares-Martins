@@ -143,6 +143,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Barra da Tijuca/RJ',
+        title: 'Leilão Judicial de Apartamento na Barra da Tijuca — Avenida Afonso de Taunay nº 631 — Apto 101',
+        desc: 'Amplo apartamento residencial de 185 m² de área privativa situado no 1º pavimento (unidade 101) de edifício residencial de baixo gabarito de 3 andares na arborizada Avenida Afonso de Taunay nº 631, na região mais valorizada da Barra da Tijuca (Jardim Oceânico). Imóvel com direito a duas vagas de garagem na escritura. A edificação não possui estrutura de lazer e serviços, assegurando custos de condomínio reduzidos e total privacidade aos moradores. Localização estratégica nas proximidades imediatas do Metrô Jardim Oceânico (Linha 4), Praça do Pomar, polo gastronômico da Olegário Maciel e praia. Avaliação judicial de R$ 1.850.000,00 e 2ª Praça a 50% por R$ 925.000,00 (~R$ 5.000,00/m²). 9º RGI Matrícula nº 165.384 e IPTU nº 186.284.02.',
+        p1Label: '1ª Praça (15/10/2026):',
+        p1Val: 'R$ 1.850.000,00',
+        p2Label: '2ª Praça (20/10/2026):',
+        p2Val: 'R$ 925.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631-apto-101/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20101%20da%20Avenida%20Afonso%20de%20Taunay%20631%20na%20Barra%20da%20Tijuca%20(Jardim%20Oce%C3%A2nico)%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • São Conrado/RJ',
         title: 'Leilão Judicial de Apartamento Duplex em São Conrado — Estrada das Canoas nº 722 — Bloco 2, Apto 109',
         desc: 'Apartamento de posição fundos situado no Bloco 2 (unidade 109) do tradicional Conjunto Residencial Recreio das Canoas (1960) na bucólica Estrada das Canoas nº 722, em São Conrado, Zona Sul do Rio de Janeiro. Imóvel com modificação estrutural por escavação de aproximadamente 2 metros sob o solo original, configurando estilo duplex: pavimento inferior com quarto privativo e pavimento superior com sala, cozinha e banheiro social em mármore Carrara (hidromassagem). Condomínio clube integrado à Mata Atlântica com restaurante, piscina, churrasqueira, quadra, campo de terra, academia, salão de festas, lavanderia e portaria 24h. Avaliação judicial de R$ 728.710,50 e 2ª Praça a 50% por R$ 364.355,25. 5º RGI Matrícula nº 24.339 e IPTU nº 0.385.263-9.',
@@ -925,6 +936,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Barra da Tijuca/RJ',
+        title: 'Subasta Judicial de Apartamento en Barra da Tijuca — Avenida Afonso de Taunay nº 631 — Apto 101',
+        desc: 'Amplio apartamento residencial de 185 m² de superficie privativa situado en la 1ª planta (unidad 101) de un selecto edificio residencial de 3 plantas en la arbolada Avenida Afonso de Taunay nº 631, en Jardim Oceânico, Barra da Tijuca. Dispone de dos plazas de garaje asignadas. El edificio no cuenta con áreas comunes de ocio ni servicios, lo que proporciona alta privacidad y cuotas de mantenimiento mensual reducidas. Excelente ubicación a escasos metros del Metro Jardim Oceânico (Línea 4), polo gastronómico de Olegário Maciel y playas. Tasación oficial de R$ 1.850.000,00 con 2ª Subasta al 50% por R$ 925.000,00 (~R$ 5.000/m²). 9º Registro Matrícula 165.384 e IPTU 186.284.02.',
+        p1Label: '1ª Subasta (15/10/2026):',
+        p1Val: 'R$ 1.850.000,00',
+        p2Label: '2ª Subasta (20/10/2026):',
+        p2Val: 'R$ 925.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631-apto-101/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20101%20de%20Avenida%20Afonso%20de%20Taunay%20631%20en%20Barra%20da%20Tijuca%20(Jardim%20Oce%C3%A2nico)%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • São Conrado/RJ',
         title: 'Subasta Judicial de Apartamento Dúplex en São Conrado — Estrada das Canoas nº 722 — Bloque 2, Apto 109',
         desc: 'Apartamento de posición interior situado en el Bloque 2 (unidad 109) del tradicional Conjunto Residencial Recreio das Canoas (1960) en la bucólica Estrada das Canoas nº 722, en São Conrado, Zona Sur de Río de Janeiro. Inmueble con modificación estructural mediante excavación de aprox. 2 metros bajo el suelo original, configurando estilo dúplex: planta inferior con dormitorio íntimo y planta superior con salón, cocina y baño completo en mármol Carrara con hidromasaje. Condominio club integrado en la Mata Atlántica con restaurante, piscina, barbacoa, pista multideporte, campo de tierra, gimnasio, salón de eventos, lavandería y portería 24h. Tasación judicial de R$ 728.710,50 y 2ª Subasta al 50% por R$ 364.355,25. 5º Registro Matrícula nº 24.339 e IPTU nº 0.385.263-9.',
@@ -1684,6 +1706,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Barra da Tijuca/RJ',
+        title: 'Judicial Auction of Apartment in Barra da Tijuca — Avenida Afonso de Taunay #631 — Apt 101',
+        desc: 'Spacious 185 sqm (1,991 sq ft) residential apartment on the 1st floor (Unit 101) in an exclusive 3-story low-rise building located at tree-lined Avenida Afonso de Taunay #631, in prime Jardim Oceânico, Barra da Tijuca. The property includes 2 deeded parking spaces. The building does not feature shared leisure or concierge amenities, ensuring exceptional privacy and substantially lower monthly condominium fees. Highly sought-after location within easy walking distance of the Jardim Oceânico Subway Station (Line 4), gourmet dining along Olegário Maciel, and Barra Beach. Official appraisal of R$ 1,850,000.00 with 2nd Auction at 50% for R$ 925,000.00 (~R$ 5,000/sqm). 9th Land Registry Title #165.384 & IPTU #186.284.02.',
+        p1Label: '1st Auction (10/15/2026):',
+        p1Val: 'R$ 1,850,000.00',
+        p2Label: '2nd Auction (10/20/2026):',
+        p2Val: 'R$ 925,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-afonso-de-taunay-631-apto-101/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Avenida%20Afonso%20de%20Taunay%20631%20Apt%20101%20in%20Barra%20da%20Tijuca%20(Jardim%20Oce%C3%A2nico)%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • São Conrado/RJ',
         title: 'Judicial Auction of Duplex Apartment in São Conrado — Estrada das Canoas #722 — Block 2, Apt 109',

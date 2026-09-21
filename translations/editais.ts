@@ -5180,6 +5180,116 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why is legal due diligence essential for this property?", a: "Because of the unique structural excavation and high-end marble improvements, Soares Martins Advogados conducts rigorous due diligence on condominium bylaws, municipal records, title #24.339, and oversees the process until physical possession is granted." }
         ]
       }
+    },
+    'barra-da-tijuca-avenida-afonso-de-taunay-631-apto-101': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento na Barra da Tijuca — Avenida Afonso de Taunay nº 631 — Apto 101',
+        subtitle: 'Avenida Afonso de Taunay, nº 631, Apto 101 — Barra da Tijuca (Jardim Oceânico), Rio de Janeiro/RJ | 185 m² • Prédio de 3 Andares (Baixo Gabarito) • 2 Vagas de Garagem • Próximo ao Metrô Jardim Oceânico • 9º RGI Matrícula 165.384 • IPTU: 186.284.02 • Avaliação R$ 1.850.000,00 • 2ª Praça a 50% por R$ 925.000,00 (~R$ 5.000/m²)',
+        address: 'Avenida Afonso de Taunay, nº 631, Apto 101 — Barra da Tijuca, Rio de Janeiro - RJ',
+        p1Date: '15/10/2026 às 13:20h',
+        p2Date: '20/10/2026 às 13:20h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '186.284.02',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 165.384)',
+        val: 'R$ 1.850.000,00',
+        p2Val: 'R$ 925.000,00 (50% da avaliação)',
+        description: 'Amplo apartamento residencial de 185 m² de área privativa situado no 1º pavimento (unidade 101) de edifício residencial de baixo gabarito de 3 andares na arborizada Avenida Afonso de Taunay nº 631, na região mais valorizada da Barra da Tijuca (Jardim Oceânico). O imóvel conta com direito a duas vagas de garagem na escritura. A edificação não possui estrutura de lazer e serviços, proporcionando privacidade ímpar aos condôminos e custo de cota condominial significativamente reduzido. Localização privilegiada a passos da estação do Metrô Jardim Oceânico (Linha 4), polo gastronômico da Olegário Maciel e praia. Registrado sob a Matrícula 165.384 no 9º RGI e IPTU 186.284.02. Avaliação judicial homologada em R$ 1.850.000,00 com 2ª Praça a 50% por R$ 925.000,00, gerando um patamar excepcional de aproximadamente R$ 5.000/m² em uma das áreas com m² mais cobiçadas do Rio de Janeiro.',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Avenida Afonso de Taunay 631 / Apto 101 (Barra da Tijuca)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento 101 do edifício situado na Avenida Afonso de Taunay nº 631, Barra da Tijuca (Jardim Oceânico), Rio de Janeiro/RJ. Inscrito no 9º RGI sob a Matrícula nº 165.384 e inscrição municipal IPTU nº 186.284.02.' },
+            { title: 'Dimensões e Vagas de Garagem', text: '185 m² de área privativa generosa, com direito ao uso de 2 vagas de garagem cobertas/demarcadas no condomínio.' },
+            { title: 'Edificação de Baixo Gabarito (3 Andares)', text: 'Prédio clássico de 3 andares sem estrutura de lazer e serviços, assegurando tranquilidade, vizinhança reservada e taxa de condomínio econômica.' },
+            { title: 'Localização Estratégica no Jardim Oceânico', text: 'Situado próximo ao Metrô Jardim Oceânico (Linha 4), polo de serviços da Avenida Fernando Mattos, polo gastronômico da Olegário Maciel e a minutos da orla da Barra.' },
+            { title: 'Valores e Cronograma de Praças Judiciais', text: '1ª Praça: 15/10/2026 às 13:20h por R$ 1.850.000,00 (100% da avaliação). 2ª Praça: 20/10/2026 às 13:20h por R$ 925.000,00 (lance mínimo de 50%, deságio de R$ 925.000,00).' },
+            { title: 'Condições de Pagamento e Parcelamento (Art. 895 CPC)', text: 'Arrematação à vista ou mediante proposta formal de parcelamento judicial: 25% de entrada (R$ 231.250,00 na 2ª Praça) e saldo em até 30 parcelas mensais corrigidas com garantia hipotecária sobre o imóvel.' },
+            { title: 'Sub-rogação Fiscal e Segurança Jurídica', text: 'Débitos fiscais de IPTU anteriores à arrematação sub-rogam-se no preço judicialmente depositado, nos termos do Artigo 130 do Código Tributário Nacional (CTN).' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação judicial e o lance mínimo na 2ª praça?", a: "O imóvel foi avaliado judicialmente em R$ 1.850.000,00. Na 1ª Praça (15/10/2026 às 13:20h) o lance mínimo é o valor da avaliação integral. Na 2ª Praça (20/10/2026 às 13:20h), o lance inicial é fixado em 50% da avaliação, ou seja, R$ 925.000,00 — representando um custo de cerca de R$ 5.000/m² para uma metragem de 185 m² no Jardim Oceânico." },
+          { q: "Quantas vagas de garagem o apartamento 101 possui?", a: "O apartamento possui direito a 2 vagas de garagem devidamente vinculadas e resguardadas na Matrícula nº 165.384 do 9º RGI." },
+          { q: "Quais as características do condomínio na Avenida Afonso de Taunay 631?", a: "O imóvel fica em um prédio residencial exclusivo de 3 andares (baixo gabarito característico do Jardim Oceânico), sem estrutura de lazer e serviços, o que reduz substancialmente as despesas ordinárias condominiais e garante total tranquilidade e privacidade aos moradores." },
+          { q: "A localização fica próxima ao transporte público e metrô?", a: "Sim, o imóvel está estrategicamente situado nas proximidades da estação de Metrô Jardim Oceânico (Linha 4), permitindo conexão rápida e direta com a Zona Sul (São Conrado, Leblon, Ipanema) e Centro do Rio, além da proximidade com a Praia da Barra e a Av. Olegário Maciel." },
+          { q: "É possível arrematar este imóvel de forma parcelada?", a: "Sim. O Código de Processo Civil (Art. 895) faculta a apresentação de proposta de parcelamento judicial por escrito antes do leilão: entrada mínima de 25% (R$ 231.250,00 na 2ª Praça) e o saldo dividido em até 30 prestações mensais corrigidas, com hipoteca judicial sobre a matrícula." },
+          { q: "Como ficam eventuais débitos de IPTU do imóvel?", a: "Conforme dispõe expressamente o parágrafo único do Art. 130 do Código Tributário Nacional (CTN), os débitos tributários de IPTU anteriores à data da arrematação sub-rogam-se sobre o respectivo preço alcançado no pregão, transferindo a propriedade livre de dívidas fiscais passadas ao arrematante." },
+          { q: "Qual a importância da assessoria jurídica do escritório Soares Martins Advogados?", a: "A equipe de Soares Martins Advogados realiza a due diligence completa: exame detalhado do edital, certidões cíveis, fiscais e da Matrícula nº 165.384 no 9º RGI, formulação de estratégia de lance, assessoria no parcelamento judicial, expedição da Carta de Arrematação e imissão efetiva na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Barra da Tijuca — Avenida Afonso de Taunay nº 631 — Apto 101',
+        subtitle: 'Avenida Afonso de Taunay, nº 631, Apto 101 — Barra da Tijuca (Jardim Oceânico), Río de Janeiro/RJ | 185 m² • Edificio de 3 Plantas • 2 Plazas de Garaje • Próximo al Metro Jardim Oceânico • 9º Registro Matrícula 165.384 • IPTU: 186.284.02 • Tasación R$ 1.850.000,00 • 2ª Subasta al 50% por R$ 925.000,00 (~R$ 5.000/m²)',
+        address: 'Avenida Afonso de Taunay, nº 631, Apto 101 — Barra da Tijuca, Río de Janeiro - RJ',
+        p1Date: '15/10/2026 a las 13:20h',
+        p2Date: '20/10/2026 a las 13:20h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '186.284.02',
+        rgi: '9º Registro de la Propiedad Inmueble (Matrícula nº 165.384)',
+        val: 'R$ 1.850.000,00',
+        p2Val: 'R$ 925.000,00 (50% de la tasación)',
+        description: 'Amplio apartamento residencial de 185 m² de superficie privativa situado en la 1ª planta (unidad 101) de un selecto edificio residencial de 3 plantas en la arbolada Avenida Afonso de Taunay nº 631, en Jardim Oceânico, Barra da Tijuca. Dispone de dos plazas de garaje asignadas. El edificio no cuenta con áreas comunes de ocio ni servicios, lo que proporciona alta privacidad y cuotas de mantenimiento mensual reducidas. Excelente ubicación a escasos metros del Metro Jardim Oceânico (Línea 4), polo gastronómico de Olegário Maciel y playas. Inscrito en el 9º Registro con Matrícula 165.384 e IPTU 186.284.02. Tasación oficial de R$ 1.850.000,00 con 2ª Subasta al 50% por R$ 925.000,00 (~R$ 5.000/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Avenida Afonso de Taunay 631 / Apto 101 (Barra da Tijuca)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apto 101, Avenida Afonso de Taunay nº 631, Barra da Tijuca (Jardim Oceânico), Río de Janeiro/RJ. 9º Registro Matrícula 165.384 e IPTU 186.284.02.' },
+            { title: 'Superficie y Garaje', text: '185 m² privativos con derecho a 2 plazas de garaje vinculadas en el condominio.' },
+            { title: 'Edificio de Baja Altura (3 Plantas)', text: 'Edificio de 3 niveles sin zonas de ocio comunitarias, garantizando máxima tranquilidad y reducidos gastos mensuales de comunidad.' },
+            { title: 'Ubicación Inmejorable en Jardim Oceânico', text: 'A escasa distancia a pie de la estación de Metro Jardim Oceânico (Línea 4), centros comerciales, restaurantes y la playa de Barra da Tijuca.' },
+            { title: 'Calendario de Subastas', text: '1ª Subasta: 15/10/2026 a las 13:20h por R$ 1.850.000,00. 2ª Subasta: 20/10/2026 a las 13:20h por R$ 925.000,00 (lance inicial del 50%).' },
+            { title: 'Pago Fraccionado Judicial (Art. 895 CPC)', text: 'Adquisición al contado o propuesta formal a plazos con 25% de entrada (R$ 231.250,00 en 2ª Subasta) y hasta 30 cuotas mensuales indexadas con hipoteca.' },
+            { title: 'Subrogación Fiscal (CTN Art. 130)', text: 'Las deudas previas de IPTU quedan subrogadas en el precio judicial abonado en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuál es el valor de tasación y el lance inicial en 2ª subasta?", a: "La tasación judicial oficial es de R$ 1.850.000,00. La 1ª Subasta (15/10/2026 a las 13:20h) requiere el 100%. La 2ª Subasta (20/10/2026 a las 13:20h) comienza al 50% con R$ 925.000,00 (~R$ 5.000/m² para 185 m² en Jardim Oceânico)." },
+          { q: "¿Cuántas plazas de garaje tiene la unidad 101?", a: "Tiene asignadas y resguardadas 2 plazas de garaje según la Matrícula nº 165.384 del 9º Registro." },
+          { q: "¿Qué características posee el edificio en Avenida Afonso de Taunay?", a: "Se trata de un edificio residencial exclusivo de 3 plantas, típico de Jardim Oceânico, sin áreas de ocio ni servicios colectivos, asegurando baja cuota de comunidad y total privacidad." },
+          { q: "¿Está cerca del Metro?", a: "Sí, a escasa distancia de la estación de Metro Jardim Oceânico (Línea 4), comunicando rápidamente con la Zona Sur y el centro de Río de Janeiro." },
+          { q: "¿Es posible financiarlo judicialmente a plazos?", a: "Sí, bajo el Art. 895 del CPC, mediante propuesta formal con 25% de entrada y saldo en hasta 30 cuotas mensuales garantizadas con hipoteca judicial." },
+          { q: "¿Qué ocurre con las deudas tributarias de IPTU?", a: "Conforme al Art. 130 del CTN, los débitos fiscales anteriores se subrogan en el precio de la subasta judicial, entregando el inmueble libre de gravámenes tributarios." },
+          { q: "¿Por qué contar con la asesoría de Soares Martins Advogados?", a: "Brindamos auditoría legal preventiva completa, análisis de edicto y registro, estrategia en la puja, solicitud de carta de adjudicación y toma efectiva de posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Barra da Tijuca — Avenida Afonso de Taunay #631 — Apt 101',
+        subtitle: 'Avenida Afonso de Taunay, #631, Apt 101 — Barra da Tijuca (Jardim Oceânico), Rio de Janeiro/RJ | 185 sqm (1,991 sq ft) • Low-Rise 3-Story Boutique Building • 2 Parking Spaces • Walking Distance to Jardim Oceânico Subway • 9th Land Registry Title #165.384 • IPTU: 186.284.02 • Court Appraisal R$ 1,850,000.00 • 2nd Auction at 50% for R$ 925,000.00 (~R$ 5,000/sqm)',
+        address: 'Avenida Afonso de Taunay, #631, Apt 101 — Barra da Tijuca, Rio de Janeiro - RJ',
+        p1Date: '10/15/2026 at 01:20 PM',
+        p2Date: '10/20/2026 at 01:20 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '186.284.02',
+        rgi: '9th Land Registry Office of Rio de Janeiro (Title #165.384)',
+        val: 'R$ 1,850,000.00',
+        p2Val: 'R$ 925,000.00 (50% starting bid)',
+        description: 'Spacious 185 sqm (1,991 sq ft) residential apartment on the 1st floor (Unit 101) in an exclusive 3-story low-rise building located at tree-lined Avenida Afonso de Taunay #631, in the prime Jardim Oceânico enclave of Barra da Tijuca, Rio de Janeiro. The property includes 2 deeded parking spaces. The building does not feature shared leisure or concierge amenities, ensuring exceptional privacy and substantially lower monthly condominium fees. Highly sought-after location within easy walking distance of the Jardim Oceânico Subway Station (Line 4), gourmet dining along Olegário Maciel, and Barra Beach. Recorded at the 9th Land Registry under Title #165.384 and IPTU #186.284.02. Official court appraisal of R$ 1,850,000.00 with 2nd Auction starting at 50% for R$ 925,000.00 (~R$ 5,000/sqm, an outstanding discount against prevailing market benchmarks of R$ 14,000–R$ 20,000/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Avenida Afonso de Taunay 631 / Apt 101 (Barra da Tijuca)',
+          sections: [
+            { title: 'Registry & Identification', text: 'Apartment 101 at Avenida Afonso de Taunay #631, Barra da Tijuca (Jardim Oceânico), Rio de Janeiro/RJ. 9th Land Registry Title #165.384 and IPTU #186.284.02.' },
+            { title: 'Floor Area and Parking', text: '185 sqm private living area with 2 dedicated parking spaces.' },
+            { title: 'Low-Rise 3-Story Building', text: 'Boutique 3-story residential building without collective leisure facilities, providing peaceful living and low condo fees.' },
+            { title: 'Prime Jardim Oceânico Location', text: 'Steps from Jardim Oceânico Metro station (Line 4), Olegário Maciel restaurant corridor, and Barra da Tijuca beach.' },
+            { title: 'Auction Dates & Valuations', text: '1st Auction: 10/15/2026 at 01:20 PM for R$ 1,850,000.00. 2nd Auction: 10/20/2026 at 01:20 PM starting at 50% for R$ 925,000.00.' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Cash settlement or written court installment proposal: 25% down payment (R$ 231,250.00 in 2nd Auction) and up to 30 monthly installments secured by court mortgage.' },
+            { title: 'Tax Clearance & Legal Subrogation (CTN Art. 130)', text: 'Prior municipal property tax debts subrogate into the auction purchase price, ensuring a clean title transfer.' }
+          ]
+        },
+        faqs: [
+          { q: "What is the official appraisal and 2nd auction minimum bid?", a: "The official court appraisal is R$ 1,850,000.00. The 1st Auction (10/15/2026 at 01:20 PM) starts at 100%. The 2nd Auction (10/20/2026 at 01:20 PM) opens at 50%, starting at R$ 925,000.00 (~R$ 5,000/sqm for a 185 sqm apartment in prime Jardim Oceânico)." },
+          { q: "How many parking spaces are included with Unit 101?", a: "The apartment comes with 2 deeded parking spaces recorded under Title #165.384 at the 9th Land Registry Office." },
+          { q: "What are the building characteristics at Avenida Afonso de Taunay 631?", a: "It is a boutique 3-story residential building (typical low-rise zoning of Jardim Oceânico) without shared leisure amenities, resulting in very economical monthly condominium charges and utmost privacy." },
+          { q: "Is the building close to public transit and the subway?", a: "Yes, it is strategically located within walking distance to the Jardim Oceânico Subway Station (Line 4), providing quick and direct connection to Rio's South Zone and downtown, as well as nearby Barra beach." },
+          { q: "Can buyers bid using court-approved installment financing?", a: "Yes. Under Civil Procedure Code Art. 895, a written proposal can be submitted prior to the auction with a 25% down payment (R$ 231,250.00 in 2nd Auction) and up to 30 monthly indexed installments secured by a judicial mortgage." },
+          { q: "What happens to past IPTU tax arrears?", a: "Under Article 130 of the Brazilian National Tax Code (CTN), pre-existing property tax debts subrogate into the auction proceeds, delivering the property free and clear of past fiscal liabilities." },
+          { q: "Why hire Soares Martins Advogados for this acquisition?", a: "Our specialized legal team conducts full due diligence on Title #165.384, verifies court records, formulates bidding and installment strategies, files court documents, and guides the investor through physical possession." }
+        ]
+      }
     }
 };
 
