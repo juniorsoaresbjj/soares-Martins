@@ -143,6 +143,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Centro / Bairro de Fátima (RJ)',
+        title: 'Leilão Judicial de Apartamento no Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima nº 60 — Apto 501',
+        desc: 'Apartamento residencial de 67 m² de área edificada privativa no 5º pavimento (unidade 501), de frente para a rua principal em tradicional edifício construído em 1950 na aprazível Avenida Nossa Senhora de Fátima nº 60, no arborizado Bairro de Fátima / Centro do Rio de Janeiro. Imóvel em bom estado de conservação, composto por 3 quartos (quarto 1 com piso em tábua corrida e quartos 2 e 3 em cerâmica, todos com janelas de alumínio), sala arejada em porcelanato com janela de alumínio, corredor principal em porcelanato, corredor de entrada em cerâmica, cozinha com bancada de alumínio, área de serviço individualizada e banheiro social com box blindex e piso cerâmico. Edifício servido por 2 elevadores (capacidade para 4 pessoas cada), porteiro/zelador presencial (segunda a sexta das 9h às 18h e sábado das 9h às 13h) e circuito interno de TV (CFTV). Registrado no 2º RGI sob a Matrícula 05392 e inscrição municipal IPTU nº 0.580.436-4. 1º Leilão em 26/10/2026 por R$ 420.592,00 e 2º Leilão em 28/10/2026 com lance inicial de R$ 210.296,00 (~R$ 3.138,75/m²).',
+        p1Label: '1ª Praça (26/10/2026):',
+        p1Val: 'R$ 420.592,00',
+        p2Label: '2ª Praça (28/10/2026):',
+        p2Val: 'R$ 210.296,00 (Lance inicial 2ª Praça)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60-apto-501/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20501%20na%20Avenida%20Nossa%20Senhora%20de%20F%C3%A1tima%2060%20no%20Centro%20/%20Bairro%20de%20F%C3%A1tima%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Copacabana / Posto 6 (RJ)',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Raul Pompéia nº 240 — Apto 702',
+        desc: 'Apartamento residencial de frente com 143 m² de área edificada privativa no 7º andar (unidade 702) de clássico edifício construído em 1957 na nobre e aprazível Rua Raul Pompéia nº 240, na cobiçada região do Posto 6 em Copacabana, a passos do Arpoador e Ipanema. Imóvel arejado e ensolarado de tipologia residencial composto por três quartos (sendo dois deles voltados para a fachada da rua), antessala e sala de estar/jantar generosas com janelões para a rua, cozinha espaçosa, dois banheiros sociais completos e um banheiro de serviço. O condomínio dispõe de portaria que funciona 24 horas, elevadores e vaga de garagem. Registrado no 5º RGI sob a Matrícula 26.715 e inscrição municipal IPTU nº 0.277.837-1. Oportunidade com 1º Leilão em 03/11/2026 por R$ 1.300.000,00 e 2º Leilão em 05/11/2026 com lance inicial de R$ 650.000,00 (~R$ 4.545,45/m² no Posto 6).',
+        p1Label: '1ª Praça (03/11/2026):',
+        p1Val: 'R$ 1.300.000,00',
+        p2Label: '2ª Praça (05/11/2026):',
+        p2Val: 'R$ 650.000,00 (Lance inicial 2ª Praça)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240-apto-702/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20702%20da%20Rua%20Raul%20Pomp%C3%A9ia%20240%20em%20Copacabana%20(Posto%206)%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Barra da Tijuca/RJ',
         title: 'Leilão Judicial de Apartamento na Barra da Tijuca — Avenida Afonso de Taunay nº 631 — Apto 101',
         desc: 'Amplo apartamento residencial de 185 m² de área privativa situado no 1º pavimento (unidade 101) de edifício residencial de baixo gabarito de 3 andares na arborizada Avenida Afonso de Taunay nº 631, na região mais valorizada da Barra da Tijuca (Jardim Oceânico). Imóvel com direito a duas vagas de garagem na escritura. A edificação não possui estrutura de lazer e serviços, assegurando custos de condomínio reduzidos e total privacidade aos moradores. Localização estratégica nas proximidades imediatas do Metrô Jardim Oceânico (Linha 4), Praça do Pomar, polo gastronômico da Olegário Maciel e praia. Avaliação judicial de R$ 1.850.000,00 e 2ª Praça a 50% por R$ 925.000,00 (~R$ 5.000,00/m²). 9º RGI Matrícula nº 165.384 e IPTU nº 186.284.02.',
@@ -936,6 +958,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Centro / Bairro de Fátima (RJ)',
+        title: 'Subasta Judicial de Apartamento en Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima nº 60 — Apto 501',
+        desc: 'Apartamento residencial de 67 m² de superficie edificada privativa en 5ª planta (unidad 501), de frente para la calle principal en tradicional edificio construido en 1950 en la apacible Avenida Nossa Senhora de Fátima nº 60, en el arbolado Bairro de Fátima / Centro de Río de Janeiro. Inmueble en buen estado de conservación, compuesto por 3 dormitorios, salón amplio en porcelanato con ventana de aluminio, cocina con encimera de aluminio, área de servicio independiente y baño con box blindex. Edificio servido por 2 ascensores (4 personas c/u), portero/conserje presencial y circuito cerrado de TV (CCTV). Registrado en el 2º Registro bajo Matrícula 05392 e IPTU nº 0.580.436-4. 1ª Subasta el 26/10/2026 por R$ 420.592,00 y 2ª Subasta el 28/10/2026 con puja inicial de R$ 210.296,00 (~R$ 3.138,75/m²).',
+        p1Label: '1ª Subasta (26/10/2026):',
+        p1Val: 'R$ 420.592,00',
+        p2Label: '2ª Subasta (28/10/2026):',
+        p2Val: 'R$ 210.296,00 (Puja inicial 2ª Subasta)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60-apto-501/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20501%20en%20Avenida%20Nossa%20Senhora%20de%20F%C3%A1tima%2060%20en%20Centro%20/%20Bairro%20de%20F%C3%A1tima%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana / Posto 6 (RJ)',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Rua Raul Pompéia nº 240 — Apto 702',
+        desc: 'Apartamento residencial exterior de 143 m² en 7ª planta (unidad 702) de un clásico edificio construido en 1957 en la cotizada Rua Raul Pompéia nº 240, en Posto 6 de Copacabana, a pasos de Arpoador e Ipanema. Consta de 3 dormitorios (dos de ellos con ventanas a la calle), antesala y salón amplio con ventanas a la calle, 2 baños sociales, cocina y baño de servicio. Dispone de conserjería 24 horas, ascensor y garaje. Inscrito en el 5º Registro bajo la Matrícula 26.715 e IPTU 0.277.837-1. 1ª Subasta en 03/11/2026 por R$ 1.300.000,00 y 2ª Subasta en 05/11/2026 con lance inicial de R$ 650.000,00 (~R$ 4.545/m²).',
+        p1Label: '1ª Subasta (03/11/2026):',
+        p1Val: 'R$ 1.300.000,00',
+        p2Label: '2ª Subasta (05/11/2026):',
+        p2Val: 'R$ 650.000,00 (Lance inicial 2ª Subasta)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240-apto-702/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20702%20de%20Rua%20Raul%20Pomp%C3%A9ia%20240%20en%20Copacabana%20(Posto%206)%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Barra da Tijuca/RJ',
         title: 'Subasta Judicial de Apartamento en Barra da Tijuca — Avenida Afonso de Taunay nº 631 — Apto 101',
         desc: 'Amplio apartamento residencial de 185 m² de superficie privativa situado en la 1ª planta (unidad 101) de un selecto edificio residencial de 3 plantas en la arbolada Avenida Afonso de Taunay nº 631, en Jardim Oceânico, Barra da Tijuca. Dispone de dos plazas de garaje asignadas. El edificio no cuenta con áreas comunes de ocio ni servicios, lo que proporciona alta privacidad y cuotas de mantenimiento mensual reducidas. Excelente ubicación a escasos metros del Metro Jardim Oceânico (Línea 4), polo gastronómico de Olegário Maciel y playas. Tasación oficial de R$ 1.850.000,00 con 2ª Subasta al 50% por R$ 925.000,00 (~R$ 5.000/m²). 9º Registro Matrícula 165.384 e IPTU 186.284.02.',
@@ -1706,6 +1750,28 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Centro / Bairro de Fátima (RJ)',
+        title: 'Judicial Auction of Apartment in Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima #60 — Apt 501',
+        desc: 'Prime 67 sqm (721 sq ft) street-facing residential apartment on the 5th floor (Unit 501) of a traditional 1950 building located at tree-lined Avenida Nossa Senhora de Fátima #60, in the charming Bairro de Fátima / Centro of Rio de Janeiro. In good condition, comprising 3 bedrooms, airy living room with porcelain tile flooring and aluminum windows, kitchen with aluminum counter, dedicated laundry area, and bathroom with blindex enclosure. The building features 2 passenger elevators (4 people each), doorman/caretaker on duty, and CCTV security cameras. Registered at the 2nd Land Registry under Title #05392 and municipal tax IPTU #0.580.436-4. 1st Auction on 10/26/2026 starting at R$ 420,592.00 and 2nd Auction on 10/28/2026 with starting bid of R$ 210,296.00 (~R$ 3,138.75/sqm).',
+        p1Label: '1st Auction (10/26/2026):',
+        p1Val: 'R$ 420,592.00',
+        p2Label: '2nd Auction (10/28/2026):',
+        p2Val: 'R$ 210,296.00 (2nd Auction starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60-apto-501/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Avenida%20Nossa%20Senhora%20de%20F%C3%A1tima%2060%20Apt%20501%20in%20Centro%20/%20Bairro%20de%20F%C3%A1tima%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Copacabana / Posto 6 (RJ)',
+        title: 'Judicial Auction of Apartment in Copacabana — Rua Raul Pompéia #240 — Apt 702',
+        desc: 'Prime 143 sqm (1,539 sq ft) street-facing residential apartment on the 7th floor (Unit 702) of a distinguished 1957 building located at charming Rua Raul Pompéia #240 in prestigious Posto 6, Copacabana, footsteps from Arpoador and Ipanema. Bright, sunlit and well-ventilated layout featuring 3 bedrooms (two with direct street-facing windows), generous anteroom and main living/dining room overlooking the tree-lined street, large kitchen, 2 full social bathrooms, and service bathroom. The building provides 24-hour manned concierge, elevators, and garage space. Recorded at the 5th Land Registry under Title #26.715 and municipal tax IPTU #0.277.837-1. 1st Auction on 11/03/2026 starting at R$ 1,300,000.00 and 2nd Auction on 11/05/2026 starting at R$ 650,000.00 (~R$ 4,545/sqm).',
+        p1Label: '1st Auction (11/03/2026):',
+        p1Val: 'R$ 1,300,000.00',
+        p2Label: '2nd Auction (11/05/2026):',
+        p2Val: 'R$ 650,000.00 (2nd Auction starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240-apto-702/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Raul%20Pomp%C3%A9ia%20240%20Apt%20702%20in%20Copacabana%20(Posto%206)%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Barra da Tijuca/RJ',
         title: 'Judicial Auction of Apartment in Barra da Tijuca — Avenida Afonso de Taunay #631 — Apt 101',

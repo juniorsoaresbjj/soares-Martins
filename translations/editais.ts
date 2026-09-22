@@ -5290,6 +5290,229 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this acquisition?", a: "Our specialized legal team conducts full due diligence on Title #165.384, verifies court records, formulates bidding and installment strategies, files court documents, and guides the investor through physical possession." }
         ]
       }
+    },
+    'copacabana-rua-raul-pompeia-240-apto-702': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Raul Pompéia nº 240 — Apto 702',
+        subtitle: 'Rua Raul Pompéia, nº 240, Apto 702 — Copacabana (Posto 6), Rio de Janeiro/RJ | 143 m² • Posição Frente com Luz Natural • 3 Quartos (2 de Frente) • Antessala e Sala Ampla com Janelas para a Rua • 2 Banheiros Sociais e Banheiro de Serviço • Cozinha Espaçosa • Edifício Construído em 1957 • Portaria 24 Horas, Elevadores e Garagem • 5º RGI Matrícula 26.715 • IPTU: 0.277.837-1 • 1º Leilão: R$ 1.300.000,00 • 2º Leilão: R$ 650.000,00 (~R$ 4.545/m²)',
+        address: 'Rua Raul Pompéia, nº 240, Apto 702 — Copacabana (Posto 6), Rio de Janeiro - RJ',
+        p1Date: '03/11/2026 às 12:00h',
+        p2Date: '05/11/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.277.837-1',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 26.715)',
+        val: 'R$ 1.300.000,00',
+        p2Val: 'R$ 650.000,00 (Lance inicial 2ª Praça)',
+        description: 'Apartamento residencial de frente com 143 m² de área edificada privativa no 7º andar (unidade 702) de clássico edifício construído em 1957 na nobre e aprazível Rua Raul Pompéia nº 240, na cobiçada região do Posto 6 em Copacabana, a passos do Arpoador e Ipanema. Imóvel arejado e ensolarado de tipologia residencial composto por três quartos (sendo dois deles voltados para a fachada da rua), antessala e sala de estar/jantar generosas com janelões para a rua, cozinha espaçosa, dois banheiros sociais completos e um banheiro de serviço. O condomínio dispõe de portaria que funciona 24 horas, elevadores e vaga de garagem. Registrado no 5º RGI sob a Matrícula 26.715 e inscrição municipal IPTU nº 0.277.837-1. Oportunidade com 1º Leilão em 03/11/2026 por R$ 1.300.000,00 e 2º Leilão em 05/11/2026 com lance inicial de R$ 650.000,00 (~R$ 4.545,45/m² no Posto 6).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Raul Pompéia 240 / Apto 702 (Copacabana - Posto 6)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 702 do edifício situado na Rua Raul Pompéia nº 240, Copacabana (Posto 6), Rio de Janeiro/RJ. Inscrito no 5º RGI sob a Matrícula nº 26.715 e inscrição municipal IPTU nº 0.277.837-1.' },
+            { title: 'Tipologia e Distribuição dos Cômodos', text: '143 m² de área privativa edificada. Posição de frente com excelente iluminação e ventilação. Composto por 3 quartos (2 deles com janelas para a rua), antessala com janela para a rua, sala ampla com janela para a rua, 2 banheiros sociais, cozinha e banheiro de serviço.' },
+            { title: 'Infraestrutura do Edifício (Construção 1957)', text: 'Edifício tradicional de sólida construção datada de 1957, provido de portaria presencial com funcionamento 24 horas, elevadores modernizados e vaga de garagem coletiva/privativa.' },
+            { title: 'Localização Privilegiada no Posto 6', text: 'Situado na Rua Raul Pompéia, rua arborizada e tranquila entre a Praia de Copacabana, a Praia do Forte/Diabo e o Arpoador, a poucos minutos a pé do metrô General Osório e de Ipanema.' },
+            { title: 'Calendário de Leilões e Valores', text: '1º Leilão: 03/11/2026 às 12:00h com lance inicial de R$ 1.300.000,00. 2º Leilão: 05/11/2026 às 12:00h com lance inicial de R$ 650.000,00 (deságio expressivo de 50%).' },
+            { title: 'Modalidades de Pagamento e Parcelamento (Art. 895 CPC)', text: 'Pagamento à vista ou mediante proposta formal de parcelamento judicial: 25% de entrada (R$ 162.500,00 na 2ª Praça) e o saldo dividido em até 30 parcelas mensais corrigidas com hipoteca judicial sobre a Matrícula 26.715.' },
+            { title: 'Sub-rogação de Débitos Tributários (Art. 130 CTN)', text: 'Os débitos fiscais de IPTU anteriores à arrematação sub-rogam-se sobre o respectivo preço alcançado no leilão, sendo transferida a propriedade livre de ônus tributários pretéritos.' }
+          ]
+        },
+        faqs: [
+          { q: "Quais são as datas e lances mínimos para o apartamento na Rua Raul Pompéia 240?", a: "O 1º Leilão ocorre em 03/11/2026 às 12:00h com lance inicial de R$ 1.300.000,00. Caso não haja arrematante, o 2º Leilão ocorre em 05/11/2026 às 12:00h com lance inicial de R$ 650.000,00 — representando cerca de R$ 4.545,45/m² para um apartamento de 143 m² de frente no Posto 6 de Copacabana." },
+          { q: "Como é a distribuição interna do apartamento 702?", a: "O imóvel possui 143 m² de área edificada e é voltado para a frente. Dispõe de antessala com janela para a rua, sala ampla com janela para a rua, três quartos (sendo dois de frente com janelas voltadas para a rua), cozinha espaçosa, dois banheiros sociais completos e um banheiro de serviço." },
+          { q: "Quais as comodidades e serviços do condomínio?", a: "O edifício foi construído em 1957, possui portaria presencial que funciona 24 horas ininterruptamente, elevadores e direito a vaga de garagem, unindo a solidez da arquitetura clássica à segurança e praticidade do Posto 6." },
+          { q: "A localização é próxima ao Arpoador e Ipanema?", a: "Sim, a Rua Raul Pompéia fica no Posto 6 de Copacabana, um dos trechos mais valorizados e calmos do bairro, a curtas distâncias a pé da Praia de Copacabana, Praia do Diabo, Pedra do Arpoador, Praça General Osório e início de Ipanema." },
+          { q: "É possível arrematar o imóvel por meio de parcelamento judicial?", a: "Sim. Pelo Artigo 895 do CPC, o interessado pode apresentar proposta de parcelamento com entrada mínima de 25% (R$ 162.500,00 na 2ª Praça) e saldo financiado em até 30 prestações mensais corrigidas pelos índices oficiais da Justiça, com hipoteca judicial na Matrícula 26.715 do 5º RGI." },
+          { q: "Como ficam eventuais dívidas fiscais de IPTU anteriores?", a: "Nos termos do parágrafo único do Art. 130 do Código Tributário Nacional (CTN), os débitos tributários de IPTU anteriores à arrematação sub-rogam-se sobre o preço pago no leilão judicial, recebendo o arrematante o bem livre de débitos fiscais do passado." },
+          { q: "Qual o papel do escritório Soares Martins Advogados nessa arrematação?", a: "Nossa equipe realiza o exame preventivo minucioso dos autos judiciais e da Matrícula 26.715 no 5º RGI, estrutura a estratégia de lance e parcelamento, cuida do pagamento de custas, ITBI, obtenção da Carta de Arrematação e efetivação do Mandado de Imissão na Posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Copacabana — Rua Raul Pompéia nº 240 — Apto 702',
+        subtitle: 'Rua Raul Pompéia, nº 240, Apto 702 — Copacabana (Posto 6), Río de Janeiro/RJ | 143 m² • Orientación Frontal • 3 Dormitorios (2 a la Calle) • Sala y Antesala con Ventanales a la Calle • 2 Baños Sociales y Baño de Servicio • Cocina Amplia • Edificio de 1957 • Portería 24h, Ascensores y Garaje • 5º Registro Matrícula 26.715 • IPTU: 0.277.837-1 • 1ª Subasta: R$ 1.300.000,00 • 2ª Subasta: R$ 650.000,00 (~R$ 4.545/m²)',
+        address: 'Rua Raul Pompéia, nº 240, Apto 702 — Copacabana (Posto 6), Río de Janeiro - RJ',
+        p1Date: '03/11/2026 a las 12:00h',
+        p2Date: '05/11/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.277.837-1',
+        rgi: '5º Registro de la Propiedad Inmueble (Matrícula nº 26.715)',
+        val: 'R$ 1.300.000,00',
+        p2Val: 'R$ 650.000,00 (Lance inicial 2ª Subasta)',
+        description: 'Apartamento residencial exterior de 143 m² en 7ª planta (unidad 702) de un clásico edificio construido en 1957 en la cotizada Rua Raul Pompéia nº 240, en Posto 6 de Copacabana, a pasos de Arpoador e Ipanema. Consta de 3 dormitorios (dos de ellos con ventanas a la calle), antesala y salón amplio con ventanas a la calle, 2 baños sociales, cocina y baño de servicio. Dispone de conserjería 24 horas, ascensor y garaje. Inscrito en el 5º Registro bajo la Matrícula 26.715 e IPTU 0.277.837-1. 1ª Subasta en 03/11/2026 por R$ 1.300.000,00 y 2ª Subasta en 05/11/2026 con lance inicial de R$ 650.000,00 (~R$ 4.545/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Rua Raul Pompéia 240 / Apto 702 (Copacabana - Posto 6)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento nº 702, Rua Raul Pompéia nº 240, Copacabana (Posto 6), Río de Janeiro/RJ. 5º Registro Matrícula 26.715 e IPTU 0.277.837-1.' },
+            { title: 'Distribución y Superficie', text: '143 m² privativos, posición frontal. 3 dormitorios (2 con ventanas a la calle), antesala, salón con ventanas a la calle, cocina espaciosa, 2 baños sociales y baño de servicio.' },
+            { title: 'Edificio Clásico de 1957', text: 'Edificio sólido de 1957 con portería 24 horas, ascensores y plaza de garaje.' },
+            { title: 'Ubicación Selecta en Posto 6', text: 'En Rua Raul Pompéia, calle arbolada y tranquila entre la playa de Copacabana y Arpoador/Ipanema.' },
+            { title: 'Calendario de Subastas', text: '1ª Subasta: 03/11/2026 a las 12:00h por R$ 1.300.000,00. 2ª Subasta: 05/11/2026 a las 12:00h con inicio en R$ 650.000,00 (50% de descuento).' },
+            { title: 'Pago en Cuotas Judiciales (Art. 895 CPC)', text: 'Opción al contado o con 25% de entrada (R$ 162.500,00 en 2ª Subasta) y hasta 30 cuotas mensuales indexadas con hipoteca.' },
+            { title: 'Subrogación Tributaria (Art. 130 CTN)', text: 'Las deudas previas de IPTU quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y lances mínimos para el apartamento de Raul Pompéia 240?", a: "La 1ª Subasta es el 03/11/2026 a las 12:00h con lance inicial de R$ 1.300.000,00. La 2ª Subasta es el 05/11/2026 a las 12:00h con lance inicial de R$ 650.000,00 (~R$ 4.545/m² para 143 m² en Posto 6 de Copacabana)." },
+          { q: "¿Cómo es la distribución del apartamento 702?", a: "Tiene 143 m² de frente, antesala y salón con amplios ventanales a la calle, 3 dormitorios (2 con vista directa a la calle), cocina, 2 baños sociales completos y un baño de servicio." },
+          { q: "¿Qué servicios tiene el edificio?", a: "Construido en 1957, ofrece portería 24 horas, ascensor y garaje." },
+          { q: "¿Está cerca de Arpoador e Ipanema?", a: "Sí, la Rua Raul Pompéia está en Posto 6, a pocos metros de la playa de Copacabana, Arpoador e Ipanema." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, mediante propuesta formal (CPC Art. 895) con 25% de entrada y saldo en hasta 30 mensualidades con hipoteca judicial." },
+          { q: "¿Qué ocurre con las deudas de IPTU?", a: "Conforme al Art. 130 del CTN, los débitos fiscales se subrogan en el precio pagado en la subasta." },
+          { q: "¿Por qué contar con Soares Martins Advogados?", a: "Realizamos la auditoría preventiva de los autos y del 5º Registro, formulamos la puja y acompañamos hasta la entrega física del inmueble." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Copacabana — Rua Raul Pompéia #240 — Apt 702',
+        subtitle: 'Rua Raul Pompéia, #240, Apt 702 — Copacabana (Posto 6), Rio de Janeiro/RJ | 143 sqm (1,539 sq ft) • Street-Facing Position with Natural Light • 3 Bedrooms (2 with Street Windows) • Anteroom and Spacious Living Room Facing Street • 2 Full Social Bathrooms & Maid Bathroom • Generous Kitchen • 1957 Classic Building • 24/7 Doorman Concierge, Elevators & Garage • 5th Land Registry Title #26.715 • IPTU: 0.277.837-1 • 1st Auction: R$ 1,300,000.00 • 2nd Auction: R$ 650,000.00 (~R$ 4,545/sqm)',
+        address: 'Rua Raul Pompéia, #240, Apt 702 — Copacabana (Posto 6), Rio de Janeiro - RJ',
+        p1Date: '11/03/2026 at 12:00 PM',
+        p2Date: '11/05/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.277.837-1',
+        rgi: '5th Land Registry Office of Rio de Janeiro (Title #26.715)',
+        val: 'R$ 1,300,000.00',
+        p2Val: 'R$ 650,000.00 (2nd Auction starting bid)',
+        description: 'Prime 143 sqm (1,539 sq ft) street-facing residential apartment on the 7th floor (Unit 702) of a distinguished 1957 building located at charming Rua Raul Pompéia #240 in prestigious Posto 6, Copacabana, footsteps from Arpoador and Ipanema. Bright, sunlit and well-ventilated layout featuring 3 bedrooms (two with direct street-facing windows), generous anteroom and main living/dining room overlooking the tree-lined street, large kitchen, 2 full social bathrooms, and service bathroom. The building provides 24-hour manned concierge, elevators, and garage space. Recorded at the 5th Land Registry under Title #26.715 and municipal tax IPTU #0.277.837-1. 1st Auction on 11/03/2026 starting at R$ 1,300,000.00 and 2nd Auction on 11/05/2026 starting at R$ 650,000.00 (~R$ 4,545/sqm, an extraordinary price point for Posto 6 Copacabana).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Raul Pompéia 240 / Apt 702 (Copacabana - Posto 6)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment 702, Rua Raul Pompéia #240, Copacabana (Posto 6), Rio de Janeiro/RJ. 5th Land Registry Title #26.715 and IPTU #0.277.837-1.' },
+            { title: 'Apartment Layout and Floor Area', text: '143 sqm private living area, front-facing unit. Comprises 3 bedrooms (2 with windows facing the street), anteroom, wide living room with street windows, spacious kitchen, 2 social bathrooms, and service bathroom.' },
+            { title: 'Building Features (1957 Construction)', text: 'Well-maintained classic 1957 building featuring 24/7 security doorman, elevators, and garage.' },
+            { title: 'Prime Posto 6 Copacabana Location', text: 'Located on tranquil tree-lined Rua Raul Pompéia between Copacabana Beach, Fort/Devil Beach, and Arpoador, minutes from Ipanema.' },
+            { title: 'Auction Dates & Minimum Bids', text: '1st Auction: 11/03/2026 at 12:00 PM starting at R$ 1,300,000.00. 2nd Auction: 11/05/2026 at 12:00 PM starting at R$ 650,000.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Cash purchase or written installment proposal: 25% down payment (R$ 162,500.00 in 2nd Auction) and balance in up to 30 monthly indexed installments secured by judicial mortgage.' },
+            { title: 'Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Prior municipal property taxes subrogate into auction proceeds, granting a clean title free from past tax debts.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and prices for Rua Raul Pompéia 240?", a: "The 1st Auction is scheduled for 11/03/2026 at 12:00 PM with an opening bid of R$ 1,300,000.00. The 2nd Auction is set for 11/05/2026 at 12:00 PM starting at R$ 650,000.00 (~R$ 4,545/sqm for 143 sqm in Posto 6 Copacabana)." },
+          { q: "What is the interior floor plan of Apartment 702?", a: "The 143 sqm front-facing apartment features an entrance anteroom and spacious living room with windows facing the street, 3 bedrooms (2 facing the street), large kitchen, 2 full social bathrooms, and a service bathroom." },
+          { q: "What facilities are available in the building?", a: "Constructed in 1957, the building features 24-hour manned lobby concierge, elevators, and garage space." },
+          { q: "Is the location close to Arpoador and Ipanema?", a: "Yes, Rua Raul Pompéia is located in Posto 6 of Copacabana, within short walking distance to Copacabana Beach, Arpoador, and Ipanema." },
+          { q: "Can the property be bought via judicial installments?", a: "Yes. Under Civil Procedure Code Art. 895, a written proposal can be submitted with 25% down payment and up to 30 monthly installments secured by a court mortgage on Title #26.715." },
+          { q: "What happens to past IPTU debts?", a: "Under Article 130 of the Brazilian National Tax Code (CTN), previous property taxes subrogate into the auction proceeds, delivering the property free and clear." },
+          { q: "Why hire Soares Martins Advogados for this auction?", a: "We conduct complete legal due diligence on Title #26.715, formulate the bidding and installment strategy, handle court procedures, and oversee possession." }
+        ]
+      }
+    },
+    'centro-avenida-nossa-senhora-de-fatima-60-apto-501': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento no Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima nº 60 — Apto 501',
+        subtitle: 'Avenida Nossa Senhora de Fátima, nº 60, Apto 501 — Centro (Bairro de Fátima), Rio de Janeiro/RJ | 67 m² • Posição de Frente • 3 Quartos (Quarto 1 com Tábua Corrida e Quartos 2 e 3 em Cerâmica) • Sala em Porcelanato com Janela de Alumínio • Cozinha com Bancada de Alumínio, Azulejos em Meia Parede e Cerâmica • Área de Serviço • Banheiro com Box Blindex • Bom Estado de Conservação • Edifício Tradicional de 1950 • 2 Elevadores (Capacidade 4 Passageiros Cada) • Porteiro/Zelador • Circuito Interno de TV (CFTV) • 2º RGI Matrícula 05392 • Inscrição IPTU: 0.580.436-4 • 1º Leilão: R$ 420.592,00 • 2º Leilão: R$ 210.296,00 (~R$ 3.138/m²)',
+        address: 'Avenida Nossa Senhora de Fátima, nº 60, Apto 501 — Centro (Bairro de Fátima), Rio de Janeiro - RJ',
+        p1Date: '26/10/2026 às 14:00h',
+        p2Date: '28/10/2026 às 14:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.580.436-4',
+        rgi: '2º Ofício de Registro de Imóveis (Matrícula nº 05392)',
+        val: 'R$ 420.592,00',
+        p2Val: 'R$ 210.296,00 (Lance inicial 2ª Praça)',
+        description: 'Apartamento residencial de 67 m² de área edificada privativa no 5º pavimento (unidade 501), com posição de frente para a rua principal em edifício tradicional construído em 1950 na aprazível Avenida Nossa Senhora de Fátima nº 60, no acolhedor Bairro de Fátima / Centro do Rio de Janeiro. O imóvel encontra-se em bom estado de conservação e possui planta funcional e bem distribuída: área de serviço com azulejos em metade da parede e piso cerâmico; corredor de entrada em cerâmica; cozinha com bancada de alumínio, azulejos em meia parede e cerâmica; corredor principal com revestimento em porcelanato; sala arejada com piso em porcelanato e janela de alumínio; quarto 1 com piso em tábua corrida e janela de alumínio; quarto 2 com piso cerâmico e janela de alumínio; quarto 3 com piso cerâmico e janela de alumínio; e banheiro social com box em blindex e piso cerâmico (sem azulejo). O edifício é servido por dois elevadores com capacidade para quatro passageiros cada, conta com porteiro/zelador de segunda a sexta-feira das 9h às 18h e aos sábados das 9h às 13h, e dispõe de circuito interno de TV (CFTV). Registrado no 2º RGI sob a Matrícula 05392 e inscrição municipal IPTU nº 0.580.436-4. 1º Leilão em 26/10/2026 às 14:00h pelo valor de avaliação de R$ 420.592,00 e 2º Leilão em 28/10/2026 às 14:00h com lance inicial de 50% por R$ 210.296,00 (~R$ 3.138,75/m²).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Av. Nossa Senhora de Fátima 60 / Apto 501 (Centro - Bairro de Fátima)',
+          sections: [
+            { title: 'Identificação Registral e Cadastral', text: 'Apartamento nº 501, Avenida Nossa Senhora de Fátima nº 60, Centro (Bairro de Fátima), Rio de Janeiro/RJ. Cartório do 2º Ofício de Registro de Imóveis (2º RGI) Matrícula nº 05392 e Inscrição Municipal IPTU nº 0.580.436-4.' },
+            { title: 'Área Privativa e Posição', text: '67 m² de área edificada privativa, ocupando a cobiçada posição de frente para a rua principal, garantindo excelente iluminação e ventilação natural.' },
+            { title: 'Distribuição e Acabamentos', text: '3 quartos (quarto 1 com piso em tábua corrida e quartos 2 e 3 em cerâmica, todos com esquadrias de alumínio), sala em porcelanato, corredor principal em porcelanato, corredor de entrada em cerâmica, cozinha com bancada de alumínio e azulejos em meia parede, área de serviço com cerâmica e meia parede em azulejos, e banheiro com box blindex e cerâmica. Imóvel em bom estado de conservação.' },
+            { title: 'Características do Edifício (Construção 1950)', text: 'Edifício tradicional residencial servido por 2 elevadores (capacidade para 4 passageiros cada), zelador/porteiro presencial das 9h às 18h de segunda a sexta e aos sábados das 9h às 13h, além de circuito interno de TV (CFTV).' },
+            { title: 'Localização Privilegiada no Bairro de Fátima', text: 'Enclave bucólico e estritamente residencial no Centro do Rio de Janeiro, com praça arborizada (Praça Presidente Aguirre Cerda), comércio de bairro, feira livre e proximidade imediata ao polo executivo do Centro, Lapa e Glória.' },
+            { title: 'Calendário e Lances Oficiais', text: '1º Leilão: 26/10/2026 às 14:00h com lance inicial de R$ 420.592,00 (100% da avaliação). 2º Leilão: 28/10/2026 às 14:00h com lance inicial de R$ 210.296,00 (50% da avaliação, ~R$ 3.138,75/m²).' },
+            { title: 'Parcelamento Judicial (Art. 895 CPC)', text: 'Possibilidade de aquisição à vista ou mediante proposta formal de parcelamento judicial (Art. 895 do CPC): entrada mínima de 25% (R$ 52.574,00 na 2ª praça) e o saldo em até 30 parcelas mensais corrigidas por índice oficial da Justiça com garantia hipotecária sobre o próprio bem.' },
+            { title: 'Sub-rogação Fiscal (Art. 130, Parágrafo Único do CTN)', text: 'Os débitos tributários de IPTU e taxas anteriores à arrematação sub-rogam-se no preço pago, transferindo o imóvel livre de ônus fiscais preexistentes ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Quais são as datas e lances mínimos para o apartamento da Avenida Nossa Senhora de Fátima nº 60?", a: "O 1º Leilão ocorre em 26/10/2026 às 14:00h pelo valor da avaliação de R$ 420.592,00. O 2º Leilão ocorre em 28/10/2026 às 14:00h com lance inicial de 50%, iniciando em R$ 210.296,00 (~R$ 3.138,75/m² para 67 m² de frente no Centro/Bairro de Fátima)." },
+          { q: "Qual é a distribuição interna e o estado do apartamento 501?", a: "O imóvel possui 67 m² de frente para a rua principal e está em bom estado de conservação. Conta com sala em porcelanato, corredor principal em porcelanato, corredor de entrada em cerâmica, 3 quartos (o quarto 1 com tábua corrida e os quartos 2 e 3 em cerâmica, todos com janelas de alumínio), cozinha com bancada de alumínio e azulejos em meia parede, área de serviço azulejada em meia parede e cerâmica, e banheiro social com box em blindex e piso cerâmico." },
+          { q: "Quais são os diferenciais do edifício?", a: "Construído em 1950, o prédio conta com dois elevadores com capacidade para quatro pessoas cada, serviço de zelador/porteiro presencial em dias úteis (9h às 18h) e sábados (9h às 13h), e monitoramento por circuito interno de TV (CFTV)." },
+          { q: "Como é a localização no Bairro de Fátima / Centro?", a: "O Bairro de Fátima é um dos enclaves residenciais mais tradicionais, tranquilos e arborizados do Centro do Rio. Possui atmosfera de bairro do interior com praça arborizada (Praça Pres. Aguirre Cerda), feiras, padarias e farmácias, com fácil acesso a pé ou por transporte ao polo corporativo da Av. Rio Branco, Lapa, Glória e Santa Teresa." },
+          { q: "Posso arrematar este imóvel de forma parcelada?", a: "Sim. Pelo Artigo 895 do Código de Processo Civil (CPC), qualquer interessado pode apresentar proposta formal por escrito antes do leilão com entrada de 25% (R$ 52.574,00 na 2ª praça) e parcelamento do saldo em até 30 meses corrigidos por índice da Justiça estadual, com hipoteca judicial averbada na matrícula." },
+          { q: "O arrematante é responsável por dívidas antigas de IPTU?", a: "Não. Conforme o Artigo 130, parágrafo único, do Código Tributário Nacional (CTN), os créditos fiscais tributários sub-rogam-se no preço da arrematação, recebendo o adquirente a propriedade livre de dívidas de IPTU anteriores." },
+          { q: "Por que contratar a assessoria da Soares Martins Advogados?", a: "Realizamos a auditoria preventiva completa (due diligence dos autos do TJRJ e da Matrícula 05392 do 2º RGI), elaboramos a estratégia e redação de proposta nos termos do Art. 895 do CPC, acompanhamos a homologação do auto, a expedição da carta de arrematação e o mandado de imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima nº 60 — Apto 501',
+        subtitle: 'Avenida Nossa Senhora de Fátima, nº 60, Apto 501 — Centro (Bairro de Fátima), Río de Janeiro/RJ | 67 m² • Posición Frontal • 3 Dormitorios (Dormitorio 1 con Tarima de Madera, Dormitorios 2 y 3 en Cerámica) • Salón en Porcelánico con Ventana de Aluminio • Cocina con Encimera de Aluminio y Azulejos a Media Altura • Zona de Lavadero • Baño con Mampara de Cristal • Buen Estado de Conservación • Edificio Clásico de 1950 • 2 Ascensores (Capacidad 4 Pasajeros c/u) • Conserje/Portero • Circuito Cerrado de TV (CCTV) • 2º Registro Matrícula 05392 • IPTU: 0.580.436-4 • 1ª Subasta: R$ 420.592,00 • 2ª Subasta: R$ 210.296,00 (~R$ 3.138/m²)',
+        address: 'Avenida Nossa Senhora de Fátima, nº 60, Apto 501 — Centro (Bairro de Fátima), Río de Janeiro - RJ',
+        p1Date: '26/10/2026 a las 14:00h',
+        p2Date: '28/10/2026 a las 14:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.580.436-4',
+        rgi: '2º Registro de la Propiedad Inmueble (Matrícula nº 05392)',
+        val: 'R$ 420.592,00',
+        p2Val: 'R$ 210.296,00 (Lance inicial 2ª Subasta)',
+        description: 'Apartamento residencial de 67 m² de superficie edificada privativa en 5ª planta (unidad 501), con orientación frontal hacia la calle principal en un edificio tradicional construido en 1950 en la apacible Avenida Nossa Senhora de Fátima nº 60, en el selecto y tranquilo Bairro de Fátima / Centro de Río de Janeiro. El inmueble se encuentra en buen estado de conservación y presenta una distribución funcional: zona de lavadero con azulejos a media pared y suelo cerámico; pasillo de entrada cerámico; cocina con encimera de aluminio, azulejos a media pared y suelo cerámico; pasillo principal en porcelánico; salón luminoso con suelo de porcelánico y carpintería de aluminio; dormitorio 1 con suelo de tarima de madera y ventana de aluminio; dormitorio 2 en cerámica y ventana de aluminio; dormitorio 3 en cerámica y ventana de aluminio; y cuarto de baño completo con mampara de cristal (blindex) y suelo cerámico. El edificio cuenta con dos ascensores con capacidad para cuatro pasajeros cada uno, servicio de conserje/portero presencial (lunes a viernes de 9h a 18h y sábados de 9h a 13h) y circuito cerrado de televisión (CCTV). Inscrito en el 2º Registro bajo la Matrícula nº 05392 e inscripción municipal IPTU nº 0.580.436-4. 1ª Subasta el 26/10/2026 a las 14:00h por R$ 420.592,00 y 2ª Subasta el 28/10/2026 a las 14:00h con lance inicial de R$ 210.296,00 (descuento del 50%, ~R$ 3.138,75/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Av. Nossa Senhora de Fátima 60 / Apto 501 (Centro - Bairro de Fátima)',
+          sections: [
+            { title: 'Identificación Registral y Catastral', text: 'Apartamento nº 501, Avenida Nossa Senhora de Fátima nº 60, Centro (Bairro de Fátima), Río de Janeiro/RJ. 2º Registro Matrícula 05392 e IPTU nº 0.580.436-4.' },
+            { title: 'Superficie Privativa y Orientación', text: '67 m² de superficie edificada privativa en posición frontal, garantizando excelente iluminación y ventilación natural.' },
+            { title: 'Distribución y Acabados', text: '3 dormitorios (dormitorio 1 con suelo de madera noble y dormitorios 2 y 3 en cerámica, con ventanas de aluminio), salón en porcelánico, cocina con encimera de aluminio, zona de lavadero y baño con mampara blindex. En buen estado de conservación.' },
+            { title: 'Características del Edificio de 1950', text: 'Edificio residencial con 2 ascensores (4 pasajeros cada uno), portero presencial de lunes a viernes (9h-18h) y sábados (9h-13h) y circuito cerrado de TV.' },
+            { title: 'Ubicación Exclusiva en Bairro de Fátima', text: 'Bucólico enclave residencial en el Centro de Río con plaza arbolada (Praça Aguirre Cerda), comercios de barrio y rápida conexión a pie con el centro corporativo, Lapa y Glória.' },
+            { title: 'Fechas y Lances Mínimos', text: '1ª Subasta: 26/10/2026 a las 14:00h por R$ 420.592,00. 2ª Subasta: 28/10/2026 a las 14:00h con inicio en R$ 210.296,00 (50% de descuento).' },
+            { title: 'Pago Fraccionado Judicial (Art. 895 CPC)', text: 'Adquisición al contado o en cuotas judiciales: 25% de entrada (R$ 52.574,00 en 2ª Subasta) y hasta 30 mensualidades corregidas por índice oficial con hipoteca judicial sobre el inmueble.' },
+            { title: 'Subrogación Tributaria (Art. 130 CTN)', text: 'Las deudas previas de IPTU se subrogan en el precio de la subasta, recibiendo el comprador el título libre de cargas fiscales anteriores.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y lances mínimos para el apartamento de Av. Nossa Senhora de Fátima 60?", a: "La 1ª Subasta es el 26/10/2026 a las 14:00h por R$ 420.592,00. La 2ª Subasta es el 28/10/2026 a las 14:00h con lance inicial de R$ 210.296,00 (~R$ 3.138,75/m² para 67 m² de frente en Centro/Bairro de Fátima)." },
+          { q: "¿Cómo es la distribución y estado del apartamento 501?", a: "Tiene 67 m² de posición exterior y buen estado de conservación. Consta de salón en porcelánico, pasillos, 3 dormitorios (uno en madera noble y dos en cerámica, todos con ventanas de aluminio), cocina con encimera de aluminio, lavadero independiente y baño con mampara blindex." },
+          { q: "¿Qué servicios posee el edificio?", a: "Construido en 1950, cuenta con dos ascensores, portero/conserje presencial y cámaras de circuito cerrado (CCTV)." },
+          { q: "¿Cómo es el barrio?", a: "Bairro de Fátima es un enclave tranquilo y arbolado dentro del Centro de Río, con plaza central, vida de barrio y proximidad inmediata al distrito de negocios y a la Lapa." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, conforme al Art. 895 del CPC, mediante propuesta previa formal con 25% de entrada y hasta 30 cuotas mensuales avaladas por hipoteca judicial." },
+          { q: "¿Qué ocurre con las deudas de IPTU?", a: "Conforme al Art. 130 del CTN, los débitos fiscales se subrogan en el precio pagado en la subasta." },
+          { q: "¿Por qué contar con Soares Martins Advogados?", a: "Realizamos la auditoría preventiva completa de los autos del TJRJ y de la Matrícula nº 05392 del 2º Registro, estructuramos la propuesta y acompañamos hasta la entrega física de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima #60 — Apt 501',
+        subtitle: 'Avenida Nossa Senhora de Fátima, #60, Apt 501 — Centro (Bairro de Fátima), Rio de Janeiro/RJ | 67 sqm (721 sq ft) • Street-Facing Position with Abundant Light • 3 Bedrooms (Bedroom 1 with Hardwood Planks, Bedrooms 2 & 3 in Ceramic) • Porcelain Tile Living Room with Aluminum Window • Kitchen with Aluminum Countertop and Half-Wall Tiles • Laundry Area • Full Bathroom with Tempered Glass Shower • Good Conservation State • Classic 1950 Building • 2 Elevators (4-Passenger Capacity Each) • Daytime Concierge/Doorman • CCTV Camera System • 2nd Land Registry Title #05392 • IPTU: 0.580.436-4 • 1st Auction: R$ 420,592.00 • 2nd Auction: R$ 210,296.00 (~R$ 3,138/sqm)',
+        address: 'Avenida Nossa Senhora de Fátima, #60, Apt 501 — Centro (Bairro de Fátima), Rio de Janeiro - RJ',
+        p1Date: '10/26/2026 at 02:00 PM',
+        p2Date: '10/28/2026 at 02:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.580.436-4',
+        rgi: '2nd Land Registry Office of Rio de Janeiro (Title #05392)',
+        val: 'R$ 420,592.00',
+        p2Val: 'R$ 210,296.00 (2nd Auction starting bid)',
+        description: 'Bright 67 sqm (721 sq ft) street-facing residential apartment situated on the 5th floor (Unit 501) of a charming mid-century building constructed in 1950 on tree-lined Avenida Nossa Senhora de Fátima #60, in the historic and tranquil Bairro de Fátima enclave of central Rio de Janeiro. The property is in good overall condition, featuring a functional floor plan: entrance corridor in ceramic tile; bright living room finished in polished porcelain tiles with aluminum window frame; main hallway in porcelain tile; Bedroom 1 with elegant solid hardwood plank flooring and aluminum window; Bedroom 2 with ceramic floor and aluminum window; Bedroom 3 with ceramic floor and aluminum window; kitchen equipped with aluminum countertop, half-wall tiles and ceramic flooring; dedicated laundry area with ceramic tile and tiled half-walls; and social bathroom with blindex tempered glass shower box and ceramic flooring. The building features two passenger elevators (4-person capacity each), on-site doorman/concierge services (Monday through Friday 9:00 AM to 6:00 PM and Saturday 9:00 AM to 1:00 PM), and closed-circuit TV surveillance (CCTV). Recorded at the 2nd Land Registry under Title #05392 and municipal tax IPTU #0.580.436-4. 1st Auction on 10/26/2026 at 02:00 PM starting at R$ 420,592.00 and 2nd Auction on 10/28/2026 at 02:00 PM starting at 50% for R$ 210,296.00 (~R$ 3,138.75/sqm, an outstanding opportunity in central Rio).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Av. Nossa Senhora de Fátima 60 / Apt 501 (Centro - Bairro de Fátima)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment 501, Avenida Nossa Senhora de Fátima #60, Centro (Bairro de Fátima), Rio de Janeiro/RJ. 2nd Land Registry Title #05392 and Municipal Tax IPTU #0.580.436-4.' },
+            { title: 'Floor Area & Street-Facing Position', text: '67 sqm private living area, front-facing unit overlooking the main avenue with generous natural lighting and ventilation.' },
+            { title: 'Room Layout and Finishes', text: '3 bedrooms (bedroom 1 in solid hardwood plank, bedrooms 2 and 3 in ceramic tile, all with aluminum window frames), porcelain tile living room, porcelain corridor, ceramic entrance hallway, kitchen with aluminum countertop and half-wall tiling, laundry room, and bathroom with blindex glass box. Good condition throughout.' },
+            { title: 'Building Features (1950 Construction)', text: 'Classic residential building with 2 elevators (4 passengers each), on-site doorman/concierge on weekdays (9am-6pm) and Saturdays (9am-1pm), and security CCTV cameras.' },
+            { title: 'Tranquil Bairro de Fátima Setting', text: 'Peaceful residential pocket in Rio’s central zone centered on tree-filled Praça Presidente Aguirre Cerda, offering local shops, bakeries and open-air markets, within minutes of the downtown business district and Lapa.' },
+            { title: 'Auction Dates & Reserve Bids', text: '1st Auction: 10/26/2026 at 02:00 PM at R$ 420,592.00 (100% of appraisal). 2nd Auction: 10/28/2026 at 02:00 PM starting at R$ 210,296.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Cash settlement or court-approved installments: 25% down payment (R$ 52,574.00 in 2nd Auction) and up to 30 monthly installments indexed by official court rates and secured by a judicial mortgage.' },
+            { title: 'Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Past property taxes subrogate into the auction proceeds under CTN Art. 130, ensuring a clean title transfer free of past municipal fiscal liabilities.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and minimum bids for Av. Nossa Senhora de Fátima 60?", a: "The 1st Auction is on 10/26/2026 at 02:00 PM starting at R$ 420,592.00. The 2nd Auction is on 10/28/2026 at 02:00 PM with an opening bid of R$ 210,296.00 (~R$ 3,138.75/sqm for a 67 sqm front-facing unit in Centro/Bairro de Fátima)." },
+          { q: "What is the floor plan and condition of Apartment 501?", a: "The 67 sqm front-facing apartment is in good condition, featuring a porcelain-tiled living room, entrance and main corridors, 3 bedrooms (one in hardwood planks and two in ceramic tiles, all with aluminum windows), kitchen with aluminum countertop and half-wall tiles, separate laundry area, and bathroom with tempered glass blindex shower box." },
+          { q: "What building amenities are provided?", a: "Built in 1950, the building offers two passenger elevators (4 people each), daytime doorman/concierge on weekdays and Saturday mornings, and closed-circuit TV (CCTV) security." },
+          { q: "How is the location in Bairro de Fátima / Centro?", a: "Bairro de Fátima is one of central Rio's most charming and quiet residential enclaves, centered around green Praça Aguirre Cerda, offering a friendly neighborhood feel with easy access to Rio's corporate downtown, Lapa, and Glória." },
+          { q: "Can buyers bid using court-approved installment financing?", a: "Yes. Under Civil Procedure Code Art. 895, a written proposal can be submitted prior to the auction with a 25% down payment (R$ 52,574.00 in 2nd Auction) and up to 30 monthly installments secured by a court mortgage on Title #05392." },
+          { q: "What happens to past IPTU tax arrears?", a: "Under Article 130 of the Brazilian National Tax Code (CTN), pre-existing property taxes subrogate into the auction proceeds, delivering the property free and clear of past fiscal debts." },
+          { q: "Why engage Soares Martins Advogados for this acquisition?", a: "We carry out comprehensive due diligence on Court records and 2nd Land Registry Title #05392, structure the installment proposal under Art. 895 CPC, manage court filings, and secure physical possession." }
+        ]
+      }
     }
 };
 

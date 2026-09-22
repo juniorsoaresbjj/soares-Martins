@@ -74,6 +74,8 @@ import CentroRioBranco185AuctionPage from './components/CentroRioBranco185Auctio
 import CentroEvaristoDaVeiga21AuctionPage from './components/CentroEvaristoDaVeiga21AuctionPage';
 import CopacabanaSiqueiraCampos143AuctionPage from './components/CopacabanaSiqueiraCampos143AuctionPage';
 import CopacabanaBaraoDeIpanema105AuctionPage from './components/CopacabanaBaraoDeIpanema105AuctionPage';
+import CopacabanaRaulPompeia240AuctionPage from './components/CopacabanaRaulPompeia240AuctionPage';
+import CentroNossaSenhoraFatima60AuctionPage from './components/CentroNossaSenhoraFatima60AuctionPage';
 import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada169AuctionPage';
 import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
 import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
@@ -568,6 +570,16 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barao-de-ipanema-105-apto-604" element={<CopacabanaBaraoDeIpanema105AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barao-de-ipanema-105/" element={<CopacabanaBaraoDeIpanema105AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barao-de-ipanema-105" element={<CopacabanaBaraoDeIpanema105AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240-apto-702/" element={<CopacabanaRaulPompeia240AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240-apto-702" element={<CopacabanaRaulPompeia240AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240/" element={<CopacabanaRaulPompeia240AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-raul-pompeia-240" element={<CopacabanaRaulPompeia240AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60-apto-501/" element={<CentroNossaSenhoraFatima60AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60-apto-501" element={<CentroNossaSenhoraFatima60AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60/" element={<CentroNossaSenhoraFatima60AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-nossa-senhora-de-fatima-60" element={<CentroNossaSenhoraFatima60AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/" element={<NiteroiDuqueEstrada169AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402" element={<NiteroiDuqueEstrada169AuctionPage />} />
