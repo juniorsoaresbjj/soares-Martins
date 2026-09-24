@@ -143,6 +143,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo (RJ)',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Lauro Müller nº 36 — Apto 109',
+        desc: 'Apartamento residencial de 38 m² de área edificada privativa correspondente à unidade 109, situado em posição de fundos e formalmente desocupado de pessoas no tradicional condomínio da Rua Lauro Müller nº 36, no estratégico e aprazível bairro de Botafogo, Zona Sul do Rio de Janeiro. Prédio exclusivamente residencial com 16 andares (12 apartamentos por andar), servido por 3 elevadores modernizados, portaria presencial 24 horas, monitoramento por câmeras de segurança 24 horas e salão de festas situado na cobertura com vista panorâmica. Devidamente registrado no 3º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 56.285 e inscrição municipal IPTU nº 1205828-5. Avaliação judicial oficial de R$ 500.000,00. 1º Leilão em 13/11/2026 às 11:00h por R$ 500.000,00 e 2º Leilão em 23/11/2026 às 11:00h com lance inicial de 50% por R$ 250.000,00 (~R$ 6.578,95/m² em Botafogo).',
+        p1Label: '1ª Praça (13/11/2026):',
+        p1Val: 'R$ 500.000,00',
+        p2Label: '2ª Praça (23/11/2026):',
+        p2Val: 'R$ 250.000,00 (Lance inicial 2ª Praça)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20109%20na%20Rua%20Lauro%20M%C3%BCller%2036%20em%20Botafogo%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Botafogo (RJ)',
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Álvaro Ramos nº 405 — Bloco 1, Apto 1804',
+        desc: 'Apartamento residencial de 89 m² de área edificada privativa situado no 18º pavimento (unidade 1804) do Bloco 01 em tradicional condomínio edificado em 1985 na aprazível Rua Álvaro Ramos nº 405, em Botafogo, Zona Sul do Rio de Janeiro. Imóvel em andar alto com vista panorâmica desafogada e excelente ventilação, composto por 2 quartos (sendo 1 suíte confortável), banheiro social completo, sala de estar e jantar integrada, cozinha funcional, dependências completas com quarto e banheiro de serviço e área de serviço independente, com direito a 1 vaga de garagem no condomínio. Condomínio com 2 blocos de 18 andares (4 unidades por pavimento), servido por 4 elevadores, portaria com controle de acesso 24 horas, playground com parquinho infantil e salão de festas. Registrado no 3º RGI sob a Matrícula 38.417 e inscrição municipal IPTU nº 1.723.344-6. 1º Leilão em 04/11/2026 às 12:00h por R$ 1.068.000,00 e 2º Leilão em 26/11/2026 às 12:00h com lance inicial de R$ 534.000,00 (~R$ 6.000,00/m² em Botafogo).',
+        p1Label: '1ª Praça (04/11/2026):',
+        p1Val: 'R$ 1.068.000,00',
+        p2Label: '2ª Praça (26/11/2026):',
+        p2Val: 'R$ 534.000,00 (Lance inicial 2ª Praça)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405-bloco-1-apto-1804/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201804%20do%20Bloco%201%20na%20Rua%20%C3%81lvaro%20Ramos%20405%20em%20Botafogo%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Flamengo / Orla (RJ)',
+        title: 'Leilão Judicial de Apartamento no Flamengo — Praia do Flamengo nº 12 — Apto 306',
+        desc: 'Amplo conjugado residencial de 40 m² de área privativa dividido em sala, quarto, cozinha e banheiro no 3º pavimento (unidade 306) do tradicional Edifício Rio Carioca, construído em 1940 na prestigiada Praia do Flamengo nº 12, no Flamengo/RJ. Imóvel em razoável estado de conservação face ao tempo de uso, equipado com interfone, sem vaga de garagem. Condomínio com 2 blocos de 13 andares (270 apartamentos), quatro elevadores e portaria 24 horas, sem taxa de lazer. Registrado no 9º RGI sob a Matrícula 154.629 e IPTU nº 0.258.058-7. 1º Leilão em 26/10/2026 por R$ 627.898,69 e 2º Leilão em 29/10/2026 com lance inicial de R$ 313.949,34 (~R$ 7.848,73/m² na orla).',
+        p1Label: '1ª Praça (26/10/2026):',
+        p1Val: 'R$ 627.898,69',
+        p2Label: '2ª Praça (29/10/2026):',
+        p2Val: 'R$ 313.949,34 (Lance inicial 2ª Praça)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20306%20na%20Praia%20do%20Flamengo%2012%20(Edif%C3%ADcio%20Rio%20Carioca)%20no%20Flamengo%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Centro / Bairro de Fátima (RJ)',
         title: 'Leilão Judicial de Apartamento no Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima nº 60 — Apto 501',
         desc: 'Apartamento residencial de 67 m² de área edificada privativa no 5º pavimento (unidade 501), de frente para a rua principal em tradicional edifício construído em 1950 na aprazível Avenida Nossa Senhora de Fátima nº 60, no arborizado Bairro de Fátima / Centro do Rio de Janeiro. Imóvel em bom estado de conservação, composto por 3 quartos (quarto 1 com piso em tábua corrida e quartos 2 e 3 em cerâmica, todos com janelas de alumínio), sala arejada em porcelanato com janela de alumínio, corredor principal em porcelanato, corredor de entrada em cerâmica, cozinha com bancada de alumínio, área de serviço individualizada e banheiro social com box blindex e piso cerâmico. Edifício servido por 2 elevadores (capacidade para 4 pessoas cada), porteiro/zelador presencial (segunda a sexta das 9h às 18h e sábado das 9h às 13h) e circuito interno de TV (CFTV). Registrado no 2º RGI sob a Matrícula 05392 e inscrição municipal IPTU nº 0.580.436-4. 1º Leilão em 26/10/2026 por R$ 420.592,00 e 2º Leilão em 28/10/2026 com lance inicial de R$ 210.296,00 (~R$ 3.138,75/m²).',
@@ -958,6 +991,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Botafogo (RJ)',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Calle Lauro Müller nº 36 — Apto 109',
+        desc: 'Apartamento residencial de 38 m² de superficie edificada privativa correspondiente a la unidad 109, de orientación interior y desocupado de personas, en Calle Lauro Müller nº 36, Botafogo, Zona Sur de Río de Janeiro. Edificio exclusivamente residencial de 16 plantas con 12 apartamentos por piso, 3 ascensores modernizados, portería y vigilancia por cámaras 24h, salón de fiestas en la azotea. Inscrito en el 3º Registro bajo Matrícula nº 56.285 e IPTU 1205828-5. Tasación judicial de R$ 500.000,00. 1ª Subasta el 13/11/2026 a las 11:00h por R$ 500.000,00 y 2ª Subasta el 23/11/2026 a las 11:00h con puja inicial del 50% por R$ 250.000,00 (~R$ 6.578,95/m² en Botafogo).',
+        p1Label: '1ª Subasta (13/11/2026):',
+        p1Val: 'R$ 500.000,00',
+        p2Label: '2ª Subasta (23/11/2026):',
+        p2Val: 'R$ 250.000,00 (Puja inicial 2ª Subasta)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20109%20en%20Calle%20Lauro%20M%C3%BCller%2036%20en%20Botafogo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Botafogo (RJ)',
+        title: 'Subasta Judicial de Apartamento en Botafogo — Rua Álvaro Ramos nº 405 — Bloque 1, Apto 1804',
+        desc: 'Apartamento residencial de 89 m² de superficie privativa situado en la 18ª planta (unidad 1804) del Bloque 01 en un tradicional complejo residencial de 1985 en Rua Álvaro Ramos nº 405, Botafogo, Zona Sur de Río de Janeiro. Vivienda en planta alta con vistas abiertas y excelente luminosidad, con 2 dormitorios (1 suite), baño social, salón comedor, cocina, dependencias completas de servicio y lavadero, con derecho a 1 plaza de garaje. Condominio con 2 bloques de 18 plantas (4 viviendas por planta), 4 ascensores, portería 24h, parque infantil (playground) y salón de eventos. 3º Registro Matrícula 38.417 e IPTU nº 1.723.344-6. 1ª Subasta el 04/11/2026 a las 12:00h por R$ 1.068.000,00 y 2ª Subasta el 26/11/2026 a las 12:00h con puja inicial de R$ 534.000,00 (~R$ 6.000,00/m² en Botafogo).',
+        p1Label: '1ª Subasta (04/11/2026):',
+        p1Val: 'R$ 1.068.000,00',
+        p2Label: '2ª Subasta (26/11/2026):',
+        p2Val: 'R$ 534.000,00 (Puja inicial 2ª Subasta)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405-bloco-1-apto-1804/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201804%20del%20Bloque%201%20en%20Rua%20%C3%81lvaro%20Ramos%20405%20en%20Botafogo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Flamengo / Primera Línea (RJ)',
+        title: 'Subasta Judicial de Apartamento en Flamengo — Praia do Flamengo nº 12 — Apto 306',
+        desc: 'Apartamento residencial conjugado de 40 m² de superficie privativa dividido en salón, dormitorio, cocina y baño en la 3ª planta (unidad 306) del histórico Edifício Rio Carioca, construido en 1940 en la emblemática Praia do Flamengo nº 12, Flamengo/RJ. Inmueble con razonable estado de conservación según su antigüedad, provisto de interfono, sin garaje. Edificio con 2 bloques de 13 plantas (270 apartamentos), cuatro ascensores y portería 24 horas, sin áreas de ocio. Registrado en el 9º Registro bajo Matrícula 154.629 e IPTU nº 0.258.058-7. 1ª Subasta el 26/10/2026 por R$ 627.898,69 y 2ª Subasta el 29/10/2026 con puja inicial de R$ 313.949,34 (~R$ 7.848,73/m² en primera línea).',
+        p1Label: '1ª Subasta (26/10/2026):',
+        p1Val: 'R$ 627.898,69',
+        p2Label: '2ª Subasta (29/10/2026):',
+        p2Val: 'R$ 313.949,34 (Puja inicial 2ª Subasta)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20306%20en%20Praia%20do%20Flamengo%2012%20(Edif%C3%ADcio%20Rio%20Carioca)%20en%20Flamengo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Centro / Bairro de Fátima (RJ)',
         title: 'Subasta Judicial de Apartamento en Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima nº 60 — Apto 501',
         desc: 'Apartamento residencial de 67 m² de superficie edificada privativa en 5ª planta (unidad 501), de frente para la calle principal en tradicional edificio construido en 1950 en la apacible Avenida Nossa Senhora de Fátima nº 60, en el arbolado Bairro de Fátima / Centro de Río de Janeiro. Inmueble en buen estado de conservación, compuesto por 3 dormitorios, salón amplio en porcelanato con ventana de aluminio, cocina con encimera de aluminio, área de servicio independiente y baño con box blindex. Edificio servido por 2 ascensores (4 personas c/u), portero/conserje presencial y circuito cerrado de TV (CCTV). Registrado en el 2º Registro bajo Matrícula 05392 e IPTU nº 0.580.436-4. 1ª Subasta el 26/10/2026 por R$ 420.592,00 y 2ª Subasta el 28/10/2026 con puja inicial de R$ 210.296,00 (~R$ 3.138,75/m²).',
@@ -1750,6 +1816,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Botafogo (RJ)',
+        title: 'Judicial Auction of Apartment in Botafogo — Rua Lauro Müller #36 — Apt 109',
+        desc: 'Prime 38 sqm (409 sq ft) residential apartment (Unit 109) in a quiet rear position, currently vacant of occupants, within the condominium at Rua Lauro Müller #36, Botafogo, Rio de Janeiro South Zone. Exclusively residential 16-story tower (12 units/floor) serviced by 3 modernized elevators, 24/7 security concierge, 24/7 CCTV surveillance, and a rooftop celebration ballroom. Recorded at the 3rd Land Registry under Title #56.285 and IPTU #1205828-5. Official valuation of R$ 500,000.00. 1st Auction on 11/13/2026 at 11:00 AM at R$ 500,000.00 and 2nd Auction on 11/23/2026 at 11:00 AM starting at 50% for R$ 250,000.00 (~R$ 6,578.95/sqm in prime Botafogo).',
+        p1Label: '1st Auction (11/13/2026):',
+        p1Val: 'R$ 500,000.00',
+        p2Label: '2nd Auction (11/23/2026):',
+        p2Val: 'R$ 250,000.00 (2nd Auction starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Lauro%20M%C3%BCller%2036%20Apt%20109%20in%20Botafogo%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Botafogo (RJ)',
+        title: 'Judicial Auction of Apartment in Botafogo — Rua Álvaro Ramos #405 — Block 1, Apt 1804',
+        desc: 'Prime 89 sqm (958 sq ft) residential apartment situated on the 18th floor (Unit 1804) of Block 01 in a classic 1985 residential development at tree-lined Rua Álvaro Ramos #405, in Botafogo, Rio de Janeiro South Zone. High-floor apartment offering panoramic open views, comprising 2 bedrooms (1 en-suite), guest bathroom, living/dining room, kitchen, laundry room, full maid quarters, and deeded right to 1 parking space. Condominium with 2 towers of 18 stories (4 residences/floor), 4 modern elevators, 24/7 security concierge, kids playground, and celebration ballroom. Registered at 3rd Land Registry under Title #38.417 and IPTU #1.723.344-6. 1st Auction on 11/04/2026 at 12:00 PM at R$ 1,068,000.00 and 2nd Auction on 11/26/2026 at 12:00 PM starting at R$ 534,000.00 (~R$ 6,000.00/sqm in prime Botafogo).',
+        p1Label: '1st Auction (11/04/2026):',
+        p1Val: 'R$ 1,068,000.00',
+        p2Label: '2nd Auction (11/26/2026):',
+        p2Val: 'R$ 534,000.00 (2nd Auction starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405-bloco-1-apto-1804/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20%C3%81lvaro%20Ramos%20405%20Block%201%20Apt%201804%20in%20Botafogo%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Flamengo / Waterfront (RJ)',
+        title: 'Judicial Auction of Apartment in Flamengo — Praia do Flamengo #12 — Apt 306',
+        desc: 'Spacious 40 sqm (430 sq ft) studio apartment divided into living room, bedroom, kitchen, and bathroom on the 3rd floor (Unit 306) of the classic Edifício Rio Carioca, built in 1940 along the prestigious Praia do Flamengo #12, in Flamengo/RJ. Property in fair condition consistent with age, equipped with intercom, no garage space. The building features 2 blocks of 13 stories (270 apartments), four elevators, and 24-hour manned concierge, with no leisure facilities (low HOA fees). Registered at the 9th Land Registry under Title #154.629 and municipal tax IPTU #0.258.058-7. 1st Auction on 10/26/2026 at R$ 627,898.69 and 2nd Auction on 10/29/2026 starting at R$ 313,949.34 (~R$ 7,848.73/sqm along the beachfront).',
+        p1Label: '1st Auction (10/26/2026):',
+        p1Val: 'R$ 627,898.69',
+        p2Label: '2nd Auction (10/29/2026):',
+        p2Val: 'R$ 313,949.34 (2nd Auction starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Praia%20do%20Flamengo%2012%20Apt%20306%20(Edif%C3%ADcio%20Rio%20Carioca)%20in%20Flamengo%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Centro / Bairro de Fátima (RJ)',
         title: 'Judicial Auction of Apartment in Centro / Bairro de Fátima — Avenida Nossa Senhora de Fátima #60 — Apt 501',

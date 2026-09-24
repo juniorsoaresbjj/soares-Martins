@@ -5513,6 +5513,331 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why engage Soares Martins Advogados for this acquisition?", a: "We carry out comprehensive due diligence on Court records and 2nd Land Registry Title #05392, structure the installment proposal under Art. 895 CPC, manage court filings, and secure physical possession." }
         ]
       }
+    },
+    'flamengo-praia-do-flamengo-12-apto-306': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento no Flamengo — Praia do Flamengo nº 12 — Apto 306',
+        subtitle: 'Praia do Flamengo, nº 12, Apto 306 — Flamengo, Rio de Janeiro/RJ | 40 m² • Amplo Conjugado Dividido em Sala, Quarto, Cozinha e Banheiro • Sem Garagem • Interfone • Razoável Estado de Conservação • Edifício de 1940 ("Condomínio do Edifício Rio Carioca") • 2 Blocos com 13 Andares e 270 Apartamentos • 4 Elevadores • Portaria 24 Horas • Sem Infraestrutura de Lazer • Localização Privilegiada na Orla do Flamengo • 9º RGI Matrícula 154.629 • IPTU: 0.258.058-7 • 1º Leilão: R$ 627.898,69 • 2º Leilão: R$ 313.949,34 (~R$ 7.848,73/m²)',
+        address: 'Praia do Flamengo, nº 12, Apto 306 — Flamengo, Rio de Janeiro - RJ',
+        p1Date: '26/10/2026 às 12:00h',
+        p2Date: '29/10/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.258.058-7',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 154.629)',
+        val: 'R$ 627.898,69',
+        p2Val: 'R$ 313.949,34 (Lance inicial 2ª Praça)',
+        description: 'Imóvel residencial caracterizado como amplo conjugado de 40 m² de área privativa, situado no 3º pavimento (unidade 306) do tradicional "Condomínio do Edifício Rio Carioca", edificado em 1940 na emblemática Praia do Flamengo nº 12, um dos endereços mais nobres e procurados da Zona Sul do Rio de Janeiro. A unidade é dividida internamente de forma prática e funcional em sala de estar, quarto privativo, cozinha e banheiro social, contando com interfone e apresentando razoável estado de conservação face ao tempo de uso. O condomínio é formado por 2 blocos de 13 pavimentos, totalizando 270 unidades, servido por 4 elevadores, portaria presencial com controle de acesso 24 horas, sem garagens e sem infraestrutura de lazer, o que assegura custos condominiais bastante reduzidos em plena orla carioca. Excelente posicionamento urbano de frente para o Aterro do Flamengo, a poucos passos do Metrô (Estação Catete / Largo do Machado), ciclovias, museus, praias e rico polo gastronômico e comercial. Devidamente registrado no 9º RGI sob a Matrícula 154.629 e inscrição municipal IPTU nº 0.258.058-7. Avaliado judicialmente em R$ 627.898,69, com 1º Leilão em 26/10/2026 às 12:00h e oportunidade de arrematação em 2º Leilão em 29/10/2026 às 12:00h com lance inicial de R$ 313.949,34 (deságio legal de 50%, equivalendo a ~R$ 7.848,73/m² na orla do Flamengo).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Praia do Flamengo 12 / Apto 306 (Ed. Rio Carioca)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento 306 do Condomínio do Edifício Rio Carioca, situado na Praia do Flamengo nº 12, bairro do Flamengo, Rio de Janeiro/RJ. Registro imobiliário no 9º Ofício de Registro de Imóveis da Capital (Matrícula nº 154.629) e Inscrição Municipal IPTU nº 0.258.058-7.' },
+            { title: 'Dimensões e Tipologia', text: 'Área privativa de 40 m². Imóvel caracterizado como amplo conjugado, dividido em sala, quarto, cozinha e banheiro social, sem vaga de garagem, com interfone e em razoável estado de conservação face ao tempo de uso.' },
+            { title: 'Características do Edifício (1940)', text: 'Condomínio do Edifício Rio Carioca, construído em 1940, composto por 2 blocos com 13 andares e 270 apartamentos. Equipado com 4 elevadores, portaria com controle de acesso 24 horas e sem infraestrutura de lazer, garantindo taxas de condomínio enxutas.' },
+            { title: 'Localização Privilegiada no Flamengo', text: 'Localização ímpar na orla da Praia do Flamengo, em frente ao Parque do Flamengo (Aterro), a minutos das estações do metrô Catete e Glória, com acesso rápido ao Centro, Botafogo e Copacabana.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 26/10/2026 às 12:00h por R$ 627.898,69 (100% da avaliação). 2º Leilão: 29/10/2026 às 12:00h com lance inicial de R$ 313.949,34 (50% do valor da avaliação judicial).' },
+            { title: 'Condições de Parcelamento Judicial (Art. 895 CPC)', text: 'Possibilidade de aquisição mediante parcelamento judicial: entrada mínima de 25% (R$ 78.487,34 no 2º Leilão) e saldo remanescente em até 30 parcelas mensais e sucessivas corrigidas, mediante proposta escrita apresentada nos autos antes do leilão e gravame hipotecário sobre a matrícula.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Os débitos fiscais e de IPTU sub-rogam-se sobre o respectivo preço da arrematação, conforme o Artigo 130, parágrafo único, do Código Tributário Nacional, assegurando aquisição livre de passivos municipais pretéritos.' }
+          ]
+        },
+        faqs: [
+          { q: "Quais são as datas e lances mínimos para o leilão do apartamento na Praia do Flamengo 12?", a: "O 1º Leilão será realizado em 26/10/2026 às 12:00h, com lance mínimo de R$ 627.898,69 (100% da avaliação). Caso não haja arrematação, o 2º Leilão ocorrerá em 29/10/2026 às 12:00h, com lance inicial de R$ 313.949,34 (50% da avaliação, ou seja, ~R$ 7.848,73/m²)." },
+          { q: "Quais as características do apartamento 306 e do Edifício Rio Carioca?", a: "O imóvel possui 40 m² de área privativa, configurado como amplo conjugado dividido em sala, quarto, cozinha e banheiro, sem garagem e com interfone, em razoável estado de conservação. O Edifício Rio Carioca foi construído em 1940, conta com 2 blocos de 13 andares, 270 apartamentos, 4 elevadores e portaria 24 horas." },
+          { q: "O imóvel possui vaga de garagem ou infraestrutura de lazer?", a: "Não. O edifício não possui garagens nem área de lazer, o que mantém o valor do condomínio baixo e competitivo para moradia ou rentabilidade por locação na orla da Zona Sul." },
+          { q: "É possível comprar este imóvel de forma parcelada?", a: "Sim. Pelo Artigo 895 do Código de Processo Civil (CPC), o interessado pode apresentar proposta judicial antes do leilão para pagamento de 25% de entrada e o restante dividido em até 30 parcelas mensais corrigidas por índice oficial, com garantia hipotecária sobre o próprio imóvel." },
+          { q: "Como ficam as dívidas de IPTU e condomínio?", a: "Conforme o Artigo 130, parágrafo único do CTN, os débitos de IPTU pretéritos sub-rogam-se sobre o valor arrecadado no leilão. As dívidas condominiais devem ser minuciosamente auditadas nos autos judiciais pela nossa assessoria para garantir expressa sub-rogação ou reserva do produto da alienação." },
+          { q: "Qual a vocação de investimento deste conjugado no Flamengo?", a: "Imóveis compactos de 40 m² na orla da Praia do Flamengo possuem excelente liquidez para locação residencial convencional (long-term) ou plataformas por temporada/médio prazo (Airbnb/Nomad), graças à proximidade com o Aterro, Centro financeiro e estações de metrô." },
+          { q: "Por que contratar a assessoria do escritório Soares Martins Advogados?", a: "Nossa equipe realiza o exame detalhado de todos os volumes da execução, certidões dos executados, regularidade registral no 9º RGI (Matrícula 154.629), elabora a estratégia de lance ou proposta parcelada e atua judicialmente até a efetiva imissão na posse do arrematante." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Flamengo — Praia do Flamengo nº 12 — Apto 306',
+        subtitle: 'Praia do Flamengo, nº 12, Apto 306 — Flamengo, Río de Janeiro/RJ | 40 m² • Amplio Conjugado Dividido en Salón, Dormitorio, Cocina y Baño • Sin Garaje • Interfono • Razonable Estado de Conservación • Edificio de 1940 ("Condomínio do Edifício Rio Carioca") • 2 Bloques de 13 Plantas con 270 Apartamentos • 4 Ascensores • Portería 24 Horas • Sin Infraestructura de Ocio • Ubicación Privilegiada en Primera Línea del Flamengo • 9º Registro Matrícula 154.629 • IPTU: 0.258.058-7 • 1ª Subasta: R$ 627.898,69 • 2ª Subasta: R$ 313.949,34 (~R$ 7.848,73/m²)',
+        address: 'Praia do Flamengo, nº 12, Apto 306 — Flamengo, Río de Janeiro - RJ',
+        p1Date: '26/10/2026 a las 12:00h',
+        p2Date: '29/10/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.258.058-7',
+        rgi: '9º Oficio de Registro de Inmuebles (Matrícula nº 154.629)',
+        val: 'R$ 627.898,69',
+        p2Val: 'R$ 313.949,34 (Lance inicial 2ª Subasta)',
+        description: 'Inmueble residencial de 40 m² de superficie privativa configurado como amplio apartamento conjugado en la 3ª planta (unidad 306) del histórico "Condomínio do Edifício Rio Carioca", edificado en 1940 en la emblemática Praia do Flamengo nº 12, en el barrio de Flamengo, Zona Sur de Río de Janeiro. La propiedad está distribuida de forma funcional en salón, dormitorio, cocina y baño, con interfono y un estado de conservación razonable acorde con sus años de uso. El edificio consta de 2 bloques de 13 plantas con 270 apartamentos, 4 ascensores, portería y conserjería 24 horas, sin garaje ni áreas comunes de ocio, lo que genera gastos de comunidad muy reducidos en plena orla carioca. Inmejorable situación frente al Parque do Flamengo (Aterro) y a pasos de las estaciones de metro Catete y Glória. 1ª Subasta el 26/10/2026 a las 12:00h por R$ 627.898,69 y 2ª Subasta el 29/10/2026 a las 12:00h a partir de R$ 313.949,34 (50% de la valoración judicial, ~R$ 7.848,73/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Praia do Flamengo 12 / Apto 306 (Ed. Rio Carioca)',
+          sections: [
+            { title: 'Identificación Registral e Inmobiliaria', text: 'Apartamento 306 del Condomínio do Edifício Rio Carioca, Praia do Flamengo nº 12, Flamengo, Río de Janeiro/RJ. Inscrito en el 9º Registro de Inmuebles (Matrícula 154.629) e IPTU 0.258.058-7.' },
+            { title: 'Dimensiones y Distribución', text: '40 m² de área privativa. Apartamento conjugado dividido en salón, dormitorio, cocina independiente y baño social. Sin plaza de garaje, con interfono.' },
+            { title: 'Características del Edificio (Año 1940)', text: 'Edificio Rio Carioca, construido en 1940 con 2 bloques de 13 niveles y 270 unidades residenciales. 4 ascensores, portería con seguridad 24 horas y sin zonas de ocio.' },
+            { title: 'Ubicación en Flamengo', text: 'Frente a los jardines de Burle Marx en el Aterro do Flamengo, próximo a las playas, centros culturales, comercios y transporte rápido al Centro.' },
+            { title: 'Fechas y Lances Mínimos', text: '1ª Subasta: 26/10/2026 a las 12:00h por R$ 627.898,69. 2ª Subasta: 29/10/2026 a las 12:00h por R$ 313.949,34 (50% de tasación).' },
+            { title: 'Pago en Cuotas Judiciales (Art. 895 CPC)', text: 'Posibilidad de pago fraccionado: 25% de entrada y saldo hasta en 30 meses con corrección legal e hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas fiscales se subrogan sobre el precio obtenido en la subasta pública judicial.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios de salida para Praia do Flamengo 12?", a: "La 1ª Subasta es el 26/10/2026 a las 12:00h con valor de R$ 627.898,69. La 2ª Subasta es el 29/10/2026 a las 12:00h con precio de salida de R$ 313.949,34 (50% de la tasación judicial, aprox. R$ 7.848,73/m²)." },
+          { q: "¿Qué características presenta el apartamento 306?", a: "Tiene 40 m² privativos, configurado como amplio conjugado con división en salón, dormitorio, cocina y baño, con interfono y razonable estado de conservación." },
+          { q: "¿Cómo es el edificio Rio Carioca?", a: "Fue construido en 1940 y cuenta con 2 bloques de 13 plantas (270 apartamentos en total), 4 ascensores, portería las 24 horas y no dispone de garajes ni áreas de ocio, lo que abarata el coste de comunidad." },
+          { q: "¿Es posible adquirir el inmueble a plazos?", a: "Sí, mediante la propuesta formal regulada por el Art. 895 del CPC: 25% de anticipo y el restante hasta en 30 cuotas mensuales ajustadas." },
+          { q: "¿Qué sucede con los impuestos anteriores?", a: "En virtud del Art. 130 del CTN, los débitos fiscales devengados se subrogan en el precio de la subasta judicial." },
+          { q: "¿Por qué contar con el apoyo de Soares Martins Advogados?", a: "Efectuamos el análisis técnico de las cargas judiciales y de la Matrícula nº 154.629 del 9º Registro, diseñamos la propuesta y gestionamos el proceso judicial hasta la toma de posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Flamengo — Praia do Flamengo #12 — Apt 306',
+        subtitle: 'Praia do Flamengo, #12, Apt 306 — Flamengo, Rio de Janeiro/RJ | 40 sqm (430 sq ft) • Spacious Studio Divided into Living Room, Bedroom, Kitchen and Bathroom • No Parking Space • Intercom • Fair Condition Consistent with Age • Built in 1940 ("Condomínio do Edifício Rio Carioca") • 2 Blocks with 13 Floors and 270 Units • 4 Elevators • 24-Hour Manned Concierge • No Leisure Amenities (Low HOA Fees) • Prime Oceanfront Promenade Setting • 9th Land Registry Title #154.629 • IPTU: 0.258.058-7 • 1st Auction: R$ 627,898.69 • 2nd Auction: R$ 313,949.34 (~R$ 7,848.73/sqm)',
+        address: 'Praia do Flamengo, #12, Apt 306 — Flamengo, Rio de Janeiro - RJ',
+        p1Date: '10/26/2026 at 12:00 PM',
+        p2Date: '10/29/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.258.058-7',
+        rgi: '9th Land Registry Office of Rio de Janeiro (Title #154.629)',
+        val: 'R$ 627,898.69',
+        p2Val: 'R$ 313,949.34 (2nd Auction starting bid)',
+        description: 'Prime 40 sqm (430 sq ft) residential studio apartment located on the 3rd floor (Unit 306) of the iconic "Condomínio do Edifício Rio Carioca", built in 1940 along prestigious Praia do Flamengo #12, one of the most distinguished beachfront avenues in Rio de Janeiro\'s South Zone. The property is divided into a living room, private bedroom area, kitchen, and bathroom, equipped with an intercom system and presenting a fair state of preservation consistent with its era. The development consists of 2 thirteen-story blocks comprising 270 apartments, served by 4 passenger elevators and a 24-hour manned concierge desk, with no parking garage and no leisure facilities, ensuring remarkably low monthly maintenance fees. Superb urban setting directly overlooking the palm-filled Aterro do Flamengo park and beach, moments from Catete and Glória metro stations, museums, bistros, and convenient transit to Downtown and Copacabana. Recorded at the 9th Land Registry under Title #154.629 and municipal tax IPTU #0.258.058-7. Court appraisal of R$ 627,898.69, with 1st Auction on 10/26/2026 at 12:00 PM and 2nd Auction on 10/29/2026 at 12:00 PM starting at 50% for R$ 313,949.34 (~R$ 7,848.73/sqm, exceptional value along Flamengo beach).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Praia do Flamengo 12 / Apt 306 (Ed. Rio Carioca)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment 306, Condomínio do Edifício Rio Carioca, Praia do Flamengo #12, Flamengo, Rio de Janeiro/RJ. 9th Land Registry Title #154.629 and Municipal Tax IPTU #0.258.058-7.' },
+            { title: 'Floor Area & Functional Layout', text: '40 sqm (430 sq ft) private area configured as a spacious studio divided into living room, bedroom, kitchen, and bathroom. No garage, equipped with intercom, in fair condition.' },
+            { title: 'Building Architecture (1940 Construction)', text: 'Condomínio do Edifício Rio Carioca, built in 1940, featuring 2 blocks of 13 stories and 270 units, 4 elevators, 24/7 doorman security, and low condo dues.' },
+            { title: 'Beachfront Promenade Location', text: 'Situated right along the Flamengo seafront promenade facing Burle Marx landscaped gardens, walking distance to Catete and Glória subway stations and cultural centers.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 10/26/2026 at 12:00 PM at R$ 627,898.69. 2nd Auction: 10/29/2026 at 12:00 PM starting at R$ 313,949.34 (50% discount).' },
+            { title: 'Judicial Installment Option (CPC Art. 895)', text: 'Court financing available: 25% down payment (R$ 78,487.34 in 2nd Auction) and balance in up to 30 monthly installments indexed to court rates and secured by a judicial mortgage.' },
+            { title: 'Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Pre-existing property taxes subrogate into the auction proceeds under CTN Art. 130, guaranteeing clear transfer of ownership.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and reserve prices for Praia do Flamengo 12?", a: "The 1st Auction is scheduled for 10/26/2026 at 12:00 PM with a reserve bid of R$ 627,898.69. The 2nd Auction is on 10/29/2026 at 12:00 PM starting at R$ 313,949.34 (~R$ 7,848.73/sqm for a 40 sqm unit on Praia do Flamengo)." },
+          { q: "What is the floor plan of Apartment 306?", a: "It is a 40 sqm studio divided into living room, bedroom, kitchen, and bathroom, equipped with intercom and in fair condition consistent with its building age." },
+          { q: "What amenities does the Rio Carioca building provide?", a: "Constructed in 1940, it features 2 blocks of 13 stories, 270 residential units, 4 elevators, and 24-hour manned concierge services. It has no parking or leisure amenities, keeping condominium fees low." },
+          { q: "Can this apartment be purchased through court installment plans?", a: "Yes. Under Article 895 of the Brazilian Civil Procedure Code (CPC), an investor can propose a 25% down payment with the remaining balance paid in up to 30 monthly installments secured by a mortgage." },
+          { q: "How are past property taxes and condominium debts handled?", a: "Under CTN Article 130, past property taxes are paid out of the auction proceeds. Our legal audit also checks condominium arrears in court to ensure full subrogation or proper debt resolution." },
+          { q: "Why hire Soares Martins Advogados for this acquisition?", a: "We conduct exhaustive legal due diligence on 9th Land Registry Title #154.629 and court dockets, prepare competitive bidding or installment strategies, and handle post-auction filings until physical possession is granted." }
+        ]
+      }
+    },
+    'botafogo-rua-alvaro-ramos-405-bloco-1-apto-1804': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Álvaro Ramos nº 405, Bloco 1, Apto 1804',
+        subtitle: 'Rua Álvaro Ramos, nº 405, Bloco 01, Apto 1804 — Botafogo, Rio de Janeiro/RJ | 89 m² • 18º Andar (Andar Alto) • 2 Quartos (1 Suíte) • Banheiro Social • Sala Arejada • Cozinha • Dependências Completas (Quarto e Banheiro de Serviço) • Área de Serviço • 1 Vaga de Garagem • Edifício de 1985 em Condomínio Fechado • 2 Blocos • Bloco 1 com 18 Andares (4 Aptos/Andar) e 4 Elevadores • Playground com Parquinho Infantil • Salão de Festas • Portaria 24 Horas • 3º RGI Matrícula 38.417 • IPTU: 1.723.344-6 • 1º Leilão: R$ 1.068.000,00 • 2º Leilão: R$ 534.000,00 (R$ 6.000,00/m²)',
+        address: 'Rua Álvaro Ramos, nº 405, Bloco 01, Apto 1804 — Botafogo, Rio de Janeiro - RJ',
+        p1Date: '04/11/2026 às 12:00h',
+        p2Date: '26/11/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1.723.344-6',
+        rgi: '3º Ofício de Registro de Imóveis (Matrícula nº 38.417)',
+        val: 'R$ 1.068.000,00',
+        p2Val: 'R$ 534.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 89 m² de área edificada privativa situado no 18º pavimento (unidade 1804) do Bloco 01 em tradicional condomínio residencial edificado em 1985 na aprazível Rua Álvaro Ramos nº 405, no bairro de Botafogo, Zona Sul do Rio de Janeiro. Imóvel em andar alto com vista privilegiada e excelente incidência de ventilação natural, composto por 2 quartos (sendo 1 suíte confortável), banheiro social completo, sala de estar e jantar integrada, cozinha funcional, dependências completas com quarto e banheiro de serviço e área de serviço independente, além de direito exclusivo ao uso de 1 vaga de garagem no condomínio. O condomínio é composto por 2 blocos residenciais, sendo o Bloco 1 estruturado em 18 andares com apenas 4 apartamentos por pavimento, servido por 4 elevadores modernizados, portaria com controle de acesso e segurança 24 horas, além de agradável infraestrutura de lazer com playground, parquinho infantil e amplo salão de festas para celebrações. Registrado sob a Matrícula nº 38.417 do 3º Ofício de Registro de Imóveis do Rio de Janeiro e inscrição municipal IPTU nº 1.723.344-6. Oportunidade com 1º Leilão em 04/11/2026 às 12:00h por R$ 1.068.000,00 e 2º Leilão em 26/11/2026 às 12:00h a partir de R$ 534.000,00 (50% do valor de avaliação judicial, alcançando apenas R$ 6.000,00/m² em um dos bairros mais cobiçados da Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Álvaro Ramos 405 / Bloco 1, Apto 1804 (Botafogo)',
+          sections: [
+            { title: 'Identificação Registral e Imobiliária', text: 'Apartamento 1804 do Bloco 01 do condomínio situado na Rua Álvaro Ramos nº 405, Botafogo, Rio de Janeiro/RJ. Registrado no Cartório do 3º Ofício de Registro de Imóveis (Matrícula nº 38.417) e inscrição fiscal IPTU nº 1.723.344-6.' },
+            { title: 'Dimensões, Divisão e Vaga de Garagem', text: 'Área edificada de 89 m², situado no 18º andar. Composto por 2 quartos (1 suíte), banheiro social, sala, cozinha, área de serviço e dependências de serviço (quarto e banheiro). Possui direito a 1 vaga de garagem no condomínio.' },
+            { title: 'Estrutura do Condomínio (Ano 1985)', text: 'Condomínio de 1985 com 2 blocos. Bloco 1 possui 18 andares com 4 apartamentos por andar e 4 elevadores. Dispõe de portaria 24h, garagem, playground com parquinho e salão de festas.' },
+            { title: 'Localização em Botafogo', text: 'Localização privilegiada na Zona Sul, próximo ao Botafogo Praia Shopping, centros médicos, colégios de ponta, polo gastronômico e fácil acesso ao Metrô e às praias da Zona Sul.' },
+            { title: 'Datas e Valores dos Pregões', text: '1º Leilão em 04/11/2026 às 12:00h com lance mínimo de R$ 1.068.000,00 (100% da avaliação). 2º Leilão em 26/11/2026 às 12:00h com lance inicial de R$ 534.000,00 (50% de deságio).' },
+            { title: 'Possibilidade de Parcelamento (Art. 895 CPC)', text: 'Admite-se proposta para arrematação parcelada: sinal mínimo de 25% (R$ 133.500,00 na 2ª praça) e o saldo restante em até 30 prestações mensais garantidas por hipoteca sobre o próprio imóvel.' },
+            { title: 'Sub-rogação dos Débitos Fiscais (Art. 130 CTN)', text: 'Eventuais débitos tributários de IPTU e taxas incidentes sobre o bem sub-rogam-se sobre o produto da arrematação, garantindo aquisição sem surpresas fiscais.' }
+          ]
+        },
+        faqs: [
+          { q: "Quais são as datas e valores de lance para o apartamento na Rua Álvaro Ramos 405?", a: "O 1º Leilão ocorrerá em 04/11/2026 às 12:00h pelo valor de avaliação de R$ 1.068.000,00. Caso não haja arrematante, o 2º Leilão será realizado em 26/11/2026 às 12:00h pelo lance inicial de R$ 534.000,00 (50% da avaliação judicial, equivalente a ~R$ 6.000,00/m²)." },
+          { q: "Qual a planta e as características do apartamento 1804 do Bloco 1?", a: "O imóvel conta com 89 m² de área privativa, posicionado no 18º andar (andar alto com ótima vista e claridade). É dividido em 2 quartos (sendo 1 suíte), banheiro social, sala arejada, cozinha, área de serviço, dependências completas (quarto e banheiro de serviço) e direito a 1 vaga de garagem." },
+          { q: "Qual a infraestrutura do condomínio na Rua Álvaro Ramos 405?", a: "Construído em 1985, o empreendimento dispõe de 2 blocos residenciais. O Bloco 1 possui 18 andares com apenas 4 unidades por pavimento e 4 elevadores. O condomínio oferece portaria com guarita 24 horas, garagem, playground com brinquedos infantis e salão de festas." },
+          { q: "Posso parcelar a compra deste imóvel pelo Artigo 895 do CPC?", a: "Sim. O Código de Processo Civil autoriza proposta para pagamento com 25% de entrada (R$ 133.500,00 na 2ª praça) e o restante parcelado em até 30 meses, corrigido monetariamente e garantido por hipoteca judicial do bem." },
+          { q: "Quem responde pelas dívidas de IPTU e condomínio anteriores à arrematação?", a: "Pelo Art. 130 do Código Tributário Nacional (CTN), os tributos pretéritos sub-rogam-se no preço arrematado. Nossa assessoria audita minuciosamente o processo do TJRJ para verificar a situação dos débitos condominiais e salvaguardar os interesses do adquirente." },
+          { q: "Qual é o potencial de rentabilidade e valorização deste imóvel em Botafogo?", a: "Em Botafogo, apartamentos de 2 quartos com vaga e suíte em prédios com infraestrutura são comercializados entre R$ 13.000,00 e R$ 16.000,00/m². Arrematar a unidade por R$ 534.000,00 (~R$ 6.000,00/m²) proporciona margem de segurança patrimonial superior a 50% e excelente retorno para locação ou revenda." },
+          { q: "Como a assessoria da Soares Martins Advogados atua neste leilão?", a: "Nossa equipe realiza due diligence imobiliária na Matrícula nº 38.417 (3º RGI), audita as intimações do processo judicial no TJRJ, formaliza lances ou propostas sob o Art. 895 do CPC e atua até a homologação da carta de arrematação e imissão efetiva na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Botafogo — Rua Álvaro Ramos nº 405, Bloque 1, Apto 1804',
+        subtitle: 'Rua Álvaro Ramos, nº 405, Bloque 01, Apto 1804 — Botafogo, Río de Janeiro/RJ | 89 m² • 18ª Planta (Planta Alta) • 2 Dormitorios (1 Suite) • Baño Social • Salón Amplio • Cocina • Dependencias Completas de Servicio • Lavadero • 1 Plaza de Garaje • Edificio de 1985 en Urbanización Cerrada • 2 Bloques • Bloque 1 con 18 Plantas (4 Aptos/Planta) y 4 Ascensores • Parque Infantil (Playground) • Salón de Fiestas • Portería 24 Horas • 3º Registro Matrícula 38.417 • IPTU: 1.723.344-6 • 1ª Subasta: R$ 1.068.000,00 • 2ª Subasta: R$ 534.000,00 (~R$ 6.000,00/m²)',
+        address: 'Rua Álvaro Ramos, nº 405, Bloque 01, Apto 1804 — Botafogo, Río de Janeiro - RJ',
+        p1Date: '04/11/2026 a las 12:00h',
+        p2Date: '26/11/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1.723.344-6',
+        rgi: '3º Oficio de Registro de Inmuebles (Matrícula nº 38.417)',
+        val: 'R$ 1.068.000,00',
+        p2Val: 'R$ 534.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 89 m² de superficie privativa situado en la 18ª planta (unidad 1804) del Bloque 01 en un tradicional complejo residencial construido en 1985 en la apacible Rua Álvaro Ramos nº 405, en el barrio de Botafogo, Zona Sur de Río de Janeiro. Vivienda en planta alta con excelentes vistas panorámicas y ventilación cruzada, compuesta por 2 dormitorios (1 suite principal), baño social, salón comedor integrado, cocina independiente, dependencias completas de servicio (habitación y baño auxiliar) y zona de lavadero, con derecho exclusivo a 1 plaza de garaje en el condominio. El conjunto residencial consta de 2 bloques; el Bloque 1 cuenta con 18 plantas y solo 4 viviendas por nivel, servido por 4 ascensores, portería con seguridad 24 horas, parque infantil (playground) y salón de eventos y fiestas. Inscrito en el 3º Registro de Inmuebles de Río de Janeiro bajo la Matrícula nº 38.417 e IPTU nº 1.723.344-6. Extraordinaria oportunidad con 1ª Subasta el 04/11/2026 a las 12:00h por R$ 1.068.000,00 y 2ª Subasta el 26/11/2026 a las 12:00h con precio de salida de R$ 534.000,00 (50% de tasación judicial, equivalente a solo ~R$ 6.000,00/m² en Botafogo).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Rua Álvaro Ramos 405 / Bloque 1, Apto 1804 (Botafogo)',
+          sections: [
+            { title: 'Identificación Registral e Inmobiliaria', text: 'Apartamento 1804 del Bloque 01 en Rua Álvaro Ramos nº 405, Botafogo, Río de Janeiro/RJ. Inscrito en el 3º Registro de Inmuebles (Matrícula nº 38.417) e IPTU 1.723.344-6.' },
+            { title: 'Dimensiones y Distribución', text: '89 m² de superficie privativa en 18ª planta. Consta de 2 dormitorios (1 en suite), baño social, salón comedor, cocina, lavadero, dependencias de servicio completas y 1 plaza de garaje.' },
+            { title: 'Estructura del Edificio (Año 1985)', text: 'Construido en 1985, con 2 bloques. Bloque 1 de 18 plantas con 4 unidades por piso y 4 ascensores. Dispone de garaje, parque infantil, salón social y conserjería 24h.' },
+            { title: 'Ubicación en Botafogo', text: 'Barrio estratégico de la Zona Sur carioca, con rápido acceso al metro, colegios bilingües, centros comerciales y polo gastronómico.' },
+            { title: 'Fechas y Precios de Salida', text: '1ª Subasta: 04/11/2026 a las 12:00h por R$ 1.068.000,00. 2ª Subasta: 26/11/2026 a las 12:00h a partir de R$ 534.000,00 (descuento del 50%).' },
+            { title: 'Pago Fraccionado Judicial (Art. 895 CPC)', text: 'Posibilidad de pago fraccionado: entrada mínima del 25% y el resto en hasta 30 cuotas mensuales ajustadas con garantía hipotecaria judicial.' },
+            { title: 'Subrogación de Cargas Fiscales (Art. 130 CTN)', text: 'Los impuestos devengados se subrogan en el precio final de la subasta judicial, garantizando una adquisición libre de deudas tributarias.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Rua Álvaro Ramos 405?", a: "La 1ª Subasta es el 04/11/2026 a las 12:00h por R$ 1.068.000,00. La 2ª Subasta es el 26/11/2026 a las 12:00h con valor inicial de R$ 534.000,00 (50% de la valoración, ~R$ 6.000,00/m²)." },
+          { q: "¿Cómo está distribuido el apartamento 1804?", a: "Posee 89 m² en la 18ª planta (planta alta con gran luminosidad), distribuido en 2 dormitorios (1 suite), baño social, salón, cocina, lavadero, dependencias de servicio con baño y 1 plaza de garaje." },
+          { q: "¿Qué comodidades ofrece el condominio?", a: "Construido en 1985 con 2 bloques (el Bloque 1 tiene 18 plantas, 4 pisos por nivel y 4 ascensores). Ofrece garaje, zona infantil con columpios, salón de celebraciones y vigilancia 24 horas." },
+          { q: "¿Es posible pagar la subasta a plazos?", a: "Sí, a través del Artículo 895 del CPC: 25% de anticipo y hasta 30 pagos mensuales corregidos con hipoteca judicial sobre el inmueble." },
+          { q: "¿Qué ventajas ofrece la ubicación en Botafogo?", a: "Botafogo es uno de los barrios con mayor dinamismo y revalorización de Río de Janeiro. El valor medio de mercado supera los R$ 14.000,00/m², por lo que el precio de 2ª subasta (~R$ 6.000,00/m²) ofrece una excelente plusvalía." },
+          { q: "¿Por qué contar con el soporte de Soares Martins Advogados?", a: "Efectuamos el análisis técnico de las cargas judiciales y de la Matrícula nº 38.417 del 3º Registro, estructuramos la propuesta legal y acompañamos el trámite hasta la entrega judicial de llaves." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Botafogo — Rua Álvaro Ramos #405, Block 1, Apt 1804',
+        subtitle: 'Rua Álvaro Ramos, #405, Block 01, Apt 1804 — Botafogo, Rio de Janeiro/RJ | 89 sqm (958 sq ft) • 18th Floor (High Floor) • 2 Bedrooms (1 En-Suite) • Guest Bathroom • Spacious Living Room • Kitchen • Full Maid\'s Quarters • Laundry Area • 1 Parking Space • Built in 1985 • Gated Condominium • 2 Blocks • Block 1 with 18 Floors (4 Units/Floor) & 4 Elevators • Playground with Kids Park • Party Hall • 24-Hour Concierge • 3rd Land Registry Title #38.417 • IPTU: 1.723.344-6 • 1st Auction: R$ 1,068,000.00 • 2nd Auction: R$ 534,000.00 (~R$ 6,000.00/sqm)',
+        address: 'Rua Álvaro Ramos, #405, Block 01, Apt 1804 — Botafogo, Rio de Janeiro - RJ',
+        p1Date: '11/04/2026 at 12:00 PM',
+        p2Date: '11/26/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1.723.344-6',
+        rgi: '3rd Land Registry Office of Rio de Janeiro (Title #38.417)',
+        val: 'R$ 1,068,000.00',
+        p2Val: 'R$ 534,000.00 (2nd Auction starting bid - 50%)',
+        description: 'Prime 89 sqm (958 sq ft) residential apartment located on the 18th floor (Unit 1804) of Block 01 in a classic 1985 residential community on pleasant Rua Álvaro Ramos #405, in Botafogo, South Zone of Rio de Janeiro. High-floor unit offering panoramic open views and generous natural light and ventilation, featuring 2 bedrooms (including a comfortable master en-suite), full guest bathroom, open-plan living and dining room, practical kitchen, dedicated laundry room, full maid\'s quarters (service bedroom and bathroom), and deeded right to 1 parking space. The residential complex comprises 2 towers; Block 1 has 18 stories with only 4 residences per floor, serviced by 4 modern elevators, 24/7 guarded gatehouse security, dedicated parking facilities, landscaped playground with children\'s park, and a spacious celebration ballroom. Recorded at the 3rd Land Registry under Title #38.417 and municipal tax IPTU #1.723.344-6. Exceptional investment opportunity: 1st Auction on 11/04/2026 at 12:00 PM at R$ 1,068,000.00, and 2nd Auction on 11/26/2026 at 12:00 PM starting at 50% for R$ 534,000.00 (~R$ 6,000.00/sqm in one of Rio\'s premier neighborhoods).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Álvaro Ramos 405 / Block 1, Apt 1804 (Botafogo)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment 1804, Block 01, Rua Álvaro Ramos #405, Botafogo, Rio de Janeiro/RJ. 3rd Land Registry Title #38.417 and Municipal Tax IPTU #1.723.344-6.' },
+            { title: 'Floor Area & Functional Layout', text: '89 sqm (958 sq ft) private area on the 18th floor. Features 2 bedrooms (1 en-suite), guest bathroom, living/dining room, kitchen, laundry, full maid quarters, and 1 parking space.' },
+            { title: 'Building Amenities (1985 Construction)', text: 'Built in 1985 with 2 residential blocks. Block 1 has 18 floors, 4 units per floor, and 4 elevators. Amenities include 24-hour concierge, parking garage, kids playground, and social ballroom.' },
+            { title: 'Prime Botafogo Location', text: 'Situated in Rio\'s vibrant South Zone, close to top gastronomy, international schools, healthcare hubs, and subway transit.' },
+            { title: 'Auction Dates & Reserve Bids', text: '1st Auction: 11/04/2026 at 12:00 PM at R$ 1,068,000.00. 2nd Auction: 11/26/2026 at 12:00 PM starting at R$ 534,000.00 (50% discount).' },
+            { title: 'Court Financing Terms (CPC Art. 895)', text: 'Judicial installment option available: 25% down payment (R$ 133,500.00 in 2nd Auction) and balance in up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Clear Title Guarantee (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, protecting the purchaser from historical tax liabilities.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Rua Álvaro Ramos 405?", a: "The 1st Auction is on 11/04/2026 at 12:00 PM at R$ 1,068,000.00. The 2nd Auction is on 11/26/2026 at 12:00 PM starting at R$ 534,000.00 (50% off the official appraisal, ~R$ 6,000.00/sqm)." },
+          { q: "What is the floor plan and layout of Apartment 1804?", a: "It is an 89 sqm high-floor unit (18th floor) with 2 bedrooms (1 en-suite), guest bathroom, living room, kitchen, laundry area, complete maid quarters (room + bathroom), and 1 parking space." },
+          { q: "What amenities are available in the condominium?", a: "Constructed in 1985 with 2 blocks, Block 1 features 18 floors, 4 units per floor, and 4 elevators. The complex offers 24/7 security guardhouse, parking garage, playground with children's park, and a party hall." },
+          { q: "Can this property be purchased in court installments?", a: "Yes. Under CPC Article 895, investors can propose a 25% down payment with the remaining balance paid over up to 30 monthly installments secured by a mortgage." },
+          { q: "What makes this property a strong investment in Botafogo?", a: "Botafogo market prices for 2-bedroom units with parking and amenities typically exceed R$ 14,000.00/sqm. Acquiring this 89 sqm unit at ~R$ 6,000.00/sqm offers a safety margin exceeding 50%." },
+          { q: "Why engage Soares Martins Advogados for this transaction?", a: "We provide comprehensive title examination on 3rd Land Registry Title #38.417, court docket audit, bid and installment strategy formulation, and post-auction execution through the writ of possession." }
+        ]
+      }
+    },
+
+    // Botafogo - Rua Lauro Müller 36 - Apto 109 (38 m² / 3º RGI 56.285 / Desocupado / Fundos)
+    'botafogo-lauro-muller-36-apto-109': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento em Botafogo — Rua Lauro Müller nº 36, Apto 109',
+        subtitle: 'Rua Lauro Müller, nº 36, Apto 109 — Botafogo, Rio de Janeiro/RJ | 38 m² • Edifício Exclusivamente Residencial de 16 Andares • 12 Aptos/Andar • 3 Elevadores Modernizados • Salão de Festas na Cobertura • Portaria 24h & Câmeras de Segurança 24h • Imóvel Desocupado de Pessoas (Fundos) • 3º Ofício RGI Matrícula 56.285 • Inscrição Municipal IPTU: 1205828-5 • 1º Leilão: R$ 500.000,00 • 2º Leilão: R$ 250.000,00 (Lance Inicial a 50%)',
+        address: 'Rua Lauro Müller, nº 36, Apto 109 — Botafogo, Rio de Janeiro - RJ',
+        p1Date: '13/11/2026 às 11:00h',
+        p2Date: '23/11/2026 às 11:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1205828-5',
+        rgi: '3º Ofício de Registro de Imóveis (Matrícula nº 56.285)',
+        val: 'R$ 500.000,00',
+        p2Val: 'R$ 250.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 38 m² de área edificada privativa correspondente à unidade 109, situado em posição de fundos e atualmente desocupado de pessoas, no condomínio da Rua Lauro Müller nº 36, no estratégico e valorizado bairro de Botafogo, Zona Sul do Rio de Janeiro. O edifício é exclusivamente residencial, constituído de 16 andares com 12 apartamentos por andar, atendido por 3 elevadores modernizados, portaria com controle de acesso 24 horas, monitoramento por câmeras de segurança 24 horas e salão de festas na cobertura com vista panorâmica. Imóvel devidamente registrado, dimensionado e caracterizado no 3º Ofício do Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 56.285 e inscrição municipal IPTU nº 1205828-5. Avaliação judicial oficial homologada em R$ 500.000,00. 1º Leilão em 13/11/2026 às 11:00h por R$ 500.000,00 e 2º Leilão em 23/11/2026 às 11:00h com lance inicial de 50% por R$ 250.000,00 (~R$ 6.578,95/m² em Botafogo).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Lauro Müller nº 36, Apto 109 (Botafogo)',
+          sections: [
+            { title: 'Identificação Imobiliária & Registral', text: 'Unidade 109 do condomínio situado na Rua Lauro Müller nº 36, Botafogo, Rio de Janeiro/RJ. Registrado no 3º Ofício do Registro de Imóveis sob a Matrícula nº 56.285 e inscrição municipal IPTU nº 1205828-5.' },
+            { title: 'Dimensões, Posição e Ocupação', text: 'Área edificada privativa de 38 m², posição de fundos, garantindo tranquilidade acústica. Unidade encontra-se formalmente desocupada de pessoas, o que confere extrema celeridade à expedição do mandado e efetivação da imissão na posse pelo arrematante.' },
+            { title: 'Características do Prédio e Lazer', text: 'Edifício exclusivamente residencial de 16 andares, possuindo 12 apartamentos por pavimento, servido por três elevadores modernizados, portaria 24 horas, monitoramento completo por câmeras de segurança 24 horas e salão de festas situado na cobertura.' },
+            { title: 'Localização Estratégica em Botafogo', text: 'Localizado na Rua Lauro Müller, junto ao Rio Sul Shopping Center, Enseada de Botafogo, Universidade Federal do Rio de Janeiro (Campus Praia Vermelha), IFRJ, Urca e com acesso rápido a Copacabana e ao Centro da cidade.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 13/11/2026 às 11:00h (Lance inicial: R$ 500.000,00). 2º Leilão: 23/11/2026 às 11:00h (Lance inicial: R$ 250.000,00 — deságio de 50%).' },
+            { title: 'Parcelamento Judicial (Art. 895 do CPC)', text: 'Possibilidade de pagamento parcelado: entrada mínima de 25% (R$ 62.500,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial averbada na matrícula.' },
+            { title: 'Segurança Jurídica e Sub-rogação Fiscal (Art. 130 CTN)', text: 'Eventuais débitos tributários de IPTU pretéritos sub-rogam-se sobre o preço ofertado na arrematação judicial, nos exatos termos do artigo 130, parágrafo único, do CTN.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual é a avaliação oficial e o lance mínimo da 2ª Praça para o apto 109 na Rua Lauro Müller 36?", a: "O imóvel foi avaliado judicialmente em R$ 500.000,00. No 1º Leilão (13/11/2026 às 11:00h), o lance inicial é o valor integral da avaliação (R$ 500.000,00). No 2º Leilão (23/11/2026 às 11:00h), o lance inicial parte com 50% de desconto, fixado em R$ 250.000,00 (~R$ 6.578,95/m² em Botafogo)." },
+          { q: "Quais são as características da unidade 109 e do condomínio?", a: "O imóvel avaliando consiste na unidade 109 do condomínio com 38 m² de área edificada privativa, posição de fundos. O prédio é estritamente residencial, de 16 andares, com 12 apartamentos por andar, atendido por 3 elevadores modernizados, portaria 24 horas, monitoramento por câmeras de segurança 24 horas e salão de festas na cobertura." },
+          { q: "O fato de a unidade encontrar-se desocupada de pessoas é uma vantagem jurídica?", a: "Sim, é uma vantagem decisiva. Por encontrar-se desocupado de pessoas, o arrematante elimina os custos e a morosidade habitual de desocupação forçada ou resistência de posseiros, viabilizando a imediata entrega das chaves e uso/locação do bem após a expedição da Carta de Arrematação pelo TJRJ." },
+          { q: "É possível comprar este apartamento com parcelamento judicial pelo CPC?", a: "Sim. O artigo 895 do Código de Processo Civil autoriza proposta formal de parcelamento nos autos: entrada mínima de 25% (R$ 62.500,00 na 2ª praça) e o saldo remanescente em até 30 parcelas mensais com correção monetária oficial e hipoteca judicial." },
+          { q: "Por que investir em apartamentos compactos de 38 m² em Botafogo?", a: "Botafogo possui altíssima procura para moradia e aluguel de médio/longo prazo e temporada, dada a proximidade de polos universitários, hospitais, centros empresariais, Rio Sul e metrô. O valor médio de venda na região ultrapassa R$ 13.000,00/m², tornando o custo de ~R$ 6.578,95/m² em 2ª praça uma oportunidade com margem de segurança de cerca de 50%." },
+          { q: "Como atua a assessoria jurídica da Soares Martins Advogados neste leilão?", a: "Realizamos a auditoria minuciosa da Matrícula nº 56.285 no 3º RGI, certificamos a regularidade das citações e intimações dos executados nos autos do TJRJ, formalizamos a habilitação ou proposta parcelada perante o leiloeiro e conduzimos os atos até a averbação da Carta de Arrematação e imissão efetiva na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Botafogo — Calle Lauro Müller nº 36, Apto 109',
+        subtitle: 'Calle Lauro Müller, nº 36, Apto 109 — Botafogo, Río de Janeiro/RJ | 38 m² • Edificio Exclusivamente Residencial de 16 Plantas • 12 Aptos/Planta • 3 Ascensores Modernizados • Salón de Eventos en la Azotea • Portería 24h & Cámaras de Seguridad 24h • Inmueble Desocupado de Personas (Interior) • 3º Registro Matrícula 56.285 • IPTU: 1205828-5 • 1ª Subasta: R$ 500.000,00 • 2ª Subasta: R$ 250.000,00 (Puja Inicial al 50%)',
+        address: 'Calle Lauro Müller, nº 36, Apto 109 — Botafogo, Río de Janeiro - RJ',
+        p1Date: '13/11/2026 a las 11:00h',
+        p2Date: '23/11/2026 a las 11:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1205828-5',
+        rgi: '3º Registro de Inmuebles de Río de Janeiro (Matrícula nº 56.285)',
+        val: 'R$ 500.000,00',
+        p2Val: 'R$ 250.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 38 m² de superficie edificada privativa correspondiente a la unidad 109, de orientación interior (fundos) y formalmente desocupado de personas, en la Calle Lauro Müller nº 36, en el barrio de Botafogo, Zona Sur de Río de Janeiro. Edificio exclusivamente residencial de 16 plantas con 12 apartamentos por piso, 3 ascensores modernizados, portería 24h, circuito cerrado de TV 24 horas y salón de eventos en la azotea. Registrado en el 3º Registro bajo Matrícula 56.285 e IPTU 1205828-5. Tasación judicial oficial de R$ 500.000,00. 1ª Subasta el 13/11/2026 por R$ 500.000,00 y 2ª Subasta el 23/11/2026 con puja inicial del 50% por R$ 250.000,00 (~R$ 6.578,95/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Lauro Müller 36 / Apto 109 (Botafogo)',
+          sections: [
+            { title: 'Identificación Inmobiliaria y Registral', text: 'Unidad 109 en Calle Lauro Müller nº 36, Botafogo, Río de Janeiro/RJ. Matrícula 56.285 del 3º Registro de la Propiedad e IPTU 1205828-5.' },
+            { title: 'Dimensiones, Orientación y Estado de Ocupación', text: '38 m² privativos, interior silencioso, inmueble desocupado de personas, permitiendo una rápida entrega de posesión tras la adjudicación.' },
+            { title: 'Instalaciones del Edificio', text: '16 plantas, 12 apartamentos por piso, 3 ascensores modernizados, conserjería y vigilancia 24h por cámaras, salón de fiestas en la azotea.' },
+            { title: 'Ubicación en Botafogo', text: 'Zona noble junto al Centro Comercial Rio Sul, Urca, playas y centros universitarios.' },
+            { title: 'Fechas y Precios de Salida', text: '1ª Subasta: 13/11/2026 a las 11:00h por R$ 500.000,00. 2ª Subasta: 23/11/2026 a las 11:00h a partir de R$ 250.000,00 (descuento del 50%).' },
+            { title: 'Pago Judicial a Plazos (Art. 895 CPC)', text: 'Admite propuesta escrita de pago fraccionado: 25% de anticipo y hasta 30 cuotas mensuales ajustadas con garantía hipotecaria judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las cargas de IPTU se subrogan en el precio final de la subasta judicial, garantizando una adquisición libre de pasivos fiscales.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Lauro Müller 36 Apto 109?", a: "La 1ª Subasta es el 13/11/2026 a las 11:00h por R$ 500.000,00. La 2ª Subasta es el 23/11/2026 a las 11:00h con precio inicial de R$ 250.000,00 (50% de descuento, ~R$ 6.578,95/m²)." },
+          { q: "¿Cuáles son las características del apartamento y el edificio?", a: "Unidad 109 de 38 m² interior y desocupada. Edificio residencial de 16 plantas con 12 pisos por nivel, 3 ascensores modernizados, conserjería 24h, cámaras 24h y salón de eventos en la terraza." },
+          { q: "¿Qué beneficio aporta que la unidad esté desocupada?", a: "Facilita la toma de posesión judicial inmediata, sin necesidad de litigios ni gastos para desalojar a ocupantes." },
+          { q: "¿Se puede pagar de forma fraccionada?", a: "Sí, mediante el Art. 895 del CPC: 25% de entrada y hasta 30 cuotas mensuales con garantía hipotecaria judicial." },
+          { q: "¿Por qué invertir en Botafogo?", a: "Es una de las zonas de mayor demanda de alquiler en Río de Janeiro, con precios de mercado que duplican el valor de salida en 2ª subasta." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Auditamos la Matrícula nº 56.285 del 3º Registro, el expediente judicial en TJRJ, formulamos la puja y acompañamos hasta la entrega efectiva de llaves." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Botafogo — Rua Lauro Müller #36, Apt 109',
+        subtitle: 'Rua Lauro Müller, #36, Apt 109 — Botafogo, Rio de Janeiro/RJ | 38 sqm (409 sq ft) • 16-Story Exclusively Residential Building • 12 Units/Floor • 3 Modernized Elevators • Rooftop Celebration Ballroom • 24/7 Concierge & 24/7 Security CCTV • Vacant Property (Quiet Rear Position) • 3rd Land Registry Title #56.285 • Municipal Tax IPTU: 1205828-5 • 1st Auction: R$ 500,000.00 • 2nd Auction: R$ 250,000.00 (50% Reserve Bid)',
+        address: 'Rua Lauro Müller, #36, Apt 109 — Botafogo, Rio de Janeiro - RJ',
+        p1Date: '11/13/2026 at 11:00 AM',
+        p2Date: '11/23/2026 at 11:00 AM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1205828-5',
+        rgi: '3rd Land Registry Office of Rio de Janeiro (Title #56.285)',
+        val: 'R$ 500,000.00',
+        p2Val: 'R$ 250,000.00 (2nd Auction starting bid - 50%)',
+        description: 'Prime 38 sqm (409 sq ft) private residential unit corresponding to Unit 109, situated in a quiet rear position and currently vacant of occupants, within the condominium at Rua Lauro Müller #36, in the highly desirable and strategic district of Botafogo, South Zone of Rio de Janeiro. The building is strictly residential, comprising 16 stories with 12 apartments per floor, serviced by 3 modernized elevators, 24-hour manned concierge security, 24-hour video surveillance system (CCTV), and a rooftop party lounge with panoramic city views. Fully titled, registered, and characterized at the 3rd Land Registry Office under Title #56.285 and municipal property tax IPTU #1205828-5. Official court valuation appraised at R$ 500,000.00. 1st Auction on 11/13/2026 at 11:00 AM at R$ 500,000.00 and 2nd Auction on 11/23/2026 at 11:00 AM starting at 50% discount for R$ 250,000.00 (~R$ 6,578.95/sqm in prime Botafogo).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Lauro Müller #36 / Apt 109 (Botafogo)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment 109 at Rua Lauro Müller #36, Botafogo, Rio de Janeiro/RJ. Recorded at the 3rd Land Registry Office under Title #56.285 and Municipal Tax IPTU #1205828-5.' },
+            { title: 'Dimensions, Position and Vacancy', text: '38 sqm (409 sq ft) built area, quiet rear-facing orientation. Currently vacant, ensuring immediate and smooth judicial possession without eviction delays.' },
+            { title: 'Building Structure & Amenities', text: 'Exclusively residential 16-story tower, 12 units per floor, 3 modernized elevators, 24/7 security concierge, 24/7 CCTV monitoring, and rooftop ballroom.' },
+            { title: 'Strategic Botafogo Location', text: 'Prime spot adjacent to Rio Sul Shopping Center, Botafogo Bay, Urca, universities, and quick connections to Copacabana and Downtown Rio.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/13/2026 at 11:00 AM at R$ 500,000.00. 2nd Auction: 11/23/2026 at 11:00 AM starting at R$ 250,000.00 (50% discount).' },
+            { title: 'Court Installment Financing (CPC Art. 895)', text: 'Judicial installment option available: 25% down payment (R$ 62,500.00 in 2nd Auction) and balance in up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Tax Liens (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, protecting the purchaser from historical tax liabilities.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Rua Lauro Müller 36 Apt 109?", a: "The 1st Auction is on 11/13/2026 at 11:00 AM at R$ 500,000.00. The 2nd Auction is on 11/23/2026 at 11:00 AM starting at R$ 250,000.00 (50% off official appraisal, ~R$ 6,578.95/sqm)." },
+          { q: "What are the specs of Unit 109 and the building?", a: "Unit 109 is a 38 sqm rear-facing, vacant residential apartment. The building is 16 stories high with 12 units per floor, 3 modernized elevators, 24/7 security guardhouse, 24/7 CCTV cameras, and a rooftop celebration ballroom." },
+          { q: "Why is the vacant status of the unit an advantage?", a: "Vacant status eliminates costly eviction proceedings and potential tenant resistance, allowing immediate possession upon issuance of the deed of auction by TJRJ." },
+          { q: "Can this property be purchased via judicial installment financing?", a: "Yes. Under CPC Article 895, buyers can submit a proposal with a 25% down payment and the remainder paid over up to 30 monthly installments." },
+          { q: "What makes this property an attractive investment in Botafogo?", a: "Botafogo compact apartments enjoy tremendous rental demand from young professionals and university students, with average market sales exceeding R$ 13,000.00/sqm, giving an extraordinary safety margin at ~R$ 6,578.95/sqm." },
+          { q: "Why hire Soares Martins Advogados for this judicial auction?", a: "We conduct exhaustive due diligence on Title #56.285 (3rd Registry), review all procedural notices in the court records, structure the bidding and installment proposal, and execute post-auction transfer through to final possession." }
+        ]
+      }
     }
 };
 

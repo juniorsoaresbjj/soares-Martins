@@ -76,6 +76,9 @@ import CopacabanaSiqueiraCampos143AuctionPage from './components/CopacabanaSique
 import CopacabanaBaraoDeIpanema105AuctionPage from './components/CopacabanaBaraoDeIpanema105AuctionPage';
 import CopacabanaRaulPompeia240AuctionPage from './components/CopacabanaRaulPompeia240AuctionPage';
 import CentroNossaSenhoraFatima60AuctionPage from './components/CentroNossaSenhoraFatima60AuctionPage';
+import FlamengoPraiaDoFlamengo12AuctionPage from './components/FlamengoPraiaDoFlamengo12AuctionPage';
+import BotafogoAlvaroRamos405AuctionPage from './components/BotafogoAlvaroRamos405AuctionPage';
+import BotafogoLauroMuller36Apto109AuctionPage from './components/BotafogoLauroMuller36Apto109AuctionPage';
 import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada169AuctionPage';
 import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
 import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
@@ -458,6 +461,19 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284-apto-301" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284/" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-284" element={<FlamengoPraiaDoFlamengo284AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12/" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109/" element={<BotafogoLauroMuller36Apto109AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109" element={<BotafogoLauroMuller36Apto109AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405-bloco-1-apto-1804/" element={<BotafogoAlvaroRamos405AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405-bloco-1-apto-1804" element={<BotafogoAlvaroRamos405AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405/" element={<BotafogoAlvaroRamos405AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-alvaro-ramos-405" element={<BotafogoAlvaroRamos405AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312/" element={<BarraRicardoMarinho300AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-jornalista-ricardo-marinho-300-apto-312" element={<BarraRicardoMarinho300AuctionPage />} />
