@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
+import { translations } from '../translations';
 import { 
   ArrowLeft, ChevronRight, ChevronDown, ChevronUp, Building2, Gavel, Scale, 
   ShieldCheck, FileText, Users, ShieldAlert, Search, Filter, ExternalLink, 
@@ -9,6 +10,30 @@ import {
 import SEO from './SEO';
 
 const serviceData: Record<string, any> = {
+  'direito-imobiliario': {
+    titleKey: 'services.s1',
+    descKey: 'services.s1Desc',
+    icon: <Building2 size={48} />,
+    detailsKey: 'services_page.details.s1'
+  },
+  'direito-imobiliario-negocios': {
+    titleKey: 'services.s1',
+    descKey: 'services.s1Desc',
+    icon: <Building2 size={48} />,
+    detailsKey: 'services_page.details.s1'
+  },
+  'contencioso-civel-imobiliario': {
+    titleKey: 'services.s2',
+    descKey: 'services.s2Desc',
+    icon: <Gavel size={48} />,
+    detailsKey: 'services_page.details.s2'
+  },
+  'contencioso-civil-imobiliario': {
+    titleKey: 'services.s2',
+    descKey: 'services.s2Desc',
+    icon: <Gavel size={48} />,
+    detailsKey: 'services_page.details.s2'
+  },
   'cobranca-condominial': {
     titleKey: 'services.s3',
     descKey: 'services.s3Desc',
@@ -33,23 +58,17 @@ const serviceData: Record<string, any> = {
     icon: <Users size={48} />,
     detailsKey: 'services_page.details.s6'
   },
-  'direito-patrimonial-sucessorio': {
-    titleKey: 'services.s1',
-    descKey: 'services.s1Desc',
-    icon: <ShieldCheck size={48} />,
-    detailsKey: 'services_page.details.s1'
-  },
-  'direito-imobiliario': {
-    titleKey: 'services.s2',
-    descKey: 'services.s2Desc',
-    icon: <Building2 size={48} />,
-    detailsKey: 'services_page.details.s2'
-  },
   'compliance-condominial-penal': {
     titleKey: 'services_page.penal_title',
     descKey: 'services_page.penal_desc',
     icon: <ShieldAlert size={48} />,
     detailsKey: 'services_page.details.penal'
+  },
+  'direito-patrimonial-sucessorio': {
+    titleKey: 'service_content.direito-patrimonial-sucessorio.h1',
+    descKey: 'service_content.direito-patrimonial-sucessorio.h2',
+    icon: <Building2 size={48} />,
+    detailsKey: 'services_page.details.s1'
   },
   'assessoria-leiloes-judiciais': {
     titleKey: 'services.s8',
@@ -142,6 +161,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Enviar E-mail Corporativo',
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
+      {
+        tag: 'Residencial • Ipanema (RJ)',
+        title: 'Leilão Judicial de Apartamento em Ipanema — Rua Visconde de Pirajá nº 188 — Edifício Nara, Apto 602',
+        desc: 'Apartamento residencial de 63 m² de área edificada privativa correspondente à unidade 602 do conceituado Edifício Nara, situado na valorizada Rua Visconde de Pirajá nº 188, no coração de Ipanema, Zona Sul do Rio de Janeiro. O imóvel situa-se de frente para o logradouro (com sala e um quarto voltados para a frente e o outro quarto para os fundos), composto por sala, dois quartos com armários embutidos antigos, banheiro social, cozinha, área de serviço e dependências de empregada, com direito a 1 vaga de garagem no condomínio (garagem no térreo e subsolo com vagas livres e demarcadas em bom estado). Piso em cerâmica bege e esquadrias de alumínio, necessitando de reforma geral e modernização. Prédio com 44 apartamentos residenciais (6 unidades por andar, exceto cobertura), 2 elevadores reformados (social e de serviço), portaria 24 horas com interfonia e câmeras de segurança (CFTV), hall em mármore branco e granito preto com portas blindex e grades em alumínio marrom. Registrado no 5º Ofício RGI sob Matrícula nº 89.580 e IPTU nº 0.994.226-9. Avaliação judicial oficial de R$ 1.069.307,78. 1º Leilão em 19/10/2026 às 12:00h por R$ 1.069.307,78 e 2º Leilão em 29/10/2026 às 12:00h com lance inicial de 50% por R$ 534.654,00 (~R$ 8.486,57/m² em Ipanema).',
+        p1Label: '1ª Praça (19/10/2026):',
+        p1Val: 'R$ 1.069.307,78',
+        p2Label: '2ª Praça (29/10/2026):',
+        p2Val: 'R$ 534.654,00 (Lance inicial 2ª Praça)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20602%20do%20Edif%C3%ADcio%20Nara%20na%20Rua%20Visconde%20de%20Piraj%C3%A1%20188%20em%20Ipanema%20-%20RJ.'
+      },
       {
         tag: 'Residencial • Botafogo (RJ)',
         title: 'Leilão Judicial de Apartamento em Botafogo — Rua Lauro Müller nº 36 — Apto 109',
@@ -991,6 +1021,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Ipanema (RJ)',
+        title: 'Subasta Judicial de Apartamento en Ipanema — Calle Visconde de Pirajá nº 188 — Edificio Nara, Apto 602',
+        desc: 'Apartamento residencial de 63 m² privativos correspondiente a la unidad 602 del emblemático Edifício Nara, en Calle Visconde de Pirajá nº 188, Ipanema, Zona Sur de Río de Janeiro. Vivienda exterior orientada a la calle (salón y 1 dormitorio al frente, otro dormitorio al contrafrente), con sala, 2 dormitorios con armarios empotrados, baño social, cocina, lavadero y dependencias de servicio, con derecho a 1 plaza de garaje (en planta baja o sótano). Suelo en cerámica beige y carpintería de aluminio, requiriendo reforma y modernización integral. Edificio residencial con 44 apartamentos (6 por piso salvo ático), 2 ascensores reformados, conserjería y cámaras de vigilancia 24h, portal en mármol blanco y granito negro con puertas blindex. 5º Registro Matrícula 89.580 e IPTU 0.994.226-9. Tasación judicial de R$ 1.069.307,78. 1ª Subasta el 19/10/2026 a las 12:00h por R$ 1.069.307,78 y 2ª Subasta el 29/10/2026 a las 12:00h con puja inicial del 50% por R$ 534.654,00 (~R$ 8.486,57/m²).',
+        p1Label: '1ª Subasta (19/10/2026):',
+        p1Val: 'R$ 1.069.307,78',
+        p2Label: '2ª Subasta (29/10/2026):',
+        p2Val: 'R$ 534.654,00 (Puja inicial 2ª Subasta)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20602%20del%20Edificio%20Nara%20en%20Calle%20Visconde%20de%20Piraj%C3%A1%20188%20en%20Ipanema%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Botafogo (RJ)',
         title: 'Subasta Judicial de Apartamento en Botafogo — Calle Lauro Müller nº 36 — Apto 109',
         desc: 'Apartamento residencial de 38 m² de superficie edificada privativa correspondiente a la unidad 109, de orientación interior y desocupado de personas, en Calle Lauro Müller nº 36, Botafogo, Zona Sur de Río de Janeiro. Edificio exclusivamente residencial de 16 plantas con 12 apartamentos por piso, 3 ascensores modernizados, portería y vigilancia por cámaras 24h, salón de fiestas en la azotea. Inscrito en el 3º Registro bajo Matrícula nº 56.285 e IPTU 1205828-5. Tasación judicial de R$ 500.000,00. 1ª Subasta el 13/11/2026 a las 11:00h por R$ 500.000,00 y 2ª Subasta el 23/11/2026 a las 11:00h con puja inicial del 50% por R$ 250.000,00 (~R$ 6.578,95/m² en Botafogo).',
@@ -1817,6 +1858,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
       {
+        tag: 'Residential • Ipanema (RJ)',
+        title: 'Judicial Auction of Apartment in Ipanema — Rua Visconde de Pirajá #188 — Edifício Nara, Apt 602',
+        desc: 'Prime 63 sqm (678 sq ft) private residential unit corresponding to Unit 602 in the classic Edifício Nara, situated along prime Rua Visconde de Pirajá #188, in core Ipanema, Rio de Janeiro South Zone. Street front-facing apartment (living room and 1 bedroom facing the street, 2nd bedroom facing the rear), featuring living room, 2 bedrooms with built-in closets, full bathroom, kitchen, laundry area, and full maid quarters, with deeded right to 1 parking space in the condominium (ground/basement garage). Beige tile floors and aluminum window frames, requiring comprehensive renovation and interior modernization. Edifício Nara features 44 residences (6 units per floor, except penthouse), 2 modernized elevators, 24/7 manned security concierge with CCTV surveillance, and an elegant lobby in white marble and black granite with blindex doors. Recorded at 5th Land Registry under Title #89.580 and municipal tax IPTU #0.994.226-9. Official valuation of R$ 1,069,307.78. 1st Auction on 10/19/2026 at 12:00 PM at R$ 1,069,307.78 and 2nd Auction on 10/29/2026 at 12:00 PM starting at 50% for R$ 534,654.00 (~R$ 8,486.57/sqm in prime Ipanema).',
+        p1Label: '1st Auction (10/19/2026):',
+        p1Val: 'R$ 1,069,307.78',
+        p2Label: '2nd Auction (10/29/2026):',
+        p2Val: 'R$ 534,654.00 (2nd Auction starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Visconde%20de%20Piraj%C3%A1%20188%20Edificio%20Nara%20Apt%20602%20in%20Ipanema%20-%20Rio%20de%20Janeiro.'
+      },
+      {
         tag: 'Residential • Botafogo (RJ)',
         title: 'Judicial Auction of Apartment in Botafogo — Rua Lauro Müller #36 — Apt 109',
         desc: 'Prime 38 sqm (409 sq ft) residential apartment (Unit 109) in a quiet rear position, currently vacant of occupants, within the condominium at Rua Lauro Müller #36, Botafogo, Rio de Janeiro South Zone. Exclusively residential 16-story tower (12 units/floor) serviced by 3 modernized elevators, 24/7 security concierge, 24/7 CCTV surveillance, and a rooftop celebration ballroom. Recorded at the 3rd Land Registry under Title #56.285 and IPTU #1205828-5. Official valuation of R$ 500,000.00. 1st Auction on 11/13/2026 at 11:00 AM at R$ 500,000.00 and 2nd Auction on 11/23/2026 at 11:00 AM starting at 50% for R$ 250,000.00 (~R$ 6,578.95/sqm in prime Botafogo).',
@@ -2578,9 +2630,24 @@ const ServiceDetail: React.FC = () => {
   const [showAllAuctions, setShowAllAuctions] = useState<boolean>(false);
 
   const rawPath = location.pathname.replace(/^\/|\/$/g, '');
-  const slug = paramSlug || (rawPath.includes('assessoria-leiloes-judiciais') ? 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro' : rawPath);
+  const pathParts = rawPath.split('/');
+  const lastSegment = pathParts[pathParts.length - 1];
+
+  const slugAliasMap: Record<string, string> = {
+    'contencioso-civil-imobiliario': 'contencioso-civel-imobiliario',
+    'direito-imobiliario-negocios': 'direito-imobiliario',
+    'assessoria-leiloes-judiciais': 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro',
+  };
+
+  const isExplicitAuctionPath = rawPath === 'assessoria-leiloes-judiciais' || 
+                                rawPath === 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro' ||
+                                (rawPath.startsWith('assessoria-leiloes-judiciais') && pathParts.length === 1);
+
+  const detectedSlug = paramSlug || (isExplicitAuctionPath ? 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro' : lastSegment || rawPath);
+  const slug = slugAliasMap[detectedSlug] || detectedSlug;
   
-  const service = slug ? serviceData[slug] : serviceData['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'];
+  const isAuctionPage = slug === 'assessoria-leiloes-judiciais' || slug === 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro';
+  const service = serviceData[slug] || (isAuctionPage ? serviceData['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'] : null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -2605,12 +2672,30 @@ const ServiceDetail: React.FC = () => {
   const getServiceContent = () => {
     try {
       // @ts-ignore - access nested translations
-      const content = (t('service_content') as any)?.[slug as string] || (t('service_content') as any)?.['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'] || (t('service_content') as any)?.['assessoria-leiloes-judiciais'];
-      if (content && content.h1) return content;
+      const content = (t('service_content') as any)?.[slug as string] || 
+                      (translations[language]?.service_content as any)?.[slug as string] || 
+                      (translations.pt.service_content as any)?.[slug as string];
+      if (content && content.h1) {
+        const ptContent = (translations.pt.service_content as any)?.[slug as string];
+        return {
+          h1: content.h1,
+          h2: content.h2 || ptContent?.h2 || '',
+          sections: (content.sections && content.sections.length > 0) ? content.sections : (ptContent?.sections || []),
+          faqs: (content.faqs && content.faqs.length > 0) ? content.faqs : (ptContent?.faqs || [])
+        };
+      }
     } catch (e) {}
+
+    // Only fallback to auction content if this is an auction page
+    if (isAuctionPage) {
+      try {
+        const auctionContent = (t('service_content') as any)?.['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'] || (t('service_content') as any)?.['assessoria-leiloes-judiciais'];
+        if (auctionContent && auctionContent.h1) return auctionContent;
+      } catch (e) {}
+    }
     
     return {
-      h1: t(service.titleKey),
+      h1: service?.titleKey ? (service.titleKey.startsWith('service_content') ? (translations.pt.service_content as any)?.[slug]?.h1 || t(service.titleKey) : t(service.titleKey)) : 'Área de Atuação',
       h2: language === 'es' ? 'Especialidades y Actuación' : language === 'en' ? 'Specialties & Practice Areas' : 'Especialidades e Atuação',
       sections: [],
       faqs: []
@@ -2621,7 +2706,8 @@ const ServiceDetail: React.FC = () => {
   const details = t(service.detailsKey) as unknown as string[];
 
   // Generate description for SEO
-  const seoDescription = `${content.h1} no Rio de Janeiro/RJ. ${t(service.descKey)}`.substring(0, 160);
+  const serviceDesc = service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || '');
+  const seoDescription = `${content.h1} no Rio de Janeiro/RJ. ${serviceDesc}`.substring(0, 160);
   const canonicalUrl = `https://soaresmartinsadv.com/${slug}/`;
 
   // Schemas
@@ -2692,7 +2778,6 @@ const ServiceDetail: React.FC = () => {
   const combinedSchemas = [breadcrumbSchema, legalServiceSchema, ...(faqSchema ? [faqSchema] : [])];
 
   const checklistItems = tPage.checklist;
-  const isAuctionPage = slug === 'assessoria-leiloes-judiciais' || slug === 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro';
 
   const visibleAuctionItems = showAllAuctions ? tPage.auctionItems : tPage.auctionItems.slice(0, 3);
 
@@ -2846,48 +2931,97 @@ const ServiceDetail: React.FC = () => {
               {service.icon}
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif leading-tight text-white tracking-tight text-center">{content.h1}</h1>
-            <p className="text-base sm:text-lg md:text-xl text-text-muted font-light leading-relaxed text-center px-4">{t(service.descKey)}</p>
+            <p className="text-base sm:text-lg md:text-xl text-text-muted font-light leading-relaxed text-center px-4">
+              {service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || '')}
+            </p>
           </div>
 
-          {/* Imagem de Prédio Residencial e Destaque de Atuação */}
-          <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden mb-12 sm:mb-14 shadow-2xl text-left grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch">
-            <div className="lg:col-span-7 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-8">
-              <div className="space-y-5">
-                <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-bronze/20 text-bronze border border-bronze/30">
-                  <Building2 size={14} /> {tPage.residentialCommercial}
-                </span>
-                <h2 className="text-2xl sm:text-3xl font-serif text-white leading-tight text-left">
-                  {tPage.heroTitle}
-                </h2>
-                <p className="text-white/80 text-sm sm:text-base leading-relaxed text-left">
-                  {tPage.heroDesc}
-                </p>
-              </div>
-              <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/10 text-left">
-                <div>
-                  <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">{tPage.stat1Title}</span>
-                  <span className="text-xs text-text-muted leading-snug block">{tPage.stat1Desc}</span>
+          {/* Destaque de Atuação - Leilão vs Áreas de Atuação */}
+          {isAuctionPage ? (
+            <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden mb-12 sm:mb-14 shadow-2xl text-left grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch">
+              <div className="lg:col-span-7 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-8">
+                <div className="space-y-5">
+                  <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-bronze/20 text-bronze border border-bronze/30">
+                    <Building2 size={14} /> {tPage.residentialCommercial}
+                  </span>
+                  <h2 className="text-2xl sm:text-3xl font-serif text-white leading-tight text-left">
+                    {tPage.heroTitle}
+                  </h2>
+                  <p className="text-white/80 text-sm sm:text-base leading-relaxed text-left">
+                    {tPage.heroDesc}
+                  </p>
                 </div>
-                <div>
-                  <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">{tPage.stat2Title}</span>
-                  <span className="text-xs text-text-muted leading-snug block">{tPage.stat2Desc}</span>
+                <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/10 text-left">
+                  <div>
+                    <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">{tPage.stat1Title}</span>
+                    <span className="text-xs text-text-muted leading-snug block">{tPage.stat1Desc}</span>
+                  </div>
+                  <div>
+                    <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">{tPage.stat2Title}</span>
+                    <span className="text-xs text-text-muted leading-snug block">{tPage.stat2Desc}</span>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:col-span-5 relative min-h-[280px] lg:min-h-full">
+                <img 
+                  src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Edifício residencial de alto padrão no Rio de Janeiro"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-transparent opacity-80" />
+                <div className="absolute bottom-6 left-6 right-6 bg-midnight/85 backdrop-blur-md p-4 rounded-xl border border-white/10 text-xs text-white/90 shadow-lg text-left">
+                  <span className="font-bold text-bronze block mb-0.5">{tPage.badgeLocation}</span>
+                  {tPage.badgeDesc}
                 </div>
               </div>
             </div>
-            <div className="lg:col-span-5 relative min-h-[280px] lg:min-h-full">
-              <img 
-                src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80" 
-                alt="Edifício residencial de alto padrão no Rio de Janeiro"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                referrerPolicy="no-referrer"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-transparent opacity-80" />
-              <div className="absolute bottom-6 left-6 right-6 bg-midnight/85 backdrop-blur-md p-4 rounded-xl border border-white/10 text-xs text-white/90 shadow-lg text-left">
-                <span className="font-bold text-bronze block mb-0.5">{tPage.badgeLocation}</span>
-                {tPage.badgeDesc}
+          ) : (
+            <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl border border-white/10 overflow-hidden mb-12 sm:mb-14 shadow-2xl text-left grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch">
+              <div className="lg:col-span-7 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-8">
+                <div className="space-y-5">
+                  <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-bronze/20 text-bronze border border-bronze/30">
+                    <ShieldCheck size={14} /> {language === 'es' ? 'Actuación Especializada • Río de Janeiro' : language === 'en' ? 'Specialized Practice • Rio de Janeiro' : 'Atuação Especializada • Rio de Janeiro'}
+                  </span>
+                  <h2 className="text-2xl sm:text-3xl font-serif text-white leading-tight text-left">
+                    {content.h2 || content.h1}
+                  </h2>
+                  <p className="text-white/80 text-sm sm:text-base leading-relaxed text-left">
+                    {service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || '')}
+                  </p>
+                </div>
+                <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/10 text-left">
+                  <div>
+                    <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">Rio de Janeiro</span>
+                    <span className="text-xs text-text-muted leading-snug block">
+                      {language === 'es' ? 'Atención presencial en Ipanema y online en todo RJ' : language === 'en' ? 'In-person in Ipanema & digital across RJ' : 'Atendimento presencial em Ipanema e online em todo o RJ'}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">
+                      {language === 'es' ? 'Seguridad Jurídica' : language === 'en' ? 'Legal Certainty' : 'Segurança Jurídica'}
+                    </span>
+                    <span className="text-xs text-text-muted leading-snug block">
+                      {language === 'es' ? 'Enfoque consultivo, preventivo y contencioso' : language === 'en' ? 'Consultative, preventive and litigation focus' : 'Foco consultivo, preventivo e contencioso'}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:col-span-5 relative min-h-[280px] lg:min-h-full">
+                <img 
+                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80" 
+                  alt="Escritório Soares Martins Advogados - Rio de Janeiro"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-transparent opacity-80" />
+                <div className="absolute bottom-6 left-6 right-6 bg-midnight/85 backdrop-blur-md p-4 rounded-xl border border-white/10 text-xs text-white/90 shadow-lg text-left">
+                  <span className="font-bold text-bronze block mb-0.5">Soares Martins Advogados</span>
+                  {language === 'es' ? 'Protección jurídica patrimonial e inmobiliaria' : language === 'en' ? 'Asset & real estate legal protection' : 'Proteção jurídica patrimonial e imobiliária'}
+                </div>
               </div>
             </div>
-          </div>
+          )}
 
           {/* Render Sections with Strictly Left-Aligned Content Cards */}
           {content.sections && content.sections.length > 0 && (
@@ -3205,8 +3339,12 @@ const ServiceDetail: React.FC = () => {
           {content.faqs && content.faqs.length > 0 && (
             <div className="mb-10 sm:mb-12">
               <div className="text-center mb-10 border-b border-white/10 pb-6">
-                <h2 className="text-2xl sm:text-3xl font-serif text-bronze text-center">{tPage.faqHeaderTitle}</h2>
-                <p className="text-sm text-text-muted mt-2 text-center">{tPage.faqHeaderSub}</p>
+                <h2 className="text-2xl sm:text-3xl font-serif text-bronze text-center">
+                  {isAuctionPage ? tPage.faqHeaderTitle : (language === 'es' ? 'Preguntas Frecuentes' : language === 'en' ? 'Frequently Asked Questions' : 'Perguntas Frequentes')}
+                </h2>
+                <p className="text-sm text-text-muted mt-2 text-center">
+                  {isAuctionPage ? tPage.faqHeaderSub : (language === 'es' ? `Dudas comunes sobre ${content.h1} en Río de Janeiro` : language === 'en' ? `Common questions regarding ${content.h1} in Rio de Janeiro` : `Dúvidas frequentes e respostas fundamentadas sobre ${content.h1} no Rio de Janeiro`)}
+                </p>
               </div>
               <div className="space-y-5 text-left">
                 {content.faqs.map((faq: any, i: number) => {
@@ -3249,7 +3387,7 @@ const ServiceDetail: React.FC = () => {
             <div className="max-w-2xl mx-auto text-center">
               <h2 className="text-2xl sm:text-3xl font-serif mb-4 font-bold text-midnight text-center">{tPage.ctaHeaderTitle}</h2>
               <p className="text-base sm:text-lg mb-8 opacity-90 leading-relaxed font-medium text-center">
-                {tPage.ctaHeaderDesc}
+                {isAuctionPage ? tPage.ctaHeaderDesc : (language === 'es' ? `El despacho Soares Martins Advogados ofrece asesoría jurídica especializada en ${content.h1} en Río de Janeiro, con enfoque técnico, estratégico y preventivo.` : language === 'en' ? `Soares Martins Advogados provides specialized legal counsel in ${content.h1} in Rio de Janeiro, with strategic, technical, and preventive focus.` : `O escritório Soares Martins Advogados oferece assessoria jurídica especializada em ${content.h1} no Rio de Janeiro, com foco técnico, estratégico e preventivo.`)}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
                 <a 

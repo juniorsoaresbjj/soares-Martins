@@ -79,6 +79,7 @@ import CentroNossaSenhoraFatima60AuctionPage from './components/CentroNossaSenho
 import FlamengoPraiaDoFlamengo12AuctionPage from './components/FlamengoPraiaDoFlamengo12AuctionPage';
 import BotafogoAlvaroRamos405AuctionPage from './components/BotafogoAlvaroRamos405AuctionPage';
 import BotafogoLauroMuller36Apto109AuctionPage from './components/BotafogoLauroMuller36Apto109AuctionPage';
+import IpanemaViscondePiraja188Apto602AuctionPage from './components/IpanemaViscondePiraja188Apto602AuctionPage';
 import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada169AuctionPage';
 import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
 import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
@@ -467,6 +468,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12/" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
 
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602/" element={<IpanemaViscondePiraja188Apto602AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602" element={<IpanemaViscondePiraja188Apto602AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188/" element={<IpanemaViscondePiraja188Apto602AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188" element={<IpanemaViscondePiraja188Apto602AuctionPage />} />
+
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109/" element={<BotafogoLauroMuller36Apto109AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-lauro-muller-36-apto-109" element={<BotafogoLauroMuller36Apto109AuctionPage />} />
 
@@ -655,9 +661,14 @@ const AppContent: React.FC = () => {
           {/* Alias da rota de assessoria em leilões */}
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/" element={<ServiceDetail />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro" element={<ServiceDetail />} />
+          <Route path="/assessoria-leiloes-judiciais/" element={<ServiceDetail />} />
+          <Route path="/assessoria-leiloes-judiciais" element={<ServiceDetail />} />
 
-          {/* Novas páginas de serviços para SEO */}
+          {/* Páginas de serviços (com e sem prefixo /servicos/ e com/sem barra final) */}
+          <Route path="/servicos/:slug/" element={<ServiceDetail />} />
+          <Route path="/servicos/:slug" element={<ServiceDetail />} />
           <Route path="/:slug/" element={<ServiceDetail />} />
+          <Route path="/:slug" element={<ServiceDetail />} />
         </Routes>
       </main>
 

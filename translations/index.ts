@@ -378,6 +378,118 @@ export const translations = {
             a: 'Sim. Se o procedimento de ampla defesa e contraditório previsto no regimento ou na lei não for seguido, a multa corre sério risco de anulação judicial.'
           }
         ]
+      },
+      'direito-imobiliario': {
+        h1: 'Direito Imobiliário & Negócios',
+        h2: 'Estruturação Jurídica, Contratos e Regularização de Ativos no RJ',
+        sections: [
+          {
+            h2: 'Segurança Jurídica em Negócios Imobiliários',
+            p: 'Atuamos na estruturação e assessoria completa em transações de compra e venda, permuta, dação em pagamento, incorporações imobiliárias e loteamentos no Rio de Janeiro. Realizamos due diligence rigorosa com análise de certidões, cadeia dominial e riscos contratuais.'
+          },
+          {
+            h2: 'Contratos Imobiliários Complexos e Locação',
+            p: 'Elaboração e revisão técnica de contratos de locação residencial, comercial, built to suit, shopping center e arrendamento. Prevenção de cláusulas abusivas e blindagem patrimonial com garantias idôneas.'
+          },
+          {
+            h2: 'Regularização Fundiária e Usucapião',
+            p: 'Procedimentos extrajudiciais e judiciais para regularização de imóveis, unificação, desmembramento e usucapião perante os Cartórios de Registro de Imóveis do Rio de Janeiro.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Por que realizar uma due diligence imobiliária antes de comprar um imóvel?',
+            a: 'A due diligence verifica a higidez do título, pendências fiscais, penhoras, ações contra os vendedores e restrições urbanísticas, evitando perda do imóvel por fraude à execução ou evicção.'
+          },
+          {
+            q: 'Como funciona a regularização de imóveis no Rio de Janeiro?',
+            a: 'O procedimento identifica a situação cartorária do bem no RGI competente e conduz os atos administrativos ou judiciais necessários para averbação de construções, habite-se ou titulação definitiva.'
+          },
+          {
+            q: 'Quais cláusulas são essenciais em um contrato de locação comercial?',
+            a: 'Cláusulas de destinação de uso, índice de reajuste, responsabilidade tributária, garantias locatícias, direito de renovação e rescisão antecipada estruturadas de acordo com a Lei nº 8.245/91.'
+          }
+        ]
+      },
+      'contencioso-civel-imobiliario': {
+        h1: 'Contencioso Cível Imobiliário',
+        h2: 'Defesa Técnica e Estratégica em Ações Imobiliárias Complexas no TJRJ',
+        sections: [
+          {
+            h2: 'Ações de Despejo e Cobrança de Aluguéis',
+            p: 'Condução técnica e célere de ações de despejo por falta de pagamento, denúncia vazia, infração contratual e retomada de posse, garantindo a rápida satisfação de haveres locatícios e desocupação do imóvel.'
+          },
+          {
+            h2: 'Ações Possessórias e Reivindicatórias',
+            p: 'Atuação combativa em reintegração de posse, manutenção de posse, interdito proibitório e imissão na posse, protegendo proprietários e adquirentes contra esbulho ou turbação.'
+          },
+          {
+            h2: 'Rescisão Contratual e Distrato Imobiliário',
+            p: 'Defesa dos direitos de compradores e vendedores em atrasos de entrega de obras, vícios construtivos, retenção de valores e restituição de quantias pagas em conformidade com a Lei do Distrato.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Quanto tempo leva uma ação de despejo por falta de pagamento no RJ?',
+            a: 'Com o pedido de liminar para desocupação em 15 dias (mediante caução), a medida pode ser deferida rapidamente pelo juízo, permitindo celeridade no processo.'
+          },
+          {
+            q: 'O que fazer em caso de vícios de construção ou defeitos na obra?',
+            a: 'Notificamos a construtora e ajuizamos a competente ação de obrigação de fazer com pedido indenizatório e perícia técnica judicial para reparação dos danos e compensação.'
+          },
+          {
+            q: 'É possível anular judicialmente uma assembleia condominial irregular?',
+            a: 'Sim. Havendo desrespeito ao quórum legal, falta de convocação ou violação à convenção, ajuizamos ação anulatória com pedido de tutela de urgência.'
+          }
+        ]
+      },
+      'compliance-condominial-penal': {
+        h1: 'Compliance Condominial e Penal',
+        h2: 'Prevenção de Fraudes, Proteção de Dados e Defesa Penal no Âmbito Condominial',
+        sections: [
+          {
+            h2: 'Proteção Patrimonial e Prevenção de Fraudes',
+            p: 'Auditoria de contas, prevenção de desvios de recursos, apropriação indébita e responsabilização civil e criminal de gestores ou prestadores de serviços no condomínio.'
+          },
+          {
+            h2: 'Adequação à LGPD em Condomínios',
+            p: 'Implementação de políticas de privacidade para portarias, controle de acesso, biometria facial e câmeras de segurança CFTV em conformidade com a Lei Geral de Proteção de Dados.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Como o condomínio deve agir em caso de suspeita de desvio de verbas?',
+            a: 'Recomenda-se auditoria contábil independente e instauração de procedimento preliminar sigiloso assessorado por advogado antes de qualquer deliberação ou representação criminal.'
+          },
+          {
+            q: 'Condomínios residenciais precisam se adequar à LGPD?',
+            a: 'Sim. O tratamento de dados pessoais de moradores, visitantes e funcionários em portarias e sistemas de monitoramento exige adequação legal estrita.'
+          }
+        ]
+      },
+      'direito-patrimonial-sucessorio': {
+        h1: 'Direito Patrimonial e Sucessório',
+        h2: 'Planejamento Sucessório, Holding Familiar e Proteção de Bens no RJ',
+        sections: [
+          {
+            h2: 'Planejamento Sucessório e Estruturação de Bens',
+            p: 'Organização antecipada da transmissão patrimonial através de testamentos, doações com reserva de usufruto e holdings familiares, reduzindo custos de inventário e tributos (ITCMD).'
+          },
+          {
+            h2: 'Inventários Judiciais e Extrajudiciais',
+            p: 'Condução ágil de inventários em cartório e perante as Varas de Órfãos e Sucessões do TJRJ, com partilha justa e regularização registral dos imóveis da herança.'
+          }
+        ],
+        faqs: [
+          {
+            q: 'Vale a pena abrir uma holding familiar para imóveis no RJ?',
+            a: 'A holding imobiliária oferece vantagens tributárias na locação e na sucessão, além de proteção patrimonial e governança familiar organizada.'
+          },
+          {
+            q: 'Quando o inventário pode ser feito diretamente em cartório?',
+            a: 'Quando todos os herdeiros forem maiores, capazes e estiverem em consenso, inexistindo testamento (ou com expressa autorização judicial no RJ).'
+          }
+        ]
       }
     },
     data: {
@@ -697,6 +809,78 @@ export const translations = {
           {
             q: '¿Cómo solicitar un análisis jurídico previo de un edicto de subasta?',
             a: 'Puede enviar el número de proceso o el enlace de la subasta. El despacho realiza el levantamiento de piezas relevantes y certificados para elaborar un dictamen jurídico fundamentado.'
+          }
+        ]
+      },
+      'direito-imobiliario': {
+        h1: 'Derecho Inmobiliario y Negocios',
+        h2: 'Estructuración Jurídica, Contratos y Regularización de Activos en RJ',
+        sections: [
+          {
+            h2: 'Seguridad Jurídica en Negocios Inmobiliarios',
+            p: 'Asesoría integral en compraventa, permuta, dación en pago e incorporaciones en Río de Janeiro, con rigurosa due diligence documental y registral.'
+          },
+          {
+            h2: 'Contratos Inmobiliarios y Arrendamientos',
+            p: 'Redacción y revisión técnica de contratos de alquiler residencial, comercial y corporativo, previniendo cláusulas abusivas y contingencias.'
+          }
+        ],
+        faqs: [
+          {
+            q: '¿Por qué realizar una due diligence inmobiliaria?',
+            a: 'Permite certificar la titularidad del bien, gravámenes fiscales, embargos y litigios contra los vendedores, garantizando una inversión segura.'
+          }
+        ]
+      },
+      'contencioso-civel-imobiliario': {
+        h1: 'Litigio Civil Inmobiliario',
+        h2: 'Defensa Técnica y Estratégica en Juicios Inmobiliarios Complejos en TJRJ',
+        sections: [
+          {
+            h2: 'Desahucios y Reclamación de Rentas',
+            p: 'Gestión procesal ágil en desahucios por impago, infracción contractual y recuperación posesoria para propietarios en Río de Janeiro.'
+          },
+          {
+            h2: 'Acciones Posesorias y Defectos de Construcción',
+            p: 'Defensa judicial en litigios de posesión, rescisiones contractuales e indemnizaciones por vicios constructivos.'
+          }
+        ],
+        faqs: [
+          {
+            q: '¿Cómo funciona una acción de desahucio?',
+            a: 'Se tramita judicialmente con solicitud de medidas cautelares para una rápida restitución de la posesión y cobro de rentas pendientes.'
+          }
+        ]
+      },
+      'compliance-condominial-penal': {
+        h1: 'Compliance y Derecho Penal Inmobiliario',
+        h2: 'Prevención de Fraudes, Protección de Datos y Defensa Penal',
+        sections: [
+          {
+            h2: 'Prevención de Fraudes y Auditoría',
+            p: 'Defensa penal y consultoría preventiva contra apropiación indebida y delitos patrimoniales en condominios.'
+          }
+        ],
+        faqs: [
+          {
+            q: '¿Cómo actúa el despacho en delitos patrimoniales?',
+            a: 'Instauramos procedimientos de investigación técnica y representación ante los órganos policiales y judiciales competentes.'
+          }
+        ]
+      },
+      'direito-patrimonial-sucessorio': {
+        h1: 'Derecho Patrimonial y Sucesorio',
+        h2: 'Planificación Sucesoria y Protección de Bienes',
+        sections: [
+          {
+            h2: 'Planificación de Patrimonio Familiar',
+            p: 'Estructuración societaria y sucesoria para proteger bienes y reducir cargas fiscales en transmisiones patrimoniales.'
+          }
+        ],
+        faqs: [
+          {
+            q: '¿Cuándo realizar una planificación sucesoria?',
+            a: 'Es aconsejable organizar el patrimonio preventivamente para evitar conflictos familiares y altos costos de inventario.'
           }
         ]
       }
@@ -1022,7 +1206,11 @@ export const translations = {
       'direito-condominial': { h1: 'Condominium Law', h2: 'Compliance and Governance', sections: [], faqs: [] },
       'assessoria-juridica-para-sindicos': { h1: 'Legal Support for Managers', h2: 'Management Security', sections: [], faqs: [] },
       'cobranca-condominial': { h1: 'Condo Fee Collection', h2: 'Asset Recovery', sections: [], faqs: [] },
-      'assembleias-convencao-regimento': { h1: 'Assemblies & Bylaws', h2: 'Bylaw Review', sections: [], faqs: [] }
+      'assembleias-convencao-regimento': { h1: 'Assemblies & Bylaws', h2: 'Bylaw Review', sections: [], faqs: [] },
+      'direito-imobiliario': { h1: 'Real Estate Law & Transactions', h2: 'Legal Structuring, Contracts, and Asset Regularization in Rio de Janeiro', sections: [], faqs: [] },
+      'contencioso-civel-imobiliario': { h1: 'Real Estate Civil Litigation', h2: 'Strategic Defense in Complex Property Disputes in Rio de Janeiro Courts', sections: [], faqs: [] },
+      'compliance-condominial-penal': { h1: 'Condominium Compliance & Criminal Law', h2: 'Fraud Prevention, Data Protection (LGPD), and Criminal Defense', sections: [], faqs: [] },
+      'direito-patrimonial-sucessorio': { h1: 'Estate Planning & Property Succession', h2: 'Succession Planning, Family Holding Companies, and Asset Protection in RJ', sections: [], faqs: [] }
     },
     data: {
       title: 'Financial Health',

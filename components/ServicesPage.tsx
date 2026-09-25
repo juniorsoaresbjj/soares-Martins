@@ -18,14 +18,14 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       description: t('services.s1Desc'),
       icon: <Building2 size={32} />,
       details: t('services_page.details.s1') as unknown as string[],
-      slug: 'direito-patrimonial-sucessorio'
+      slug: 'direito-imobiliario'
     },
     {
       title: t('services.s2'),
       description: t('services.s2Desc'),
       icon: <Gavel size={32} />,
       details: t('services_page.details.s2') as unknown as string[],
-      slug: 'direito-imobiliario'
+      slug: 'contencioso-civel-imobiliario'
     },
     {
       title: t('services.s3'),
@@ -67,7 +67,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
       description: t('services.s8Desc'),
       icon: <Gavel size={32} />,
       details: t('services_page.details.s8') as unknown as string[],
-      slug: 'assessoria-leiloes-judiciais'
+      slug: 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'
     }
   ];
 
@@ -208,7 +208,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ onBack }) => {
               <div className="flex flex-col gap-2.5 mt-auto pt-2">
                 {area.slug && (
                   <Link 
-                    to={`/${area.slug}`}
+                    to={`/${area.slug}/`}
                     className="inline-flex items-center gap-2 text-bronze text-[10px] font-bold uppercase tracking-widest hover:text-white"
                   >
                     Ver página completa <ChevronRight size={14} />

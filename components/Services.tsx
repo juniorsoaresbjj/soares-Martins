@@ -12,13 +12,13 @@ const Services: React.FC = () => {
       title: t('services.s1'),
       description: t('services.s1Desc'),
       icon: <Building2 size={28} strokeWidth={1.5} />,
-      slug: 'direito-patrimonial-sucessorio'
+      slug: 'direito-imobiliario'
     },
     {
       title: t('services.s2'),
       description: t('services.s2Desc'),
       icon: <Gavel size={28} strokeWidth={1.5} />,
-      slug: 'direito-imobiliario'
+      slug: 'contencioso-civel-imobiliario'
     },
     {
       title: t('services.s3'),
@@ -54,7 +54,7 @@ const Services: React.FC = () => {
       title: t('services.s8'),
       description: t('services.s8Desc'),
       icon: <Gavel size={28} strokeWidth={1.5} />,
-      slug: 'assessoria-leiloes-judiciais'
+      slug: 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'
     }
   ];
 

@@ -5838,6 +5838,116 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this judicial auction?", a: "We conduct exhaustive due diligence on Title #56.285 (3rd Registry), review all procedural notices in the court records, structure the bidding and installment proposal, and execute post-auction transfer through to final possession." }
         ]
       }
+    },
+
+    // Ipanema - Rua Visconde de Pirajá 188 - Apto 602 (Edifício Nara / 63 m² / 5º RGI 89.580 / 1 Vaga de Garagem / Frente)
+    'ipanema-visconde-piraja-188-apto-602': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento em Ipanema — Rua Visconde de Pirajá nº 188, Apto 602 (Edifício Nara)',
+        subtitle: 'Rua Visconde de Pirajá, nº 188, Apto 602 — Ipanema, Rio de Janeiro/RJ | 63 m² • Edifício Nara com 44 Apartamentos • 6 Aptos/Andar • 2 Elevadores Reformados • 1 Vaga de Garagem no Prédio (Térreo/Subsolo) • Portaria 24h & Circuito CFTV • Imóvel de Frente para o Logradouro (Sala e 1 Quarto de Frente, 1 Quarto Fundos) • 2 Quartos + Dependências • 5º Ofício RGI Matrícula 89.580 • Inscrição Municipal IPTU: 0.994.226-9 • Avaliação: R$ 1.069.307,78 • 1º Leilão: R$ 1.069.307,78 • 2º Leilão: R$ 534.654,00 (Lance Inicial a 50%)',
+        address: 'Rua Visconde de Pirajá, nº 188, Apto 602 — Ipanema, Rio de Janeiro - RJ',
+        p1Date: '19/10/2026 às 12:00h',
+        p2Date: '29/10/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.994.226-9',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 89.580)',
+        val: 'R$ 1.069.307,78',
+        p2Val: 'R$ 534.654,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 63 m² de área edificada privativa correspondente à unidade 602 do conceituado Edifício Nara, situado na cobiçada Rua Visconde de Pirajá nº 188, no coração de Ipanema, Zona Sul do Rio de Janeiro. O imóvel situa-se de frente para o logradouro (com a sala e um dos quartos de frente e o segundo quarto voltado para os fundos), composto por sala, dois quartos com armários embutidos antigos, banheiro social, cozinha, área de serviço e dependências de empregada. O piso da área social e dos demais cômodos é em cerâmica bege em bom estado de conservação, porém antigo, com esquadrias e janelas em alumínio, necessitando de reforma geral e modernização para atingir seu potencial pleno de valorização. O imóvel tem direito a 1 vaga de garagem no edifício (com vagas livres e demarcadas no térreo e subsolo). O Edifício Nara possui 44 apartamentos residenciais (seis por andar, exceto cobertura), portaria social pequena acessada por escadas com acabamento em mármore branco e piso em granito preto, bancada para porteiro, portas blindex, grades em alumínio marrom, portaria 24 horas com monitoramento interno por TV e interfones, e dois elevadores (social e serviço) reformados e em pleno funcionamento. Registrado no 5º Ofício RGI sob Matrícula 89.580 e IPTU 0.994.226-9.',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Visconde de Pirajá nº 188, Apto 602 (Ipanema)',
+          sections: [
+            { title: 'Identificação Imobiliária & Registral', text: 'Apartamento nº 602 do Edifício Nara, situado na Rua Visconde de Pirajá nº 188, Ipanema, Rio de Janeiro/RJ. Registrado no 5º Ofício do Registro de Imóveis da Capital sob a Matrícula nº 89.580 e inscrição municipal IPTU nº 0.994.226-9.' },
+            { title: 'Dimensões, Divisão Interna e Vaga de Garagem', text: 'Área privativa de 63 m², composto por sala, dois quartos com armários embutidos, banheiro social, cozinha, área de serviço e dependências de empregada. Possui direito a 1 (uma) vaga de garagem no condomínio (térreo ou subsolo com vagas livres e demarcadas).' },
+            { title: 'Posição Solar e Estado de Conservação', text: 'Imóvel situado de frente para o logradouro: sala e um quarto voltados para a frente da via e o outro quarto para os fundos. Piso em cerâmica bege e esquadrias de alumínio. O imóvel foi submetido a reformas há muitos anos, demandando reforma geral e modernização de interiores.' },
+            { title: 'Características do Condomínio (Edifício Nara)', text: 'Prédio com 44 apartamentos residenciais (6 unidades por andar, exceto cobertura), 2 elevadores reformados (social e serviço), portaria 24h com controle de acesso, interfonia e CFTV, portaria em mármore branco e granito preto com portas blindex e grades em alumínio marrom.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 19/10/2026 às 12:00h (Lance inicial: R$ 1.069.307,78). 2º Leilão: 29/10/2026 às 12:00h (Lance inicial: R$ 534.654,00 — deságio de 50%).' },
+            { title: 'Parcelamento Judicial (Art. 895 do CPC)', text: 'Possibilidade legal de arrematação parcelada: sinal mínimo de 25% (R$ 133.663,50 na 2ª praça) e saldo remanescente em até 30 parcelas mensais corrigidas por índice da Justiça estadual, com hipoteca judicial averbada na matrícula.' },
+            { title: 'Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários municipais pretéritos de IPTU sub-rogam-se diretamente sobre o preço da arrematação, resguardando o arrematante de dívidas fiscais anteriores.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e os lances mínimos para o apto 602 na Rua Visconde de Pirajá 188?", a: "A avaliação judicial oficial é de R$ 1.069.307,78. No 1º Leilão (19/10/2026 às 12:00h), o lance mínimo corresponde à avaliação (R$ 1.069.307,78). No 2º Leilão (29/10/2026 às 12:00h), o lance inicial parte com 50% de desconto, em R$ 534.654,00 (~R$ 8.486,57/m² em Ipanema)." },
+          { q: "Quais são as características internas da unidade e sua posição?", a: "O apartamento possui 63 m² de área edificada privativa, situado de frente para a Rua Visconde de Pirajá (sala e um quarto de frente, outro quarto de fundos). É dividido em sala, 2 quartos com armários antigos, banheiro social, cozinha, área de serviço e dependências de empregada. O piso é em cerâmica bege e as janelas são em alumínio. O imóvel necessita de reforma geral e modernização." },
+          { q: "O apartamento possui vaga de garagem no condomínio?", a: "Sim. O Edifício Nara conta com garagem no térreo e subsolo com vagas livres e demarcadas em bom estado de conservação, e o apartamento 602 tem direito expressamente assegurado a uma vaga na garagem." },
+          { q: "Como é a infraestrutura e a segurança do Edifício Nara?", a: "O edifício possui 44 apartamentos (6 por andar, exceto cobertura), portaria 24 horas com interfonia e sistema de monitoramento interno por câmeras (TV/CFTV), hall de entrada com acabamento em mármore branco e granito preto, portas blindex, grades de alumínio marrom e 2 elevadores (social e de serviço) reformados e operando normalmente." },
+          { q: "É possível comprar este imóvel em Ipanema com parcelamento pelo Código de Processo Civil?", a: "Sim. Pelo artigo 895 do CPC, o interessado pode apresentar proposta formal para pagamento com entrada mínima de 25% (R$ 133.663,50 no 2º leilão) e o saldo dividido em até 30 prestações mensais corrigidas judicialmente, com garantia hipotecária gravada na própria matrícula." },
+          { q: "Qual é o potencial de valorização do m² após reforma em Ipanema?", a: "O m² médio de apartamentos reformados na Rua Visconde de Pirajá oscila entre R$ 22.000,00 e R$ 28.000,00/m². O lance de 2ª praça a ~R$ 8.486,57/m² permite ao arrematante absorver com folga o custo de uma reforma geral e retrofit, alcançando valor de mercado expressivamente superior após a modernização." },
+          { q: "Como a Soares Martins Advogados atua na assessoria jurídica deste leilão?", a: "Conduzimos a auditoria prévia da Matrícula 89.580 no 5º RGI, certificamos a higidez de todas as intimações do processo de execução no TJRJ, formalizamos a habilitação ou proposta de parcelamento e realizamos todo o acompanhamento pós-leilão até o registro imobiliário e a efetiva entrega das chaves e posse do bem." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Ipanema — Calle Visconde de Pirajá nº 188, Apto 602 (Edifício Nara)',
+        subtitle: 'Calle Visconde de Pirajá, nº 188, Apto 602 — Ipanema, Río de Janeiro/RJ | 63 m² • Edificio Nara de 44 Apartamentos • 6 Pisos/Planta • 2 Ascensores Renovados • 1 Plaza de Garaje en el Edificio • Portería 24h & Circuito TV • Exterior a la Calle • 2 Dormitorios + Dependencias • 5º Registro Matrícula 89.580 • IPTU: 0.994.226-9 • Tasación: R$ 1.069.307,78 • 1ª Subasta: R$ 1.069.307,78 • 2ª Subasta: R$ 534.654,00 (Puja Inicial al 50%)',
+        address: 'Calle Visconde de Pirajá, nº 188, Apto 602 — Ipanema, Río de Janeiro - RJ',
+        p1Date: '19/10/2026 a las 12:00h',
+        p2Date: '29/10/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.994.226-9',
+        rgi: '5º Registro de Inmuebles de Río de Janeiro (Matrícula nº 89.580)',
+        val: 'R$ 1.069.307,78',
+        p2Val: 'R$ 534.654,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 63 m² de superficie privativa en la unidad 602 del clásico Edifício Nara, en Calle Visconde de Pirajá nº 188, Ipanema, Río de Janeiro. Vivienda exterior orientada a la calle (salón y 1 dormitorio al frente, otro dormitorio a patio interior), con 2 dormitorios con armarios empotrados, baño social, cocina, lavadero y dependencias de servicio, con derecho a 1 plaza de garaje. Suelos en cerámica beige y ventanas de aluminio, necesitando reforma y modernización general. El Edifício Nara cuenta con 44 viviendas (6 por planta excepto ático), 2 ascensores renovados, portería 24h con cámaras e interfonos, y garaje en planta baja y sótano. Matrícula 89.580 del 5º Registro e IPTU 0.994.226-9.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Visconde de Pirajá 188 / Apto 602 (Ipanema)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Unidad 602 en Calle Visconde de Pirajá nº 188, Ipanema, Río de Janeiro/RJ. Matrícula 89.580 del 5º Registro de la Propiedad e IPTU 0.994.226-9.' },
+            { title: 'Superficie, Distribución y Garaje', text: '63 m² útiles, 2 dormitorios, baño social, salón, cocina, lavadero y dependencias completas, más 1 plaza de garaje en planta baja o sótano.' },
+            { title: 'Orientación y Estado', text: 'Exterior a la vía pública. Requiere reforma y actualización integral para alcanzar su máxima plusvalía en Ipanema.' },
+            { title: 'Edificio Nara', text: '44 apartamentos residenciales, 2 ascensores reformados, conserjería 24 horas y seguridad con circuito cerrado de TV.' },
+            { title: 'Fechas y Precios de Salida', text: '1ª Subasta: 19/10/2026 a las 12:00h por R$ 1.069.307,78. 2ª Subasta: 29/10/2026 a las 12:00h con salida al 50% por R$ 534.654,00 (~R$ 8.486,57/m²).' },
+            { title: 'Pago Fraccionado Judicial (Art. 895 CPC)', text: 'Permite propuesta de 25% de entrada y hasta 30 cuotas mensuales ajustadas con garantía hipotecaria judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas fiscales previas de IPTU quedan saldadas con el producto de la subasta judicial.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Visconde de Pirajá 188 Apto 602?", a: "La 1ª Subasta es el 19/10/2026 a las 12:00h por R$ 1.069.307,78. La 2ª Subasta es el 29/10/2026 a las 12:00h a partir de R$ 534.654,00 (50% de descuento, ~R$ 8.486,57/m²)." },
+          { q: "¿Qué distribución tiene el inmueble?", a: "Consta de 63 m², 2 dormitorios, baño social, salón, cocina, zona de servicio y dependencias, con derecho a 1 plaza de garaje. Requiere reforma integral." },
+          { q: "¿Tiene garaje el edificio?", a: "Sí, cuenta con garaje en planta baja y sótano en buen estado, y la unidad 602 tiene derecho a una plaza de garaje." },
+          { q: "¿Se puede pagar de forma aplazada?", a: "Sí, conforme al Art. 895 del CPC: 25% de anticipo y el resto en hasta 30 pagos mensuales." },
+          { q: "¿Por qué invertir en Visconde de Pirajá en Ipanema?", a: "El valor de mercado en Ipanema supera con frecuencia los R$ 22.000 a R$ 28.000/m². Adquirir a ~R$ 8.486,57/m² ofrece un extraordinario margen de rentabilidad tras renovar." },
+          { q: "¿Cómo ayuda Soares Martins Advogados?", a: "Realizamos la auditoría registral completa de la Matrícula 89.580 (5º Registro), verificamos el procedimiento judicial en TJRJ, formalizamos la puja y acompañamos hasta la entrega efectiva de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Ipanema — Rua Visconde de Pirajá #188, Apt 602 (Edifício Nara)',
+        subtitle: 'Rua Visconde de Pirajá, #188, Apt 602 — Ipanema, Rio de Janeiro/RJ | 63 sqm (678 sq ft) • Edifício Nara with 44 Residences • 6 Units/Floor • 2 Modernized Elevators • 1 Deeded Parking Space (Ground/Basement) • 24/7 Security Concierge & CCTV • Street Front Facing (Living Room & 1 Bedroom Front-Facing) • 2 Bedrooms + Maid Quarters • 5th Land Registry Title #89.580 • Municipal Tax IPTU: 0.994.226-9 • Valuation: R$ 1,069,307.78 • 1st Auction: R$ 1,069,307.78 • 2nd Auction: R$ 534,654.00 (50% Reserve Bid)',
+        address: 'Rua Visconde de Pirajá, #188, Apt 602 — Ipanema, Rio de Janeiro - RJ',
+        p1Date: '10/19/2026 at 12:00 PM',
+        p2Date: '10/29/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.994.226-9',
+        rgi: '5th Land Registry Office of Rio de Janeiro (Title #89.580)',
+        val: 'R$ 1,069,307.78',
+        p2Val: 'R$ 534,654.00 (2nd Auction starting bid - 50%)',
+        description: 'Prime 63 sqm (678 sq ft) private residential unit corresponding to Unit 602 of the established Edifício Nara, positioned along prime Rua Visconde de Pirajá #188 in the heart of prestigious Ipanema, Rio de Janeiro South Zone. Street front-facing apartment (living room and front bedroom facing the street, second bedroom facing the rear), comprising living room, 2 bedrooms with classic built-in wardrobes, full guest bathroom, kitchen, laundry area, and complete maid quarters, with deeded right to 1 parking space in the garage. The property features beige ceramic tiling and aluminum windows, requiring general renovation and interior modernization to achieve its peak market value. Edifício Nara comprises 44 residential apartments (6 per floor, except penthouse), a distinguished lobby in white marble and black granite with blindex doors and brown aluminum gates, 24/7 manned security concierge with CCTV monitoring, and 2 modernized elevators (passenger and service). Recorded at 5th Land Registry Office under Title #89.580 and municipal tax IPTU #0.994.226-9.',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Visconde de Pirajá #188 / Apt 602 (Ipanema)',
+          sections: [
+            { title: 'Registry & Legal Identification', text: 'Apartment 602 at Edifício Nara, Rua Visconde de Pirajá #188, Ipanema, Rio de Janeiro/RJ. Recorded at the 5th Land Registry Office under Title #89.580 and Municipal Tax IPTU #0.994.226-9.' },
+            { title: 'Dimensions, Layout & Garage Space', text: '63 sqm (678 sq ft) private area, living room, 2 bedrooms, guest bathroom, kitchen, laundry area, and maid quarters, plus 1 parking space in ground or basement garage.' },
+            { title: 'Orientation & Renovation Potential', text: 'Street front-facing exposure. Requires comprehensive modernization, offering tremendous appreciation upside in core Ipanema.' },
+            { title: 'Edifício Nara Amenities', text: '44 residential apartments, 2 renovated elevators (passenger/service), 24/7 manned security desk, and CCTV camera system.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 10/19/2026 at 12:00 PM at R$ 1,069,307.78. 2nd Auction: 10/29/2026 at 12:00 PM starting at R$ 534,654.00 (50% discount, ~R$ 8,486.57/sqm).' },
+            { title: 'Court Installment Financing (CPC Art. 895)', text: 'Judicial installment option: 25% minimum down payment (R$ 133,663.50 in 2nd auction) and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Tax Liens (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, protecting the purchaser from historical tax liabilities.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Visconde de Pirajá 188 Apt 602?", a: "The 1st Auction is on 10/19/2026 at 12:00 PM at R$ 1,069,307.78. The 2nd Auction is on 10/29/2026 at 12:00 PM starting at R$ 534,654.00 (50% off official appraisal, ~R$ 8,486.57/sqm)." },
+          { q: "What are the apartment features and layout?", a: "The unit offers 63 sqm of living space, front-facing orientation, living room, 2 bedrooms with older built-in closets, full bathroom, kitchen, service area, and maid quarters. It requires general renovation." },
+          { q: "Does the property include a parking space?", a: "Yes. Edifício Nara provides garage parking on the ground floor and basement, and Unit 602 has the designated right to 1 parking space." },
+          { q: "Can this property be purchased via judicial installment financing?", a: "Yes. Under CPC Article 895, buyers can submit a proposal with a 25% down payment and the remainder paid over up to 30 monthly installments." },
+          { q: "Why invest in Rua Visconde de Pirajá in Ipanema?", a: "Ipanema is one of South America's most prestigious real estate markets, with renovated apartments trading between R$ 22,000 and R$ 28,000/sqm. Entering at ~R$ 8,486.57/sqm provides exceptional equity upside." },
+          { q: "Why hire Soares Martins Advogados for this judicial auction?", a: "We conduct exhaustive due diligence on Title #89.580 (5th Registry), verify all court notifications in the TJRJ records, handle the bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
     }
 };
 
