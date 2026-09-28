@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Hilário de Gouveia nº 132 — Apto 502',
+        desc: 'Apartamento residencial de 114 m² de área edificada privativa no 5º pavimento (unidade 502) de clássico edifício construído em 1947 na valorizada Rua Hilário de Gouveia nº 132, no coração de Copacabana, Zona Sul do Rio de Janeiro. Imóvel de excelente metragem e potencial de modernização, sem vaga de garagem, a poucos passos da praia e do metrô Siqueira Campos. Devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 89.814. Avaliação judicial oficial homologada em R$ 1.100.000,00. 1º Leilão em 23/10/2026 às 12:00h por R$ 1.100.000,00 e 2º Leilão em 27/10/2026 às 12:00h com lance inicial de 60% por R$ 660.000,00 (~R$ 5.789,47/m² em Copacabana).',
+        p1Label: '1ª Praça (23/10/2026):',
+        p1Val: 'R$ 1.100.000,00',
+        p2Label: '2ª Praça (27/10/2026):',
+        p2Val: 'R$ 660.000,00 (Lance inicial 2ª Praça - 60%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132-apto-502/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20502%20na%20Rua%20Hil%C3%A1rio%20de%20Gouveia%20132%20em%20Copacabana%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Ipanema (RJ)',
         title: 'Leilão Judicial de Apartamento em Ipanema — Rua Visconde de Pirajá nº 188 — Edifício Nara, Apto 602',
         desc: 'Apartamento residencial de 63 m² de área edificada privativa correspondente à unidade 602 do conceituado Edifício Nara, situado na valorizada Rua Visconde de Pirajá nº 188, no coração de Ipanema, Zona Sul do Rio de Janeiro. O imóvel situa-se de frente para o logradouro (com sala e um quarto voltados para a frente e o outro quarto para os fundos), composto por sala, dois quartos com armários embutidos antigos, banheiro social, cozinha, área de serviço e dependências de empregada, com direito a 1 vaga de garagem no condomínio (garagem no térreo e subsolo com vagas livres e demarcadas em bom estado). Piso em cerâmica bege e esquadrias de alumínio, necessitando de reforma geral e modernização. Prédio com 44 apartamentos residenciais (6 unidades por andar, exceto cobertura), 2 elevadores reformados (social e de serviço), portaria 24 horas com interfonia e câmeras de segurança (CFTV), hall em mármore branco e granito preto com portas blindex e grades em alumínio marrom. Registrado no 5º Ofício RGI sob Matrícula nº 89.580 e IPTU nº 0.994.226-9. Avaliação judicial oficial de R$ 1.069.307,78. 1º Leilão em 19/10/2026 às 12:00h por R$ 1.069.307,78 e 2º Leilão em 29/10/2026 às 12:00h com lance inicial de 50% por R$ 534.654,00 (~R$ 8.486,57/m² em Ipanema).',
@@ -1021,6 +1032,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Calle Hilário de Gouveia nº 132 — Apto 502',
+        desc: 'Apartamento residencial de 114 m² de área privada en el 5º piso (unidad 502) de clásico edificio de 1947 en Calle Hilário de Gouveia nº 132, Copacabana, Río de Janeiro/RJ. Vivienda amplia sin plaza de garaje, a pocos pasos de la playa y del metro Siqueira Campos. Inscrito en el 5º Registro de la Propiedad bajo Matrícula 89.814. Tasación judicial oficial de R$ 1.100.000,00. 1ª Subasta el 23/10/2026 a las 12:00h por R$ 1.100.000,00 y 2ª Subasta el 27/10/2026 a las 12:00h con puja inicial del 60% por R$ 660.000,00 (~R$ 5.789,47/m²).',
+        p1Label: '1ª Subasta (23/10/2026):',
+        p1Val: 'R$ 1.100.000,00',
+        p2Label: '2ª Subasta (27/10/2026):',
+        p2Val: 'R$ 660.000,00 (Puja inicial 2ª Subasta - 60%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132-apto-502/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20502%20en%20Calle%20Hil%C3%A1rio%20de%20Gouveia%20132%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Ipanema (RJ)',
         title: 'Subasta Judicial de Apartamento en Ipanema — Calle Visconde de Pirajá nº 188 — Edificio Nara, Apto 602',
         desc: 'Apartamento residencial de 63 m² privativos correspondiente a la unidad 602 del emblemático Edifício Nara, en Calle Visconde de Pirajá nº 188, Ipanema, Zona Sur de Río de Janeiro. Vivienda exterior orientada a la calle (salón y 1 dormitorio al frente, otro dormitorio al contrafrente), con sala, 2 dormitorios con armarios empotrados, baño social, cocina, lavadero y dependencias de servicio, con derecho a 1 plaza de garaje (en planta baja o sótano). Suelo en cerámica beige y carpintería de aluminio, requiriendo reforma y modernización integral. Edificio residencial con 44 apartamentos (6 por piso salvo ático), 2 ascensores reformados, conserjería y cámaras de vigilancia 24h, portal en mármol blanco y granito negro con puertas blindex. 5º Registro Matrícula 89.580 e IPTU 0.994.226-9. Tasación judicial de R$ 1.069.307,78. 1ª Subasta el 19/10/2026 a las 12:00h por R$ 1.069.307,78 y 2ª Subasta el 29/10/2026 a las 12:00h con puja inicial del 50% por R$ 534.654,00 (~R$ 8.486,57/m²).',
@@ -1857,6 +1879,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction of Apartment in Copacabana — Rua Hilário de Gouveia #132 — Apt 502',
+        desc: 'Prime 114 sqm (1,227 sq ft) private residential apartment on the 5th floor (Unit 502) of a classic 1947 residential building located at Rua Hilário de Gouveia #132, in the heart of Copacabana, Rio de Janeiro South Zone. Spacious unit without deeded parking space, situated steps from the beach and Siqueira Campos subway station. Registered under Title #89,814 at the 5th Land Registry. Official court appraisal of R$ 1,100,000.00. 1st Auction on 10/23/2026 at 12:00 PM at R$ 1,100,000.00 and 2nd Auction on 10/27/2026 at 12:00 PM starting at 60% for R$ 660,000.00 (~R$ 5,789.47/sqm in Copacabana).',
+        p1Label: '1st Auction (10/23/2026):',
+        p1Val: 'R$ 1,100,000.00',
+        p2Label: '2nd Auction (10/27/2026):',
+        p2Val: 'R$ 660,000.00 (2nd Auction starting bid - 60%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132-apto-502/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Hil%C3%A1rio%20de%20Gouveia%20132%20Apt%20502%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Ipanema (RJ)',
         title: 'Judicial Auction of Apartment in Ipanema — Rua Visconde de Pirajá #188 — Edifício Nara, Apt 602',

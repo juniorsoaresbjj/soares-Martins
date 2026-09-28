@@ -1406,6 +1406,79 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
     }
   },
 
+  // Copacabana - Rua Hilário de Gouveia 132 - Apto 502 (114 m² / Sem Vaga / Edifício de 1947)
+  'copacabana-hilario-gouveia-132': {
+    pt: {
+      title: 'Leilão Judicial de Apartamento em Copacabana — Rua Hilário de Gouveia nº 132 — Apto 502',
+      subtitle: 'Rua Hilário de Gouveia, nº 132 - Apto 502, Copacabana — Rio de Janeiro/RJ | 114 m² • Edifício de 1947 • Sem Vaga de Garagem',
+      address: 'Rua Hilário de Gouveia, 132 - Apto 502 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '23/10/2026 às 12:00h',
+      p2Date: '27/10/2026 às 12:00h',
+      process: 'Execução Judicial / TJRJ',
+      court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+      iptu: '0.672.483-5',
+      rgi: '89.814 (5º Ofício RGI/RJ)',
+      val: 'R$ 1.100.000,00',
+      p2Val: 'R$ 660.000,00 (60% do valor da avaliação)',
+      description: 'Apartamento residencial 502 com 114 metros quadrados (114 m²) de área edificada privativa, situado no 5º pavimento de tradicional edifício construído em 1947 na Rua Hilário de Gouveia, nº 132, no consagrado bairro de Copacabana, Rio de Janeiro/RJ. Imóvel com planta generosa e sem vaga de garagem, devidamente registrado, dimensionado e caracterizado no Cartório do 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 89.814. Avaliação judicial oficial homologada em R$ 1.100.000,00, com 2ª praça iniciando em 60% da avaliação por R$ 660.000,00 (~R$ 5.789,47/m²), oportunizando arrematação altamente vantajosa no coração de Copacabana.',
+      checklist: defaultChecklist.pt,
+      modal: defaultModal.pt,
+      faqs: [
+        { q: "Qual é o valor da avaliação oficial e o lance inicial na 2ª Praça para o imóvel na Rua Hilário de Gouveia nº 132?", a: "O imóvel foi avaliado judicialmente em R$ 1.100.000,00. Na 1ª Praça (23/10/2026 às 12:00h), o lance inicial é pelo valor integral de R$ 1.100.000,00. Na 2ª Praça (27/10/2026 às 12:00h), o lance inicial terá como piso 60% da avaliação oficial, ou seja, R$ 660.000,00 (desconto de 40% em relação à avaliação oficial)." },
+        { q: "Quais são as características físicas e documentais do apartamento 502 e do edifício de 1947?", a: "O apartamento possui 114 m² de área privativa edificada, situado no 5º pavimento (unidade 502), sem vaga de garagem. O edifício é estritamente residencial, edificado em 1947, com sólida arquitetura de época. Está registrado e caracterizado no 5º Ofício de Registro de Imóveis do RJ sob a Matrícula nº 89.814." },
+        { q: "Como funciona a auditoria jurídica e a responsabilidade por dívidas fiscais ou condominiais?", a: "A assessoria jurídica do Soares Martins Advogados realiza due diligence aprofundada da Matrícula 89.814 do 5º RGI, certidões fiscais de IPTU e certidões cíveis dos executados. Assegura-se a sub-rogação dos débitos tributários sobre o preço arrematado (art. 130, parágrafo único, do CTN) e a correta quitação ou reserva judicial para eventuais cotas de condomínio." },
+        { q: "Por que investir em apartamento de 114 m² na Rua Hilário de Gouveia em Copacabana?", a: "A Rua Hilário de Gouveia localiza-se em ponto nobre de Copacabana, conectando a praia à estação de metrô Siqueira Campos. A arrematação em 2ª praça a ~R$ 5.789/m² situa-se significativamente abaixo da média de mercado do bairro (que gira entre R$ 10.000 e R$ 14.000/m²), garantindo expressiva margem de segurança patrimonial ou lucratividade em locação/revenda." },
+        { q: "É possível realizar parcelamento judicial na arrematação deste imóvel?", a: "Sim. De acordo com o art. 895 do Código de Processo Civil (CPC), o interessado poderá apresentar proposta de pagamento em prestações (sinal mínimo de 25% à vista e o saldo remanescente em até 30 parcelas mensais corrigidas), desde que protocolada antes do encerramento da praça." }
+      ]
+    },
+    es: {
+      title: 'Subasta Judicial de Apartamento en Calle Hilário de Gouveia nº 132 — Apto 502',
+      subtitle: 'Calle Hilário de Gouveia, nº 132 - Apto 502, Copacabana — Río de Janeiro/RJ | 114 m² • Edificio de 1947 • Sin Plaza de Garaje',
+      address: 'Calle Hilário de Gouveia, 132 - Apto 502 — Copacabana, Río de Janeiro - RJ',
+      p1Date: '23/10/2026 a las 12:00h',
+      p2Date: '27/10/2026 a las 12:00h',
+      process: 'Ejecución Judicial / TJRJ',
+      court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+      iptu: '0.672.483-5',
+      rgi: '89.814 (5º RGI/RJ)',
+      val: 'R$ 1.100.000,00',
+      p2Val: 'R$ 660.000,00 (60% de la tasación)',
+      description: 'Apartamento residencial 502 de 114 metros cuadrados (114 m²) privativos, situado en el 5º piso de tradicional edificio de 1947 en Calle Hilário de Gouveia nº 132, Copacabana, Río de Janeiro/RJ. Vivienda amplia sin plaza de garaje, inscrita en el 5º Registro de la Propiedad bajo Matrícula 89.814. Valoración judicial de R$ 1.100.000,00 y 2ª subasta al 60% por R$ 660.000,00 (~R$ 5.789,47/m²).',
+      checklist: defaultChecklist.es,
+      modal: defaultModal.es,
+      faqs: [
+        { q: "¿Cuál es la tasación oficial y la puja mínima en 2ª Subasta en Calle Hilário de Gouveia nº 132?", a: "Tasación judicial de R$ 1.100.000,00. 1ª Subasta (23/10/2026 a las 12:00h) por el 100%. 2ª Subasta (27/10/2026 a las 12:00h) con puja inicial del 60% por R$ 660.000,00." },
+        { q: "¿Cuáles son las características del apartamento 502 y del edificio de 1947?", a: "Apartamento residencial de 114 m² en 5º piso sin garaje, en edificio residencial construido en 1947. Registrado en el 5º RGI bajo Matrícula 89.814." },
+        { q: "¿Cómo se analiza la seguridad jurídica y las deudas?", a: "Auditamos la Matrícula 89.814, expedientes del TJRJ y garantizamos la subrogación fiscal según el art. 130 del CTN brasileño." },
+        { q: "¿Por qué invertir en Calle Hilário de Gouveia en Copacabana?", a: "Ubicación privilegiada cerca de la playa y del metro Siqueira Campos con precio por m² muy inferior a la media de la Zona Sur." },
+        { q: "¿Se puede pagar a plazos judiciales según el CPC?", a: "Sí, conforme al art. 895 del CPC brasileño (25% de entrada y hasta 30 cuotas mensuales indexadas)." }
+      ]
+    },
+    en: {
+      title: 'Judicial Auction of Apartment at Rua Hilário de Gouveia #132 — Apt 502',
+      subtitle: 'Rua Hilário de Gouveia, #132 - Apt 502, Copacabana — Rio de Janeiro/RJ | 114 sqm (1,227 sq ft) • 1947 Building • No Parking Space',
+      address: 'Rua Hilário de Gouveia, 132 - Apt 502 — Copacabana, Rio de Janeiro - RJ',
+      p1Date: '10/23/2026 at 12:00 PM',
+      p2Date: '10/27/2026 at 12:00 PM',
+      process: 'Judicial Execution / TJRJ',
+      court: 'Rio de Janeiro State Court / Capital Comarca',
+      iptu: '0.672.483-5',
+      rgi: 'Title #89,814 (5th Land Registry)',
+      val: 'R$ 1,100,000.00',
+      p2Val: 'R$ 660,000.00 (60% of appraisal / 40% discount)',
+      description: 'Residential apartment 502 featuring 114 square meters (1,227 sq ft) of private built area on the 5th floor of a classic 1947 residential building located at Rua Hilário de Gouveia #132, Copacabana, Rio de Janeiro/RJ. Generous floor plan, without deeded parking space, duly registered at the 5th Real Estate Registry under Title #89,814. Official court appraisal of R$ 1,100,000.00, with 2nd auction opening at 60% for R$ 660,000.00 (~R$ 5,789.47/sqm in Rio South Zone).',
+      checklist: defaultChecklist.en,
+      modal: defaultModal.en,
+      faqs: [
+        { q: "What is the official valuation and 2nd auction minimum bid for Apt 502 on Rua Hilário de Gouveia #132?", a: "Official court appraisal is R$ 1,100,000.00. 1st Auction (10/23/2026 at 12:00 PM) starts at 100% (R$ 1,100,000.00). 2nd Auction (10/27/2026 at 12:00 PM) opens at 60% of appraisal, priced at R$ 660,000.00." },
+        { q: "What are the apartment specs and building features?", a: "Spacious 114 m² (1,227 sq ft) 5th-floor residence without parking space in a classic 1947 residential building in prime Copacabana. Registered under Title #89,814 at the 5th Land Registry." },
+        { q: "How is legal due diligence conducted?", a: "We conduct an extensive audit of Title #89,814, municipal tax liens, and court proceedings, ensuring clear title transfer and debt subrogation under Brazilian Tax Code Art. 130." },
+        { q: "Why invest in Rua Hilário de Gouveia in Copacabana?", a: "Centrally positioned between the beach and Siqueira Campos subway station, offering high appreciation and a discounted auction price of ~R$ 5,789/sqm well below local market rates." },
+        { q: "Is court installment bidding available?", a: "Yes, under CPC Article 895, qualified bidders may submit structured payment proposals (minimum 25% down payment and up to 30 indexed monthly installments)." }
+      ]
+    }
+  },
+
   // Copacabana - Avenida Atlântica 3806 - Apto 312 (27 m² / Fundos)
   'copacabana-atlantica-3806': {
     pt: {

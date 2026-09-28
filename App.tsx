@@ -36,6 +36,7 @@ import PraiaBotafogo356AuctionPage from './components/PraiaBotafogo356AuctionPag
 import SantaTeresaCostaBastos8AuctionPage from './components/SantaTeresaCostaBastos8AuctionPage';
 import CentroRiachuelo220AuctionPage from './components/CentroRiachuelo220AuctionPage';
 import CopacabanaAtlantica3806AuctionPage from './components/CopacabanaAtlantica3806AuctionPage';
+import CopacabanaHilarioDeGouveia132AuctionPage from './components/CopacabanaHilarioDeGouveia132AuctionPage';
 import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
 import TijucaDelgadoCarvalho75AuctionPage from './components/TijucaDelgadoCarvalho75AuctionPage';
 import CopacabanaTonelero202AuctionPage from './components/CopacabanaTonelero202AuctionPage';
@@ -389,6 +390,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312" element={<CopacabanaAtlantica3806AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806/" element={<CopacabanaAtlantica3806AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806" element={<CopacabanaAtlantica3806AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132-apto-502/" element={<CopacabanaHilarioDeGouveia132AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132-apto-502" element={<CopacabanaHilarioDeGouveia132AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132/" element={<CopacabanaHilarioDeGouveia132AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132" element={<CopacabanaHilarioDeGouveia132AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
