@@ -44,7 +44,13 @@ const routesToPrerender = [
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44-apto-1001/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132-apto-502/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903-apto-301/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10-apto-1002/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77-cobertura-01/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304/',
   // Blog Posts (Portuguese)
   '/blog/lgpd-condominios-portaria-cameras/',
   '/blog/stj-regras-animais-condominios-o-que-mudou/',

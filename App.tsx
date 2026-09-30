@@ -37,6 +37,9 @@ import SantaTeresaCostaBastos8AuctionPage from './components/SantaTeresaCostaBas
 import CentroRiachuelo220AuctionPage from './components/CentroRiachuelo220AuctionPage';
 import CopacabanaAtlantica3806AuctionPage from './components/CopacabanaAtlantica3806AuctionPage';
 import CopacabanaHilarioDeGouveia132AuctionPage from './components/CopacabanaHilarioDeGouveia132AuctionPage';
+import CopacabanaNossaSenhora903AuctionPage from './components/CopacabanaNossaSenhora903AuctionPage';
+import CopacabanaDomingosFerreira10AuctionPage from './components/CopacabanaDomingosFerreira10AuctionPage';
+import CopacabanaDecioVilares265AuctionPage from './components/CopacabanaDecioVilares265AuctionPage';
 import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
 import TijucaDelgadoCarvalho75AuctionPage from './components/TijucaDelgadoCarvalho75AuctionPage';
 import CopacabanaTonelero202AuctionPage from './components/CopacabanaTonelero202AuctionPage';
@@ -69,6 +72,7 @@ import SaoConradoMendesMorais1400AuctionPage from './components/SaoConradoMendes
 import TijucaEnesDeSouza45AuctionPage from './components/TijucaEnesDeSouza45AuctionPage';
 import BotafogoVoluntarios166AuctionPage from './components/BotafogoVoluntarios166AuctionPage';
 import HumaitaDaviCampista296AuctionPage from './components/HumaitaDaviCampista296AuctionPage';
+import HumaitaMarquesPorto77AuctionPage from './components/HumaitaMarquesPorto77AuctionPage';
 import CopacabanaDuvivier50AuctionPage from './components/CopacabanaDuvivier50AuctionPage';
 import CopacabanaBarataRibeiro334AuctionPage from './components/CopacabanaBarataRibeiro334AuctionPage';
 import CentroRioBranco185AuctionPage from './components/CentroRioBranco185AuctionPage';
@@ -78,9 +82,11 @@ import CopacabanaBaraoDeIpanema105AuctionPage from './components/CopacabanaBarao
 import CopacabanaRaulPompeia240AuctionPage from './components/CopacabanaRaulPompeia240AuctionPage';
 import CentroNossaSenhoraFatima60AuctionPage from './components/CentroNossaSenhoraFatima60AuctionPage';
 import FlamengoPraiaDoFlamengo12AuctionPage from './components/FlamengoPraiaDoFlamengo12AuctionPage';
+import FlamengoMarquesDeAbrantes16AuctionPage from './components/FlamengoMarquesDeAbrantes16AuctionPage';
 import BotafogoAlvaroRamos405AuctionPage from './components/BotafogoAlvaroRamos405AuctionPage';
 import BotafogoLauroMuller36Apto109AuctionPage from './components/BotafogoLauroMuller36Apto109AuctionPage';
 import IpanemaViscondePiraja188Apto602AuctionPage from './components/IpanemaViscondePiraja188Apto602AuctionPage';
+import IpanemaViscondePiraja82Loja103AuctionPage from './components/IpanemaViscondePiraja82Loja103AuctionPage';
 import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada169AuctionPage';
 import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
 import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
@@ -396,6 +402,21 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132/" element={<CopacabanaHilarioDeGouveia132AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-hilario-de-gouveia-132" element={<CopacabanaHilarioDeGouveia132AuctionPage />} />
 
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903-apto-301/" element={<CopacabanaNossaSenhora903AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903-apto-301" element={<CopacabanaNossaSenhora903AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903/" element={<CopacabanaNossaSenhora903AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903" element={<CopacabanaNossaSenhora903AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10-apto-1002/" element={<CopacabanaDomingosFerreira10AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10-apto-1002" element={<CopacabanaDomingosFerreira10AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10/" element={<CopacabanaDomingosFerreira10AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10" element={<CopacabanaDomingosFerreira10AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304/" element={<CopacabanaDecioVilares265AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304" element={<CopacabanaDecioVilares265AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265/" element={<CopacabanaDecioVilares265AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265" element={<CopacabanaDecioVilares265AuctionPage />} />
+
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503/" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90-apto-503" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-sao-francisco-xavier-90/" element={<TijucaSaoFranciscoXavier90AuctionPage />} />
@@ -473,6 +494,22 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12/" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12" element={<FlamengoPraiaDoFlamengo12AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203/" element={<FlamengoMarquesDeAbrantes16AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203" element={<FlamengoMarquesDeAbrantes16AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16/" element={<FlamengoMarquesDeAbrantes16AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16" element={<FlamengoMarquesDeAbrantes16AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103/" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82/" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-82-loja-103/" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-82-loja-103" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-82/" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-82" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/imovel/rua-visconde-de-piraja-82-loja-103/" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/imovel/rua-visconde-de-piraja-82-loja-103" element={<IpanemaViscondePiraja82Loja103AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602/" element={<IpanemaViscondePiraja188Apto602AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/apartamento/rua-visconde-de-piraja-188-apto-602" element={<IpanemaViscondePiraja188Apto602AuctionPage />} />
@@ -563,6 +600,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296-apto-603" element={<HumaitaDaviCampista296AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296/" element={<HumaitaDaviCampista296AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/apartamento/rua-davi-campista-296" element={<HumaitaDaviCampista296AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77-cobertura-01/" element={<HumaitaMarquesPorto77AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77-cobertura-01" element={<HumaitaMarquesPorto77AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77/" element={<HumaitaMarquesPorto77AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77" element={<HumaitaMarquesPorto77AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105/" element={<JardimGuanabaraBrenoGuimaraes106AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-guanabara/apartamento/rua-breno-guimaraes-106-apto-105" element={<JardimGuanabaraBrenoGuimaraes106AuctionPage />} />

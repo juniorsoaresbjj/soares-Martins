@@ -163,6 +163,72 @@ const pageTranslations: Record<string, any> = {
     auctionItems: [
       {
         tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial em Copacabana — Rua Décio Vilares nº 265 — Apto 304 (76 m² com Varandas e Suíte)',
+        desc: 'Apartamento de 76 m² privativos (unidade 304) no Condomínio do Edifício Abraham Medina (1981), situado na bucólica Rua Décio Vilares nº 265, no exclusivo Bairro Peixoto / Copacabana, Zona Sul do Rio de Janeiro. Imóvel em bom estado de conservação composto por sala com varanda, dois dormitórios (sendo uma suíte com varanda privativa), banheiro social, cozinha, área de serviço e dependência de serviço completa (quarto e banheiro). Piso em porcelanato em todos os cômodos. Edifício com portaria 24 horas, 2 elevadores, salão de festas e playground, a passos da Praça Edmundo Bittencourt e do Metrô Siqueira Campos. Matrícula nº 41.140 do 5º RGI e IPTU nº 1.448.032-1. Avaliação homologada em R$ 939.706,95. 1º Leilão em 26/10/2026 às 12:00h por R$ 939.706,95 e 2º Leilão em 29/10/2026 às 12:00h com lance inicial de 50% por R$ 469.853,48.',
+        p1Label: '1ª Praça (26/10/2026):',
+        p1Val: 'R$ 939.706,95',
+        p2Label: '2ª Praça (29/10/2026):',
+        p2Val: 'R$ 469.853,48 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20304%20na%20Rua%20D%C3%A9cio%20Vilares%20265%20em%20Copacabana%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Flamengo (RJ)',
+        title: 'Leilão Judicial de Apartamento no Flamengo — Rua Marquês de Abrantes nº 16 — Apto 203 (57 m²)',
+        desc: 'Apartamento residencial de 57 m² de área edificada privativa no 2º pavimento (unidade 203) de edifício residencial clássico na Rua Marquês de Abrantes nº 16, no coração do Flamengo, Zona Sul do Rio de Janeiro. Prédio com 12 andares (4 por andar), 2 elevadores e portaria 24 horas a passos da Praia do Flamengo, Aterro e metrô. Devidamente registrado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 136.162 e inscrição municipal IPTU nº 0.577.603-4. Avaliação judicial oficial homologada em R$ 630.000,00. 1º Leilão em 04/11/2026 às 13:20h por R$ 630.000,00 e 2º Leilão em 10/11/2026 às 13:20h com lance inicial de 50% por R$ 315.000,00 (admitindo lance mínimo entre 50% e 60% da avaliação).',
+        p1Label: '1ª Praça (04/11/2026):',
+        p1Val: 'R$ 630.000,00',
+        p2Label: '2ª Praça (10/11/2026):',
+        p2Val: 'R$ 315.000,00 (50% a 60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20203%20na%20Rua%20Marqu%C3%AAs%20de%20Abrantes%2016%20no%20Flamengo%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Ipanema (RJ)',
+        title: 'Leilão Judicial em Ipanema — Rua Visconde de Pirajá nº 82 — Loja 103 (25 m² com Vaga)',
+        desc: 'Imóvel com 25 m² de área edificada privativa e direito a 1 vaga de garagem no condomínio, situado na conceituada Rua Visconde de Pirajá nº 82, Loja 103, no coração nobre de Ipanema, Zona Sul do Rio de Janeiro. Localização altamente estratégica a poucos passos da Praça General Osório, estação de metrô e praia de Ipanema. Devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis sob a Matrícula nº 94.935 e inscrição municipal IPTU nº 1271337. Avaliação judicial oficial homologada em R$ 577.000,00. 1º Leilão em 26/10/2026 às 12:00h por R$ 577.000,00 e 2º Leilão em 29/10/2026 às 12:00h com lance inicial de 50% por R$ 288.500,00.',
+        p1Label: '1ª Praça (26/10/2026):',
+        p1Val: 'R$ 577.000,00',
+        p2Label: '2ª Praça (29/10/2026):',
+        p2Val: 'R$ 288.500,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20Loja%20103%20na%20Rua%20Visconde%20de%20Piraj%C3%A1%2082%20em%20Ipanema%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Humaitá (RJ)',
+        title: 'Leilão Judicial de Cobertura no Humaitá — Rua Engenheiro Marques Porto nº 77 — Cobertura 01',
+        desc: 'Cobertura residencial exclusiva de 222 m² de área edificada privativa (unidade 01) no topo de respeitado edifício situado na charmosa e arborizada Rua Engenheiro Marques Porto nº 77, no nobre bairro do Humaitá, Zona Sul do Rio de Janeiro. Imóvel com planta ampla, terraço com vista aberta para a vegetação e montanhas, a poucos passos da Cobal do Humaitá e próximo à Lagoa Rodrigo de Freitas. Devidamente registrado, dimensionado e caracterizado no 3º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 23.220 e inscrição municipal IPTU nº 0476989-9. Avaliação judicial oficial homologada em R$ 2.220.000,00. 1º Leilão em 19/10/2026 às 12:00h por R$ 2.220.000,00 e 2º Leilão em 22/10/2026 às 12:00h com lance inicial de 50% por R$ 1.110.000,00 (apenas R$ 5.000,00/m² em Humaitá).',
+        p1Label: '1ª Praça (19/10/2026):',
+        p1Val: 'R$ 2.220.000,00',
+        p2Label: '2ª Praça (22/10/2026):',
+        p2Val: 'R$ 1.110.000,00 (Lance inicial 2ª Praça - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77-cobertura-01/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20da%20Cobertura%2001%20na%20Rua%20Engenheiro%20Marques%20Porto%2077%20no%20Humait%C3%A1%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Rua Domingos Ferreira nº 10 — Apto 1002',
+        desc: 'Apartamento residencial de 141 m² de área edificada privativa no 10º pavimento (unidade 1002) de respeitado edifício situado na valorizada Rua Domingos Ferreira nº 10, no aprazível e cobiçado Posto 3 de Copacabana, Zona Sul do Rio de Janeiro. Excelente imóvel a apenas uma quadra da praia da Avenida Atlântica e a passos do metrô Siqueira Campos. Devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 100.785 e inscrição municipal IPTU sob o nº 0063037-6. Avaliação judicial oficial homologada em R$ 1.560.000,00. 1º Leilão em 19/10/2026 às 12:00h por R$ 1.560.000,00 e 2º Leilão em 22/10/2026 às 12:00h com lance inicial de 50% por R$ 780.000,00 (~R$ 5.531,91/m² em Copacabana).',
+        p1Label: '1ª Praça (19/10/2026):',
+        p1Val: 'R$ 1.560.000,00',
+        p2Label: '2ª Praça (22/10/2026):',
+        p2Val: 'R$ 780.000,00 (Lance inicial 2ª Praça - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10-apto-1002/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201002%20na%20Rua%20Domingos%20Ferreira%2010%20em%20Copacabana%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial de Apartamento em Copacabana — Av. Nossa Senhora de Copacabana nº 903 — Apto 301',
+        desc: 'Apartamento residencial de 117 m² de área edificada privativa no 3º pavimento (unidade 301) do tradicional Edifício Dona Emília, edificado em 1957 na Avenida Nossa Senhora de Copacabana nº 903, em Copacabana, Zona Sul do Rio de Janeiro. Condomínio residencial composto por 22 apartamentos, dispondo de portaria 24 horas, câmeras de vigilância e dois elevadores (social e de serviço), sem vaga de garagem. Imóvel devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 51.505 e IPTU nº 0.666.777-8. Avaliação judicial oficial homologada em R$ 1.200.000,00. 1º Leilão em 19/10/2026 às 12:00h por R$ 1.200.000,00 e 2º Leilão em 22/10/2026 às 12:00h com lance inicial de 50% por R$ 600.000,00 (~R$ 5.128,20/m² em Copacabana).',
+        p1Label: '1ª Praça (19/10/2026):',
+        p1Val: 'R$ 1.200.000,00',
+        p2Label: '2ª Praça (22/10/2026):',
+        p2Val: 'R$ 600.000,00 (Lance inicial 2ª Praça - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903-apto-301/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20301%20na%20Av.%20Nossa%20Senhora%20de%20Copacabana%20903%20em%20Copacabana%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
         title: 'Leilão Judicial de Apartamento em Copacabana — Rua Hilário de Gouveia nº 132 — Apto 502',
         desc: 'Apartamento residencial de 114 m² de área edificada privativa no 5º pavimento (unidade 502) de clássico edifício construído em 1947 na valorizada Rua Hilário de Gouveia nº 132, no coração de Copacabana, Zona Sul do Rio de Janeiro. Imóvel de excelente metragem e potencial de modernização, sem vaga de garagem, a poucos passos da praia e do metrô Siqueira Campos. Devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 89.814. Avaliação judicial oficial homologada em R$ 1.100.000,00. 1º Leilão em 23/10/2026 às 12:00h por R$ 1.100.000,00 e 2º Leilão em 27/10/2026 às 12:00h com lance inicial de 60% por R$ 660.000,00 (~R$ 5.789,47/m² em Copacabana).',
         p1Label: '1ª Praça (23/10/2026):',
@@ -1033,6 +1099,72 @@ const pageTranslations: Record<string, any> = {
     auctionItems: [
       {
         tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial en Copacabana — Calle Décio Vilares nº 265 — Apto 304 (76 m² con Terrazas y Suite)',
+        desc: 'Apartamento de 76 m² privativos (unidad 304) en el Edificio Abraham Medina (1981), situado en Calle Décio Vilares nº 265, en el exclusivo y apacible Bairro Peixoto / Copacabana, Zona Sur de Río de Janeiro. Inmueble en buen estado de conservación con suelos de porcelanato en todas las estancias: salón con balcón, dos dormitorios (1 suite con balcón propio), baño social, cocina, área de servicio y dependencia completa (dormitorio y baño de servicio). Edificio con conserjería 24 horas, 2 ascensores, salón de eventos y parque infantil, junto a la Plaza Edmundo Bittencourt y Metro Siqueira Campos. Matrícula nº 41.140 del 5º Registro e IPTU nº 1.448.032-1. Tasación oficial de R$ 939.706,95. 1ª Subasta el 26/10/2026 a las 12:00h por R$ 939.706,95 y 2ª Subasta el 29/10/2026 a las 12:00h con puja inicial del 50% por R$ 469.853,48.',
+        p1Label: '1ª Subasta (26/10/2026):',
+        p1Val: 'R$ 939.706,95',
+        p2Label: '2ª Subasta (29/10/2026):',
+        p2Val: 'R$ 469.853,48 (50% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20304%20en%20Calle%20D%C3%A9cio%20Vilares%20265%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Flamengo (RJ)',
+        title: 'Subasta Judicial de Apartamento en Flamengo — Calle Marquês de Abrantes nº 16 — Apto 203 (57 m²)',
+        desc: 'Apartamento residencial de 57 m² privativos en la unidad 203 de edificio clásico en Calle Marquês de Abrantes nº 16, Flamengo, Zona Sur de Río de Janeiro. Edificio de 12 plantas (4 por piso), 2 ascensores y portería 24h a pasos de la Playa de Flamengo y del metro. Registrado en el 9º Registro de la Propiedad bajo Matrícula nº 136.162 e IPTU 0.577.603-4. Tasación oficial de R$ 630.000,00. 1ª Subasta el 04/11/2026 a las 13:20h por R$ 630.000,00 y 2ª Subasta el 10/11/2026 a las 13:20h a partir de R$ 315.000,00.',
+        p1Label: '1ª Subasta (04/11/2026):',
+        p1Val: 'R$ 630.000,00',
+        p2Label: '2ª Subasta (10/11/2026):',
+        p2Val: 'R$ 315.000,00 (50% a 60% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20203%20en%20Calle%20Marqu%C3%AAs%20de%20Abrantes%2016%20en%20Flamengo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Ipanema (RJ)',
+        title: 'Subasta Judicial en Ipanema — Calle Visconde de Pirajá nº 82 — Tienda 103 (25 m² con Plaza de Garaje)',
+        desc: 'Inmueble con 25 m² privativos y derecho a 1 plaza de garaje en el edificio, situado en la céntrica Calle Visconde de Pirajá nº 82, Tienda 103, Ipanema, Zona Sur de Río de Janeiro. A pasos de la Plaza General Osório, metro y playa de Ipanema. Registrado en el 2º Registro de la Propiedad bajo Matrícula nº 94.935 e IPTU 1271337. Tasación oficial de R$ 577.000,00. 1ª Subasta el 26/10/2026 a las 12:00h por R$ 577.000,00 y 2ª Subasta el 29/10/2026 a las 12:00h con puja inicial al 50% por R$ 288.500,00.',
+        p1Label: '1ª Subasta (26/10/2026):',
+        p1Val: 'R$ 577.000,00',
+        p2Label: '2ª Subasta (29/10/2026):',
+        p2Val: 'R$ 288.500,00 (50% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20de%20la%20Tienda%20103%20en%20Calle%20Visconde%20de%20Piraj%C3%A1%2082%20en%20Ipanema%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Humaitá (RJ)',
+        title: 'Subasta Judicial de Ático (Cobertura) en Humaitá — Calle Engenheiro Marques Porto nº 77 — Cobertura 01',
+        desc: 'Ático residencial exclusivo (cobertura 01) de 222 m² de área privada en el último piso de destacado edificio en la calle Engenheiro Marques Porto nº 77, en el apacible y arbolado barrio de Humaitá, Zona Sur de Río de Janeiro/RJ. Ubicación privilegiada a pasos de la Cobal do Humaitá y con acceso inmediato a Lagoa Rodrigo de Freitas y Botafogo. Registrado en el 3º Registro de la Propiedad bajo Matrícula nº 23.220 e IPTU 0476989-9. Tasación judicial oficial de R$ 2.220.000,00. 1ª Subasta el 19/10/2026 a las 12:00h por R$ 2.220.000,00 y 2ª Subasta el 22/10/2026 a las 12:00h con puja inicial del 50% por R$ 1.110.000,00 (apenas R$ 5.000,00/m² en Humaitá).',
+        p1Label: '1ª Subasta (19/10/2026):',
+        p1Val: 'R$ 2.220.000,00',
+        p2Label: '2ª Subasta (22/10/2026):',
+        p2Val: 'R$ 1.110.000,00 (Puja inicial 2ª Subasta - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77-cobertura-01/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20%C3%A1tico%2001%20en%20Calle%20Engenheiro%20Marques%20Porto%2077%20en%20Humait%C3%A1%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Calle Domingos Ferreira nº 10 — Apto 1002',
+        desc: 'Apartamento residencial de 141 m² de área privada en el 10º piso (unidad 1002) de respetado edificio en Calle Domingos Ferreira nº 10, Posto 3 de Copacabana, Zona Sur de Río de Janeiro/RJ. Ubicación privilegiada a pasos de la Avenida Atlántica y de las estaciones de metro Siqueira Campos y Cardeal Arcoverde. Registrado en el 5º Registro de la Propiedad bajo Matrícula nº 100.785 e IPTU 0063037-6. Tasación judicial oficial de R$ 1.560.000,00. 1ª Subasta el 19/10/2026 a las 12:00h por R$ 1.560.000,00 y 2ª Subasta el 22/10/2026 a las 12:00h con puja inicial del 50% por R$ 780.000,00 (~R$ 5.531,91/m² en Copacabana).',
+        p1Label: '1ª Subasta (19/10/2026):',
+        p1Val: 'R$ 1.560.000,00',
+        p2Label: '2ª Subasta (22/10/2026):',
+        p2Val: 'R$ 780.000,00 (Puja inicial 2ª Subasta - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10-apto-1002/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201002%20en%20Calle%20Domingos%20Ferreira%2010%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial de Apartamento en Copacabana — Av. Nossa Senhora de Copacabana nº 903 — Apto 301',
+        desc: 'Apartamento residencial de 117 m² privativos en el 3º piso del Edifício Dona Emília (1957) en Avenida Nossa Senhora de Copacabana nº 903, Copacabana, Río de Janeiro/RJ. Edificio con 22 apartamentos, conserjería 24 horas, cámaras y 2 ascensores, sin plaza de garaje. Matrícula 51.505 del 5º RGI e IPTU 0.666.777-8. Tasación judicial oficial de R$ 1.200.000,00. 1ª Subasta el 19/10/2026 a las 12:00h por R$ 1.200.000,00 y 2ª Subasta el 22/10/2026 a las 12:00h con puja inicial del 50% por R$ 600.000,00 (~R$ 5.128,20/m²).',
+        p1Label: '1ª Subasta (19/10/2026):',
+        p1Val: 'R$ 1.200.000,00',
+        p2Label: '2ª Subasta (22/10/2026):',
+        p2Val: 'R$ 600.000,00 (Puja inicial 2ª Subasta - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903-apto-301/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20301%20en%20Av.%20Nossa%20Senhora%20de%20Copacabana%20903%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
         title: 'Subasta Judicial de Apartamento en Copacabana — Calle Hilário de Gouveia nº 132 — Apto 502',
         desc: 'Apartamento residencial de 114 m² de área privada en el 5º piso (unidad 502) de clásico edificio de 1947 en Calle Hilário de Gouveia nº 132, Copacabana, Río de Janeiro/RJ. Vivienda amplia sin plaza de garaje, a pocos pasos de la playa y del metro Siqueira Campos. Inscrito en el 5º Registro de la Propiedad bajo Matrícula 89.814. Tasación judicial oficial de R$ 1.100.000,00. 1ª Subasta el 23/10/2026 a las 12:00h por R$ 1.100.000,00 y 2ª Subasta el 27/10/2026 a las 12:00h con puja inicial del 60% por R$ 660.000,00 (~R$ 5.789,47/m²).',
         p1Label: '1ª Subasta (23/10/2026):',
@@ -1879,6 +2011,72 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction in Copacabana — Rua Décio Vilares #265 — Apt 304 (76 sqm with Balconies & Suite)',
+        desc: 'Prime 76 sqm (818 sq ft) private residential unit (Apartment 304) in the Abraham Medina Building (1981), located at Rua Décio Vilares #265, in peaceful and prestigious Bairro Peixoto / Copacabana, Rio de Janeiro South Zone. Well-preserved condition featuring porcelain tile flooring throughout: living room with balcony, 2 bedrooms (including master suite with private balcony), guest bathroom, kitchen, laundry area, and full maid quarters. Building offers 24/7 security concierge, 2 elevators, party hall, and playground, steps from Praça Edmundo Bittencourt and Siqueira Campos Metro Station. 5th Land Registry Title #41.140 and IPTU #1.448.032-1. Appraisal: R$ 939,706.95. 1st Auction on 10/26/2026 at 12:00 PM at R$ 939,706.95; 2nd Auction on 10/29/2026 at 12:00 PM starting at 50% discount for R$ 469,853.48.',
+        p1Label: '1st Auction (10/26/2026):',
+        p1Val: 'R$ 939,706.95',
+        p2Label: '2nd Auction (10/29/2026):',
+        p2Val: 'R$ 469,853.48 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20304%20at%20Rua%20D%C3%A9cio%20Vilares%20265%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Flamengo (RJ)',
+        title: 'Judicial Auction of Apartment in Flamengo — Rua Marquês de Abrantes #16 — Apt 203 (57 sqm)',
+        desc: 'Prime 57 sqm (614 sq ft) private residential unit (Apt 203) in a classic residential building at Rua Marquês de Abrantes #16 in Flamengo, Rio de Janeiro South Zone. 12-story building with 4 units per floor, 2 elevators, and 24/7 concierge steps from Flamengo Beach and metro stations. Recorded at 9th Land Registry under Title #136.162 and municipal tax IPTU #0.577.603-4. Official appraisal: R$ 630,000.00. 1st Auction on 11/04/2026 at 1:20 PM at R$ 630,000.00; 2nd Auction on 11/10/2026 at 1:20 PM starting at R$ 315,000.00.',
+        p1Label: '1st Auction (11/04/2026):',
+        p1Val: 'R$ 630,000.00',
+        p2Label: '2nd Auction (11/10/2026):',
+        p2Val: 'R$ 315,000.00 (50% to 60% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20203%20at%20Rua%20Marqu%C3%AAs%20de%20Abrantes%2016%20in%20Flamengo%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Ipanema (RJ)',
+        title: 'Judicial Auction in Ipanema — Rua Visconde de Pirajá #82 — Store 103 (25 sqm with Parking Space)',
+        desc: 'Prime 25 sqm (269 sq ft) private unit with deeded right to 1 parking space in the building, located at premier Rua Visconde de Pirajá #82, Store 103, Ipanema, Rio de Janeiro South Zone. Highly strategic position steps from Praça General Osório, metro station, and Ipanema Beach. Recorded at 2nd Land Registry Office under Title #94.935 and municipal tax IPTU #1271337. Official appraisal: R$ 577,000.00. 1st Auction on 10/26/2026 at 12:00 PM at R$ 577,000.00; 2nd Auction on 10/29/2026 at 12:00 PM starting at 50% discount for R$ 288,500.00.',
+        p1Label: '1st Auction (10/26/2026):',
+        p1Val: 'R$ 577,000.00',
+        p2Label: '2nd Auction (10/29/2026):',
+        p2Val: 'R$ 288,500.00 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Store%20103%20at%20Rua%20Visconde%20de%20Piraj%C3%A1%2082%20in%20Ipanema%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Humaitá (RJ)',
+        title: 'Judicial Auction of Penthouse in Humaitá — Rua Engenheiro Marques Porto #77 — Penthouse 01',
+        desc: 'Exclusive 222 sqm (2,390 sq ft) private residential rooftop penthouse (Unit 01) on the top floor of a distinguished residential building at Rua Engenheiro Marques Porto #77, in prime, tranquil Humaitá, Rio de Janeiro South Zone. Prime location steps from Cobal do Humaitá culinary hub, with immediate access to Lagoa Rodrigo de Freitas and Botafogo. Registered at the 3rd Land Registry under Title #23,220 and municipal tax ID IPTU #0476989-9. Official judicial appraisal of R$ 2,220,000.00. 1st Auction on 10/19/2026 at 12:00 PM at R$ 2,220,000.00 and 2nd Auction on 10/22/2026 at 12:00 PM starting at 50% for R$ 1,110,000.00 (only R$ 5,000.00/sqm in Rio South Zone).',
+        p1Label: '1st Auction (10/19/2026):',
+        p1Val: 'R$ 2,220,000.00',
+        p2Label: '2nd Auction (10/22/2026):',
+        p2Val: 'R$ 1,110,000.00 (2nd Auction starting bid - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/humaita/cobertura/rua-engenheiro-marques-porto-77-cobertura-01/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20penthouse%20auction%20at%20Rua%20Engenheiro%20Marques%20Porto%2077%20Penthouse%2001%20in%20Humait%C3%A1%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction of Apartment in Copacabana — Rua Domingos Ferreira #10 — Apt 1002',
+        desc: 'Spacious 141 sqm (1,518 sq ft) private residential apartment on the 10th floor (Unit 1002) of a respected residential building located at Rua Domingos Ferreira #10, in prime Posto 3 Copacabana, Rio de Janeiro South Zone. Prime location steps from Avenida Atlântica beach boardwalk and Siqueira Campos subway station. Registered at the 5th Land Registry under Title #100,785 and IPTU tax record #0063037-6. Official court appraisal of R$ 1,560,000.00. 1st Auction on 10/19/2026 at 12:00 PM at R$ 1,560,000.00 and 2nd Auction on 10/22/2026 at 12:00 PM starting at 50% for R$ 780,000.00 (~R$ 5,531.91/sqm in Copacabana).',
+        p1Label: '1st Auction (10/19/2026):',
+        p1Val: 'R$ 1,560,000.00',
+        p2Label: '2nd Auction (10/22/2026):',
+        p2Val: 'R$ 780,000.00 (2nd Auction starting bid - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-domingos-ferreira-10-apto-1002/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Domingos%20Ferreira%2010%20Apt%201002%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction of Apartment in Copacabana — Av. Nossa Senhora de Copacabana #903 — Apt 301',
+        desc: 'Prime 117 sqm (1,259 sq ft) private residential apartment on the 3rd floor (Unit 301) of the classic Edifício Dona Emília (1957), situated at Avenida Nossa Senhora de Copacabana #903, Copacabana, Rio de Janeiro South Zone. Exclusive 22-unit condominium featuring 24/7 concierge, CCTV surveillance, and 2 elevators, without parking space. Registered at the 5th Land Registry under Title #51,505 and IPTU #0.666.777-8. Official court appraisal of R$ 1,200,000.00. 1st Auction on 10/19/2026 at 12:00 PM at R$ 1,200,000.00 and 2nd Auction on 10/22/2026 at 12:00 PM starting at 50% for R$ 600,000.00 (~R$ 5,128.20/sqm in Copacabana).',
+        p1Label: '1st Auction (10/19/2026):',
+        p1Val: 'R$ 1,200,000.00',
+        p2Label: '2nd Auction (10/22/2026):',
+        p2Val: 'R$ 600,000.00 (2nd Auction starting bid - 50%)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-903-apto-301/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Av.%20Nossa%20Senhora%20de%20Copacabana%20903%20Apt%20301%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Copacabana (RJ)',
         title: 'Judicial Auction of Apartment in Copacabana — Rua Hilário de Gouveia #132 — Apt 502',
