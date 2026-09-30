@@ -51,6 +51,7 @@ const routesToPrerender = [
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/ipanema/loja/rua-visconde-de-piraja-82-loja-103/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-marques-de-abrantes-16-apto-203/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-decio-vilares-265-apto-304/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402/',
   // Blog Posts (Portuguese)
   '/blog/lgpd-condominios-portaria-cameras/',
   '/blog/stj-regras-animais-condominios-o-que-mudou/',

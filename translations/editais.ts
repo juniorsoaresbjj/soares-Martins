@@ -6548,6 +6548,107 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Copacabana auction?", a: "We conduct exhaustive due diligence on Title #41.140 (5th Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
         ]
       }
+    },
+    'jardim-botanico-engenheiro-pena-chaves-36-apto-402': {
+      pt: {
+        title: 'Leilão Judicial no Jardim Botânico — Rua Engenheiro Pena Chaves nº 36 — Apto 402 (80 m²)',
+        subtitle: 'Rua Engenheiro Pena Chaves, nº 36, Apartamento 402 — Jardim Botânico, Rio de Janeiro/RJ | 80 m² • Edificação de 1973 • 1 Elevador • Portaria até às 16:00h • 2º Ofício RGI Matrícula nº 67.628 • IPTU: 1.183.959-4 • Avaliação: R$ 1.350.000,00 • 1º Leilão: 03/11/2026 às 12:30h por R$ 1.350.000,00 • 2º Leilão: 05/11/2026 às 12:30h por R$ 675.000,00 (50% de Desconto)',
+        address: 'Rua Engenheiro Pena Chaves, nº 36, Apartamento 402 — Jardim Botânico, Rio de Janeiro - RJ',
+        p1Date: '03/11/2026 às 12:30h',
+        p2Date: '05/11/2026 às 12:30h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1.183.959-4',
+        rgi: '2º Ofício de Registro de Imóveis (Matrícula nº 67.628)',
+        val: 'R$ 1.350.000,00',
+        p2Val: 'R$ 675.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 80 m² de área edificada privativa correspondente à unidade 402 do edifício situado na tranquila e valorizada Rua Engenheiro Pena Chaves nº 36, no nobre bairro do Jardim Botânico, Zona Sul do Rio de Janeiro. Edificação residencial de construção datada de 1973, dotada de um elevador e portaria com controle de acesso em funcionamento até às 16:00 horas. Localizado em uma das vias mais arborizadas e calmas do Jardim Botânico, a poucos passos da Lagoa Rodrigo de Freitas, do Parque Lage e cercado pela exuberante vegetação da Mata Atlântica e consagrada gastronomia carioca. Devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 67.628 e inscrição municipal IPTU nº 1.183.959-4. Avaliação judicial oficial homologada pelo juízo em R$ 1.350.000,00. 1º Leilão agendado para 03/11/2026 às 12:30h pelo valor da avaliação de R$ 1.350.000,00 e 2º Leilão em 05/11/2026 às 12:30h com lance inicial de 50% por R$ 675.000,00 (oportunidade ímpar a apenas ~R$ 8.437,50/m² na Zona Sul).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Engenheiro Pena Chaves nº 36, Apto 402 (Jardim Botânico)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 402, situado na Rua Engenheiro Pena Chaves nº 36, Jardim Botânico, Rio de Janeiro/RJ. Devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis sob a Matrícula nº 67.628 e inscrição municipal IPTU nº 1.183.959-4.' },
+            { title: 'Dimensões e Edificação', text: '80 m² de área edificada privativa no 4º pavimento. Prédio residencial com construção datada de 1973, dispondo de 1 elevador e portaria até às 16:00 horas.' },
+            { title: 'Localização Privilegiada no Jardim Botânico', text: 'Rua estritamente residencial, tranquila e muito arborizada, próxima à Lagoa Rodrigo de Freitas, Parque Lage, Clube Militar e polo gastronômico.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 03/11/2026 às 12:30h (Lance mínimo: R$ 1.350.000,00 — 100% da avaliação). 2º Leilão: 05/11/2026 às 12:30h (Lance inicial: R$ 675.000,00 — desconto de 50% da avaliação).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 168.750,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com garantia hipotecária sobre o próprio bem.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos tributários de IPTU e taxas municipais anteriores à arrematação sub-rogam-se diretamente sobre o preço alcançado no leilão, garantindo a entrega do imóvel desonerado ao adquirente.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 402 na Rua Engenheiro Pena Chaves 36?", a: "O imóvel possui avaliação judicial homologada em R$ 1.350.000,00. No 1º Leilão (03/11/2026 às 12:30h), o lance mínimo é o valor integral da avaliação (R$ 1.350.000,00). No 2º Leilão (05/11/2026 às 12:30h), o lance inicial parte com 50% de desconto, fixado em R$ 675.000,00." },
+          { q: "Quais são as características do edifício e do apartamento?", a: "O apartamento conta com 80 m² de área edificada privativa. O edifício é uma construção datada de 1973, possui um elevador e portaria em funcionamento até às 16:00 horas, situado em rua nobre e arborizada do Jardim Botânico." },
+          { q: "Onde o imóvel está registrado e qual o número da inscrição municipal?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 67.628 e possui inscrição municipal IPTU nº 1.183.959-4." },
+          { q: "Como é a localização da Rua Engenheiro Pena Chaves no Jardim Botânico?", a: "A Rua Engenheiro Pena Chaves é uma via residencial charmosa, calma e arborizada, cercada pela Mata Atlântica e a curta distância a pé da Lagoa Rodrigo de Freitas, do Parque Lage e de refinados restaurantes e bistrôs da Zona Sul carioca." },
+          { q: "É possível adquirir o apartamento de forma parcelada pelo CPC?", a: "Sim. Em conformidade com o artigo 895 do Código de Processo Civil (CPC), o arrematante pode submeter proposta de parcelamento com sinal de no mínimo 25% (R$ 168.750,00 na 2ª praça) e o saldo dividido em até 30 prestações mensais corrigidas por índice oficial da Justiça." },
+          { q: "O arrematante é responsável por débitos de IPTU anteriores?", a: "Não. Conforme preceitua o parágrafo único do artigo 130 do Código Tributário Nacional (CTN), eventuais dívidas fiscais anteriores de IPTU e taxas municipais sub-rogam-se no preço arrecadado na praça judicial." },
+          { q: "Por que contratar a assessoria da Soares Martins Advogados para este leilão?", a: "Realizamos auditoria técnica aprofundada da Matrícula 67.628 no 2º RGI, certificamos a higidez de todas as intimações das partes no processo do TJRJ, estruturamos a estratégia competitiva de lances e parcelamento, e conduzimos toda a etapa pós-arrematação até o registro definitivo da carta e a imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Jardim Botânico — Calle Engenheiro Pena Chaves nº 36 — Apto 402 (80 m²)',
+        subtitle: 'Calle Engenheiro Pena Chaves, nº 36, Apartamento 402 — Jardim Botânico, Río de Janeiro/RJ | 80 m² • Edificio de 1973 • 1 Ascensor • Portería hasta las 16:00h • 2º Registro Matrícula nº 67.628 • IPTU: 1.183.959-4 • Tasación: R$ 1.350.000,00 • 1ª Subasta: 03/11/2026 a las 12:30h por R$ 1.350.000,00 • 2ª Subasta: 05/11/2026 a las 12:30h por R$ 675.000,00 (50% de Descuento)',
+        address: 'Calle Engenheiro Pena Chaves, nº 36, Apartamento 402 — Jardim Botânico, Río de Janeiro - RJ',
+        p1Date: '03/11/2026 a las 12:30h',
+        p2Date: '05/11/2026 a las 12:30h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1.183.959-4',
+        rgi: '2º Registro de Inmuebles de Río de Janeiro (Matrícula nº 67.628)',
+        val: 'R$ 1.350.000,00',
+        p2Val: 'R$ 675.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 80 m² privativos correspondiente a la unidad 402 del edificio ubicado en la tranquila y arbolada Calle Engenheiro Pena Chaves nº 36, en el exclusivo barrio de Jardim Botânico, Zona Sur de Río de Janeiro. Construcción de 1973 que dispone de un ascensor y portería con control de acceso hasta las 16:00 horas. Situado a pasos de la Laguna Rodrigo de Freitas y el Parque Lage. Registrado en el 2º Registro de la Propiedad bajo Matrícula nº 67.628 e IPTU 1.183.959-4. Tasación oficial de R$ 1.350.000,00. 1ª Subasta el 03/11/2026 a las 12:30h por R$ 1.350.000,00 y 2ª Subasta el 05/11/2026 a las 12:30h con puja inicial del 50% por R$ 675.000,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Engenheiro Pena Chaves nº 36, Apto 402 (Jardim Botânico)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 402 en Calle Engenheiro Pena Chaves nº 36, Jardim Botânico, Río de Janeiro/RJ. Matrícula 67.628 del 2º Registro de la Propiedad e IPTU 1.183.959-4.' },
+            { title: 'Dimensiones y Edificación', text: '80 m² privativos. Edificio de 1973 con 1 ascensor y portería hasta las 16:00 horas.' },
+            { title: 'Ubicación en Jardim Botânico', text: 'Calle residencial arbolada y tranquila, junto a la Laguna Rodrigo de Freitas y Parque Lage.' },
+            { title: 'Fechas y Precios de Salida', text: '1ª Subasta: 03/11/2026 a las 12:30h por R$ 1.350.000,00. 2ª Subasta: 05/11/2026 a las 12:30h a partir de R$ 675.000,00 (50% de descuento).' },
+            { title: 'Pago Aplazado Judicial (Art. 895 CPC)', text: 'Permite 25% de entrada y hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias de IPTU quedan saldadas con el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Pena Chaves 36 Apto 402?", a: "La 1ª Subasta es el 03/11/2026 a las 12:30h por R$ 1.350.000,00. La 2ª Subasta es el 05/11/2026 a las 12:30h a partir de R$ 675.000,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cómo es el edificio y la propiedad?", a: "Apartamento de 80 m² privativos en edificio de 1973 con 1 ascensor y conserjería hasta las 16:00h en una de las calles más apacibles de Jardim Botânico." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, conforme al Art. 895 del CPC: 25% de anticipo y saldo en hasta 30 cuotas mensuales ajustadas." },
+          { q: "¿Cómo asiste Soares Martins Advogados?", a: "Realizamos la auditoría registral completa de la Matrícula 67.628 en el 2º Registro, revisamos las citaciones judiciales en TJRJ y tramitamos la carta de adjudicación y entrega de posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Jardim Botânico — Rua Engenheiro Pena Chaves #36 — Apt 402 (80 sqm)',
+        subtitle: 'Rua Engenheiro Pena Chaves, #36, Apt 402 — Jardim Botânico, Rio de Janeiro/RJ | 80 sqm (861 sq ft) • 1973 Building • 1 Elevator • Concierge until 4:00 PM • 2nd Land Registry Title #67.628 • IPTU: 1.183.959-4 • Valuation: R$ 1,350,000.00 • 1st Auction: 11/03/2026 at 12:30 PM at R$ 1,350,000.00 • 2nd Auction: 11/05/2026 at 12:30 PM at R$ 675,000.00 (50% Discount)',
+        address: 'Rua Engenheiro Pena Chaves, #36, Apt 402 — Jardim Botânico, Rio de Janeiro - RJ',
+        p1Date: '11/03/2026 at 12:30 PM',
+        p2Date: '11/05/2026 at 12:30 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1.183.959-4',
+        rgi: '2nd Land Registry Office of Rio de Janeiro (Title #67.628)',
+        val: 'R$ 1,350,000.00',
+        p2Val: 'R$ 675,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 80 sqm (861 sq ft) private residential unit (Apartment 402) in a quiet residential building at Rua Engenheiro Pena Chaves #36, in upscale Jardim Botânico, Rio de Janeiro South Zone. Built in 1973, the building features 1 elevator and concierge service until 4:00 PM. Highly coveted residential location steps from Lagoa Rodrigo de Freitas, Parque Lage, and renowned botanical and gastronomic spots. Recorded at the 2nd Land Registry Office under Title #67.628 and municipal tax IPTU #1.183.959-4. Official judicial appraisal: R$ 1,350,000.00. 1st Auction on 11/03/2026 at 12:30 PM at R$ 1,350,000.00; 2nd Auction on 11/05/2026 at 12:30 PM starting at 50% discount for R$ 675,000.00 (only ~R$ 8,437.50/sqm in Jardim Botânico).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Engenheiro Pena Chaves #36 / Apt 402 (Jardim Botânico)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 402 at Rua Engenheiro Pena Chaves #36, Jardim Botânico, Rio de Janeiro/RJ. Recorded at 2nd Land Registry under Title #67.628 and municipal tax IPTU #1.183.959-4.' },
+            { title: 'Dimensions & Building', text: '80 sqm private area. 1973 residential building with 1 elevator and concierge until 4:00 PM.' },
+            { title: 'Prime Jardim Botânico Location', text: 'Quiet, tree-lined residential street near Lagoa Rodrigo de Freitas and Parque Lage.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/03/2026 at 12:30 PM at R$ 1,350,000.00. 2nd Auction: 11/05/2026 at 12:30 PM starting at R$ 675,000.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Pena Chaves 36 Apt 402?", a: "The 1st Auction is on 11/03/2026 at 12:30 PM at R$ 1,350,000.00. The 2nd Auction is on 11/05/2026 at 12:30 PM starting at R$ 675,000.00 (50% discount off official appraisal)." },
+          { q: "What are the building and apartment features?", a: "80 sqm private area, 1973 residential building with 1 elevator and concierge until 4:00 PM, on a charming residential street in Jardim Botânico." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Jardim Botânico auction?", a: "We conduct exhaustive due diligence on Title #67.628 (2nd Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
     }
   };
 

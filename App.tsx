@@ -40,6 +40,7 @@ import CopacabanaHilarioDeGouveia132AuctionPage from './components/CopacabanaHil
 import CopacabanaNossaSenhora903AuctionPage from './components/CopacabanaNossaSenhora903AuctionPage';
 import CopacabanaDomingosFerreira10AuctionPage from './components/CopacabanaDomingosFerreira10AuctionPage';
 import CopacabanaDecioVilares265AuctionPage from './components/CopacabanaDecioVilares265AuctionPage';
+import JardimBotanicoPenaChaves36AuctionPage from './components/JardimBotanicoPenaChaves36AuctionPage';
 import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
 import TijucaDelgadoCarvalho75AuctionPage from './components/TijucaDelgadoCarvalho75AuctionPage';
 import CopacabanaTonelero202AuctionPage from './components/CopacabanaTonelero202AuctionPage';
@@ -382,6 +383,11 @@ const AppContent: React.FC = () => {
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/" element={<GaveaAuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175" element={<GaveaAuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402/" element={<JardimBotanicoPenaChaves36AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402" element={<JardimBotanicoPenaChaves36AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36/" element={<JardimBotanicoPenaChaves36AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36" element={<JardimBotanicoPenaChaves36AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356/" element={<PraiaBotafogo356AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356" element={<PraiaBotafogo356AuctionPage />} />

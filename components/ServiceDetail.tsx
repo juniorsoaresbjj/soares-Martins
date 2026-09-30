@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Jardim Botânico (RJ)',
+        title: 'Leilão Judicial no Jardim Botânico — Rua Engenheiro Pena Chaves nº 36 — Apto 402 (80 m²)',
+        desc: 'Apartamento de 80 m² privativos (unidade 402) em tradicional edifício residencial de 1973 situado na aprazível e arborizada Rua Engenheiro Pena Chaves nº 36, no nobre bairro do Jardim Botânico, Zona Sul do Rio de Janeiro. Prédio com 1 elevador e portaria com controle de acesso presencial em funcionamento até às 16:00 horas, a poucos passos da Lagoa Rodrigo de Freitas, Parque Lage e renomado polo gastronômico. Matrícula nº 67.628 do 2º RGI e IPTU nº 1.183.959-4. Avaliação homologada em R$ 1.350.000,00. 1º Leilão em 03/11/2026 às 12:30h por R$ 1.350.000,00 e 2º Leilão em 05/11/2026 às 12:30h com lance inicial de 50% por R$ 675.000,00 (apenas ~R$ 8.437,50/m² no Jardim Botânico).',
+        p1Label: '1ª Praça (03/11/2026):',
+        p1Val: 'R$ 1.350.000,00',
+        p2Label: '2ª Praça (05/11/2026):',
+        p2Val: 'R$ 675.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20na%20Rua%20Engenheiro%20Pena%20Chaves%2036%20no%20Jardim%20Bot%C3%A2nico%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Leilão Judicial em Copacabana — Rua Décio Vilares nº 265 — Apto 304 (76 m² com Varandas e Suíte)',
         desc: 'Apartamento de 76 m² privativos (unidade 304) no Condomínio do Edifício Abraham Medina (1981), situado na bucólica Rua Décio Vilares nº 265, no exclusivo Bairro Peixoto / Copacabana, Zona Sul do Rio de Janeiro. Imóvel em bom estado de conservação composto por sala com varanda, dois dormitórios (sendo uma suíte com varanda privativa), banheiro social, cozinha, área de serviço e dependência de serviço completa (quarto e banheiro). Piso em porcelanato em todos os cômodos. Edifício com portaria 24 horas, 2 elevadores, salão de festas e playground, a passos da Praça Edmundo Bittencourt e do Metrô Siqueira Campos. Matrícula nº 41.140 do 5º RGI e IPTU nº 1.448.032-1. Avaliação homologada em R$ 939.706,95. 1º Leilão em 26/10/2026 às 12:00h por R$ 939.706,95 e 2º Leilão em 29/10/2026 às 12:00h com lance inicial de 50% por R$ 469.853,48.',
@@ -1098,6 +1109,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Jardim Botânico (RJ)',
+        title: 'Subasta Judicial en Jardim Botânico — Calle Engenheiro Pena Chaves nº 36 — Apto 402 (80 m²)',
+        desc: 'Apartamento de 80 m² privativos (unidad 402) en clásico edificio residencial de 1973 situado en Calle Engenheiro Pena Chaves nº 36, en el exclusivo y arbolado barrio de Jardim Botânico, Zona Sur de Río de Janeiro. Edificio con 1 ascensor y portería con control presencial hasta las 16:00 horas, a pasos de la Laguna Rodrigo de Freitas y Parque Lage. Matrícula nº 67.628 del 2º Registro e IPTU nº 1.183.959-4. Tasación oficial de R$ 1.350.000,00. 1ª Subasta el 03/11/2026 a las 12:30h por R$ 1.350.000,00 y 2ª Subasta el 05/11/2026 a las 12:30h con puja inicial del 50% por R$ 675.000,00.',
+        p1Label: '1ª Subasta (03/11/2026):',
+        p1Val: 'R$ 1.350.000,00',
+        p2Label: '2ª Subasta (05/11/2026):',
+        p2Val: 'R$ 675.000,00 (50% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20402%20en%20Calle%20Engenheiro%20Pena%20Chaves%2036%20en%20Jardim%20Bot%C3%A2nico%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Subasta Judicial en Copacabana — Calle Décio Vilares nº 265 — Apto 304 (76 m² con Terrazas y Suite)',
         desc: 'Apartamento de 76 m² privativos (unidad 304) en el Edificio Abraham Medina (1981), situado en Calle Décio Vilares nº 265, en el exclusivo y apacible Bairro Peixoto / Copacabana, Zona Sur de Río de Janeiro. Inmueble en buen estado de conservación con suelos de porcelanato en todas las estancias: salón con balcón, dos dormitorios (1 suite con balcón propio), baño social, cocina, área de servicio y dependencia completa (dormitorio y baño de servicio). Edificio con conserjería 24 horas, 2 ascensores, salón de eventos y parque infantil, junto a la Plaza Edmundo Bittencourt y Metro Siqueira Campos. Matrícula nº 41.140 del 5º Registro e IPTU nº 1.448.032-1. Tasación oficial de R$ 939.706,95. 1ª Subasta el 26/10/2026 a las 12:00h por R$ 939.706,95 y 2ª Subasta el 29/10/2026 a las 12:00h con puja inicial del 50% por R$ 469.853,48.',
@@ -2011,6 +2033,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Jardim Botânico (RJ)',
+        title: 'Judicial Auction in Jardim Botânico — Rua Engenheiro Pena Chaves #36 — Apt 402 (80 sqm)',
+        desc: 'Prime 80 sqm (861 sq ft) private residential unit (Apartment 402) in a 1973 residential building located at Rua Engenheiro Pena Chaves #36, in upscale Jardim Botânico, Rio de Janeiro South Zone. Building features 1 elevator and concierge service until 4:00 PM, steps from Lagoa Rodrigo de Freitas, Parque Lage, and premier dining spots. 2nd Land Registry Title #67.628 and IPTU #1.183.959-4. Official appraisal: R$ 1,350,000.00. 1st Auction on 11/03/2026 at 12:30 PM at R$ 1,350,000.00; 2nd Auction on 11/05/2026 at 12:30 PM starting at 50% discount for R$ 675,000.00 (only ~R$ 8,437.50/sqm in Jardim Botânico).',
+        p1Label: '1st Auction (11/03/2026):',
+        p1Val: 'R$ 1,350,000.00',
+        p2Label: '2nd Auction (11/05/2026):',
+        p2Val: 'R$ 675,000.00 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20402%20at%20Rua%20Engenheiro%20Pena%20Chaves%2036%20in%20Jardim%20Bot%C3%A2nico%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Copacabana (RJ)',
         title: 'Judicial Auction in Copacabana — Rua Décio Vilares #265 — Apt 304 (76 sqm with Balconies & Suite)',
