@@ -162,6 +162,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Flamengo (RJ)',
+        title: 'Leilão Judicial no Flamengo — Rua Almirante Tamandaré nº 21 — Apto 1101 (119 m²)',
+        desc: 'Apartamento de 119 m² privativos (unidade 1101 no 11º andar) em tradicional edifício residencial na prestigiada Rua Almirante Tamandaré nº 21, Flamengo, Zona Sul do Rio de Janeiro. Edifício de 12 pavimentos com apenas 02 apartamentos por andar, portaria 24 horas e 2 elevadores, a passos do Aterro do Flamengo e do Metrô Largo do Machado. Matrícula nº 104.544 do 9º RGI e IPTU nº 0.354.547-2. Avaliação homologada em R$ 1.200.000,00. 1º Leilão em 06/11/2026 às 13:20h por R$ 1.200.000,00 e 2º Leilão em 10/11/2026 às 13:20h com lance inicial de 50% por R$ 600.000,00 (apenas ~R$ 5.042,01/m² no Flamengo).',
+        p1Label: '1ª Praça (06/11/2026):',
+        p1Val: 'R$ 1.200.000,00',
+        p2Label: '2ª Praça (10/11/2026):',
+        p2Val: 'R$ 600.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201101%20na%20Rua%20Almirante%20Tamandar%C3%A9%2021%20no%20Flamengo%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Gávea (RJ)',
+        title: 'Leilão Judicial na Gávea — Rua Marquês de São Vicente nº 86 — Apto 104 (50 m² com Área Externa)',
+        desc: 'Apartamento de 50 m² privativos (unidade 104) em excelente localização na valorizada Rua Marquês de São Vicente nº 86, no nobre bairro da Gávea, Zona Sul do Rio de Janeiro. Imóvel próximo à PUC-Rio e ao comércio consolidado da região, constituído em 1 pavimento por sala, 1 quarto, escritório (home office), cozinha, banheiro e área externa privativa, em bom estado de conservação aparente. Matrícula nº 82.791 do 2º RGI e IPTU nº 0.911.686-4. Avaliação homologada em R$ 1.220.000,00. 1º Leilão em 27/10/2026 às 11:30h por R$ 1.220.000,00 e 2º Leilão em 29/10/2026 às 11:30h com lance inicial de 50% por R$ 610.000,00 (apenas R$ 12.200,00/m² na Gávea).',
+        p1Label: '1ª Praça (27/10/2026):',
+        p1Val: 'R$ 1.220.000,00',
+        p2Label: '2ª Praça (29/10/2026):',
+        p2Val: 'R$ 610.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86-apto-104/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20104%20na%20Rua%20Marqu%C3%AAs%20de%20S%C3%A3o%20Vicente%2086%20na%20G%C3%A1vea%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Glória (RJ)',
+        title: 'Leilão Judicial na Glória — Rua Santo Amaro nº 172 — Apto 205 (62 m²)',
+        desc: 'Apartamento de 62 m² privativos (unidade 205) em tradicional edifício residencial de 1952 situado na valorizada Rua Santo Amaro nº 172, no histórico bairro da Glória, Rio de Janeiro/RJ. Prédio de 9 andares (12 por andar) com garagem coletiva, salão de festas e 2 elevadores conservados, a passos do Metrô Glória, Aterro do Flamengo, Catete e Centro. Matrícula nº 26.398 do 9º RGI e IPTU nº 1.336.870-9. Avaliação homologada em R$ 479.680,00. 1º Leilão em 04/11/2026 às 12:00h por R$ 479.680,00 e 2º Leilão em 11/11/2026 às 12:00h com lance inicial de 50% por R$ 239.840,00 (apenas ~R$ 3.868,38/m² na Zona Sul carioca).',
+        p1Label: '1ª Praça (04/11/2026):',
+        p1Val: 'R$ 479.680,00',
+        p2Label: '2ª Praça (11/11/2026):',
+        p2Val: 'R$ 239.840,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20205%20na%20Rua%20Santo%20Amaro%20172%20na%20Gl%C3%B3ria%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Jardim Botânico (RJ)',
         title: 'Leilão Judicial no Jardim Botânico — Rua Engenheiro Pena Chaves nº 36 — Apto 402 (80 m²)',
         desc: 'Apartamento de 80 m² privativos (unidade 402) em tradicional edifício residencial de 1973 situado na aprazível e arborizada Rua Engenheiro Pena Chaves nº 36, no nobre bairro do Jardim Botânico, Zona Sul do Rio de Janeiro. Prédio com 1 elevador e portaria com controle de acesso presencial em funcionamento até às 16:00 horas, a poucos passos da Lagoa Rodrigo de Freitas, Parque Lage e renomado polo gastronômico. Matrícula nº 67.628 do 2º RGI e IPTU nº 1.183.959-4. Avaliação homologada em R$ 1.350.000,00. 1º Leilão em 03/11/2026 às 12:30h por R$ 1.350.000,00 e 2º Leilão em 05/11/2026 às 12:30h com lance inicial de 50% por R$ 675.000,00 (apenas ~R$ 8.437,50/m² no Jardim Botânico).',
@@ -1109,6 +1142,39 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Flamengo (RJ)',
+        title: 'Subasta Judicial en Flamengo — Calle Almirante Tamandaré nº 21 — Apto 1101 (119 m²)',
+        desc: 'Apartamento de 119 m² privativos (unidad 1101 en piso 11) en clásico edificio residencial en Calle Almirante Tamandaré nº 21, Flamengo, Zona Sur de Río de Janeiro. Edificio de 12 plantas con solo 2 apartamentos por piso, portería 24h y 2 ascensores, a pasos del Parque do Flamengo y Metro Largo do Machado. Matrícula nº 104.544 del 9º Registro e IPTU nº 0.354.547-2. Tasación de R$ 1.200.000,00. 1ª Subasta el 06/11/2026 a las 13:20h por R$ 1.200.000,00 y 2ª Subasta el 10/11/2026 a las 13:20h con puja inicial del 50% por R$ 600.000,00.',
+        p1Label: '1ª Subasta (06/11/2026):',
+        p1Val: 'R$ 1.200.000,00',
+        p2Label: '2ª Subasta (10/11/2026):',
+        p2Val: 'R$ 600.000,00 (50% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201101%20en%20Calle%20Almirante%20Tamandar%C3%A9%2021%20en%20Flamengo%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Gávea (RJ)',
+        title: 'Subasta Judicial en Gávea — Calle Marquês de São Vicente nº 86 — Apto 104 (50 m² con Área Exterior)',
+        desc: 'Apartamento de 50 m² privativos (unidad 104) en inmejorable ubicación en Calle Marquês de São Vicente nº 86, Gávea, Zona Sur de Río de Janeiro. Inmueble próximo a la PUC-Rio y comercios, compuesto por salón, 1 dormitorio, oficina/despacho, cocina, baño y patio exterior privado en buen estado de conservación aparente. Matrícula nº 82.791 del 2º Registro e IPTU nº 0.911.686-4. Tasación de R$ 1.220.000,00. 1ª Subasta el 27/10/2026 a las 11:30h por R$ 1.220.000,00 y 2ª Subasta el 29/10/2026 a las 11:30h con puja inicial del 50% por R$ 610.000,00.',
+        p1Label: '1ª Subasta (27/10/2026):',
+        p1Val: 'R$ 1.220.000,00',
+        p2Label: '2ª Subasta (29/10/2026):',
+        p2Val: 'R$ 610.000,00 (50% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86-apto-104/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20104%20en%20Calle%20Marqu%C3%AAs%20de%20S%C3%A3o%20Vicente%2086%20en%20G%C3%A1vea%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Glória (RJ)',
+        title: 'Subasta Judicial en Glória — Calle Santo Amaro nº 172 — Apto 205 (62 m²)',
+        desc: 'Apartamento de 62 m² privativos (unidad 205) en clásico edificio residencial de 1952 situado en Calle Santo Amaro nº 172, en el barrio de Glória, Río de Janeiro/RJ. Edificio de 9 plantas (12 por piso) con garaje, salón social y 2 ascensores bien conservados, junto al Metro Glória, Aterro do Flamengo y Centro. Matrícula nº 26.398 del 9º Registro e IPTU nº 1.336.870-9. Tasación de R$ 479.680,00. 1ª Subasta el 04/11/2026 a las 12:00h por R$ 479.680,00 y 2ª Subasta el 11/11/2026 a las 12:00h con puja inicial del 50% por R$ 239.840,00.',
+        p1Label: '1ª Subasta (04/11/2026):',
+        p1Val: 'R$ 479.680,00',
+        p2Label: '2ª Subasta (11/11/2026):',
+        p2Val: 'R$ 239.840,00 (50% de descuento)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20205%20en%20Calle%20Santo%20Amaro%20172%20en%20Gl%C3%B3ria%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Jardim Botânico (RJ)',
         title: 'Subasta Judicial en Jardim Botânico — Calle Engenheiro Pena Chaves nº 36 — Apto 402 (80 m²)',
         desc: 'Apartamento de 80 m² privativos (unidad 402) en clásico edificio residencial de 1973 situado en Calle Engenheiro Pena Chaves nº 36, en el exclusivo y arbolado barrio de Jardim Botânico, Zona Sur de Río de Janeiro. Edificio con 1 ascensor y portería con control presencial hasta las 16:00 horas, a pasos de la Laguna Rodrigo de Freitas y Parque Lage. Matrícula nº 67.628 del 2º Registro e IPTU nº 1.183.959-4. Tasación oficial de R$ 1.350.000,00. 1ª Subasta el 03/11/2026 a las 12:30h por R$ 1.350.000,00 y 2ª Subasta el 05/11/2026 a las 12:30h con puja inicial del 50% por R$ 675.000,00.',
@@ -2033,6 +2099,39 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Flamengo (RJ)',
+        title: 'Judicial Auction in Flamengo — Rua Almirante Tamandaré #21 — Apt 1101 (119 sqm)',
+        desc: 'Prime 119 sqm (1,281 sq ft) private residential unit (Apartment 1101 / 11th floor) in a classic 12-story building at Rua Almirante Tamandaré #21, in upscale Flamengo, Rio de Janeiro South Zone. High-floor unit featuring only 2 apartments per floor, 24-hour concierge, and 2 elevators, steps from Aterro do Flamengo park and Largo do Machado Metro. 9th Land Registry Title #104.544 and IPTU #0.354.547-2. Appraisal: R$ 1,200,000.00. 1st Auction on 11/06/2026 at 1:20 PM at R$ 1,200,000.00; 2nd Auction on 11/10/2026 at 1:20 PM starting at 50% discount for R$ 600,000.00 (only ~R$ 5,042.01/sqm).',
+        p1Label: '1st Auction (11/06/2026):',
+        p1Val: 'R$ 1,200,000.00',
+        p2Label: '2nd Auction (11/10/2026):',
+        p2Val: 'R$ 600,000.00 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%201101%20at%20Rua%20Almirante%20Tamandar%C3%A9%2021%20in%20Flamengo%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Gávea (RJ)',
+        title: 'Judicial Auction in Gávea — Rua Marquês de São Vicente #86 — Apt 104 (50 sqm with Outdoor Area)',
+        desc: 'Prime 50 sqm (538 sq ft) private residential unit (Apartment 104) in an exceptional location at Rua Marquês de São Vicente #86, in prestigious Gávea, Rio de Janeiro South Zone. Located steps from PUC-Rio University and local shops, featuring living room, 1 bedroom, home office space, kitchen, bathroom, and exclusive private outdoor patio in good apparent condition. 2nd Land Registry Title #82.791 and IPTU #0.911.686-4. Appraisal: R$ 1,220,000.00. 1st Auction on 10/27/2026 at 11:30 AM at R$ 1,220,000.00; 2nd Auction on 10/29/2026 at 11:30 AM starting at 50% discount for R$ 610,000.00 (only R$ 12,200.00/sqm).',
+        p1Label: '1st Auction (10/27/2026):',
+        p1Val: 'R$ 1,220,000.00',
+        p2Label: '2nd Auction (10/29/2026):',
+        p2Val: 'R$ 610,000.00 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86-apto-104/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20104%20at%20Rua%20Marqu%C3%AAs%20de%20S%C3%A3o%20Vicente%2086%20in%20G%C3%A1vea%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Glória (RJ)',
+        title: 'Judicial Auction in Glória — Rua Santo Amaro #172 — Apt 205 (62 sqm)',
+        desc: 'Prime 62 sqm (667 sq ft) private residential unit (Apartment 205) in a traditional 1952 residential building at Rua Santo Amaro #172, in the central neighborhood of Glória, Rio de Janeiro South Zone. Nine-story building with garage, event room, and 2 elevators, steps from Glória Subway Station and Aterro do Flamengo. 9th Land Registry Title #26.398 and IPTU #1.336.870-9. Appraisal: R$ 479,680.00. 1st Auction on 11/04/2026 at 12:00 PM at R$ 479,680.00; 2nd Auction on 11/11/2026 at 12:00 PM starting at 50% discount for R$ 239,840.00 (only ~R$ 3,868.38/sqm).',
+        p1Label: '1st Auction (11/04/2026):',
+        p1Val: 'R$ 479,680.00',
+        p2Label: '2nd Auction (11/11/2026):',
+        p2Val: 'R$ 239,840.00 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20205%20at%20Rua%20Santo%20Amaro%20172%20in%20Gl%C3%B3ria%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Jardim Botânico (RJ)',
         title: 'Judicial Auction in Jardim Botânico — Rua Engenheiro Pena Chaves #36 — Apt 402 (80 sqm)',

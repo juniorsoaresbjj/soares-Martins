@@ -6649,6 +6649,309 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Jardim Botânico auction?", a: "We conduct exhaustive due diligence on Title #67.628 (2nd Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
         ]
       }
+    },
+    'gloria-santo-amaro-172-apto-205': {
+      pt: {
+        title: 'Leilão Judicial na Glória — Rua Santo Amaro nº 172 — Apto 205 (62 m²)',
+        subtitle: 'Rua Santo Amaro, nº 172, Apartamento 205 — Glória, Rio de Janeiro/RJ | 62 m² • Construção de 1952 • Prédio de 9 Andares com Garagem, Salão de Festas e 2 Elevadores • 9º Ofício RGI Matrícula nº 26.398 • IPTU: 1.336.870-9 • Avaliação: R$ 479.680,00 • 1º Leilão: 04/11/2026 às 12:00h por R$ 479.680,00 • 2º Leilão: 11/11/2026 às 12:00h por R$ 239.840,00 (50% de Desconto)',
+        address: 'Rua Santo Amaro, nº 172, Apartamento 205 — Glória, Rio de Janeiro - RJ',
+        p1Date: '04/11/2026 às 12:00h',
+        p2Date: '11/11/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1.336.870-9',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 26.398)',
+        val: 'R$ 479.680,00',
+        p2Val: 'R$ 239.840,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 62 m² de área edificada privativa correspondente à unidade 205 do tradicional edifício residencial situado na Rua Santo Amaro nº 172, no histórico e valorizado bairro da Glória, Zona Sul do Rio de Janeiro. Edificação datada de 1952, estruturada em nove andares com doze apartamentos por pavimento, dispondo de garagem coletiva, salão de festas e dois elevadores (social e de serviço em bom estado de conservação). Localização privilegiada com fácil mobilidade urbana, próximo ao Metrô Glória, Aterro do Flamengo, Outeiro da Glória, Lapa e Centro financeiro. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 26.398 e inscrição municipal IPTU nº 1.336.870-9. Avaliação judicial oficial homologada pelo juízo em R$ 479.680,00. 1º Leilão em 04/11/2026 às 12:00h por R$ 479.680,00 e 2º Leilão em 11/11/2026 às 12:00h com lance inicial de 50% por R$ 239.840,00 (excelente oportunidade a apenas ~R$ 3.868,38/m² na Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Santo Amaro nº 172, Apto 205 (Glória)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 205, situado na Rua Santo Amaro nº 172, Glória, Rio de Janeiro/RJ. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 26.398 e inscrição municipal IPTU nº 1.336.870-9.' },
+            { title: 'Dimensões e Edificação', text: '62 m² de área privativa no 2º pavimento. Edifício construído em 1952, com 9 andares, 12 apartamentos por andar, garagem, salão de festas e dois elevadores (social e serviço) bem conservados.' },
+            { title: 'Localização Estratégica na Glória', text: 'Próximo à estação do Metrô Glória, Aterro do Flamengo, Marina da Glória, polo cultural da Lapa e Centro da cidade.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 04/11/2026 às 12:00h (Lance inicial: R$ 479.680,00 — 100% da avaliação). 2º Leilão: 11/11/2026 às 12:00h (Lance inicial: R$ 239.840,00 — 50% de desconto sobre a avaliação).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 59.960,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial sobre o imóvel.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o bem entregue livre de ônus tributários ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 205 na Rua Santo Amaro 172?", a: "O imóvel possui avaliação judicial homologada em R$ 479.680,00. No 1º Leilão (04/11/2026 às 12:00h), o lance inicial é o valor integral da avaliação (R$ 479.680,00). No 2º Leilão (11/11/2026 às 12:00h), o lance inicial parte com 50% de desconto, fixado em R$ 239.840,00." },
+          { q: "Quais são as características do edifício e do apartamento?", a: "O apartamento possui 62 m² de área privativa no 2º pavimento. O edifício é uma construção datada de 1952, composto por 9 andares com 12 apartamentos por andar, dispondo de garagem, salão de festas e dois elevadores (social e serviço) em bom estado de conservação." },
+          { q: "Onde o imóvel está registrado e qual a inscrição municipal?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 26.398 e possui inscrição municipal IPTU nº 1.336.870-9." },
+          { q: "Como é a localização da Rua Santo Amaro na Glória?", a: "A Rua Santo Amaro é uma via tradicional da Glória, com excelente conectividade: a poucos passos do Metrô Glória, com rápida integração ao Aterro do Flamengo, Catete, Santa Teresa, Lapa e Centro do Rio, combinando valor histórico com conveniência e alta demanda para locação." },
+          { q: "É possível adquirir o apartamento de forma parcelada pelo CPC?", a: "Sim. Pelo artigo 895 do Código de Processo Civil (CPC), o interessado pode submeter proposta de parcelamento com entrada mínima de 25% (R$ 59.960,00 na 2ª praça) e o saldo em até 30 prestações mensais corrigidas com garantia hipotecária sobre o próprio imóvel." },
+          { q: "O arrematante responde por débitos anteriores de IPTU?", a: "Não. Conforme o parágrafo único do artigo 130 do Código Tributário Nacional (CTN), eventuais dívidas fiscais anteriores de IPTU sub-rogam-se sobre o valor arrecadado no leilão." },
+          { q: "Por que contratar a assessoria da Soares Martins Advogados para este leilão?", a: "Realizamos auditoria completa da Matrícula nº 26.398 no 9º RGI, certificamos a higidez das intimações judiciais no processo do TJRJ, estruturamos a estratégia de lances e parcelamento, e conduzimos todas as providências pós-leilão até o registro da carta de arrematação e a entrega das chaves." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Glória — Calle Santo Amaro nº 172 — Apto 205 (62 m²)',
+        subtitle: 'Calle Santo Amaro, nº 172, Apartamento 205 — Glória, Río de Janeiro/RJ | 62 m² • Construcción de 1952 • Edificio de 9 Plantas con Garaje, Salón de Eventos y 2 Ascensores • 9º Registro Matrícula nº 26.398 • IPTU: 1.336.870-9 • Tasación: R$ 479.680,00 • 1ª Subasta: 04/11/2026 a las 12:00h por R$ 479.680,00 • 2ª Subasta: 11/11/2026 a las 12:00h por R$ 239.840,00 (50% de Descuento)',
+        address: 'Calle Santo Amaro, nº 172, Apartamento 205 — Glória, Río de Janeiro - RJ',
+        p1Date: '04/11/2026 a las 12:00h',
+        p2Date: '11/11/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1.336.870-9',
+        rgi: '9º Registro de Inmuebles de Río de Janeiro (Matrícula nº 26.398)',
+        val: 'R$ 479.680,00',
+        p2Val: 'R$ 239.840,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 62 m² privativos correspondiente a la unidad 205 en Calle Santo Amaro nº 172, Glória, Río de Janeiro/RJ. Edificio de 1952 de nueve plantas con 12 apartamentos por piso, con garaje, salón de fiestas y dos ascensores (social y servicio) en buen estado. Cerca de la estación de Metro Glória y el Parque Flamengo. Registrado en el 9º Registro bajo Matrícula 26.398 e IPTU 1.336.870-9. Tasación de R$ 479.680,00. 1ª Subasta: 04/11/2026 a las 12:00h por R$ 479.680,00 y 2ª Subasta: 11/11/2026 a las 12:00h por R$ 239.840,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Santo Amaro nº 172, Apto 205 (Glória)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 205 en Calle Santo Amaro nº 172, Glória, Río de Janeiro/RJ. Matrícula 26.398 del 9º Registro e IPTU 1.336.870-9.' },
+            { title: 'Dimensiones y Edificio', text: '62 m² privativos. Edificio de 1952 con 9 plantas, garaje, salón de eventos y 2 ascensores bien conservados.' },
+            { title: 'Ubicación Estratégica en Glória', text: 'Junto al Metro Glória, Aterro do Flamengo y Centro de Río de Janeiro.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 04/11/2026 a las 12:00h por R$ 479.680,00. 2ª Subasta: 11/11/2026 a las 12:00h por R$ 239.840,00 (50% de descuento).' },
+            { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada (R$ 59.960,00) y hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Deudas anteriores de impuestos quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Santo Amaro 172 Apto 205?", a: "La 1ª Subasta es el 04/11/2026 a las 12:00h por R$ 479.680,00. La 2ª Subasta es el 11/11/2026 a las 12:00h por R$ 239.840,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cuáles son las características del edificio?", a: "Edificio de 1952 con 9 plantas y 12 unidades por piso, con garaje, salón social y 2 ascensores en buen estado en el tradicional barrio de Glória." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 26.398 en el 9º Registro, controlamos las notificaciones en TJRJ y gestionamos la entrega judicial de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Glória — Rua Santo Amaro #172 — Apt 205 (62 sqm)',
+        subtitle: 'Rua Santo Amaro, #172, Apt 205 — Glória, Rio de Janeiro/RJ | 62 sqm (667 sq ft) • 1952 Building • 9 Floors with Garage, Party Hall & 2 Elevators • 9th Land Registry Title #26.398 • IPTU: 1.336.870-9 • Valuation: R$ 479,680.00 • 1st Auction: 11/04/2026 at 12:00 PM at R$ 479,680.00 • 2nd Auction: 11/11/2026 at 12:00 PM at R$ 239,840.00 (50% Discount)',
+        address: 'Rua Santo Amaro, #172, Apt 205 — Glória, Rio de Janeiro - RJ',
+        p1Date: '11/04/2026 at 12:00 PM',
+        p2Date: '11/11/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1.336.870-9',
+        rgi: '9th Land Registry Office of Rio de Janeiro (Title #26.398)',
+        val: 'R$ 479,680.00',
+        p2Val: 'R$ 239,840.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 62 sqm (667 sq ft) private residential apartment (Unit 205) in a traditional 1952 residential building at Rua Santo Amaro #172, in the historic and central neighborhood of Glória, Rio de Janeiro South Zone. Nine-story building with 12 units per floor, featuring parking garage, party hall, and 2 well-maintained elevators (passenger and freight). Steps from Glória Metro Station, Aterro do Flamengo, and Downtown Rio. Recorded at the 9th Land Registry under Title #26.398 and municipal tax IPTU #1.336.870-9. Official appraisal: R$ 479,680.00. 1st Auction on 11/04/2026 at 12:00 PM at R$ 479,680.00; 2nd Auction on 11/11/2026 at 12:00 PM starting at 50% discount for R$ 239,840.00 (only ~R$ 3,868.38/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Santo Amaro #172 / Apt 205 (Glória)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 205 at Rua Santo Amaro #172, Glória, Rio de Janeiro/RJ. Recorded at 9th Land Registry under Title #26.398 and municipal tax IPTU #1.336.870-9.' },
+            { title: 'Dimensions & Building Features', text: '62 sqm private area. 1952 residential building with 9 floors, parking garage, event room, and 2 well-maintained elevators.' },
+            { title: 'Strategic Location in Glória', text: 'Steps from Glória Subway Station, Aterro do Flamengo park, and Rio de Janeiro Downtown.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/04/2026 at 12:00 PM at R$ 479,680.00. 2nd Auction: 11/11/2026 at 12:00 PM starting at R$ 239,840.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Santo Amaro 172 Apt 205?", a: "The 1st Auction is on 11/04/2026 at 12:00 PM at R$ 479,680.00. The 2nd Auction is on 11/11/2026 at 12:00 PM starting at R$ 239,840.00 (50% discount off official appraisal)." },
+          { q: "What are the building and apartment features?", a: "62 sqm private area, 1952 building with 9 stories, 12 units per floor, parking garage, party room, and 2 elevators in Glória neighborhood." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Glória auction?", a: "We conduct exhaustive due diligence on Title #26.398 (9th Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
+    },
+    'gavea-marques-sao-vicente-86-apto-104': {
+      pt: {
+        title: 'Leilão Judicial na Gávea — Rua Marquês de São Vicente nº 86 — Apto 104 (50 m² com Área Externa)',
+        subtitle: 'Rua Marquês de São Vicente, nº 86, Apartamento 104 — Gávea, Rio de Janeiro/RJ | 50 m² • Sala, 1 Quarto, Escritório, Cozinha e Área Externa • Próximo à PUC-Rio e Comércio • 2º Ofício RGI Matrícula nº 82.791 • IPTU: 0.911.686-4 • Avaliação: R$ 1.220.000,00 • 1º Leilão: 27/10/2026 às 11:30h por R$ 1.220.000,00 • 2º Leilão: 29/10/2026 às 11:30h por R$ 610.000,00 (50% de Desconto)',
+        address: 'Rua Marquês de São Vicente, nº 86, Apartamento 104 — Gávea, Rio de Janeiro - RJ',
+        p1Date: '27/10/2026 às 11:30h',
+        p2Date: '29/10/2026 às 11:30h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.911.686-4',
+        rgi: '2º Ofício de Registro de Imóveis (Matrícula nº 82.791)',
+        val: 'R$ 1.220.000,00',
+        p2Val: 'R$ 610.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 50 m² de área privativa correspondente à unidade 104 do edifício situado na nobre Rua Marquês de São Vicente nº 86, no exclusivo bairro da Gávea, Zona Sul do Rio de Janeiro. Imóvel com localização excepcional, próximo à PUC-Rio (Pontifícia Universidade Católica) e ao comércio consolidado da região, com 1 pavimento constituído por: sala de estar, 1 dormitório, 1 ambiente de escritório (home office), cozinha, banheiro e área externa privativa, estando o mesmo em bom estado de conservação aparente. Devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 82.791 e inscrição municipal IPTU nº 0.911.686-4. Avaliação judicial oficial homologada pelo juízo em R$ 1.220.000,00. 1º Leilão em 27/10/2026 às 11:30h por R$ 1.220.000,00 e 2º Leilão em 29/10/2026 às 11:30h com lance inicial de 50% por R$ 610.000,00 (oportunidade com m² a apenas R$ 12.200,00/m² em um dos bairros mais valorizados da Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Marquês de São Vicente nº 86, Apto 104 (Gávea)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 104, situado na Rua Marquês de São Vicente nº 86, Gávea, Rio de Janeiro/RJ. Devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis sob a Matrícula nº 82.791 e inscrição municipal IPTU nº 0.911.686-4.' },
+            { title: 'Distribuição Interna e Área Externa', text: '50 m² de área privativa distribuídos em sala de estar, 1 quarto, 1 ambiente de escritório privativo, cozinha, banheiro e área externa privativa, em bom estado aparente de conservação.' },
+            { title: 'Localização Privilegiada na Gávea', text: 'Imóvel com ótima localização, vizinho imediato à PUC-Rio, Shopping da Gávea, praça Santos Dumont, teatros e farto comércio da região.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 27/10/2026 às 11:30h (Lance inicial: R$ 1.220.000,00 — 100% da avaliação). 2º Leilão: 29/10/2026 às 11:30h (Lance inicial: R$ 610.000,00 — 50% de desconto sobre a avaliação).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 152.500,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial sobre o imóvel.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o bem entregue livre de ônus tributários ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 104 na Rua Marquês de São Vicente 86?", a: "O imóvel possui avaliação judicial homologada em R$ 1.220.000,00. No 1º Leilão (27/10/2026 às 11:30h), o lance inicial é o valor integral da avaliação (R$ 1.220.000,00). No 2º Leilão (29/10/2026 às 11:30h), o lance inicial parte com 50% de desconto, fixado em R$ 610.000,00." },
+          { q: "Quais são as características e distribuição do apartamento?", a: "Com 50 m² de área privativa, o imóvel é constituído por 1 pavimento com sala de estar, 1 dormitório, 1 ambiente de escritório (home office), cozinha, banheiro e diferenciada área externa privativa, encontrando-se em bom estado de conservação aparente." },
+          { q: "Onde o imóvel está registrado e qual a inscrição municipal?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 82.791 e possui inscrição municipal IPTU nº 0.911.686-4." },
+          { q: "Por que a localização na Rua Marquês de São Vicente é tão valorizada?", a: "A Rua Marquês de São Vicente é o coração da Gávea. O imóvel fica a passos da PUC-Rio, atraindo intensa procura de locação para estudantes, pesquisadores e executivos, além de estar ao lado do Shopping da Gávea, teatros e polo gastronômico do Baixo Gávea." },
+          { q: "É possível adquirir o apartamento de forma parcelada pelo CPC?", a: "Sim. Pelo artigo 895 do Código de Processo Civil (CPC), o interessado pode submeter proposta de parcelamento com entrada mínima de 25% (R$ 152.500,00 na 2ª praça) e o saldo em até 30 prestações mensais corrigidas com garantia hipotecária sobre o próprio imóvel." },
+          { q: "O arrematante responde por débitos fiscais anteriores de IPTU?", a: "Não. Conforme o parágrafo único do artigo 130 do Código Tributário Nacional (CTN), eventuais dívidas tributárias anteriores de IPTU sub-rogam-se sobre o valor arrecadado no leilão." },
+          { q: "Por que contratar a assessoria da Soares Martins Advogados para este leilão na Gávea?", a: "Realizamos auditoria completa da Matrícula nº 82.791 no 2º RGI, certificamos a higidez das intimações judiciais no processo do TJRJ, estruturamos a estratégia de lances e parcelamento, e conduzimos todas as providências pós-leilão até o registro da carta de arrematação e a entrega das chaves." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Gávea — Calle Marquês de São Vicente nº 86 — Apto 104 (50 m² con Área Exterior)',
+        subtitle: 'Calle Marquês de São Vicente, nº 86, Apartamento 104 — Gávea, Río de Janeiro/RJ | 50 m² • Salón, 1 Dormitorio, Oficina, Cocina y Área Externa • Junto a PUC-Rio y Comercios • 2º Registro Matrícula nº 82.791 • IPTU: 0.911.686-4 • Tasación: R$ 1.220.000,00 • 1ª Subasta: 27/10/2026 a las 11:30h por R$ 1.220.000,00 • 2ª Subasta: 29/10/2026 a las 11:30h por R$ 610.000,00 (50% de Descuento)',
+        address: 'Calle Marquês de São Vicente, nº 86, Apartamento 104 — Gávea, Río de Janeiro - RJ',
+        p1Date: '27/10/2026 a las 11:30h',
+        p2Date: '29/10/2026 a las 11:30h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.911.686-4',
+        rgi: '2º Registro de Inmuebles de Río de Janeiro (Matrícula nº 82.791)',
+        val: 'R$ 1.220.000,00',
+        p2Val: 'R$ 610.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 50 m² privativos correspondiente a la unidad 104 en Calle Marquês de São Vicente nº 86, Gávea, Río de Janeiro/RJ. Ubicación privilegiada junto a la universidad PUC-Rio y comercios, compuesto por salón, 1 dormitorio, despacho/oficina, cocina, baño y patio exterior privado en buen estado de conservación. Matrícula 82.791 del 2º Registro e IPTU 0.911.686-4. Tasación de R$ 1.220.000,00. 1ª Subasta: 27/10/2026 a las 11:30h por R$ 1.220.000,00 y 2ª Subasta: 29/10/2026 a las 11:30h por R$ 610.000,00 (50% de descuento).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Marquês de São Vicente nº 86, Apto 104 (Gávea)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 104 en Calle Marquês de São Vicente nº 86, Gávea, Río de Janeiro/RJ. Matrícula 82.791 del 2º Registro e IPTU 0.911.686-4.' },
+            { title: 'Distribución y Área Externa', text: '50 m² privativos: salón, 1 dormitorio, oficina, cocina y terraza/área externa privada en buen estado.' },
+            { title: 'Ubicación Inmejorable en Gávea', text: 'Junto a la PUC-Rio, Shopping da Gávea y polo gastronómico del Baixo Gávea.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 27/10/2026 a las 11:30h por R$ 1.220.000,00. 2ª Subasta: 29/10/2026 a las 11:30h por R$ 610.000,00 (50% de descuento).' },
+            { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada (R$ 152.500,00 en 2ª subasta) y hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Deudas anteriores de impuestos quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Marquês de São Vicente 86 Apto 104?", a: "La 1ª Subasta es el 27/10/2026 a las 11:30h por R$ 1.220.000,00. La 2ª Subasta es el 29/10/2026 a las 11:30h por R$ 610.000,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cuáles son las características del apartamento?", a: "50 m² privativos con sala, 1 dormitorio, ambiente de oficina, cocina y patio externo privado, en buen estado de conservación en Gávea." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 82.791 en el 2º Registro, controlamos las notificaciones en TJRJ y gestionamos la entrega judicial de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Gávea — Rua Marquês de São Vicente #86 — Apt 104 (50 sqm with Outdoor Area)',
+        subtitle: 'Rua Marquês de São Vicente, #86, Apt 104 — Gávea, Rio de Janeiro/RJ | 50 sqm (538 sq ft) • Living Room, 1 Bedroom, Office Space, Kitchen & Private Outdoor Patio • Next to PUC-Rio University & Shops • 2nd Land Registry Title #82.791 • IPTU: 0.911.686-4 • Appraisal: R$ 1,220,000.00 • 1st Auction: 10/27/2026 at 11:30 AM at R$ 1,220,000.00 • 2nd Auction: 10/29/2026 at 11:30 AM at R$ 610,000.00 (50% Discount)',
+        address: 'Rua Marquês de São Vicente, #86, Apt 104 — Gávea, Rio de Janeiro - RJ',
+        p1Date: '10/27/2026 at 11:30 AM',
+        p2Date: '10/29/2026 at 11:30 AM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.911.686-4',
+        rgi: '2nd Land Registry Office of Rio de Janeiro (Title #82.791)',
+        val: 'R$ 1,220,000.00',
+        p2Val: 'R$ 610,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 50 sqm (538 sq ft) private residential apartment (Unit 104) at Rua Marquês de São Vicente #86, in prestigious Gávea, Rio de Janeiro South Zone. Prime location steps from PUC-Rio University, Shopping da Gávea, theaters, and vibrant local commerce. Layout includes living room, 1 bedroom, home office space, kitchen, bathroom, and a private outdoor area/patio in good apparent condition. Recorded at the 2nd Land Registry under Title #82.791 and municipal tax IPTU #0.911.686-4. Official appraisal: R$ 1,220,000.00. 1st Auction on 10/27/2026 at 11:30 AM at R$ 1,220,000.00; 2nd Auction on 10/29/2026 at 11:30 AM starting at 50% discount for R$ 610,000.00 (only R$ 12,200.00/sqm in Gávea, with tremendous rental demand).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Marquês de São Vicente #86 / Apt 104 (Gávea)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 104 at Rua Marquês de São Vicente #86, Gávea, Rio de Janeiro/RJ. Recorded at 2nd Land Registry under Title #82.791 and municipal tax IPTU #0.911.686-4.' },
+            { title: 'Layout & Private Outdoor Patio', text: '50 sqm private area comprising living room, 1 bedroom, home office room, kitchen, bathroom, and exclusive outdoor patio in good condition.' },
+            { title: 'Prime Location in Gávea', text: 'Steps from PUC-Rio University, Shopping da Gávea, Santos Dumont square, and fine dining.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 10/27/2026 at 11:30 AM at R$ 1,220,000.00. 2nd Auction: 10/29/2026 at 11:30 AM at R$ 610,000.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Marquês de São Vicente 86 Apt 104?", a: "The 1st Auction is on 10/27/2026 at 11:30 AM at R$ 1,220,000.00. The 2nd Auction is on 10/29/2026 at 11:30 AM starting at R$ 610,000.00 (50% discount off official appraisal)." },
+          { q: "What are the apartment features?", a: "50 sqm private area featuring living room, 1 bedroom, dedicated home office space, kitchen, and exclusive outdoor patio in Gávea." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Gávea auction?", a: "We conduct exhaustive due diligence on Title #82.791 (2nd Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
+    },
+    'flamengo-almirante-tamandare-21-apto-1101': {
+      pt: {
+        title: 'Leilão Judicial no Flamengo — Rua Almirante Tamandaré nº 21 — Apto 1101 (119 m²)',
+        subtitle: 'Rua Almirante Tamandaré, nº 21, Apartamento 1101 — Flamengo, Rio de Janeiro/RJ | 119 m² • 11º Andar • Prédio de 12 Pavimentos com Apenas 2 Aptos por Andar • Portaria 24h e 2 Elevadores • 9º Ofício RGI Matrícula nº 104.544 • IPTU: 0.354.547-2 • Avaliação: R$ 1.200.000,00 • 1º Leilão: 06/11/2026 às 13:20h por R$ 1.200.000,00 • 2º Leilão: 10/11/2026 às 13:20h por R$ 600.000,00 (50% de Desconto)',
+        address: 'Rua Almirante Tamandaré, nº 21, Apartamento 1101 — Flamengo, Rio de Janeiro - RJ',
+        p1Date: '06/11/2026 às 13:20h',
+        p2Date: '10/11/2026 às 13:20h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.354.547-2',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 104.544)',
+        val: 'R$ 1.200.000,00',
+        p2Val: 'R$ 600.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial com ampla área privativa de 119 m² correspondente à unidade 1101 (11º andar / penúltimo pavimento) do tradicional edifício situado na prestigiada Rua Almirante Tamandaré nº 21, no coração do bairro do Flamengo, Zona Sul do Rio de Janeiro. Edificação residencial estruturada em 12 pavimentos com a notável exclusividade de apenas 02 apartamentos por andar, oferecendo portaria com atendimento 24 horas e 2 elevadores. Excelente luminosidade natural e ventilação cruzada em andar alto, a poucos minutos a pé do Aterro do Flamengo, Praia do Flamengo, estação de Metrô Largo do Machado/Catete e farto polo gastronômico e de serviços. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 104.544 e inscrição municipal IPTU nº 0.354.547-2. Avaliação judicial oficial homologada pelo juízo em R$ 1.200.000,00. 1º Leilão em 06/11/2026 às 13:20h por R$ 1.200.000,00 e 2º Leilão em 10/11/2026 às 13:20h com lance inicial de 50% por R$ 600.000,00 (oportunidade com m² a apenas ~R$ 5.042,01/m² na Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Almirante Tamandaré nº 21, Apto 1101 (Flamengo)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 1101, situado na Rua Almirante Tamandaré nº 21, Flamengo, Rio de Janeiro/RJ. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 104.544 e inscrição municipal IPTU nº 0.354.547-2.' },
+            { title: 'Dimensões e Características da Edificação', text: '119 m² de área privativa no 11º andar (penúltimo pavimento). Edifício clássico de 12 andares com apenas 02 apartamentos por andar, portaria com controle de acesso 24 horas e 02 elevadores.' },
+            { title: 'Localização Privilegiada no Flamengo', text: 'A passos do Parque do Flamengo (Aterro), Praia do Flamengo, estação de Metrô Largo do Machado, polo cultural do Catete e Centro.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 06/11/2026 às 13:20h (Lance inicial: R$ 1.200.000,00 — 100% da avaliação). 2º Leilão: 10/11/2026 às 13:20h (Lance inicial: R$ 600.000,00 — 50% de desconto sobre a avaliação).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 150.000,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial sobre o imóvel.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o bem entregue livre de ônus tributários ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 1101 na Rua Almirante Tamandaré 21?", a: "O imóvel possui avaliação judicial homologada em R$ 1.200.000,00. No 1º Leilão (06/11/2026 às 13:20h), o lance inicial é o valor integral da avaliação (R$ 1.200.000,00). No 2º Leilão (10/11/2026 às 13:20h), o lance inicial parte com 50% de desconto, fixado em R$ 600.000,00." },
+          { q: "Quais são as características da edificação e do apartamento?", a: "O apartamento conta com generosos 119 m² de área privativa no 11º andar. O edifício possui 12 pavimentos, com a exclusividade de apenas 2 apartamentos por andar, portaria 24 horas e 2 elevadores." },
+          { q: "Onde o imóvel está registrado e qual a inscrição municipal?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 104.544 e possui inscrição municipal IPTU nº 0.354.547-2." },
+          { q: "Como é a localização da Rua Almirante Tamandaré no Flamengo?", a: "A Rua Almirante Tamandaré é uma das mais tradicionais e valorizadas do Flamengo, oferecendo acesso imediato ao Aterro do Flamengo para lazer e esportes ao ar livre, além de estar a passos das estações de Metrô Largo do Machado e Catete." },
+          { q: "É possível adquirir o apartamento de forma parcelada pelo CPC?", a: "Sim. Pelo artigo 895 do Código de Processo Civil (CPC), o interessado pode submeter proposta de parcelamento com entrada mínima de 25% (R$ 150.000,00 na 2ª praça) e o saldo em até 30 prestações mensais corrigidas com garantia hipotecária sobre o próprio imóvel." },
+          { q: "O arrematante responde por débitos anteriores de IPTU?", a: "Não. Conforme o parágrafo único do artigo 130 do Código Tributário Nacional (CTN), eventuais dívidas fiscais anteriores de IPTU sub-rogam-se sobre o valor arrecadado no leilão." },
+          { q: "Por que contratar a assessoria da Soares Martins Advogados para este leilão?", a: "Realizamos auditoria completa da Matrícula nº 104.544 no 9º RGI, certificamos a higidez das intimações judiciais no processo do TJRJ, estruturamos a estratégia de lances e parcelamento, e conduzimos todas as providências pós-leilão até o registro da carta de arrematação e a imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Flamengo — Calle Almirante Tamandaré nº 21 — Apto 1101 (119 m²)',
+        subtitle: 'Calle Almirante Tamandaré, nº 21, Apartamento 1101 — Flamengo, Río de Janeiro/RJ | 119 m² • Planta 11ª • Edificio de 12 Plantas con Solo 2 Apartamentos por Piso • Portería 24h y 2 Ascensores • 9º Registro Matrícula nº 104.544 • IPTU: 0.354.547-2 • Tasación: R$ 1.200.000,00 • 1ª Subasta: 06/11/2026 a las 13:20h por R$ 1.200.000,00 • 2ª Subasta: 10/11/2026 a las 13:20h por R$ 600.000,00 (50% de Descuento)',
+        address: 'Calle Almirante Tamandaré, nº 21, Apartamento 1101 — Flamengo, Río de Janeiro - RJ',
+        p1Date: '06/11/2026 a las 13:20h',
+        p2Date: '10/11/2026 a las 13:20h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.354.547-2',
+        rgi: '9º Registro de Inmuebles de Río de Janeiro (Matrícula nº 104.544)',
+        val: 'R$ 1.200.000,00',
+        p2Val: 'R$ 600.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 119 m² privativos correspondiente a la unidad 1101 (piso 11) en Calle Almirante Tamandaré nº 21, Flamengo, Río de Janeiro/RJ. Edificio de 12 plantas con solo 2 apartamentos por piso, portería 24 horas y 2 ascensores. A pasos del Parque do Flamengo y Metro Largo do Machado. Registrado en el 9º Registro bajo Matrícula 104.544 e IPTU 0.354.547-2. Tasación de R$ 1.200.000,00. 1ª Subasta: 06/11/2026 a las 13:20h por R$ 1.200.000,00 y 2ª Subasta: 10/11/2026 a las 13:20h por R$ 600.000,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Almirante Tamandaré nº 21, Apto 1101 (Flamengo)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 1101 en Calle Almirante Tamandaré nº 21, Flamengo, Río de Janeiro/RJ. Matrícula 104.544 del 9º Registro e IPTU 0.354.547-2.' },
+            { title: 'Dimensiones y Edificio', text: '119 m² privativos en piso 11. Edificio de 12 plantas con solo 2 departamentos por piso, portería 24 horas y 2 elevadores.' },
+            { title: 'Ubicación Inmejorable en Flamengo', text: 'A pasos del Parque do Flamengo, Playa y Metro Largo do Machado.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 06/11/2026 a las 13:20h por R$ 1.200.000,00. 2ª Subasta: 10/11/2026 a las 13:20h por R$ 600.000,00 (50% de descuento).' },
+            { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada (R$ 150.000,00 en 2ª subasta) y hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Deudas anteriores de impuestos quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Almirante Tamandaré 21 Apto 1101?", a: "La 1ª Subasta es el 06/11/2026 a las 13:20h por R$ 1.200.000,00. La 2ª Subasta es el 10/11/2026 a las 13:20h por R$ 600.000,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cuáles son las características del edificio?", a: "Edificio clásico de 12 plantas con solo 2 unidades por piso, portería 24h y 2 ascensores en Flamengo." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 104.544 en el 9º Registro, controlamos las notificaciones en TJRJ y gestionamos la entrega judicial de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Flamengo — Rua Almirante Tamandaré #21 — Apt 1101 (119 sqm)',
+        subtitle: 'Rua Almirante Tamandaré, #21, Apt 1101 — Flamengo, Rio de Janeiro/RJ | 119 sqm (1,281 sq ft) • 11th Floor • 12-Story Building with Only 2 Units per Floor • 24h Concierge & 2 Elevators • 9th Land Registry Title #104.544 • IPTU: 0.354.547-2 • Appraisal: R$ 1,200,000.00 • 1st Auction: 11/06/2026 at 1:20 PM at R$ 1,200,000.00 • 2nd Auction: 11/10/2026 at 1:20 PM at R$ 600,000.00 (50% Discount)',
+        address: 'Rua Almirante Tamandaré, #21, Apt 1101 — Flamengo, Rio de Janeiro - RJ',
+        p1Date: '11/06/2026 at 1:20 PM',
+        p2Date: '11/10/2026 at 1:20 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.354.547-2',
+        rgi: '9th Land Registry Office of Rio de Janeiro (Title #104.544)',
+        val: 'R$ 1,200,000.00',
+        p2Val: 'R$ 600,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 119 sqm (1,281 sq ft) private residential apartment (Unit 1101 / 11th floor) in a classic 12-story residential building located at Rua Almirante Tamandaré #21, in upscale Flamengo, Rio de Janeiro South Zone. High-floor unit with tremendous privacy, featuring only 2 units per floor, 24-hour concierge service, and 2 elevators. Steps from Aterro do Flamengo park, Flamengo beach, and Largo do Machado Metro Station. Recorded at 9th Land Registry under Title #104.544 and municipal tax IPTU #0.354.547-2. Official appraisal: R$ 1,200,000.00. 1st Auction on 11/06/2026 at 1:20 PM at R$ 1,200,000.00; 2nd Auction on 11/10/2026 at 1:20 PM starting at 50% discount for R$ 600,000.00 (only ~R$ 5,042.01/sqm in Flamengo).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Almirante Tamandaré #21 / Apt 1101 (Flamengo)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 1101 at Rua Almirante Tamandaré #21, Flamengo, Rio de Janeiro/RJ. Recorded at 9th Land Registry under Title #104.544 and municipal tax IPTU #0.354.547-2.' },
+            { title: 'Dimensions & Building Features', text: '119 sqm private area on the 11th floor. 12-story building with only 2 apartments per floor, 24h concierge, and 2 elevators.' },
+            { title: 'Prime Location in Flamengo', text: 'Steps from Aterro do Flamengo park, Flamengo beach, and Largo do Machado Subway Station.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/06/2026 at 1:20 PM at R$ 1,200,000.00. 2nd Auction: 11/10/2026 at 1:20 PM starting at R$ 600,000.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Almirante Tamandaré 21 Apt 1101?", a: "The 1st Auction is on 11/06/2026 at 1:20 PM at R$ 1,200,000.00. The 2nd Auction is on 11/10/2026 at 1:20 PM starting at R$ 600,000.00 (50% discount off official appraisal)." },
+          { q: "What are the building and apartment features?", a: "119 sqm private area on the 11th floor, 12-story building with only 2 units per floor, 24h concierge, and 2 elevators in Flamengo." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Flamengo auction?", a: "We conduct exhaustive due diligence on Title #104.544 (9th Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
     }
   };
 

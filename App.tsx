@@ -41,6 +41,9 @@ import CopacabanaNossaSenhora903AuctionPage from './components/CopacabanaNossaSe
 import CopacabanaDomingosFerreira10AuctionPage from './components/CopacabanaDomingosFerreira10AuctionPage';
 import CopacabanaDecioVilares265AuctionPage from './components/CopacabanaDecioVilares265AuctionPage';
 import JardimBotanicoPenaChaves36AuctionPage from './components/JardimBotanicoPenaChaves36AuctionPage';
+import GloriaSantoAmaro172AuctionPage from './components/GloriaSantoAmaro172AuctionPage';
+import GaveaMarquesSaoVicente86AuctionPage from './components/GaveaMarquesSaoVicente86AuctionPage';
+import FlamengoAlmiranteTamandare21AuctionPage from './components/FlamengoAlmiranteTamandare21AuctionPage';
 import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
 import TijucaDelgadoCarvalho75AuctionPage from './components/TijucaDelgadoCarvalho75AuctionPage';
 import CopacabanaTonelero202AuctionPage from './components/CopacabanaTonelero202AuctionPage';
@@ -384,10 +387,25 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175/" element={<GaveaAuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-vice-governador-rubens-berardo-175" element={<GaveaAuctionPage />} />
 
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86-apto-104/" element={<GaveaMarquesSaoVicente86AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86-apto-104" element={<GaveaMarquesSaoVicente86AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86/" element={<GaveaMarquesSaoVicente86AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86" element={<GaveaMarquesSaoVicente86AuctionPage />} />
+
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402/" element={<JardimBotanicoPenaChaves36AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36-apto-402" element={<JardimBotanicoPenaChaves36AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36/" element={<JardimBotanicoPenaChaves36AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/jardim-botanico/apartamento/rua-engenheiro-pena-chaves-36" element={<JardimBotanicoPenaChaves36AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205/" element={<GloriaSantoAmaro172AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205" element={<GloriaSantoAmaro172AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172/" element={<GloriaSantoAmaro172AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172" element={<GloriaSantoAmaro172AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101/" element={<FlamengoAlmiranteTamandare21AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101" element={<FlamengoAlmiranteTamandare21AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21/" element={<FlamengoAlmiranteTamandare21AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21" element={<FlamengoAlmiranteTamandare21AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356/" element={<PraiaBotafogo356AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/praia-de-botafogo-356" element={<PraiaBotafogo356AuctionPage />} />
