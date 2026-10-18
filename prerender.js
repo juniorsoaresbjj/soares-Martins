@@ -55,6 +55,9 @@ const routesToPrerender = [
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gavea/apartamento/rua-marques-de-sao-vicente-86-apto-104/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-andrade-pertence-28-apto-704/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134-apto-801/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004/',
   // Blog Posts (Portuguese)
   '/blog/lgpd-condominios-portaria-cameras/',
   '/blog/stj-regras-animais-condominios-o-que-mudou/',

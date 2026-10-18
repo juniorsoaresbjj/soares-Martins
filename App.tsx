@@ -42,6 +42,9 @@ import CopacabanaDomingosFerreira10AuctionPage from './components/CopacabanaDomi
 import CopacabanaDecioVilares265AuctionPage from './components/CopacabanaDecioVilares265AuctionPage';
 import JardimBotanicoPenaChaves36AuctionPage from './components/JardimBotanicoPenaChaves36AuctionPage';
 import GloriaSantoAmaro172AuctionPage from './components/GloriaSantoAmaro172AuctionPage';
+import CateteAndradePertence28AuctionPage from './components/CateteAndradePertence28AuctionPage';
+import CopacabanaPrincesaIsabel134AuctionPage from './components/CopacabanaPrincesaIsabel134AuctionPage';
+import IcaraiAlbertoTorres237AuctionPage from './components/IcaraiAlbertoTorres237AuctionPage';
 import GaveaMarquesSaoVicente86AuctionPage from './components/GaveaMarquesSaoVicente86AuctionPage';
 import FlamengoAlmiranteTamandare21AuctionPage from './components/FlamengoAlmiranteTamandare21AuctionPage';
 import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
@@ -401,6 +404,23 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172-apto-205" element={<GloriaSantoAmaro172AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172/" element={<GloriaSantoAmaro172AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/gloria/apartamento/rua-santo-amaro-172" element={<GloriaSantoAmaro172AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-andrade-pertence-28-apto-704/" element={<CateteAndradePertence28AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-andrade-pertence-28-apto-704" element={<CateteAndradePertence28AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-andrade-pertence-28/" element={<CateteAndradePertence28AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/catete/apartamento/rua-andrade-pertence-28" element={<CateteAndradePertence28AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134-apto-801/" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134-apto-801" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134/" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004/" element={<IcaraiAlbertoTorres237AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004" element={<IcaraiAlbertoTorres237AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237/" element={<IcaraiAlbertoTorres237AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237" element={<IcaraiAlbertoTorres237AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi-icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004/" element={<IcaraiAlbertoTorres237AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi-icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004" element={<IcaraiAlbertoTorres237AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101/" element={<FlamengoAlmiranteTamandare21AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-almirante-tamandare-21-apto-1101" element={<FlamengoAlmiranteTamandare21AuctionPage />} />

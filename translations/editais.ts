@@ -6952,6 +6952,320 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Flamengo auction?", a: "We conduct exhaustive due diligence on Title #104.544 (9th Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
         ]
       }
+    },
+    'catete-andrade-pertence-28-apto-704': {
+      pt: {
+        title: 'Leilão Judicial no Catete — Rua Andrade Pertence nº 28 — Apto 704 (67 m² com Suíte)',
+        subtitle: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro/RJ | 67 m² • 7º Andar • Posição de Fundos (Silencioso) • Sala, 2 Quartos (1 Suíte), Cozinha e Banheiro • Prédio de 8 Andares + Cobertura (4 por andar) • Portaria 7h às 20h, Playground e 2 Elevadores • 9º Ofício RGI Matrícula nº 47.723 • IPTU: 0.767.781-8 • Avaliação: R$ 627.790,00 • 1º Leilão: 17/11/2026 às 12:00h por R$ 627.790,00 • 2º Leilão: 19/11/2026 às 12:00h por R$ 313.895,00 (50% de Desconto)',
+        address: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro - RJ',
+        p1Date: '17/11/2026 às 12:00h',
+        p2Date: '19/11/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.767.781-8',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 47.723)',
+        val: 'R$ 627.790,00',
+        p2Val: 'R$ 313.895,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial com 67 m² de área privativa correspondente à unidade 704 (7º andar) do edifício residencial situado na agradável e tradicional Rua Andrade Pertence nº 28, no histórico e prático bairro do Catete, Zona Sul do Rio de Janeiro. Imóvel de fundos, extremamente silencioso e reservado, composto por: sala de estar, 2 (dois) dormitórios (sendo uma suíte), cozinha e banheiro social. Edificação residencial estruturada em 8 andares e cobertura, com 4 apartamentos por andar, dispondo de portaria em funcionamento das 7h às 20h, playground e 2 elevadores (o condomínio possui garagem, contudo a unidade 704 não possui vaga vinculada). Localização estratégica a poucos passos da estação de Metrô Catete, Palácio do Catete (Museu da República), Largo do Machado, Aterro do Flamengo e completa rede gastronômica e de serviços. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 47.723 e inscrição municipal IPTU nº 0.767.781-8. Avaliação judicial homologada em R$ 627.790,00. 1º Leilão em 17/11/2026 às 12:00h por R$ 627.790,00 e 2º Leilão em 19/11/2026 às 12:00h com lance inicial de 50% fixado em R$ 313.895,00 (oportunidade com m² a apenas ~R$ 4.685,00/m² na Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Andrade Pertence nº 28, Apto 704 (Catete)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 704, situado na Rua Andrade Pertence nº 28, Catete, Rio de Janeiro/RJ. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 47.723 e inscrição municipal IPTU nº 0.767.781-8.' },
+            { title: 'Dimensões e Composição da Unidade', text: '67 m² de área privativa no 7º pavimento, de fundos, silencioso, composto por sala, 2 quartos (sendo 1 suíte), cozinha e banheiro social. O apartamento não possui vaga de garagem vinculada.' },
+            { title: 'Estrutura Condominial', text: 'Edifício residencial com 8 andares e cobertura, com 4 apartamentos por andar, portaria das 7h às 20h, playground e 2 elevadores.' },
+            { title: 'Localização Estratégica no Catete', text: 'A passos da estação de Metrô Catete, Museu da República / Palácio do Catete, Largo do Machado e Aterro do Flamengo.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 17/11/2026 às 12:00h (Lance inicial: R$ 627.790,00 — 100% da avaliação). 2º Leilão: 19/11/2026 às 12:00h (Lance inicial: R$ 313.895,00 — 50% de desconto sobre a avaliação).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 78.473,75 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial sobre o imóvel.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o bem entregue livre de ônus tributários ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 704 na Rua Andrade Pertence 28?", a: "O imóvel possui avaliação judicial homologada em R$ 627.790,00. No 1º Leilão (17/11/2026 às 12:00h), o lance inicial é o valor integral da avaliação (R$ 627.790,00). No 2º Leilão (19/11/2026 às 12:00h), o lance inicial parte com 50% de desconto, fixado em R$ 313.895,00." },
+          { q: "Quais são as características da unidade e do edifício?", a: "O apartamento possui 67 m² de área privativa no 7º andar, posição de fundos (silencioso e ventilado), distribuído em sala, 2 dormitórios (sendo 1 suíte), cozinha e banheiro. O prédio tem 8 andares e cobertura (4 por andar), portaria das 7h às 20h, playground e 2 elevadores (não há vaga de garagem para a unidade 704)." },
+          { q: "Onde o imóvel está registrado e qual a inscrição municipal?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 47.723 e possui inscrição municipal IPTU nº 0.767.781-8." },
+          { q: "Como é a localização da Rua Andrade Pertence no Catete?", a: "A Rua Andrade Pertence é uma rua residencial aprazível e arborizada no coração do Catete, a curtíssima caminhada da estação de Metrô Catete, do histórico Parque do Palácio do Catete, Largo do Machado e Aterro do Flamengo." },
+          { q: "É possível adquirir o apartamento de forma parcelada pelo CPC?", a: "Sim. Pelo artigo 895 do Código de Processo Civil (CPC), o interessado pode submeter proposta de parcelamento com entrada mínima de 25% (R$ 78.473,75 na 2ª praça) e o saldo em até 30 prestações mensais corrigidas com garantia hipotecária sobre o próprio imóvel." },
+          { q: "O arrematante responde por débitos anteriores de IPTU?", a: "Não. Conforme o parágrafo único do artigo 130 do Código Tributário Nacional (CTN), eventuais dívidas fiscais anteriores de IPTU sub-rogam-se sobre o valor arrecadado no leilão." },
+          { q: "Por que contratar a assessoria da Soares Martins Advogados para este leilão?", a: "Realizamos auditoria completa da Matrícula nº 47.723 no 9º RGI, certificamos a higidez das intimações judiciais no processo do TJRJ, estruturamos a estratégia de lances e parcelamento, e conduzimos todas as providências pós-leilão até o registro da carta de arrematação e a imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Catete — Calle Andrade Pertence nº 28 — Apto 704 (67 m² con Suite)',
+        subtitle: 'Calle Andrade Pertence, nº 28, Apartamento 704 — Catete, Río de Janeiro/RJ | 67 m² • Planta 7ª • De Fondo (Silencioso) • Salón, 2 Dormitorios (1 Suite), Cocina y Baño • Edificio de 8 Plantas + Ático (4 por piso) • Portería 7h-20h, Parque Infantil y 2 Ascensores • 9º Registro Matrícula nº 47.723 • IPTU: 0.767.781-8 • Tasación: R$ 627.790,00 • 1ª Subasta: 17/11/2026 a las 12:00h por R$ 627.790,00 • 2ª Subasta: 19/11/2026 a las 12:00h por R$ 313.895,00 (50% de Descuento)',
+        address: 'Calle Andrade Pertence, nº 28, Apartamento 704 — Catete, Río de Janeiro - RJ',
+        p1Date: '17/11/2026 a las 12:00h',
+        p2Date: '19/11/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.767.781-8',
+        rgi: '9º Registro de Inmuebles de Río de Janeiro (Matrícula nº 47.723)',
+        val: 'R$ 627.790,00',
+        p2Val: 'R$ 313.895,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 67 m² privativos correspondiente a la unidad 704 (piso 7, posición posterior silenciosa) en Calle Andrade Pertence nº 28, Catete, Zona Sur de Río de Janeiro. Consta de salón, 2 dormitorios (1 suite), cocina y baño social. Edificio de 8 plantas y ático (4 por piso), portería de 7h a 20h, área infantil y 2 ascensores (sin plaza de garaje para el apto 704). Junto al Metro Catete y Parque do Flamengo. Matrícula 47.723 del 9º Registro e IPTU 0.767.781-8. Tasación: R$ 627.790,00. 1ª Subasta: 17/11/2026 a las 12:00h por R$ 627.790,00 y 2ª Subasta: 19/11/2026 a las 12:00h por R$ 313.895,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Andrade Pertence nº 28, Apto 704 (Catete)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 704 en Calle Andrade Pertence nº 28, Catete, Río de Janeiro/RJ. Matrícula 47.723 del 9º Registro e IPTU 0.767.781-8.' },
+            { title: 'Dimensiones y Distribución', text: '67 m² privativos en piso 7, de fondo (silencioso), salón, 2 dormitorios (1 suite), cocina y baño. No tiene plaza de garaje.' },
+            { title: 'Edificio y Servicios', text: 'Edificio de 8 plantas + ático (4 por piso), portería de 7h a 20h, área infantil y 2 ascensores.' },
+            { title: 'Ubicación Inmejorable en Catete', text: 'A pasos del Metro Catete, Museo de la República y Aterro do Flamengo.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 17/11/2026 a las 12:00h por R$ 627.790,00. 2ª Subasta: 19/11/2026 a las 12:00h por R$ 313.895,00 (50% de descuento).' },
+            { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada (R$ 78.473,75 en 2ª subasta) y hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Deudas anteriores de impuestos quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Andrade Pertence 28 Apto 704?", a: "La 1ª Subasta es el 17/11/2026 a las 12:00h por R$ 627.790,00. La 2ª Subasta es el 19/11/2026 a las 12:00h por R$ 313.895,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cuáles son las características del apartamento y edificio?", a: "67 m² de fondo silencioso en 7º piso con salón, 2 dormitorios (1 suite), cocina y baño. Edificio con portería 7h-20h, parque infantil y 2 elevadores (sin garaje)." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 47.723 en el 9º Registro, controlamos las notificaciones en TJRJ y gestionamos la entrega judicial de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Catete — Rua Andrade Pertence #28 — Apt 704 (67 sqm with Suite)',
+        subtitle: 'Rua Andrade Pertence, #28, Apt 704 — Catete, Rio de Janeiro/RJ | 67 sqm (721 sq ft) • 7th Floor • Rear-Facing (Quiet & Private) • Living Room, 2 Bedrooms (1 Suite), Kitchen & Bathroom • 8-Story Building + Penthouse (4 units/floor) • Concierge 7 AM - 8 PM, Playground & 2 Elevators • 9th Land Registry Title #47.723 • IPTU: 0.767.781-8 • Appraisal: R$ 627,790.00 • 1st Auction: 11/17/2026 at 12:00 PM at R$ 627,790.00 • 2nd Auction: 11/19/2026 at 12:00 PM at R$ 313,895.00 (50% Discount)',
+        address: 'Rua Andrade Pertence, #28, Apt 704 — Catete, Rio de Janeiro - RJ',
+        p1Date: '11/17/2026 at 12:00 PM',
+        p2Date: '11/19/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.767.781-8',
+        rgi: '9th Land Registry Office of Rio de Janeiro (Title #47.723)',
+        val: 'R$ 627,790.00',
+        p2Val: 'R$ 313,895.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 67 sqm (721 sq ft) private residential apartment (Unit 704 / 7th floor, rear-facing, quiet and private) in a well-located residential building at Rua Andrade Pertence #28, in charming and central Catete, Rio de Janeiro South Zone. Layout features living room, 2 bedrooms (including 1 suite), kitchen, and bathroom. Building has 8 stories plus penthouse (4 units per floor), concierge from 7 AM to 8 PM, playground, and 2 elevators (no parking space included for unit 704). Steps from Catete Subway Station, Republic Museum Palace, and Aterro do Flamengo park. Recorded at 9th Land Registry under Title #47.723 and municipal tax IPTU #0.767.781-8. Official appraisal: R$ 627,790.00. 1st Auction on 11/17/2026 at 12:00 PM at R$ 627,790.00; 2nd Auction on 11/19/2026 at 12:00 PM starting at 50% discount for R$ 313,895.00 (only ~R$ 4,685.00/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Andrade Pertence #28 / Apt 704 (Catete)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 704 at Rua Andrade Pertence #28, Catete, Rio de Janeiro/RJ. Recorded at 9th Land Registry under Title #47.723 and municipal tax IPTU #0.767.781-8.' },
+            { title: 'Dimensions & Layout', text: '67 sqm private area on 7th floor, rear-facing (quiet), living room, 2 bedrooms (1 suite), kitchen, and bathroom. No garage spot included.' },
+            { title: 'Building Amenities', text: '8-story building + penthouse (4 units/floor), concierge 7 AM to 8 PM, playground, and 2 elevators.' },
+            { title: 'Prime Location in Catete', text: 'Steps from Catete Subway Station, Republic Museum, Largo do Machado, and Aterro do Flamengo park.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/17/2026 at 12:00 PM at R$ 627,790.00. 2nd Auction: 11/19/2026 at 12:00 PM starting at R$ 313,895.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Andrade Pertence 28 Apt 704?", a: "The 1st Auction is on 11/17/2026 at 12:00 PM at R$ 627,790.00. The 2nd Auction is on 11/19/2026 at 12:00 PM starting at R$ 313,895.00 (50% discount off official appraisal)." },
+          { q: "What are the building and apartment features?", a: "67 sqm private area on the 7th floor, quiet rear position, 2 bedrooms (1 suite), concierge from 7 AM to 8 PM, playground, and 2 elevators in Catete." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Catete auction?", a: "We conduct exhaustive due diligence on Title #47.723 (9th Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
+    },
+    'copacabana-princesa-isabel-134-apto-801': {
+      pt: {
+        title: 'Leilão Judicial em Copacabana — Av. Princesa Isabel nº 134 — Apto 801 (31 m²)',
+        subtitle: 'Avenida Princesa Isabel, nº 134, Apartamento 801 — Edifício Professor Zerbini — Copacabana/Leme, Rio de Janeiro/RJ | 31 m² • 8º Andar • Edificação Mista de 1970 com 12 Pavimentos (10 por andar) • Portaria 24h com CFTV e 2 Elevadores • 5º Ofício RGI Matrícula nº 124.838 • IPTU: 0.989.518-6 • Avaliação: R$ 300.000,00 • 1º Leilão: 17/11/2026 às 14:00h por R$ 300.000,00 • 2º Leilão: 19/11/2026 às 14:00h por R$ 150.000,00 (50% de Desconto — ~R$ 4.838,71/m²)',
+        address: 'Avenida Princesa Isabel, nº 134, Apartamento 801 — Copacabana, Rio de Janeiro - RJ',
+        p1Date: '17/11/2026 às 14:00h',
+        p2Date: '19/11/2026 às 14:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.989.518-6',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 124.838)',
+        val: 'R$ 300.000,00',
+        p2Val: 'R$ 150.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial com 31 m² de área privativa correspondente à unidade 801 (8º pavimento) do conceituado Edifício Professor Zerbini, situado na Avenida Princesa Isabel nº 134, ponto estratégico na confluência entre Copacabana e Leme, Zona Sul do Rio de Janeiro. Edificação datada de 1970, construída no alinhamento do logradouro público, composta por 12 pavimentos (sendo o 2º andar comercial com 5 lojas, 10 unidades residenciais por andar e 3 unidades na cobertura). O condomínio conta com 2 elevadores (social e serviço), portaria 24 horas equipada com circuito interno de TV (CFTV), porta de ferro e escada de acesso (não dispõe de área de lazer, salão de festas ou garagem). Imóvel compacto ideal para moradia prática ou investimento de alta rentabilidade para locação tradicional ou por temporada (Airbnb), situado a apenas duas quadras da orla de Copacabana e Leme, a poucos minutos do Metrô Cardeal Arcoverde e do Shopping Rio Sul. Devidamente registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis sob a Matrícula nº 124.838 e inscrição municipal de IPTU nº 0.989.518-6. Avaliação judicial homologada em R$ 300.000,00. 1º Leilão em 17/11/2026 às 14:00h por R$ 300.000,00 e 2º Leilão em 19/11/2026 às 14:00h com lance inicial de 50% fixado em R$ 150.000,00 (oportunidade ímpar com metro quadrado a apenas ~R$ 4.838,71/m² na Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Av. Princesa Isabel nº 134, Apto 801 (Copacabana)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 801 situado na Avenida Princesa Isabel nº 134, Edifício Professor Zerbini, Copacabana, Rio de Janeiro/RJ. Registrado, dimensionado e caracterizado no 5º Ofício de Registro de Imóveis do RJ sob a Matrícula nº 124.838 e inscrição municipal IPTU nº 0.989.518-6.' },
+            { title: 'Dimensões e Composição da Unidade', text: '31 m² de área privativa no 8º pavimento, planta compacta funcional com sala/dormitório integrado, banheiro e cozinha. Sem vaga de garagem vinculada.' },
+            { title: 'Estrutura Condominial — Edifício Professor Zerbini', text: 'Construção de 1970 com 12 pavimentos, sendo o 2º andar comercial (5 lojas) e pavimentos residenciais com 10 unidades por andar (3 na cobertura). Portaria 24 horas com CFTV, porta de ferro, escada de acesso e 2 elevadores (social e serviço). Não possui lazer ou salão de festas.' },
+            { title: 'Localização Estratégica na Princesa Isabel', text: 'Avenida de ligação direta entre Copacabana, Leme e Botafogo. A apenas 250 metros da orla da Praia de Copacabana, próximo ao Metrô Cardeal Arcoverde, Shopping Rio Sul e farto comércio.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 17/11/2026 às 14:00h (Lance inicial: R$ 300.000,00 — 100% da avaliação). 2º Leilão: 19/11/2026 às 14:00h (Lance inicial: R$ 150.000,00 — 50% de desconto sobre a avaliação).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 37.500,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial sobre o imóvel.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o bem entregue livre de ônus tributários ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 801 na Av. Princesa Isabel 134?", a: "O imóvel possui avaliação judicial homologada em R$ 300.000,00. No 1º Leilão (17/11/2026 às 14:00h), o lance inicial é o valor integral da avaliação (R$ 300.000,00). No 2º Leilão (19/11/2026 às 14:00h), o lance inicial parte com 50% de desconto, fixado em R$ 150.000,00." },
+          { q: "Quais são as características da unidade e do Edifício Professor Zerbini?", a: "O apartamento possui 31 m² no 8º andar. O prédio, construído em 1970, possui 12 pavimentos (2º piso com 5 lojas comerciais e pavimentos superiores residenciais com 10 por andar e 3 na cobertura), 2 elevadores (social e serviço), portaria 24 horas com CFTV. Não dispõe de garagem ou área de lazer." },
+          { q: "Onde o imóvel está registrado e qual a inscrição municipal?", a: "O imóvel está devidamente registrado no 5º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 124.838 e possui inscrição municipal IPTU nº 0.989.518-6." },
+          { q: "Como é a localização da Av. Princesa Isabel em Copacabana?", a: "A Avenida Princesa Isabel é a via principal de integração entre Copacabana e o Leme, situada a apenas 2 quadras da praia, ao lado do Metrô Cardeal Arcoverde e com acesso rápido ao Shopping Rio Sul e Túnel Novo para Botafogo." },
+          { q: "É possível arrematar o imóvel de forma parcelada pelo CPC?", a: "Sim. Pelo artigo 895 do CPC, o interessado pode apresentar proposta de parcelamento com entrada mínima de 25% (R$ 37.500,00 no 2º leilão) e o saldo em até 30 parcelas mensais corrigidas, mediante hipoteca judiciária." },
+          { q: "O arrematante é responsável por dívidas antigas de IPTU?", a: "Não. Conforme o artigo 130, parágrafo único do CTN, os créditos tributários de IPTU anteriores à arrematação sub-rogam-se sobre o respectivo preço da arrematação, recebendo o arrematante o imóvel sem tais ônus fiscais." },
+          { q: "Por que contar com a assessoria da Soares Martins Advogados para este leilão?", a: "Realizamos a auditoria completa da Matrícula nº 124.838 no 5º RGI, certificamos a higidez das intimações no processo judicial do TJRJ, estruturamos a estratégia jurídica de lances e parcelamento, e conduzimos todas as etapas até a expedição e registro da carta de arrematação e imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Copacabana — Av. Princesa Isabel nº 134 — Apto 801 (31 m²)',
+        subtitle: 'Avenida Princesa Isabel, nº 134, Apartamento 801 — Edificio Professor Zerbini — Copacabana/Leme, Río de Janeiro/RJ | 31 m² • Planta 8ª • Edificación Mixta de 1970 de 12 Plantas (10 por piso) • Portería 24h con CCTV y 2 Ascensores • 5º Registro Matrícula nº 124.838 • IPTU: 0.989.518-6 • Tasación: R$ 300.000,00 • 1ª Subasta: 17/11/2026 a las 14:00h por R$ 300.000,00 • 2ª Subasta: 19/11/2026 a las 14:00h por R$ 150.000,00 (50% de Descuento — ~R$ 4.838,71/m²)',
+        address: 'Avenida Princesa Isabel, nº 134, Apartamento 801 — Copacabana, Río de Janeiro - RJ',
+        p1Date: '17/11/2026 a las 14:00h',
+        p2Date: '19/11/2026 a las 14:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.989.518-6',
+        rgi: '5º Registro de Inmuebles de Río de Janeiro (Matrícula nº 124.838)',
+        val: 'R$ 300.000,00',
+        p2Val: 'R$ 150.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 31 m² privativos correspondiente a la unidad 801 (planta 8ª) del Edificio Professor Zerbini, situado en Avenida Princesa Isabel nº 134, en el límite entre Copacabana y Leme, Zona Sur de Río de Janeiro. Construcción de 1970 de 12 plantas con 2º piso comercial (5 tiendas) y residenciales con 10 por piso (3 en ático), 2 ascensores (social y servicio) y portería 24 horas con circuito cerrado de televisión (sin garaje ni áreas comunes). A solo dos calles de la playa de Copacabana y Leme, junto al Metro Cardeal Arcoverde y centro comercial Rio Sul. Matrícula 124.838 del 5º Registro e IPTU 0.989.518-6. Tasación: R$ 300.000,00. 1ª Subasta: 17/11/2026 a las 14:00h por R$ 300.000,00 y 2ª Subasta: 19/11/2026 a las 14:00h por R$ 150.000,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Av. Princesa Isabel nº 134, Apto 801 (Copacabana)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 801 en Avenida Princesa Isabel nº 134, Copacabana, Río de Janeiro/RJ. Matrícula 124.838 del 5º Registro e IPTU 0.989.518-6.' },
+            { title: 'Dimensiones y Distribución', text: '31 m² privativos en planta 8ª, distribución compacta funcional con salón/dormitorio, cocina y baño. Sin plaza de garaje.' },
+            { title: 'Edificio Professor Zerbini', text: 'Construcción de 1970 de 12 plantas (2º piso con 5 tiendas comerciales y 10 unidades por piso residencial), portería 24h con CCTV y 2 ascensores.' },
+            { title: 'Ubicación Inmejorable en Copacabana / Leme', text: 'A pasos de la playa de Copacabana, Metro Cardeal Arcoverde y Shopping Rio Sul.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 17/11/2026 a las 14:00h por R$ 300.000,00. 2ª Subasta: 19/11/2026 a las 14:00h por R$ 150.000,00 (50% de descuento).' },
+            { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada (R$ 37.500,00 en 2ª subasta) y hasta 30 cuotas mensuales con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Deudas fiscales anteriores de IPTU quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para Princesa Isabel 134 Apto 801?", a: "La 1ª Subasta es el 17/11/2026 a las 14:00h por R$ 300.000,00. La 2ª Subasta es el 19/11/2026 a las 14:00h por R$ 150.000,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cuáles son las características del apartamento y edificio?", a: "31 m² en 8ª planta. Edificio de 1970 con portería 24h, cámaras CCTV y 2 ascensores en Copacabana (sin garaje ni áreas sociales)." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 124.838 en el 5º Registro, revisamos el expediente judicial en TJRJ y gestionamos la entrega judicial de la posesión." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Copacabana — Av. Princesa Isabel #134 — Apt 801 (31 sqm)',
+        subtitle: 'Avenida Princesa Isabel, #134, Apt 801 — Professor Zerbini Building — Copacabana/Leme, Rio de Janeiro/RJ | 31 sqm (334 sq ft) • 8th Floor • 1970 Mixed-Use Building with 12 Floors (10 units/floor) • 24/7 Concierge with CCTV & 2 Elevators • 5th Land Registry Title #124.838 • IPTU: 0.989.518-6 • Appraisal: R$ 300,000.00 • 1st Auction: 11/17/2026 at 2:00 PM at R$ 300,000.00 • 2nd Auction: 11/19/2026 at 2:00 PM at R$ 150,000.00 (50% Discount — ~R$ 4,838.71/sqm)',
+        address: 'Avenida Princesa Isabel, #134, Apt 801 — Copacabana, Rio de Janeiro - RJ',
+        p1Date: '11/17/2026 at 2:00 PM',
+        p2Date: '11/19/2026 at 2:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.989.518-6',
+        rgi: '5th Land Registry Office of Rio de Janeiro (Title #124.838)',
+        val: 'R$ 300,000.00',
+        p2Val: 'R$ 150,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 31 sqm (334 sq ft) private residential studio apartment (Unit 801 / 8th floor) in the well-known Professor Zerbini Building at Avenida Princesa Isabel #134, positioned right at the gateway between Copacabana and Leme, Rio de Janeiro South Zone. Built in 1970, the 12-story building features a 2nd floor with 5 retail shops and residential floors with 10 units per floor (3 on the penthouse floor), served by 2 elevators (passenger and service) and 24/7 security concierge with CCTV (no garage or leisure amenities). Highly liquid property ideal for short-term rental (Airbnb) or long-term tenancy, only two blocks from Copacabana and Leme beaches, near Cardeal Arcoverde Subway Station and Rio Sul Shopping Mall. Recorded at the 5th Land Registry under Title #124.838 and municipal tax IPTU #0.989.518-6. Official court appraisal: R$ 300,000.00. 1st Auction on 11/17/2026 at 2:00 PM at R$ 300,000.00; 2nd Auction on 11/19/2026 at 2:00 PM starting at 50% discount for R$ 150,000.00 (only ~R$ 4,838.71/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Av. Princesa Isabel #134 / Apt 801 (Copacabana)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 801 at Avenida Princesa Isabel #134, Copacabana, Rio de Janeiro/RJ. Recorded at 5th Land Registry under Title #124.838 and municipal tax IPTU #0.989.518-6.' },
+            { title: 'Dimensions & Layout', text: '31 sqm private area on 8th floor, compact functional layout with living/sleeping area, bathroom, and kitchen. No parking spot included.' },
+            { title: 'Building Amenities — Professor Zerbini Building', text: '1970 12-story building with 2nd-floor commercial shops, 10 units per floor, 24/7 concierge with CCTV, and 2 elevators.' },
+            { title: 'Prime Location in Copacabana / Leme', text: 'Two blocks from Copacabana and Leme beaches, steps from Cardeal Arcoverde Subway Station and Rio Sul Shopping Mall.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/17/2026 at 2:00 PM at R$ 300,000.00. 2nd Auction: 11/19/2026 at 2:00 PM starting at R$ 150,000.00 (50% discount).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment (R$ 37,500.00 in 2nd auction) and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Princesa Isabel 134 Apt 801?", a: "The 1st Auction is on 11/17/2026 at 2:00 PM at R$ 300,000.00. The 2nd Auction is on 11/19/2026 at 2:00 PM starting at R$ 150,000.00 (50% discount off official appraisal)." },
+          { q: "What are the building and apartment features?", a: "31 sqm private area on the 8th floor. 1970 building with 24/7 concierge, CCTV, and 2 elevators in Copacabana (no garage)." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Copacabana auction?", a: "We conduct exhaustive due diligence on Title #124.838 (5th Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
+    },
+    'icarai-alberto-torres-237-apto-1004': {
+      pt: {
+        title: 'Leilão Judicial em Icaraí — Av. Jornalista Alberto Francisco Torres nº 237 — Apto 1004 (157 m²)',
+        subtitle: 'Avenida Jornalista Alberto Francisco Torres, nº 237, Apto 1004 (Frente para a Rua Presidente Backer) — Icaraí, Niterói/RJ | 157 m² • 10º Andar (Coluna 4) • Sala Ampla, 4 Quartos (1 Reversível), Lavabo, 2 Banheiros, Cozinha e Área de Serviço • Piso em Tábua Corrida • 1 Vaga de Garagem • Portaria 24h, Salão de Festas e 2 Elevadores • 9º Ofício RGI Matrícula nº 43 • IPTU: 115727-0 • Avaliação: R$ 870.000,00 • 1º Leilão: 26/10/2026 às 12:00h por R$ 870.000,00 • 2º Leilão: 28/10/2026 às 12:00h por R$ 522.000,00 (60% da Avaliação — ~R$ 3.324,84/m²)',
+        address: 'Avenida Jornalista Alberto Francisco Torres, nº 237, Apartamento 1004 — Icaraí, Niterói - RJ',
+        p1Date: '26/10/2026 às 12:00h',
+        p2Date: '28/10/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca de Niterói',
+        iptu: '115727-0',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 43)',
+        val: 'R$ 870.000,00',
+        p2Val: 'R$ 522.000,00 (Lance inicial 2ª Praça - 60%)',
+        description: 'Excepcional apartamento residencial com 157 m² de área privativa correspondente à unidade 1004, da Coluna 4 (10º andar), de frente para a arborizada e valorizada Rua Presidente Backer (logradouro onde se situa também a portaria social), no prestigiado edifício localizado na Avenida Jornalista Alberto Francisco Torres nº 237 — a cobiçada Praia de Icaraí, em Niterói/RJ. O imóvel distribui-se de forma espaçosa em: 1 ampla sala de estar e jantar, 4 quartos (sendo 1 deles reversível), 1 lavabo, 1 cozinha arejada, 1 banheiro social, 1 banheiro de empregada e 1 área de serviço completa. Possui piso em nobre tábua corrida na sala e dormitórios; cozinha com piso frio e paredes totalmente revestidas em azulejo; banheiro social e lavabo com piso frio e azulejos; e portas internas em madeira maciça, encontrando-se em bom estado geral de conservação. A unidade possui direito a 1 vaga de garagem no condomínio. O edifício dispõe de portaria com porteiro 24 horas, salão de festas social e 2 elevadores modernos. Localização privilegiada no coração de Icaraí, a poucos passos do calçadão da praia e próximo a todo o comércio nobre da Rua Coronel Moreira César. Registrado e caracterizado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 43 e inscrição municipal de IPTU nº 115727-0. Avaliação judicial homologada em R$ 870.000,00. 1º Leilão em 26/10/2026 às 12:00h pelo valor integral e 2º Leilão em 28/10/2026 às 12:00h com lance inicial de 60% fixado em R$ 522.000,00 (excelente oportunidade imobiliária com metro quadrado a apenas ~R$ 3.324,84/m² em Icaraí).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Av. Jornalista Alberto Francisco Torres nº 237, Apto 1004 (Icaraí)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento nº 1004 da Coluna 4, situado na Avenida Jornalista Alberto Francisco Torres nº 237, Icaraí, Niterói/RJ, com frente para a Rua Presidente Backer. Registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 43 e inscrição municipal IPTU nº 115727-0.' },
+            { title: 'Dimensões, Composição e Acabamentos', text: '157 m² privativos no 10º andar: 1 sala ampla, 4 quartos (1 reversível), 1 lavabo, cozinha, banheiro social, área de serviço e banheiro de serviço. Piso em tábua corrida na sala e quartos; azulejos e piso frio na cozinha e banheiros; portas internas de madeira. Bom estado de conservação.' },
+            { title: 'Garagem e Condomínio', text: 'Com direito a 1 vaga de garagem. Condomínio com porteiro 24 horas, 2 elevadores e salão de festas. Portaria localizada na Rua Presidente Backer.' },
+            { title: 'Localização Nobre em Icaraí', text: 'Em frente à orla da Praia de Icaraí na esquina com Rua Presidente Backer. Região nobre de Niterói com farta gastronomia, bancos, colégios tradicionais e conveniências.' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 26/10/2026 às 12:00h (Lance inicial: R$ 870.000,00 — 100% da avaliação). 2º Leilão: 28/10/2026 às 12:00h (Lance inicial: R$ 522.000,00 — 60% da avaliação homologada).' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 130.500,00 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, garantido por hipoteca judiciária.' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o imóvel transferido livre de ônus tributários ao arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 1004 em Icaraí?", a: "O imóvel possui avaliação judicial homologada em R$ 870.000,00. No 1º Leilão (26/10/2026 às 12:00h), o lance inicial é R$ 870.000,00 (100%). No 2º Leilão (28/10/2026 às 12:00h), o lance inicial parte com desconto de 40%, fixado em 60% da avaliação: R$ 522.000,00." },
+          { q: "Quais são as dimensões e a distribuição do imóvel?", a: "O apartamento possui 157 m² privativos no 10º pavimento (coluna 4), de frente para a Rua Presidente Backer. Dispõe de sala ampla, 4 quartos (1 reversível), lavabo, banheiro social, cozinha, área de serviço e banheiro de empregada, com acabamento em piso de tábua corrida na sala e dormitórios." },
+          { q: "O imóvel tem direito a vaga de garagem?", a: "Sim, a unidade conta com direito a 1 vaga de garagem no edifício." },
+          { q: "Qual a infraestrutura do condomínio?", a: "O edifício conta com portaria 24 horas na Rua Presidente Backer, 2 elevadores e salão de festas social, encontrando-se o apartamento em bom estado de conservação." },
+          { q: "Onde o imóvel está registrado e qual o IPTU?", a: "O imóvel está registrado no 9º Ofício de Registro de Imóveis sob a Matrícula nº 43 e cadastrado na Prefeitura de Niterói sob a inscrição municipal de IPTU nº 115727-0." },
+          { q: "É possível arrematar o imóvel de forma parcelada?", a: "Sim. Pelo artigo 895 do Código de Processo Civil, o interessado pode apresentar proposta formal com entrada mínima de 25% (R$ 130.500,00 no 2º leilão) e o saldo em até 30 parcelas mensais corrigidas, mediante hipoteca judicial." },
+          { q: "Por que contar com a assessoria da Soares Martins Advogados?", a: "Realizamos a auditoria imobiliária e processual completa, checamos todas as certidões e intimações do processo no TJRJ, estruturamos a estratégia financeira de lances e parcelamento, e conduzimos todas as providências até a expedição e registro da carta de arrematação no 9º RGI e imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Icaraí — Av. Jornalista Alberto Francisco Torres nº 237 — Apto 1004 (157 m²)',
+        subtitle: 'Avenida Jornalista Alberto Francisco Torres, nº 237, Apto 1004 (Frente a Calle Presidente Backer) — Icaraí, Niterói/RJ | 157 m² • Planta 10ª (Col. 4) • Amplio Salón, 4 Dormitorios (1 Reversible), Aseo, 2 Baños, Cocina y Lavadero • Suelo de Madera Maciza • 1 Plaza de Garaje • Portería 24h, Salón Social y 2 Ascensores • 9º Registro Matrícula nº 43 • IPTU: 115727-0 • Tasación: R$ 870.000,00 • 1ª Subasta: 26/10/2026 a las 12:00h por R$ 870.000,00 • 2ª Subasta: 28/10/2026 a las 12:00h por R$ 522.000,00 (60% de la Tasación — ~R$ 3.324,84/m²)',
+        address: 'Avenida Jornalista Alberto Francisco Torres, nº 237, Apartamento 1004 — Icaraí, Niterói - RJ',
+        p1Date: '26/10/2026 a las 12:00h',
+        p2Date: '28/10/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de Niterói',
+        iptu: '115727-0',
+        rgi: '9º Registro de Inmuebles (Matrícula nº 43)',
+        val: 'R$ 870.000,00',
+        p2Val: 'R$ 522.000,00 (Puja inicial 2ª Subasta - 60%)',
+        description: 'Excepcional apartamento residencial de 157 m² privativos correspondiente a la unidad 1004 (planta 10ª, columna 4), con frente a la calle Presidente Backer, en edificio situado en Avenida Jornalista Alberto Francisco Torres nº 237 (playa de Icaraí, Niterói/RJ). Cuenta con gran salón comedor, 4 dormitorios (1 reversible), aseo, baño social, cocina, lavadero y baño de servicio. Suelos de madera en salón y dormitorios, azulejos y cerámica en zonas húmedas, puertas de madera en buen estado de conservación. Incluye 1 plaza de garaje. Edificio con portería 24h, 2 ascensores y salón social de fiestas. Matrícula nº 43 del 9º Registro e IPTU nº 115727-0. Tasación: R$ 870.000,00. 1ª Subasta: 26/10/2026 a las 12:00h por R$ 870.000,00 y 2ª Subasta: 28/10/2026 a las 12:00h por R$ 522.000,00 (60%).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Av. Jornalista Alberto Francisco Torres 237 / Apto 1004 (Icaraí)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 1004 de 157 m² en Av. Jornalista Alberto Francisco Torres 237, Icaraí, Niterói/RJ. Matrícula 43 del 9º Registro e IPTU 115727-0.' },
+            { title: 'Distribución y Acabados', text: 'Salón amplio, 4 dormitorios (1 reversible), aseo, baño, lavadero y baño de servicio. Suelo de madera maciza en salón y dormitorios. Buen estado.' },
+            { title: 'Garaje y Edificio', text: 'Derecho a 1 plaza de garaje. Edificio con portero 24 horas, 2 ascensores y salón de fiestas.' },
+            { title: 'Ubicación Inmejorable en Icaraí', text: 'Frente al paseo marítimo de la Playa de Icaraí, zona más cotizada de Niterói con todos los servicios y gastronomía.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 26/10/2026 a las 12:00h por R$ 870.000,00. 2ª Subasta: 28/10/2026 a las 12:00h por R$ 522.000,00 (60%).' },
+            { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca judicial.' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas fiscales previas de IPTU quedan subrogadas en el precio obtenido en la subasta.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y precios para el apartamento 1004 en Icaraí?", a: "La 1ª Subasta es el 26/10/2026 a las 12:00h por R$ 870.000,00. La 2ª Subasta es el 28/10/2026 a las 12:00h partiendo del 60% por R$ 522.000,00." },
+          { q: "¿Cuáles son las características del apartamento?", a: "157 m² privativos en 10ª planta con amplio salón, 4 dormitorios (1 reversible), 1 aseo, 2 baños, cocina, lavadero, suelo de madera y 1 plaza de garaje." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales con hipoteca judicial." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 43 en el 9º Registro, revisamos el proceso en TJRJ y tramitamos la posesión del inmueble." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Icaraí — Av. Jornalista Alberto Francisco Torres #237 — Apt 1004 (157 sqm)',
+        subtitle: 'Avenida Jornalista Alberto Francisco Torres, #237, Apt 1004 (Facing Rua Presidente Backer) — Icaraí, Niterói/RJ | 157 sqm (1,690 sq ft) • 10th Floor (Col. 4) • Large Living Room, 4 Bedrooms (1 Convertible), Powder Room, 2 Bathrooms, Kitchen, Laundry • Hardwood Floors • 1 Parking Spot • 24/7 Concierge, Party Room & 2 Elevators • 9th Land Registry Title #43 • IPTU: 115727-0 • Appraisal: R$ 870,000.00 • 1st Auction: 10/26/2026 at 12:00 PM at R$ 870,000.00 • 2nd Auction: 10/28/2026 at 12:00 PM starting at R$ 522,000.00 (60% Reserve — ~R$ 3,324.84/sqm)',
+        address: 'Avenida Jornalista Alberto Francisco Torres, #237, Apt 1004 — Icaraí, Niterói - RJ',
+        p1Date: '10/26/2026 at 12:00 PM',
+        p2Date: '10/28/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Niterói District',
+        iptu: '115727-0',
+        rgi: '9th Land Registry Office (Title #43)',
+        val: 'R$ 870,000.00',
+        p2Val: 'R$ 522,000.00 (2nd Auction starting reserve bid - 60%)',
+        description: 'Spectacular 157 sqm (1,690 sq ft) private residential apartment (Unit 1004, Column 4, 10th floor) facing tree-lined Rua Presidente Backer in a prestigious beachfront building located at Avenida Jornalista Alberto Francisco Torres #237 along Icaraí Beach, Niterói, Rio de Janeiro. Expansive layout includes large living/dining room, 4 bedrooms (including 1 convertible room), guest powder room, family bathroom, service bathroom, spacious kitchen, and complete laundry area. Features elegant hardwood plank flooring across living areas and bedrooms, ceramic tiles in kitchen and bathrooms, solid wood interior doors, and good overall maintenance condition. Includes deeded right to 1 parking space. The condominium features 24/7 security concierge on Rua Presidente Backer, 2 modern elevators, and community party lounge. Unbeatable location in the prime residential neighborhood of Icaraí, steps from the beach promenade and upscale shopping on Rua Coronel Moreira César. Recorded at 9th Land Registry under Title #43 and municipal tax IPTU #115727-0. Court appraisal: R$ 870,000.00. 1st Auction on 10/26/2026 at 12:00 PM at R$ 870,000.00; 2nd Auction on 10/28/2026 at 12:00 PM starting at 60% of appraisal value for R$ 522,000.00 (only ~R$ 3,324.84/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Av. Jornalista Alberto Francisco Torres #237 / Apt 1004 (Icaraí)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 1004, 157 sqm private area at Av. Jornalista Alberto Francisco Torres #237, Icaraí, Niterói/RJ. 9th Land Registry Title #43 and municipal tax IPTU #115727-0.' },
+            { title: 'Dimensions, Layout & Finishes', text: '157 sqm on 10th floor: living room, 4 bedrooms (1 convertible), guest powder room, family bathroom, kitchen, laundry, and maid bathroom. Hardwood plank flooring. Good condition.' },
+            { title: 'Parking & Building Amenities', text: '1 parking space. Building features 24/7 security doorman, 2 elevators, and party room. Concierge located on Rua Presidente Backer.' },
+            { title: 'Prime Location in Icaraí', text: 'Beachfront address on Praia de Icaraí at the corner of Rua Presidente Backer, Niterói’s most desirable neighborhood with high-end shops and schools.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 10/26/2026 at 12:00 PM at R$ 870,000.00. 2nd Auction: 10/28/2026 at 12:00 PM starting at R$ 522,000.00 (60% reserve).' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment (R$ 130,500.00 in 2nd auction) and up to 30 monthly installments with judicial mortgage.' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Apt 1004 in Icaraí?", a: "The 1st Auction is on 10/26/2026 at 12:00 PM at R$ 870,000.00. The 2nd Auction is on 10/28/2026 at 12:00 PM starting at 60% reserve for R$ 522,000.00." },
+          { q: "What are the apartment features?", a: "157 sqm private area on the 10th floor, 4 bedrooms (1 convertible), powder room, 2 bathrooms, hardwood floors, and 1 dedicated parking space." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
+          { q: "Why hire Soares Martins Advogados for this Icaraí auction?", a: "We conduct exhaustive due diligence on Title #43 (9th Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
     }
   };
+
+
 
