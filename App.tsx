@@ -45,6 +45,7 @@ import GloriaSantoAmaro172AuctionPage from './components/GloriaSantoAmaro172Auct
 import CateteAndradePertence28AuctionPage from './components/CateteAndradePertence28AuctionPage';
 import CopacabanaPrincesaIsabel134AuctionPage from './components/CopacabanaPrincesaIsabel134AuctionPage';
 import IcaraiAlbertoTorres237AuctionPage from './components/IcaraiAlbertoTorres237AuctionPage';
+import LeblonSaboyaRibeiro60AuctionPage from './components/LeblonSaboyaRibeiro60AuctionPage';
 import GaveaMarquesSaoVicente86AuctionPage from './components/GaveaMarquesSaoVicente86AuctionPage';
 import FlamengoAlmiranteTamandare21AuctionPage from './components/FlamengoAlmiranteTamandare21AuctionPage';
 import TijucaSaoFranciscoXavier90AuctionPage from './components/TijucaSaoFranciscoXavier90AuctionPage';
@@ -414,6 +415,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134-apto-801" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134/" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-princesa-isabel-134" element={<CopacabanaPrincesaIsabel134AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104/" element={<LeblonSaboyaRibeiro60AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104" element={<LeblonSaboyaRibeiro60AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60/" element={<LeblonSaboyaRibeiro60AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60" element={<LeblonSaboyaRibeiro60AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004/" element={<IcaraiAlbertoTorres237AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/avenida-jornalista-alberto-francisco-torres-237-apto-1004" element={<IcaraiAlbertoTorres237AuctionPage />} />

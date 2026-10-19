@@ -2361,8 +2361,8 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       title: 'Leilão Judicial de Apartamento em Copacabana — Rua Marechal Mascarenhas de Morais nº 190 — Apto 703',
       subtitle: 'Rua Marechal Mascarenhas de Morais, nº 190, Apto 703 — Copacabana, Rio de Janeiro/RJ | 79 m² • Prédio de 1982 • Portaria 24h • Garagem • 3 Elevadores • Lazer Completo',
       address: 'Rua Marechal Mascarenhas de Morais, 190 - Apto 703 — Copacabana, Rio de Janeiro - RJ',
-      p1Date: '17/09/2026 às 12:20h',
-      p2Date: '22/09/2026 às 12:20h',
+      p1Date: '16/11/2026 às 12:00h',
+      p2Date: '18/11/2026 às 12:00h',
       process: 'Execução Judicial / TJRJ',
       court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
       iptu: '1.534.550-7',
@@ -2373,7 +2373,7 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       checklist: defaultChecklist.pt,
       modal: defaultModal.pt,
       faqs: [
-        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para o apartamento na Rua Marechal Mascarenhas de Morais nº 190?", a: "O apartamento possui avaliação judicial de R$ 1.091.500,00. Na 1ª Praça (17/09/2026 às 12:20h), o lance mínimo é R$ 1.091.500,00. Na 2ª Praça (22/09/2026 às 12:20h), o lance inicial conta com 50% de desconto, fixado em R$ 545.750,00." },
+        { q: "Qual é o valor de avaliação e o lance mínimo na 2ª Praça para o apartamento na Rua Marechal Mascarenhas de Morais nº 190?", a: "O apartamento possui avaliação judicial de R$ 1.091.500,00. Na 1ª Praça (16/11/2026 às 12:00h), o lance mínimo é R$ 1.091.500,00. Na 2ª Praça (18/11/2026 às 12:00h), o lance inicial conta com 50% de desconto, fixado em R$ 545.750,00." },
         { q: "Quais são as características do edifício e a infraestrutura em Copacabana?", a: "O prédio de 1982 possui 7 andares mais cobertura, com apenas 4 apartamentos por andar. O condomínio oferece garagem, 3 elevadores, playground com salão de festas, portaria 24h e monitoramento por câmeras de segurança em todo o edifício." },
         { q: "Como é realizada a auditoria jurídica da Matrícula nº 49.437 do 5º RGI/RJ?", a: "Realizamos o levantamento minucioso da Matrícula 49.437 (Livro 2º/7, Fls. 174) no 5º RGI/RJ, verificação da Inscrição IPTU 1.534.550-7, análise da sub-rogação de débitos fiscais (Art. 130 do CTN) e checagem de débitos condominiais." },
         { q: "É possível apresentar proposta de parcelamento de acordo com o Art. 895 do CPC?", a: "Sim. Qualquer interessado pode apresentar proposta de arrematação parcelada por escrito antes do leilão, mediante sinal de 25% à vista e o saldo em até 30 parcelas mensais corrigidas, com garantia de hipoteca do próprio imóvel." },
@@ -2384,8 +2384,8 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       title: 'Subasta Judicial de Apartamento en Copacabana — Calle Marechal Mascarenhas de Morais nº 190 — Apto 703',
       subtitle: 'Calle Marechal Mascarenhas de Morais, nº 190, Apto 703 — Copacabana, Río de Janeiro/RJ | 79 m² • Edificio de 1982 • Portería 24h • Garaje • 3 Ascensores • Áreas Comunes',
       address: 'Calle Marechal Mascarenhas de Morais, 190 - Apto 703 — Copacabana, Río de Janeiro - RJ',
-      p1Date: '17/09/2026 a las 12:20h',
-      p2Date: '22/09/2026 a las 12:20h',
+      p1Date: '16/11/2026 a las 12:00h',
+      p2Date: '18/11/2026 a las 12:00h',
       process: 'Ejecución Judicial / TJRJ',
       court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
       iptu: '1.534.550-7',
@@ -2396,7 +2396,7 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       checklist: defaultChecklist.es,
       modal: defaultModal.es,
       faqs: [
-        { q: "¿Cuál es la valoración oficial y puja inicial en 2ª Subasta para el apartamento en Calle Marechal Mascarenhas de Morais nº 190?", a: "Valoración judicial de R$ 1.091.500,00. En 2ª Subasta (22/09/2026 a las 12:20h), la puja abre al 50% (R$ 545.750,00)." },
+        { q: "¿Cuál es la valoración oficial y puja inicial en 2ª Subasta para el apartamento en Calle Marechal Mascarenhas de Morais nº 190?", a: "Valoración judicial de R$ 1.091.500,00. En 2ª Subasta (18/11/2026 a las 12:00h), la puja abre al 50% (R$ 545.750,00)." },
         { q: "¿Cuáles son las características del edificio en Copacabana?", a: "Inmueble de 79 m² en edificio de 1982. Ofrece garaje, 3 ascensores, playground con salón de fiestas, portería 24h y seguridad con cámaras." },
         { q: "¿Cómo se audita la Matrícula nº 49.437 del 5º RGI/RJ?", a: "Estudio de la Matrícula 49.437, IPTU 1.534.550-7 y expedientes judiciales." },
         { q: "¿Es posible presentar propuesta a plazos?", a: "Sí, según el Art. 895 del CPC (25% de enganche y hasta 30 cuotas)." },
@@ -2407,8 +2407,8 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       title: 'Judicial Auction of Apartment in Copacabana — Marechal Mascarenhas de Morais Street #190 — Apt 703',
       subtitle: 'Marechal Mascarenhas de Morais Street, #190, Apt 703 — Copacabana, Rio de Janeiro/RJ | 79 m² • 1982 Building • 24h Doorman • Garage • 3 Elevators • Party Hall',
       address: 'Marechal Mascarenhas de Morais Street, 190 - Apt 703 — Copacabana, Rio de Janeiro - RJ',
-      p1Date: '09/17/2026 at 12:20 PM',
-      p2Date: '09/22/2026 at 12:20 PM',
+      p1Date: '11/16/2026 at 12:00 PM',
+      p2Date: '11/18/2026 at 12:00 PM',
       process: 'Judicial Execution / TJRJ',
       court: 'Rio de Janeiro State Court / Capital Comarca',
       iptu: '1.534.550-7',
@@ -2419,7 +2419,7 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       checklist: defaultChecklist.en,
       modal: defaultModal.en,
       faqs: [
-        { q: "What is the official appraisal and starting bid for Apt 703 at Marechal Mascarenhas de Morais Street #190?", a: "Official court appraisal is R$ 1,091,500.00. 1st Auction opens at R$ 1,091,500.00. 2nd Auction (09/22/2026 at 12:20 PM) opens at 50% of appraisal value (R$ 545,750.00)." },
+        { q: "What is the official appraisal and starting bid for Apt 703 at Marechal Mascarenhas de Morais Street #190?", a: "Official court appraisal is R$ 1,091,500.00. 1st Auction opens at R$ 1,091,500.00. 2nd Auction (11/18/2026 at 12:00 PM) opens at 50% of appraisal value (R$ 545,750.00)." },
         { q: "What are the building specs and amenities in Copacabana?", a: "79 sqm apartment in a 1982 building with 3 elevators, garage, playground with party room, 24/7 security doorman, and camera surveillance." },
         { q: "How is legal due diligence conducted for Title #49.437?", a: "We audit Title #49.437 (5th Registry), IPTU tax records (1.534.550-7), condo debts, and TJRJ court records." },
         { q: "Can buyers submit installment proposals under Art. 895 of CPC?", a: "Yes, 25% down payment and up to 30 monthly installments secured by a mortgage on the property." },
@@ -7264,8 +7264,111 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Icaraí auction?", a: "We conduct exhaustive due diligence on Title #43 (9th Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
         ]
       }
+    },
+    // Leblon - Rua Professor Saboya Ribeiro, 60 - Apto 104
+    'leblon-saboya-ribeiro-60-apto-104': {
+      pt: {
+        title: 'Leilão Judicial no Leblon — Rua Professor Saboya Ribeiro nº 60 — Apto 104 (86 m²)',
+        subtitle: 'Rua Professor Saboya Ribeiro, nº 60, Apto 104 — Leblon, Rio de Janeiro/RJ | 86 m² • Edifício de 1974 • Sala, 3 Quartos, 2 Banheiros Sociais, Cozinha Totalmente Equipada, Área de Serviço e Quarto de Empregada Suíte • Todos os Cômodos Pintados e em Excelente Estado de Conservação • 2º Ofício RGI Matrícula 26453 • Inscrição Municipal IPTU: 1.230.821-9 • Avaliação Oficial: R$ 2.236.000,00 • 1º Leilão: 17/11/2026 às 14:00h por R$ 2.236.000,00 • 2º Leilão: 23/11/2026 às 14:00h por R$ 1.118.000,00 (50% da Avaliação — ~R$ 13.000,00/m² no Leblon)',
+        address: 'Rua Professor Saboya Ribeiro, nº 60, Apartamento 104 — Leblon, Rio de Janeiro - RJ',
+        p1Date: '17/11/2026 às 14:00h',
+        p2Date: '23/11/2026 às 14:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1.230.821-9',
+        rgi: '2º Ofício de Registro de Imóveis (Matrícula nº 26453)',
+        val: 'R$ 2.236.000,00',
+        p2Val: 'R$ 1.118.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 86 m² privativos (unidade 104) em prédio de construção datada de 1974, situado na valorizada e aprazível Rua Professor Saboya Ribeiro nº 60, no nobre bairro do Leblon, Zona Sul do Rio de Janeiro. O imóvel encontra-se em excelente estado de conservação, composto por sala, três quartos, dois banheiros sociais, cozinha totalmente equipada, área de serviço e um quarto de empregada suíte (dependência completa com banheiro privativo), estando todos os cômodos pintados e muito bem cuidados. O bem está devidamente registrado, dimensionado e caracterizado no 2º Ofício de Registro de Imóveis sob a Matrícula nº 26453 e Inscrição Municipal (IPTU) nº 1.230.821-9. Avaliação homologada em R$ 2.236.000,00. 1º Leilão em 17/11/2026 às 14:00h por R$ 2.236.000,00 e 2º Leilão em 23/11/2026 às 14:00h com lance inicial de 50% por R$ 1.118.000,00 (~R$ 13.000,00/m², oportunidade rara no mercado do Leblon, onde a média supera R$ 22.000/m²).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Professor Saboya Ribeiro 60 / Apto 104 (Leblon)',
+          sections: [
+            { title: 'Identificação Registral e Cadastral', text: 'Apartamento 104 com 86 m² na Rua Professor Saboya Ribeiro nº 60, Leblon, Rio de Janeiro/RJ. Registrado no 2º Ofício RGI sob Matrícula 26453 e Inscrição Municipal (IPTU) nº 1.230.821-9.' },
+            { title: 'Distribuição e Estado do Imóvel', text: 'Sala ampla, 3 quartos, 2 banheiros sociais, cozinha totalmente equipada, área de serviço e dependência de empregada suíte. Todos os cômodos pintados e em excelente estado de conservação.' },
+            { title: 'Características do Prédio', text: 'Edifício residencial com construção datada de 1974, localizado em rua tranquila, nobre e arborizada do Leblon.' },
+            { title: 'Valores e Calendário das Praças', text: 'Avaliação homologada de R$ 2.236.000,00. 1º Leilão: 17/11/2026 às 14:00h por R$ 2.236.000,00. 2º Leilão: 23/11/2026 às 14:00h por R$ 1.118.000,00 (50% da avaliação).' },
+            { title: 'Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários anteriores de IPTU e taxas sub-rogam-se sobre o preço arrematado, resguardando o arrematante nos termos da lei.' },
+            { title: 'Possibilidade de Parcelamento (Art. 895 do CPC)', text: 'Admite-se proposta parcelada formalizada até o início de cada praça, com sinal mínimo de 25% à vista e saldo em até 30 parcelas mensais corrigidas com garantia hipotecária sobre o próprio bem.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual é a avaliação oficial e o lance mínimo na 2ª Praça para o apto 104 na Rua Professor Saboya Ribeiro 60 no Leblon?", a: "A avaliação judicial oficial é de R$ 2.236.000,00. No 1º Leilão (17/11/2026 às 14:00h), o lance inicial é de 100% da avaliação. No 2º Leilão (23/11/2026 às 14:00h), o lance inicial é fixado em 50% do valor da avaliação, correspondendo a R$ 1.118.000,00 (~R$ 13.000,00/m²)." },
+          { q: "Quais são as características e a distribuição interna deste imóvel no Leblon?", a: "O apartamento possui 86 m² de área privativa, constituído por sala, três quartos, dois banheiros sociais, cozinha totalmente equipada, área de serviço e um quarto de empregada suíte. O imóvel encontra-se em excelente estado de conservação, com todos os cômodos pintados e conservados, em edifício de 1974." },
+          { q: "O arrematante assume dívidas tributárias anteriores de IPTU?", a: "Não. Por força do art. 130, parágrafo único, do Código Tributário Nacional (CTN), os créditos tributários de IPTU e taxas municipais anteriores sub-rogam-se sobre o respectivo preço da arrematação, recebendo o arrematante o bem livre de tais passivos fiscais pretéritos." },
+          { q: "É possível adquirir este imóvel parcelado judicialmente?", a: "Sim. Nos termos do artigo 895 do Código de Processo Civil (CPC), qualquer interessado pode apresentar proposta por escrito para pagamento com sinal de pelo menos 25% à vista e saldo parcelado em até 30 meses, garantido por hipoteca judicial do próprio imóvel." },
+          { q: "Como a assessoria jurídica da Soares Martins Advogados atua nesta arrematação?", a: "Realizamos a auditoria prévia completa da Matrícula 26453 no 2º RGI, levantamento de passivos fiscais e condominiais, conferência de citações e intimações nos autos da execução do TJRJ, acompanhamento do pregão e representação pós-leilão até a expedição da Carta de Arrematação e imissão efetiva na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Leblon — Calle Professor Saboya Ribeiro nº 60 — Apto 104 (86 m²)',
+        subtitle: 'Calle Professor Saboya Ribeiro, nº 60, Apto 104 — Leblon, Río de Janeiro/RJ | 86 m² • Edificio de 1974 • Salón, 3 Dormitorios, 2 Baños Sociales, Cocina Totalmente Equipada, Lavadero y Habitación de Servicio en Suite • Todos los Ambientes Pintados y en Excelente Estado • 2º Registro Matrícula 26453 • IPTU: 1.230.821-9 • Tasación: R$ 2.236.000,00 • 1ª Subasta: 17/11/2026 a las 14:00h por R$ 2.236.000,00 • 2ª Subasta: 23/11/2026 a las 14:00h por R$ 1.118.000,00 (50% de la Tasación — ~R$ 13.000,00/m² en Leblon)',
+        address: 'Calle Professor Saboya Ribeiro, nº 60, Apartamento 104 — Leblon, Río de Janeiro - RJ',
+        p1Date: '17/11/2026 a las 14:00h',
+        p2Date: '23/11/2026 a las 14:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1.230.821-9',
+        rgi: '2º Oficio de Registro de Inmuebles (Matrícula nº 26453)',
+        val: 'R$ 2.236.000,00',
+        p2Val: 'R$ 1.118.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 86 m² privados (unidad 104) en edificio de construcción de 1974, situado en la apacible y noble Calle Professor Saboya Ribeiro nº 60, en Leblon, Zona Sur de Río de Janeiro. El inmueble se encuentra en excelente estado de conservación, compuesto por salón, tres dormitorios, dos baños sociales, cocina totalmente equipada, área de servicio y habitación de servicio en suite. Todos los ambientes están recién pintados y en magnífico estado. Registrado en el 2º RGI bajo Matrícula nº 26453 e Inscripción Municipal (IPTU) nº 1.230.821-9. Tasación judicial homologada en R$ 2.236.000,00. 1ª Subasta el 17/11/2026 a las 14:00h por R$ 2.236.000,00 y 2ª Subasta el 23/11/2026 a las 14:00h con puja inicial del 50% por R$ 1.118.000,00 (~R$ 13.000,00/m² en Leblon).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Professor Saboya Ribeiro 60 / Apto 104 (Leblon)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 104 de 86 m² en Calle Professor Saboya Ribeiro nº 60, Leblon, Río de Janeiro/RJ. Matrícula 26453 del 2º Registro e IPTU 1.230.821-9.' },
+            { title: 'Distribución y Conservación', text: 'Salón, 3 dormitorios, 2 baños sociales, cocina equipada, lavadero y suite de servicio. Todos los ambientes pintados y en excelente estado de conservación.' },
+            { title: 'Edificio y Entorno', text: 'Construcción de 1974 en una de las calles residenciales más tranquilas y exclusivas de Leblon.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 17/11/2026 a las 14:00h por R$ 2.236.000,00. 2ª Subasta: 23/11/2026 a las 14:00h por R$ 1.118.000,00 (50%).' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias previas de IPTU quedan subrogadas en el precio obtenido en la subasta.' },
+            { title: 'Pago Fraccionado (Art. 895 CPC)', text: '25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca judicial.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y valores de la subasta para el apartamento en Leblon?", a: "La 1ª Subasta es el 17/11/2026 a las 14:00h por R$ 2.236.000,00 (100%). La 2ª Subasta es el 23/11/2026 a las 14:00h iniciando al 50% por R$ 1.118.000,00." },
+          { q: "¿Cuáles son las comodidades del apartamento?", a: "86 m² con salón, 3 habitaciones, 2 baños, cocina equipada, lavadero y suite de empleada. Inmueble pintado y en excelente estado." },
+          { q: "¿El comprador asume deudas de IPTU anteriores?", a: "No, por el Art. 130 del CTN las deudas tributarias se subrogan en el precio de la subasta judicial." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, mediante el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales garantizadas con hipoteca judicial." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 26453 del 2º Registro, revisamos el expediente en TJRJ y tramitamos la posesión judicial del inmueble." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Leblon — Professor Saboya Ribeiro Street #60 — Apt 104 (86 sqm)',
+        subtitle: 'Professor Saboya Ribeiro Street, #60, Apt 104 — Leblon, Rio de Janeiro/RJ | 86 sqm (925 sq ft) • 1974 Building • Living Room, 3 Bedrooms, 2 Guest Bathrooms, Fully Equipped Kitchen, Laundry Area & Maid Suite • Fully Painted & Excellent Condition • 2nd Land Registry Title #26453 • Municipal Tax IPTU: 1.230.821-9 • Court Appraisal: R$ 2,236,000.00 • 1st Auction: 11/17/2026 at 2:00 PM at R$ 2,236,000.00 • 2nd Auction: 11/23/2026 at 2:00 PM starting at R$ 1,118,000.00 (50% Reserve — ~R$ 13,000.00/sqm in Leblon)',
+        address: 'Professor Saboya Ribeiro Street, #60, Apt 104 — Leblon, Rio de Janeiro - RJ',
+        p1Date: '11/17/2026 at 2:00 PM',
+        p2Date: '11/23/2026 at 2:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1.230.821-9',
+        rgi: '2nd Land Registry Office (Title #26453)',
+        val: 'R$ 2,236,000.00',
+        p2Val: 'R$ 1,118,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 86 sqm (925 sq ft) private residential apartment (Unit 104) in a 1974 building located at tree-lined and upscale Professor Saboya Ribeiro Street #60, Leblon, Rio de Janeiro/RJ. The property is in immaculate condition, featuring a spacious living room, three bedrooms, two full guest bathrooms, a fully equipped kitchen, laundry area, and an en-suite maid quarters (bedroom with private bathroom). All rooms are freshly painted and exceptionally well maintained. Properly surveyed, recorded and described under Title #26453 at the 2nd Land Registry Office and Municipal Tax IPTU #1.230.821-9. Official court appraisal confirmed at R$ 2,236,000.00. 1st Auction on 11/17/2026 at 2:00 PM at R$ 2,236,000.00; 2nd Auction on 11/23/2026 at 2:00 PM opening at 50% discount for R$ 1,118,000.00 (~R$ 13,000.00/sqm, an outstanding opportunity in prime Leblon where market prices consistently surpass R$ 22,000/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Professor Saboya Ribeiro Street #60 / Apt 104 (Leblon)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 104, 86 sqm private area at Professor Saboya Ribeiro Street #60, Leblon, Rio de Janeiro/RJ. 2nd Land Registry Title #26453 and municipal tax IPTU #1.230.821-9.' },
+            { title: 'Layout, Amenities & Finishes', text: 'Living room, 3 bedrooms, 2 guest bathrooms, fully equipped kitchen, laundry area, and en-suite maid quarters. Freshly painted in excellent condition.' },
+            { title: 'Building & Architecture', text: 'Classic residential building built in 1974, situated on a quiet, leafy residential street in prestigious Leblon.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/17/2026 at 2:00 PM at R$ 2,236,000.00. 2nd Auction: 11/23/2026 at 2:00 PM starting at R$ 1,118,000.00 (50% reserve).' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the winning bidder.' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments secured by a judicial mortgage on the property.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Apt 104 on Saboya Ribeiro in Leblon?", a: "The 1st Auction is on 11/17/2026 at 2:00 PM at R$ 2,236,000.00. The 2nd Auction is on 11/23/2026 at 2:00 PM starting at 50% reserve for R$ 1,118,000.00 (~R$ 13,000.00/sqm)." },
+          { q: "What are the apartment features?", a: "86 sqm private area: living room, 3 bedrooms, 2 bathrooms, fully equipped kitchen, laundry area, and en-suite maid quarters. Freshly painted and in excellent condition in a 1974 building." },
+          { q: "Does the buyer inherit past municipal property taxes?", a: "No. Under Article 130, single paragraph, of the National Tax Code (CTN), previous IPTU tax liabilities subrogate into the auction purchase price." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments secured by judicial mortgage." },
+          { q: "Why hire Soares Martins Advogados for this Leblon auction?", a: "We conduct exhaustive due diligence on Title #26453 (2nd Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
     }
   };
+
 
 
 

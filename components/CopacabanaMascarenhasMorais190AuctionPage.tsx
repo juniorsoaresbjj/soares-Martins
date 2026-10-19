@@ -296,8 +296,8 @@ const CopacabanaMascarenhasMorais190AuctionPage: React.FC<CopacabanaMascarenhasM
               <ul className="text-xs sm:text-sm text-text-muted space-y-2">
                 <li><strong className="text-white">Processo de Origem:</strong> Execução Judicial perante o Tribunal de Justiça do Rio de Janeiro (TJRJ)</li>
                 <li><strong className="text-white">Valor da Avaliação Oficial:</strong> R$ 1.091.500,00</li>
-                <li><strong className="text-white">Lance Mínimo 1ª Praça (100%):</strong> R$ 1.091.500,00 (17/09/2026 às 12:20h)</li>
-                <li><strong className="text-white">Lance Mínimo 2ª Praça (50%):</strong> R$ 545.750,00 (22/09/2026 às 12:20h) — Desconto de 50% sobre a avaliação judicial</li>
+                <li><strong className="text-white">Lance Mínimo 1ª Praça (100%):</strong> R$ 1.091.500,00 (16/11/2026 às 12:00h)</li>
+                <li><strong className="text-white">Lance Mínimo 2ª Praça (50%):</strong> R$ 545.750,00 (18/11/2026 às 12:00h) — Desconto de 50% sobre a avaliação judicial</li>
                 <li><strong className="text-white">Foro / Juízo:</strong> Comarca da Capital / TJRJ</li>
                 <li><strong className="text-white">Modalidade:</strong> Leilão Judicial Eletrônico em Leiloeiro Oficial Credenciado</li>
               </ul>
@@ -358,7 +358,7 @@ const CopacabanaMascarenhasMorais190AuctionPage: React.FC<CopacabanaMascarenhasM
                 Envio de Lances e Propostas
               </div>
               <p className="text-xs text-text-muted leading-relaxed">
-                Lances na 1ª praça (17/09/2026 às 12:20h) ou 2ª praça (22/09/2026 às 12:20h). Também é possível protocolar proposta de pagamento parcelado (Art. 895 do CPC - 25% de entrada + até 30 meses).
+                Lances na 1ª praça (16/11/2026 às 12:00h) ou 2ª praça (18/11/2026 às 12:00h). Também é possível protocolar proposta de pagamento parcelado (Art. 895 do CPC - 25% de entrada + até 30 meses).
               </p>
             </div>
 

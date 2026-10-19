@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Leblon (RJ)',
+        title: 'Leilão Judicial no Leblon — Rua Professor Saboya Ribeiro nº 60 — Apto 104 (86 m²)',
+        desc: 'Apartamento de 86 m² privativos (unidade 104) composto por sala, três quartos, dois banheiros sociais, cozinha totalmente equipada, área de serviço e um quarto de empregada suíte em edifício residencial de 1974 na nobre e aprazível Rua Professor Saboya Ribeiro nº 60, Leblon, Zona Sul do Rio de Janeiro. Imóvel em excelente estado de conservação, com todos os cômodos pintados e muito bem cuidados. Registrado sob Matrícula nº 26453 do 2º Ofício RGI e Inscrição Municipal IPTU nº 1.230.821-9. Avaliação homologada em R$ 2.236.000,00. 1º Leilão em 17/11/2026 às 14:00h por R$ 2.236.000,00 e 2º Leilão em 23/11/2026 às 14:00h com lance inicial de 50% por R$ 1.118.000,00 (~R$ 13.000,00/m², oportunidade rara no mercado nobre do Leblon).',
+        p1Label: '1ª Praça (17/11/2026):',
+        p1Val: 'R$ 2.236.000,00',
+        p2Label: '2ª Praça (23/11/2026):',
+        p2Val: 'R$ 1.118.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20104%20na%20Rua%20Professor%20Saboya%20Ribeiro%2060%20no%20Leblon%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Icaraí / Niterói (RJ)',
         title: 'Leilão Judicial em Icaraí — Av. Jornalista Alberto Francisco Torres nº 237 — Apto 1004 (157 m²)',
         desc: 'Amplo apartamento de 157 m² privativos (unidade 1004 na Coluna 4 do 10º andar, de frente para a Rua Presidente Backer) composto por sala espaçosa, 4 quartos (1 reversível), lavabo, 2 banheiros, cozinha e área de serviço em edifício nobre na Avenida Jornalista Alberto Francisco Torres nº 237 — Praia de Icaraí, Niterói/RJ. Acabamento em tábua corrida na sala e quartos, bom estado de conservação, direito a 1 vaga de garagem, portaria com porteiro 24h, salão de festas e 2 elevadores. Matrícula nº 43 do 9º RGI e IPTU nº 115727-0. Avaliação judicial de R$ 870.000,00. 1º Leilão em 26/10/2026 às 12:00h por R$ 870.000,00 e 2º Leilão em 28/10/2026 às 12:00h com lance inicial de 60% por R$ 522.000,00 (apenas ~R$ 3.324,84/m² em Icaraí).',
@@ -803,9 +814,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residencial • Copacabana/RJ',
         title: 'Leilão Judicial de Apartamento em Copacabana — Rua Marechal Mascarenhas de Morais nº 190 — Apto 703 (79 m²)',
         desc: 'Apartamento residencial de 79 m² em prédio de 1982 com 7 andares mais cobertura. Condomínio com garagem, 3 elevadores, playground com salão de festas, portaria 24h e câmeras de segurança. Matrícula nº 49.437 (5º RGI) e IPTU nº 1.534.550-7.',
-        p1Label: '1ª Praça (17/09/2026):',
+        p1Label: '1ª Praça (16/11/2026):',
         p1Val: 'R$ 1.091.500,00',
-        p2Label: '2ª Praça (22/09/2026):',
+        p2Label: '2ª Praça (18/11/2026):',
         p2Val: 'R$ 545.750,00 (50% da avaliação)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Marechal%20Mascarenhas%20de%20Morais%20190%20em%20Copacabana.'
@@ -1174,6 +1185,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Enviar Email Corporativo',
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
+      {
+        tag: 'Residencial • Leblon (RJ)',
+        title: 'Subasta Judicial en Leblon — Calle Professor Saboya Ribeiro nº 60 — Apto 104 (86 m²)',
+        desc: 'Apartamento residencial de 86 m² privados (unidad 104) compuesto por salón, tres dormitorios, dos baños sociales, cocina totalmente equipada, lavadero y habitación de servicio en suite en edificio de 1974 situado en Calle Professor Saboya Ribeiro nº 60, Leblon, Zona Sur de Río de Janeiro. Inmueble en excelente estado de conservación, con todos los ambientes pintados y cuidados. Matrícula nº 26453 del 2º Registro e IPTU nº 1.230.821-9. Tasación judicial homologada en R$ 2.236.000,00. 1ª Subasta el 17/11/2026 a las 14:00h por R$ 2.236.000,00 y 2ª Subasta el 23/11/2026 a las 14:00h con puja inicial del 50% por R$ 1.118.000,00 (~R$ 13.000,00/m² en Leblon).',
+        p1Label: '1ª Subasta (17/11/2026):',
+        p1Val: 'R$ 2.236.000,00',
+        p2Label: '2ª Subasta (23/11/2026):',
+        p2Val: 'R$ 1.118.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20104%20en%20Calle%20Professor%20Saboya%20Ribeiro%2060%20en%20Leblon%20-%20RJ.'
+      },
       {
         tag: 'Residencial • Icaraí / Niterói (RJ)',
         title: 'Subasta Judicial en Icaraí — Av. Jornalista Alberto Francisco Torres nº 237 — Apto 1004 (157 m²)',
@@ -1816,9 +1838,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residencial • Copacabana/RJ',
         title: 'Subasta Judicial de Apartamento en Copacabana — Calle Marechal Mascarenhas de Morais nº 190 — Apto 703 (79 m²)',
         desc: 'Apartamento residencial de 79 m² en edificio de 1982. Dispone de garaje, 3 ascensores, playground con salón de fiestas, portería 24h y cámaras de seguridad. Matrícula nº 49.437 (5º RGI) e IPTU nº 1.534.550-7.',
-        p1Label: '1ª Subasta (17/09/2026):',
+        p1Label: '1ª Subasta (16/11/2026):',
         p1Val: 'R$ 1.091.500,00',
-        p2Label: '2ª Subasta (22/09/2026):',
+        p2Label: '2ª Subasta (18/11/2026):',
         p2Val: 'R$ 545.750,00 (50% de evaluación)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Copacabana.'
@@ -2165,6 +2187,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Leblon (RJ)',
+        title: 'Judicial Auction in Leblon — Professor Saboya Ribeiro Street #60 — Apt 104 (86 sqm)',
+        desc: 'Prime 86 sqm (925 sq ft) private residential apartment (Unit 104) featuring a spacious living room, three bedrooms, two guest bathrooms, fully equipped kitchen, laundry area, and an en-suite maid quarters in a 1974 building situated at Professor Saboya Ribeiro Street #60, Leblon, Rio de Janeiro South Zone. Freshly painted in excellent maintenance condition. Recorded under 2nd Land Registry Title #26453 and IPTU #1.230.821-9. Official court appraisal confirmed at R$ 2,236,000.00. 1st Auction on 11/17/2026 at 2:00 PM at R$ 2,236,000.00; 2nd Auction on 11/23/2026 at 2:00 PM opening at 50% discount for R$ 1,118,000.00 (~R$ 13,000.00/sqm in prime Leblon).',
+        p1Label: '1st Auction (11/17/2026):',
+        p1Val: 'R$ 2,236,000.00',
+        p2Label: '2nd Auction (11/23/2026):',
+        p2Val: 'R$ 1,118,000.00 (50% starting reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20104%20at%20Rua%20Professor%20Saboya%20Ribeiro%2060%20in%20Leblon%20-%20RJ.'
+      },
       {
         tag: 'Residential • Icaraí / Niterói (RJ)',
         title: 'Judicial Auction in Icaraí — Av. Jornalista Alberto Francisco Torres #237 — Apt 1004 (157 sqm)',
@@ -2807,9 +2840,9 @@ const pageTranslations: Record<string, any> = {
         tag: 'Residential • Copacabana/RJ',
         title: 'Judicial Auction of Apartment in Copacabana — Marechal Mascarenhas de Morais Street #190 — Apt 703 (79 sqm)',
         desc: 'Residential 79 sqm apartment in a 1982 building with 3 elevators, garage, playground with party room, 24/7 doorman, and security cameras. Title #49.437 (5th Registry) & IPTU #1.534.550-7.',
-        p1Label: '1st Auction (09/17/2026):',
+        p1Label: '1st Auction (11/16/2026):',
         p1Val: 'R$ 1,091,500.00',
-        p2Label: '2nd Auction (09/22/2026):',
+        p2Label: '2nd Auction (11/18/2026):',
         p2Val: 'R$ 545,750.00 (50% starting bid)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-morais-190-apto-703/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Marechal%20Mascarenhas%20de%20Morais%20190%20in%20Copacabana.'

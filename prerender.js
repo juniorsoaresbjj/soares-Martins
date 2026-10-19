@@ -120,6 +120,7 @@ const routesToPrerender = [
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/rua-honorio-de-barros-23-apto-601/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/barra-da-tijuca/apartamento/avenida-lucio-costa-6500-apto-203/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104/',
   // Blog Posts (English)
   '/blog/lgpd-condominiums-concierge-cameras/',
   '/blog/stj-rules-animals-condominiums-what-changed/',
