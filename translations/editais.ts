@@ -7366,8 +7366,107 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Leblon auction?", a: "We conduct exhaustive due diligence on Title #26453 (2nd Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
         ]
       }
+    },
+    // Copacabana - Rua Marechal Mascarenhas de Moraes, 124 - Apto 102 (60 m²)
+    'copacabana-mascarenhas-morais-124-apto-102': {
+      pt: {
+        title: 'Leilão Judicial em Copacabana — Rua Marechal Mascarenhas de Moraes nº 124 — Apto 102 (60 m²)',
+        subtitle: 'Rua Marechal Mascarenhas de Moraes, nº 124, Apto 102 — Copacabana, Rio de Janeiro/RJ | 60 m² • 1º Andar • 5º Ofício RGI Matrícula 59.230 • Inscrição Municipal IPTU: 1.133.607-0 • Avaliação Oficial: R$ 750.000,00 • 1º Leilão: 23/11/2026 às 12:00h por R$ 750.000,00 • 2º Leilão: 25/11/2026 às 12:00h por R$ 375.000,00 (50% da Avaliação — ~R$ 6.250,00/m² em Copacabana)',
+        address: 'Rua Marechal Mascarenhas de Moraes, nº 124, Apartamento 102 — Copacabana, Rio de Janeiro - RJ',
+        p1Date: '23/11/2026 às 12:00h',
+        p2Date: '25/11/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1.133.607-0',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 59.230)',
+        val: 'R$ 750.000,00',
+        p2Val: 'R$ 375.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 60 m² privativos (unidade 102 no 1º andar) em edifício residencial situado na tradicional e aprazível Rua Marechal Mascarenhas de Moraes nº 124, no coração do bairro de Copacabana, Zona Sul do Rio de Janeiro. Imóvel devidamente registrado, dimensionado e caracterizado sob a Matrícula nº 59.230 do 5º Ofício de Registro de Imóveis do Rio de Janeiro e Inscrição Municipal (IPTU) nº 1.133.607-0. Localização privilegiada em via estritamente residencial, a poucas quadras da Praia de Copacabana e próximo às estações de metrô Cardeal Arcoverde e Siqueira Campos. Avaliação judicial oficial homologada em R$ 750.000,00. 1º Leilão em 23/11/2026 às 12:00h por R$ 750.000,00 e 2º Leilão em 25/11/2026 às 12:00h com lance inicial de 50% por R$ 375.000,00 (~R$ 6.250,00/m², oportunidade ímpar na Zona Sul carioca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Marechal Mascarenhas de Moraes 124 / Apto 102 (Copacabana)',
+          sections: [
+            { title: 'Identificação Registral e Cadastral', text: 'Apartamento 102 de 60 m² na Rua Marechal Mascarenhas de Moraes nº 124, Copacabana, Rio de Janeiro/RJ. Matrícula 59.230 do 5º Ofício RGI e Inscrição Municipal IPTU 1.133.607-0.' },
+            { title: 'Localização e Entorno', text: 'Via estritamente residencial e tranquila em Copacabana, próxima ao Metrô Siqueira Campos/Cardeal Arcoverde, comércio consolidado e a poucas quadras da praia.' },
+            { title: 'Valores e Calendário das Praças', text: 'Avaliação homologada de R$ 750.000,00. 1º Leilão: 23/11/2026 às 12:00h por R$ 750.000,00 (100%). 2º Leilão: 25/11/2026 às 12:00h por R$ 375.000,00 (50% da avaliação).' },
+            { title: 'Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários anteriores de IPTU e taxas municipais sub-rogam-se sobre o preço obtido na arrematação, recebendo o arrematante o bem livre de débitos fiscais pretéritos.' },
+            { title: 'Possibilidade de Parcelamento (Art. 895 do CPC)', text: 'Admite-se proposta para aquisição parcelada por escrito antes do leilão: sinal mínimo de 25% à vista e saldo em até 30 parcelas mensais corrigidas, com garantia hipotecária sobre o próprio bem.' }
+          ]
+        },
+        faqs: [
+          { q: "Qual é a avaliação oficial e o lance mínimo na 2ª Praça para o apto 102 na Rua Marechal Mascarenhas de Moraes 124 em Copacabana?", a: "A avaliação judicial oficial é de R$ 750.000,00. No 1º Leilão (23/11/2026 às 12:00h), o lance inicial é de 100% da avaliação. No 2º Leilão (25/11/2026 às 12:00h), o lance inicial é fixado em 50% do valor da avaliação, correspondendo a R$ 375.000,00 (~R$ 6.250,00/m²)." },
+          { q: "Quais são as características do apartamento 102 na Rua Mascarenhas de Moraes 124?", a: "O imóvel possui 60 m² de área privativa (unidade 102 no 1º andar), situado em edifício residencial em rua nobre e tranquila de Copacabana, devidamente registrado na Matrícula 59.230 do 5º RGI e IPTU 1.133.607-0." },
+          { q: "O arrematante assume dívidas tributárias anteriores de IPTU?", a: "Não. Conforme preceitua o art. 130, parágrafo único, do Código Tributário Nacional (CTN), os créditos tributários relativos a impostos cujo fato gerador seja a propriedade do imóvel sub-rogam-se sobre o respectivo preço." },
+          { q: "É possível comprar este imóvel de forma parcelada?", a: "Sim. Nos termos do artigo 895 do CPC, qualquer interessado pode apresentar proposta de arrematação parcelada: 25% de entrada à vista e o saldo em até 30 parcelas mensais corrigidas, garantidas por hipoteca sobre o próprio imóvel." },
+          { q: "Como a assessoria jurídica da Soares Martins Advogados atua nesta oportunidade?", a: "Realizamos a auditoria completa da Matrícula 59.230 do 5º RGI, certidões fiscais, citação e intimação válida do executado no TJRJ, acompanhamento dos lances e atuação até a expedição da carta de arrematação e imissão efetiva na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Copacabana — Calle Marechal Mascarenhas de Moraes nº 124 — Apto 102 (60 m²)',
+        subtitle: 'Calle Marechal Mascarenhas de Moraes, nº 124, Apto 102 — Copacabana, Río de Janeiro/RJ | 60 m² • 1ª Planta • 5º Registro Matrícula 59.230 • IPTU: 1.133.607-0 • Tasación: R$ 750.000,00 • 1ª Subasta: 23/11/2026 a las 12:00h por R$ 750.000,00 • 2ª Subasta: 25/11/2026 a las 12:00h por R$ 375.000,00 (50% de la Tasación — ~R$ 6.250,00/m² en Copacabana)',
+        address: 'Calle Marechal Mascarenhas de Moraes, nº 124, Apartamento 102 — Copacabana, Río de Janeiro - RJ',
+        p1Date: '23/11/2026 a las 12:00h',
+        p2Date: '25/11/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1.133.607-0',
+        rgi: '5º Oficio de Registro de Inmuebles (Matrícula nº 59.230)',
+        val: 'R$ 750.000,00',
+        p2Val: 'R$ 375.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 60 m² privados (unidad 102 en 1ª planta) en edificio residencial situado en Calle Marechal Mascarenhas de Moraes nº 124, Copacabana, Zona Sur de Río de Janeiro. Inmueble registrado bajo Matrícula nº 59.230 del 5º RGI e IPTU nº 1.133.607-0. Excelente ubicación en calle residencial y tranquila, cerca del metro y a pocas cuadras de la playa de Copacabana. Tasación judicial de R$ 750.000,00. 1ª Subasta el 23/11/2026 a las 12:00h por R$ 750.000,00 y 2ª Subasta el 25/11/2026 a las 12:00h con puja inicial del 50% por R$ 375.000,00 (~R$ 6.250,00/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Calle Marechal Mascarenhas de Moraes 124 / Apto 102 (Copacabana)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 102 de 60 m² en Calle Marechal Mascarenhas de Moraes nº 124, Copacabana, Río de Janeiro/RJ. Matrícula 59.230 del 5º Registro e IPTU 1.133.607-0.' },
+            { title: 'Ubicación Residencial', text: 'Calle residencial y apacible en Copacabana, cerca de estaciones de metro y servicios.' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 23/11/2026 a las 12:00h por R$ 750.000,00. 2ª Subasta: 25/11/2026 a las 12:00h por R$ 375.000,00 (50%).' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias previas de IPTU quedan subrogadas en el precio obtenido en la subasta.' },
+            { title: 'Pago Fraccionado (Art. 895 CPC)', text: '25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con hipoteca judicial.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y valores de la subasta para el apartamento 102 en Mascarenhas de Moraes 124?", a: "La 1ª Subasta es el 23/11/2026 a las 12:00h por R$ 750.000,00 (100%). La 2ª Subasta es el 25/11/2026 a las 12:00h iniciando al 50% por R$ 375.000,00." },
+          { q: "¿Cuáles son las características del apartamento?", a: "Inmueble de 60 m² privativos en 1ª planta en Copacabana, con matrícula 59.230 del 5º Registro e IPTU 1.133.607-0." },
+          { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales con hipoteca judicial." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 59.230 del 5º Registro, revisamos el expediente en TJRJ y tramitamos la posesión judicial del inmueble." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Copacabana — Marechal Mascarenhas de Moraes Street #124 — Apt 102 (60 sqm)',
+        subtitle: 'Marechal Mascarenhas de Moraes Street, #124, Apt 102 — Copacabana, Rio de Janeiro/RJ | 60 sqm (645 sq ft) • 1st Floor • 5th Land Registry Title #59.230 • Municipal Tax IPTU: 1.133.607-0 • Court Appraisal: R$ 750,000.00 • 1st Auction: 11/23/2026 at 12:00 PM at R$ 750,000.00 • 2nd Auction: 11/25/2026 at 12:00 PM starting at R$ 375,000.00 (50% Reserve — ~R$ 6,250.00/sqm in Copacabana)',
+        address: 'Marechal Mascarenhas de Moraes Street, #124, Apt 102 — Copacabana, Rio de Janeiro - RJ',
+        p1Date: '11/23/2026 at 12:00 PM',
+        p2Date: '11/25/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1.133.607-0',
+        rgi: '5th Land Registry Office (Title #59.230)',
+        val: 'R$ 750,000.00',
+        p2Val: 'R$ 375,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Prime 60 sqm (645 sq ft) private residential apartment (Unit 102 on the 1st floor) in a residential building located at Marechal Mascarenhas de Moraes Street #124, in the heart of Copacabana, Rio de Janeiro South Zone. Properly surveyed, recorded and described under Title #59.230 at the 5th Land Registry Office and Municipal Tax IPTU #1.133.607-0. Quiet residential street a few blocks from Copacabana Beach, close to Siqueira Campos and Cardeal Arcoverde subway stations. Official court appraisal confirmed at R$ 750,000.00. 1st Auction on 11/23/2026 at 12:00 PM at R$ 750,000.00; 2nd Auction on 11/25/2026 at 12:00 PM opening at 50% discount for R$ 375,000.00 (~R$ 6,250.00/sqm, an outstanding opportunity in prime Copacabana).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Marechal Mascarenhas de Moraes Street #124 / Apt 102 (Copacabana)',
+          sections: [
+            { title: 'Registry Identification', text: 'Apartment 102, 60 sqm private area at Marechal Mascarenhas de Moraes Street #124, Copacabana, Rio de Janeiro/RJ. 5th Land Registry Title #59.230 and municipal tax IPTU #1.133.607-0.' },
+            { title: 'Prime Residential Location', text: 'Quiet tree-lined residential street in Copacabana, minutes from subway stations and beach.' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/23/2026 at 12:00 PM at R$ 750,000.00. 2nd Auction: 11/25/2026 at 12:00 PM starting at R$ 375,000.00 (50% reserve).' },
+            { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the winning bidder.' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments secured by a judicial mortgage on the property.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Apt 102 on Mascarenhas de Moraes 124 in Copacabana?", a: "The 1st Auction is on 11/23/2026 at 12:00 PM at R$ 750,000.00. The 2nd Auction is on 11/25/2026 at 12:00 PM starting at 50% reserve for R$ 375,000.00 (~R$ 6,250.00/sqm)." },
+          { q: "What are the apartment features?", a: "60 sqm private area on the 1st floor in a residential building in Copacabana, recorded under 5th Land Registry Title #59.230." },
+          { q: "Does the buyer inherit past municipal property taxes?", a: "No. Under Article 130, single paragraph, of the National Tax Code (CTN), previous IPTU tax liabilities subrogate into the auction purchase price." },
+          { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments secured by judicial mortgage." },
+          { q: "Why hire Soares Martins Advogados for this Copacabana auction?", a: "We conduct exhaustive due diligence on Title #59.230 (5th Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
+        ]
+      }
     }
   };
+
 
 
 

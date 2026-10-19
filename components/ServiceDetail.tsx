@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial em Copacabana — Rua Marechal Mascarenhas de Moraes nº 124 — Apto 102 (60 m²)',
+        desc: 'Apartamento de 60 m² privativos (unidade 102 no 1º andar) em edifício residencial situado na tradicional e aprazível Rua Marechal Mascarenhas de Moraes nº 124, Copacabana, Zona Sul do Rio de Janeiro. Localização tranquila e arborizada a poucas quadras da praia e perto do Metrô Siqueira Campos e Cardeal Arcoverde. Matrícula nº 59.230 do 5º Ofício RGI e IPTU nº 1.133.607-0. Avaliação judicial oficial de R$ 750.000,00. 1º Leilão em 23/11/2026 às 12:00h por R$ 750.000,00 e 2º Leilão em 25/11/2026 às 12:00h com lance inicial de 50% por R$ 375.000,00 (~R$ 6.250,00/m² em Copacabana).',
+        p1Label: '1ª Praça (23/11/2026):',
+        p1Val: 'R$ 750.000,00',
+        p2Label: '2ª Praça (25/11/2026):',
+        p2Val: 'R$ 375.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-moraes-124-apto-102/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20102%20na%20Rua%20Marechal%20Mascarenhas%20de%20Moraes%20124%20em%20Copacabana%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Leblon (RJ)',
         title: 'Leilão Judicial no Leblon — Rua Professor Saboya Ribeiro nº 60 — Apto 104 (86 m²)',
         desc: 'Apartamento de 86 m² privativos (unidade 104) composto por sala, três quartos, dois banheiros sociais, cozinha totalmente equipada, área de serviço e um quarto de empregada suíte em edifício residencial de 1974 na nobre e aprazível Rua Professor Saboya Ribeiro nº 60, Leblon, Zona Sul do Rio de Janeiro. Imóvel em excelente estado de conservação, com todos os cômodos pintados e muito bem cuidados. Registrado sob Matrícula nº 26453 do 2º Ofício RGI e Inscrição Municipal IPTU nº 1.230.821-9. Avaliação homologada em R$ 2.236.000,00. 1º Leilão em 17/11/2026 às 14:00h por R$ 2.236.000,00 e 2º Leilão em 23/11/2026 às 14:00h com lance inicial de 50% por R$ 1.118.000,00 (~R$ 13.000,00/m², oportunidade rara no mercado nobre do Leblon).',
@@ -1186,6 +1197,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial en Copacabana — Calle Marechal Mascarenhas de Moraes nº 124 — Apto 102 (60 m²)',
+        desc: 'Apartamento de 60 m² privados (unidad 102 en 1ª planta) en edificio residencial en Calle Marechal Mascarenhas de Moraes nº 124, Copacabana, Zona Sur de Río de Janeiro. Calle residencial y tranquila a pocas cuadras de la playa y cerca del Metro Siqueira Campos y Cardeal Arcoverde. Matrícula nº 59.230 del 5º Registro e IPTU nº 1.133.607-0. Tasación judicial de R$ 750.000,00. 1ª Subasta el 23/11/2026 a las 12:00h por R$ 750.000,00 y 2ª Subasta el 25/11/2026 a las 12:00h con puja inicial del 50% por R$ 375.000,00 (~R$ 6.250,00/m² en Copacabana).',
+        p1Label: '1ª Subasta (23/11/2026):',
+        p1Val: 'R$ 750.000,00',
+        p2Label: '2ª Subasta (25/11/2026):',
+        p2Val: 'R$ 375.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-moraes-124-apto-102/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20102%20en%20Calle%20Marechal%20Mascarenhas%20de%20Moraes%20124%20en%20Copacabana%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Leblon (RJ)',
         title: 'Subasta Judicial en Leblon — Calle Professor Saboya Ribeiro nº 60 — Apto 104 (86 m²)',
         desc: 'Apartamento residencial de 86 m² privados (unidad 104) compuesto por salón, tres dormitorios, dos baños sociales, cocina totalmente equipada, lavadero y habitación de servicio en suite en edificio de 1974 situado en Calle Professor Saboya Ribeiro nº 60, Leblon, Zona Sur de Río de Janeiro. Inmueble en excelente estado de conservación, con todos los ambientes pintados y cuidados. Matrícula nº 26453 del 2º Registro e IPTU nº 1.230.821-9. Tasación judicial homologada en R$ 2.236.000,00. 1ª Subasta el 17/11/2026 a las 14:00h por R$ 2.236.000,00 y 2ª Subasta el 23/11/2026 a las 14:00h con puja inicial del 50% por R$ 1.118.000,00 (~R$ 13.000,00/m² en Leblon).',
@@ -2187,6 +2209,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction in Copacabana — Marechal Mascarenhas de Moraes Street #124 — Apt 102 (60 sqm)',
+        desc: 'Prime 60 sqm (645 sq ft) private residential unit (Apartment 102 on the 1st floor) in a residential building at Marechal Mascarenhas de Moraes Street #124, Copacabana, Rio de Janeiro South Zone. Quiet and tree-lined street close to Cardeal Arcoverde and Siqueira Campos subway stations and the beach. 5th Land Registry Title #59.230 and IPTU #1.133.607-0. Court appraisal: R$ 750,000.00. 1st Auction on 11/23/2026 at 12:00 PM at R$ 750,000.00; 2nd Auction on 11/25/2026 at 12:00 PM starting at 50% discount for R$ 375,000.00 (~R$ 6,250.00/sqm in Copacabana).',
+        p1Label: '1st Auction (11/23/2026):',
+        p1Val: 'R$ 750,000.00',
+        p2Label: '2nd Auction (11/25/2026):',
+        p2Val: 'R$ 375,000.00 (50% starting bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-moraes-124-apto-102/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Marechal%20Mascarenhas%20de%20Moraes%20124%20in%20Copacabana%20-%20RJ.'
+      },
       {
         tag: 'Residential • Leblon (RJ)',
         title: 'Judicial Auction in Leblon — Professor Saboya Ribeiro Street #60 — Apt 104 (86 sqm)',
