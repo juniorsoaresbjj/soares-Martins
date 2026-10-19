@@ -7464,6 +7464,102 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Copacabana auction?", a: "We conduct exhaustive due diligence on Title #59.230 (5th Registry), verify court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
         ]
       }
+    },
+    'lagoa-henrique-dodsworth-133-apto-206': {
+      pt: {
+        title: 'Leilão Judicial na Lagoa — Av. Henrique Dodsworth nº 133 — Apto 206 (92 m²)',
+        subtitle: 'Avenida Henrique Dodsworth, nº 133, Apto 206 (acesso também pela Rua Prof. Gastão Bahiana nº 496) — Lagoa, Rio de Janeiro/RJ | Edifício Gemini (2 torres cilíndricas em vidro fumê) • 92 m² • Posição Frente • 5º Ofício RGI Matrícula 60366 • Inscrição Municipal IPTU: 1186769-4 • Avaliação Oficial: R$ 1.330.000,00 • 1º Leilão: 23/10/2026 às 13:00h por R$ 1.330.000,00 • 2º Leilão: 27/10/2026 às 13:00h por R$ 665.000,00 (50% da Avaliação — ~R$ 7.228,26/m² na nobre Lagoa Rodrigo de Freitas)',
+        address: 'Avenida Henrique Dodsworth, nº 133, Apartamento 206 (entrada suplementar pela Rua Prof. Gastão Bahiana nº 496) — Lagoa, Rio de Janeiro - RJ',
+        p1Date: '23/10/2026 às 13:00h',
+        p2Date: '27/10/2026 às 13:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '1186769-4',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 60366)',
+        val: 'R$ 1.330.000,00',
+        p2Val: 'R$ 665.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento na posição de frente, com área edificada de 92 metros quadrados, situado na Avenida Henrique Dodsworth nº 133, apto 206, com entrada suplementar pela Rua Professor Gastão Bahiana nº 496 - Lagoa, Rio de Janeiro/RJ. Integrante do emblemático Condomínio do Edifício Gemini, composto por 2 distintas torres em formato cilíndrico com fachada contemporânea em vidro fumê, construído em 1973 (conforme guia de IPTU), sem lojas comerciais no alinhamento da via pública. A entrada principal é pela Rua Professor Gastão Bahiana nº 496, contando com prático acesso de pedestres por elevador pela Av. Henrique Dodsworth nº 133. O condomínio é servido por elevadores sociais e de serviço modernizados e oferece infraestrutura de lazer de alto padrão: circuito interno de TV, piscina com deck e espreguiçadeiras, sauna, quadra poliesportiva, quadra de futebol de salão, salão de festas, churrasqueira, brinquedoteca em pátio externo, playground infantil, bicicletário e rampa de integração entre as torres. Imóvel devidamente registrado e caracterizado no 5º Ofício RGI sob Matrícula 60366 e inscrição municipal IPTU nº 1186769-4. Avaliação homologada em R$ 1.330.000,00, com 2ª praça iniciando em 50% por R$ 665.000,00.',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Av. Henrique Dodsworth 133 / Apto 206 (Lagoa / Edifício Gemini)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento de frente com 92 m² privativos, situado na Av. Henrique Dodsworth nº 133, apto 206 (com entrada pela Rua Professor Gastão Bahiana nº 496), Lagoa, Rio de Janeiro/RJ. Registrado no 5º Ofício RGI sob Matrícula nº 60366 e Inscrição Municipal IPTU nº 1186769-4.' },
+            { title: 'Arquitetura e Condomínio Edifício Gemini', text: 'Construção datada de 1973, composta de 2 torres em formato cilíndrico com fachada em vidro fumê, estritamente residencial (sem lojas no alinhamento). Elevadores modernizados, circuito interno de TV, piscina com deck, sauna, quadra poliesportiva, futebol de salão, salão de festas, churrasqueira, brinquedoteca, playground e bicicletário.' },
+            { title: 'Calendário de Leilão e Valores', text: '1º Leilão: 23/10/2026 às 13:00h pelo valor da avaliação de R$ 1.330.000,00. 2º Leilão: 27/10/2026 às 13:00h com lance inicial de 50% por R$ 665.000,00 (~R$ 7.228,26/m²).' },
+            { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Os débitos de IPTU e taxas municipais pretéritas sub-rogam-se sobre o preço ofertado em hasta pública, consoante o parágrafo único do art. 130 do Código Tributário Nacional.' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Conforme o art. 895 do Código de Processo Civil, é admitida proposta para pagamento parcelado (mínimo de 25% de entrada e saldo em até 30 parcelas mensais corrigidas, com garantia hipotecária sobre o bem).' }
+          ]
+        },
+        faqs: [
+          { q: "Quais são as datas e lances iniciais do leilão do apartamento na Av. Henrique Dodsworth 133 / 206?", a: "O 1º Leilão ocorrerá no dia 23/10/2026 às 13:00h, com lance mínimo equivalente a 100% da avaliação (R$ 1.330.000,00). O 2º Leilão ocorrerá em 27/10/2026 às 13:00h, com lance inicial de 50% da avaliação oficial, totalizando R$ 665.000,00." },
+          { q: "Quais são as principais características do imóvel e do Condomínio Edifício Gemini?", a: "Trata-se de apartamento de frente com 92 m² de área edificada no Edifício Gemini (1973), condomínio de alto padrão formado por duas torres cilíndricas com fachada de vidro fumê. Possui portaria com controle e acesso pela Rua Prof. Gastão Bahiana 496 e Av. Henrique Dodsworth 133, elevadores modernizados, piscina com deck, sauna, quadra poliesportiva, quadra de futebol de salão, churrasqueira, salão de festas, playground, brinquedoteca externa e bicicletário." },
+          { q: "Como ficam as dívidas tributárias de IPTU anteriores à arrematação?", a: "Em observância ao art. 130, parágrafo único, do CTN, os eventuais débitos fiscais e tributários pretéritos incidentes sobre o imóvel sub-rogam-se no preço da arrematação, recebendo o arrematante o bem livre de pendências municipais preexistentes." },
+          { q: "É possível adquirir este imóvel por meio de parcelamento judicial?", a: "Sim. O artigo 895 do Código de Processo Civil autoriza a apresentação de proposta de parcelamento (25% à vista e o remanescente em até 30 prestações mensais corrigidas, garantidas por hipoteca judicial anotada na própria matrícula)." },
+          { q: "Qual o papel da assessoria jurídica da Soares Martins Advogados neste leilão?", a: "Realizamos a due diligence jurídica integral da Matrícula 60366 do 5º RGI, examinamos a regularidade da execução no TJRJ, validamos editais e intimações, calculamos a viabilidade financeira e conduzimos todos os atos pós-leilão até a expedição da carta de arrematação e efetiva imissão na posse." }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Lagoa — Av. Henrique Dodsworth nº 133 — Apto 206 (92 m²)',
+        subtitle: 'Avenida Henrique Dodsworth, nº 133, Apto 206 (acceso suplementario por Calle Prof. Gastão Bahiana nº 496) — Lagoa, Río de Janeiro/RJ | Edificio Gemini (2 torres cilíndricas en vidrio ahumado) • 92 m² • Posición Frente • 5º Registro Matrícula 60366 • IPTU: 1186769-4 • Tasación Oficial: R$ 1.330.000,00 • 1ª Subasta: 23/10/2026 a las 13:00h por R$ 1.330.000,00 • 2ª Subasta: 27/10/2026 a las 13:00h por R$ 665.000,00 (50% de la Tasación — ~R$ 7.228,26/m² en Lagoa)',
+        address: 'Avenida Henrique Dodsworth, nº 133, Apartamento 206 — Lagoa, Río de Janeiro - RJ',
+        p1Date: '23/10/2026 a las 13:00h',
+        p2Date: '27/10/2026 a las 13:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '1186769-4',
+        rgi: '5º Oficio de Registro de Inmuebles (Matrícula nº 60366)',
+        val: 'R$ 1.330.000,00',
+        p2Val: 'R$ 665.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 92 m² de área edificada en posición de frente, situado en Avenida Henrique Dodsworth nº 133, unidad 206, con entrada suplementaria por Calle Profesor Gastão Bahiana nº 496 - Lagoa, Río de Janeiro/RJ. Ubicado en el prestigioso Condominio Edificio Gemini, compuesto por 2 torres cilíndricas con fachada en vidrio ahumado, edificado en 1973, sin locales comerciales en la vía pública. Dispone de elevadores modernizados, piscina con solárium, sauna, polideportivo, cancha de fútbol sala, salón de eventos, barbacoa, parque infantil, ludoteca y bicicletero. Registrado en el 5º Registro de la Propiedad bajo Matrícula 60366 e IPTU 1186769-4. Tasación homologada en R$ 1.330.000,00, con 2ª subasta al 50% por R$ 665.000,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Av. Henrique Dodsworth 133 / Apto 206 (Lagoa / Edificio Gemini)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento de frente de 92 m² en Av. Henrique Dodsworth 133, apto 206 (acceso por Gastão Bahiana 496), Lagoa, Río de Janeiro/RJ. Matrícula 60366 del 5º Registro e IPTU 1186769-4.' },
+            { title: 'Arquitectura y Complejo Residencial', text: 'Edificio Gemini (1973) con 2 torres cilíndricas de vidrio ahumado, piscina, sauna, pistas deportivas, salón de fiestas y seguridad.' },
+            { title: 'Fechas y Precios de Subasta', text: '1ª Subasta: 23/10/2026 a las 13:00h por R$ 1.330.000,00. 2ª Subasta: 27/10/2026 a las 13:00h iniciando al 50% por R$ 665.000,00 (~R$ 7.228,26/m²).' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas previas de impuestos municipales se subrogan en el precio final de adjudicación en la subasta.' },
+            { title: 'Pago a Plazos (Art. 895 CPC)', text: 'Posibilidad de abonar el 25% de entrada y el resto en hasta 30 cuotas mensuales ajustadas con hipoteca.' }
+          ]
+        },
+        faqs: [
+          { q: "¿Cuáles son las fechas y valores de la subasta para el apartamento en Av. Henrique Dodsworth 133 / 206?", a: "La 1ª Subasta se realizará el 23/10/2026 a las 13:00h por R$ 1.330.000,00 (100%). La 2ª Subasta será el 27/10/2026 a las 13:00h con puja inicial del 50% por R$ 665.000,00." },
+          { q: "¿Cuáles son las características del inmueble y del Edificio Gemini?", a: "Apartamento frontal de 92 m² en el icónico Edificio Gemini en Lagoa, con 2 torres cilíndricas, piscina con deck, sauna, canchas deportivas, barbacoa, salón de fiestas y doble acceso." },
+          { q: "¿Cómo se tratan las deudas fiscales anteriores?", a: "Por mandato del art. 130 del CTN, los tributos municipales previos se pagan con el valor obtenido en la subasta." },
+          { q: "¿Cómo asesora Soares Martins Advogados?", a: "Llevamos a cabo la auditoría jurídica integral de la matrícula 60366, expediente del TJRJ y tramitamos la posesión legal efectiva." }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Lagoa — Henrique Dodsworth Ave #133 — Apt 206 (92 sqm)',
+        subtitle: 'Henrique Dodsworth Avenue, #133, Apt 206 (additional access via Prof. Gastão Bahiana St #496) — Lagoa, Rio de Janeiro/RJ | Gemini Building (2 landmark cylindrical smoked-glass towers) • 92 sqm (990 sq ft) • Front Facing • 5th Land Registry Title #60366 • Municipal Tax IPTU: 1186769-4 • Official Appraisal: R$ 1,330,000.00 • 1st Auction: 10/23/2026 at 1:00 PM at R$ 1,330,000.00 • 2nd Auction: 10/27/2026 at 1:00 PM starting at R$ 665,000.00 (50% Reserve — ~R$ 7,228.26/sqm in prestigious Lagoa Rodrigo de Freitas)',
+        address: 'Henrique Dodsworth Avenue, #133, Apt 206 — Lagoa, Rio de Janeiro - RJ',
+        p1Date: '10/23/2026 at 1:00 PM',
+        p2Date: '10/27/2026 at 1:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '1186769-4',
+        rgi: '5th Land Registry Office (Title #60366)',
+        val: 'R$ 1,330,000.00',
+        p2Val: 'R$ 665,000.00 (2nd Auction starting reserve bid - 50%)',
+        description: 'Front-facing residential apartment with 92 sqm (990 sq ft) of private built area located at Henrique Dodsworth Avenue #133, unit 206, with secondary pedestrian and vehicular entrance at Professor Gastão Bahiana Street #496, Lagoa, Rio de Janeiro/RJ. Part of the landmark Condomínio do Edifício Gemini, built in 1973, consisting of two distinctive cylindrical towers with sleek dark smoked glass facade and strictly residential layout without commercial storefronts. The main residential entrance is via Professor Gastão Bahiana Street #496 with convenient elevator pedestrian transit to Henrique Dodsworth Ave. Building features upgraded passenger and service elevators and extensive resort-style amenities: CCTV surveillance, swimming pool with deck and sun loungers, sauna, multi-sport sports court, indoor futsal court, event ballroom, barbecue area, outdoor kids playroom, playground, bike storage and inter-tower pedestrian ramp. Properly surveyed and recorded at the 5th Land Registry Office under Title #60366 and Municipal Tax IPTU #1186769-4. Official court appraisal confirmed at R$ 1,330,000.00, opening on 2nd auction at 50% discount for R$ 665,000.00 (~R$ 7,228.26/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Henrique Dodsworth Ave #133 / Apt 206 (Lagoa / Gemini Building)',
+          sections: [
+            { title: 'Registry Identification', text: 'Front-facing 92 sqm private apartment at Henrique Dodsworth Ave #133, unit 206 (access also via Gastão Bahiana 496), Lagoa, Rio de Janeiro/RJ. 5th Land Registry Title #60366 and IPTU tax #1186769-4.' },
+            { title: 'Architecture and Gemini Condominium', text: 'Landmark 1973 residential complex featuring two cylindrical dark smoked glass towers, swimming pool with deck, sauna, sports courts, ballroom, BBQ area, playground, and dual entrance access.' },
+            { title: 'Auction Schedule & Values', text: '1st Auction: 10/23/2026 at 1:00 PM at R$ 1,330,000.00. 2nd Auction: 10/27/2026 at 1:00 PM starting at 50% reserve for R$ 665,000.00 (~R$ 7,228.26/sqm).' },
+            { title: 'Tax Subrogation (CTN Art. 130)', text: 'All past municipal property taxes (IPTU) subrogate into the auction purchase price, ensuring a clean title for the purchaser.' },
+            { title: 'Court Installment Option (CPC Art. 895)', text: 'Bidders may submit installment proposals with a 25% down payment and up to 30 monthly installments secured by judicial mortgage.' }
+          ]
+        },
+        faqs: [
+          { q: "What are the auction dates and starting bids for Apt 206 on Henrique Dodsworth 133 in Lagoa?", a: "The 1st Auction takes place on 10/23/2026 at 1:00 PM at R$ 1,330,000.00 (100% of appraisal). The 2nd Auction is on 10/27/2026 at 1:00 PM opening at 50% reserve for R$ 665,000.00." },
+          { q: "What are the key features of the property and the Gemini Condominium?", a: "A 92 sqm front-facing apartment in the renowned Edifício Gemini in Lagoa, featuring two cylindrical smoked glass towers, swimming pool, sauna, multi-sport courts, ballroom, BBQ, and dual street access." },
+          { q: "Does the purchaser inherit prior municipal taxes?", a: "No. Under Article 130 of the National Tax Code (CTN), previous tax liabilities subrogate into the auction proceeds." },
+          { q: "Why hire Soares Martins Advogados for this Lagoa auction?", a: "We provide comprehensive legal due diligence on Title #60366, analyze the court proceedings in the Rio de Janeiro Court of Justice (TJRJ), and oversee the post-auction process through possession." }
+        ]
+      }
     }
   };
 

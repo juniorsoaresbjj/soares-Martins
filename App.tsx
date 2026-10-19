@@ -77,6 +77,7 @@ import RioCompridoPresidenteVargas3555AuctionPage from './components/RioComprido
 import IpanemaBaraoDaTorreAuctionPage from './components/IpanemaBaraoDaTorreAuctionPage';
 import UrcaCandidoGaffree166AuctionPage from './components/UrcaCandidoGaffree166AuctionPage';
 import LagoaFonteDaSaudade270AuctionPage from './components/LagoaFonteDaSaudade270AuctionPage';
+import LagoaHenriqueDodsworth133AuctionPage from './components/LagoaHenriqueDodsworth133AuctionPage';
 import SaoConradoMendesMorais1400AuctionPage from './components/SaoConradoMendesMorais1400AuctionPage';
 import TijucaEnesDeSouza45AuctionPage from './components/TijucaEnesDeSouza45AuctionPage';
 import BotafogoVoluntarios166AuctionPage from './components/BotafogoVoluntarios166AuctionPage';
@@ -648,6 +649,11 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270" element={<LagoaFonteDaSaudade270AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/rua-fonte-da-saudade-270-apto-402/" element={<LagoaFonteDaSaudade270AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/rua-fonte-da-saudade-270-apto-402" element={<LagoaFonteDaSaudade270AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133-apto-206/" element={<LagoaHenriqueDodsworth133AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133-apto-206" element={<LagoaHenriqueDodsworth133AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133/" element={<LagoaHenriqueDodsworth133AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133" element={<LagoaHenriqueDodsworth133AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503/" element={<SaoConradoMendesMorais1400AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/avenida-prefeito-mendes-de-morais-1400-bloco-2-apto-503" element={<SaoConradoMendesMorais1400AuctionPage />} />

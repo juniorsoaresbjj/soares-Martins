@@ -122,6 +122,7 @@ const routesToPrerender = [
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/botafogo/apartamento/rua-guilhermina-guinle-18-apto-401/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-professor-saboya-ribeiro-60-apto-104/',
   '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-moraes-124-apto-102/',
+  '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133-apto-206/',
   // Blog Posts (English)
   '/blog/lgpd-condominiums-concierge-cameras/',
   '/blog/stj-rules-animals-condominiums-what-changed/',

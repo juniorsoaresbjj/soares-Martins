@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Lagoa (RJ)',
+        title: 'Leilão Judicial na Lagoa — Av. Henrique Dodsworth nº 133 — Apto 206 (92 m²)',
+        desc: 'Apartamento de 92 m² de área edificada em posição de frente (unidade 206) no emblemático Condomínio do Edifício Gemini (1973), situado na Avenida Henrique Dodsworth nº 133, com entrada suplementar pela Rua Professor Gastão Bahiana nº 496, Lagoa, Zona Sul do Rio de Janeiro. Condomínio estritamente residencial sem lojas no alinhamento, composto por 2 torres cilíndricas com fachada moderna em vidro fumê, elevadores modernizados, piscina com deck e espreguiçadeiras, sauna, quadra poliesportiva, quadra de futebol de salão, salão de festas, churrasqueira, playground, brinquedoteca em pátio externo, bicicletário e rampa de integração entre as torres. Devidamente registrado no 5º Ofício RGI sob Matrícula nº 60366 e Inscrição Municipal IPTU nº 1186769-4. Avaliação oficial homologada em R$ 1.330.000,00. 1º Leilão em 23/10/2026 às 13:00h por R$ 1.330.000,00 e 2º Leilão em 27/10/2026 às 13:00h com lance inicial de 50% por R$ 665.000,00 (~R$ 7.228,26/m² na nobre Lagoa Rodrigo de Freitas).',
+        p1Label: '1ª Praça (23/10/2026):',
+        p1Val: 'R$ 1.330.000,00',
+        p2Label: '2ª Praça (27/10/2026):',
+        p2Val: 'R$ 665.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133-apto-206/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20206%20na%20Av.%20Henrique%20Dodsworth%20133%20(Edif%C3%ADcio%20Gemini)%20na%20Lagoa%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Leilão Judicial em Copacabana — Rua Marechal Mascarenhas de Moraes nº 124 — Apto 102 (60 m²)',
         desc: 'Apartamento de 60 m² privativos (unidade 102 no 1º andar) em edifício residencial situado na tradicional e aprazível Rua Marechal Mascarenhas de Moraes nº 124, Copacabana, Zona Sul do Rio de Janeiro. Localização tranquila e arborizada a poucas quadras da praia e perto do Metrô Siqueira Campos e Cardeal Arcoverde. Matrícula nº 59.230 do 5º Ofício RGI e IPTU nº 1.133.607-0. Avaliação judicial oficial de R$ 750.000,00. 1º Leilão em 23/11/2026 às 12:00h por R$ 750.000,00 e 2º Leilão em 25/11/2026 às 12:00h com lance inicial de 50% por R$ 375.000,00 (~R$ 6.250,00/m² em Copacabana).',
@@ -1197,6 +1208,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Lagoa (RJ)',
+        title: 'Subasta Judicial en Lagoa — Av. Henrique Dodsworth nº 133 — Apto 206 (92 m²)',
+        desc: 'Apartamento de 92 m² de área edificada en posición de frente (unidad 206) en el emblemático Condominio Edificio Gemini (1973), situado en Avenida Henrique Dodsworth nº 133, con entrada suplementaria por Calle Profesor Gastão Bahiana nº 496, Lagoa, Zona Sur de Río de Janeiro. Condominio residencial exclusivo de 2 torres cilíndricas con fachada de vidrio ahumado, ascensores modernizados, piscina con solárium, sauna, polideportivo, cancha de fútbol sala, salón de fiestas, barbacoa, parque infantil, ludoteca y bicicletero. Registrado en el 5º Registro bajo Matrícula 60366 e IPTU 1186769-4. Tasación oficial de R$ 1.330.000,00. 1ª Subasta el 23/10/2026 a las 13:00h por R$ 1.330.000,00 y 2ª Subasta el 27/10/2026 a las 13:00h con puja inicial del 50% por R$ 665.000,00 (~R$ 7.228,26/m² en Lagoa Rodrigo de Freitas).',
+        p1Label: '1ª Subasta (23/10/2026):',
+        p1Val: 'R$ 1.330.000,00',
+        p2Label: '2ª Subasta (27/10/2026):',
+        p2Val: 'R$ 665.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133-apto-206/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20206%20en%20Av.%20Henrique%20Dodsworth%20133%20(Edificio%20Gemini)%20en%20Lagoa%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Subasta Judicial en Copacabana — Calle Marechal Mascarenhas de Moraes nº 124 — Apto 102 (60 m²)',
         desc: 'Apartamento de 60 m² privados (unidad 102 en 1ª planta) en edificio residencial en Calle Marechal Mascarenhas de Moraes nº 124, Copacabana, Zona Sur de Río de Janeiro. Calle residencial y tranquila a pocas cuadras de la playa y cerca del Metro Siqueira Campos y Cardeal Arcoverde. Matrícula nº 59.230 del 5º Registro e IPTU nº 1.133.607-0. Tasación judicial de R$ 750.000,00. 1ª Subasta el 23/11/2026 a las 12:00h por R$ 750.000,00 y 2ª Subasta el 25/11/2026 a las 12:00h con puja inicial del 50% por R$ 375.000,00 (~R$ 6.250,00/m² en Copacabana).',
@@ -2209,6 +2231,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Lagoa (RJ)',
+        title: 'Judicial Auction in Lagoa — Henrique Dodsworth Ave #133 — Apt 206 (92 sqm)',
+        desc: 'Front-facing residential apartment with 92 sqm (990 sq ft) of built area (Unit 206) in the landmark Condomínio do Edifício Gemini (1973), located at Henrique Dodsworth Avenue #133 with secondary pedestrian entrance at Professor Gastão Bahiana Street #496, Lagoa, Rio de Janeiro South Zone. Strictly residential development featuring 2 cylindrical dark smoked glass towers, upgraded elevators, swimming pool with sundeck, sauna, multi-sport court, indoor futsal court, ballroom, BBQ area, children playground, playroom, and bike room. Recorded at the 5th Land Registry Office under Title #60366 and IPTU tax #1186769-4. Official court appraisal: R$ 1,330,000.00. 1st Auction on 10/23/2026 at 1:00 PM at R$ 1,330,000.00; 2nd Auction on 10/27/2026 at 1:00 PM starting at 50% reserve for R$ 665,000.00 (~R$ 7,228.26/sqm in prestigious Lagoa Rodrigo de Freitas).',
+        p1Label: '1st Auction (10/23/2026):',
+        p1Val: 'R$ 1,330,000.00',
+        p2Label: '2nd Auction (10/27/2026):',
+        p2Val: 'R$ 665,000.00 (50% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/apartamento/avenida-henrique-dodsworth-133-apto-206/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20of%20Apartment%20206%20at%20Henrique%20Dodsworth%20Ave%20133%20(Gemini%20Building)%20in%20Lagoa%20-%20RJ.'
+      },
       {
         tag: 'Residential • Copacabana (RJ)',
         title: 'Judicial Auction in Copacabana — Marechal Mascarenhas de Moraes Street #124 — Apt 102 (60 sqm)',
