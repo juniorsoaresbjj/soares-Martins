@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial em Copacabana — Av. Nossa Senhora de Copacabana nº 314 — Apto 1101 (45 m²)',
+        desc: 'Apartamento de 45 m² privativos (unidade 1101 no 11º andar) em edifício residencial tradicional situado na Avenida Nossa Senhora de Copacabana nº 314, Copacabana, Zona Sul do Rio de Janeiro. Localização privilegiada a passos da praia, comércio e transporte. Edifício com 13 andares (sendo o 13º de coberturas), 2 elevadores, portaria 24 horas e monitoramento por câmeras de segurança na portaria e elevadores. Matrícula nº 117.771 do 5º Ofício RGI e Inscrição Municipal IPTU nº 0.473.119-6. Avaliação judicial oficial de R$ 520.000,00. 1º Leilão em 19/11/2026 às 13:20h por R$ 520.000,00 e 2º Leilão em 24/11/2026 às 13:20h com lance inicial de 60% por R$ 312.000,00 (~R$ 6.933,33/m² em Copacabana).',
+        p1Label: '1ª Praça (19/11/2026):',
+        p1Val: 'R$ 520.000,00',
+        p2Label: '2ª Praça (24/11/2026):',
+        p2Val: 'R$ 312.000,00 (60% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314-apto-1101/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201101%20na%20Av.%20Nossa%20Senhora%20de%20Copacabana%20314%20em%20Copacabana%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Lagoa (RJ)',
         title: 'Leilão Judicial na Lagoa — Av. Henrique Dodsworth nº 133 — Apto 206 (92 m²)',
         desc: 'Apartamento de 92 m² de área edificada em posição de frente (unidade 206) no emblemático Condomínio do Edifício Gemini (1973), situado na Avenida Henrique Dodsworth nº 133, com entrada suplementar pela Rua Professor Gastão Bahiana nº 496, Lagoa, Zona Sul do Rio de Janeiro. Condomínio estritamente residencial sem lojas no alinhamento, composto por 2 torres cilíndricas com fachada moderna em vidro fumê, elevadores modernizados, piscina com deck e espreguiçadeiras, sauna, quadra poliesportiva, quadra de futebol de salão, salão de festas, churrasqueira, playground, brinquedoteca em pátio externo, bicicletário e rampa de integração entre as torres. Devidamente registrado no 5º Ofício RGI sob Matrícula nº 60366 e Inscrição Municipal IPTU nº 1186769-4. Avaliação oficial homologada em R$ 1.330.000,00. 1º Leilão em 23/10/2026 às 13:00h por R$ 1.330.000,00 e 2º Leilão em 27/10/2026 às 13:00h com lance inicial de 50% por R$ 665.000,00 (~R$ 7.228,26/m² na nobre Lagoa Rodrigo de Freitas).',
@@ -1208,6 +1219,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial en Copacabana — Av. Nossa Senhora de Copacabana nº 314 — Apto 1101 (45 m²)',
+        desc: 'Apartamento de 45 m² privativos (unidad 1101 en el piso 11) en edificio residencial tradicional ubicado en la Avenida Nossa Senhora de Copacabana nº 314, Copacabana, Zona Sur de Río de Janeiro. Ubicación privilegiada a pasos de la playa, comercios y transporte. Edificio de 13 plantas con 2 ascensores, servicio de portería 24 horas y sistema de cámaras de seguridad en la entrada y ascensores. Matrícula nº 117.771 del 5º Oficio RGI e Impuesto Municipal IPTU nº 0.473.119-6. Avalúo judicial de R$ 520.000,00. 1ª Subasta el 19/11/2026 a las 13:20h por R$ 520.000,00 y 2ª Subasta el 24/11/2026 a las 13:20h con precio base del 60% por R$ 312.000,00 (~R$ 6.933,33/m² en Copacabana).',
+        p1Label: '1ª Subasta (19/11/2026):',
+        p1Val: 'R$ 520.000,00',
+        p2Label: '2ª Subasta (24/11/2026):',
+        p2Val: 'R$ 312.000,00 (60% de tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314-apto-1101/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201101%20en%20Av.%20Nossa%20Senhora%20de%20Copacabana%20314%20en%20Copacabana%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Lagoa (RJ)',
         title: 'Subasta Judicial en Lagoa — Av. Henrique Dodsworth nº 133 — Apto 206 (92 m²)',
         desc: 'Apartamento de 92 m² de área edificada en posición de frente (unidad 206) en el emblemático Condominio Edificio Gemini (1973), situado en Avenida Henrique Dodsworth nº 133, con entrada suplementaria por Calle Profesor Gastão Bahiana nº 496, Lagoa, Zona Sur de Río de Janeiro. Condominio residencial exclusivo de 2 torres cilíndricas con fachada de vidrio ahumado, ascensores modernizados, piscina con solárium, sauna, polideportivo, cancha de fútbol sala, salón de fiestas, barbacoa, parque infantil, ludoteca y bicicletero. Registrado en el 5º Registro bajo Matrícula 60366 e IPTU 1186769-4. Tasación oficial de R$ 1.330.000,00. 1ª Subasta el 23/10/2026 a las 13:00h por R$ 1.330.000,00 y 2ª Subasta el 27/10/2026 a las 13:00h con puja inicial del 50% por R$ 665.000,00 (~R$ 7.228,26/m² en Lagoa Rodrigo de Freitas).',
@@ -2231,6 +2253,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction in Copacabana — Nossa Senhora de Copacabana Ave #314 — Apt 1101 (45 sqm)',
+        desc: 'Front-facing residential apartment with 45 sqm (approx. 484 sq ft) of private built area (unit 1101 on the 11th floor) in a classic condominium building on Avenida Nossa Senhora de Copacabana nº 314, Copacabana, South Zone of Rio de Janeiro. Prime location steps from Copacabana beach, subway, fine dining, and supermarkets. 13-story building featuring 2 elevators, 24/7 concierge security, and video monitoring in entrance and elevators. Registered under Title Deed #117.771 at the 5th Real Estate Registry and Municipal Tax ID #0.473.119-6. Official judicial valuation R$ 520,000.00. 1st Auction on Nov 19, 2026 at 1:20 PM at R$ 520,000.00 and 2nd Auction on Nov 24, 2026 at 1:20 PM with 60% minimum reserve at R$ 312,000.00 (~R$ 6,933.33/sqm in Copacabana).',
+        p1Label: '1st Auction (Nov 19, 2026):',
+        p1Val: 'R$ 520,000.00',
+        p2Label: '2nd Auction (Nov 24, 2026):',
+        p2Val: 'R$ 312,000.00 (60% reserve)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314-apto-1101/',
+        waText: 'Hello,%20I%20would%20like%20information%20regarding%20the%20judicial%20auction%20for%20Apt%201101%20at%20Av.%20Nossa%20Senhora%20de%20Copacabana%20314%20in%20Copacabana%20-%20RJ.'
+      },
       {
         tag: 'Residential • Lagoa (RJ)',
         title: 'Judicial Auction in Lagoa — Henrique Dodsworth Ave #133 — Apt 206 (92 sqm)',

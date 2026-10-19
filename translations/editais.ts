@@ -7560,6 +7560,101 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: "Why hire Soares Martins Advogados for this Lagoa auction?", a: "We provide comprehensive legal due diligence on Title #60366, analyze the court proceedings in the Rio de Janeiro Court of Justice (TJRJ), and oversee the post-auction process through possession." }
         ]
       }
+    },
+    'copacabana-nossa-senhora-copacabana-314-apto-1101': {
+      pt: {
+        title: 'Leilão Judicial em Copacabana — Av. Nossa Senhora de Copacabana nº 314 — Apto 1101 (45 m²)',
+        subtitle: 'Avenida Nossa Senhora de Copacabana, nº 314, Apto 1101 — Copacabana, Rio de Janeiro/RJ | 45 m² • 11º Andar • 5º Ofício RGI Matrícula 117.771 • Inscrição Municipal IPTU: 0.473.119-6 • Avaliação Oficial: R$ 520.000,00 • 1º Leilão: 19/11/2026 às 13:20h por R$ 520.000,00 • 2º Leilão: 24/11/2026 às 13:20h por R$ 312.000,00 (60% da Avaliação — ~R$ 6.933,33/m² em Copacabana)',
+        address: 'Avenida Nossa Senhora de Copacabana, nº 314, Apartamento 1101 — Copacabana, Rio de Janeiro - RJ',
+        p1Date: '19/11/2026 às 13:20h',
+        p2Date: '24/11/2026 às 13:20h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.473.119-6',
+        rgi: '5º Ofício de Registro de Imóveis (Matrícula nº 117.771)',
+        val: 'R$ 520.000,00',
+        p2Val: 'R$ 312.000,00 (Lance inicial 2ª Praça - 60%)',
+        description: 'Apartamento na posição de 11º andar (unidade 1101), com área edificada privativa de 45 metros quadrados, situado na tradicional Avenida Nossa Senhora de Copacabana nº 314, Copacabana, Zona Sul do Rio de Janeiro - RJ. Edifício composto por 13 (treze) andares, sendo um andar de cobertura; do quinto andar para cima, são oito apartamentos por andar; do quarto andar para baixo, quatro apartamentos por andar; e no andar da cobertura, três coberturas. O prédio conta com dois elevadores, serviço de porteiros 24 (vinte e quatro) horas ininterrupto e moderno sistema de monitoramento por câmeras de segurança (CFTV) na frente do prédio e nos elevadores. Prédio estritamente residencial, sem garagem e sem área de lazer, proporcionando taxas condominiais enxutas e alta liquidez. Devidamente registrado, dimensionado e caracterizado no 5º Ofício RGI sob Matrícula nº 117.771 e Inscrição Municipal IPTU nº 0.473.119-6. Avaliação judicial oficial de R$ 520.000,00, com 2ª praça iniciando em 60% por R$ 312.000,00 (~R$ 6.933,33/m² em Copacabana).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Av. Nossa Senhora de Copacabana 314 / Apto 1101',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento 1101 com 45 m² privativos no 11º andar da Av. Nossa Senhora de Copacabana nº 314, Copacabana, Rio de Janeiro/RJ. Registrado no 5º Ofício RGI sob Matrícula nº 117.771 e Inscrição Municipal IPTU nº 0.473.119-6.' },
+            { title: 'Características do Condomínio', text: 'Prédio de 13 andares (13º de coberturas), 2 elevadores, portaria 24 horas e circuito de segurança por câmeras na frente e elevadores. Sem garagem e sem área de lazer.' },
+            { title: 'Calendário de Leilão e Valores', text: '1º Leilão: 19/11/2026 às 13:20h pelo valor da avaliação de R$ 520.000,00. 2º Leilão: 24/11/2026 às 13:20h com lance inicial de 60% por R$ 312.000,00 (~R$ 6.933,33/m²).' },
+            { title: 'Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários municipais (IPTU e taxas) pretéritos sub-rogam-se no preço da arrematação, transmitindo o imóvel livre de dívidas fiscais anteriores.' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Conforme art. 895 do CPC, admite-se proposta de pagamento parcelado com 25% de entrada e saldo em até 30 parcelas mensais corrigidas com hipoteca sobre o bem.' }
+          ]
+        },
+        faqs: [
+          { q: 'Quais são as datas e lances do leilão do apartamento na Av. Nossa Senhora de Copacabana nº 314?', a: 'O 1º Leilão ocorrerá no dia 19/11/2026 às 13:20h com lance inicial de R$ 520.000,00 (100% da avaliação). O 2º Leilão será no dia 24/11/2026 às 13:20h com lance mínimo de R$ 312.000,00 (60% da avaliação).' },
+          { q: 'Quais as características do imóvel e do edifício?', a: 'Apartamento 1101 com 45 m² de área edificada no 11º andar. O condomínio tem 13 andares, sendo 8 apartamentos por andar do 5º pavimento para cima, servido por 2 elevadores, portaria 24h e circuito fechado de câmeras na fachada e cabines. Não tem garagem nem lazer.' },
+          { q: 'O arrematante assume dívidas tributárias de IPTU anteriores?', a: 'Não. Pelo parágrafo único do art. 130 do CTN, os créditos tributários relativos a impostos cujo fato gerador seja a propriedade imobiliária sub-rogam-se sobre o respectivo preço da arrematação.' },
+          { q: 'Por que é indispensável a assessoria jurídica especializada da Soares Martins Advogados?', a: 'Realizamos a due diligence jurídica integral, examinando a certidão da matrícula 117.771 do 5º RGI, eventuais recursos e notificações judiciais no TJRJ, débitos condominiais e a condução estratégica da imissão na posse.' }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Copacabana — Av. Nossa Senhora de Copacabana nº 314 — Apto 1101 (45 m²)',
+        subtitle: 'Avenida Nossa Senhora de Copacabana, nº 314, Apto 1101 — Copacabana, Río de Janeiro/RJ | 45 m² • Piso 11 • 5º Registro Matrícula 117.771 • IPTU: 0.473.119-6 • Tasación Oficial: R$ 520.000,00 • 1ª Subasta: 19/11/2026 a las 13:20h por R$ 520.000,00 • 2ª Subasta: 24/11/2026 a las 13:20h por R$ 312.000,00 (60% de la Tasación — ~R$ 6.933,33/m² en Copacabana)',
+        address: 'Avenida Nossa Senhora de Copacabana, nº 314, Apartamento 1101 — Copacabana, Río de Janeiro - RJ',
+        p1Date: '19/11/2026 a las 13:20h',
+        p2Date: '24/11/2026 a las 13:20h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.473.119-6',
+        rgi: '5º Oficio de Registro de Inmuebles (Matrícula nº 117.771)',
+        val: 'R$ 520.000,00',
+        p2Val: 'R$ 312.000,00 (Puja inicial 2ª Subasta - 60%)',
+        description: 'Apartamento en el piso 11 (unidad 1101), con 45 metros cuadrados de área edificada, situado en la Avenida Nossa Senhora de Copacabana nº 314, Copacabana, Río de Janeiro/RJ. Edificio de 13 plantas con dos ascensores, portería 24 horas y cámaras de seguridad en la entrada y ascensores. No dispone de garaje ni área social. Matrícula nº 117.771 del 5º Registro e IPTU nº 0.473.119-6. Tasación judicial de R$ 520.000,00, con 2ª subasta al 60% por R$ 312.000,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Av. Nossa Senhora de Copacabana 314 / Apto 1101',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 1101 con 45 m² en Av. Nossa Senhora de Copacabana nº 314, Copacabana, Río de Janeiro/RJ. Matrícula nº 117.771 del 5º Registro e IPTU nº 0.473.119-6.' },
+            { title: 'Características del Edificio', text: 'Edificio de 13 plantas con 2 ascensores, recepción 24h y circuito de videovigilancia. Sin garaje ni áreas de ocio.' },
+            { title: 'Fechas y Valores de Subasta', text: '1ª Subasta: 19/11/2026 a las 13:20h por R$ 520.000,00. 2ª Subasta: 24/11/2026 a las 13:20h iniciando al 60% por R$ 312.000,00 (~R$ 6.933,33/m²).' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias municipales anteriores se subrogan en el precio obtenido en la subasta.' },
+            { title: 'Pago a Plazos (Art. 895 CPC)', text: 'Opción de propuesta con 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con garantía hipotecaria.' }
+          ]
+        },
+        faqs: [
+          { q: '¿Cuáles son las fechas y valores de la subasta del apartamento en Av. Nossa Senhora de Copacabana 314?', a: 'La 1ª Subasta se celebrará el 19/11/2026 a las 13:20 con puja inicial de R$ 520.000,00. La 2ª Subasta será el 24/11/2026 a las 13:20 con base mínima del 60% (R$ 312.000,00).' },
+          { q: '¿Cuáles son las características del apartamento y del edificio?', a: 'Apartamento 1101 con 45 m² en el piso 11. Edificio de 13 plantas con conserjería 24h, 2 ascensores y cámaras de seguridad.' },
+          { q: '¿El comprador asume las deudas de impuestos municipales anteriores?', a: 'No. Conforme al artículo 130 del Código Tributario Nacional (CTN), las deudas fiscales anteriores se subrogan en el precio de la subasta.' },
+          { q: '¿Por qué contratar la asesoría jurídica de Soares Martins Advogados?', a: 'Efectuamos el análisis legal exhaustivo de la matrícula 117.771, la revisión de notificaciones procesales en el TJRJ y la tramitación ágil de la posesión judicial.' }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Copacabana — Nossa Senhora de Copacabana Ave #314 — Apt 1101 (45 sqm)',
+        subtitle: 'Avenida Nossa Senhora de Copacabana, #314, Apt 1101 — Copacabana, Rio de Janeiro/RJ | 45 sqm (484 sq ft) • 11th Floor • 5th Land Registry Title #117.771 • Municipal Tax IPTU: 0.473.119-6 • Official Appraisal: R$ 520,000.00 • 1st Auction: 11/19/2026 at 1:20 PM at R$ 520,000.00 • 2nd Auction: 11/24/2026 at 1:20 PM at R$ 312,000.00 (60% Reserve — ~R$ 6,933.33/sqm in Copacabana)',
+        address: 'Avenida Nossa Senhora de Copacabana, #314, Apt 1101 — Copacabana, Rio de Janeiro - RJ',
+        p1Date: '11/19/2026 at 1:20 PM',
+        p2Date: '11/24/2026 at 1:20 PM',
+        process: 'Judicial Enforcement / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.473.119-6',
+        rgi: '5th Real Estate Registry Office (Deed #117.771)',
+        val: 'R$ 520,000.00',
+        p2Val: 'R$ 312,000.00 (2nd Auction starting reserve - 60%)',
+        description: 'Residential apartment on the 11th floor (unit 1101) with 45 sqm (approx. 484 sq ft) of private built area, located at Avenida Nossa Senhora de Copacabana #314, Copacabana, Rio de Janeiro - RJ. 13-story residential condominium featuring 2 elevators, 24/7 concierge security, and CCTV surveillance in building front and elevators. No garage and no leisure area. Duly recorded at the 5th Land Registry Office under Title #117.771 and Municipal Tax ID #0.473.119-6. Official valuation: R$ 520,000.00, with 2nd auction reserve at 60% for R$ 312,000.00 (~R$ 6,933.33/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Auction Notice Summary — Nossa Senhora de Copacabana Ave #314 / Apt 1101',
+          sections: [
+            { title: 'Property Deed and Identification', text: 'Apartment 1101 with 45 sqm on the 11th floor at Av. Nossa Senhora de Copacabana #314, Copacabana, Rio de Janeiro/RJ. Title Deed #117.771 at 5th Land Registry and IPTU tax ID #0.473.119-6.' },
+            { title: 'Condominium Overview', text: '13-story residential building with 2 elevators, 24/7 doorman security, and CCTV cameras. No garage or recreational areas.' },
+            { title: 'Auction Schedule & Values', text: '1st Auction: 11/19/2026 at 1:20 PM for R$ 520,000.00. 2nd Auction: 11/24/2026 at 1:20 PM starting at 60% reserve for R$ 312,000.00 (~R$ 6,933.33/sqm).' },
+            { title: 'Tax Subrogation (CTN Art. 130)', text: 'All past municipal property taxes subrogate into the purchase proceeds at auction.' },
+            { title: 'Judicial Installment Option (CPC Art. 895)', text: 'Bidders may submit installment proposals with 25% down payment and up to 30 monthly installments secured by judicial mortgage.' }
+          ]
+        },
+        faqs: [
+          { q: 'What are the auction dates and starting bids for Apt 1101 at Av. Nossa Senhora de Copacabana 314?', a: 'The 1st Auction takes place on Nov 19, 2026 at 1:20 PM at R$ 520,000.00 (100% appraisal). The 2nd Auction is on Nov 24, 2026 at 1:20 PM opening at 60% reserve for R$ 312,000.00.' },
+          { q: 'What are the property and condominium specifications?', a: 'Apartment 1101 features 45 sqm on the 11th floor. The 13-story building offers 2 elevators, 24/7 doorman coverage, and CCTV surveillance in public areas and elevators.' },
+          { q: 'Does the buyer assume past municipal tax liabilities?', a: 'No. Under Article 130 of the Brazilian National Tax Code (CTN), past municipal tax debts subrogate into the auction proceeds.' },
+          { q: 'Why engage Soares Martins Advogados for this Copacabana auction?', a: 'We perform end-to-end legal due diligence on Deed #117.771 (5th Registry), verify court notifications, design the bidding strategy, and supervise court possession.' }
+        ]
+      }
     }
   };
 

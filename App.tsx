@@ -58,6 +58,7 @@ import TijucaUruguai94AuctionPage from './components/TijucaUruguai94AuctionPage'
 import CosmeVelhoSaoJudasTadeu6AuctionPage from './components/CosmeVelhoSaoJudasTadeu6AuctionPage';
 import MaracanaDonaZulmira19AuctionPage from './components/MaracanaDonaZulmira19AuctionPage';
 import CopacabanaMascarenhasMorais124AuctionPage from './components/CopacabanaMascarenhasMorais124AuctionPage';
+import CopacabanaNossaSenhoraCopacabana314AuctionPage from './components/CopacabanaNossaSenhoraCopacabana314AuctionPage';
 import CopacabanaMascarenhasMorais190AuctionPage from './components/CopacabanaMascarenhasMorais190AuctionPage';
 import CopacabanaSilvaCastro44AuctionPage from './components/CopacabanaSilvaCastro44AuctionPage';
 import SantaTeresaJoaquimMurtinho587AuctionPage from './components/SantaTeresaJoaquimMurtinho587AuctionPage';
@@ -515,7 +516,10 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44-apto-1001/" element={<CopacabanaSilvaCastro44AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44-apto-1001" element={<CopacabanaSilvaCastro44AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44/" element={<CopacabanaSilvaCastro44AuctionPage />} />
-          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/cobertura/rua-silva-castro-44" element={<CopacabanaSilvaCastro44AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314-apto-1101/" element={<CopacabanaNossaSenhoraCopacabana314AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314-apto-1101" element={<CopacabanaNossaSenhoraCopacabana314AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314/" element={<CopacabanaNossaSenhoraCopacabana314AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-nossa-senhora-de-copacabana-314" element={<CopacabanaNossaSenhoraCopacabana314AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-moraes-124-apto-102/" element={<CopacabanaMascarenhasMorais124AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-marechal-mascarenhas-de-moraes-124-apto-102" element={<CopacabanaMascarenhasMorais124AuctionPage />} />
