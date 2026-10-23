@@ -5926,6 +5926,454 @@ export const getSeoBlogPosts = (language: 'pt' | 'es' | 'en', t: any): Post[] =>
           </div>
         </div>
       )
+    },
+    {
+      id: 136,
+      slug: 'comprei-paguei-nao-consigo-escritura-imovel',
+      title: 'Comprei e Paguei pelo Imóvel, Mas Não Tenho Escritura: O Que Fazer?',
+      excerpt: 'Comprou e pagou pelo imóvel, mas não consegue a escritura? Entenda as alternativas jurídicas para regularizar a transferência e proteger seus direitos.',
+      readTime: `20 min ${t('blog_page.read_time_suffix') || 'de leitura'}`,
+      category: 'Direito Imobiliário',
+      date: '23 Out, 2026',
+      dateIso: '2026-10-23',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80',
+      content: (
+        <div className="space-y-6 text-justify animate-fade-in">
+          <p>
+            A aquisição de um imóvel é um dos passos mais relevantes na trajetória financeira e patrimonial de qualquer pessoa ou família. No entanto, a incerteza de quem se depara com a situação em que <strong>comprei e não consigo a escritura do imóvel</strong> representa uma preocupação recorrente no mercado imobiliário. Ter a posse física do bem, nele residir ou alugá-lo a terceiros, bem como arcar regularmente com as despesas de condomínio e o IPTU, não significa, sob a ótica estrita do direito, que a titularidade da propriedade esteja formalmente transmitida.
+          </p>
+
+          <p>
+            No ordenamento jurídico brasileiro, a transmissão da propriedade imobiliária entre vivos é regida pelo <strong>artigo 1.245 do Código Civil</strong>, que estabelece expressamente: <em>"transfere-se entre vivos a propriedade mediante o registro do título translativo no Registro de Imóveis"</em>. Decorre dessa previsão o tradicional aforismo prático: <strong>"quem não registra não é dono"</strong>. Enquanto o título translativo adequado não for formalmente registrado na matrícula imobiliária, o alienante permanece juridicamente registrado como proprietário perante terceiros, o que pode submeter o comprador a riscos concretos decorrentes de dívidas do vendedor ou de entraves sucessórios.
+          </p>
+
+          <p>
+            Contudo, o comprador que honrou suas obrigações contratuais e quitou o preço estipulado dispõe de alternativas jurídicas. Dependendo dos documentos preservados, das cláusulas pactuadas, da regularidade registral do imóvel e das razões concretas que inviabilizam a outorga espontânea da escritura, o Direito Imobiliário oferece caminhos — tanto pela via extrajudicial quanto pela via judicial — voltados à <strong>regularização de imóvel</strong> e à consolidação da titularidade registral.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            Comprei e Paguei pelo Imóvel, Mas Não Tenho Escritura: Isso É um Problema?
+          </h2>
+          <p>
+            A ausência do registro imobiliário em nome do adquirente constitui uma vulnerabilidade jurídica importante. Para compreender com precisão essa condição, é necessário distinguir três figuras distintas:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">1. Contrato ou Promessa de Compra e Venda (Vínculo Obrigacional):</h3>
+              <p className="text-text-muted text-sm">
+                É o instrumento pelo qual vendedor e comprador estipulam as condições do negócio, tais como preço, forma de pagamento e momento da entrega da posse. Gera efeitos obrigacionais primordiais entre os signatários (<em>inter partes</em>), conferindo ao comprador o direito subjetivo de exigir o cumprimento do que foi avençado, mas sem operar, por si só, a transferência do direito real de propriedade.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">2. Escritura Pública de Compra e Venda (Título Solene):</h3>
+              <p className="text-text-muted text-sm">
+                Lavrada perante o Tabelionato de Notas, a escritura pública é, em regra, a forma exigida por lei (artigo 108 do Código Civil) para a validade dos negócios jurídicos translativos de direitos reais sobre imóveis cujo valor ultrapasse 30 vezes o maior salário mínimo vigente. Trata-se do título translativo formal apto a ingressar no cartório de registro de imóveis.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">3. Registro Imobiliário no Cartório de Registro de Imóveis (RGI):</h3>
+              <p className="text-text-muted text-sm">
+                É o ato praticado diretamente na matrícula do bem que confere publicidade e eficácia contra terceiros (<em>erga omnes</em>). É no momento do registro do título no fólio real que a propriedade imobiliária é efetivamente transferida para o adquirente.
+              </p>
+            </div>
+          </div>
+
+          <p>
+            Convém observar que <strong>nem toda operação imobiliária exige escritura pública lavrada em notas</strong>. A própria legislação estabelece hipóteses em que instrumentos particulares produzem efeitos de escritura pública, a exemplo dos contratos de financiamento habitacional garantidos por alienação fiduciária celebrados no âmbito do Sistema Financeiro da Habitação (SFH) ou do Sistema de Financiamento Imobiliário (SFI), com fundamento no artigo 61, § 5º, da Lei Federal nº 4.380/1964 e no artigo 38 da Lei Federal nº 9.514/1997, além das transações com valor inferior ao teto de 30 salários mínimos.
+          </p>
+
+          <p>
+            Assim, o exame acurado da certidão da matrícula do imóvel e dos contratos celebrados constitui a etapa indispensável para diagnosticar se a situação fática corresponde a um caso de imóvel pago sem escritura e orientar a providência adequada.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            Por Que o Vendedor Não Consegue ou Não Quer Passar a Escritura?
+          </h2>
+          <p>
+            A dificuldade ou impossibilidade de obter a escritura decorre de causas fáticas e jurídicas variadas. Cada cenário exige análise jurídica individualizada:
+          </p>
+
+          <div className="space-y-4 my-6">
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">1. Recusa Injustificada ou Imposição de Exigências Indevidas</h4>
+              <p className="text-xs text-gray-300">
+                Ocorre quando o vendedor, mesmo após a quitação das obrigações assumidas pelo comprador, deixa de comparecer ao cartório para formalizar a outorga da escritura, seja por inércia deliberada, seja na tentativa de impor cobranças adicionais sem amparo contratual.
+              </p>
+            </div>
+
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">2. Impossibilidade de Localização ou Paradeiro Desconhecido</h4>
+              <p className="text-xs text-gray-300">
+                Situação comum em negócios celebrados no passado, em que as partes perderam contato com o tempo e o alienante mudou de endereço ou reside em local ignorado, não sendo possível notificá-lo diretamente pelos meios informais habituais.
+              </p>
+            </div>
+
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">3. Falecimento do Promitente Vendedor</h4>
+              <p className="text-xs text-gray-300">
+                Quando o vendedor falece antes de outorgar o título definitivo, os direitos e deveres oriundos do negócio passam a vincular o espólio ou os herdeiros, exigindo a identificação da fase do inventário ou a adoção de medidas processuais ou registrais adequadas para viabilizar a transferência.
+              </p>
+            </div>
+
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">4. Contratos de Gaveta Sucessivos e Ruptura na Cadeia Documental</h4>
+              <p className="text-xs text-gray-300">
+                A aquisição mediante contratos particulares informais sucessivos ("contratos de gaveta"), sem que as cessões intermediárias tenham sido devidamente instrumentadas ou formalizadas perante o titular constante da matrícula, impõe o desafio de demonstrar a continuidade negocial perante as regras do registro de imóveis.
+              </p>
+            </div>
+
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">5. Existência de Penhoras, Indisponibilidades e Outros Gravames</h4>
+              <p className="text-xs text-gray-300">
+                A presença de restrições registradas na matrícula pode decorrer de ordens judiciais de indisponibilidade de bens (como as inscritas via CNIB) ou de penhoras oriundas de processos de execução movidos contra o titular do domínio. A repercussão dessas restrições sobre a pretensão do comprador varia conforme a natureza da ordem, as datas relativas entre o negócio e a averbação da constrição, e a eventual demonstração de posse e boa-fé perante o juízo competente.
+              </p>
+            </div>
+
+            <div className="bg-midnight-light/40 p-5 rounded-xl border border-white/10">
+              <h4 className="text-white font-serif font-bold text-base mb-2 text-bronze">6. Pendências Urbanísticas e Falta de Individualização Registral</h4>
+              <p className="text-xs text-gray-300">
+                Imóveis integrantes de loteamentos não regularizados, frações ideais sem desmembramento aprovado ou unidades em condomínios edilícios que ainda não possuem matrícula individualizada no RGI não podem receber transferência de domínio isolada enquanto essas pendências prévias de parcelamento e instituição edilícia não forem superadas.
+              </p>
+            </div>
+          </div>
+
+          <p>
+            Ressalte-se que <strong>a adjudicação compulsória não é uma medida universal para resolver qualquer inconsistência documental ou urbanística</strong>. Trata-se de procedimento vocacionado a suprir a declaração de vontade quando presentes os requisitos da transação, não suprindo a inexistência formal da matrícula individualizada do bem.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            Quais Documentos Devo Guardar para Regularizar o Imóvel?
+          </h2>
+          <p>
+            A definição da estratégia cabível depende fundamentalmente da documentação preservada pelo adquirente. Convém organizar e conservar os seguintes elementos comprobatórios:
+          </p>
+
+          <ul className="list-disc pl-5 space-y-3 text-text-muted text-sm my-4">
+            <li>
+              <strong>Instrumentos contratuais:</strong> vias originais de promessas de compra e venda, compromissos bilaterais, cessões de direitos e aditivos, com a devida identificação das partes e das cláusulas avençadas.
+            </li>
+            <li>
+              <strong>Documentação comprobatória de pagamento:</strong> comprovantes de transferências bancárias, depósitos identificados, microfilmagens de cheques ou declarações formais de quitação emitidas pelo alienante.
+            </li>
+            <li>
+              <strong>Comunicações e notificações:</strong> mensagens eletrônicas, correspondências com aviso de recebimento ou notificações formais encaminhadas ao vendedor com a finalidade de solicitar o comparecimento para assinatura da escritura.
+            </li>
+            <li>
+              <strong>Certidão da matrícula atualizada do RGI:</strong> certidão de inteiro teor com informações sobre ônus reais e ações reais ou reipersecutórias, útil para verificar a titularidade dominial e eventuais gravames.
+            </li>
+            <li>
+              <strong>Cadastros fiscais e comprovantes de exercício possessório:</strong> comprovantes de recolhimento de IPTU e taxas de serviços públicos (energia, água, gás) ou condomínio, que auxiliam na demonstração do cumprimento contínuo das obrigações do imóvel.
+            </li>
+          </ul>
+
+          <p className="text-xs text-gray-400 italic">
+            A utilidade e a exigibilidade de cada documento dependem do procedimento que venha a ser adotado (judicial ou extrajudicial) e das particularidades do caso concreto.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            O Que Fazer Quando o Vendedor Se Recusa a Transferir o Imóvel?
+          </h2>
+          <p>
+            Diante da recusa ou inércia do vendedor em formalizar a transmissão da propriedade, o comprador deve avaliar passos objetivos:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <h3 className="text-white font-serif font-bold text-lg mb-2">Orientações Práticas para Condução do Impasse:</h3>
+            <ol className="list-decimal pl-5 space-y-3 text-text-muted text-sm">
+              <li>
+                <strong>Análise Técnica do Contrato e da Matrícula:</strong> Verificar se quem prometeu a venda figura como proprietário no registro imobiliário e avaliar as cláusulas relativas a obrigações, pagamentos e eventuais condições resolutivas.
+              </li>
+              <li>
+                <strong>Tentativa de Composição e Comunicação Formal:</strong> Antes de medidas coercitivas, é recomendável buscar uma solução amigável ou expedir notificação formal que oportunize ao devedor o cumprimento espontâneo da obrigação.
+              </li>
+              <li>
+                <strong>Distinção do Procedimento Notificatório Registral:</strong> Na eventual adoção da adjudicação compulsória extrajudicial perante o Cartório de Registro de Imóveis, a notificação do vendedor obedece ao rito específico estabelecido na Lei de Registros Públicos e nas normas do Conselho Nacional de Justiça, não se confundindo com notificações informais prévias nem possuindo prazo uniforme obrigatório para todos os tipos de demanda.
+              </li>
+              <li>
+                <strong>Escolha da Via Cabível:</strong> Restando inviabilizada a outorga voluntária, cabe examinar se o caso reúne os pressupostos para a via extrajudicial no RGI ou se demanda propositura de ação perante o Poder Judiciário.
+              </li>
+            </ol>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            O Que É Adjudicação Compulsória e Quando Ela Pode Ser Utilizada?
+          </h2>
+          <p>
+            A <strong>adjudicação compulsória</strong> é o instrumento jurídico que tem por finalidade suprir a declaração de vontade do promitente vendedor que se recusa ou se encontra impossibilitado de outorgar o título translativo, permitindo a transferência da propriedade no Cartório de Registro de Imóveis competente quando atendidas as exigências legais.
+          </p>
+
+          <p>
+            Pela via judicial, com amparo nos artigos 1.417 e 1.418 do Código Civil e nos dispositivos processuais pertinentes (artigo 501 do Código de Processo Civil), a sentença transitada em julgado produz todos os efeitos da declaração não emitida, servindo como título translativo apto para registro no RGI.
+          </p>
+
+          <h3 className="text-white text-xl font-serif mt-6 mb-3">A Adjudicação Compulsória pela Via Extrajudicial</h3>
+          <p>
+            A Lei Federal nº 14.382/2022 introduziu o <strong>artigo 216-B na Lei de Registros Públicos (Lei nº 6.015/1973)</strong>, regulamentado no âmbito do Conselho Nacional de Justiça pelo Código Nacional de Normas da Corregedoria Nacional de Justiça (Provimento CNJ nº 149/2023). Essa legislação permitiu que o pedido de adjudicação compulsória seja processado diretamente perante o Oficial de Registro de Imóveis da circunscrição do bem.
+          </p>
+
+          <p>
+            Para que o procedimento extrajudicial seja viável, a legislação e as normas regulamentares exigem a representação obrigatória por advogado legalmente constituído, a apresentação do instrumento contratual e da documentação que comprove a quitação, certidões negativas de praxe e a notificação do promitente vendedor promovida no âmbito do registro de imóveis, para que se manifeste no prazo legal.
+          </p>
+
+          <p>
+            A escolha entre o procedimento extrajudicial em cartório e a ação judicial depende das circunstâncias específicas do negócio. Se houver divergências fáticas complexas, oposição fundamentada das partes notificadas ou deficiências documentais não sanáveis perante o registrador, a via jurisdicional continua sendo o meio cabível para apreciação da controvérsia.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            E se o Vendedor Faleceu ou Não For Localizado?
+          </h2>
+          <p>
+            Essas circunstâncias demandam tratamento técnico ajustado à situação concreta:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <div>
+              <h3 className="text-white font-serif font-bold text-base mb-1">Falecimento do Vendedor</h3>
+              <p className="text-text-muted text-sm">
+                O falecimento do vendedor não extingue automaticamente as obrigações validamente contraídas em vida, as quais se transmitem à herança nos limites das forças do espólio (artigo 1.792 do Código Civil). A formalização da transferência, no entanto, deve considerar a situação sucessória: se houver inventário em andamento, pode ser requerida a expedição de alvará judicial ou a atuação do inventariante caso haja autorização adequada; caso o inventário já tenha sido encerrado ou existam discordâncias, a medida pode envolver a citação ou notificação dos herdeiros ou do espólio. Não se deve afirmar que a concordância unânime dos sucessores é sempre exigível para que o comprador busque seu direito em juízo ou pela via cabível.
+              </p>
+            </div>
+            <div className="border-t border-white/10 pt-3">
+              <h3 className="text-white font-serif font-bold text-base mb-1">Vendedor com Paradeiro Desconhecido</h3>
+              <p className="text-text-muted text-sm">
+                A impossibilidade de localização do alienante pelos meios convencionais não impede a propositura das medidas cabíveis. Na via extrajudicial, o artigo 216-B da Lei nº 6.015/1973 e as normas da Corregedoria Nacional de Justiça prevêem a notificação por edital após esgotadas as tentativas regulares de notificação pessoal. Na via judicial, a legislação processual autoriza a realização de pesquisas cadastrais de praxe e, persistindo a impossibilidade de localização, a realização de citação por edital com a nomeação de curador especial para resguardar as garantias do contraditório.
+              </p>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            É Possível Regularizar um Imóvel Comprado com Contrato Particular?
+          </h2>
+          <p>
+            O contrato particular de promessa de compra e venda constitui instrumento representativo da manifestação de vontade das partes e pode fundamentar o pedido de regularização e de adjudicação compulsória, desde que preenchidos os pressupostos aplicáveis ao caso.
+          </p>
+
+          <p>
+            Nesse sentido, a <strong>Súmula nº 239 do Superior Tribunal de Justiça (STJ)</strong> assentou que:
+          </p>
+
+          <div className="bg-midnight-light/60 p-4 rounded-xl border-l-4 border-bronze my-4 text-sm italic text-gray-200">
+            "O direito à adjudicação compulsória não se condiciona ao registro do compromisso de compra e venda no cartório de registro de imóveis."
+          </div>
+
+          <p>
+            No tocante à proteção da posse, a jurisprudência do STJ também editou a <strong>Súmula nº 84</strong>, permitindo que o compromissário comprador oponha embargos de terceiro para defender a sua posse de boa-fé em face de penhoras originadas de execuções movidas contra o alienante. Cabe ressalvar que a Súmula nº 84 do STJ tem alcance eminentemente protetivo da posse em situações litigiosas específicas; ela não opera a transferência da propriedade imobiliária nem elimina a necessidade de se obter o registro definitivo da titularidade na matrícula.
+          </p>
+
+          <p>
+            Nem todo contrato informal permite a obtenção imediata da adjudicação: é indispensável que o instrumento e seus desdobramentos guardem nexo com o titular do domínio constante da matrícula (observando a continuidade registral prevista no artigo 195 da Lei de Registros Públicos) e que as obrigações estipuladas estejam devidamente comprovadas.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            Adjudicação Compulsória ou Usucapião: Qual É a Diferença?
+          </h2>
+          <p>
+            A adjudicação compulsória e a usucapião são institutos distintos, com fundamentos e requisitos próprios:
+          </p>
+
+          <div className="overflow-x-auto my-6">
+            <table className="w-full text-left text-sm text-text-muted border border-white/10 rounded-xl overflow-hidden">
+              <thead className="bg-white/10 text-white font-serif">
+                <tr>
+                  <th className="p-4">Critério</th>
+                  <th className="p-4">Adjudicação Compulsória</th>
+                  <th className="p-4">Usucapião (Judicial ou Extrajudicial)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5">
+                <tr>
+                  <td className="p-4 font-bold text-white">Natureza da Aquisição</td>
+                  <td className="p-4">Aquisição derivada, vinculada ao cumprimento de um negócio jurídico translativo anterior.</td>
+                  <td className="p-4">Aquisição originária da propriedade, decorrente de situação de posse qualificada no tempo.</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Fundamento Principal</td>
+                  <td className="p-4">Contrato que embasa a obrigação de outorga e comprovação do cumprimento das condições negociais.</td>
+                  <td className="p-4">Posse contínua, pacífica e com ânimo de dono pelo prazo estabelecido pela lei para a modalidade aplicável.</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Tributação de Transmissão (ITBI)</td>
+                  <td className="p-4">Sujeita ao recolhimento do ITBI municipal, por constituir transmissão onerosa <em>inter vivos</em> derivada.</td>
+                  <td className="p-4">Não há incidência de ITBI, haja vista a natureza originária da aquisição reconhecida pela jurisprudência constitucional.</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-bold text-white">Relação com o Proprietário Registral</td>
+                  <td className="p-4">Demanda direcionada em face do titular registral ou de seus sucessores legais.</td>
+                  <td className="p-4">O titular registral e confinantes são cientificados para manifestação, mas a pretensão não se funda no cumprimento do contrato em si.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            Os prazos de usucapião não são uniformes: variam de 2 a 15 anos a depender da modalidade (extraordinária, ordinária, especial urbana, especial rural ou familiar). A usucapião não deve ser encarada como substituto automático de toda aquisição sem escritura; cabe ao profissional do Direito avaliar a via adequada de acordo com a cadeia dominial, o estado da posse e os títulos disponíveis.
+          </p>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            Quanto Tempo e Quanto Custa Regularizar o Imóvel?
+          </h2>
+          <p>
+            Os valores e o tempo necessários para a conclusão da regularização variam conforme a via adotada (cartório ou Judiciário), a comarca do imóvel e os elementos fáticos envolvidos. Os principais componentes de custo incluem:
+          </p>
+
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 space-y-4 my-6">
+            <h3 className="text-white font-serif font-bold text-base mb-1">Elementos que Compõem os Custos de Regularização:</h3>
+            <ul className="list-disc pl-5 space-y-2 text-text-muted text-sm">
+              <li>
+                <strong>ITBI (Imposto sobre Transmissão de Bens Imóveis):</strong> tributo de competência municipal devido nas hipóteses de transmissão derivada <em>inter vivos</em>, como a adjudicação compulsória. As alíquotas e as regras de lançamento são estipuladas pela legislação de cada município, devendo ser observada a jurisprudência fixada pelo STJ no Tema Repetitivo 1.113 a respeito da base de cálculo da operação.
+              </li>
+              <li>
+                <strong>Emolumentos Cartorários:</strong> despesas fixadas por tabelas oficiais aprovadas pelos órgãos do Poder Judiciário de cada Estado para os atos praticados pelo Registro de Imóveis, pelo Tabelionato de Notas ou pelo Registro de Títulos e Documentos.
+              </li>
+              <li>
+                <strong>Custas e Taxa Judiciária (na via judicial):</strong> valores recolhidos conforme a tabela do tribunal competente, calculados sobre o valor da causa, ressalvadas as hipóteses legais de concessão de gratuidade de justiça.
+              </li>
+              <li>
+                <strong>Certidões e Diligências:</strong> despesas vinculadas à emissão de certidões imobiliárias, certidões de distribuidores judiciais e eventuais despesas postais ou de notificação.
+              </li>
+              <li>
+                <strong>Honorários Advocatícios:</strong> remuneração dos serviços jurídicos ajustada de acordo com a natureza da demanda, a complexidade da matéria e os parâmetros éticos da OAB.
+              </li>
+            </ul>
+          </div>
+
+          <p>
+            No tocante ao tempo de duração, o procedimento extrajudicial tende a tramitar em prazo mais concentrado quando a documentação está completa e inexistem notas de devolução ou impugnações das partes cientificadas. Quando há necessidade de debate judicial, o trâmite acompanha o cronograma de atos e prazos recursais do Poder Judiciário.
+          </p>
+
+          {/* Quadro de Dicas Práticas e Erros Comuns */}
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 my-8">
+            <h3 className="text-bronze font-serif font-bold text-lg mb-4">
+              Quadro de Dicas Práticas e Erros Comuns a Evitar
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-text-muted">
+              <div className="bg-midnight-light/50 p-4 rounded-xl border border-red-500/20">
+                <h4 className="text-red-400 font-bold uppercase tracking-wider mb-2">Equívocos Comuns</h4>
+                <ul className="space-y-2 list-disc pl-4">
+                  <li>Presumir que a posse prolongada ou o pagamento de IPTU transfere por si só a propriedade do bem.</li>
+                  <li>Guardar o contrato particular por anos sem solicitar certidão atualizada da matrícula no RGI para acompanhar gravames.</li>
+                  <li>Realizar pagamentos em espécie sem recibos circunstanciados que atestem o cumprimento da obrigação contratual.</li>
+                  <li>Presumir que qualquer contrato informal permite de plano a adjudicação compulsória, sem checar a cadeia de alienações.</li>
+                  <li>Ingressar com medidas sem antes conferir a compatibilidade do pedido com o registro imobiliário.</li>
+                </ul>
+              </div>
+              <div className="bg-midnight-light/50 p-4 rounded-xl border border-green-500/20">
+                <h4 className="text-green-400 font-bold uppercase tracking-wider mb-2">Recomendações Práticas</h4>
+                <ul className="space-y-2 list-disc pl-4">
+                  <li>Obter certidão atualizada da matrícula do imóvel antes de definir a providência jurídica a adotar.</li>
+                  <li>Reunir e digitalizar todos os instrumentos contratuais, recibos, comprovantes de depósito e correspondências.</li>
+                  <li>Verificar se o imóvel possui matrícula individualizada própria antes de avaliar a pretensão de adjudicação.</li>
+                  <li>Distinguir as hipóteses em que cabe notificação registral extrajudicial das medidas informais de conciliação.</li>
+                  <li>Submeter a documentação à análise jurídica técnica para identificar a via apropriada à situação do bem.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <h2 className="text-white text-2xl font-serif mt-6">
+            Quando Procurar um Advogado Imobiliário?
+          </h2>
+          <p>
+            A consulta jurídica torna-se indispensável quando surgem resistências à outorga da escritura, quando o vendedor não é localizado, em casos de falecimento de alguma das partes ou diante de restrições registradas na matrícula.
+          </p>
+
+          <p>
+            O <strong>advogado imobiliário no Rio de Janeiro</strong> analisa a cadeia dominial do imóvel, avalia a higidez dos documentos de quitação, orienta sobre eventuais gravames e conduz o procedimento cabível, seja no âmbito dos Cartórios de Registro de Imóveis, seja perante as Varas Cíveis da Capital e das comarcas fluminenses.
+          </p>
+
+          {/* Links Internos Sugeridos */}
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Artigos Relacionados e Serviços Imobiliários</h3>
+            <p className="text-text-muted text-sm mb-4">
+              Para aprofundar seu conhecimento sobre regularização imobiliária e segurança patrimonial, consulte outros conteúdos de nossa autoria:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-text-muted">
+              <li>
+                <Link to="/direito-imobiliario/" className="text-bronze hover:underline font-bold">Assessoria Especializada em Direito Imobiliário</Link>: atuação consultiva e contenciosa em contratos imobiliários, adjudicação compulsória e regularização documental.
+              </li>
+              <li>
+                <Link to="/blog/usucapiao-extrajudicial-como-funciona-requisitos-documentos-etapas/" className="text-bronze hover:underline font-bold">Usucapião Extrajudicial em Cartório</Link>: requisitos legais, ata notarial e etapas perante o Registro de Imóveis.
+              </li>
+              <li>
+                <Link to="/blog/usucapiao-de-imovel-requisitos-prazos-documentos-como-funciona/" className="text-bronze hover:underline font-bold">Usucapião de Imóvel: Requisitos e Prazos</Link>: visão panorâmica das diferentes espécies de usucapião no direito brasileiro.
+              </li>
+              <li>
+                <Link to="/blog/inventario-extrajudicial-rio-de-janeiro-como-funciona-custo/" className="text-bronze hover:underline font-bold">Inventário Extrajudicial no Rio de Janeiro</Link>: como funciona a partilha de bens em cartório e a regularização de patrimônio hereditário.
+              </li>
+              <li>
+                <Link to="/blog/guia-compra-venda-segura-imoveis-rj/" className="text-bronze hover:underline font-bold">Guia de Compra e Venda Segura de Imóveis no RJ</Link>: orientações preventivas para análise de certidões e mitigação de riscos na aquisição.
+              </li>
+              <li>
+                <Link to="/equipe/" className="text-bronze hover:underline font-bold">Conheça Nossos Advogados</Link>: conheça a formação e a trajetória técnica do escritório Soares Martins Advogados.
+              </li>
+            </ul>
+          </div>
+
+          {/* Conclusão e Chamada para Ação Institucional */}
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-8">
+            <h3 className="text-white text-lg font-serif mb-4">Análise Jurídica Individualizada do seu Caso Imobiliário</h3>
+            <p className="text-text-muted text-sm mb-4">
+              O escritório Soares Martins Advogados presta assessoria jurídica no âmbito do Direito Imobiliário e Registral no Estado do Rio de Janeiro, auxiliando proprietários e compradores na avaliação de contratos particulares, instrução de requerimentos em cartório e condução de demandas judiciais.
+            </p>
+            <p className="text-text-muted text-sm mb-4">
+              Se você comprou e quitou um imóvel e encontra dificuldades para obter a escritura definitiva ou regularizar a situação registral da matrícula, consulte nossa equipe para um exame individualizado dos documentos do seu imóvel.
+            </p>
+            <p className="text-bronze font-bold text-sm">
+              <Link to="/contato/" className="hover:underline text-bronze">Entre em contato pelo formulário de atendimento</Link> ou fale conosco pelo WhatsApp: (21) 97954-9241.
+            </p>
+          </div>
+
+          {/* FAQ Completa com 10 Perguntas e Respostas */}
+          <div className="mt-8 pt-8 border-t border-white/5">
+            <h3 className="text-white text-xl font-serif mb-4">
+              Perguntas Frequentes sobre Imóvel Pago sem Escritura e Adjudicação Compulsória (FAQ)
+            </h3>
+            <div className="space-y-4">
+              <div>
+                <h4 className="text-white text-sm font-bold">1. Quais são os riscos de manter o imóvel pago apenas com contrato particular, sem o registro definitivo?</h4>
+                <p className="text-text-muted text-xs mt-1">Enquanto a titularidade não constar no fólio real, o alienante figura formalmente como titular do domínio. Isso expõe o comprador a riscos em caso de processos de execução movidos contra o antigo titular, que podem acarretar constrições judiciais sobre o bem. Embora o adquirente de boa-fé possa defender a posse por meio de embargos de terceiro (Súmula 84 do STJ), a regularização do registro definitivo é a providência que consolida formalmente a propriedade.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">2. É indispensável registrar previamente a promessa de compra e venda no RGI para postular a adjudicação compulsória?</h4>
+                <p className="text-text-muted text-xs mt-1">Não. O Superior Tribunal de Justiça firmou entendimento na Súmula nº 239 de que o direito à adjudicação compulsória não se condiciona ao registro do compromisso de compra e venda no cartório de registro de imóveis. Contudo, o registro prévio confere direito real oponível a terceiros (artigo 1.417 do Código Civil), reforçando a segurança perante atos de alienação supervenientes.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">3. O falecimento do vendedor impede a regularização da transferência da propriedade?</h4>
+                <p className="text-text-muted text-xs mt-1">O falecimento do alienante não anula as obrigações validamente pactuadas em vida. A medida aplicável depende da fase em que se encontra a sucessão: havendo inventário em andamento, pode ser requerida autorização ao juízo do inventário ou ato do inventariante; se o inventário já foi findado ou não foi instaurado, a medida pode ser direcionada em face do espólio ou dos herdeiros sucessores.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">4. O procedimento de adjudicação compulsória extrajudicial em cartório exige advogado?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. O artigo 216-B, caput, da Lei nº 6.015/1973 e as normas regulamentares do Conselho Nacional de Justiça determinam de forma expressa que o pedido de adjudicação compulsória extrajudicial perante o Cartório de Registro de Imóveis deve ser subscrito por advogado legalmente constituído com procuração específica.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">5. O que fazer quando não se possui a totalidade dos recibos originais de pagamento do negócio?</h4>
+                <p className="text-text-muted text-xs mt-1">A suficiência probatória é avaliada conforme a via eleita e as circunstâncias do negócio. Comprovações bancárias históricas, declarações escritas de quitação, recibos e outros elementos idôneos de convicção podem ser ponderados. Na via extrajudicial, a regulamentação do CNJ admite certos meios supletivos de prova do adimplemento, enquanto a via judicial permite uma dilação probatória mais ampla quando houver fundada controvérsia.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">6. Como agir se a construtora faliu ou encerrou atividades antes da outorga da escritura?</h4>
+                <p className="text-text-muted text-xs mt-1">Se o promitente comprador quitou a sua unidade, é possível adotar providências perante a massa falida ou propor a medida cabível para obter o título, aplicando-se, quando houver gravame hipotecário constituído pela construtora perante o agente financeiro, o entendimento da Súmula nº 308 do STJ, que protege o terceiro adquirente de boa-fé.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">7. Todo imóvel adquirido mediante contrato particular pode ser adjudicado?</h4>
+                <p className="text-text-muted text-xs mt-1">Não necessariamente. A adjudicação compulsória exige que o imóvel esteja individualizado e matriculado no fólio real e que haja correlação documental entre os sucessivos cessionários e o titular registral do bem. Imóveis decorrentes de parcelamentos de solo não aprovados ou sem instituição formal de condomínio exigem procedimentos prévios de regularização urbanística e registral.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">8. O que ocorre se o vendedor não for localizado para a notificação?</h4>
+                <p className="text-text-muted text-xs mt-1">Tanto na via extrajudicial perante o registro de imóveis (artigo 216-B, § 4º, da LRP) quanto na via judicial, após esgotadas as diligências razoáveis de localização nos endereços conhecidos e registros públicos de praxe, a legislação autoriza a notificação ou citação por edital para garantir a continuidade do procedimento.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">9. É devido o pagamento de ITBI na adjudicação compulsória?</h4>
+                <p className="text-text-muted text-xs mt-1">Sim. Como a adjudicação compulsória instrumentaliza uma transferência derivada de direitos reais inter vivos oriunda de compra e venda, o recolhimento do ITBI perante o município competente constitui requisito para a prática do ato de registro na matrícula, observadas as regras de apuração da base de cálculo conforme a legislação municipal e o Tema Repetitivo 1.113 do STJ.</p>
+              </div>
+              <div>
+                <h4 className="text-white text-sm font-bold">10. Quais são as principais vantagens de regularizar a titularidade no Registro de Imóveis?</h4>
+                <p className="text-text-muted text-xs mt-1">A regularização confere segurança jurídica definitiva ao titular, garante a oponibilidade da propriedade contra quaisquer terceiros, viabiliza a alienação regular por meio de financiamentos bancários ou a constituição de garantias reais e assegura a adequada transmissão patrimonial em futuros procedimentos de inventário e partilha sem embaraços documentais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     }
   ];
 };

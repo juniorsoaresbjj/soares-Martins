@@ -139,7 +139,8 @@ const routesToPrerender = [
   '/blog/gestion-condominios-prevision-presupuestaria/',
   '/blog/tecnologia-condominios-porteria-remota/',
   '/blog/derecho-inmobiliario-due-diligence-compra/',
-  '/blog/convivencia-condominios-ruido-areas-comunes/'
+  '/blog/convivencia-condominios-ruido-areas-comunes/',
+  '/blog/comprei-paguei-nao-consigo-escritura-imovel/'
 ]
 
 async function start() {
