@@ -99,6 +99,7 @@ import BotafogoLauroMuller36Apto109AuctionPage from './components/BotafogoLauroM
 import IpanemaViscondePiraja188Apto602AuctionPage from './components/IpanemaViscondePiraja188Apto602AuctionPage';
 import IpanemaViscondePiraja82Loja103AuctionPage from './components/IpanemaViscondePiraja82Loja103AuctionPage';
 import NiteroiDuqueEstrada169AuctionPage from './components/NiteroiDuqueEstrada169AuctionPage';
+import IcaraiDominguesDeSa206AuctionPage from './components/IcaraiDominguesDeSa206AuctionPage';
 import BotafogoGeneralGoesMonteiro8AuctionPage from './components/BotafogoGeneralGoesMonteiro8AuctionPage';
 import LemeGustavoSampaio723AuctionPage from './components/LemeGustavoSampaio723AuctionPage';
 import SaoConradoEstradaDasCanoas722AuctionPage from './components/SaoConradoEstradaDasCanoas722AuctionPage';
@@ -723,6 +724,15 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402" element={<NiteroiDuqueEstrada169AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169/" element={<NiteroiDuqueEstrada169AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169" element={<NiteroiDuqueEstrada169AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501/" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501/" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-apto-1501/" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-apto-1501" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206/" element={<IcaraiDominguesDeSa206AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206" element={<IcaraiDominguesDeSa206AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109/" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/sao-conrado/apartamento/estrada-das-canoas-722-bloco-2-apto-109" element={<SaoConradoEstradaDasCanoas722AuctionPage />} />

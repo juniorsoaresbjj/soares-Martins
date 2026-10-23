@@ -7655,6 +7655,101 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: 'Why engage Soares Martins Advogados for this Copacabana auction?', a: 'We perform end-to-end legal due diligence on Deed #117.771 (5th Registry), verify court notifications, design the bidding strategy, and supervise court possession.' }
         ]
       }
+    },
+    'icarai-domingues-de-sa-206-bloco-02-apto-1501': {
+      pt: {
+        title: 'Leilão Judicial em Icaraí — Rua Domingues de Sá nº 206 — Bloco 02, Apto 1501 (105 m²)',
+        subtitle: 'Rua Domingues de Sá, nº 206, Bloco 02, Apto 1501 — Icaraí, Niterói/RJ | 105 m² • 15º Andar • 2 Quartos (1 Suíte), Vaga de Garagem e Dependência Completa • 9º Ofício RGI Matrícula 10494 • Inscrição Municipal IPTU: 147.251-3 • Avaliação Oficial: R$ 750.000,00 • 1º Leilão: 23/11/2026 às 11:00h por R$ 750.000,00 • 2º Leilão: 25/11/2026 às 11:00h por R$ 375.000,00 (50% da Avaliação — ~R$ 3.571,43/m² no nobre bairro de Icaraí)',
+        address: 'Rua Domingues de Sá, nº 206, Bloco 02, Apartamento 1501 — Icaraí, Niterói - RJ',
+        p1Date: '23/11/2026 às 11:00h',
+        p2Date: '25/11/2026 às 11:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca de Niterói',
+        iptu: '147.251-3',
+        rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 10494)',
+        val: 'R$ 750.000,00',
+        p2Val: 'R$ 375.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 105 m² de área edificada privativa (unidade 1501 no 15º andar do Bloco 02) situado na valorizada Rua Domingues de Sá nº 206, no nobre bairro de Icaraí, Niterói - RJ. Composto por 02 quartos (sendo 01 suíte), ampla sala, cozinha, área de serviço, 01 banheiro social, dependência de serviço completa com quarto e banheiro, e com direito ao uso de uma vaga para estacionamento do veículo. Prédio residencial composto de 02 blocos (sendo o Bloco 1 com 02 elevadores e 02 unidades por andar; e o Bloco 2 com 03 elevadores e 04 unidades por andar), portaria decorada com porteiro 24 horas ininterrupto, playground e salão de festas com cozinha e 02 banheiros de apoio. Localização estratégica e aprazível próxima à Praia de Icaraí, polo gastronômico e serviços de conveniência. Registrado, dimensionado e caracterizado no 9º Ofício RGI sob Matrícula nº 10494 e Inscrição Municipal IPTU nº 147.251-3. Avaliação judicial oficial homologada em R$ 750.000,00, com abertura da 2ª praça a 50% por R$ 375.000,00 (~R$ 3.571,43/m²).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Domingues de Sá 206 / Bloco 02 / Apto 1501 (Icaraí, Niterói)',
+          sections: [
+            { title: 'Identificação Imobiliária e Registral', text: 'Apartamento 1501 do Bloco 02, com 105 m² de área privativa edificada, 2 quartos (1 suíte), vaga de garagem e dependência de empregada completa, situado na Rua Domingues de Sá nº 206, Icaraí, Niterói - RJ. Matrícula nº 10494 do 9º Ofício RGI e Inscrição Municipal IPTU nº 147.251-3.' },
+            { title: 'Estrutura do Prédio e Condomínio', text: 'Condomínio residencial com 2 blocos (Bloco 2 com 3 elevadores e 4 apartamentos por andar), portaria 24 horas com portaria decorada, playground e salão de festas equipado com cozinha e 2 banheiros.' },
+            { title: 'Calendário de Leilão e Lances', text: '1º Leilão: 23/11/2026 às 11:00h por R$ 750.000,00 (100% da avaliação). 2º Leilão: 25/11/2026 às 11:00h com lance inicial de 50% por R$ 375.000,00 (~R$ 3.571,43/m²).' },
+            { title: 'Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários municipais de IPTU anteriores sub-rogam-se no preço da arrematação, recebendo o arrematante a propriedade sem tais dívidas.' },
+            { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Conforme art. 895 do Código de Processo Civil, é admitida proposta de arrematação com sinal mínimo de 25% e saldo em até 30 parcelas mensais corrigidas com hipoteca sobre o imóvel.' }
+          ]
+        },
+        faqs: [
+          { q: 'Quais são as datas, horários e valores de lance do leilão na Rua Domingues de Sá nº 206 em Icaraí?', a: 'O 1º Leilão realizar-se-á no dia 23/11/2026 às 11:00h pelo valor da avaliação de R$ 750.000,00. O 2º Leilão ocorrerá no dia 25/11/2026 às 11:00h com lance inicial de 50%, no valor de R$ 375.000,00.' },
+          { q: 'Quais são as características do apartamento e a infraestrutura do condomínio?', a: 'O apartamento 1501 possui 105 m² no 15º andar do Bloco 02, contando com 2 quartos (1 suíte), sala, cozinha, área de serviço, banheiro social, dependência completa de serviço (quarto e banheiro) e direito ao uso de 1 vaga de estacionamento. O edifício possui portaria decorada 24 horas, 3 elevadores no Bloco 2, salão de festas com cozinha e 2 banheiros e playground.' },
+          { q: 'Como ficam os débitos tributários de IPTU anteriores à arrematação?', a: 'Por força do art. 130, parágrafo único, do Código Tributário Nacional (CTN), os créditos fiscais relativos a tributos cujo fato gerador seja a propriedade imobiliária sub-rogam-se no preço arrematado, não recaindo sobre o novo adquirente.' },
+          { q: 'Por que contar com a assessoria jurídica especializada da Soares Martins Advogados?', a: 'Nossa assessoria atua em todas as fases: auditoria preventiva completa da certidão da matrícula 10494 do 9º RGI, análise de autos da execução na Comarca de Niterói / TJRJ, estratégia e segurança de lance, homologação judicial da arrematação e imissão efetiva na posse com expedição da Carta de Arrematação.' }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en Icaraí — Rua Domingues de Sá nº 206 — Bloque 02, Apto 1501 (105 m²)',
+        subtitle: 'Rua Domingues de Sá, nº 206, Bloque 02, Apto 1501 — Icaraí, Niterói/RJ | 105 m² • Piso 15 • 2 Habitaciones (1 Suite), Plaza de Garaje y Dependencia Completa • 9º Registro Matrícula 10494 • IPTU: 147.251-3 • Tasación Oficial: R$ 750.000,00 • 1ª Subasta: 23/11/2026 a las 11:00h por R$ 750.000,00 • 2ª Subasta: 25/11/2026 a las 11:00h por R$ 375.000,00 (50% de la Tasación — ~R$ 3.571,43/m² en Icaraí)',
+        address: 'Rua Domingues de Sá, nº 206, Bloque 02, Apartamento 1501 — Icaraí, Niterói - RJ',
+        p1Date: '23/11/2026 a las 11:00h',
+        p2Date: '25/11/2026 a las 11:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de Niterói',
+        iptu: '147.251-3',
+        rgi: '9º Oficio de Registro de Inmuebles (Matrícula nº 10494)',
+        val: 'R$ 750.000,00',
+        p2Val: 'R$ 375.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 105 m² privativos (unidad 1501 en el piso 15 del Bloque 02) situado en la Rua Domingues de Sá nº 206, Icaraí, Niterói/RJ. Consta de 2 dormitorios (1 en suite), salón, cocina, lavadero, baño social, habitación y baño de servicio completos, y derecho al uso de 1 plaza de garaje. Edificio residencial con 2 bloques, recepción decorada con conserjería 24 horas, 3 ascensores en el Bloque 2, parque infantil y salón de eventos con cocina y 2 baños. Registrado en el 9º Registro bajo Matrícula 10494 e IPTU 147.251-3. Tasación oficial de R$ 750.000,00, con 2ª subasta al 50% por R$ 375.000,00.',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Rua Domingues de Sá 206 / Bloque 02 / Apto 1501 (Icaraí, Niterói)',
+          sections: [
+            { title: 'Identificación Registral', text: 'Apartamento 1501 del Bloque 02 con 105 m² privativos, 2 dormitorios (1 suite), garaje y dependencia de servicio en Rua Domingues de Sá nº 206, Icaraí, Niterói/RJ. Matrícula 10494 del 9º Registro e IPTU 147.251-3.' },
+            { title: 'Estructura Condominial', text: 'Edificio residencial con 2 bloques (Bloque 2 con 3 ascensores y 4 unidades por piso), portería 24h decorada, salón de eventos y parque infantil.' },
+            { title: 'Calendario y Valores de Subasta', text: '1ª Subasta: 23/11/2026 a las 11:00h por R$ 750.000,00. 2ª Subasta: 25/11/2026 a las 11:00h iniciando al 50% por R$ 375.000,00 (~R$ 3.571,43/m²).' },
+            { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias municipales anteriores se subrogan en el precio obtenido en la subasta.' },
+            { title: 'Pago a Plazos (Art. 895 CPC)', text: 'Posibilidad de abonar el 25% de entrada y el saldo en hasta 30 cuotas mensuales garantizadas con hipoteca judicial.' }
+          ]
+        },
+        faqs: [
+          { q: '¿Cuáles son las fechas y valores de la subasta en Rua Domingues de Sá 206 en Icaraí?', a: 'La 1ª Subasta se realizará el 23/11/2026 a las 11:00h por R$ 750.000,00. La 2ª Subasta tendrá lugar el 25/11/2026 a las 11:00h con puja inicial del 50% por R$ 375.000,00.' },
+          { q: '¿Cuáles son las características del apartamento y del condominio?', a: 'El piso 1501 tiene 105 m² en el piso 15 del Bloque 2, con 2 dormitorios (1 suite), salón, cocina, baño social, dependencia completa de servicio y 1 plaza de garaje. El complejo ofrece portería 24h, 3 ascensores en el Bloque 2, salón de fiestas y parque infantil.' },
+          { q: '¿Qué ocurre con las deudas de impuestos municipales anteriores?', a: 'Por disposición del art. 130 del Código Tributario Nacional (CTN), los tributos inmobiliarios anteriores se subrogan en el precio de adjudicación en la subasta.' },
+          { q: '¿Cómo asesora Soares Martins Advogados?', a: 'Realizamos la auditoría jurídica previa de la matrícula 10494, análisis de los autos en Niterói / TJRJ y tramitamos la posesión legal con la Carta de Arrematación.' }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Icaraí — Domingues de Sá Street #206 — Block 02, Apt 1501 (105 sqm)',
+        subtitle: 'Rua Domingues de Sá, #206, Block 02, Apt 1501 — Icaraí, Niterói/RJ | 105 sqm (1,130 sq ft) • 15th Floor • 2 Bedrooms (1 Suite), Garage Space and Full Maid Quarters • 9th Land Registry Title #10494 • Municipal Tax IPTU: 147.251-3 • Official Appraisal: R$ 750,000.00 • 1st Auction: 11/23/2026 at 11:00 AM at R$ 750,000.00 • 2nd Auction: 11/25/2026 at 11:00 AM starting at R$ 375,000.00 (50% Reserve — ~R$ 3,571.43/sqm in prime Icaraí, Niterói)',
+        address: 'Rua Domingues de Sá, #206, Block 02, Apt 1501 — Icaraí, Niterói - RJ',
+        p1Date: '11/23/2026 at 11:00 AM',
+        p2Date: '11/25/2026 at 11:00 AM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Niterói Judicial District',
+        iptu: '147.251-3',
+        rgi: '9th Land Registry Office (Title #10494)',
+        val: 'R$ 750,000.00',
+        p2Val: 'R$ 375,000.00 (2nd Auction starting reserve - 50%)',
+        description: 'Residential apartment with 105 sqm (1,130 sq ft) of private built area (unit 1501 on the 15th floor of Block 02) situated on prime Rua Domingues de Sá #206 in Icaraí, Niterói/RJ. Comprising 2 bedrooms (1 en-suite), large living and dining room, kitchen, laundry area, guest/social bathroom, full maid quarters (bedroom and bathroom), and deeded right to 1 vehicle parking space. Strictly residential building with 24/7 security concierge, 2 residential blocks (Block 1 with 2 elevators and 2 units/floor; Block 2 with 3 elevators and 4 units/floor), decorated lobby, playground, and event ballroom with kitchen and 2 bathrooms. Duly recorded at the 9th Land Registry under Title Deed #10494 and Municipal Tax IPTU #147.251-3. Official court valuation: R$ 750,000.00, opening on the 2nd auction at 50% reserve for R$ 375,000.00 (~R$ 3,571.43/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Auction Notice Summary — Domingues de Sá St #206 / Block 02 / Apt 1501',
+          sections: [
+            { title: 'Deed and Legal Identification', text: 'Apartment 1501 of Block 02 with 105 sqm private area, 2 bedrooms (1 suite), parking space and full maid quarters at Rua Domingues de Sá #206, Icaraí, Niterói/RJ. 9th Land Registry Title #10494 and IPTU #147.251-3.' },
+            { title: 'Building Features & Amenities', text: 'Residential condominium with 2 blocks (Block 2 with 3 elevators and 4 units per floor), 24/7 doorman security, decorated lobby, children playground, and party ballroom.' },
+            { title: 'Auction Dates & Bid Values', text: '1st Auction: 11/23/2026 at 11:00 AM at R$ 750,000.00. 2nd Auction: 11/25/2026 at 11:00 AM starting at 50% reserve for R$ 375,000.00 (~R$ 3,571.43/sqm).' },
+            { title: 'Tax Subrogation (CTN Art. 130)', text: 'All past municipal property taxes subrogate into the purchase proceeds at auction.' },
+            { title: 'Installment Bid Option (CPC Art. 895)', text: 'Bidders may submit installment proposals with 25% down payment and up to 30 monthly installments secured by judicial mortgage.' }
+          ]
+        },
+        faqs: [
+          { q: 'What are the auction schedule and starting bids for Apt 1501 at Domingues de Sá 206?', a: 'The 1st Auction takes place on Nov 23, 2026 at 11:00 AM at R$ 750,000.00 (100% of appraisal). The 2nd Auction is on Nov 25, 2026 at 11:00 AM starting at 50% reserve for R$ 375,000.00.' },
+          { q: 'What are the property layout and condominium specifications?', a: 'Unit 1501 offers 105 sqm on the 15th floor of Block 2, with 2 bedrooms (1 suite), living room, kitchen, social bathroom, full maid quarters, and 1 garage space. The building provides 24/7 concierge security, 3 elevators in Block 2, playground, and party room.' },
+          { q: 'Does the buyer assume past municipal taxes?', a: 'No. Under Article 130 of the Brazilian National Tax Code (CTN), prior property taxes subrogate into the auction proceeds.' },
+          { q: 'Why hire Soares Martins Advogados for this Niterói auction?', a: 'We perform title due diligence on Deed #10494, monitor the court execution in Niterói / TJRJ, guide auction bidding, and secure judicial property possession.' }
+        ]
+      }
     }
   };
 

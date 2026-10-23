@@ -162,6 +162,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Icaraí / Niterói (RJ)',
+        title: 'Leilão Judicial em Icaraí — Rua Domingues de Sá nº 206 — Bloco 02, Apto 1501 (105 m²)',
+        desc: 'Apartamento de 105 m² privativos (unidade 1501 no 15º andar do Bloco 02) composto por 2 quartos (sendo 1 suíte), ampla sala, cozinha, área de serviço, 1 banheiro social, dependência de serviço completa com quarto e banheiro e direito ao uso de 1 vaga de estacionamento na prestigiada Rua Domingues de Sá nº 206, no coração de Icaraí, Niterói - RJ. Edifício residencial com portaria decorada e porteiro 24 horas ininterrupto, 2 blocos independentes (Bloco 2 com 3 elevadores e 4 apartamentos por andar), playground e salão de festas equipado com cozinha e 2 banheiros. Devidamente registrado no 9º Ofício RGI sob Matrícula nº 10494 e Inscrição Municipal IPTU nº 147.251-3. Avaliação judicial oficial homologada em R$ 750.000,00. 1º Leilão em 23/11/2026 às 11:00h por R$ 750.000,00 e 2º Leilão em 25/11/2026 às 11:00h com lance inicial de 50% por R$ 375.000,00 (~R$ 3.571,43/m² no nobre bairro de Icaraí).',
+        p1Label: '1ª Praça (23/11/2026):',
+        p1Val: 'R$ 750.000,00',
+        p2Label: '2ª Praça (25/11/2026):',
+        p2Val: 'R$ 375.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%201501%20do%20Bloco%2002%20na%20Rua%20Domingues%20de%20S%C3%A1%20206%20em%20Icara%C3%AD%20-%20Niter%C3%B3i.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Leilão Judicial em Copacabana — Av. Nossa Senhora de Copacabana nº 314 — Apto 1101 (45 m²)',
         desc: 'Apartamento de 45 m² privativos (unidade 1101 no 11º andar) em edifício residencial tradicional situado na Avenida Nossa Senhora de Copacabana nº 314, Copacabana, Zona Sul do Rio de Janeiro. Localização privilegiada a passos da praia, comércio e transporte. Edifício com 13 andares (sendo o 13º de coberturas), 2 elevadores, portaria 24 horas e monitoramento por câmeras de segurança na portaria e elevadores. Matrícula nº 117.771 do 5º Ofício RGI e Inscrição Municipal IPTU nº 0.473.119-6. Avaliação judicial oficial de R$ 520.000,00. 1º Leilão em 19/11/2026 às 13:20h por R$ 520.000,00 e 2º Leilão em 24/11/2026 às 13:20h com lance inicial de 60% por R$ 312.000,00 (~R$ 6.933,33/m² em Copacabana).',
@@ -1219,6 +1230,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Icaraí / Niterói (RJ)',
+        title: 'Subasta Judicial en Icaraí — Rua Domingues de Sá nº 206 — Bloque 02, Apto 1501 (105 m²)',
+        desc: 'Apartamento de 105 m² privativos (unidad 1501 en el piso 15 del Bloque 02) compuesto por 2 dormitorios (1 suite), salón, cocina, lavadero, baño social, habitación y baño de servicio completos y derecho a 1 plaza de garaje en la exclusiva Rua Domingues de Sá nº 206, Icaraí, Niterói - RJ. Edificio residencial con 2 bloques, recepción decorada con portería 24 horas, 3 ascensores en el Bloque 2, parque infantil y salón de fiestas con cocina y 2 baños. Matrícula nº 10494 del 9º Registro e IPTU nº 147.251-3. Tasación oficial de R$ 750.000,00. 1ª Subasta el 23/11/2026 a las 11:00h por R$ 750.000,00 y 2ª Subasta el 25/11/2026 a las 11:00h iniciando al 50% por R$ 375.000,00 (~R$ 3.571,43/m² en Icaraí).',
+        p1Label: '1ª Subasta (23/11/2026):',
+        p1Val: 'R$ 750.000,00',
+        p2Label: '2ª Subasta (25/11/2026):',
+        p2Val: 'R$ 375.000,00 (50% de tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%201501%20del%20Bloque%2002%20en%20Rua%20Domingues%20de%20S%C3%A1%20206%20en%20Icara%C3%AD%20-%20Niter%C3%B3i.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Subasta Judicial en Copacabana — Av. Nossa Senhora de Copacabana nº 314 — Apto 1101 (45 m²)',
         desc: 'Apartamento de 45 m² privativos (unidad 1101 en el piso 11) en edificio residencial tradicional ubicado en la Avenida Nossa Senhora de Copacabana nº 314, Copacabana, Zona Sur de Río de Janeiro. Ubicación privilegiada a pasos de la playa, comercios y transporte. Edificio de 13 plantas con 2 ascensores, servicio de portería 24 horas y sistema de cámaras de seguridad en la entrada y ascensores. Matrícula nº 117.771 del 5º Oficio RGI e Impuesto Municipal IPTU nº 0.473.119-6. Avalúo judicial de R$ 520.000,00. 1ª Subasta el 19/11/2026 a las 13:20h por R$ 520.000,00 y 2ª Subasta el 24/11/2026 a las 13:20h con precio base del 60% por R$ 312.000,00 (~R$ 6.933,33/m² en Copacabana).',
@@ -2253,6 +2275,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Icaraí / Niterói (RJ)',
+        title: 'Judicial Auction in Icaraí — Domingues de Sá Street #206 — Block 02, Apt 1501 (105 sqm)',
+        desc: 'Residential apartment with 105 sqm (1,130 sq ft) of private built area (unit 1501 on the 15th floor of Block 02) comprising 2 bedrooms (1 en-suite), large living room, kitchen, laundry area, social bathroom, full maid quarters (bedroom and bathroom), and deeded right to 1 vehicle parking space on prime Rua Domingues de Sá #206 in Icaraí, Niterói - RJ. Strictly residential building with 24/7 security concierge, 2 residential blocks (Block 1 with 2 elevators and 2 units/floor; Block 2 with 3 elevators and 4 units/floor), decorated lobby, playground, and party ballroom with kitchen and 2 bathrooms. Registered at the 9th Land Registry under Title Deed #10494 and Municipal Tax IPTU #147.251-3. Official court valuation: R$ 750,000.00. 1st Auction on Nov 23, 2026 at 11:00 AM at R$ 750,000.00 and 2nd Auction on Nov 25, 2026 at 11:00 AM starting at 50% reserve for R$ 375,000.00 (~R$ 3,571.43/sqm in Icaraí).',
+        p1Label: '1st Auction (Nov 23, 2026):',
+        p1Val: 'R$ 750,000.00',
+        p2Label: '2nd Auction (Nov 25, 2026):',
+        p2Val: 'R$ 375,000.00 (50% reserve)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501/',
+        waText: 'Hello,%20I%20would%20like%20information%20regarding%20the%20judicial%20auction%20for%20Apt%201501%20Block%2002%20at%20Rua%20Domingues%20de%20S%C3%A1%20206%20in%20Icara%C3%AD%20-%20Niter%C3%B3i.'
+      },
       {
         tag: 'Residential • Copacabana (RJ)',
         title: 'Judicial Auction in Copacabana — Nossa Senhora de Copacabana Ave #314 — Apt 1101 (45 sqm)',
