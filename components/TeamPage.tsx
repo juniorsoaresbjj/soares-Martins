@@ -54,7 +54,7 @@ const TeamPage: React.FC<TeamPageProps> = ({ onBack }) => {
             {t('team_page.title')} <br className="hidden sm:block" />
             <span className="serif-italic text-bronze">{t('team_page.titleHighlight')}</span>
           </h1>
-          <p className="text-text-muted text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl border-l border-white/10 pl-6 md:pl-8 italic whitespace-pre-line">
+          <p className="text-text-muted text-base sm:text-lg md:text-xl leading-relaxed max-w-3xl border-l border-white/10 pl-6 md:pl-8 italic whitespace-pre-line text-justify">
             {t('team_page.description')}
           </p>
         </div>
@@ -78,7 +78,7 @@ const TeamPage: React.FC<TeamPageProps> = ({ onBack }) => {
                 <p className="text-white font-serif text-xl sm:text-2xl italic leading-snug">
                   "{member.specialty}"
                 </p>
-                <p className="text-text-muted leading-relaxed text-sm sm:text-base md:text-lg max-w-3xl">{member.bio}</p>
+                <p className="text-text-muted leading-relaxed text-sm sm:text-base md:text-lg max-w-3xl text-justify">{member.bio}</p>
                 
                 <div className="flex gap-4 pt-4 md:pt-6">
                   <a href="#" className="flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 text-white/70 hover:border-bronze hover:text-bronze hover:bg-bronze/5 transition-all text-[10px] font-bold uppercase tracking-widest">
