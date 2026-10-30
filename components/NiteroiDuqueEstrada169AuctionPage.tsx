@@ -186,8 +186,13 @@ const NiteroiDuqueEstrada169AuctionPage: React.FC<NiteroiDuqueEstrada169AuctionP
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 pb-12 sm:pb-16">
         <div className="bg-midnight-light/40 backdrop-blur-sm rounded-3xl p-6 sm:p-10 border border-white/10 shadow-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-bronze/10 border border-bronze/30 text-bronze text-xs font-semibold uppercase tracking-wider mb-6">
-            <Gavel size={14} /> {tC.badgeTag}
+          <div className="flex flex-wrap items-center gap-2 mb-6">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-bronze/10 border border-bronze/30 text-bronze text-xs font-semibold uppercase tracking-wider">
+              <Gavel size={14} /> {tC.badgeTag}
+            </div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-bold uppercase tracking-wider">
+              <CheckCircle2 size={13} /> {tC.arrematadoBadge || 'Imóvel Arrematado'}
+            </div>
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif text-white font-bold leading-tight mb-4 text-left">
@@ -250,6 +255,44 @@ const NiteroiDuqueEstrada169AuctionPage: React.FC<NiteroiDuqueEstrada169AuctionP
                     <div className="text-xs text-text-muted mb-1">{tC.minBidLabel}</div>
                     <div className="text-base sm:text-lg font-serif font-bold text-emerald-400">{item.p2Val}</div>
                     <div className="text-[11px] text-white/60 mt-2 font-mono">{item.p2Date}</div>
+                  </div>
+                </div>
+
+                {/* Resultado Efetivo da Arrematação */}
+                <div className="bg-amber-500/10 rounded-xl p-4 sm:p-5 border border-amber-500/30 text-left space-y-3 mt-6">
+                  <div className="flex items-center justify-between border-b border-amber-500/20 pb-2">
+                    <span className="text-xs uppercase tracking-wider font-bold text-amber-300 flex items-center gap-1.5">
+                      <CheckCircle2 size={15} /> {tC.arrematacaoTitle || 'Resultado da Arrematação'}
+                    </span>
+                    <span className="text-[11px] font-semibold uppercase px-2 py-0.5 rounded bg-amber-500/20 text-amber-200 border border-amber-500/30">
+                      {tC.statusArrematado || 'Arrematado'}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <div>
+                      <span className="text-[11px] text-amber-200/70 uppercase tracking-wider block font-semibold">
+                        {tC.arrematacaoValLabel || 'Valor da Arrematação:'}
+                      </span>
+                      <span className="text-base sm:text-lg font-serif font-bold text-amber-300">
+                        R$ 337.000,00
+                      </span>
+                    </div>
+                    <div>
+                      <span className="text-[11px] text-amber-200/70 uppercase tracking-wider block font-semibold">
+                        {tC.arrematacaoPracaLabel || 'Praça:'}
+                      </span>
+                      <span className="text-xs sm:text-sm font-semibold text-white mt-1 block">
+                        {language === 'es' ? 'Segunda subasta' : language === 'en' ? '2nd round' : 'Segunda praça'}
+                      </span>
+                    </div>
+                    <div>
+                      <span className="text-[11px] text-amber-200/70 uppercase tracking-wider block font-semibold">
+                        {tC.arrematacaoPagamentoLabel || 'Forma de Pagamento:'}
+                      </span>
+                      <span className="text-xs sm:text-sm font-semibold text-white mt-1 block">
+                        {language === 'es' ? 'Al contado' : language === 'en' ? 'In cash (lump sum)' : 'À vista'}
+                      </span>
+                    </div>
                   </div>
                 </div>
 

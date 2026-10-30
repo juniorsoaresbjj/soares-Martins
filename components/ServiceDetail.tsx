@@ -127,8 +127,14 @@ const pageTranslations: Record<string, any> = {
     auctionsTitle: 'Leilões em Análise',
     auctionsSub: 'Painel de consulta e acompanhamento técnico de oportunidades sob auditoria jurídica.',
     filterAll: 'Todos',
-    filterRes: 'Residencial',
-    filterCom: 'Comercial',
+    filterRes: 'Residenciais',
+    filterCom: 'Comerciais',
+    filterArrematados: 'Arrematados',
+    statusArrematado: 'Arrematado',
+    arrematacaoTitle: 'Resultado da Arrematação',
+    arrematacaoValLabel: 'Valor da Arrematação:',
+    arrematacaoPracaLabel: 'Praça:',
+    arrematacaoPagamentoLabel: 'Forma de Pagamento:',
     auditedTag: 'Oportunidade Auditada',
     lawsuitTag: 'Processo TJRJ',
     legalAuditLabel: 'Auditoria Jurídica:',
@@ -139,6 +145,8 @@ const pageTranslations: Record<string, any> = {
     expandAuctions: 'Veja Mais Oportunidades em Análise (+6 imóveis)',
     noCommercialTitle: 'Sem lotes comerciais abertos no momento',
     noCommercialDesc: 'Nossa equipe realiza análises sob demanda para imóveis comerciais e corporativos no Rio de Janeiro.',
+    noAuctionedTitle: 'Nenhum imóvel arrematado cadastrado no momento',
+    noAuctionedDesc: 'O histórico de imóveis arrematados e casos de sucesso é atualizado periodicamente após a homologação judicial.',
     archiveTitle: 'Acervo e Histórico de Análises Técnicas',
     archiveSub: 'Registro institucional e diretrizes de divulgação de pareceres e estudos de caso em leilões imobiliários.',
     ethicsTitle: 'Conformidade Ética e Proteção de Dados',
@@ -161,6 +169,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Enviar E-mail Corporativo',
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
+      {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Leilão Judicial de Apartamento na Av. Gomes Freire nº 740 — Apto 202',
+        desc: 'Apartamento residencial 202 com 31 metros quadrados (31 m²) na tradicional Avenida Gomes Freire nº 740, Centro, Rio de Janeiro/RJ. Registrado no 2º Ofício do RGI sob a matrícula nº 50294 e IPTU nº 0702801-2. Avaliação de R$ 258.606,00 com 2ª praça iniciando a 60% (R$ 155.163,60).',
+        p1Label: '1ª Praça (26/10/2026):',
+        p1Val: 'R$ 258.606,00',
+        p2Label: '2ª Praça (10/11/2026):',
+        p2Val: 'R$ 155.163,60',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740-apto-202/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20202%20na%20Avenida%20Gomes%20Freire%20740%20no%20Centro.'
+      },
       {
         tag: 'Residencial • Icaraí / Niterói (RJ)',
         title: 'Leilão Judicial em Icaraí — Rua Domingues de Sá nº 206 — Bloco 02, Apto 1501 (105 m²)',
@@ -482,12 +501,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Santa Rosa / Niterói/RJ',
+        status: 'Arrematado',
         title: 'Leilão Judicial de Apartamento em Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloco 3, Apto 402',
         desc: 'Amplo apartamento residencial com 138 m² de área privativa edificada no 4º andar (unidade 402 do Bloco 03) na Rua Vereador Duque Estrada nº 169, no nobre bairro de Santa Rosa, Niterói/RJ. Composto por living e sala de jantar, 2 quartos, banheiro social, copa, cozinha, varanda, área de serviço, quarto e banheiro de empregada (dependência completa), com direito a 1 vaga de garagem. Condomínio clube composto por 4 prédios, sendo o Bloco 3 com 5 andares (apenas 4 aptos/andar + 2 coberturas), fachada em pastilha e 1 elevador. Lazer completo com 2 piscinas (adulto e infantil), academia, salão de festas com churrasqueira, jogos, jardins, estacionamento, portaria 24h e CFTV. Avaliação judicial de R$ 470.000,00 e 2ª Praça a 50% por R$ 235.000,00 (~R$ 1.702,89/m²). 8º RGI Matrícula nº 15.819 e IPTU nº 824741.',
         p1Label: '1ª Praça (22/09/2026):',
         p1Val: 'R$ 470.000,00',
         p2Label: '2ª Praça (24/09/2026):',
         p2Val: 'R$ 235.000,00 (50% da avaliação)',
+        arrematacaoVal: 'R$ 337.000,00',
+        arrematacaoPraca: 'Segunda praça',
+        arrematacaoPagamento: 'À vista',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20do%20Bloco%203%20na%20Rua%20Vereador%20Duque%20Estrada%20169%20em%20Santa%20Rosa%20-%20Niter%C3%B3i.'
       },
@@ -867,12 +890,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Maracanã/RJ',
+        status: 'Arrematado',
         title: 'Leilão Judicial de Apartamento no Maracanã — Rua Dona Zulmira nº 19 — Apto 101 (66 m²)',
         desc: 'Apartamento residencial de frente com varanda, composto por quarto, sala, banheiro social, cozinha e dependências. Edifício de 1984 com 2 elevadores, segurança, 2 andares de garagem, playground, salão de festas e churrasqueira. Matrícula nº 41.819 (10º RGI) e IPTU nº 1.640.226-5.',
         p1Label: '1ª Praça (02/09/2026):',
         p1Val: 'R$ 406.923,00',
         p2Label: '2ª Praça (09/09/2026):',
         p2Val: 'R$ 203.461,50 (50% da avaliação)',
+        arrematacaoVal: 'R$ 203.461,50',
+        arrematacaoPraca: 'Segunda praça',
+        arrematacaoPagamento: 'À vista',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-dona-zulmira-19-apto-101/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Dona%20Zulmira%2019%20no%20Maracan%C3%A3.'
       },
@@ -889,12 +916,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Copacabana/RJ',
+        status: 'Arrematado',
         title: 'Leilão Judicial de Apartamento em Copacabana — Rua M. V. Castro, 32',
         desc: 'Unidade residencial situada em Copacabana, próximo à praia e metrô Cardeal Arcoverde. Análise preventiva de edital, sub-rogação de tributos e verificação de passivos condominiais concluídas.',
         p1Label: '1ª Praça (24/08/2026):',
         p1Val: 'R$ 480.000,00',
         p2Label: '2ª Praça (03/09/2026):',
         p2Val: 'R$ 240.000,00',
+        arrematacaoVal: 'R$ 408.000,00',
+        arrematacaoPraca: 'Segunda praça',
+        arrematacaoPagamento: 'À vista',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20em%20Copacabana%20(Rua%20M.%20V.%20Castro%2032).'
       },
@@ -1065,12 +1096,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Copacabana/RJ',
+        status: 'Arrematado',
         title: 'Leilão Judicial de Apartamento na Av. Atlântica nº 3806 — Apto 312',
         desc: 'Apartamento 312 com 27 m², posição de fundos. Prédio residencial de 1955 na orla de Copacabana com entrada suplementar pela Av. N. Sra. de Copacabana nº 1241. Matrícula nº 29.681 do 5º RGI/RJ.',
         p1Label: '1ª Praça (02/09/2026):',
         p1Val: 'R$ 450.100,00',
         p2Label: '2ª Praça (14/09/2026):',
         p2Val: 'R$ 225.100,00',
+        arrematacaoVal: 'R$ 450.100,00',
+        arrematacaoPraca: 'Segunda praça',
+        arrematacaoPagamento: 'À vista',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20312%20na%20Avenida%20Atl%C3%A2ntica%203806%20em%20Copacabana.'
       },
@@ -1142,12 +1177,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Tijuca/RJ',
+        status: 'Arrematado',
         title: 'Leilão Judicial de Apartamento na Tijuca na Rua Uruguai nº 94/104',
         desc: 'Apartamento de 40 m² de fundos com sala, 1 quarto, banheiro social, dependências completas, sacada e 1 vaga de garagem. Edifício de 1985 com portaria 24h, 2 elevadores, playground e salão de festas a passos do metrô Uruguai. Matrícula nº 19.467 (10º RGI/RJ) e IPTU nº 1.723.354-5.',
         p1Label: '1ª Praça (31/08/2026):',
         p1Val: 'R$ 250.000,00',
         p2Label: '2ª Praça (02/09/2026):',
         p2Val: 'R$ 125.000,00',
+        arrematacaoVal: 'R$ 249.000,00',
+        arrematacaoPraca: 'Segunda praça',
+        arrematacaoPagamento: 'À vista',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20na%20Rua%20Uruguai%2094%20Apto%20104.'
       }
@@ -1195,8 +1234,14 @@ const pageTranslations: Record<string, any> = {
     auctionsTitle: 'Subastas en Análisis',
     auctionsSub: 'Panel de consulta y seguimiento técnico de oportunidades bajo auditoría jurídica.',
     filterAll: 'Todos',
-    filterRes: 'Residencial',
-    filterCom: 'Comercial',
+    filterRes: 'Residenciales',
+    filterCom: 'Comerciales',
+    filterArrematados: 'Subastados',
+    statusArrematado: 'Subastado',
+    arrematacaoTitle: 'Resultado de la Subasta',
+    arrematacaoValLabel: 'Valor de la Adjudicación:',
+    arrematacaoPracaLabel: 'Subasta:',
+    arrematacaoPagamentoLabel: 'Forma de Pago:',
     auditedTag: 'Oportunidad Auditada',
     lawsuitTag: 'Proceso TJRJ',
     legalAuditLabel: 'Auditoría Jurídica:',
@@ -1207,6 +1252,8 @@ const pageTranslations: Record<string, any> = {
     expandAuctions: 'Ver Más Oportunidades en Análisis (+6 inmuebles)',
     noCommercialTitle: 'Sin lotes comerciales abiertos en este momento',
     noCommercialDesc: 'Nuestro equipo realiza análisis bajo demanda para inmuebles comerciales y corporativos en Río de Janeiro.',
+    noAuctionedTitle: 'Ningún inmueble subastado registrado en este momento',
+    noAuctionedDesc: 'El historial de inmuebles adjudicados y casos de éxito se actualiza periódicamente tras la homologación judicial.',
     archiveTitle: 'Acervo e Historial de Análisis Técnicos',
     archiveSub: 'Registro institucional y directrices de divulgación de dictámenes y estudios de caso en subastas inmobiliarias.',
     ethicsTitle: 'Conformidad Ética y Protección de Datos',
@@ -1229,6 +1276,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Enviar Email Corporativo',
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
+      {
+        tag: 'Residencial • Centro/RJ',
+        title: 'Subasta Judicial de Apartamento en Av. Gomes Freire nº 740 — Apto 202',
+        desc: 'Apartamento residencial 202 de 31 metros cuadrados (31 m²) en la tradicional Avenida Gomes Freire nº 740, Centro de Río de Janeiro/RJ. Inscrito en el 2º RGI (matrícula 50294) e IPTU nº 0702801-2. Evaluación de R$ 258.606,00 con 2ª subasta iniciando al 60% (R$ 155.163,60).',
+        p1Label: '1ª Subasta (26/10/2026):',
+        p1Val: 'R$ 258.606,00',
+        p2Label: '2ª Subasta (10/11/2026):',
+        p2Val: 'R$ 155.163,60',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740-apto-202/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20202%20en%20Av.%20Gomes%20Freire%20740%20en%20el%20Centro.'
+      },
       {
         tag: 'Residencial • Icaraí / Niterói (RJ)',
         title: 'Subasta Judicial en Icaraí — Rua Domingues de Sá nº 206 — Bloque 02, Apto 1501 (105 m²)',
@@ -1550,12 +1608,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Santa Rosa / Niterói/RJ',
+        status: 'Arrematado',
         title: 'Subasta Judicial de Apartamento en Santa Rosa / Niterói — Rua Vereador Duque Estrada nº 169 — Bloque 3, Apto 402',
         desc: 'Amplio apartamento residencial de 138 m² privativos en 4ª planta (Apto 402 del Bloque 3) en Rua Vereador Duque Estrada nº 169, Santa Rosa, Niterói/RJ. Distribuido en living y comedor, 2 dormitorios, baño social, cocina con office, balcón, área de servicio, dormitorio y baño de servicio (dependencia completa), con derecho a 1 plaza de garaje. Condominio con 4 edificios, fachada de gresite, ascensor, portería 24h, cámaras CCTV, estacionamiento, jardines, 2 piscinas (adultos e infantil), barbacoa, salón de fiestas, sala de juegos y gimnasio. Tasación judicial de R$ 470.000,00 y 2ª Subasta al 50% por R$ 235.000,00 (~R$ 1.702,89/m²). 8º Registro Matrícula nº 15.819 e IPTU nº 824741.',
         p1Label: '1ª Subasta (22/09/2026):',
         p1Val: 'R$ 470.000,00',
         p2Label: '2ª Subasta (24/09/2026):',
         p2Val: 'R$ 235.000,00 (50% de la tasación)',
+        arrematacaoVal: 'R$ 337.000,00',
+        arrematacaoPraca: 'Segunda subasta',
+        arrematacaoPagamento: 'Al contado',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20402%20Bloque%203%20en%20Rua%20Vereador%20Duque%20Estrada%20169%20en%20Santa%20Rosa%20-%20Niter%C3%B3i.'
       },
@@ -1935,12 +1997,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Maracanã/RJ',
+        status: 'Arrematado',
         title: 'Subasta Judicial de Apartamento en Maracanã — Calle Dona Zulmira nº 19 — Apto 101 (66 m²)',
         desc: 'Apartamento residencial de frente con balcón, compuesto por habitación, salón, baño, cocina y dependencias. Edificio de 1984 con 2 ascensores, seguridad, 2 pisos de garaje, playground, salón de fiestas y barbacoa. Matrícula nº 41.819 (10º RGI) e IPTU nº 1.640.226-5.',
         p1Label: '1ª Subasta (02/09/2026):',
         p1Val: 'R$ 406.923,00',
         p2Label: '2ª Subasta (09/09/2026):',
         p2Val: 'R$ 203.461,50 (50% de evaluación)',
+        arrematacaoVal: 'R$ 203.461,50',
+        arrematacaoPraca: 'Segunda subasta',
+        arrematacaoPagamento: 'Al contado',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-dona-zulmira-19-apto-101/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Maracan%C3%A3.'
       },
@@ -1957,12 +2023,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Copacabana/RJ',
+        status: 'Arrematado',
         title: 'Subasta Judicial de Apartamento en Copacabana — Calle M. V. Castro, 32',
         desc: 'Unidad residencial situada en Copacabana, cerca de la playa y metro Cardeal Arcoverde. Análisis preventivo de edicto, subrogación de tributos y verificación de pasivos condominiales concluidos.',
         p1Label: '1ª Subasta (24/08/2026):',
         p1Val: 'R$ 480.000,00',
         p2Label: '2ª Subasta (03/09/2026):',
         p2Val: 'R$ 240.000,00',
+        arrematacaoVal: 'R$ 408.000,00',
+        arrematacaoPraca: 'Segunda subasta',
+        arrematacaoPagamento: 'Al contado',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20en%20Copacabana%20(Calle%20M.%20V.%20Castro%2032).'
       },
@@ -2133,12 +2203,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Copacabana/RJ',
+        status: 'Arrematado',
         title: 'Subasta Judicial de Apartamento en Av. Atlântica nº 3806 — Apto 312',
         desc: 'Apartamento 312 de 27 m², orientación interior (fundos). Edificio residencial de 1955 en la playa de Copacabana con acceso suplementario por Av. N. Sra. de Copacabana nº 1241. Matrícula nº 29.681 del 5º RGI/RJ.',
         p1Label: '1ª Subasta (02/09/2026):',
         p1Val: 'R$ 450.100,00',
         p2Label: '2ª Subasta (14/09/2026):',
         p2Val: 'R$ 225.100,00',
+        arrematacaoVal: 'R$ 450.100,00',
+        arrematacaoPraca: 'Segunda subasta',
+        arrematacaoPagamento: 'Al contado',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apto%20312%20en%20Av.%20Atl%C3%A2ntica%203806%20en%20Copacabana.'
       },
@@ -2188,12 +2262,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residencial • Tijuca/RJ',
+        status: 'Arrematado',
         title: 'Subasta Judicial de Apartamento en Tijuca en Calle Uruguai nº 94/104',
         desc: 'Apartamento de 40 m² con salón, 1 habitación, baño, dependencias completas, balcón y 1 plaza de garaje. Edificio de 1985 con consejería 24h y área de ocio junto al metro Uruguai. Matrícula nº 19.467 del 10º RGI/RJ e IPTU nº 1.723.354-5.',
         p1Label: '1ª Subasta (31/08/2026):',
         p1Val: 'R$ 250.000,00',
         p2Label: '2ª Subasta (02/09/2026):',
         p2Val: 'R$ 125.000,00',
+        arrematacaoVal: 'R$ 249.000,00',
+        arrematacaoPraca: 'Segunda subasta',
+        arrematacaoPagamento: 'Al contado',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20en%20Calle%20Uruguai%2094%20Apto%20104.'
       }
@@ -2243,6 +2321,12 @@ const pageTranslations: Record<string, any> = {
     filterAll: 'All',
     filterRes: 'Residential',
     filterCom: 'Commercial',
+    filterArrematados: 'Auctioned',
+    statusArrematado: 'Auctioned',
+    arrematacaoTitle: 'Auction Sale Result',
+    arrematacaoValLabel: 'Hammer Price:',
+    arrematacaoPracaLabel: 'Auction Round:',
+    arrematacaoPagamentoLabel: 'Payment Method:',
     auditedTag: 'Audited Opportunity',
     lawsuitTag: 'TJRJ Lawsuit',
     legalAuditLabel: 'Legal Audit:',
@@ -2253,6 +2337,8 @@ const pageTranslations: Record<string, any> = {
     expandAuctions: 'View More Opportunities Under Analysis (+6 properties)',
     noCommercialTitle: 'No open commercial lots at the moment',
     noCommercialDesc: 'Our team performs on-demand analysis for commercial and corporate properties in Rio de Janeiro.',
+    noAuctionedTitle: 'No auctioned properties registered at the moment',
+    noAuctionedDesc: 'The record of auctioned properties and success cases is updated periodically following judicial approval.',
     archiveTitle: 'Repository and History of Technical Analyses',
     archiveSub: 'Institutional record and guidelines for disclosure of opinions and case studies in real estate auctions.',
     ethicsTitle: 'Ethical Compliance and Data Protection',
@@ -2276,12 +2362,23 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
       {
+        tag: 'Residential • Downtown (Centro)/RJ',
+        title: 'Judicial Auction of Apartment on Av. Gomes Freire #740 — Apt 202',
+        desc: 'Residential apartment 202 featuring 31 square meters (31 sqm) on Avenida Gomes Freire #740, Downtown Rio de Janeiro/RJ. Recorded at the 2nd Land Registry under Title #50294 and IPTU tax ID #0702801-2. Court appraisal of R$ 258,606.00 with 2nd auction reserve at 60% (R$ 155,163.60).',
+        p1Label: '1st Auction (10/26/2026):',
+        p1Val: 'R$ 258,606.00',
+        p2Label: '2nd Auction (11/10/2026):',
+        p2Val: 'R$ 155,163.60',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740-apto-202/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20202%20on%20Avenida%20Gomes%20Freire%20740%20in%20Downtown%20Rio.'
+      },
+      {
         tag: 'Residential • Icaraí / Niterói (RJ)',
         title: 'Judicial Auction in Icaraí — Domingues de Sá Street #206 — Block 02, Apt 1501 (105 sqm)',
         desc: 'Residential apartment with 105 sqm (1,130 sq ft) of private built area (unit 1501 on the 15th floor of Block 02) comprising 2 bedrooms (1 en-suite), large living room, kitchen, laundry area, social bathroom, full maid quarters (bedroom and bathroom), and deeded right to 1 vehicle parking space on prime Rua Domingues de Sá #206 in Icaraí, Niterói - RJ. Strictly residential building with 24/7 security concierge, 2 residential blocks (Block 1 with 2 elevators and 2 units/floor; Block 2 with 3 elevators and 4 units/floor), decorated lobby, playground, and party ballroom with kitchen and 2 bathrooms. Registered at the 9th Land Registry under Title Deed #10494 and Municipal Tax IPTU #147.251-3. Official court valuation: R$ 750,000.00. 1st Auction on Nov 23, 2026 at 11:00 AM at R$ 750,000.00 and 2nd Auction on Nov 25, 2026 at 11:00 AM starting at 50% reserve for R$ 375,000.00 (~R$ 3,571.43/sqm in Icaraí).',
         p1Label: '1st Auction (Nov 23, 2026):',
         p1Val: 'R$ 750,000.00',
-        p2Label: '2nd Auction (Nov 25, 2026):',
+        p2Label: '2ª Praça (25/11/2026):',
         p2Val: 'R$ 375,000.00 (50% reserve)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/icarai/apartamento/rua-domingues-de-sa-206-bloco-02-apto-1501/',
         waText: 'Hello,%20I%20would%20like%20information%20regarding%20the%20judicial%20auction%20for%20Apt%201501%20Block%2002%20at%20Rua%20Domingues%20de%20S%C3%A1%20206%20in%20Icara%C3%AD%20-%20Niter%C3%B3i.'
@@ -2596,12 +2693,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residential • Santa Rosa / Niterói/RJ',
+        status: 'Arrematado',
         title: 'Judicial Auction of Apartment in Santa Rosa / Niterói — Rua Vereador Duque Estrada #169 — Block 3, Apt 402',
         desc: 'Spacious residential 138 sqm apartment on the 4th floor (Unit 402 of Block 3) at Rua Vereador Duque Estrada #169, in prime Santa Rosa, Niterói/RJ. Featuring living and dining room, 2 bedrooms, bathroom, breakfast kitchen, balcony, laundry area, maid suite (bedroom & bath), and 1 parking space. Club condominium with 4 buildings; Block 3 has 5 floors, tile facade and 1 elevator. Resort-style amenities: 2 swimming pools, gym, party hall with BBQ grill, games room, gardens, 24h security, and CCTV. Court appraisal of R$ 470,000.00 with 2nd Auction at 50% for R$ 235,000.00 (~R$ 1,702.89/sqm). 8th Land Registry Title #15.819 & IPTU #824741.',
         p1Label: '1st Auction (09/22/2026):',
         p1Val: 'R$ 470,000.00',
         p2Label: '2nd Auction (09/24/2026):',
         p2Val: 'R$ 235,000.00 (50% starting bid)',
+        arrematacaoVal: 'R$ 337,000.00',
+        arrematacaoPraca: '2nd round',
+        arrematacaoPagamento: 'In cash (lump sum)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/niteroi/apartamento/rua-vereador-duque-estrada-169-bloco-3-apto-402/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Vereador%20Duque%20Estrada%20169%20Block%203%20Apt%20402%20in%20Santa%20Rosa%20-%20Niter%C3%B3i.'
       },
@@ -2981,12 +3082,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residential • Maracanã/RJ',
+        status: 'Arrematado',
         title: 'Judicial Auction of Apartment in Maracanã — Dona Zulmira Street #19 — Apt 101 (66 sqm)',
         desc: 'Front-facing residential apartment with balcony, bedroom, living room, bathroom, kitchen, and maid quarters. 1984 building with 2 elevators, security cameras, 2 garage levels, playground, party room, and BBQ. Title #41.819 (10th Registry) & IPTU #1.640.226-5.',
         p1Label: '1st Auction (09/02/2026):',
         p1Val: 'R$ 406,923.00',
         p2Label: '2nd Auction (09/09/2026):',
         p2Val: 'R$ 203,461.50 (50% starting bid)',
+        arrematacaoVal: 'R$ 203,461.50',
+        arrematacaoPraca: '2nd round',
+        arrematacaoPagamento: 'In cash (lump sum)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/maracana/apartamento/rua-dona-zulmira-19-apto-101/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20in%20Maracan%C3%A3.'
       },
@@ -3003,12 +3108,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residential • Copacabana/RJ',
+        status: 'Arrematado',
         title: 'Judicial Auction of Apartment in Copacabana — M. V. Castro St, 32',
         desc: 'Residential unit located in Copacabana, near the beach and Cardeal Arcoverde subway. Prior notice analysis, tax subrogation, and condo fee liability check completed.',
         p1Label: '1st Auction (08/24/2026):',
         p1Val: 'R$ 480,000.00',
         p2Label: '2nd Auction (09/03/2026):',
         p2Val: 'R$ 240,000.00',
+        arrematacaoVal: 'R$ 408,000.00',
+        arrematacaoPraca: '2nd round',
+        arrematacaoPagamento: 'In cash (lump sum)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-ministro-viveiros-de-castro-32/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20auction%20in%20Copacabana.'
       },
@@ -3179,12 +3288,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residential • Copacabana/RJ',
+        status: 'Arrematado',
         title: 'Judicial Auction of Apartment on Av. Atlântica #3806 — Apt 312',
         desc: 'Apartment 312 featuring 27 m², rear-facing view. 1955 residential building on Copacabana oceanfront with extra entrance at Av. N. Sra. de Copacabana #1241. Title #29,681 (5th RGI/RJ).',
         p1Label: '1st Auction (09/02/2026):',
         p1Val: 'R$ 450,100.00',
         p2Label: '2nd Auction (09/14/2026):',
         p2Val: 'R$ 225,100.00',
+        arrematacaoVal: 'R$ 450,100.00',
+        arrematacaoPraca: '2nd round',
+        arrematacaoPagamento: 'In cash (lump sum)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20apt%20312%20on%20Avenida%20Atlantica%203806%20in%20Copacabana.'
       },
@@ -3234,12 +3347,16 @@ const pageTranslations: Record<string, any> = {
       },
       {
         tag: 'Residential • Tijuca/RJ',
+        status: 'Arrematado',
         title: 'Judicial Auction of Apartment in Tijuca at Rua Uruguai #94/104',
         desc: '40 m² apartment featuring living room, 1 bedroom, bathroom, maid\'s quarters, balcony, and 1 parking space. 1985 building with 24h concierge, elevators, and playground steps from Uruguai Subway Station. Title #19,467 (10th Land Registry) and IPTU #1.723.354-5.',
         p1Label: '1st Auction (08/31/2026):',
         p1Val: 'R$ 250,000.00',
         p2Label: '2nd Auction (09/02/2026):',
         p2Val: 'R$ 125,000.00',
+        arrematacaoVal: 'R$ 249,000.00',
+        arrematacaoPraca: '2nd round',
+        arrematacaoPagamento: 'In cash (lump sum)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/tijuca/apartamento/rua-uruguai-94-apto-104/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Uruguai%2094%20Apt%20104.'
       }
@@ -3406,7 +3523,30 @@ const ServiceDetail: React.FC = () => {
 
   const checklistItems = tPage.checklist;
 
-  const visibleAuctionItems = showAllAuctions ? tPage.auctionItems : tPage.auctionItems.slice(0, 3);
+  const isAuctionedItem = (item: any) => item.status === 'Arrematado';
+  const isCommercialItem = (item: any) => {
+    const tag = (item.tag || '').toLowerCase();
+    return tag.includes('comercial') || tag.includes('comerciales') || tag.includes('commercial') || tag.includes('sala') || tag.includes('loja');
+  };
+
+  const filteredAuctionItems = (tPage.auctionItems || []).filter((item: any) => {
+    if (filterCategory === 'arrematados') {
+      return isAuctionedItem(item);
+    }
+    // Filtros 'todos', 'residencial' e 'comercial' exibem exclusivamente oportunidades ativas
+    if (isAuctionedItem(item)) {
+      return false;
+    }
+    if (filterCategory === 'comercial') {
+      return isCommercialItem(item);
+    }
+    if (filterCategory === 'residencial') {
+      return !isCommercialItem(item);
+    }
+    return true;
+  });
+
+  const visibleAuctionItems = showAllAuctions ? filteredAuctionItems : filteredAuctionItems.slice(0, 3);
 
   return (
     <div className="min-h-screen bg-midnight text-white relative overflow-hidden">
@@ -3782,117 +3922,172 @@ const ServiceDetail: React.FC = () => {
                   </div>
                   <div className="flex gap-2 self-start sm:self-auto flex-wrap">
                     <button 
-                      onClick={() => setFilterCategory('todos')}
+                      onClick={() => { setFilterCategory('todos'); setShowAllAuctions(false); }}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'todos' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
                     >
                       {tPage.filterAll}
                     </button>
                     <button 
-                      onClick={() => setFilterCategory('residencial')}
+                      onClick={() => { setFilterCategory('residencial'); setShowAllAuctions(false); }}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'residencial' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
                     >
                       {tPage.filterRes}
                     </button>
                     <button 
-                      onClick={() => setFilterCategory('comercial')}
+                      onClick={() => { setFilterCategory('comercial'); setShowAllAuctions(false); }}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'comercial' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
                     >
                       {tPage.filterCom}
                     </button>
+                    <button 
+                      onClick={() => { setFilterCategory('arrematados'); setShowAllAuctions(false); }}
+                      className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'arrematados' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
+                    >
+                      {tPage.filterArrematados}
+                    </button>
                   </div>
                 </div>
 
-                {/* Cards Grid */}
-                {(filterCategory === 'todos' || filterCategory === 'residencial') ? (
+                {/* Cards Grid or Empty State */}
+                {filteredAuctionItems.length > 0 ? (
                   <div className="grid grid-cols-1 gap-6">
-                    {visibleAuctionItems.map((item: any, idx: number) => (
-                      <div key={idx} className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
-                        <div className="flex flex-wrap items-center justify-between gap-3">
-                          <div className="flex items-center gap-2">
-                            <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
-                              {item.tag}
-                            </span>
-                            <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                              {tPage.auditedTag}
-                            </span>
+                    {visibleAuctionItems.map((item: any, idx: number) => {
+                      const isItemArrematado = item.status === 'Arrematado';
+                      return (
+                        <div key={idx} className="bg-midnight/80 rounded-2xl border border-bronze/30 p-6 sm:p-8 space-y-6 shadow-xl hover:border-bronze/60 transition-all text-left">
+                          <div className="flex flex-wrap items-center justify-between gap-3">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-bronze/20 text-bronze border border-bronze/30">
+                                {item.tag}
+                              </span>
+                              {isItemArrematado ? (
+                                <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/40">
+                                  {tPage.statusArrematado || 'Arrematado'}
+                                </span>
+                              ) : (
+                                <span className="px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                                  {tPage.auditedTag}
+                                </span>
+                              )}
+                            </div>
+                            <span className="text-xs text-text-muted font-mono">{tPage.lawsuitTag}</span>
                           </div>
-                          <span className="text-xs text-text-muted font-mono">{tPage.lawsuitTag}</span>
-                        </div>
 
-                        <div className="space-y-2">
-                          <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
-                            {item.title}
-                          </h3>
-                          <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
-                            {item.desc}
-                          </p>
-                        </div>
-
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
-                          <div>
-                            <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{item.p1Label}</span>
-                            <span className="text-base sm:text-lg font-serif font-bold text-white">{item.p1Val}</span>
+                          <div className="space-y-2">
+                            <h3 className="text-xl sm:text-2xl font-serif text-white font-bold">
+                              {item.title}
+                            </h3>
+                            <p className="text-xs sm:text-sm text-text-muted leading-relaxed">
+                              {item.desc}
+                            </p>
                           </div>
-                          <div>
-                            <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{item.p2Label}</span>
-                            <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">{item.p2Val}</span>
+
+                          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 border-t border-white/10">
+                            <div>
+                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{item.p1Label}</span>
+                              <span className="text-base sm:text-lg font-serif font-bold text-white">{item.p1Val}</span>
+                            </div>
+                            <div>
+                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{item.p2Label}</span>
+                              <span className="text-base sm:text-lg font-serif font-bold text-emerald-400">{item.p2Val}</span>
+                            </div>
+                            <div>
+                              <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{tPage.legalAuditLabel}</span>
+                              <span className="text-xs font-semibold text-bronze block mt-1">{tPage.auditStatusDone}</span>
+                            </div>
                           </div>
-                          <div>
-                            <span className="text-[11px] text-text-muted uppercase tracking-wider block font-medium">{tPage.legalAuditLabel}</span>
-                            <span className="text-xs font-semibold text-bronze block mt-1">{tPage.auditStatusDone}</span>
+
+                          {/* Resultado Efetivo da Arrematação (Exibido para imóveis arrematados) */}
+                          {isItemArrematado && item.arrematacaoVal && (
+                            <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4 sm:p-5 space-y-2 text-left">
+                              <div className="flex items-center gap-2 text-amber-300 font-semibold text-xs uppercase tracking-wider">
+                                <CheckCircle2 size={15} className="text-amber-400 shrink-0" />
+                                <span>{tPage.arrematacaoTitle || 'Resultado da Arrematação'}</span>
+                              </div>
+                              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+                                <div>
+                                  <span className="text-[11px] text-amber-200/70 uppercase tracking-wider block font-medium">
+                                    {tPage.arrematacaoValLabel || 'Valor da Arrematação:'}
+                                  </span>
+                                  <span className="text-base sm:text-lg font-serif font-bold text-amber-300">
+                                    {item.arrematacaoVal}
+                                  </span>
+                                </div>
+                                <div>
+                                  <span className="text-[11px] text-amber-200/70 uppercase tracking-wider block font-medium">
+                                    {tPage.arrematacaoPracaLabel || 'Praça:'}
+                                  </span>
+                                  <span className="text-xs sm:text-sm font-semibold text-white mt-0.5 block">
+                                    {item.arrematacaoPraca}
+                                  </span>
+                                </div>
+                                <div>
+                                  <span className="text-[11px] text-amber-200/70 uppercase tracking-wider block font-medium">
+                                    {tPage.arrematacaoPagamentoLabel || 'Forma de Pagamento:'}
+                                  </span>
+                                  <span className="text-xs sm:text-sm font-semibold text-white mt-0.5 block">
+                                    {item.arrematacaoPagamento}
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          )}
+
+                          <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <Link 
+                              to={item.link}
+                              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
+                            >
+                              <FileText size={15} />
+                              {tPage.viewAnalysisReport}
+                              <ChevronRight size={14} />
+                            </Link>
+
+                            <a 
+                              href={`https://wa.me/5521979549241?text=${item.waText}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
+                            >
+                              <PhoneCall size={14} /> {tPage.requestOpinionWA}
+                            </a>
                           </div>
                         </div>
-
-                        <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
-                          <Link 
-                            to={item.link}
-                            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-bronze text-midnight hover:bg-white transition-all font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-xl shadow-lg"
-                          >
-                            <FileText size={15} />
-                            {tPage.viewAnalysisReport}
-                            <ChevronRight size={14} />
-                          </Link>
-
-                          <a 
-                            href={`https://wa.me/5521979549241?text=${item.waText}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs text-text-muted hover:text-bronze font-medium flex items-center gap-1.5 transition-colors"
-                          >
-                            <PhoneCall size={14} /> {tPage.requestOpinionWA}
-                          </a>
-                        </div>
-                      </div>
-                    ))}
+                      );
+                    })}
 
                     {/* Botão Veja Mais / Veja Menos */}
-                    <div className="pt-4 flex justify-center">
-                      <button
-                        onClick={() => setShowAllAuctions(!showAllAuctions)}
-                        className="inline-flex items-center gap-2.5 bg-midnight/90 text-bronze hover:bg-bronze hover:text-midnight border border-bronze/40 px-8 py-4 rounded-xl font-bold text-xs uppercase tracking-widest transition-all shadow-xl"
-                      >
-                        {showAllAuctions ? (
-                          <>
-                            <span>{tPage.collapseAuctions}</span>
-                            <ChevronUp size={16} />
-                          </>
-                        ) : (
-                          <>
-                            <span>{tPage.expandAuctions}</span>
-                            <ChevronDown size={16} />
-                          </>
-                        )}
-                      </button>
-                    </div>
+                    {filteredAuctionItems.length > 3 && (
+                      <div className="pt-4 flex justify-center">
+                        <button
+                          onClick={() => setShowAllAuctions(!showAllAuctions)}
+                          className="inline-flex items-center gap-2.5 bg-midnight/90 text-bronze hover:bg-bronze hover:text-midnight border border-bronze/40 px-8 py-4 rounded-xl font-bold text-xs uppercase tracking-widest transition-all shadow-xl"
+                        >
+                          {showAllAuctions ? (
+                            <>
+                              <span>{tPage.collapseAuctions}</span>
+                              <ChevronUp size={16} />
+                            </>
+                          ) : (
+                            <>
+                              <span>{tPage.expandAuctions}</span>
+                              <ChevronDown size={16} />
+                            </>
+                          )}
+                        </button>
+                      </div>
+                    )}
                   </div>
                 ) : (
                   <div className="bg-midnight/60 rounded-2xl border border-dashed border-white/15 p-7 sm:p-10 text-left space-y-5">
                     <div className="w-12 h-12 rounded-full bg-bronze/10 text-bronze flex items-center justify-center border border-bronze/20">
                       <Search size={22} />
                     </div>
-                    <h3 className="text-lg sm:text-xl font-serif text-white text-left">{tPage.noCommercialTitle}</h3>
+                    <h3 className="text-lg sm:text-xl font-serif text-white text-left">
+                      {filterCategory === 'arrematados' ? tPage.noAuctionedTitle : tPage.noCommercialTitle}
+                    </h3>
                     <p className="text-sm text-text-muted max-w-2xl leading-relaxed text-left">
-                      {tPage.noCommercialDesc}
+                      {filterCategory === 'arrematados' ? tPage.noAuctionedDesc : tPage.noCommercialDesc}
                     </p>
                   </div>
                 )}

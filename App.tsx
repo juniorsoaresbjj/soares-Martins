@@ -35,6 +35,7 @@ import GaveaAuctionPage from './components/GaveaAuctionPage';
 import PraiaBotafogo356AuctionPage from './components/PraiaBotafogo356AuctionPage';
 import SantaTeresaCostaBastos8AuctionPage from './components/SantaTeresaCostaBastos8AuctionPage';
 import CentroRiachuelo220AuctionPage from './components/CentroRiachuelo220AuctionPage';
+import CentroGomesFreire740AuctionPage from './components/CentroGomesFreire740AuctionPage';
 import CopacabanaAtlantica3806AuctionPage from './components/CopacabanaAtlantica3806AuctionPage';
 import CopacabanaHilarioDeGouveia132AuctionPage from './components/CopacabanaHilarioDeGouveia132AuctionPage';
 import CopacabanaNossaSenhora903AuctionPage from './components/CopacabanaNossaSenhora903AuctionPage';
@@ -445,6 +446,15 @@ const AppContent: React.FC = () => {
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220/" element={<CentroRiachuelo220AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220" element={<CentroRiachuelo220AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740-apto-202/" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740-apto-202" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740/" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-gomes-freire-740" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/av-gomes-freire-740-apto-202/" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/av-gomes-freire-740-apto-202" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/gomes-freire-740-apto-202/" element={<CentroGomesFreire740AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/gomes-freire-740-apto-202" element={<CentroGomesFreire740AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/" element={<CopacabanaAtlantica3806AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312" element={<CopacabanaAtlantica3806AuctionPage />} />

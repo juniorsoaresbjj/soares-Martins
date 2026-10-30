@@ -60,6 +60,12 @@ export interface EditalCommonTranslations {
   ctaEmail: string;
   ctaFooterNote: string;
   relatedTitle: string;
+  arrematadoBadge?: string;
+  statusArrematado?: string;
+  arrematacaoTitle?: string;
+  arrematacaoValLabel?: string;
+  arrematacaoPracaLabel?: string;
+  arrematacaoPagamentoLabel?: string;
 }
 
 export const editalCommon: Record<Language, EditalCommonTranslations> = {
@@ -101,7 +107,13 @@ export const editalCommon: Record<Language, EditalCommonTranslations> = {
     ctaWA: 'Atendimento via WhatsApp',
     ctaEmail: 'Enviar E-mail Corporativo',
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
-    relatedTitle: 'Conteúdos e Serviços Relacionados'
+    relatedTitle: 'Conteúdos e Serviços Relacionados',
+    arrematadoBadge: 'Imóvel Arrematado',
+    statusArrematado: 'Arrematado',
+    arrematacaoTitle: 'Resultado da Arrematação',
+    arrematacaoValLabel: 'Valor da Arrematação:',
+    arrematacaoPracaLabel: 'Praça:',
+    arrematacaoPagamentoLabel: 'Forma de Pagamento:'
   },
   es: {
     home: 'Inicio',
@@ -141,7 +153,13 @@ export const editalCommon: Record<Language, EditalCommonTranslations> = {
     ctaWA: 'Atención por WhatsApp',
     ctaEmail: 'Enviar Email Corporativo',
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
-    relatedTitle: 'Contenidos y Servicios Relacionados'
+    relatedTitle: 'Contenidos y Servicios Relacionados',
+    arrematadoBadge: 'Inmueble Subastado',
+    statusArrematado: 'Subastado',
+    arrematacaoTitle: 'Resultado de la Subasta',
+    arrematacaoValLabel: 'Valor de la Adjudicación:',
+    arrematacaoPracaLabel: 'Subasta:',
+    arrematacaoPagamentoLabel: 'Forma de Pago:'
   },
   en: {
     home: 'Home',
@@ -181,7 +199,13 @@ export const editalCommon: Record<Language, EditalCommonTranslations> = {
     ctaWA: 'Support via WhatsApp',
     ctaEmail: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
-    relatedTitle: 'Related Content and Services'
+    relatedTitle: 'Related Content and Services',
+    arrematadoBadge: 'Property Auctioned',
+    statusArrematado: 'Auctioned',
+    arrematacaoTitle: 'Auction Sale Result',
+    arrematacaoValLabel: 'Hammer Price (Winning Bid):',
+    arrematacaoPracaLabel: 'Auction Round:',
+    arrematacaoPagamentoLabel: 'Payment Method:'
   }
 };
 
@@ -7748,6 +7772,105 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: 'What are the property layout and condominium specifications?', a: 'Unit 1501 offers 105 sqm on the 15th floor of Block 2, with 2 bedrooms (1 suite), living room, kitchen, social bathroom, full maid quarters, and 1 garage space. The building provides 24/7 concierge security, 3 elevators in Block 2, playground, and party room.' },
           { q: 'Does the buyer assume past municipal taxes?', a: 'No. Under Article 130 of the Brazilian National Tax Code (CTN), prior property taxes subrogate into the auction proceeds.' },
           { q: 'Why hire Soares Martins Advogados for this Niterói auction?', a: 'We perform title due diligence on Deed #10494, monitor the court execution in Niterói / TJRJ, guide auction bidding, and secure judicial property possession.' }
+        ]
+      }
+    },
+
+    // Centro - Avenida Gomes Freire nº 740, Apto 202 (31 m²)
+    'centro-gomes-freire-740': {
+      pt: {
+        title: 'Leilão Judicial no Centro do Rio — Av. Gomes Freire nº 740 — Apto 202',
+        subtitle: 'Avenida Gomes Freire, nº 740, Apartamento 202 — Centro, Rio de Janeiro/RJ | 31 m² • 2º Ofício de RGI (Matrícula nº 50294) • IPTU: 0702801-2 • Avaliação Oficial: R$ 258.606,00 • 1º Leilão: 26/10/2026 às 12:40h por R$ 258.606,00 • 2º Leilão: 10/11/2026 às 12:40h a partir de R$ 155.163,60 (60% da Avaliação)',
+        address: 'Avenida Gomes Freire, nº 740, Apto 202 — Centro, Rio de Janeiro - RJ',
+        p1Date: '26/10/2026 às 12:40h',
+        p2Date: '10/11/2026 às 12:40h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0702801-2',
+        rgi: '50294 (2º Ofício do RGI/RJ)',
+        val: 'R$ 258.606,00',
+        p2Val: 'R$ 155.163,60 (60% da avaliação)',
+        description: 'Apartamento residencial nº 202 com 31 metros quadrados (31 m²) de área edificada privativa, situado na tradicional Avenida Gomes Freire, nº 740, no Centro da cidade do Rio de Janeiro/RJ. O imóvel está devidamente registrado, dimensionado e caracterizado perante o Cartório do 2º Ofício do Registro de Imóveis da Capital sob a Matrícula nº 50294 e cadastrado na Secretaria Municipal de Fazenda sob a Inscrição Municipal IPTU nº 0702801-2. Foi atribuído ao bem o valor de avaliação oficial de R$ 258.606,00 (duzentos e cinquenta e oito mil, seiscentos e seis reais). O 1º Leilão ocorrerá no dia 26/10/2026 às 12:40h pelo valor integral da avaliação. Caso não haja licitante, o 2º Leilão será realizado no dia 10/11/2026 às 12:40h com lance mínimo inicial de 60% da avaliação, no importe de R$ 155.163,60 (cento e cinquenta e cinco mil, cento e sessenta e três reais e sessenta centavos), viabilizando excelente oportunidade de investimento ou moradia na região central da Capital.',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Didático do Edital — Av. Gomes Freire nº 740 / Apto 202',
+          sections: [
+            { title: '1. Identificação Registral e Cadastral', text: 'Apartamento 202 com 31 m² situado na Avenida Gomes Freire nº 740, Centro, Rio de Janeiro/RJ. Registrado no 2º Ofício de Registro de Imóveis (RGI/RJ) sob a Matrícula nº 50294 e Inscrição Municipal IPTU nº 0702801-2.' },
+            { title: '2. Cronograma de Praças e Valores Mínimos', text: '1º Leilão em 26/10/2026 às 12:40h com lance mínimo de R$ 258.606,00 (100% da avaliação). 2º Leilão em 10/11/2026 às 12:40h com lance mínimo fixado em 60% da avaliação, ou seja, R$ 155.163,60.' },
+            { title: '3. Sub-rogação Legal de Tributos (Art. 130 CTN)', text: 'Conforme preceitua o parágrafo único do art. 130 do CTN, os débitos tributários de IPTU e taxas municipais pretéritos sub-rogam-se sobre o valor alcançado na arrematação, recebendo o arrematante o bem livre de ônus fiscais.' },
+            { title: '4. Possibilidade de Parcelamento (Art. 895 CPC)', text: 'Admite-se proposta para arrematação em prestações mensais, condicionada à oferta de no mínimo 25% de sinal à vista e saldo dividido em até 30 parcelas mensais corrigidas, mediante protocolo prévio antes da abertura do leilão.' },
+            { title: '5. Auditoria de Regularidade e Desocupação', text: 'Nossa assessoria jurídica executa a due diligence completa dos autos judiciais perante o TJRJ, certidões cíveis e fiscais, além de promover as medidas judiciais de imissão célere na posse do imóvel.' }
+          ]
+        },
+        faqs: [
+          { q: 'Qual é o valor oficial de avaliação e o lance inicial na 2ª Praça?', a: 'O imóvel foi avaliado judicialmente em R$ 258.606,00. No 1º Leilão (26/10/2026 às 12:40h), o lance mínimo corresponde a 100% da avaliação (R$ 258.606,00). No 2º Leilão (10/11/2026 às 12:40h), o lance inicial é aberto a 60% da avaliação, fixado em R$ 155.163,60.' },
+          { q: 'Quais são as características cadastrais e registrais do imóvel?', a: 'Trata-se do Apartamento 202 com 31 m² de área privativa construída, localizado na Avenida Gomes Freire, nº 740, Centro, Rio de Janeiro/RJ. É devidamente registrado no Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 50294 e cadastrado no IPTU sob o nº 0702801-2.' },
+          { q: 'O arrematante responde por débitos anteriores de IPTU?', a: 'Não. Pelo artigo 130, parágrafo único, do Código Tributário Nacional (CTN), os créditos fiscais sub-rogam-se sobre o respectivo preço da arrematação, garantindo que o adquirente não arque com dívidas fiscais anteriores geradas pelo antigo proprietário.' },
+          { q: 'Como funciona o parcelamento judicial previsto no Art. 895 do CPC?', a: 'O interessado pode formular proposta escrita no processo antes da realização da praça, com entrada de pelo menos 25% à vista e o saldo restante em até 30 parcelas mensais corrigidas por índice oficial, assegurado por hipoteca judicial averbada na matrícula.' },
+          { q: 'Qual o potencial de mercado e rentabilidade de um imóvel de 31 m² na Gomes Freire?', a: 'Avenida Gomes Freire situa-se estrategicamente no Centro e próxima à Lapa, região com forte demanda residencial, universitária e de profissionais do polo corporativo. Unidades compactas de 31 m² contam com excelente taxa de ocupação para locação tradicional ou por temporada (Airbnb).' },
+          { q: 'O que está incluído na assessoria jurídica do escritório Soares Martins Advogados?', a: 'Realizamos auditoria prévia completa (due diligence de certidões, matrícula 50294 e processo judicial), habilitação perante o leiloeiro oficial, estratégia de lance, assinatura do auto de arrematação, guia judicial, expedição e registro da Carta de Arrematação e pedido de imissão judicial na posse.' },
+          { q: 'Como é feita a imissão na posse caso o imóvel esteja ocupado?', a: 'Após o registro da Carta de Arrematação no 2º RGI, o escritório requer ao próprio juízo condutor da execução a expedição imediata do mandado de imissão na posse, cumprido por Oficial de Justiça com força policial se necessário.' },
+          { q: 'Como dar início à assessoria jurídica para este leilão?', a: 'Basta entrar em contato com nossa equipe especializada através do WhatsApp (+55 21 97954-9241) ou formulário institucional do site para agendar uma consulta preliminar e envio do parecer de viabilidade.' }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial en el Centro de Río — Av. Gomes Freire nº 740 — Apto 202',
+        subtitle: 'Avenida Gomes Freire, nº 740, Apartamento 202 — Centro, Río de Janeiro/RJ | 31 m² • 2º Registro de Inmuebles (Matrícula nº 50294) • IPTU: 0702801-2 • Evaluación Oficial: R$ 258.606,00 • 1ª Subasta: 26/10/2026 a las 12:40h por R$ 258.606,00 • 2ª Subasta: 10/11/2026 a las 12:40h a partir de R$ 155.163,60 (60% de la Evaluación)',
+        address: 'Avenida Gomes Freire, nº 740, Apto 202 — Centro, Río de Janeiro - RJ',
+        p1Date: '26/10/2026 a las 12:40h',
+        p2Date: '10/11/2026 a las 12:40h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia de Río de Janeiro / Comarca de la Capital',
+        iptu: '0702801-2',
+        rgi: '50294 (2º RGI/RJ)',
+        val: 'R$ 258.606,00',
+        p2Val: 'R$ 155.163,60 (60% de la evaluación)',
+        description: 'Apartamento residencial nº 202 con 31 metros cuadrados (31 m²) de superficie privada construida, situado en la tradicional Avenida Gomes Freire nº 740, Centro de Río de Janeiro/RJ. El inmueble está inscrito en el 2º Registro de la Propiedad Inmueble (2º RGI/RJ) bajo la Matrícula nº 50294 y catastrado en el IPTU bajo el nº 0702801-2. Tasación oficial de R$ 258.606,00. La 1ª Subasta se celebrará el 26/10/2026 a las 12:40h por el 100% de la tasación. La 2ª Subasta tendrá lugar el 10/11/2026 a las 12:40h con puja mínima del 60% (R$ 155.163,60).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Didáctico del Edicto — Av. Gomes Freire nº 740 / Apto 202',
+          sections: [
+            { title: '1. Identificación Registral y Catastral', text: 'Apartamento 202 con 31 m² en Avenida Gomes Freire nº 740, Centro, Río de Janeiro/RJ. Matrícula 50294 del 2º RGI e IPTU 0702801-2.' },
+            { title: '2. Fechas y Valores de Puja', text: '1ª Subasta el 26/10/2026 a las 12:40h por R$ 258.606,00 (100%). 2ª Subasta el 10/11/2026 a las 12:40h iniciando al 60% por R$ 155.163,60.' },
+            { title: '3. Subrogación de Impuestos (Art. 130 CTN)', text: 'Las deudas tributarias anteriores se subrogan sobre el precio de la subasta según el art. 130 del CTN.' },
+            { title: '4. Pago a Plazos (Art. 895 CPC)', text: 'Se admite propuesta con 25% de entrada al contado y hasta 30 cuotas mensuales garantizadas con hipoteca judicial.' }
+          ]
+        },
+        faqs: [
+          { q: '¿Cuál es la tasación oficial y valor de salida en 2ª Subasta?', a: 'La tasación judicial oficial es de R$ 258.606,00. En 1ª Subasta (26/10/2026 a las 12:40h) abre por R$ 258.606,00. En 2ª Subasta (10/11/2026 a las 12:40h) abre con el 60% de la evaluación por R$ 155.163,60.' },
+          { q: '¿Cuáles son los datos registrales del inmueble?', a: 'Apartamento 202 con 31 m² en Avenida Gomes Freire nº 740, Centro, Río de Janeiro. Inscrito en el 2º RGI bajo Matrícula nº 50294 e IPTU nº 0702801-2.' },
+          { q: '¿Qué ocurre con las deudas tributarias previas?', a: 'Por disposición del art. 130 del Código Tributario Nacional (CTN), los tributos inmobiliarios anteriores se subrogan en el precio de la subasta.' },
+          { q: '¿Por qué contratar a Soares Martins Advogados?', a: 'Ofrecemos auditoría jurídica integral (due diligence), asesoría durante la puja, registro de la carta de adjudicación y trámite de la posesión efectiva del inmueble.' }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction in Downtown Rio — Gomes Freire Ave #740 — Apt 202',
+        subtitle: 'Avenida Gomes Freire, #740, Apartment 202 — Downtown, Rio de Janeiro/RJ | 31 sqm (333 sq ft) • 2nd Land Registry Title #50294 • Municipal Tax IPTU: 0702801-2 • Official Appraisal: R$ 258,606.00 • 1st Auction: 10/26/2026 at 12:40 PM at R$ 258,606.00 • 2nd Auction: 11/10/2026 at 12:40 PM starting at R$ 155,163.60 (60% Reserve)',
+        address: 'Avenida Gomes Freire, #740, Apt 202 — Downtown, Rio de Janeiro - RJ',
+        p1Date: '10/26/2026 at 12:40 PM',
+        p2Date: '11/10/2026 at 12:40 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0702801-2',
+        rgi: 'Title #50294 (2nd Land Registry Office)',
+        val: 'R$ 258,606.00',
+        p2Val: 'R$ 155,163.60 (60% reserve)',
+        description: 'Residential apartment 202 featuring 31 square meters (31 sqm / 333 sq ft) of private built area, situated on Avenida Gomes Freire #740, Downtown Rio de Janeiro/RJ. Duly registered and characterized before the 2nd Real Estate Registry Office under Title #50294 and recorded with municipal tax authority IPTU #0702801-2. Official court valuation assigned at R$ 258,606.00. 1st Auction on Oct 26, 2026 at 12:40 PM for 100% of valuation. 2nd Auction on Nov 10, 2026 at 12:40 PM starting at 60% reserve for R$ 155,163.60.',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Auction Notice Summary — Gomes Freire Ave #740 / Apt 202',
+          sections: [
+            { title: '1. Title and Cadastral Details', text: 'Apartment 202 with 31 sqm at Avenida Gomes Freire #740, Downtown, Rio de Janeiro/RJ. 2nd Land Registry Title #50294 and IPTU tax #0702801-2.' },
+            { title: '2. Auction Calendar and Minimum Bids', text: '1st Auction: 10/26/2026 at 12:40 PM at R$ 258,606.00. 2nd Auction: 11/10/2026 at 12:40 PM starting at 60% reserve for R$ 155,163.60.' },
+            { title: '3. Tax Debt Subrogation (CTN Art. 130)', text: 'Prior municipal property taxes subrogate into the purchase proceeds at auction, delivering the asset unencumbered.' },
+            { title: '4. Installment Proposal Option (CPC Art. 895)', text: 'Offers with a 25% down payment and up to 30 monthly installments secured by judicial mortgage can be submitted before auction.' }
+          ]
+        },
+        faqs: [
+          { q: 'What is the court appraisal and starting bid in the 2nd Auction?', a: 'The property has an official court appraisal of R$ 258,606.00. The 1st Auction opens at R$ 258,606.00. The 2nd Auction (11/10/2026 at 12:40 PM) opens at a 60% reserve of R$ 155,163.60.' },
+          { q: 'What are the legal title and cadastral numbers for this unit?', a: 'Apartment 202 has 31 sqm of private area at Avenida Gomes Freire #740, Downtown Rio de Janeiro. Title deed #50294 (2nd Land Registry) and IPTU #0702801-2.' },
+          { q: 'Does the buyer assume past property tax liabilities?', a: 'No. Under Article 130 of the Brazilian National Tax Code (CTN), prior property taxes subrogate into the auction proceeds.' },
+          { q: 'How does Soares Martins Advogados support buyers in this auction?', a: 'We perform title due diligence on Title #50294, audit court proceedings at TJRJ, guide auction bidding, and secure judicial possession of the property.' }
         ]
       }
     }
