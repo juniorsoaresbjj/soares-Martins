@@ -34,6 +34,7 @@ import LauroMullerAuctionPage from './components/LauroMullerAuctionPage';
 import GaveaAuctionPage from './components/GaveaAuctionPage';
 import PraiaBotafogo356AuctionPage from './components/PraiaBotafogo356AuctionPage';
 import SantaTeresaCostaBastos8AuctionPage from './components/SantaTeresaCostaBastos8AuctionPage';
+import SantaTeresaFranciscoMuratori30AuctionPage from './components/SantaTeresaFranciscoMuratori30AuctionPage';
 import CentroRiachuelo220AuctionPage from './components/CentroRiachuelo220AuctionPage';
 import CentroGomesFreire740AuctionPage from './components/CentroGomesFreire740AuctionPage';
 import CopacabanaBarataRibeiro54AuctionPage from './components/CopacabanaBarataRibeiro54AuctionPage';
@@ -445,6 +446,13 @@ const AppContent: React.FC = () => {
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8/" element={<SantaTeresaCostaBastos8AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-costa-bastos-8" element={<SantaTeresaCostaBastos8AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30-apto-301/" element={<SantaTeresaFranciscoMuratori30AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30-apto-301" element={<SantaTeresaFranciscoMuratori30AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30/" element={<SantaTeresaFranciscoMuratori30AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30" element={<SantaTeresaFranciscoMuratori30AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/francisco-muratori-30-apto-301/" element={<SantaTeresaFranciscoMuratori30AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/francisco-muratori-30-apto-301" element={<SantaTeresaFranciscoMuratori30AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220/" element={<CentroRiachuelo220AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/rua-riachuelo-220" element={<CentroRiachuelo220AuctionPage />} />

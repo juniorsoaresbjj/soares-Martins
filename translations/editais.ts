@@ -8085,6 +8085,110 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: 'Why hire Soares Martins Advogados for this transaction?', a: 'We conduct full title examination on Title #20820, audit court dockets at TJRJ, guide auction bidding, and secure judicial possession.' }
         ]
       }
+    },
+    'santa-teresa-francisco-muratori-30-apto-301': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento em Santa Teresa — Rua Francisco Muratori nº 30 — Apto 301',
+        subtitle: 'Rua Francisco Muratori, nº 30, Apartamento 301 — Santa Teresa, Rio de Janeiro/RJ | 64 m² • 3º Pavimento • 2º Ofício RGI Matrícula 42.960 • Inscrição Municipal IPTU: 0.584.040-0 • Avaliação Oficial: R$ 390.000,00 • 1º Leilão: 15/12/2026 às 12:10h por R$ 390.000,00 • 2º Leilão: 17/12/2026 às 12:10h com Lance Inicial de 50% por R$ 195.000,00 (~R$ 3.046,87/m²)',
+        address: 'Rua Francisco Muratori, nº 30, Apartamento 301 — Santa Teresa, Rio de Janeiro - RJ',
+        p1Date: '15/12/2026 às 12:10h',
+        p2Date: '17/12/2026 às 12:10h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0.584.040-0',
+        rgi: '2º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 42.960)',
+        val: 'R$ 390.000,00',
+        p2Val: 'R$ 195.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 64 m² de área edificada privativa correspondente à unidade 301 do edifício situado na charmosa Rua Francisco Muratori nº 30, no histórico e cultural bairro de Santa Teresa, Rio de Janeiro/RJ. Imóvel devidamente registrado, dimensionado e caracterizado no Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 42.960 e inscrição municipal de IPTU nº 0.584.040-0. Localização privilegiada na encosta de Santa Teresa com acesso imediato e a pé à Lapa, Cinelândia e Glória. Foi atribuído ao bem o valor judicial homologado de R$ 390.000,00. O 1º Leilão será realizado em 15/12/2026 às 12:10h pelo valor da avaliação de R$ 390.000,00 e o 2º Leilão terá como início 50% do valor da avaliação em 17/12/2026 às 12:10h por R$ 195.000,00 (~R$ 3.046,87/m² em Santa Teresa).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Francisco Muratori nº 30 / Apto 301 (Santa Teresa)',
+          sections: [
+            { title: '1. Identificação Registral e Cadastral', text: 'Apartamento nº 301 na Rua Francisco Muratori nº 30, Santa Teresa, Rio de Janeiro/RJ. Registrado no 2º Ofício do Registro de Imóveis sob Matrícula nº 42.960 e inscrição municipal IPTU nº 0.584.040-0.' },
+            { title: '2. Dimensão e Características do Bem', text: 'Área privativa de 64 metros quadrados (64 m²), situado no 3º pavimento, composto por sala, dormitório(s), banheiro social, cozinha e área de serviço.' },
+            { title: '3. Localização Estratégica em Santa Teresa', text: 'Situado na Rua Francisco Muratori, ligando o ambiente bucólico e artístico de Santa Teresa aos polos da Lapa, Cinelândia e Centro do Rio de Janeiro.' },
+            { title: '4. Calendário das Praças e Lances Mínimos', text: '1º Leilão: 15/12/2026 às 12:10h por R$ 390.000,00 (100% da avaliação). 2º Leilão: 17/12/2026 às 12:10h a partir de R$ 195.000,00 (50% da avaliação oficial).' },
+            { title: '5. Parcelamento Judicial (Art. 895 do CPC)', text: 'Possibilidade legal de arrematação parcelada mediante proposta escrita: sinal mínimo de 25% (R$ 48.750,00 na 2ª praça) e saldo em até 30 parcelas mensais corrigidas com hipoteca judicial na matrícula.' },
+            { title: '6. Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários municipais e de IPTU pretéritos sub-rogam-se sobre o preço obtido na arrematação judicial, resguardando o arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: 'Quais são as datas das praças e os valores para o imóvel na Rua Francisco Muratori 30?', a: 'O 1º Leilão ocorre em 15/12/2026 às 12:10h pelo valor da avaliação de R$ 390.000,00. O 2º Leilão ocorre em 17/12/2026 às 12:10h com lance inicial de 50% por R$ 195.000,00 (~R$ 3.046,87/m²).' },
+          { q: 'Quais os dados registrais do apartamento 301?', a: 'Imóvel com 64 m² de área privativa, matriculado sob o nº 42.960 no 2º Ofício de Registro de Imóveis do Rio de Janeiro e IPTU nº 0.584.040-0.' },
+          { q: 'Qual o contexto de mercado e rentabilidade em Santa Teresa?', a: 'O valor de 2ª praça a R$ 3.046,87/m² é expressivamente inferior à média da região (R$ 6.500 a R$ 9.500/m²), conferindo excelente margem de lucro para moradia, revenda ou aluguel residencial e por temporada.' },
+          { q: 'É permitido parcelar a arrematação judicial deste imóvel?', a: 'Sim. Pelo artigo 895 do CPC, o interessado pode apresentar proposta formal escrita de parcelamento com entrada mínima de 25% e saldo em até 30 meses corrigidos.' },
+          { q: 'Como ficam os débitos de IPTU anteriores à arrematação?', a: 'Conforme o Art. 130, parágrafo único, do CTN, os débitos tributários pretéritos sub-rogam-se diretamente sobre o preço da arrematação, recebendo o arrematante o bem livre de ônus fiscais.' },
+          { q: 'Qual a atuação da Soares Martins Advogados neste leilão?', a: 'Realizamos auditoria prévia completa da Matrícula nº 42.960, checamos o processo judicial no TJRJ, formalizamos habilitação e propostas, e conduzimos os atos pós-leilão até a expedição e registro da carta e a imissão na posse.' }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Santa Teresa — Rua Francisco Muratori nº 30 — Apto 301',
+        subtitle: 'Rua Francisco Muratori, nº 30, Apartamento 301 — Santa Teresa, Río de Janeiro/RJ | 64 m² • 3ª Planta • 2º Registro Matrícula 42.960 • IPTU: 0.584.040-0 • Tasación Oficial: R$ 390.000,00 • 1ª Subasta: 15/12/2026 a las 12:10h por R$ 390.000,00 • 2ª Subasta: 17/12/2026 a las 12:10h con Puja Inicial al 50% por R$ 195.000,00 (~R$ 3.046,87/m²)',
+        address: 'Rua Francisco Muratori, nº 30, Apartamento 301 — Santa Teresa, Río de Janeiro - RJ',
+        p1Date: '15/12/2026 a las 12:10h',
+        p2Date: '17/12/2026 a las 12:10h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0.584.040-0',
+        rgi: '2º Registro de la Propiedad Inmueble de Río de Janeiro (Matrícula nº 42.960)',
+        val: 'R$ 390.000,00',
+        p2Val: 'R$ 195.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 64 m² de superficie privativa correspondiente a la unidad 301 en Rua Francisco Muratori nº 30, Santa Teresa, Río de Janeiro/RJ. Registrado en el 2º RGI bajo Matrícula nº 42.960 e IPTU nº 0.584.040-0. Ubicación estratégica en Santa Teresa con conexión rápida a pie con Lapa y Centro. Tasación judicial oficial de R$ 390.000,00. 1ª Subasta el 15/12/2026 a las 12:10h por R$ 390.000,00 y 2ª Subasta el 17/12/2026 a las 12:10h con salida al 50% por R$ 195.000,00 (~R$ 3.046,87/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Rua Francisco Muratori 30 / Apto 301 (Santa Teresa)',
+          sections: [
+            { title: '1. Identificación Registral', text: 'Apartamento 301 en Rua Francisco Muratori nº 30, Santa Teresa, Río de Janeiro/RJ. Matrícula nº 42.960 del 2º Registro e IPTU nº 0.584.040-0.' },
+            { title: '2. Superficie y Tipología', text: '64 m² privativos en 3ª planta, con sala, dormitorio(s), baño social, cocina y lavadero.' },
+            { title: '3. Ubicación', text: 'Excelente punto de Santa Teresa junto a Lapa y Cinelândia.' },
+            { title: '4. Fechas y Precios de Salida', text: '1ª Subasta: 15/12/2026 a las 12:10h por R$ 390.000,00. 2ª Subasta: 17/12/2026 a las 12:10h a partir de R$ 195.000,00 (50% de la tasación).' },
+            { title: '5. Pago Fraccionado (Art. 895 CPC)', text: 'Posibilidad de pago fraccionado judicial: 25% de anticipo y saldo en hasta 30 cuotas con hipoteca judicial.' },
+            { title: '6. Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias de IPTU anteriores se cancelan con el precio de remate.' }
+          ]
+        },
+        faqs: [
+          { q: '¿Cuáles son las fechas y precios de salida para Rua Francisco Muratori 30?', a: 'La 1ª Subasta es el 15/12/2026 a las 12:10h por R$ 390.000,00. La 2ª Subasta es el 17/12/2026 a las 12:10h a partir de R$ 195.000,00 (~R$ 3.046,87/m²).' },
+          { q: '¿Cuáles son los datos registrales del apartamento 301?', a: 'Apartamento 301 de 64 m² en 3ª planta, inscrito en el 2º RGI bajo Matrícula nº 42.960 e IPTU nº 0.584.040-0.' },
+          { q: '¿Cuál es el potencial de mercado en Santa Teresa?', a: 'Adquirir a R$ 3.046,87/m² ofrece un extraordinario margen de rentabilidad frente a la media habitual de R$ 6.500 a R$ 9.500/m².' },
+          { q: '¿Es posible adquirir el bien a plazos?', a: 'Sí, conforme al Art. 895 del CPC: 25% de entrada y saldo en hasta 30 pagos mensuales.' },
+          { q: '¿Qué ocurre con las deudas de impuestos?', a: 'Conforme al Art. 130 del CTN, las deudas de IPTU se subrogan en el precio obtenido en la subasta.' },
+          { q: '¿Por qué contratar a Soares Martins Advogados?', a: 'Efectuamos el análisis técnico de la Matrícula nº 42.960, auditamos el proceso en el TJRJ y gestionamos la entrega judicial de llaves.' }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Santa Teresa — Rua Francisco Muratori #30 — Apt 301',
+        subtitle: 'Rua Francisco Muratori, #30, Apartment 301 — Santa Teresa, Rio de Janeiro/RJ | 64 sqm (689 sq ft) • 3rd Floor • 2nd Land Registry Title #42960 • Municipal Tax IPTU: 0.584.040-0 • Official Appraisal: R$ 390,000.00 • 1st Auction: 12/15/2026 at 12:10 PM at R$ 390,000.00 • 2nd Auction: 12/17/2026 at 12:10 PM starting at 50% for R$ 195,000.00 (~R$ 3,046.87/sqm)',
+        address: 'Rua Francisco Muratori, #30, Apt 301 — Santa Teresa, Rio de Janeiro - RJ',
+        p1Date: '12/15/2026 at 12:10 PM',
+        p2Date: '12/17/2026 at 12:10 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0.584.040-0',
+        rgi: '2nd Land Registry Office of Rio de Janeiro (Title #42960)',
+        val: 'R$ 390,000.00',
+        p2Val: 'R$ 195,000.00 (2nd Auction starting bid - 50%)',
+        description: 'Prime 64 square meter (64 sqm / 689 sq ft) private residential apartment located on the 3rd floor (Unit 301) situated on Rua Francisco Muratori #30, in the historic and bohemian district of Santa Teresa, Rio de Janeiro/RJ. Duly registered and characterized before the 2nd Real Estate Registry Office under Title #42960 and enrolled with municipal tax authority IPTU #0.584.040-0. Strategic location on Santa Teresa hillside with immediate walking access to Lapa and Downtown Rio. Official court valuation assigned at R$ 390,000.00. 1st Auction on Dec 15, 2026 at 12:10 PM for R$ 390,000.00. 2nd Auction on Dec 17, 2026 at 12:10 PM starting at 50% for R$ 195,000.00 (~R$ 3,046.87/sqm).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Francisco Muratori #30 / Apt 301 (Santa Teresa)',
+          sections: [
+            { title: '1. Title and Cadastral Details', text: 'Apartment 301 with 64 sqm at Rua Francisco Muratori #30, Santa Teresa, Rio de Janeiro/RJ. 2nd Land Registry Title #42960 and Municipal Tax IPTU #0.584.040-0.' },
+            { title: '2. Floor Area & Layout', text: '64 sqm private area on the 3rd floor, featuring living room, bedroom(s), bathroom, kitchen, and service area.' },
+            { title: '3. Strategic Santa Teresa Location', text: 'Convenient hillside setting connecting historic Santa Teresa with vibrant Lapa and Downtown.' },
+            { title: '4. Auction Dates and Starting Bids', text: '1st Auction: 12/15/2026 at 12:10 PM at R$ 390,000.00. 2nd Auction: 12/17/2026 at 12:10 PM starting at R$ 195,000.00 (50% reserve).' },
+            { title: '5. Court Financing Terms (CPC Art. 895)', text: 'Judicial installment proposal available: 25% down payment and balance in up to 30 monthly installments with judicial mortgage.' },
+            { title: '6. Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Pre-existing property taxes subrogate into the auction proceeds under CTN Art. 130.' }
+          ]
+        },
+        faqs: [
+          { q: 'What are the auction dates and reserve prices for Rua Francisco Muratori #30?', a: 'The 1st Auction is on 12/15/2026 at 12:10 PM at R$ 390,000.00. The 2nd Auction is on 12/17/2026 at 12:10 PM starting at R$ 195,000.00 (~R$ 3,046.87/sqm).' },
+          { q: 'What are the legal title and cadastral numbers for this apartment?', a: 'Apartment 301 features 64 sqm on the 3rd floor at Rua Francisco Muratori #30, Santa Teresa. Recorded at the 2nd Land Registry under Title #42960 and IPTU tax ID #0.584.040-0.' },
+          { q: 'What is the market context for this property in Santa Teresa?', a: 'Entry pricing at ~R$ 3,046.87/sqm offers massive upside against regional market averages of R$ 6,500 to R$ 9,500/sqm.' },
+          { q: 'Can this apartment be purchased through court installment plans?', a: 'Yes. Under CPC Article 895, investors can propose a 25% down payment with the balance paid over up to 30 monthly installments secured by mortgage.' },
+          { q: 'How are past municipal taxes handled?', a: 'Under CTN Article 130, property taxes subrogate into the auction proceeds, delivering clear title to the purchaser.' },
+          { q: 'Why hire Soares Martins Advogados for this transaction?', a: 'We conduct full title examination on Title #42960, audit court dockets at TJRJ, guide auction bidding, and secure judicial possession.' }
+        ]
+      }
     }
   };
 

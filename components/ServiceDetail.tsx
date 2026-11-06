@@ -170,6 +170,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Santa Teresa (RJ)',
+        title: 'Leilão Judicial de Apartamento em Santa Teresa — Rua Francisco Muratori nº 30 — Apto 301',
+        desc: 'Apartamento residencial 301 de 64 metros quadrados (64 m²) situado no 3º pavimento na Rua Francisco Muratori nº 30, no aprazível e tradicional bairro de Santa Teresa, Rio de Janeiro/RJ. Registrado no 2º Ofício de Registro de Imóveis (2º RGI) sob a Matrícula nº 42.960 e inscrição municipal IPTU nº 0.584.040-0. Avaliação judicial oficial homologada em R$ 390.000,00. 1º Leilão em 15/12/2026 às 12:10h por R$ 390.000,00 e 2º Leilão em 17/12/2026 às 12:10h com lance inicial de 50% por R$ 195.000,00 (~R$ 3.046,87/m²).',
+        p1Label: '1ª Praça (15/12/2026):',
+        p1Val: 'R$ 390.000,00',
+        p2Label: '2ª Praça (17/12/2026):',
+        p2Val: 'R$ 195.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30-apto-301/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20301%20na%20Rua%20Francisco%20Muratori%2030%20em%20Santa%20Teresa%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Leilão Judicial de Apartamento na Rua Barata Ribeiro nº 105 — Apto 801',
         desc: 'Apartamento residencial 801 com 34 metros quadrados (34 m²) em andar alto (8º pavimento) na valorizada Rua Barata Ribeiro nº 105, Posto 2 de Copacabana, Rio de Janeiro/RJ. Registrado no 5º Ofício de Registro de Imóveis (5º RGI) sob a Matrícula nº 20820 e IPTU nº 0462884-8. Avaliação judicial oficial de R$ 373.016,36 com 2ª praça iniciando a R$ 370.000,00 (~R$ 10.882,35/m² em andar alto).',
@@ -1303,6 +1314,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Santa Teresa (RJ)',
+        title: 'Subasta Judicial de Apartamento en Santa Teresa — Rua Francisco Muratori nº 30 — Apto 301',
+        desc: 'Apartamento residencial 301 de 64 metros cuadrados (64 m²) situado en 3ª planta en Rua Francisco Muratori nº 30, en el tradicional y bohemio barrio de Santa Teresa, Río de Janeiro/RJ. Inscrito en el 2º Registro de la Propiedad Inmueble (2º RGI) bajo Matrícula nº 42.960 e IPTU nº 0.584.040-0. Tasación judicial oficial de R$ 390.000,00. 1ª Subasta el 15/12/2026 a las 12:10h por R$ 390.000,00 y 2ª Subasta el 17/12/2026 a las 12:10h con salida al 50% por R$ 195.000,00 (~R$ 3.046,87/m²).',
+        p1Label: '1ª Subasta (15/12/2026):',
+        p1Val: 'R$ 390.000,00',
+        p2Label: '2ª Subasta (17/12/2026):',
+        p2Val: 'R$ 195.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30-apto-301/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20301%20en%20Rua%20Francisco%20Muratori%2030%20en%20Santa%20Teresa%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Copacabana (RJ)',
         title: 'Subasta Judicial de Apartamento en Rua Barata Ribeiro nº 105 — Apto 801',
         desc: 'Apartamento residencial 801 de 34 metros cuadrados (34 m²) en planta alta (8º piso) en la cotizada Rua Barata Ribeiro nº 105, Posto 2 de Copacabana, Río de Janeiro/RJ. Inscrito en el 5º Registro de la Propiedad Inmueble (5º RGI) bajo Matrícula nº 20820 e IPTU nº 0462884-8. Evaluación oficial de R$ 373.016,36 con 2ª subasta iniciando en R$ 370.000,00 (~R$ 10.882,35/m²).',
@@ -2413,6 +2435,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Santa Teresa (RJ)',
+        title: 'Judicial Auction of Apartment in Santa Teresa — Rua Francisco Muratori #30 — Apt 301',
+        desc: 'Residential apartment 301 featuring 64 square meters (64 sqm / 689 sq ft) on the 3rd floor at Rua Francisco Muratori #30, in the historic and bohemian neighborhood of Santa Teresa, Rio de Janeiro/RJ. Duly registered at the 2nd Real Estate Registry (2nd RGI) under Title #42960 and Municipal Tax IPTU #0.584.040-0. Official court appraisal of R$ 390,000.00. 1st Auction on 12/15/2026 at 12:10 PM at R$ 390,000.00 and 2nd Auction on 12/17/2026 at 12:10 PM starting at 50% for R$ 195,000.00 (~R$ 3,046.87/sqm).',
+        p1Label: '1st Auction (12/15/2026):',
+        p1Val: 'R$ 390,000.00',
+        p2Label: '2nd Auction (12/17/2026):',
+        p2Val: 'R$ 195,000.00 (50% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/santa-teresa/apartamento/rua-francisco-muratori-30-apto-301/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Francisco%20Muratori%2030%20Apt%20301%20in%20Santa%20Teresa%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Copacabana (RJ)',
         title: 'Judicial Auction of Apartment at Rua Barata Ribeiro #105 — Apt 801',
