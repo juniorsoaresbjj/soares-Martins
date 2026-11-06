@@ -25,8 +25,8 @@ const FlamengoPraiaDoFlamengo12AuctionPage: React.FC<FlamengoPraiaDoFlamengo12Au
     title: 'Leilão Judicial de Apartamento no Flamengo — Praia do Flamengo nº 12 — Apto 306',
     subtitle: 'Praia do Flamengo, nº 12, Apto 306 — Flamengo, Rio de Janeiro/RJ | 40 m² • Amplo Conjugado Dividido em Sala, Quarto, Cozinha e Banheiro • Sem Garagem • Interfone • Razoável Estado de Conservação • Edifício de 1940 ("Condomínio do Edifício Rio Carioca") • 2 Blocos com 13 Andares e 270 Apartamentos • 4 Elevadores • Portaria 24 Horas • Sem Infraestrutura de Lazer • Localização Privilegiada na Orla do Flamengo • 9º RGI Matrícula 154.629 • IPTU: 0.258.058-7 • 1º Leilão: R$ 627.898,69 • 2º Leilão: R$ 313.949,34 (~R$ 7.848,73/m²)',
     address: 'Praia do Flamengo, nº 12, Apto 306 — Flamengo, Rio de Janeiro - RJ',
-    p1Date: '26/10/2026 às 12:00h',
-    p2Date: '29/10/2026 às 12:00h',
+    p1Date: '16/11/2026 às 12:00h',
+    p2Date: '19/11/2026 às 12:00h',
     process: 'Execução Judicial / TJRJ',
     court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
     iptu: '0.258.058-7',
@@ -92,7 +92,7 @@ const FlamengoPraiaDoFlamengo12AuctionPage: React.FC<FlamengoPraiaDoFlamengo12Au
             "name": "1º Leilão Judicial",
             "price": "627898.69",
             "priceCurrency": "BRL",
-            "validFrom": "2026-10-26T12:00:00-03:00",
+            "validFrom": "2026-11-16T12:00:00-03:00",
             "availability": "https://schema.org/InStock",
             "url": canonicalUrl
           },
@@ -101,7 +101,7 @@ const FlamengoPraiaDoFlamengo12AuctionPage: React.FC<FlamengoPraiaDoFlamengo12Au
             "name": "2º Leilão Judicial (50% do valor de avaliação)",
             "price": "313949.34",
             "priceCurrency": "BRL",
-            "validFrom": "2026-10-29T12:00:00-03:00",
+            "validFrom": "2026-11-19T12:00:00-03:00",
             "availability": "https://schema.org/InStock",
             "url": canonicalUrl
           }
@@ -364,8 +364,8 @@ const FlamengoPraiaDoFlamengo12AuctionPage: React.FC<FlamengoPraiaDoFlamengo12Au
               <ul className="text-xs sm:text-sm text-text-muted space-y-2">
                 <li><strong className="text-white">Processo de Origem:</strong> Execução Judicial / TJRJ</li>
                 <li><strong className="text-white">Valor da Avaliação Oficial:</strong> R$ 627.898,69</li>
-                <li><strong className="text-white">Lance Mínimo 1ª Praça (100%):</strong> R$ 627.898,69 (26/10/2026 às 12:00h)</li>
-                <li><strong className="text-white">Lance Mínimo 2ª Praça (50%):</strong> R$ 313.949,34 (29/10/2026 às 12:00h) — desconto de 50% (~R$ 7.848,73/m²)</li>
+                <li><strong className="text-white">Lance Mínimo 1ª Praça (100%):</strong> R$ 627.898,69 (16/11/2026 às 12:00h)</li>
+                <li><strong className="text-white">Lance Mínimo 2ª Praça (50%):</strong> R$ 313.949,34 (19/11/2026 às 12:00h) — desconto de 50% (~R$ 7.848,73/m²)</li>
                 <li><strong className="text-white">Foro / Juízo:</strong> Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) / Comarca da Capital</li>
                 <li><strong className="text-white">Condições de Pagamento:</strong> Pagamento à vista em 24h ou parcelamento judicial previsto no Art. 895 do CPC (25% de entrada e saldo em até 30 parcelas mensais corrigidas, com hipoteca judicial)</li>
                 <li><strong className="text-white">Sub-rogação Fiscal:</strong> Débitos de IPTU pretéritos sub-rogam-se no preço arrematado (Art. 130, parágrafo único, do CTN)</li>

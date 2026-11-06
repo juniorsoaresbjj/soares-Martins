@@ -170,6 +170,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial de Apartamento na Rua Barata Ribeiro nº 105 — Apto 801',
+        desc: 'Apartamento residencial 801 com 34 metros quadrados (34 m²) em andar alto (8º pavimento) na valorizada Rua Barata Ribeiro nº 105, Posto 2 de Copacabana, Rio de Janeiro/RJ. Registrado no 5º Ofício de Registro de Imóveis (5º RGI) sob a Matrícula nº 20820 e IPTU nº 0462884-8. Avaliação judicial oficial de R$ 373.016,36 com 2ª praça iniciando a R$ 370.000,00 (~R$ 10.882,35/m² em andar alto).',
+        p1Label: '1ª Praça (24/11/2026):',
+        p1Val: 'R$ 373.016,36',
+        p2Label: '2ª Praça (26/11/2026):',
+        p2Val: 'R$ 370.000,00 (99,19% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105-apto-801/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20801%20na%20Rua%20Barata%20Ribeiro%20105%20em%20Copacabana%20-%20RJ.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Leilão Judicial de Apartamento na Rua Barata Ribeiro nº 54 — Apto 301',
+        desc: 'Apartamento residencial 301 com 93 metros quadrados (93 m²) na cobiçada Rua Barata Ribeiro nº 54, Copacabana, Rio de Janeiro/RJ. Devidamente registrado no 5º Ofício de Registro de Imóveis sob a matrícula nº 100425 e Inscrição Municipal IPTU nº 0.956.531-8. Avaliação oficial homologada em R$ 1.150.000,00 com 2ª praça iniciando com 50% de deságio por R$ 575.000,00 (~R$ 6.182,80/m² na Zona Sul).',
+        p1Label: '1ª Praça (01/12/2026):',
+        p1Val: 'R$ 1.150.000,00',
+        p2Label: '2ª Praça (03/12/2026):',
+        p2Val: 'R$ 575.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54-apto-301/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20301%20na%20Rua%20Barata%20Ribeiro%2054%20em%20Copacabana%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Centro/RJ',
         title: 'Leilão Judicial de Apartamento na Av. Gomes Freire nº 740 — Apto 202',
         desc: 'Apartamento residencial 202 com 31 metros quadrados (31 m²) na tradicional Avenida Gomes Freire nº 740, Centro, Rio de Janeiro/RJ. Registrado no 2º Ofício do RGI sob a matrícula nº 50294 e IPTU nº 0702801-2. Avaliação de R$ 258.606,00 com 2ª praça iniciando a 60% (R$ 155.163,60).',
@@ -425,10 +447,10 @@ const pageTranslations: Record<string, any> = {
       {
         tag: 'Residencial • Flamengo / Orla (RJ)',
         title: 'Leilão Judicial de Apartamento no Flamengo — Praia do Flamengo nº 12 — Apto 306',
-        desc: 'Amplo conjugado residencial de 40 m² de área privativa dividido em sala, quarto, cozinha e banheiro no 3º pavimento (unidade 306) do tradicional Edifício Rio Carioca, construído em 1940 na prestigiada Praia do Flamengo nº 12, no Flamengo/RJ. Imóvel em razoável estado de conservação face ao tempo de uso, equipado com interfone, sem vaga de garagem. Condomínio com 2 blocos de 13 andares (270 apartamentos), quatro elevadores e portaria 24 horas, sem taxa de lazer. Registrado no 9º RGI sob a Matrícula 154.629 e IPTU nº 0.258.058-7. 1º Leilão em 26/10/2026 por R$ 627.898,69 e 2º Leilão em 29/10/2026 com lance inicial de R$ 313.949,34 (~R$ 7.848,73/m² na orla).',
-        p1Label: '1ª Praça (26/10/2026):',
+        desc: 'Amplo conjugado residencial de 40 m² de área privativa dividido em sala, quarto, cozinha e banheiro no 3º pavimento (unidade 306) do tradicional Edifício Rio Carioca, construído em 1940 na prestigiada Praia do Flamengo nº 12, no Flamengo/RJ. Imóvel em razoável estado de conservação face ao tempo de uso, equipado com interfone, sem vaga de garagem. Condomínio com 2 blocos de 13 andares (270 apartamentos), quatro elevadores e portaria 24 horas, sem taxa de lazer. Registrado no 9º RGI sob a Matrícula 154.629 e IPTU nº 0.258.058-7. 1º Leilão em 16/11/2026 por R$ 627.898,69 e 2º Leilão em 19/11/2026 com lance inicial de R$ 313.949,34 (~R$ 7.848,73/m² na orla).',
+        p1Label: '1ª Praça (16/11/2026):',
         p1Val: 'R$ 627.898,69',
-        p2Label: '2ª Praça (29/10/2026):',
+        p2Label: '2ª Praça (19/11/2026):',
         p2Val: 'R$ 313.949,34 (Lance inicial 2ª Praça)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/',
         waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20306%20na%20Praia%20do%20Flamengo%2012%20(Edif%C3%ADcio%20Rio%20Carioca)%20no%20Flamengo%20-%20RJ.'
@@ -1277,6 +1299,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial de Apartamento en Rua Barata Ribeiro nº 105 — Apto 801',
+        desc: 'Apartamento residencial 801 de 34 metros cuadrados (34 m²) en planta alta (8º piso) en la cotizada Rua Barata Ribeiro nº 105, Posto 2 de Copacabana, Río de Janeiro/RJ. Inscrito en el 5º Registro de la Propiedad Inmueble (5º RGI) bajo Matrícula nº 20820 e IPTU nº 0462884-8. Evaluación oficial de R$ 373.016,36 con 2ª subasta iniciando en R$ 370.000,00 (~R$ 10.882,35/m²).',
+        p1Label: '1ª Subasta (24/11/2026):',
+        p1Val: 'R$ 373.016,36',
+        p2Label: '2ª Subasta (26/11/2026):',
+        p2Val: 'R$ 370.000,00 (99,19% de la evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105-apto-801/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20801%20en%20Rua%20Barata%20Ribeiro%20105%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residencial • Copacabana (RJ)',
+        title: 'Subasta Judicial de Apartamento en Rua Barata Ribeiro nº 54 — Apto 301',
+        desc: 'Apartamento residencial 301 de 93 metros cuadrados (93 m²) en la cotizada Rua Barata Ribeiro nº 54, Copacabana, Río de Janeiro/RJ. Inscrito en el 5º Registro de la Propiedad Inmueble (matrícula nº 100425) e IPTU nº 0.956.531-8. Evaluación oficial de R$ 1.150.000,00 con 2ª subasta iniciando al 50% por R$ 575.000,00 (~R$ 6.182,80/m² en Zona Sur).',
+        p1Label: '1ª Subasta (01/12/2026):',
+        p1Val: 'R$ 1.150.000,00',
+        p2Label: '2ª Subasta (03/12/2026):',
+        p2Val: 'R$ 575.000,00 (50% de la evaluación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54-apto-301/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20301%20en%20Rua%20Barata%20Ribeiro%2054%20en%20Copacabana%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Centro/RJ',
         title: 'Subasta Judicial de Apartamento en Av. Gomes Freire nº 740 — Apto 202',
         desc: 'Apartamento residencial 202 de 31 metros cuadrados (31 m²) en la tradicional Avenida Gomes Freire nº 740, Centro de Río de Janeiro/RJ. Inscrito en el 2º RGI (matrícula 50294) e IPTU nº 0702801-2. Evaluación de R$ 258.606,00 con 2ª subasta iniciando al 60% (R$ 155.163,60).',
@@ -1532,10 +1576,10 @@ const pageTranslations: Record<string, any> = {
       {
         tag: 'Residencial • Flamengo / Primera Línea (RJ)',
         title: 'Subasta Judicial de Apartamento en Flamengo — Praia do Flamengo nº 12 — Apto 306',
-        desc: 'Apartamento residencial conjugado de 40 m² de superficie privativa dividido en salón, dormitorio, cocina y baño en la 3ª planta (unidad 306) del histórico Edifício Rio Carioca, construido en 1940 en la emblemática Praia do Flamengo nº 12, Flamengo/RJ. Inmueble con razonable estado de conservación según su antigüedad, provisto de interfono, sin garaje. Edificio con 2 bloques de 13 plantas (270 apartamentos), cuatro ascensores y portería 24 horas, sin áreas de ocio. Registrado en el 9º Registro bajo Matrícula 154.629 e IPTU nº 0.258.058-7. 1ª Subasta el 26/10/2026 por R$ 627.898,69 y 2ª Subasta el 29/10/2026 con puja inicial de R$ 313.949,34 (~R$ 7.848,73/m² en primera línea).',
-        p1Label: '1ª Subasta (26/10/2026):',
+        desc: 'Apartamento residencial conjugado de 40 m² de superficie privativa dividido en salón, dormitorio, cocina y baño en la 3ª planta (unidad 306) del histórico Edifício Rio Carioca, construido en 1940 en la emblemática Praia do Flamengo nº 12, Flamengo/RJ. Inmueble con razonable estado de conservación según su antigüedad, provisto de interfono, sin garaje. Edificio con 2 bloques de 13 plantas (270 apartamentos), cuatro ascensores y portería 24 horas, sin áreas de ocio. Registrado en el 9º Registro bajo Matrícula 154.629 e IPTU nº 0.258.058-7. 1ª Subasta el 16/11/2026 por R$ 627.898,69 y 2ª Subasta el 19/11/2026 con puja inicial de R$ 313.949,34 (~R$ 7.848,73/m² en primera línea).',
+        p1Label: '1ª Subasta (16/11/2026):',
         p1Val: 'R$ 627.898,69',
-        p2Label: '2ª Subasta (29/10/2026):',
+        p2Label: '2ª Subasta (19/11/2026):',
         p2Val: 'R$ 313.949,34 (Puja inicial 2ª Subasta)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/',
         waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20306%20en%20Praia%20do%20Flamengo%2012%20(Edif%C3%ADcio%20Rio%20Carioca)%20en%20Flamengo%20-%20R%C3%ADo%20de%20Janeiro.'
@@ -2362,6 +2406,28 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
       {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction of Apartment at Rua Barata Ribeiro #105 — Apt 801',
+        desc: 'Residential apartment 801 featuring 34 square meters (34 sqm / 366 sq ft) on a high floor (8th floor) at Rua Barata Ribeiro #105, Copacabana Posto 2, Rio de Janeiro/RJ. Recorded at the 5th Real Estate Registry under Title #20820 and Municipal Tax IPTU #0462884-8. Court appraisal of R$ 373,016.36 with 2nd auction reserve starting at R$ 370,000.00 (~R$ 10,882.35/sqm).',
+        p1Label: '1st Auction (11/24/2026):',
+        p1Val: 'R$ 373,016.36',
+        p2Label: '2nd Auction (11/26/2026):',
+        p2Val: 'R$ 370,000.00 (99.19% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105-apto-801/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Barata%20Ribeiro%20105%20Apt%20801%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
+      {
+        tag: 'Residential • Copacabana (RJ)',
+        title: 'Judicial Auction of Apartment at Rua Barata Ribeiro #54 — Apt 301',
+        desc: 'Residential apartment 301 featuring 93 square meters (93 sqm / 1,001 sq ft) on prime Rua Barata Ribeiro #54, Copacabana, Rio de Janeiro/RJ. Duly recorded at the 5th Real Estate Registry under Title #100425 and Municipal Tax IPTU #0.956.531-8. Official court appraisal of R$ 1,150,000.00 with 2nd auction reserve starting at 50% for R$ 575,000.00 (~R$ 6,182.80/sqm in Rio\'s South Zone).',
+        p1Label: '1st Auction (12/01/2026):',
+        p1Val: 'R$ 1,150,000.00',
+        p2Label: '2nd Auction (12/03/2026):',
+        p2Val: 'R$ 575,000.00 (50% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54-apto-301/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Barata%20Ribeiro%2054%20Apt%20301%20in%20Copacabana%20-%20Rio%20de%20Janeiro.'
+      },
+      {
         tag: 'Residential • Downtown (Centro)/RJ',
         title: 'Judicial Auction of Apartment on Av. Gomes Freire #740 — Apt 202',
         desc: 'Residential apartment 202 featuring 31 square meters (31 sqm) on Avenida Gomes Freire #740, Downtown Rio de Janeiro/RJ. Recorded at the 2nd Land Registry under Title #50294 and IPTU tax ID #0702801-2. Court appraisal of R$ 258,606.00 with 2nd auction reserve at 60% (R$ 155,163.60).',
@@ -2617,10 +2683,10 @@ const pageTranslations: Record<string, any> = {
       {
         tag: 'Residential • Flamengo / Waterfront (RJ)',
         title: 'Judicial Auction of Apartment in Flamengo — Praia do Flamengo #12 — Apt 306',
-        desc: 'Spacious 40 sqm (430 sq ft) studio apartment divided into living room, bedroom, kitchen, and bathroom on the 3rd floor (Unit 306) of the classic Edifício Rio Carioca, built in 1940 along the prestigious Praia do Flamengo #12, in Flamengo/RJ. Property in fair condition consistent with age, equipped with intercom, no garage space. The building features 2 blocks of 13 stories (270 apartments), four elevators, and 24-hour manned concierge, with no leisure facilities (low HOA fees). Registered at the 9th Land Registry under Title #154.629 and municipal tax IPTU #0.258.058-7. 1st Auction on 10/26/2026 at R$ 627,898.69 and 2nd Auction on 10/29/2026 starting at R$ 313,949.34 (~R$ 7,848.73/sqm along the beachfront).',
-        p1Label: '1st Auction (10/26/2026):',
+        desc: 'Spacious 40 sqm (430 sq ft) studio apartment divided into living room, bedroom, kitchen, and bathroom on the 3rd floor (Unit 306) of the classic Edifício Rio Carioca, built in 1940 along the prestigious Praia do Flamengo #12, in Flamengo/RJ. Property in fair condition consistent with age, equipped with intercom, no garage space. The building features 2 blocks of 13 stories (270 apartments), four elevators, and 24-hour manned concierge, with no leisure facilities (low HOA fees). Registered at the 9th Land Registry under Title #154.629 and municipal tax IPTU #0.258.058-7. 1st Auction on 11/16/2026 at R$ 627,898.69 and 2nd Auction on 11/19/2026 starting at R$ 313,949.34 (~R$ 7,848.73/sqm along the beachfront).',
+        p1Label: '1st Auction (11/16/2026):',
         p1Val: 'R$ 627,898.69',
-        p2Label: '2nd Auction (10/29/2026):',
+        p2Label: '2nd Auction (11/19/2026):',
         p2Val: 'R$ 313,949.34 (2nd Auction starting bid)',
         link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/flamengo/apartamento/praia-do-flamengo-12-apto-306/',
         waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Praia%20do%20Flamengo%2012%20Apt%20306%20(Edif%C3%ADcio%20Rio%20Carioca)%20in%20Flamengo%20-%20Rio%20de%20Janeiro.'

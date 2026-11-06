@@ -36,6 +36,8 @@ import PraiaBotafogo356AuctionPage from './components/PraiaBotafogo356AuctionPag
 import SantaTeresaCostaBastos8AuctionPage from './components/SantaTeresaCostaBastos8AuctionPage';
 import CentroRiachuelo220AuctionPage from './components/CentroRiachuelo220AuctionPage';
 import CentroGomesFreire740AuctionPage from './components/CentroGomesFreire740AuctionPage';
+import CopacabanaBarataRibeiro54AuctionPage from './components/CopacabanaBarataRibeiro54AuctionPage';
+import CopacabanaBarataRibeiro105AuctionPage from './components/CopacabanaBarataRibeiro105AuctionPage';
 import CopacabanaAtlantica3806AuctionPage from './components/CopacabanaAtlantica3806AuctionPage';
 import CopacabanaHilarioDeGouveia132AuctionPage from './components/CopacabanaHilarioDeGouveia132AuctionPage';
 import CopacabanaNossaSenhora903AuctionPage from './components/CopacabanaNossaSenhora903AuctionPage';
@@ -455,6 +457,20 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/av-gomes-freire-740-apto-202" element={<CentroGomesFreire740AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/gomes-freire-740-apto-202/" element={<CentroGomesFreire740AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/gomes-freire-740-apto-202" element={<CentroGomesFreire740AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54-apto-301/" element={<CopacabanaBarataRibeiro54AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54-apto-301" element={<CopacabanaBarataRibeiro54AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54/" element={<CopacabanaBarataRibeiro54AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-54" element={<CopacabanaBarataRibeiro54AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/barata-ribeiro-54-apto-301/" element={<CopacabanaBarataRibeiro54AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/barata-ribeiro-54-apto-301" element={<CopacabanaBarataRibeiro54AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105-apto-801/" element={<CopacabanaBarataRibeiro105AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105-apto-801" element={<CopacabanaBarataRibeiro105AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105/" element={<CopacabanaBarataRibeiro105AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/rua-barata-ribeiro-105" element={<CopacabanaBarataRibeiro105AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/barata-ribeiro-105-apto-801/" element={<CopacabanaBarataRibeiro105AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/barata-ribeiro-105-apto-801" element={<CopacabanaBarataRibeiro105AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312/" element={<CopacabanaAtlantica3806AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/copacabana/apartamento/avenida-atlantica-3806-apto-312" element={<CopacabanaAtlantica3806AuctionPage />} />
