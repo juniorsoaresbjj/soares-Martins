@@ -170,6 +170,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Leblon (RJ)',
+        title: 'Leilão Judicial de Apartamento no Leblon — Av. Ataulfo de Paiva nº 50 — Bloco C1, Apto 404',
+        desc: 'Apartamento residencial 404 de 93 metros quadrados (93 m²) situado no 4º pavimento do Bloco C1 na nobre Avenida Ataulfo de Paiva nº 50, Leblon, Zona Sul do Rio de Janeiro/RJ. Registrado no 2º Ofício de Registro de Imóveis (2º RGI) sob a Matrícula nº 76.790 e inscrição municipal IPTU nº 0255335. Conjunto residencial de 1959 composto por 6 blocos com lazer comum, campo de futebol, parquinho infantil e portaria 24 horas. O Bloco C1 possui 16 andares, 4 apartamentos por andar (64 unidades), sem vaga de garagem e com 2 elevadores (social e serviço) em bom estado. Avaliação judicial oficial homologada em R$ 1.850.000,00. 1º Leilão em 14/12/2026 às 12:40h por R$ 1.850.000,00 e 2º Leilão em 16/12/2026 às 12:40h com lance inicial de 50% por R$ 925.000,00 (~R$ 9.946,23/m² no Leblon).',
+        p1Label: '1ª Praça (14/12/2026):',
+        p1Val: 'R$ 1.850.000,00',
+        p2Label: '2ª Praça (16/12/2026):',
+        p2Val: 'R$ 925.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-bloco-c1-apto-404/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20404%20do%20Bloco%20C1%20na%20Avenida%20Ataulfo%20de%20Paiva%2050%20no%20Leblon%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Santa Teresa (RJ)',
         title: 'Leilão Judicial de Apartamento em Santa Teresa — Rua Francisco Muratori nº 30 — Apto 301',
         desc: 'Apartamento residencial 301 de 64 metros quadrados (64 m²) situado no 3º pavimento na Rua Francisco Muratori nº 30, no aprazível e tradicional bairro de Santa Teresa, Rio de Janeiro/RJ. Registrado no 2º Ofício de Registro de Imóveis (2º RGI) sob a Matrícula nº 42.960 e inscrição municipal IPTU nº 0.584.040-0. Avaliação judicial oficial homologada em R$ 390.000,00. 1º Leilão em 15/12/2026 às 12:10h por R$ 390.000,00 e 2º Leilão em 17/12/2026 às 12:10h com lance inicial de 50% por R$ 195.000,00 (~R$ 3.046,87/m²).',
@@ -1314,6 +1325,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Leblon (RJ)',
+        title: 'Subasta Judicial de Apartamento en Leblon — Av. Ataulfo de Paiva nº 50 — Bloque C1, Apto 404',
+        desc: 'Apartamento residencial 404 de 93 metros cuadrados (93 m²) situado en 4ª planta del Bloque C1 en la prestigiosa Avenida Ataulfo de Paiva nº 50, Leblon, Zona Sur de Río de Janeiro/RJ. Inscrito en el 2º Registro de la Propiedad Inmueble (2º RGI) bajo Matrícula nº 76.790 e IPTU nº 0255335. Edificio de 1959 en conjunto de 6 bloques con área de ocio comunitaria, campo de fútbol, juegos infantiles y portería 24h. El Bloque C1 tiene 16 plantas y 4 apartamentos por planta (64 unidades), sin plaza de garaje, con 2 ascensores (social y servicio) en buen estado. Tasación judicial oficial de R$ 1.850.000,00. 1ª Subasta el 14/12/2026 a las 12:40h por R$ 1.850.000,00 y 2ª Subasta el 16/12/2026 a las 12:40h con salida al 50% por R$ 925.000,00 (~R$ 9.946,23/m² en Leblon).',
+        p1Label: '1ª Subasta (14/12/2026):',
+        p1Val: 'R$ 1.850.000,00',
+        p2Label: '2ª Subasta (16/12/2026):',
+        p2Val: 'R$ 925.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-bloco-c1-apto-404/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20404%20del%20Bloque%20C1%20en%20Avenida%20Ataulfo%20de%20Paiva%2050%20en%20Leblon%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Santa Teresa (RJ)',
         title: 'Subasta Judicial de Apartamento en Santa Teresa — Rua Francisco Muratori nº 30 — Apto 301',
         desc: 'Apartamento residencial 301 de 64 metros cuadrados (64 m²) situado en 3ª planta en Rua Francisco Muratori nº 30, en el tradicional y bohemio barrio de Santa Teresa, Río de Janeiro/RJ. Inscrito en el 2º Registro de la Propiedad Inmueble (2º RGI) bajo Matrícula nº 42.960 e IPTU nº 0.584.040-0. Tasación judicial oficial de R$ 390.000,00. 1ª Subasta el 15/12/2026 a las 12:10h por R$ 390.000,00 y 2ª Subasta el 17/12/2026 a las 12:10h con salida al 50% por R$ 195.000,00 (~R$ 3.046,87/m²).',
@@ -2435,6 +2457,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Leblon (RJ)',
+        title: 'Judicial Auction of Apartment in Leblon — Av. Ataulfo de Paiva #50 — Block C1, Apt 404',
+        desc: 'Prime 93 square meter (93 sqm / 1,001 sq ft) residential apartment 404 on the 4th floor of Block C1 at prestigious Avenida Ataulfo de Paiva #50, Leblon, Rio de Janeiro South Zone. Recorded at the 2nd Real Estate Registry (2nd RGI) under Title #76790 and Municipal Tax IPTU #0255335. Built in 1959, the 6-tower compound offers communal leisure facilities, soccer field, playground, and 24/7 security. Block C1 features 16 floors, 4 units per floor (64 units), without garage, with 2 elevators in good condition. Court appraisal of R$ 1,850,000.00. 1st Auction on 12/14/2026 at 12:40 PM at R$ 1,850,000.00 and 2nd Auction on 12/16/2026 at 12:40 PM starting at 50% for R$ 925,000.00 (~R$ 9,946.23/sqm in Leblon).',
+        p1Label: '1st Auction (12/14/2026):',
+        p1Val: 'R$ 1,850,000.00',
+        p2Label: '2nd Auction (12/16/2026):',
+        p2Val: 'R$ 925,000.00 (50% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-bloco-c1-apto-404/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Avenida%20Ataulfo%20de%20Paiva%2050%20Block%20C1%20Apt%20404%20in%20Leblon%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Santa Teresa (RJ)',
         title: 'Judicial Auction of Apartment in Santa Teresa — Rua Francisco Muratori #30 — Apt 301',

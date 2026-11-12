@@ -29,6 +29,7 @@ import SilveiraMartins503AuctionPage from './components/SilveiraMartins503Auctio
 import VoluntariosPatriaAuctionPage from './components/VoluntariosPatriaAuctionPage';
 import HaddockLoboAuctionPage from './components/HaddockLoboAuctionPage';
 import LeblonAuctionPage from './components/LeblonAuctionPage';
+import LeblonAtaulfoDePaiva50AuctionPage from './components/LeblonAtaulfoDePaiva50AuctionPage';
 import SiqueiraCamposAuctionPage from './components/SiqueiraCamposAuctionPage';
 import LauroMullerAuctionPage from './components/LauroMullerAuctionPage';
 import GaveaAuctionPage from './components/GaveaAuctionPage';
@@ -723,6 +724,15 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117-apto-501" element={<LeblonGeneralUrquiza117AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117/" element={<LeblonGeneralUrquiza117AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/rua-general-urquiza-117" element={<LeblonGeneralUrquiza117AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-bloco-c1-apto-404/" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-bloco-c1-apto-404" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-apto-404/" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50-apto-404" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50/" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/avenida-ataulfo-de-paiva-50" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/ataulfo-de-paiva-50-bloco-c1-apto-404/" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/leblon/apartamento/ataulfo-de-paiva-50-bloco-c1-apto-404" element={<LeblonAtaulfoDePaiva50AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224/" element={<CentroRioBranco185AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/centro/apartamento/avenida-rio-branco-185-apto-1224" element={<CentroRioBranco185AuctionPage />} />

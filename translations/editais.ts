@@ -8189,6 +8189,113 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: 'Why hire Soares Martins Advogados for this transaction?', a: 'We conduct full title examination on Title #42960, audit court dockets at TJRJ, guide auction bidding, and secure judicial possession.' }
         ]
       }
+    },
+    'leblon-ataulfo-de-paiva-50-apto-404': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento no Leblon — Av. Ataulfo de Paiva nº 50 — Bloco C1, Apto 404',
+        subtitle: 'Avenida Ataulfo de Paiva, nº 50, Bloco C1, Apartamento 404 — Leblon, Rio de Janeiro/RJ | 93 m² • Bloco C1 com 16 Andares e 4 Aptos/Andar • 2 Elevadores (Social e Serviço) • Conjunto de 1959 com Lazer Comum, Campo de Futebol, Parquinho e Portaria 24h • 2º Ofício RGI Matrícula 76.790 • Inscrição Municipal IPTU: 0255335 • Avaliação Oficial: R$ 1.850.000,00 • 1º Leilão: 14/12/2026 às 12:40h por R$ 1.850.000,00 • 2º Leilão: 16/12/2026 às 12:40h com Lance Inicial de 50% por R$ 925.000,00 (~R$ 9.946,23/m² no Leblon)',
+        address: 'Avenida Ataulfo de Paiva, nº 50, Bloco C1, Apto 404 — Leblon, Rio de Janeiro - RJ',
+        p1Date: '14/12/2026 às 12:40h',
+        p2Date: '16/12/2026 às 12:40h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '0255335',
+        rgi: '2º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 76.790)',
+        val: 'R$ 1.850.000,00',
+        p2Val: 'R$ 925.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 93 m² de área edificada privativa correspondente à unidade 404 do Bloco C1, situado na prestigiada Avenida Ataulfo de Paiva nº 50, no nobre bairro do Leblon, Zona Sul do Rio de Janeiro/RJ. Imóvel devidamente registrado, dimensionado e caracterizado no Cartório do 2º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 76.790 e inscrição municipal IPTU nº 0255335. O condomínio é composto por 6 blocos erguidos em construção datada de 1959. O Bloco C1 possui 16 andares, com 4 apartamentos por andar, perfazendo 64 unidades, servido por 2 elevadores (social e serviço) em bom estado de conservação, sem vaga de garagem privativa. O condomínio oferece ampla infraestrutura coletiva de lazer para todos os blocos, incluindo campo de futebol, parquinho infantil e portaria presencial 24 horas unificada. Avaliação judicial homologada em R$ 1.850.000,00. 1º Leilão em 14/12/2026 às 12:40h por R$ 1.850.000,00 e 2º Leilão em 16/12/2026 às 12:40h com lance inicial de 50% por R$ 925.000,00 (~R$ 9.946,23/m² no Leblon).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Av. Ataulfo de Paiva nº 50 / Bloco C1, Apto 404 (Leblon)',
+          sections: [
+            { title: '1. Identificação Registral e Cadastral', text: 'Apartamento nº 404 do Bloco C1 na Avenida Ataulfo de Paiva nº 50, Leblon, Rio de Janeiro/RJ. Registrado no 2º Ofício do Registro de Imóveis da Capital sob Matrícula nº 76.790 e inscrição municipal IPTU nº 0255335.' },
+            { title: '2. Dimensão, Pavimento e Características', text: 'Área privativa de 93 m², situado no 4º pavimento do Bloco C1. Prédio com 16 andares, 4 apartamentos por andar (64 unidades no bloco), servido por 2 elevadores (social e serviço) em bom estado, sem vaga de garagem.' },
+            { title: '3. Condomínio e Lazer Coletivo', text: 'Conjunto edificado em 1959 composto por 6 blocos, dispondo de área comum de lazer para todos os blocos, campo de futebol, parquinho para crianças e portaria 24 horas comum.' },
+            { title: '4. Calendário das Praças e Lances Mínimos', text: '1º Leilão: 14/12/2026 às 12:40h por R$ 1.850.000,00 (100% da avaliação). 2º Leilão: 16/12/2026 às 12:40h a partir de R$ 925.000,00 (50% da avaliação oficial).' },
+            { title: '5. Parcelamento Judicial (Art. 895 do CPC)', text: 'Possibilidade legal de arrematação parcelada mediante proposta escrita: sinal mínimo de 25% (R$ 231.250,00 na 2ª praça) e saldo em até 30 parcelas mensais corrigidas com hipoteca judicial na matrícula.' },
+            { title: '6. Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários municipais e de IPTU pretéritos sub-rogam-se sobre o preço obtido na arrematação judicial, resguardando o arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: 'Quais são as datas das praças e os valores para o imóvel na Av. Ataulfo de Paiva 50?', a: 'O 1º Leilão ocorre em 14/12/2026 às 12:40h pelo valor da avaliação de R$ 1.850.000,00. O 2º Leilão ocorre em 16/12/2026 às 12:40h com lance inicial de 50% por R$ 925.000,00 (~R$ 9.946,23/m²).' },
+          { q: 'Quais os dados registrais do apartamento 404 do Bloco C1?', a: 'Apartamento com 93 m² de área privativa no 4º andar do Bloco C1, matriculado sob o nº 76.790 no 2º Ofício de Registro de Imóveis do Rio de Janeiro e IPTU nº 0255335.' },
+          { q: 'Quais são as características do edifício e do condomínio?', a: 'Construção datada de 1959 em condomínio de 6 blocos. O Bloco C1 tem 16 andares, 4 apartamentos por andar (64 unidades), sem garagem e com 2 elevadores (social e serviço) em bom estado. O condomínio conta com área de lazer compartilhada, campo de futebol, parquinho infantil e portaria 24 horas.' },
+          { q: 'Qual o contexto de mercado e rentabilidade no Leblon?', a: 'O valor de 2ª praça a ~R$ 9.946,23/m² no Leblon representa oportunidade histórica, visto que a média praticada no bairro varia entre R$ 22.000 e R$ 35.000/m², permitindo expressivo ganho de capital ou alta rentabilidade de locação.' },
+          { q: 'É permitido parcelar a arrematação judicial deste apartamento?', a: 'Sim. Pelo artigo 895 do CPC, o interessado pode apresentar proposta formal escrita de parcelamento com entrada mínima de 25% e saldo em até 30 meses corrigidos com garantia hipotecária.' },
+          { q: 'Como ficam os débitos de IPTU anteriores à arrematação?', a: 'Conforme o Art. 130, parágrafo único, do CTN, os débitos tributários municipais anteriores sub-rogam-se sobre o preço da arrematação judicial.' },
+          { q: 'Qual a atuação da Soares Martins Advogados neste leilão?', a: 'Realizamos auditoria prévia completa da Matrícula nº 76.790, checamos o processo judicial no TJRJ, formalizamos habilitação e propostas, e conduzimos os atos pós-leilão até a expedição e registro da carta e a imissão na posse com entrega das chaves.' }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Leblon — Av. Ataulfo de Paiva nº 50 — Bloque C1, Apto 404',
+        subtitle: 'Avenida Ataulfo de Paiva, nº 50, Bloque C1, Apartamento 404 — Leblon, Río de Janeiro/RJ | 93 m² • Bloque C1 de 16 Plantas y 4 Aptos/Planta • 2 Ascensores • Conjunto de 1959 con Zona Común de Ocio, Campo de Fútbol, Parque Infantil y Portería 24h • 2º Registro Matrícula 76.790 • IPTU: 0255335 • Tasación Oficial: R$ 1.850.000,00 • 1ª Subasta: 14/12/2026 a las 12:40h por R$ 1.850.000,00 • 2ª Subasta: 16/12/2026 a las 12:40h con Puja Inicial al 50% por R$ 925.000,00 (~R$ 9.946,23/m² en Leblon)',
+        address: 'Avenida Ataulfo de Paiva, nº 50, Bloque C1, Apto 404 — Leblon, Río de Janeiro - RJ',
+        p1Date: '14/12/2026 a las 12:40h',
+        p2Date: '16/12/2026 a las 12:40h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '0255335',
+        rgi: '2º Registro de la Propiedad Inmueble de Río de Janeiro (Matrícula nº 76.790)',
+        val: 'R$ 1.850.000,00',
+        p2Val: 'R$ 925.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 93 m² de superficie privativa en la unidad 404 del Bloque C1 en Avenida Ataulfo de Paiva nº 50, en el exclusivo barrio de Leblon, Río de Janeiro/RJ. Inscrito en el 2º RGI bajo Matrícula nº 76.790 e IPTU nº 0255335. Edificio de 1959 en conjunto de 6 bloques. El Bloque C1 cuenta con 16 plantas, 4 viviendas por planta (64 unidades), 2 ascensores en buen estado, sin garaje. Conjunto con zona de ocio común, campo de fútbol, juegos infantiles y portería 24h. Tasación judicial oficial de R$ 1.850.000,00. 1ª Subasta el 14/12/2026 a las 12:40h por R$ 1.850.000,00 y 2ª Subasta el 16/12/2026 a las 12:40h con salida al 50% por R$ 925.000,00 (~R$ 9.946,23/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Av. Ataulfo de Paiva 50 / Bloque C1, Apto 404 (Leblon)',
+          sections: [
+            { title: '1. Identificación Registral', text: 'Apartamento 404 del Bloque C1 en Avenida Ataulfo de Paiva nº 50, Leblon, Río de Janeiro/RJ. Matrícula nº 76.790 del 2º Registro e IPTU nº 0255335.' },
+            { title: '2. Superficie y Características', text: '93 m² privativos en 4ª planta. Bloque de 16 plantas y 4 unidades por piso (64 unidades), con 2 ascensores en buen estado, sin garaje.' },
+            { title: '3. Condominio y Servicios Comunitarios', text: 'Construcción de 1959 con 6 bloques, área de ocio compartida, campo de fútbol, parque infantil y conserjería 24 horas unificada.' },
+            { title: '4. Fechas y Precios de Salida', text: '1ª Subasta: 14/12/2026 a las 12:40h por R$ 1.850.000,00. 2ª Subasta: 16/12/2026 a las 12:40h a partir de R$ 925.000,00 (50% de la tasación).' },
+            { title: '5. Pago Fraccionado (Art. 895 CPC)', text: 'Posibilidad de pago aplazado judicial: 25% de anticipo y saldo en hasta 30 cuotas con hipoteca judicial.' },
+            { title: '6. Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias de IPTU anteriores se cancelan con el precio de remate.' }
+          ]
+        },
+        faqs: [
+          { q: '¿Cuáles son las fechas y precios de salida para Av. Ataulfo de Paiva 50?', a: 'La 1ª Subasta es el 14/12/2026 a las 12:40h por R$ 1.850.000,00. La 2ª Subasta es el 16/12/2026 a las 12:40h a partir de R$ 925.000,00 (~R$ 9.946,23/m²).' },
+          { q: '¿Cuáles son los datos registrales del apartamento 404 Bloque C1?', a: 'Apartamento de 93 m² en 4ª planta del Bloque C1, registrado en el 2º RGI bajo Matrícula nº 76.790 e IPTU nº 0255335.' },
+          { q: '¿Cuáles son las características del condominio?', a: 'Conjunto de 1959 con 6 bloques. Bloque C1 de 16 plantas con 4 apartamentos por piso, 2 ascensores, sin plaza de garaje, con campo de fútbol, juegos infantiles y portería 24h común.' },
+          { q: '¿Cuál es el potencial de mercado en Leblon?', a: 'Acceder a ~R$ 9.946,23/m² en Leblon representa una oportunidad excepcional frente a los precios habituales de R$ 22.000 a R$ 35.000/m² en la zona.' },
+          { q: '¿Es posible adquirir el bien a plazos?', a: 'Sí, conforme al Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con garantía hipotecaria.' },
+          { q: '¿Qué ocurre con las deudas de impuestos?', a: 'En virtud del Art. 130 del CTN, las deudas fiscales de IPTU anteriores se subrogan en el precio rematado en la subasta.' },
+          { q: '¿Por qué contratar a Soares Martins Advogados?', a: 'Efectuamos el análisis técnico de la Matrícula nº 76.790, auditamos el proceso en el TJRJ y gestionamos la entrega judicial de llaves.' }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Leblon — Av. Ataulfo de Paiva #50 — Block C1, Apt 404',
+        subtitle: 'Avenida Ataulfo de Paiva, #50, Block C1, Apartment 404 — Leblon, Rio de Janeiro/RJ | 93 sqm (1,001 sq ft) • Block C1 with 16 Floors & 4 Units/Floor • 2 Elevators (Passenger/Service) • 1959 Compound with Shared Leisure Area, Soccer Pitch, Children Playground & 24/7 Gatehouse • 2nd Land Registry Title #76790 • Municipal Tax IPTU: 0255335 • Official Appraisal: R$ 1,850,000.00 • 1st Auction: 12/14/2026 at 12:40 PM at R$ 1,850,000.00 • 2nd Auction: 12/16/2026 at 12:40 PM starting at 50% for R$ 925,000.00 (~R$ 9,946.23/sqm in Leblon)',
+        address: 'Avenida Ataulfo de Paiva, #50, Block C1, Apt 404 — Leblon, Rio de Janeiro - RJ',
+        p1Date: '12/14/2026 at 12:40 PM',
+        p2Date: '12/16/2026 at 12:40 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '0255335',
+        rgi: '2nd Land Registry Office of Rio de Janeiro (Title #76790)',
+        val: 'R$ 1,850,000.00',
+        p2Val: 'R$ 925,000.00 (2nd Auction starting bid - 50%)',
+        description: 'Prime 93 square meter (93 sqm / 1,001 sq ft) private residential apartment located on the 4th floor (Unit 404) of Block C1 within the distinguished complex located at Avenida Ataulfo de Paiva #50, in prime Leblon, Rio de Janeiro South Zone. Duly registered and characterized before the 2nd Real Estate Registry Office under Title #76790 and enrolled with municipal tax authority IPTU #0255335. Built in 1959, the residential condominium consists of 6 towers. Block C1 features 16 stories with 4 apartments per floor (64 units total), serviced by 2 well-maintained elevators (passenger and service), without dedicated garage parking. The compound offers extensive shared leisure amenities across all towers, including a soccer field, children playground, and 24/7 security gatehouse. Official court valuation assigned at R$ 1,850,000.00. 1st Auction on Dec 14, 2026 at 12:40 PM for R$ 1,850,000.00. 2nd Auction on Dec 16, 2026 at 12:40 PM starting at 50% for R$ 925,000.00 (~R$ 9,946.23/sqm in prime Leblon).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Av. Ataulfo de Paiva #50 / Block C1, Apt 404 (Leblon)',
+          sections: [
+            { title: '1. Title and Cadastral Details', text: 'Apartment 404, Block C1 at Avenida Ataulfo de Paiva #50, Leblon, Rio de Janeiro/RJ. 2nd Land Registry Title #76790 and Municipal Tax IPTU #0255335.' },
+            { title: '2. Floor Area & Layout', text: '93 sqm private area on the 4th floor. 16-story tower with 4 units per floor (64 units in Block C1), 2 elevators in good condition, without deeded garage space.' },
+            { title: '3. Condominium Amenities', text: '1959 residential compound of 6 towers, featuring shared recreation grounds, soccer pitch, children playground, and 24/7 security gatehouse.' },
+            { title: '4. Auction Dates and Starting Bids', text: '1st Auction: 12/14/2026 at 12:40 PM at R$ 1,850,000.00. 2nd Auction: 12/16/2026 at 12:40 PM starting at R$ 925,000.00 (50% reserve).' },
+            { title: '5. Court Financing Terms (CPC Art. 895)', text: 'Judicial installment proposal available: 25% down payment and balance in up to 30 monthly installments with judicial mortgage.' },
+            { title: '6. Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Pre-existing property taxes subrogate into the auction proceeds under CTN Art. 130.' }
+          ]
+        },
+        faqs: [
+          { q: 'What are the auction dates and reserve prices for Av. Ataulfo de Paiva #50?', a: 'The 1st Auction is on 12/14/2026 at 12:40 PM at R$ 1,850,000.00. The 2nd Auction is on 12/16/2026 at 12:40 PM starting at R$ 925,000.00 (~R$ 9,946.23/sqm).' },
+          { q: 'What are the legal title and cadastral numbers for this apartment?', a: 'Apartment 404 features 93 sqm on the 4th floor of Block C1 at Av. Ataulfo de Paiva #50, Leblon. Recorded at the 2nd Land Registry under Title #76790 and IPTU tax ID #0255335.' },
+          { q: 'What are the building and compound features?', a: '1959 development of 6 blocks. Block C1 has 16 floors, 4 units per floor, 2 elevators, no parking, with shared soccer pitch, playground, and 24/7 security.' },
+          { q: 'What is the market context for this property in Leblon?', a: 'Acquisition pricing at ~R$ 9,946.23/sqm represents massive discount against Leblon market averages of R$ 22,000 to R$ 35,000/sqm.' },
+          { q: 'Can this apartment be purchased through court installment plans?', a: 'Yes. Under CPC Article 895, investors can propose a 25% down payment with the balance paid over up to 30 monthly installments secured by mortgage.' },
+          { q: 'How are past municipal taxes handled?', a: 'Under CTN Article 130, property taxes subrogate into the auction proceeds, delivering clear title to the purchaser.' },
+          { q: 'Why hire Soares Martins Advogados for this transaction?', a: 'We conduct full title examination on Title #76790, audit court dockets at TJRJ, guide auction bidding, and secure judicial possession.' }
+        ]
+      }
     }
   };
 
