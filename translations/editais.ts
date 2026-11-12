@@ -8296,6 +8296,113 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
           { q: 'Why hire Soares Martins Advogados for this transaction?', a: 'We conduct full title examination on Title #76790, audit court dockets at TJRJ, guide auction bidding, and secure judicial possession.' }
         ]
       }
+    },
+    'urca-ramon-franco-120-apto-402': {
+      pt: {
+        title: 'Leilão Judicial de Apartamento na Urca — Rua Ramon Franco nº 120 — Apto 402',
+        subtitle: 'Rua Ramon Franco, nº 120, Apartamento 402 — Urca, Rio de Janeiro/RJ | 207 m² • Imóvel Fechado e Vazio • 4 Quartos (1 Suíte), Lavabo e Varandão de Frente • 2 Quartos de Empregada com Banheiro • Prédio de 1986 Revestido em Mármore Branco • 5 Andares (2 Aptos/Andar) • Garagem, Portaria 24h, Elevadores e Playground • 3º Ofício RGI Matrícula 28.513 • Inscrição Municipal IPTU: 00-9.009.974/2026-0 • Avaliação Oficial: R$ 3.500.000,00 • 1º Leilão: 01/12/2026 às 12:00h por R$ 3.500.000,00 • 2º Leilão: 15/12/2026 às 12:00h com Lance Inicial de 50% por R$ 1.750.000,00 (~R$ 8.454,10/m² na Urca)',
+        address: 'Rua Ramon Franco, nº 120, Apto 402 — Urca, Rio de Janeiro - RJ',
+        p1Date: '01/12/2026 às 12:00h',
+        p2Date: '15/12/2026 às 12:00h',
+        process: 'Execução Judicial / TJRJ',
+        court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
+        iptu: '00-9.009.974/2026-0',
+        rgi: '3º Ofício de Registro de Imóveis do Rio de Janeiro (Matrícula nº 28.513)',
+        val: 'R$ 3.500.000,00',
+        p2Val: 'R$ 1.750.000,00 (Lance inicial 2ª Praça - 50%)',
+        description: 'Apartamento residencial de 207 m² de área edificada privativa correspondente à unidade 404/402 do edifício situado na valorizada Rua Ramon Franco nº 120, no aprazível e exclusivo bairro da Urca, Zona Sul do Rio de Janeiro/RJ, quase na esquina com a Avenida Portugal. Imóvel devidamente registrado, dimensionado e caracterizado no Cartório do 3º Ofício de Registro de Imóveis sob a Matrícula nº 28.513 e inscrição municipal IPTU nº 00-9.009.974/2026-0. O imóvel encontra-se fechado e vazio (desocupado de pessoas). Possui 207 m² divididos em 4 quartos (sendo 1 suíte), banheiro social, lavabo, sala ampla, varandão de frente, cozinha e 2 quartos de empregada com banheiro. Prédio construído em 1986, todo revestido em mármore branco e muito bem conservado, composto por 5 andares com apenas 2 apartamentos por andar (todos de frente e com varandão), dispondo de vaga de garagem, portaria 24 horas, elevadores e playground. Avaliação judicial homologada em R$ 3.500.000,00. 1º Leilão em 01/12/2026 a partir das 12:00h por R$ 3.500.000,00 e 2º Leilão em 15/12/2026 a partir das 12:00h com lance inicial de 50% por R$ 1.750.000,00 (~R$ 8.454,10/m² na Urca).',
+        checklist: defaultChecklist.pt,
+        modal: {
+          title: 'Resumo Estruturado do Edital — Rua Ramon Franco nº 120 / Apto 402 (Urca)',
+          sections: [
+            { title: '1. Identificação Registral e Cadastral', text: 'Apartamento nº 402 na Rua Ramon Franco nº 120, Urca, Rio de Janeiro/RJ (quase na esquina com a Av. Portugal). Registrado no 3º Ofício do Registro de Imóveis da Capital sob Matrícula nº 28.513 e inscrição municipal IPTU nº 00-9.009.974/2026-0.' },
+            { title: '2. Dimensão, Divisão Interna e Estado de Ocupação', text: 'Área privativa de 207 m², imóvel fechado e vazio. Composto por 4 quartos (1 suíte), banheiro social, lavabo, sala, varandão de frente, cozinha e 2 quartos de empregada com banheiro.' },
+            { title: '3. Características do Edifício (Construção 1986)', text: 'Prédio em mármore branco bem conservado, 5 andares com 2 apartamentos por andar (todos de frente com varandão), vaga de garagem, portaria 24 horas, elevadores e playground.' },
+            { title: '4. Calendário das Praças e Lances Mínimos', text: '1º Leilão: 01/12/2026 a partir das 12:00h por R$ 3.500.000,00 (100% da avaliação). 2º Leilão: 15/12/2026 a partir das 12:00h a partir de R$ 1.750.000,00 (50% da avaliação oficial).' },
+            { title: '5. Parcelamento Judicial (Art. 895 do CPC)', text: 'Possibilidade legal de arrematação parcelada mediante proposta escrita: sinal mínimo de 25% (R$ 437.500,00 na 2ª praça) e saldo em até 30 parcelas mensais corrigidas com hipoteca judicial na matrícula.' },
+            { title: '6. Sub-rogação Fiscal (Art. 130 do CTN)', text: 'Débitos tributários municipais e de IPTU pretéritos sub-rogam-se sobre o preço obtido na arrematação judicial, resguardando o arrematante.' }
+          ]
+        },
+        faqs: [
+          { q: 'Quais são as datas das praças e os valores para o imóvel na Rua Ramon Franco 120?', a: 'O 1º Leilão ocorre em 01/12/2026 a partir das 12:00h pelo valor da avaliação de R$ 3.500.000,00. O 2º Leilão ocorre em 15/12/2026 a partir das 12:00h com lance inicial de 50% por R$ 1.750.000,00 (~R$ 8.454,10/m²).' },
+          { q: 'Qual a situação de ocupação do apartamento 402?', a: 'O imóvel encontra-se formalmente fechado e vazio (desocupado de pessoas), facilitando imensamente a celeridade da imissão na posse e entrega das chaves.' },
+          { q: 'Quais são os dados registrais e dimensões do imóvel?', a: 'Possui 207 m² de área privativa, 4 quartos (1 suíte), lavabo, varandão de frente e 2 quartos de serviço, matriculado sob o nº 28.513 no 3º Ofício de Registro de Imóveis do RJ e IPTU nº 00-9.009.974/2026-0.' },
+          { q: 'Quais as características do condomínio?', a: 'Edifício de 1986 revestido em mármore branco, 5 andares, apenas 2 apartamentos por andar (todos de frente com varandão), portaria 24 horas, garagem, elevadores e playground, localizado quase na esquina com a Avenida Portugal.' },
+          { q: 'Qual o contexto de mercado na Urca?', a: 'Imóveis de 207 m² com 4 quartos em prédios nobres na Urca são extremamente raros e avaliados entre R$ 18.000 e R$ 26.000/m². O lance de 2ª praça a ~R$ 8.454,10/m² assegura rentabilidade e blindagem patrimonial sem precedentes.' },
+          { q: 'É permitido parcelar a arrematação judicial deste imóvel?', a: 'Sim. Pelo artigo 895 do CPC, o interessado pode apresentar proposta formal escrita de parcelamento com entrada mínima de 25% e saldo em até 30 meses corrigidos.' },
+          { q: 'Como a Soares Martins Advogados atua nesta arrematação?', a: 'Auditamos integralmente a Matrícula nº 28.513 e os autos da execução no TJRJ, formulamos a estratégia de lances e parcelamento, e conduzimos todas as formalidades até o registro imobiliário e a posse definitiva.' }
+        ]
+      },
+      es: {
+        title: 'Subasta Judicial de Apartamento en Urca — Rua Ramon Franco nº 120 — Apto 402',
+        subtitle: 'Rua Ramon Franco, nº 120, Apartamento 402 — Urca, Río de Janeiro/RJ | 207 m² • Inmueble Cerrado y Vacío • 4 Dormitorios (1 Suite), Aseo y Gran Terraza al Frente • 2 Habitaciones de Servicio • Edificio de 1986 Revestido en Mármol Blanco • 5 Plantas (2 Aptos/Planta) • Garaje, Portería 24h, Ascensores y Parque Infantil • 3º Registro Matrícula 28.513 • IPTU: 00-9.009.974/2026-0 • Tasación Oficial: R$ 3.500.000,00 • 1ª Subasta: 01/12/2026 a las 12:00h por R$ 3.500.000,00 • 2ª Subasta: 15/12/2026 a las 12:00h con Puja Inicial al 50% por R$ 1.750.000,00 (~R$ 8.454,10/m² en Urca)',
+        address: 'Rua Ramon Franco, nº 120, Apto 402 — Urca, Río de Janeiro - RJ',
+        p1Date: '01/12/2026 a las 12:00h',
+        p2Date: '15/12/2026 a las 12:00h',
+        process: 'Ejecución Judicial / TJRJ',
+        court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
+        iptu: '00-9.009.974/2026-0',
+        rgi: '3º Registro de la Propiedad Inmueble de Río de Janeiro (Matrícula nº 28.513)',
+        val: 'R$ 3.500.000,00',
+        p2Val: 'R$ 1.750.000,00 (Puja inicial 2ª Subasta - 50%)',
+        description: 'Apartamento residencial de 207 m² de superficie privativa en la unidad 402 en Rua Ramon Franco nº 120, en el exclusivo y seguro barrio de Urca, Río de Janeiro/RJ, casi esquina con Avenida Portugal. Inscrito en el 3º RGI bajo Matrícula nº 28.513 e IPTU nº 00-9.009.974/2026-0. El inmueble se encuentra cerrado y desocupado (vacío). Consta de 4 dormitorios (1 suite), baño, aseo, salón, gran terraza al frente, cocina y 2 dormitorios de servicio con baño. Edificio de 1986 revestido en mármol blanco, 5 plantas con 2 apartamentos por planta (todos al frente con gran terraza), plaza de garaje, portería 24h, ascensores y zona infantil. Tasación judicial oficial de R$ 3.500.000,00. 1ª Subasta el 01/12/2026 a las 12:00h por R$ 3.500.000,00 y 2ª Subasta el 15/12/2026 a las 12:00h con salida al 50% por R$ 1.750.000,00 (~R$ 8.454,10/m²).',
+        checklist: defaultChecklist.es,
+        modal: {
+          title: 'Resumen Estructurado del Edicto — Rua Ramon Franco 120 / Apto 402 (Urca)',
+          sections: [
+            { title: '1. Identificación Registral', text: 'Apartamento 402 en Rua Ramon Franco nº 120, Urca, Río de Janeiro/RJ. Matrícula nº 28.513 del 3º Registro e IPTU nº 00-9.009.974/2026-0.' },
+            { title: '2. Superficie, Distribución y Estado', text: '207 m² privativos, cerrado y vacío. 4 dormitorios (1 suite), baño, aseo, salón, gran terraza, cocina y 2 dormitorios de servicio.' },
+            { title: '3. Edificio de Mármol Blanco (1986)', text: '5 plantas, 2 unidades por planta (todas al frente con terraza), garaje, conserjería 24 horas, ascensores y parque infantil.' },
+            { title: '4. Fechas y Precios de Salida', text: '1ª Subasta: 01/12/2026 a las 12:00h por R$ 3.500.000,00. 2ª Subasta: 15/12/2026 a las 12:00h a partir de R$ 1.750.000,00 (50% de la tasación).' },
+            { title: '5. Pago Fraccionado (Art. 895 CPC)', text: 'Posibilidad de pago aplazado judicial: 25% de anticipo y saldo en hasta 30 cuotas con hipoteca judicial.' },
+            { title: '6. Subrogación Fiscal (Art. 130 CTN)', text: 'Las deudas tributarias de IPTU anteriores se cancelan con el precio de remate.' }
+          ]
+        },
+        faqs: [
+          { q: '¿Cuáles son las fechas y precios de salida para Rua Ramon Franco 120?', a: 'La 1ª Subasta es el 01/12/2026 a las 12:00h por R$ 3.500.000,00. La 2ª Subasta es el 15/12/2026 a las 12:00h a partir de R$ 1.750.000,00 (~R$ 8.454,10/m²).' },
+          { q: '¿Cuál es el estado de ocupación del apartamento?', a: 'El inmueble está cerrado y vacío (desocupado de personas), permitiendo una toma de posesión expedita.' },
+          { q: '¿Cuáles son los datos registrales de la vivienda?', a: 'Cuenta con 207 m², 4 dormitorios (1 suite), terraza al frente y 2 cuartos de servicio, matriculado con el nº 28.513 en el 3º Registro e IPTU nº 00-9.009.974/2026-0.' },
+          { q: '¿Qué características tiene el edificio?', a: 'Construido en 1986, todo revestido en mármol blanco, 5 plantas con 2 pisos por planta, garaje, portería 24h, ascensores y zona de juegos.' },
+          { q: '¿Cuál es el contexto de mercado en Urca?', a: 'El metro cuadrado en Urca ronda entre R$ 18.000 y R$ 26.000/m². Entrar a ~R$ 8.454,10/m² representa una oportunidad patrimonial insuperable.' },
+          { q: '¿Se puede abonar a plazos judicialmente?', a: 'Sí, conforme al Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas con garantía hipotecaria.' },
+          { q: '¿Por qué contratar a Soares Martins Advogados?', a: 'Efectuamos el análisis técnico de la Matrícula nº 28.513, auditamos el proceso en el TJRJ y gestionamos la entrega judicial de llaves.' }
+        ]
+      },
+      en: {
+        title: 'Judicial Auction of Apartment in Urca — Rua Ramon Franco #120 — Apt 402',
+        subtitle: 'Rua Ramon Franco, #120, Apartment 402 — Urca, Rio de Janeiro/RJ | 207 sqm (2,228 sq ft) • Vacant and Locked Unit • 4 Bedrooms (1 En-Suite), Powder Room & Large Front Balcony • 2 Maid Rooms with Bathroom • 1986 Building in White Marble • 5 Floors (2 Units/Floor) • Garage, 24/7 Doorman, Elevators & Playground • 3rd Land Registry Title #28513 • Municipal Tax IPTU: 00-9.009.974/2026-0 • Official Appraisal: R$ 3,500,000.00 • 1st Auction: 12/01/2026 at 12:00 PM at R$ 3,500,000.00 • 2nd Auction: 12/15/2026 at 12:00 PM starting at 50% for R$ 1,750,000.00 (~R$ 8,454.10/sqm in Urca)',
+        address: 'Rua Ramon Franco, #120, Apt 402 — Urca, Rio de Janeiro - RJ',
+        p1Date: '12/01/2026 at 12:00 PM',
+        p2Date: '12/15/2026 at 12:00 PM',
+        process: 'Judicial Execution / TJRJ',
+        court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
+        iptu: '00-9.009.974/2026-0',
+        rgi: '3rd Land Registry Office of Rio de Janeiro (Title #28513)',
+        val: 'R$ 3,500,000.00',
+        p2Val: 'R$ 1,750,000.00 (2nd Auction starting bid - 50%)',
+        description: 'Prime 207 square meter (207 sqm / 2,228 sq ft) private residential apartment located on the 4th floor (Unit 402) situated on Rua Ramon Franco #120, in the quiet and prestigious waterfront enclave of Urca, Rio de Janeiro/RJ, steps from Avenida Portugal. Duly registered and characterized before the 3rd Real Estate Registry Office under Title #28513 and enrolled with municipal tax authority IPTU #00-9.009.974/2026-0. The apartment is closed and completely vacant of occupants. Generously laid out with 4 bedrooms (including 1 en-suite), guest bathroom, powder room, expansive living room, large street-facing balcony, kitchen, and 2 separate maid rooms with dedicated bathroom. Built in 1986, the building is fully clad in pristine white marble, featuring 5 floors with only 2 apartments per floor (all front-facing with large balconies), deeded garage parking, 24/7 security concierge, modern elevators, and children playground. Official court valuation assigned at R$ 3,500,000.00. 1st Auction on Dec 01, 2026 at 12:00 PM for R$ 3,500,000.00. 2nd Auction on Dec 15, 2026 at 12:00 PM starting at 50% for R$ 1,750,000.00 (~R$ 8,454.10/sqm in prime Urca).',
+        checklist: defaultChecklist.en,
+        modal: {
+          title: 'Structured Notice Summary — Rua Ramon Franco #120 / Apt 402 (Urca)',
+          sections: [
+            { title: '1. Title and Cadastral Details', text: 'Apartment 402 at Rua Ramon Franco #120, Urca, Rio de Janeiro/RJ. 3rd Land Registry Title #28513 and Municipal Tax IPTU #00-9.009.974/2026-0.' },
+            { title: '2. Floor Area, Layout & Vacancy', text: '207 sqm private area, closed and vacant. Features 4 bedrooms (1 en-suite), guest bath, powder room, living room, large balcony, kitchen, and 2 maid bedrooms with bath.' },
+            { title: '3. 1986 White Marble Building Amenities', text: '5-story luxury building clad in white marble, 2 units per floor, garage parking, 24/7 concierge, elevators, and playground near Avenida Portugal.' },
+            { title: '4. Auction Dates and Starting Bids', text: '1st Auction: 12/01/2026 at 12:00 PM at R$ 3,500,000.00. 2nd Auction: 12/15/2026 at 12:00 PM starting at R$ 1,750,000.00 (50% reserve).' },
+            { title: '5. Court Financing Terms (CPC Art. 895)', text: 'Judicial installment proposal available: 25% down payment and balance in up to 30 monthly installments with judicial mortgage.' },
+            { title: '6. Tax Subrogation & Clear Title (CTN Art. 130)', text: 'Pre-existing property taxes subrogate into the auction proceeds under CTN Art. 130.' }
+          ]
+        },
+        faqs: [
+          { q: 'What are the auction dates and reserve prices for Rua Ramon Franco #120?', a: 'The 1st Auction is on 12/01/2026 at 12:00 PM at R$ 3,500,000.00. The 2nd Auction is on 12/15/2026 at 12:00 PM starting at R$ 1,750,000.00 (~R$ 8,454.10/sqm).' },
+          { q: 'Is the apartment currently occupied?', a: 'The property is officially closed and completely vacant, ensuring swift post-auction judicial possession and immediate handover of keys.' },
+          { q: 'What are the legal title and cadastral numbers for this apartment?', a: 'Apartment 402 features 207 sqm, 4 bedrooms, front balcony, and 2 maid rooms. Recorded at the 3rd Land Registry under Title #28513 and IPTU #00-9.009.974/2026-0.' },
+          { q: 'What are the building features?', a: '1986 white marble building, 5 stories, 2 apartments per floor, garage, 24/7 doorman, elevators, and playground near Av. Portugal.' },
+          { q: 'What is the market context for this property in Urca?', a: 'Urca real estate trades between R$ 18,000 and R$ 26,000/sqm. Entering at ~R$ 8,454.10/sqm provides exceptional equity upside and safety.' },
+          { q: 'Can this apartment be purchased through court installment plans?', a: 'Yes. Under CPC Article 895, investors can propose a 25% down payment with the balance paid over up to 30 monthly installments secured by mortgage.' },
+          { q: 'Why hire Soares Martins Advogados for this transaction?', a: 'We conduct full title examination on Title #28513, audit court dockets at TJRJ, guide auction bidding, and secure judicial possession.' }
+        ]
+      }
     }
   };
 

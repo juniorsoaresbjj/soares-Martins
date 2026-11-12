@@ -170,6 +170,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atendimento presencial em Ipanema/RJ e suporte jurídico virtual para todo o Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Urca (RJ)',
+        title: 'Leilão Judicial de Apartamento na Urca — Rua Ramon Franco nº 120 — Apto 402',
+        desc: 'Apartamento residencial de 207 metros quadrados (207 m²) fechado e vazio no 4º pavimento do nobre edifício situado na Rua Ramon Franco nº 120, na Urca, quase esquina com a Avenida Portugal, Zona Sul do Rio de Janeiro/RJ. Dividido em 4 quartos (1 suíte), banheiro social, lavabo, sala ampla, varandão de frente, cozinha e 2 quartos de empregada com banheiro. Prédio construído em 1986 todo em mármore branco bem conservado, com 5 andares (2 por andar), garagem, portaria 24 horas, elevadores e playground. Registrado no 3º Ofício de Registro de Imóveis (3º RGI) sob a Matrícula nº 28.513 e IPTU nº 00-9.009.974/2026-0. Avaliação judicial oficial de R$ 3.500.000,00. 1º Leilão em 01/12/2026 a partir das 12:00h por R$ 3.500.000,00 e 2º Leilão em 15/12/2026 a partir das 12:00h com lance inicial de 50% por R$ 1.750.000,00 (~R$ 8.454,10/m² na Urca).',
+        p1Label: '1ª Praça (01/12/2026):',
+        p1Val: 'R$ 3.500.000,00',
+        p2Label: '2ª Praça (15/12/2026):',
+        p2Val: 'R$ 1.750.000,00 (50% da avaliação)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120-apto-402/',
+        waText: 'Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20leil%C3%A3o%20do%20apartamento%20402%20na%20Rua%20Ramon%20Franco%20120%20na%20Urca%20-%20RJ.'
+      },
+      {
         tag: 'Residencial • Leblon (RJ)',
         title: 'Leilão Judicial de Apartamento no Leblon — Av. Ataulfo de Paiva nº 50 — Bloco C1, Apto 404',
         desc: 'Apartamento residencial 404 de 93 metros quadrados (93 m²) situado no 4º pavimento do Bloco C1 na nobre Avenida Ataulfo de Paiva nº 50, Leblon, Zona Sul do Rio de Janeiro/RJ. Registrado no 2º Ofício de Registro de Imóveis (2º RGI) sob a Matrícula nº 76.790 e inscrição municipal IPTU nº 0255335. Conjunto residencial de 1959 composto por 6 blocos com lazer comum, campo de futebol, parquinho infantil e portaria 24 horas. O Bloco C1 possui 16 andares, 4 apartamentos por andar (64 unidades), sem vaga de garagem e com 2 elevadores (social e serviço) em bom estado. Avaliação judicial oficial homologada em R$ 1.850.000,00. 1º Leilão em 14/12/2026 às 12:40h por R$ 1.850.000,00 e 2º Leilão em 16/12/2026 às 12:40h com lance inicial de 50% por R$ 925.000,00 (~R$ 9.946,23/m² no Leblon).',
@@ -1325,6 +1336,17 @@ const pageTranslations: Record<string, any> = {
     ctaFooterNote: 'Atención presencial en Ipanema/RJ y soporte jurídico virtual para todo Brasil.',
     auctionItems: [
       {
+        tag: 'Residencial • Urca (RJ)',
+        title: 'Subasta Judicial de Apartamento en Urca — Rua Ramon Franco nº 120 — Apto 402',
+        desc: 'Apartamento residencial de 207 metros cuadrados (207 m²) cerrado y vacío en 4ª planta de distinguido edificio en Rua Ramon Franco nº 120, Urca, casi esquina con Avenida Portugal, Zona Sur de Río de Janeiro/RJ. Consta de 4 dormitorios (1 suite), baño social, aseo, salón amplio, gran terraza de frente, cocina y 2 dormitorios de servicio con baño. Edificio de 1986 revestido en mármol blanco, 5 plantas (2 por planta), garaje, portería 24h, ascensores y zona infantil. Inscrito en el 3º Registro (3º RGI) bajo Matrícula nº 28.513 e IPTU nº 00-9.009.974/2026-0. Tasación judicial oficial de R$ 3.500.000,00. 1ª Subasta el 01/12/2026 a partir de las 12:00h por R$ 3.500.000,00 y 2ª Subasta el 15/12/2026 a partir de las 12:00h con salida al 50% por R$ 1.750.000,00 (~R$ 8.454,10/m² en Urca).',
+        p1Label: '1ª Subasta (01/12/2026):',
+        p1Val: 'R$ 3.500.000,00',
+        p2Label: '2ª Subasta (15/12/2026):',
+        p2Val: 'R$ 1.750.000,00 (50% de la tasación)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120-apto-402/',
+        waText: 'Hola,%20quisiera%20informaci%C3%B3n%20sobre%20la%20subasta%20del%20apartamento%20402%20en%20Rua%20Ramon%20Franco%20120%20en%20Urca%20-%20R%C3%ADo%20de%20Janeiro.'
+      },
+      {
         tag: 'Residencial • Leblon (RJ)',
         title: 'Subasta Judicial de Apartamento en Leblon — Av. Ataulfo de Paiva nº 50 — Bloque C1, Apto 404',
         desc: 'Apartamento residencial 404 de 93 metros cuadrados (93 m²) situado en 4ª planta del Bloque C1 en la prestigiosa Avenida Ataulfo de Paiva nº 50, Leblon, Zona Sur de Río de Janeiro/RJ. Inscrito en el 2º Registro de la Propiedad Inmueble (2º RGI) bajo Matrícula nº 76.790 e IPTU nº 0255335. Edificio de 1959 en conjunto de 6 bloques con área de ocio comunitaria, campo de fútbol, juegos infantiles y portería 24h. El Bloque C1 tiene 16 plantas y 4 apartamentos por planta (64 unidades), sin plaza de garaje, con 2 ascensores (social y servicio) en buen estado. Tasación judicial oficial de R$ 1.850.000,00. 1ª Subasta el 14/12/2026 a las 12:40h por R$ 1.850.000,00 y 2ª Subasta el 16/12/2026 a las 12:40h con salida al 50% por R$ 925.000,00 (~R$ 9.946,23/m² en Leblon).',
@@ -2457,6 +2479,17 @@ const pageTranslations: Record<string, any> = {
     ctaEmailButton: 'Send Corporate Email',
     ctaFooterNote: 'In-person consultation in Ipanema/RJ and virtual legal support throughout Brazil.',
     auctionItems: [
+      {
+        tag: 'Residential • Urca (RJ)',
+        title: 'Judicial Auction of Apartment in Urca — Rua Ramon Franco #120 — Apt 402',
+        desc: 'Prime 207 square meter (207 sqm / 2,228 sq ft) residential apartment 402 on the 4th floor at Rua Ramon Franco #120, in Urca, near Avenida Portugal, Rio de Janeiro South Zone. Closed and vacant unit featuring 4 bedrooms (1 en-suite), guest bathroom, powder room, large living room, front-facing balcony, kitchen, and 2 maid rooms with bathroom. 1986 white marble building, 5 stories (2 units/floor), garage, 24/7 security concierge, elevators, and playground. Recorded at 3rd Real Estate Registry (3rd RGI) under Title #28513 and IPTU #00-9.009.974/2026-0. Court appraisal of R$ 3,500,000.00. 1st Auction on 12/01/2026 from 12:00 PM at R$ 3,500,000.00 and 2nd Auction on 12/15/2026 from 12:00 PM starting at 50% for R$ 1,750,000.00 (~R$ 8,454.10/sqm in Urca).',
+        p1Label: '1st Auction (12/01/2026):',
+        p1Val: 'R$ 3,500,000.00',
+        p2Label: '2nd Auction (12/15/2026):',
+        p2Val: 'R$ 1,750,000.00 (50% reserve bid)',
+        link: '/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120-apto-402/',
+        waText: 'Hello,%20I%20would%20like%20information%20about%20the%20apartment%20auction%20at%20Rua%20Ramon%20Franco%20120%20Apt%20402%20in%20Urca%20-%20Rio%20de%20Janeiro.'
+      },
       {
         tag: 'Residential • Leblon (RJ)',
         title: 'Judicial Auction of Apartment in Leblon — Av. Ataulfo de Paiva #50 — Block C1, Apt 404',

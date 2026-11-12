@@ -82,6 +82,7 @@ import BotafogoLauroMuller26AuctionPage from './components/BotafogoLauroMuller26
 import RioCompridoPresidenteVargas3555AuctionPage from './components/RioCompridoPresidenteVargas3555AuctionPage';
 import IpanemaBaraoDaTorreAuctionPage from './components/IpanemaBaraoDaTorreAuctionPage';
 import UrcaCandidoGaffree166AuctionPage from './components/UrcaCandidoGaffree166AuctionPage';
+import UrcaRamonFranco120AuctionPage from './components/UrcaRamonFranco120AuctionPage';
 import LagoaFonteDaSaudade270AuctionPage from './components/LagoaFonteDaSaudade270AuctionPage';
 import LagoaHenriqueDodsworth133AuctionPage from './components/LagoaHenriqueDodsworth133AuctionPage';
 import SaoConradoMendesMorais1400AuctionPage from './components/SaoConradoMendesMorais1400AuctionPage';
@@ -682,6 +683,13 @@ const AppContent: React.FC = () => {
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166-apto-202" element={<UrcaCandidoGaffree166AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166/" element={<UrcaCandidoGaffree166AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-candido-gaffree-166" element={<UrcaCandidoGaffree166AuctionPage />} />
+
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120-apto-402/" element={<UrcaRamonFranco120AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120-apto-402" element={<UrcaRamonFranco120AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120/" element={<UrcaRamonFranco120AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/rua-ramon-franco-120" element={<UrcaRamonFranco120AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/ramon-franco-120-apto-402/" element={<UrcaRamonFranco120AuctionPage />} />
+          <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/urca/apartamento/ramon-franco-120-apto-402" element={<UrcaRamonFranco120AuctionPage />} />
 
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402/" element={<LagoaFonteDaSaudade270AuctionPage />} />
           <Route path="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/lagoa/cobertura/rua-fonte-da-saudade-270-apto-402" element={<LagoaFonteDaSaudade270AuctionPage />} />
