@@ -23,10 +23,10 @@ const CateteAndradePertence28AuctionPage: React.FC<CateteAndradePertence28Auctio
   const editalEntry = editaisData['catete-andrade-pertence-28-apto-704'] || editaisData['copacabana-decio-vilares-265-apto-304'];
   const item = (editalEntry && editalEntry[language]) ? editalEntry[language] : (editalEntry ? editalEntry.pt : {
     title: 'Leilão Judicial no Catete — Rua Andrade Pertence nº 28 — Apto 704 (67 m² com Suíte)',
-    subtitle: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro/RJ | 67 m² • 7º Andar • Posição de Fundos (Silencioso) • Sala, 2 Quartos (1 Suíte), Cozinha e Banheiro • Prédio de 8 Andares + Cobertura (4 por andar) • Portaria 7h às 20h, Playground e 2 Elevadores • 9º Ofício RGI Matrícula nº 47.723 • IPTU: 0.767.781-8 • Avaliação: R$ 627.790,00 • 1º Leilão: 17/11/2026 às 12:00h por R$ 627.790,00 • 2º Leilão: 19/11/2026 às 12:00h por R$ 313.895,00 (50% de Desconto)',
+    subtitle: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro/RJ | 67 m² • 7º Andar • Posição de Fundos (Silencioso) • Sala, 2 Quartos (1 Suíte), Cozinha e Banheiro • Prédio de 8 Andares + Cobertura (4 por andar) • Portaria 7h às 20h, Playground e 2 Elevadores • 9º Ofício RGI Matrícula nº 47.723 • IPTU: 0.767.781-8 • Avaliação: R$ 627.790,00 • 1º Leilão: 09/12/2026 às 12:00h por R$ 627.790,00 • 2º Leilão: 11/12/2026 às 12:00h por R$ 313.895,00 (50% de Desconto)',
     address: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro - RJ',
-    p1Date: '17/11/2026 às 12:00h',
-    p2Date: '19/11/2026 às 12:00h',
+    p1Date: '09/12/2026 às 12:00h',
+    p2Date: '11/12/2026 às 12:00h',
     process: 'Execução Judicial / TJRJ',
     court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
     iptu: '0.767.781-8',
@@ -328,8 +328,8 @@ const CateteAndradePertence28AuctionPage: React.FC<CateteAndradePertence28Auctio
                 <li><strong className="text-white">Processo de Origem:</strong> Execução Judicial / TJRJ</li>
                 <li><strong className="text-white">Foro Competente:</strong> Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital</li>
                 <li><strong className="text-white">Valor da Avaliação Homologada:</strong> R$ 627.790,00</li>
-                <li><strong className="text-white">Lance Inicial 1ª Praça (100%):</strong> R$ 627.790,00 (17/11/2026 às 12:00h)</li>
-                <li><strong className="text-white">Lance Inicial 2ª Praça (50%):</strong> R$ 313.895,00 (19/11/2026 às 12:00h)</li>
+                <li><strong className="text-white">Lance Inicial 1ª Praça (100%):</strong> R$ 627.790,00 (09/12/2026 às 12:00h)</li>
+                <li><strong className="text-white">Lance Inicial 2ª Praça (50%):</strong> R$ 313.895,00 (11/12/2026 às 12:00h)</li>
                 <li><strong className="text-white">Parcelamento Judicial:</strong> Admissível pelo Art. 895 do CPC (25% de sinal + até 30 parcelas mensais)</li>
                 <li><strong className="text-white">Sub-rogação Fiscal:</strong> Débitos de IPTU anteriores sub-rogam-se no preço (Art. 130 do CTN)</li>
               </ul>

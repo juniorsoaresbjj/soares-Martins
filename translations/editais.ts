@@ -6980,17 +6980,17 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
     'catete-andrade-pertence-28-apto-704': {
       pt: {
         title: 'Leilão Judicial no Catete — Rua Andrade Pertence nº 28 — Apto 704 (67 m² com Suíte)',
-        subtitle: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro/RJ | 67 m² • 7º Andar • Posição de Fundos (Silencioso) • Sala, 2 Quartos (1 Suíte), Cozinha e Banheiro • Prédio de 8 Andares + Cobertura (4 por andar) • Portaria 7h às 20h, Playground e 2 Elevadores • 9º Ofício RGI Matrícula nº 47.723 • IPTU: 0.767.781-8 • Avaliação: R$ 627.790,00 • 1º Leilão: 17/11/2026 às 12:00h por R$ 627.790,00 • 2º Leilão: 19/11/2026 às 12:00h por R$ 313.895,00 (50% de Desconto)',
+        subtitle: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro/RJ | 67 m² • 7º Andar • Posição de Fundos (Silencioso) • Sala, 2 Quartos (1 Suíte), Cozinha e Banheiro • Prédio de 8 Andares + Cobertura (4 por andar) • Portaria 7h às 20h, Playground e 2 Elevadores • 9º Ofício RGI Matrícula nº 47.723 • IPTU: 0.767.781-8 • Avaliação: R$ 627.790,00 • 1º Leilão: 09/12/2026 às 12:00h por R$ 627.790,00 • 2º Leilão: 11/12/2026 às 12:00h por R$ 313.895,00 (50% de Desconto)',
         address: 'Rua Andrade Pertence, nº 28, Apartamento 704 — Catete, Rio de Janeiro - RJ',
-        p1Date: '17/11/2026 às 12:00h',
-        p2Date: '19/11/2026 às 12:00h',
+        p1Date: '09/12/2026 às 12:00h',
+        p2Date: '11/12/2026 às 12:00h',
         process: 'Execução Judicial / TJRJ',
         court: 'Tribunal de Justiça do Estado do Rio de Janeiro / Comarca da Capital',
         iptu: '0.767.781-8',
         rgi: '9º Ofício de Registro de Imóveis (Matrícula nº 47.723)',
         val: 'R$ 627.790,00',
         p2Val: 'R$ 313.895,00 (Lance inicial 2ª Praça - 50%)',
-        description: 'Apartamento residencial com 67 m² de área privativa correspondente à unidade 704 (7º andar) do edifício residencial situado na agradável e tradicional Rua Andrade Pertence nº 28, no histórico e prático bairro do Catete, Zona Sul do Rio de Janeiro. Imóvel de fundos, extremamente silencioso e reservado, composto por: sala de estar, 2 (dois) dormitórios (sendo uma suíte), cozinha e banheiro social. Edificação residencial estruturada em 8 andares e cobertura, com 4 apartamentos por andar, dispondo de portaria em funcionamento das 7h às 20h, playground e 2 elevadores (o condomínio possui garagem, contudo a unidade 704 não possui vaga vinculada). Localização estratégica a poucos passos da estação de Metrô Catete, Palácio do Catete (Museu da República), Largo do Machado, Aterro do Flamengo e completa rede gastronômica e de serviços. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 47.723 e inscrição municipal IPTU nº 0.767.781-8. Avaliação judicial homologada em R$ 627.790,00. 1º Leilão em 17/11/2026 às 12:00h por R$ 627.790,00 e 2º Leilão em 19/11/2026 às 12:00h com lance inicial de 50% fixado em R$ 313.895,00 (oportunidade com m² a apenas ~R$ 4.685,00/m² na Zona Sul carioca).',
+        description: 'Apartamento residencial com 67 m² de área privativa correspondente à unidade 704 (7º andar) do edifício residencial situado na agradável e tradicional Rua Andrade Pertence nº 28, no histórico e prático bairro do Catete, Zona Sul do Rio de Janeiro. Imóvel de fundos, extremamente silencioso e reservado, composto por: sala de estar, 2 (dois) dormitórios (sendo uma suíte), cozinha e banheiro social. Edificação residencial estruturada em 8 andares e cobertura, com 4 apartamentos por andar, dispondo de portaria em funcionamento das 7h às 20h, playground e 2 elevadores (o condomínio possui garagem, contudo a unidade 704 não possui vaga vinculada). Localização estratégica a poucos passos da estação de Metrô Catete, Palácio do Catete (Museu da República), Largo do Machado, Aterro do Flamengo e completa rede gastronômica e de serviços. Devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 47.723 e inscrição municipal IPTU nº 0.767.781-8. Avaliação judicial homologada em R$ 627.790,00. 1º Leilão em 09/12/2026 às 12:00h por R$ 627.790,00 e 2º Leilão em 11/12/2026 às 12:00h com lance inicial de 50% fixado em R$ 313.895,00 (oportunidade com m² a apenas ~R$ 4.685,00/m² na Zona Sul carioca).',
         checklist: defaultChecklist.pt,
         modal: {
           title: 'Resumo Estruturado do Edital — Rua Andrade Pertence nº 28, Apto 704 (Catete)',
@@ -6999,13 +6999,13 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
             { title: 'Dimensões e Composição da Unidade', text: '67 m² de área privativa no 7º pavimento, de fundos, silencioso, composto por sala, 2 quartos (sendo 1 suíte), cozinha e banheiro social. O apartamento não possui vaga de garagem vinculada.' },
             { title: 'Estrutura Condominial', text: 'Edifício residencial com 8 andares e cobertura, com 4 apartamentos por andar, portaria das 7h às 20h, playground e 2 elevadores.' },
             { title: 'Localização Estratégica no Catete', text: 'A passos da estação de Metrô Catete, Museu da República / Palácio do Catete, Largo do Machado e Aterro do Flamengo.' },
-            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 17/11/2026 às 12:00h (Lance inicial: R$ 627.790,00 — 100% da avaliação). 2º Leilão: 19/11/2026 às 12:00h (Lance inicial: R$ 313.895,00 — 50% de desconto sobre a avaliação).' },
+            { title: 'Datas das Praças e Lances Mínimos', text: '1º Leilão: 09/12/2026 às 12:00h (Lance inicial: R$ 627.790,00 — 100% da avaliação). 2º Leilão: 11/12/2026 às 12:00h (Lance inicial: R$ 313.895,00 — 50% de desconto sobre a avaliação).' },
             { title: 'Possibilidade de Parcelamento Judicial (Art. 895 CPC)', text: 'Admite apresentação de proposta escrita de parcelamento judicial com entrada mínima de 25% (R$ 78.473,75 na 2ª praça) e o saldo dividido em até 30 parcelas mensais corrigidas por índice oficial da Justiça, com hipoteca judicial sobre o imóvel.' },
             { title: 'Sub-rogação de Débitos Fiscais (Art. 130 CTN)', text: 'Débitos de IPTU e taxas anteriores à arrematação sub-rogam-se diretamente sobre o preço arrecadado na praça judicial, sendo o bem entregue livre de ônus tributários ao arrematante.' }
           ]
         },
         faqs: [
-          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 704 na Rua Andrade Pertence 28?", a: "O imóvel possui avaliação judicial homologada em R$ 627.790,00. No 1º Leilão (17/11/2026 às 12:00h), o lance inicial é o valor integral da avaliação (R$ 627.790,00). No 2º Leilão (19/11/2026 às 12:00h), o lance inicial parte com 50% de desconto, fixado em R$ 313.895,00." },
+          { q: "Qual o valor da avaliação e lances mínimos para o apartamento 704 na Rua Andrade Pertence 28?", a: "O imóvel possui avaliação judicial homologada em R$ 627.790,00. No 1º Leilão (09/12/2026 às 12:00h), o lance inicial é o valor integral da avaliação (R$ 627.790,00). No 2º Leilão (11/12/2026 às 12:00h), o lance inicial parte com 50% de desconto, fixado em R$ 313.895,00." },
           { q: "Quais são as características da unidade e do edifício?", a: "O apartamento possui 67 m² de área privativa no 7º andar, posição de fundos (silencioso e ventilado), distribuído em sala, 2 dormitórios (sendo 1 suíte), cozinha e banheiro. O prédio tem 8 andares e cobertura (4 por andar), portaria das 7h às 20h, playground e 2 elevadores (não há vaga de garagem para a unidade 704)." },
           { q: "Onde o imóvel está registrado e qual a inscrição municipal?", a: "O imóvel está devidamente registrado, dimensionado e caracterizado no 9º Ofício de Registro de Imóveis do Rio de Janeiro sob a Matrícula nº 47.723 e possui inscrição municipal IPTU nº 0.767.781-8." },
           { q: "Como é a localização da Rua Andrade Pertence no Catete?", a: "A Rua Andrade Pertence é uma rua residencial aprazível e arborizada no coração do Catete, a curtíssima caminhada da estação de Metrô Catete, do histórico Parque do Palácio do Catete, Largo do Machado e Aterro do Flamengo." },
@@ -7016,17 +7016,17 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       },
       es: {
         title: 'Subasta Judicial en Catete — Calle Andrade Pertence nº 28 — Apto 704 (67 m² con Suite)',
-        subtitle: 'Calle Andrade Pertence, nº 28, Apartamento 704 — Catete, Río de Janeiro/RJ | 67 m² • Planta 7ª • De Fondo (Silencioso) • Salón, 2 Dormitorios (1 Suite), Cocina y Baño • Edificio de 8 Plantas + Ático (4 por piso) • Portería 7h-20h, Parque Infantil y 2 Ascensores • 9º Registro Matrícula nº 47.723 • IPTU: 0.767.781-8 • Tasación: R$ 627.790,00 • 1ª Subasta: 17/11/2026 a las 12:00h por R$ 627.790,00 • 2ª Subasta: 19/11/2026 a las 12:00h por R$ 313.895,00 (50% de Descuento)',
+        subtitle: 'Calle Andrade Pertence, nº 28, Apartamento 704 — Catete, Río de Janeiro/RJ | 67 m² • Planta 7ª • De Fondo (Silencioso) • Salón, 2 Dormitorios (1 Suite), Cocina y Baño • Edificio de 8 Plantas + Ático (4 por piso) • Portería 7h-20h, Parque Infantil y 2 Ascensores • 9º Registro Matrícula nº 47.723 • IPTU: 0.767.781-8 • Tasación: R$ 627.790,00 • 1ª Subasta: 09/12/2026 a las 12:00h por R$ 627.790,00 • 2ª Subasta: 11/12/2026 a las 12:00h por R$ 313.895,00 (50% de Descuento)',
         address: 'Calle Andrade Pertence, nº 28, Apartamento 704 — Catete, Río de Janeiro - RJ',
-        p1Date: '17/11/2026 a las 12:00h',
-        p2Date: '19/11/2026 a las 12:00h',
+        p1Date: '09/12/2026 a las 12:00h',
+        p2Date: '11/12/2026 a las 12:00h',
         process: 'Ejecución Judicial / TJRJ',
         court: 'Tribunal de Justicia del Estado de Río de Janeiro / Comarca de la Capital',
         iptu: '0.767.781-8',
         rgi: '9º Registro de Inmuebles de Río de Janeiro (Matrícula nº 47.723)',
         val: 'R$ 627.790,00',
         p2Val: 'R$ 313.895,00 (Puja inicial 2ª Subasta - 50%)',
-        description: 'Apartamento residencial de 67 m² privativos correspondiente a la unidad 704 (piso 7, posición posterior silenciosa) en Calle Andrade Pertence nº 28, Catete, Zona Sur de Río de Janeiro. Consta de salón, 2 dormitorios (1 suite), cocina y baño social. Edificio de 8 plantas y ático (4 por piso), portería de 7h a 20h, área infantil y 2 ascensores (sin plaza de garaje para el apto 704). Junto al Metro Catete y Parque do Flamengo. Matrícula 47.723 del 9º Registro e IPTU 0.767.781-8. Tasación: R$ 627.790,00. 1ª Subasta: 17/11/2026 a las 12:00h por R$ 627.790,00 y 2ª Subasta: 19/11/2026 a las 12:00h por R$ 313.895,00.',
+        description: 'Apartamento residencial de 67 m² privativos correspondiente a la unidad 704 (piso 7, posición posterior silenciosa) en Calle Andrade Pertence nº 28, Catete, Zona Sur de Río de Janeiro. Consta de salón, 2 dormitorios (1 suite), cocina y baño social. Edificio de 8 plantas y ático (4 por piso), portería de 7h a 20h, área infantil y 2 ascensores (sin plaza de garaje para el apto 704). Junto al Metro Catete y Parque do Flamengo. Matrícula 47.723 del 9º Registro e IPTU 0.767.781-8. Tasación: R$ 627.790,00. 1ª Subasta: 09/12/2026 a las 12:00h por R$ 627.790,00 y 2ª Subasta: 11/12/2026 a las 12:00h por R$ 313.895,00.',
         checklist: defaultChecklist.es,
         modal: {
           title: 'Resumen Estructurado del Edicto — Calle Andrade Pertence nº 28, Apto 704 (Catete)',
@@ -7035,13 +7035,13 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
             { title: 'Dimensiones y Distribución', text: '67 m² privativos en piso 7, de fondo (silencioso), salón, 2 dormitorios (1 suite), cocina y baño. No tiene plaza de garaje.' },
             { title: 'Edificio y Servicios', text: 'Edificio de 8 plantas + ático (4 por piso), portería de 7h a 20h, área infantil y 2 ascensores.' },
             { title: 'Ubicación Inmejorable en Catete', text: 'A pasos del Metro Catete, Museo de la República y Aterro do Flamengo.' },
-            { title: 'Fechas y Precios', text: '1ª Subasta: 17/11/2026 a las 12:00h por R$ 627.790,00. 2ª Subasta: 19/11/2026 a las 12:00h por R$ 313.895,00 (50% de descuento).' },
+            { title: 'Fechas y Precios', text: '1ª Subasta: 09/12/2026 a las 12:00h por R$ 627.790,00. 2ª Subasta: 11/12/2026 a las 12:00h por R$ 313.895,00 (50% de descuento).' },
             { title: 'Pago Aplazado (Art. 895 CPC)', text: '25% de entrada (R$ 78.473,75 en 2ª subasta) y hasta 30 cuotas mensuales con hipoteca judicial.' },
             { title: 'Subrogación Fiscal (Art. 130 CTN)', text: 'Deudas anteriores de impuestos quedan subrogadas en el precio obtenido en la subasta.' }
           ]
         },
         faqs: [
-          { q: "¿Cuáles son las fechas y precios para Andrade Pertence 28 Apto 704?", a: "La 1ª Subasta es el 17/11/2026 a las 12:00h por R$ 627.790,00. La 2ª Subasta es el 19/11/2026 a las 12:00h por R$ 313.895,00 (50% de descuento sobre tasación)." },
+          { q: "¿Cuáles son las fechas y precios para Andrade Pertence 28 Apto 704?", a: "La 1ª Subasta es el 09/12/2026 a las 12:00h por R$ 627.790,00. La 2ª Subasta es el 11/12/2026 a las 12:00h por R$ 313.895,00 (50% de descuento sobre tasación)." },
           { q: "¿Cuáles son las características del apartamento y edificio?", a: "67 m² de fondo silencioso en 7º piso con salón, 2 dormitorios (1 suite), cocina y baño. Edificio con portería 7h-20h, parque infantil y 2 elevadores (sin garaje)." },
           { q: "¿Se puede pagar a plazos?", a: "Sí, por el Art. 895 del CPC: 25% de entrada y saldo en hasta 30 cuotas mensuales ajustadas." },
           { q: "¿Cómo asesora Soares Martins Advogados?", a: "Efectuamos la auditoría completa de la Matrícula 47.723 en el 9º Registro, controlamos las notificaciones en TJRJ y gestionamos la entrega judicial de la posesión." }
@@ -7049,17 +7049,17 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
       },
       en: {
         title: 'Judicial Auction in Catete — Rua Andrade Pertence #28 — Apt 704 (67 sqm with Suite)',
-        subtitle: 'Rua Andrade Pertence, #28, Apt 704 — Catete, Rio de Janeiro/RJ | 67 sqm (721 sq ft) • 7th Floor • Rear-Facing (Quiet & Private) • Living Room, 2 Bedrooms (1 Suite), Kitchen & Bathroom • 8-Story Building + Penthouse (4 units/floor) • Concierge 7 AM - 8 PM, Playground & 2 Elevators • 9th Land Registry Title #47.723 • IPTU: 0.767.781-8 • Appraisal: R$ 627,790.00 • 1st Auction: 11/17/2026 at 12:00 PM at R$ 627,790.00 • 2nd Auction: 11/19/2026 at 12:00 PM at R$ 313,895.00 (50% Discount)',
+        subtitle: 'Rua Andrade Pertence, #28, Apt 704 — Catete, Rio de Janeiro/RJ | 67 sqm (721 sq ft) • 7th Floor • Rear-Facing (Quiet & Private) • Living Room, 2 Bedrooms (1 Suite), Kitchen & Bathroom • 8-Story Building + Penthouse (4 units/floor) • Concierge 7 AM - 8 PM, Playground & 2 Elevators • 9th Land Registry Title #47.723 • IPTU: 0.767.781-8 • Appraisal: R$ 627,790.00 • 1st Auction: 12/09/2026 at 12:00 PM at R$ 627,790.00 • 2nd Auction: 12/11/2026 at 12:00 PM at R$ 313,895.00 (50% Discount)',
         address: 'Rua Andrade Pertence, #28, Apt 704 — Catete, Rio de Janeiro - RJ',
-        p1Date: '11/17/2026 at 12:00 PM',
-        p2Date: '11/19/2026 at 12:00 PM',
+        p1Date: '12/09/2026 at 12:00 PM',
+        p2Date: '12/11/2026 at 12:00 PM',
         process: 'Judicial Execution / TJRJ',
         court: 'Court of Justice of the State of Rio de Janeiro / Capital District',
         iptu: '0.767.781-8',
         rgi: '9th Land Registry Office of Rio de Janeiro (Title #47.723)',
         val: 'R$ 627,790.00',
         p2Val: 'R$ 313,895.00 (2nd Auction starting reserve bid - 50%)',
-        description: 'Prime 67 sqm (721 sq ft) private residential apartment (Unit 704 / 7th floor, rear-facing, quiet and private) in a well-located residential building at Rua Andrade Pertence #28, in charming and central Catete, Rio de Janeiro South Zone. Layout features living room, 2 bedrooms (including 1 suite), kitchen, and bathroom. Building has 8 stories plus penthouse (4 units per floor), concierge from 7 AM to 8 PM, playground, and 2 elevators (no parking space included for unit 704). Steps from Catete Subway Station, Republic Museum Palace, and Aterro do Flamengo park. Recorded at 9th Land Registry under Title #47.723 and municipal tax IPTU #0.767.781-8. Official appraisal: R$ 627,790.00. 1st Auction on 11/17/2026 at 12:00 PM at R$ 627,790.00; 2nd Auction on 11/19/2026 at 12:00 PM starting at 50% discount for R$ 313,895.00 (only ~R$ 4,685.00/sqm).',
+        description: 'Prime 67 sqm (721 sq ft) private residential apartment (Unit 704 / 7th floor, rear-facing, quiet and private) in a well-located residential building at Rua Andrade Pertence #28, in charming and central Catete, Rio de Janeiro South Zone. Layout features living room, 2 bedrooms (including 1 suite), kitchen, and bathroom. Building has 8 stories plus penthouse (4 units per floor), concierge from 7 AM to 8 PM, playground, and 2 elevators (no parking space included for unit 704). Steps from Catete Subway Station, Republic Museum Palace, and Aterro do Flamengo park. Recorded at 9th Land Registry under Title #47.723 and municipal tax IPTU #0.767.781-8. Official appraisal: R$ 627,790.00. 1st Auction on 12/09/2026 at 12:00 PM at R$ 627,790.00; 2nd Auction on 12/11/2026 at 12:00 PM starting at 50% discount for R$ 313,895.00 (only ~R$ 4,685.00/sqm).',
         checklist: defaultChecklist.en,
         modal: {
           title: 'Structured Notice Summary — Rua Andrade Pertence #28 / Apt 704 (Catete)',
@@ -7068,13 +7068,13 @@ export const editaisData: Record<string, Record<Language, EditalData>> = {
             { title: 'Dimensions & Layout', text: '67 sqm private area on 7th floor, rear-facing (quiet), living room, 2 bedrooms (1 suite), kitchen, and bathroom. No garage spot included.' },
             { title: 'Building Amenities', text: '8-story building + penthouse (4 units/floor), concierge 7 AM to 8 PM, playground, and 2 elevators.' },
             { title: 'Prime Location in Catete', text: 'Steps from Catete Subway Station, Republic Museum, Largo do Machado, and Aterro do Flamengo park.' },
-            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 11/17/2026 at 12:00 PM at R$ 627,790.00. 2nd Auction: 11/19/2026 at 12:00 PM starting at R$ 313,895.00 (50% discount).' },
+            { title: 'Auction Dates & Starting Bids', text: '1st Auction: 12/09/2026 at 12:00 PM at R$ 627,790.00. 2nd Auction: 12/11/2026 at 12:00 PM starting at R$ 313,895.00 (50% discount).' },
             { title: 'Court Installment Option (CPC Art. 895)', text: 'Judicial installment option with 25% down payment and up to 30 monthly installments with judicial mortgage.' },
             { title: 'Subrogation of Historical Taxes (CTN Art. 130)', text: 'Past property taxes and municipal fees subrogate into the auction proceeds, delivering clear title to the buyer.' }
           ]
         },
         faqs: [
-          { q: "What are the auction dates and starting bids for Andrade Pertence 28 Apt 704?", a: "The 1st Auction is on 11/17/2026 at 12:00 PM at R$ 627,790.00. The 2nd Auction is on 11/19/2026 at 12:00 PM starting at R$ 313,895.00 (50% discount off official appraisal)." },
+          { q: "What are the auction dates and starting bids for Andrade Pertence 28 Apt 704?", a: "The 1st Auction is on 12/09/2026 at 12:00 PM at R$ 627,790.00. The 2nd Auction is on 12/11/2026 at 12:00 PM starting at R$ 313,895.00 (50% discount off official appraisal)." },
           { q: "What are the building and apartment features?", a: "67 sqm private area on the 7th floor, quiet rear position, 2 bedrooms (1 suite), concierge from 7 AM to 8 PM, playground, and 2 elevators in Catete." },
           { q: "Can this property be purchased via judicial installments?", a: "Yes, under CPC Article 895, buyers can submit a proposal with a 25% down payment and up to 30 monthly installments." },
           { q: "Why hire Soares Martins Advogados for this Catete auction?", a: "We conduct exhaustive due diligence on Title #47.723 (9th Registry), verify all court notifications in the TJRJ records, handle bidding strategy, and manage post-auction procedures through to final deed and possession." }
