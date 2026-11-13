@@ -20,6 +20,7 @@ export const translations = {
       description: 'Advocacia condominial e imobiliária no Rio de Janeiro, com atuação preventiva na gestão, na cobrança e na solução de conflitos.',
       cta1: 'CONHEÇA O ESCRITÓRIO',
       cta2: 'ÁREAS DE ATUAÇÃO',
+      cta3: 'CONSULTAR EDITAIS DE LEILÕES',
       online: 'ATENDIMENTO ONLINE'
     },
     about: {
@@ -566,6 +567,7 @@ export const translations = {
       description: 'Abogacía de condominios e inmobiliaria en Río de Janeiro, con actuación preventiva en la gestión, en el cobro y en la resolución de conflictos.',
       cta1: 'CONOZCA EL DESPACHO',
       cta2: 'ÁREAS DE ACTUACIÓN',
+      cta3: 'CONSULTAR EDICTOS DE SUBASTAS',
       online: 'ATENCIÓN ONLINE'
     },
     about: {
@@ -959,6 +961,7 @@ export const translations = {
       description: 'Condominium and asset law in Rio de Janeiro, with preventive action in management, collection, and conflict resolution.',
       cta1: 'MEET THE FIRM',
       cta2: 'PRACTICE AREAS',
+      cta3: 'VIEW AUCTION NOTICES',
       online: 'ONLINE SERVICE'
     },
     about: {
@@ -1272,7 +1275,7 @@ export const translations = {
 
 export type TranslationKeys = 
   | 'nav.history' | 'nav.services' | 'nav.team' | 'nav.contact' | 'nav.blog' | 'nav.cta' | 'nav.home' | 'nav.back_home' | 'nav.back_blog' | 'nav.language'
-  | 'hero.title' | 'hero.description' | 'hero.cta1' | 'hero.cta2' | 'hero.online'
+  | 'hero.title' | 'hero.description' | 'hero.cta1' | 'hero.cta2' | 'hero.cta3' | 'hero.online'
   | 'about.tag' | 'about.title' | 'about.titleHighlight' | 'about.desc1' | 'about.desc2' | 'about.desc3' | 'about.desc4' | 'about.desc5' | 'about.card1' | 'about.card1Desc' | 'about.card2' | 'about.card2Desc' | 'about.exp'
   | 'history_page.title' | 'history_page.titleHighlight' | 'history_page.card1_title' | 'history_page.card1_desc' | 'history_page.card2_title' | 'history_page.card2_desc' | 'history_page.card3_title' | 'history_page.card3_desc' | 'history_page.pillars_title' | 'history_page.mission_title' | 'history_page.mission_desc' | 'history_page.vision_title' | 'history_page.vision_desc'
   | 'services_page.tag' | 'services_page.title' | 'services_page.titleHighlight' | 'services_page.subtitle' | 'services_page.desc' | 'services_page.request_opinion' | 'services_page.methodology_title' | 'services_page.methodology_subtitle' | 'services_page.step1_title' | 'services_page.step1_desc' | 'services_page.step2_title' | 'services_page.step2_desc' | 'services_page.step3_title' | 'services_page.step3_desc' | 'services_page.cta_banner_title' | 'services_page.cta_banner_highlight' | 'services_page.cta_banner_desc' | 'services_page.cta_button' | 'services_page.penal_title'

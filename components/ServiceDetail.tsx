@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 import { translations } from '../translations';
 import { 
   ArrowLeft, ChevronRight, ChevronDown, ChevronUp, Building2, Gavel, Scale, 
   ShieldCheck, FileText, Users, ShieldAlert, Search, Filter, ExternalLink, 
-  CheckCircle2, AlertTriangle, HelpCircle, PhoneCall, CheckSquare 
+  CheckCircle2, AlertTriangle, HelpCircle, PhoneCall, CheckSquare, MapPin, X, Check 
 } from 'lucide-react';
 import SEO from './SEO';
 
@@ -127,6 +127,12 @@ const pageTranslations: Record<string, any> = {
     auctionsTitle: 'Leilões em Análise',
     auctionsSub: 'Painel de consulta e acompanhamento técnico de oportunidades sob auditoria jurídica.',
     filterAll: 'Todos',
+    allNeighborhoods: 'Todos os bairros',
+    clearNeighborhood: 'Limpar bairro selecionado',
+    regionSouth: 'Zona Sul',
+    regionCenter: 'Centro',
+    regionNorth: 'Zona Norte',
+    regionWest: 'Zona Oeste',
     filterRes: 'Residenciais',
     filterCom: 'Comerciais',
     filterArrematados: 'Arrematados',
@@ -147,6 +153,8 @@ const pageTranslations: Record<string, any> = {
     noCommercialDesc: 'Nossa equipe realiza análises sob demanda para imóveis comerciais e corporativos no Rio de Janeiro.',
     noAuctionedTitle: 'Nenhum imóvel arrematado cadastrado no momento',
     noAuctionedDesc: 'O histórico de imóveis arrematados e casos de sucesso é atualizado periodicamente após a homologação judicial.',
+    noNeighborhoodTitle: 'Nenhum imóvel encontrado para os filtros selecionados',
+    noNeighborhoodDesc: 'Não há imóveis cadastrados que atendam simultaneamente ao bairro e à categoria selecionados no momento.',
     archiveTitle: 'Acervo e Histórico de Análises Técnicas',
     archiveSub: 'Registro institucional e diretrizes de divulgação de pareceres e estudos de caso em leilões imobiliários.',
     ethicsTitle: 'Conformidade Ética e Proteção de Dados',
@@ -1293,6 +1301,12 @@ const pageTranslations: Record<string, any> = {
     auctionsTitle: 'Subastas en Análisis',
     auctionsSub: 'Panel de consulta y seguimiento técnico de oportunidades bajo auditoría jurídica.',
     filterAll: 'Todos',
+    allNeighborhoods: 'Todos los barrios',
+    clearNeighborhood: 'Limpiar barrio seleccionado',
+    regionSouth: 'Zona Sur',
+    regionCenter: 'Centro',
+    regionNorth: 'Zona Norte',
+    regionWest: 'Zona Oeste',
     filterRes: 'Residenciales',
     filterCom: 'Comerciales',
     filterArrematados: 'Subastados',
@@ -1313,6 +1327,8 @@ const pageTranslations: Record<string, any> = {
     noCommercialDesc: 'Nuestro equipo realiza análisis bajo demanda para inmuebles comerciales y corporativos en Río de Janeiro.',
     noAuctionedTitle: 'Ningún inmueble subastado registrado en este momento',
     noAuctionedDesc: 'El historial de inmuebles adjudicados y casos de éxito se actualiza periódicamente tras la homologación judicial.',
+    noNeighborhoodTitle: 'No se encontraron inmuebles para los filtros seleccionados',
+    noNeighborhoodDesc: 'No hay inmuebles registrados que coincidan simultáneamente con el barrio y la categoría seleccionados en este momento.',
     archiveTitle: 'Acervo e Historial de Análisis Técnicos',
     archiveSub: 'Registro institucional y directrices de divulgación de dictámenes y estudios de caso en subastas inmobiliarias.',
     ethicsTitle: 'Conformidad Ética y Protección de Datos',
@@ -2437,6 +2453,12 @@ const pageTranslations: Record<string, any> = {
     auctionsTitle: 'Auctions Under Analysis',
     auctionsSub: 'Consultation panel and technical monitoring of opportunities under legal audit.',
     filterAll: 'All',
+    allNeighborhoods: 'All neighborhoods',
+    clearNeighborhood: 'Clear selected neighborhood',
+    regionSouth: 'South Zone',
+    regionCenter: 'Downtown / Center',
+    regionNorth: 'North Zone',
+    regionWest: 'West Zone',
     filterRes: 'Residential',
     filterCom: 'Commercial',
     filterArrematados: 'Auctioned',
@@ -2457,6 +2479,8 @@ const pageTranslations: Record<string, any> = {
     noCommercialDesc: 'Our team performs on-demand analysis for commercial and corporate properties in Rio de Janeiro.',
     noAuctionedTitle: 'No auctioned properties registered at the moment',
     noAuctionedDesc: 'The record of auctioned properties and success cases is updated periodically following judicial approval.',
+    noNeighborhoodTitle: 'No properties found for the selected filters',
+    noNeighborhoodDesc: 'There are currently no listed properties matching both the selected neighborhood and category.',
     archiveTitle: 'Repository and History of Technical Analyses',
     archiveSub: 'Institutional record and guidelines for disclosure of opinions and case studies in real estate auctions.',
     ethicsTitle: 'Ethical Compliance and Data Protection',
@@ -3541,11 +3565,84 @@ const pageTranslations: Record<string, any> = {
   }
 };
 
+const NEIGHBORHOOD_GROUPS = [
+  {
+    regionKey: 'regionSouth',
+    neighborhoods: [
+      { slug: 'flamengo', label: 'Flamengo' },
+      { slug: 'copacabana', label: 'Copacabana' },
+      { slug: 'leme', label: 'Leme' },
+      { slug: 'botafogo', label: 'Botafogo' },
+      { slug: 'urca', label: 'Urca' },
+      { slug: 'humaita', label: 'Humaitá' },
+      { slug: 'laranjeiras', label: 'Laranjeiras' },
+      { slug: 'cosme-velho', label: 'Cosme Velho' },
+      { slug: 'catete', label: 'Catete' },
+      { slug: 'gloria', label: 'Glória' },
+      { slug: 'ipanema', label: 'Ipanema' },
+      { slug: 'leblon', label: 'Leblon' },
+      { slug: 'gavea', label: 'Gávea' },
+      { slug: 'jardim-botanico', label: 'Jardim Botânico' },
+      { slug: 'lagoa', label: 'Lagoa' },
+      { slug: 'sao-conrado', label: 'São Conrado' },
+    ],
+  },
+  {
+    regionKey: 'regionCenter',
+    neighborhoods: [
+      { slug: 'centro', label: 'Centro' },
+      { slug: 'santa-teresa', label: 'Santa Teresa' },
+    ],
+  },
+  {
+    regionKey: 'regionNorth',
+    neighborhoods: [
+      { slug: 'tijuca', label: 'Tijuca' },
+      { slug: 'vila-isabel', label: 'Vila Isabel' },
+    ],
+  },
+  {
+    regionKey: 'regionWest',
+    neighborhoods: [
+      { slug: 'barra-da-tijuca', label: 'Barra da Tijuca' },
+    ],
+  },
+] as const;
+
+const NEIGHBORHOOD_LABEL_MAP: Record<string, string> = NEIGHBORHOOD_GROUPS.reduce(
+  (acc, group) => {
+    group.neighborhoods.forEach((n) => {
+      acc[n.slug] = n.label;
+    });
+    return acc;
+  },
+  {} as Record<string, string>
+);
+
+const getItemNeighborhoodSlug = (item: any): string => {
+  if (item?.link) {
+    const parts = item.link.split('/').filter(Boolean);
+    if (parts.length >= 2) {
+      return parts[1].toLowerCase();
+    }
+  }
+  const tagPart = ((item?.tag || '').split('•')[1] || item?.tag || '').toLowerCase();
+  return tagPart
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\/?rj/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+};
+
 const ServiceDetail: React.FC = () => {
   const { slug: paramSlug } = useParams<{ slug: string }>();
   const location = useLocation();
   const { t, language } = useLanguage();
   const [filterCategory, setFilterCategory] = useState<string>('todos');
+  const [selectedNeighborhood, setSelectedNeighborhood] = useState<string>('todos');
+  const [isNeighborhoodOpen, setIsNeighborhoodOpen] = useState<boolean>(false);
+  const neighborhoodDropdownRef = useRef<HTMLDivElement>(null);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [activeChecklist, setActiveChecklist] = useState<number>(0);
   const [showAllAuctions, setShowAllAuctions] = useState<boolean>(false);
@@ -3571,8 +3668,40 @@ const ServiceDetail: React.FC = () => {
   const service = serviceData[slug] || (isAuctionPage ? serviceData['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'] : null);
 
   useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        neighborhoodDropdownRef.current &&
+        !neighborhoodDropdownRef.current.contains(event.target as Node)
+      ) {
+        setIsNeighborhoodOpen(false);
+      }
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setIsNeighborhoodOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (location.hash) {
+      const targetId = location.hash.replace(/^#/, '');
+      const timer = setTimeout(() => {
+        const element = document.getElementById(targetId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 150);
+      return () => clearTimeout(timer);
+    }
     window.scrollTo(0, 0);
-  }, [slug]);
+  }, [slug, location.hash]);
 
   if (!service) {
     return (
@@ -3706,7 +3835,18 @@ const ServiceDetail: React.FC = () => {
     return tag.includes('comercial') || tag.includes('comerciales') || tag.includes('commercial') || tag.includes('sala') || tag.includes('loja');
   };
 
+  const selectedNeighborhoodLabel =
+    selectedNeighborhood === 'todos'
+      ? tPage.allNeighborhoods
+      : NEIGHBORHOOD_LABEL_MAP[selectedNeighborhood] || selectedNeighborhood;
+
   const filteredAuctionItems = (tPage.auctionItems || []).filter((item: any) => {
+    const matchesNeighborhood =
+      selectedNeighborhood === 'todos' || getItemNeighborhoodSlug(item) === selectedNeighborhood;
+    if (!matchesNeighborhood) {
+      return false;
+    }
+
     if (filterCategory === 'arrematados') {
       return isAuctionedItem(item);
     }
@@ -4091,19 +4231,148 @@ const ServiceDetail: React.FC = () => {
           {isAuctionPage && (
             <>
               {/* Leilões em análise */}
-              <section className="bg-midnight-light/40 backdrop-blur-sm p-7 sm:p-10 md:p-12 rounded-3xl border border-white/10 mb-10 sm:mb-12 shadow-2xl text-left space-y-8">
+              <section id="leiloes-em-analise" className="relative z-20 scroll-mt-28 bg-midnight-light/40 backdrop-blur-sm p-7 sm:p-10 md:p-12 rounded-3xl border border-white/10 mb-10 sm:mb-12 shadow-2xl text-left space-y-8">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/10 pb-6">
                   <div>
                     <h2 className="text-2xl sm:text-3xl font-serif text-bronze mb-2 text-left">{tPage.auctionsTitle}</h2>
                     <p className="text-xs sm:text-sm text-text-muted text-left">{tPage.auctionsSub}</p>
                   </div>
-                  <div className="flex gap-2 self-start sm:self-auto flex-wrap">
-                    <button 
-                      onClick={() => { setFilterCategory('todos'); setShowAllAuctions(false); }}
-                      className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'todos' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
-                    >
-                      {tPage.filterAll}
-                    </button>
+                  <div className="flex gap-2 self-start sm:self-auto flex-wrap items-center">
+                    <div ref={neighborhoodDropdownRef} className="relative">
+                      <div
+                        className={`inline-flex items-center rounded-lg text-xs font-medium transition-all ${
+                          filterCategory === 'todos'
+                            ? 'bg-bronze text-midnight font-bold shadow-md'
+                            : selectedNeighborhood !== 'todos'
+                            ? 'bg-white/5 text-white/90 border border-bronze/40'
+                            : 'bg-white/5 text-white/70 hover:bg-white/10'
+                        }`}
+                      >
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setFilterCategory('todos');
+                            setShowAllAuctions(false);
+                          }}
+                          className="px-3.5 py-2 rounded-l-lg hover:opacity-90 transition-opacity cursor-pointer"
+                        >
+                          {tPage.filterAll}
+                        </button>
+                        <span
+                          aria-hidden="true"
+                          className={`h-4 w-px ${
+                            filterCategory === 'todos' ? 'bg-midnight/25' : 'bg-white/15'
+                          }`}
+                        />
+                        <button
+                          type="button"
+                          onClick={() => setIsNeighborhoodOpen((prev) => !prev)}
+                          aria-expanded={isNeighborhoodOpen}
+                          aria-haspopup="listbox"
+                          aria-label={selectedNeighborhoodLabel}
+                          className={`px-2.5 py-2 flex items-center gap-1.5 transition-colors cursor-pointer ${
+                            selectedNeighborhood !== 'todos' ? 'rounded-none' : 'rounded-r-lg'
+                          } ${
+                            filterCategory === 'todos'
+                              ? 'hover:bg-midnight/10 text-midnight'
+                              : selectedNeighborhood !== 'todos'
+                              ? 'text-bronze hover:bg-white/10'
+                              : 'text-white/70 hover:text-white hover:bg-white/10'
+                          }`}
+                        >
+                          <MapPin size={12} className="shrink-0" />
+                          <span className="max-w-[130px] sm:max-w-[160px] truncate">
+                            {selectedNeighborhoodLabel}
+                          </span>
+                          <ChevronDown
+                            size={12}
+                            className={`shrink-0 transition-transform duration-200 ${isNeighborhoodOpen ? 'rotate-180' : ''}`}
+                          />
+                        </button>
+                        {selectedNeighborhood !== 'todos' && (
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setSelectedNeighborhood('todos');
+                              setShowAllAuctions(false);
+                              setIsNeighborhoodOpen(false);
+                            }}
+                            aria-label={tPage.clearNeighborhood}
+                            title={tPage.clearNeighborhood}
+                            className={`pr-2.5 pl-1 py-2 rounded-r-lg transition-colors cursor-pointer ${
+                              filterCategory === 'todos'
+                                ? 'text-midnight/80 hover:text-midnight'
+                                : 'text-bronze/80 hover:text-white'
+                            }`}
+                          >
+                            <X size={12} />
+                          </button>
+                        )}
+                      </div>
+
+                      {isNeighborhoodOpen && (
+                        <div
+                          role="listbox"
+                          aria-label={tPage.allNeighborhoods}
+                          className="absolute left-0 top-full mt-2 w-72 max-w-[calc(100vw-4rem)] max-h-80 overflow-y-auto rounded-2xl bg-midnight/95 backdrop-blur-xl border border-bronze/40 shadow-2xl p-2 z-50 space-y-2"
+                        >
+                          <button
+                            type="button"
+                            role="option"
+                            aria-selected={selectedNeighborhood === 'todos'}
+                            onClick={() => {
+                              setSelectedNeighborhood('todos');
+                              setShowAllAuctions(false);
+                              setIsNeighborhoodOpen(false);
+                            }}
+                            className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs transition-colors cursor-pointer ${
+                              selectedNeighborhood === 'todos'
+                                ? 'bg-bronze text-midnight font-bold'
+                                : 'text-white/90 hover:bg-white/10'
+                            }`}
+                          >
+                            <span>{tPage.allNeighborhoods}</span>
+                            {selectedNeighborhood === 'todos' && <Check size={13} />}
+                          </button>
+
+                          {NEIGHBORHOOD_GROUPS.map((group) => (
+                            <div key={group.regionKey} className="pt-1 border-t border-white/10 first:border-t-0">
+                              <div className="px-3 py-1.5 text-[10px] font-bold uppercase tracking-widest text-bronze">
+                                {(tPage as any)[group.regionKey]}
+                              </div>
+                              <div className="space-y-0.5">
+                                {group.neighborhoods.map((neighborhood) => {
+                                  const isSelected = selectedNeighborhood === neighborhood.slug;
+                                  return (
+                                    <button
+                                      key={neighborhood.slug}
+                                      type="button"
+                                      role="option"
+                                      aria-selected={isSelected}
+                                      onClick={() => {
+                                        setSelectedNeighborhood(neighborhood.slug);
+                                        setShowAllAuctions(false);
+                                        setIsNeighborhoodOpen(false);
+                                      }}
+                                      className={`w-full flex items-center justify-between px-3 py-1.5 rounded-lg text-xs text-left transition-colors cursor-pointer ${
+                                        isSelected
+                                          ? 'bg-bronze/20 text-bronze font-semibold'
+                                          : 'text-white/80 hover:bg-white/10 hover:text-white'
+                                      }`}
+                                    >
+                                      <span>{neighborhood.label}</span>
+                                      {isSelected && <Check size={13} className="text-bronze shrink-0" />}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
                     <button 
                       onClick={() => { setFilterCategory('residencial'); setShowAllAuctions(false); }}
                       className={`px-4 py-2 rounded-lg text-xs font-medium transition-all ${filterCategory === 'residencial' ? 'bg-bronze text-midnight font-bold shadow-md' : 'bg-white/5 text-white/70 hover:bg-white/10'}`}
@@ -4261,11 +4530,32 @@ const ServiceDetail: React.FC = () => {
                       <Search size={22} />
                     </div>
                     <h3 className="text-lg sm:text-xl font-serif text-white text-left">
-                      {filterCategory === 'arrematados' ? tPage.noAuctionedTitle : tPage.noCommercialTitle}
+                      {selectedNeighborhood !== 'todos'
+                        ? tPage.noNeighborhoodTitle
+                        : filterCategory === 'arrematados'
+                        ? tPage.noAuctionedTitle
+                        : tPage.noCommercialTitle}
                     </h3>
                     <p className="text-sm text-text-muted max-w-2xl leading-relaxed text-left">
-                      {filterCategory === 'arrematados' ? tPage.noAuctionedDesc : tPage.noCommercialDesc}
+                      {selectedNeighborhood !== 'todos'
+                        ? tPage.noNeighborhoodDesc
+                        : filterCategory === 'arrematados'
+                        ? tPage.noAuctionedDesc
+                        : tPage.noCommercialDesc}
                     </p>
+                    {selectedNeighborhood !== 'todos' && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setSelectedNeighborhood('todos');
+                          setShowAllAuctions(false);
+                        }}
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-bold bg-bronze text-midnight hover:bg-white transition-all cursor-pointer"
+                      >
+                        <X size={13} />
+                        {tPage.allNeighborhoods}
+                      </button>
+                    )}
                   </div>
                 )}
               </section>

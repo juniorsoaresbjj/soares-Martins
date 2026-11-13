@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
           {t('hero.description')}
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 md:gap-5 items-stretch sm:items-center animate-fade-in-up stagger-3">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 md:gap-5 items-stretch sm:items-center animate-fade-in-up stagger-3">
           <Link 
             to="/historia" 
             className="bg-bronze text-midnight px-8 md:px-12 py-4 font-bold text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white transition-all duration-300 shadow-lg text-center sm:min-w-[200px] md:min-w-[240px]"
@@ -41,6 +41,13 @@ const Hero: React.FC = () => {
             className="border border-white/40 text-white px-8 md:px-12 py-4 font-bold text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white/10 transition-all duration-300 text-center sm:min-w-[200px] md:min-w-[240px]"
           >
             {t('hero.cta2')}
+          </Link>
+
+          <Link 
+            to="/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/#leiloes-em-analise" 
+            className="border border-white/40 text-white px-8 md:px-12 py-4 font-bold text-[10px] md:text-[11px] uppercase tracking-widest hover:bg-white/10 transition-all duration-300 text-center sm:min-w-[200px] md:min-w-[240px]"
+          >
+            {t('hero.cta3')}
           </Link>
 
           <a 
