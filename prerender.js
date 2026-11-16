@@ -209,7 +209,13 @@ async function start() {
         // Aggressively remove these from body
         const cleanAppHtml = appHtml.replace(headTagsRegex, '');
 
-        let html = template
+        const baseTemplate = url === '/compliance-condominial-penal/'
+          ? template
+              .replace(/<title>[\s\S]*?<\/title>\s*/i, '')
+              .replace(/<!--\s*Structured Data \(Schema\.org\)\s*-->\s*<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/i, '')
+          : template;
+
+        let html = baseTemplate
           .replace(`<!--app-html-->`, cleanAppHtml)
           .replace(`<script id="seo-head"></script>`, finalHeadContent)
 

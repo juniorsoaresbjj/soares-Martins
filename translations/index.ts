@@ -445,28 +445,85 @@ export const translations = {
         ]
       },
       'compliance-condominial-penal': {
-        h1: 'Compliance Condominial e Penal',
-        h2: 'Prevenção de Fraudes, Proteção de Dados e Defesa Penal no Âmbito Condominial',
-        sections: [
+        h1: 'Direito Penal Condominial',
+        intro: 'O Soares Martins Advogados oferece assessoria jurídica em Direito Penal Condominial, com atuação em questões criminais relacionadas à administração e às relações condominiais. O trabalho envolve a defesa de síndicos e administradores, bem como a orientação jurídica de condomínios e condôminos diante de possíveis práticas criminosas.',
+        h2: 'Atuação Jurídica em Questões Criminais Condominiais',
+        h2Desc: 'A atuação compreende a análise de situações que possam configurar ilícitos penais no ambiente condominial, considerando as circunstâncias de cada caso e as medidas jurídicas adequadas.',
+        crimesSectionTitle: 'Crimes que Podem Envolver a Administração Condominial',
+        crimeBlocks: [
           {
-            h2: 'Proteção Patrimonial e Prevenção de Fraudes',
-            p: 'Auditoria de contas, prevenção de desvios de recursos, apropriação indébita e responsabilização civil e criminal de gestores ou prestadores de serviços no condomínio.'
+            h3: 'Apropriação Indébita e Desvio de Recursos',
+            p: 'Análise e atuação jurídica em situações envolvendo possível apropriação ou desvio de valores pertencentes ao condomínio.'
           },
           {
-            h2: 'Adequação à LGPD em Condomínios',
-            p: 'Implementação de políticas de privacidade para portarias, controle de acesso, biometria facial e câmeras de segurança CFTV em conformidade com a Lei Geral de Proteção de Dados.'
+            h3: 'Estelionato e Fraudes',
+            p: 'Atuação em casos envolvendo possíveis fraudes financeiras, obtenção de vantagens ilícitas e outras condutas fraudulentas relacionadas à gestão condominial.'
+          },
+          {
+            h3: 'Falsidade Documental',
+            p: 'Atuação em situações envolvendo suspeita de falsificação ou alteração fraudulenta de atas, comprovantes, prestações de contas e outros documentos condominiais.'
+          },
+          {
+            h3: 'Outras Condutas Criminosas',
+            p: 'Análise de outras condutas que possam configurar infrações penais relacionadas à administração ou às relações condominiais.'
           }
         ],
-        faqs: [
+        sections: [
           {
-            q: 'Como o condomínio deve agir em caso de suspeita de desvio de verbas?',
-            a: 'Recomenda-se auditoria contábil independente e instauração de procedimento preliminar sigiloso assessorado por advogado antes de qualquer deliberação ou representação criminal.'
+            h2: 'Defesa Criminal de Síndicos e Administradores',
+            p: 'Atuação na defesa técnica de síndicos, ex-síndicos, administradores e demais pessoas investigadas ou acusadas em procedimentos relacionados à gestão condominial, desde a fase investigativa até eventual processo criminal.'
           },
           {
-            q: 'Condomínios residenciais precisam se adequar à LGPD?',
-            a: 'Sim. O tratamento de dados pessoais de moradores, visitantes e funcionários em portarias e sistemas de monitoramento exige adequação legal estrita.'
+            h2: 'Atuação Jurídica em Favor de Condomínios e Condôminos',
+            p: 'Orientação jurídica e adoção de medidas cabíveis diante de suspeitas de fraudes, desvios de recursos, falsidade documental e outras possíveis infrações penais relacionadas à administração condominial, mediante análise documental e dos fatos.'
           }
-        ]
+        ],
+        faqTitle: 'Perguntas Frequentes sobre Direito Penal Condominial',
+        faqSub: 'Esclarecimentos objetivos sobre a atuação jurídica em Direito Penal Condominial no Rio de Janeiro',
+        faqs: [
+          {
+            q: 'O que é Direito Penal Condominial?',
+            a: 'É a área voltada à análise jurídica e à atuação em situações com possível repercussão criminal relacionadas à administração, às finanças ou às relações em condomínios, abrangendo, de forma independente em cada caso, a defesa técnica de pessoas investigadas ou acusadas ou a orientação jurídica a condomínios e condôminos.'
+          },
+          {
+            q: 'Quando uma irregularidade na gestão do condomínio pode ter repercussão criminal?',
+            a: 'Falhas de gestão, divergências contábeis, problemas na prestação de contas ou irregularidades administrativas não configuram crime automaticamente. A eventual repercussão penal depende da análise concreta da conduta, do preenchimento dos elementos previstos em lei penal e das provas apuradas pelas autoridades competentes.'
+          },
+          {
+            q: 'O síndico responde automaticamente na esfera criminal por problemas financeiros no condomínio?',
+            a: 'Não. A responsabilidade penal é pessoal e não decorre automaticamente do exercício do cargo. Conforme o artigo 18 do Código Penal, a responsabilização exige conduta dolosa ou, apenas quando houver previsão legal expressa, conduta culposa, devidamente individualizada e comprovada.'
+          },
+          {
+            q: 'Quais crimes podem estar relacionados à administração condominial?',
+            a: 'Entre as hipóteses analisadas com maior frequência estão situações que, em tese, envolvem suspeitas de apropriação indébita, estelionato, falsidade documental ou outras possíveis infrações penais ligadas à gestão condominial. Nenhuma conduta configura crime automaticamente, sendo indispensável avaliar as circunstâncias concretas, os elementos legais e as provas.'
+          },
+          {
+            q: 'Como funciona a defesa criminal de síndicos e administradores?',
+            a: 'A defesa técnica atua para resguardar o contraditório, a ampla defesa e o exame adequado dos fatos e documentos em favor de síndicos, ex-síndicos, administradores e demais investigados ou acusados. A atuação pode ocorrer desde a fase investigativa, respeitados os limites legais de acesso aos elementos da investigação, e durante eventual processo criminal.'
+          },
+          {
+            q: 'Como o escritório atua em favor de condomínios e condôminos diante de suspeita de fraude ou desvio?',
+            a: 'A atuação compreende a orientação jurídica diante de suspeitas de fraudes, desvios de recursos, falsidade documental ou outras possíveis infrações penais, com exame preliminar de documentos e fatos para a adoção das medidas jurídicas cabíveis em favor do condomínio ou de condôminos.'
+          },
+          {
+            q: 'O mesmo escritório pode defender o síndico investigado e representar o condomínio no mesmo caso?',
+            a: 'Não. Em observância às normas éticas da advocacia e para evitar conflito de interesses, as duas frentes são conduzidas de maneira independente, atendendo em cada caso apenas um dos polos — a defesa técnica de quem é investigado ou acusado ou a orientação ao condomínio ou a condôminos.'
+          },
+          {
+            q: 'O que o condomínio deve fazer antes de registrar ocorrência policial por suspeita de desvio de recursos?',
+            a: 'O condomínio não precisa concluir uma investigação interna nem reunir provas definitivas antes de comunicar fatos potencialmente criminosos às autoridades competentes, pois a comunicação de uma suspeita não se confunde com a comprovação do crime. Ainda assim, a orientação jurídica e a organização inicial dos documentos disponíveis auxiliam na apresentação objetiva dos indícios.'
+          },
+          {
+            q: 'O condomínio em si pode ser réu em processo criminal?',
+            a: 'Em regra, não. No direito brasileiro, a responsabilização penal da pessoa jurídica restringe-se a hipóteses legais excepcionais, não respondendo o condomínio edilício criminalmente por crimes comuns praticados por síndicos, administradores ou terceiros. Não se deve confundir a eventual responsabilidade civil do condomínio com a responsabilidade penal pessoal dos envolvidos.'
+          },
+          {
+            q: 'Qual é a importância do acompanhamento jurídico desde a fase de inquérito policial?',
+            a: 'O acompanhamento técnico desde a fase investigativa permite orientar o cliente quanto aos seus direitos e garantias, acompanhar atos pertinentes e apresentar esclarecimentos ou requerimentos cabíveis no inquérito policial, sempre respeitados os limites legais de acesso aos elementos da investigação e sem prejuízo da atuação no processo criminal.'
+          }
+        ],
+        ctaTitle: 'Assessoria Jurídica em Direito Penal Condominial',
+        ctaDesc: 'O enfrentamento de questões criminais no ambiente condominial exige análise jurídica cuidadosa e atuação adequada às particularidades de cada situação. Entre em contato com o Soares Martins Advogados para obter orientação jurídica em Direito Penal Condominial.'
       },
       'direito-patrimonial-sucessorio': {
         h1: 'Direito Patrimonial e Sucessório',
@@ -855,18 +912,22 @@ export const translations = {
         ]
       },
       'compliance-condominial-penal': {
-        h1: 'Compliance y Derecho Penal Inmobiliario',
-        h2: 'Prevención de Fraudes, Protección de Datos y Defensa Penal',
+        h1: 'Derecho Penal Condominial',
+        h2: 'Actuación Jurídica en Cuestiones Penales Condominiales',
         sections: [
           {
-            h2: 'Prevención de Fraudes y Auditoría',
-            p: 'Defensa penal y consultoría preventiva contra apropiación indebida y delitos patrimoniales en condominios.'
+            h2: 'Defensa Penal de Administradores y Síndicos',
+            p: 'Asesoría y defensa técnica en investigaciones y procesos penales relacionados con la gestión condominial.'
+          },
+          {
+            h2: 'Actuación Jurídica a Favor de Condominios y Copropietarios',
+            p: 'Orientación jurídica ante sospechas de irregularidades con posible repercusión penal, análisis documental y adopción de las medidas jurídicas procedentes.'
           }
         ],
         faqs: [
           {
-            q: '¿Cómo actúa el despacho en delitos patrimoniales?',
-            a: 'Instauramos procedimientos de investigación técnica y representación ante los órganos policiales y judiciales competentes.'
+            q: '¿Cómo actúa el despacho en cuestiones penales condominiales?',
+            a: 'Actuamos de forma independiente tanto en la defensa técnica de administradores e investigados como en la orientación jurídica a condominios y copropietarios ante posibles fraudes o desvíos.'
           }
         ]
       },
@@ -1212,7 +1273,7 @@ export const translations = {
       'assembleias-convencao-regimento': { h1: 'Assemblies & Bylaws', h2: 'Bylaw Review', sections: [], faqs: [] },
       'direito-imobiliario': { h1: 'Real Estate Law & Transactions', h2: 'Legal Structuring, Contracts, and Asset Regularization in Rio de Janeiro', sections: [], faqs: [] },
       'contencioso-civel-imobiliario': { h1: 'Real Estate Civil Litigation', h2: 'Strategic Defense in Complex Property Disputes in Rio de Janeiro Courts', sections: [], faqs: [] },
-      'compliance-condominial-penal': { h1: 'Condominium Compliance & Criminal Law', h2: 'Fraud Prevention, Data Protection (LGPD), and Criminal Defense', sections: [], faqs: [] },
+      'compliance-condominial-penal': { h1: 'Condominium Criminal Law', h2: 'Legal Practice in Condominium Criminal Matters', sections: [], faqs: [] },
       'direito-patrimonial-sucessorio': { h1: 'Estate Planning & Property Succession', h2: 'Succession Planning, Family Holding Companies, and Asset Protection in RJ', sections: [], faqs: [] }
     },
     data: {

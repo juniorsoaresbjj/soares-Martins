@@ -3665,6 +3665,7 @@ const ServiceDetail: React.FC = () => {
   const slug = slugAliasMap[detectedSlug] || detectedSlug;
   
   const isAuctionPage = slug === 'assessoria-leiloes-judiciais' || slug === 'assessoria-leiloes-judiciais-imoveis-rio-de-janeiro';
+  const isPenalCondominialPage = slug === 'compliance-condominial-penal';
   const service = serviceData[slug] || (isAuctionPage ? serviceData['assessoria-leiloes-judiciais-imoveis-rio-de-janeiro'] : null);
 
   useEffect(() => {
@@ -3703,6 +3704,44 @@ const ServiceDetail: React.FC = () => {
     window.scrollTo(0, 0);
   }, [slug, location.hash]);
 
+  useEffect(() => {
+    if (!isPenalCondominialPage || typeof document === 'undefined') return;
+
+    const expectedTitle = 'Direito Penal Condominial no Rio de Janeiro | Soares Martins Advogados';
+    const titleEls = Array.from(document.head.querySelectorAll('title'));
+    if (titleEls.length > 1) {
+      const preferredTitle =
+        titleEls.find((el) => el.hasAttribute('data-rh')) ||
+        titleEls.find((el) => el.textContent === expectedTitle) ||
+        titleEls[0];
+      titleEls.forEach((el) => {
+        if (el !== preferredTitle) {
+          el.remove();
+        }
+      });
+    }
+    if (document.title !== expectedTitle) {
+      document.title = expectedTitle;
+    }
+
+    const removedStaticSchemas: { node: HTMLScriptElement; nextSibling: ChildNode | null }[] = [];
+    const headScripts = Array.from(document.head.querySelectorAll('script[type="application/ld+json"]')) as HTMLScriptElement[];
+    headScripts.forEach((script) => {
+      if (!script.hasAttribute('data-rh') && script.textContent?.includes('22410-905') && script.textContent?.includes('LegalService')) {
+        removedStaticSchemas.push({ node: script, nextSibling: script.nextSibling });
+        script.remove();
+      }
+    });
+
+    return () => {
+      removedStaticSchemas.forEach(({ node, nextSibling }) => {
+        if (!document.head.contains(node)) {
+          document.head.insertBefore(node, nextSibling);
+        }
+      });
+    };
+  }, [isPenalCondominialPage]);
+
   if (!service) {
     return (
       <div className="min-h-screen bg-midnight text-white flex items-center justify-center">
@@ -3729,9 +3768,17 @@ const ServiceDetail: React.FC = () => {
         const ptContent = (translations.pt.service_content as any)?.[slug as string];
         return {
           h1: content.h1,
+          intro: content.intro || ptContent?.intro || '',
           h2: content.h2 || ptContent?.h2 || '',
+          h2Desc: content.h2Desc || ptContent?.h2Desc || '',
+          crimesSectionTitle: content.crimesSectionTitle || ptContent?.crimesSectionTitle || '',
+          crimeBlocks: (content.crimeBlocks && content.crimeBlocks.length > 0) ? content.crimeBlocks : (ptContent?.crimeBlocks || []),
           sections: (content.sections && content.sections.length > 0) ? content.sections : (ptContent?.sections || []),
-          faqs: (content.faqs && content.faqs.length > 0) ? content.faqs : (ptContent?.faqs || [])
+          faqTitle: content.faqTitle || ptContent?.faqTitle || '',
+          faqSub: content.faqSub || ptContent?.faqSub || '',
+          faqs: (content.faqs && content.faqs.length > 0) ? content.faqs : (ptContent?.faqs || []),
+          ctaTitle: content.ctaTitle || ptContent?.ctaTitle || '',
+          ctaDesc: content.ctaDesc || ptContent?.ctaDesc || ''
         };
       }
     } catch (e) {}
@@ -3746,9 +3793,17 @@ const ServiceDetail: React.FC = () => {
     
     return {
       h1: service?.titleKey ? (service.titleKey.startsWith('service_content') ? (translations.pt.service_content as any)?.[slug]?.h1 || t(service.titleKey) : t(service.titleKey)) : 'Área de Atuação',
+      intro: '',
       h2: language === 'es' ? 'Especialidades y Actuación' : language === 'en' ? 'Specialties & Practice Areas' : 'Especialidades e Atuação',
+      h2Desc: '',
+      crimesSectionTitle: '',
+      crimeBlocks: [],
       sections: [],
-      faqs: []
+      faqTitle: '',
+      faqSub: '',
+      faqs: [],
+      ctaTitle: '',
+      ctaDesc: ''
     };
   };
 
@@ -3757,7 +3812,12 @@ const ServiceDetail: React.FC = () => {
 
   // Generate description for SEO
   const serviceDesc = service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || '');
-  const seoDescription = `${content.h1} no Rio de Janeiro/RJ. ${serviceDesc}`.substring(0, 160);
+  const seoTitle = isPenalCondominialPage
+    ? 'Direito Penal Condominial no Rio de Janeiro | Soares Martins Advogados'
+    : content.h1;
+  const seoDescription = isPenalCondominialPage
+    ? 'Assessoria jurídica em Direito Penal Condominial no Rio de Janeiro. Defesa criminal de síndicos e administradores e atuação em casos envolvendo fraudes e desvios na gestão condominial.'
+    : `${content.h1} no Rio de Janeiro/RJ. ${serviceDesc}`.substring(0, 160);
   const canonicalUrl = `https://soaresmartinsadv.com/${slug}/`;
 
   // Schemas
@@ -3795,7 +3855,7 @@ const ServiceDetail: React.FC = () => {
     "logo": "https://soaresmartinsadv.com/favicon.svg",
     "image": "https://soaresmartinsadv.com/favicon.svg",
     "telephone": "+55-21-97954-9241",
-    "email": "Juniorsadv@hotmail.com",
+    "email": isPenalCondominialPage ? "soaresmartinsadv@hotmail.com" : "Juniorsadv@hotmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718",
@@ -3986,7 +4046,7 @@ const ServiceDetail: React.FC = () => {
       </div>
 
       <SEO 
-        title={content.h1} 
+        title={seoTitle} 
         description={seoDescription}
         schema={combinedSchemas}
       />
@@ -4016,7 +4076,9 @@ const ServiceDetail: React.FC = () => {
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif leading-tight text-white tracking-tight text-center">{content.h1}</h1>
             <p className="text-base sm:text-lg md:text-xl text-text-muted font-light leading-relaxed text-center px-4">
-              {service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || '')}
+              {isPenalCondominialPage
+                ? content.intro
+                : (service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || ''))}
             </p>
           </div>
 
@@ -4065,13 +4127,15 @@ const ServiceDetail: React.FC = () => {
               <div className="lg:col-span-7 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-8">
                 <div className="space-y-5">
                   <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest bg-bronze/20 text-bronze border border-bronze/30">
-                    <ShieldCheck size={14} /> {language === 'es' ? 'Actuación Especializada • Río de Janeiro' : language === 'en' ? 'Specialized Practice • Rio de Janeiro' : 'Atuação Especializada • Rio de Janeiro'}
+                    <ShieldCheck size={14} /> {isPenalCondominialPage ? 'Direito Penal Condominial • Rio de Janeiro' : (language === 'es' ? 'Actuación Especializada • Río de Janeiro' : language === 'en' ? 'Specialized Practice • Rio de Janeiro' : 'Atuação Especializada • Rio de Janeiro')}
                   </span>
                   <h2 className="text-2xl sm:text-3xl font-serif text-white leading-tight text-left">
                     {content.h2 || content.h1}
                   </h2>
                   <p className="text-white/80 text-sm sm:text-base leading-relaxed text-left">
-                    {service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || '')}
+                    {isPenalCondominialPage
+                      ? content.h2Desc
+                      : (service?.descKey && !service.descKey.startsWith('service_content') ? t(service.descKey) : (content.h2 || ''))}
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/10 text-left">
@@ -4083,10 +4147,12 @@ const ServiceDetail: React.FC = () => {
                   </div>
                   <div>
                     <span className="text-bronze font-serif text-xl sm:text-2xl font-bold block mb-1">
-                      {language === 'es' ? 'Seguridad Jurídica' : language === 'en' ? 'Legal Certainty' : 'Segurança Jurídica'}
+                      {isPenalCondominialPage ? 'Atuação Independente' : (language === 'es' ? 'Seguridad Jurídica' : language === 'en' ? 'Legal Certainty' : 'Segurança Jurídica')}
                     </span>
                     <span className="text-xs text-text-muted leading-snug block">
-                      {language === 'es' ? 'Enfoque consultivo, preventivo y contencioso' : language === 'en' ? 'Consultative, preventive and litigation focus' : 'Foco consultivo, preventivo e contencioso'}
+                      {isPenalCondominialPage
+                        ? 'Defesa técnica ou orientação jurídica em frentes distintas'
+                        : (language === 'es' ? 'Enfoque consultivo, preventivo y contencioso' : language === 'en' ? 'Consultative, preventive and litigation focus' : 'Foco consultivo, preventivo e contencioso')}
                     </span>
                   </div>
                 </div>
@@ -4094,17 +4160,55 @@ const ServiceDetail: React.FC = () => {
               <div className="lg:col-span-5 relative min-h-[280px] lg:min-h-full">
                 <img 
                   src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80" 
-                  alt="Escritório Soares Martins Advogados - Rio de Janeiro"
+                  alt={isPenalCondominialPage ? 'Direito Penal Condominial - Soares Martins Advogados no Rio de Janeiro' : 'Escritório Soares Martins Advogados - Rio de Janeiro'}
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-midnight via-transparent to-transparent opacity-80" />
                 <div className="absolute bottom-6 left-6 right-6 bg-midnight/85 backdrop-blur-md p-4 rounded-xl border border-white/10 text-xs text-white/90 shadow-lg text-left">
                   <span className="font-bold text-bronze block mb-0.5">Soares Martins Advogados</span>
-                  {language === 'es' ? 'Protección jurídica patrimonial e inmobiliaria' : language === 'en' ? 'Asset & real estate legal protection' : 'Proteção jurídica patrimonial e imobiliária'}
+                  {isPenalCondominialPage
+                    ? 'Assessoria jurídica em Direito Penal Condominial'
+                    : (language === 'es' ? 'Protección jurídica patrimonial e inmobiliaria' : language === 'en' ? 'Asset & real estate legal protection' : 'Proteção jurídica patrimonial e imobiliária')}
                 </div>
               </div>
             </div>
+          )}
+
+          {/* Bloco de Crimes Envolvendo a Administração Condominial (Exclusivo /compliance-condominial-penal/) */}
+          {isPenalCondominialPage && content.crimeBlocks && content.crimeBlocks.length > 0 && (
+            <section className="relative overflow-hidden bg-midnight-light/50 backdrop-blur-md p-7 sm:p-10 md:p-12 rounded-3xl border border-white/15 hover:border-bronze/50 transition-all text-left space-y-8 shadow-2xl mb-8 sm:mb-10 group">
+              <div className="absolute top-0 right-0 w-32 h-32 opacity-10 group-hover:opacity-20 transition-opacity text-bronze pointer-events-none">
+                <svg width="128" height="128" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="0.5">
+                  <line x1="100" y1="0" x2="0" y2="100" strokeDasharray="2 2" />
+                  <line x1="100" y1="30" x2="30" y2="100" />
+                  <line x1="100" y1="60" x2="60" y2="100" />
+                  <rect x="60" y="10" width="30" height="30" rx="4" strokeWidth="0.5" />
+                </svg>
+              </div>
+
+              <h2 className="text-2xl md:text-3xl font-serif text-bronze flex items-center gap-3 border-b border-white/15 pb-5 text-left">
+                <span className="w-2.5 h-2.5 rounded-full bg-bronze inline-block shrink-0 shadow-md shadow-bronze" />
+                {content.crimesSectionTitle}
+              </h2>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                {content.crimeBlocks.map((crime: any, idx: number) => (
+                  <div
+                    key={idx}
+                    className="bg-midnight/70 border border-white/15 hover:border-bronze/40 p-6 rounded-2xl text-left shadow-md hover:shadow-lg transition-all space-y-2.5"
+                  >
+                    <h3 className="text-lg font-serif text-white font-semibold flex items-start gap-2.5">
+                      <ShieldAlert size={18} className="text-bronze shrink-0 mt-1" />
+                      <span>{crime.h3}</span>
+                    </h3>
+                    <p className="text-sm text-white/85 leading-relaxed font-light pl-7">
+                      {crime.p}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
           )}
 
           {/* Render Sections with Strictly Left-Aligned Content Cards */}
@@ -4608,7 +4712,7 @@ const ServiceDetail: React.FC = () => {
           )}
 
           {/* Details list fallback for other services */}
-          {!isAuctionPage && details && details.length > 0 && (
+          {!isAuctionPage && !isPenalCondominialPage && details && details.length > 0 && (
             <div className="bg-midnight-light/40 backdrop-blur-sm p-8 sm:p-10 md:p-12 rounded-3xl border border-white/5 mb-10 sm:mb-12 text-left shadow-xl">
               <h2 className="text-2xl font-serif mb-8 text-bronze text-left">
                 {content.h2 || "Especialidades e Atuação"}
@@ -4629,10 +4733,18 @@ const ServiceDetail: React.FC = () => {
             <div className="mb-10 sm:mb-12">
               <div className="text-center mb-10 border-b border-white/10 pb-6">
                 <h2 className="text-2xl sm:text-3xl font-serif text-bronze text-center">
-                  {isAuctionPage ? tPage.faqHeaderTitle : (language === 'es' ? 'Preguntas Frecuentes' : language === 'en' ? 'Frequently Asked Questions' : 'Perguntas Frequentes')}
+                  {isAuctionPage
+                    ? tPage.faqHeaderTitle
+                    : isPenalCondominialPage
+                    ? (content.faqTitle || 'Perguntas Frequentes sobre Direito Penal Condominial')
+                    : (language === 'es' ? 'Preguntas Frecuentes' : language === 'en' ? 'Frequently Asked Questions' : 'Perguntas Frequentes')}
                 </h2>
                 <p className="text-sm text-text-muted mt-2 text-center">
-                  {isAuctionPage ? tPage.faqHeaderSub : (language === 'es' ? `Dudas comunes sobre ${content.h1} en Río de Janeiro` : language === 'en' ? `Common questions regarding ${content.h1} in Rio de Janeiro` : `Dúvidas frequentes e respostas fundamentadas sobre ${content.h1} no Rio de Janeiro`)}
+                  {isAuctionPage
+                    ? tPage.faqHeaderSub
+                    : isPenalCondominialPage
+                    ? (content.faqSub || 'Esclarecimentos objetivos sobre a atuação jurídica em Direito Penal Condominial no Rio de Janeiro')
+                    : (language === 'es' ? `Dudas comunes sobre ${content.h1} en Río de Janeiro` : language === 'en' ? `Common questions regarding ${content.h1} in Rio de Janeiro` : `Dúvidas frequentes e respostas fundamentadas sobre ${content.h1} no Rio de Janeiro`)}
                 </p>
               </div>
               <div className="space-y-5 text-left">
@@ -4674,9 +4786,15 @@ const ServiceDetail: React.FC = () => {
           {/* CTA Section */}
           <div className="bg-bronze p-8 sm:p-14 md:p-16 rounded-3xl text-midnight text-center shadow-2xl border border-bronze/30">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-2xl sm:text-3xl font-serif mb-4 font-bold text-midnight text-center">{tPage.ctaHeaderTitle}</h2>
+              <h2 className="text-2xl sm:text-3xl font-serif mb-4 font-bold text-midnight text-center">
+                {isPenalCondominialPage ? (content.ctaTitle || 'Assessoria Jurídica em Direito Penal Condominial') : tPage.ctaHeaderTitle}
+              </h2>
               <p className="text-base sm:text-lg mb-8 opacity-90 leading-relaxed font-medium text-center">
-                {isAuctionPage ? tPage.ctaHeaderDesc : (language === 'es' ? `El despacho Soares Martins Advogados ofrece asesoría jurídica especializada en ${content.h1} en Río de Janeiro, con enfoque técnico, estratégico y preventivo.` : language === 'en' ? `Soares Martins Advogados provides specialized legal counsel in ${content.h1} in Rio de Janeiro, with strategic, technical, and preventive focus.` : `O escritório Soares Martins Advogados oferece assessoria jurídica especializada em ${content.h1} no Rio de Janeiro, com foco técnico, estratégico e preventivo.`)}
+                {isAuctionPage
+                  ? tPage.ctaHeaderDesc
+                  : isPenalCondominialPage
+                  ? content.ctaDesc
+                  : (language === 'es' ? `El despacho Soares Martins Advogados ofrece asesoría jurídica especializada en ${content.h1} en Río de Janeiro, con enfoque técnico, estratégico y preventivo.` : language === 'en' ? `Soares Martins Advogados provides specialized legal counsel in ${content.h1} in Rio de Janeiro, with strategic, technical, and preventive focus.` : `O escritório Soares Martins Advogados oferece assessoria jurídica especializada em ${content.h1} no Rio de Janeiro, com foco técnico, estratégico e preventivo.`)}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
                 <a 
