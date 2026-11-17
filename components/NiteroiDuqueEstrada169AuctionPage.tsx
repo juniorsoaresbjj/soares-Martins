@@ -119,16 +119,18 @@ const NiteroiDuqueEstrada169AuctionPage: React.FC<NiteroiDuqueEstrada169AuctionP
     {
       "@context": "https://schema.org",
       "@type": "LegalService",
+      "@id": "https://soaresmartinsadv.com/#legalservice",
       "name": "Soares Martins Advogados — Assessoria Jurídica em Leilões Judiciais",
       "url": "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/",
       "logo": "https://soaresmartinsadv.com/logo.png",
       "telephone": "+55-21-97954-9241",
+      "email": "soaresmartinsadv@hotmail.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Rua Visconde de Pirajá, 547, Sala 605",
+        "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718",
         "addressLocality": "Ipanema, Rio de Janeiro",
         "addressRegion": "RJ",
-        "postalCode": "22410-003",
+        "postalCode": "22410-002",
         "addressCountry": "BR"
       },
       "areaServed": ["Rio de Janeiro", "Niterói", "Zona Sul RJ", "Região Metropolitana RJ"],

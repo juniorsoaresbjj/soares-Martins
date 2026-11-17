@@ -3704,44 +3704,6 @@ const ServiceDetail: React.FC = () => {
     window.scrollTo(0, 0);
   }, [slug, location.hash]);
 
-  useEffect(() => {
-    if (!isPenalCondominialPage || typeof document === 'undefined') return;
-
-    const expectedTitle = 'Direito Penal Condominial no Rio de Janeiro | Soares Martins Advogados';
-    const titleEls = Array.from(document.head.querySelectorAll('title'));
-    if (titleEls.length > 1) {
-      const preferredTitle =
-        titleEls.find((el) => el.hasAttribute('data-rh')) ||
-        titleEls.find((el) => el.textContent === expectedTitle) ||
-        titleEls[0];
-      titleEls.forEach((el) => {
-        if (el !== preferredTitle) {
-          el.remove();
-        }
-      });
-    }
-    if (document.title !== expectedTitle) {
-      document.title = expectedTitle;
-    }
-
-    const removedStaticSchemas: { node: HTMLScriptElement; nextSibling: ChildNode | null }[] = [];
-    const headScripts = Array.from(document.head.querySelectorAll('script[type="application/ld+json"]')) as HTMLScriptElement[];
-    headScripts.forEach((script) => {
-      if (!script.hasAttribute('data-rh') && script.textContent?.includes('22410-905') && script.textContent?.includes('LegalService')) {
-        removedStaticSchemas.push({ node: script, nextSibling: script.nextSibling });
-        script.remove();
-      }
-    });
-
-    return () => {
-      removedStaticSchemas.forEach(({ node, nextSibling }) => {
-        if (!document.head.contains(node)) {
-          document.head.insertBefore(node, nextSibling);
-        }
-      });
-    };
-  }, [isPenalCondominialPage]);
-
   if (!service) {
     return (
       <div className="min-h-screen bg-midnight text-white flex items-center justify-center">
@@ -3855,7 +3817,7 @@ const ServiceDetail: React.FC = () => {
     "logo": "https://soaresmartinsadv.com/favicon.svg",
     "image": "https://soaresmartinsadv.com/favicon.svg",
     "telephone": "+55-21-97954-9241",
-    "email": isPenalCondominialPage ? "soaresmartinsadv@hotmail.com" : "Juniorsadv@hotmail.com",
+    "email": "soaresmartinsadv@hotmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718",

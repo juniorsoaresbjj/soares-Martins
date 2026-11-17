@@ -61,14 +61,15 @@ const JardimGuanabaraBrenoGuimaraes106AuctionPage: React.FC<JardimGuanabaraBreno
       "@type": "LegalService",
       "name": "Soares Martins Advogados - Assessoria em Leilões Judiciais de Imóveis no Rio de Janeiro",
       "image": "https://soaresmartinsadv.com/assets/images/logo.png",
-      "@id": "https://soaresmartinsadv.com/#legal-service",
+      "@id": "https://soaresmartinsadv.com/#legalservice",
       "url": "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/",
       "telephone": "+55-21-97954-9241",
+      "email": "soaresmartinsadv@hotmail.com",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Rua Visconde de Pirajá, 414, Sala 718",
-        "addressLocality": "Ipanema",
+        "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718",
+        "addressLocality": "Ipanema, Rio de Janeiro",
         "addressRegion": "RJ",
         "postalCode": "22410-002",
         "addressCountry": "BR"
@@ -135,7 +136,7 @@ const JardimGuanabaraBrenoGuimaraes106AuctionPage: React.FC<JardimGuanabaraBreno
         description={metaDesc}
         canonical={canonicalUrl}
         keywords="leilão judicial jardim guanabara, leilao ilha do governador rj, leilao rua breno guimaraes 106, leilao judicial apartamento ilha do governador, assessoria juridica leilao rj, leilao 11 rgi rj matricula 86056, due diligence leilao judicial rj"
-        schemaJson={JSON.stringify(pageSchema)}
+        schema={pageSchema}
       />
 
       {/* Breadcrumb Navigation */}

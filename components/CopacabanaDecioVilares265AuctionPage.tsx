@@ -81,7 +81,7 @@ const CopacabanaDecioVilares265AuctionPage: React.FC<CopacabanaDecioVilares265Au
       "logo": "https://soaresmartinsadv.com/favicon.svg",
       "image": "https://soaresmartinsadv.com/favicon.svg",
       "telephone": "+55-21-97954-9241",
-      "email": "Juniorsadv@hotmail.com",
+      "email": "soaresmartinsadv@hotmail.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718",

@@ -59,13 +59,15 @@ const TijucaBaraoDeItapagipe417AuctionPage: React.FC<TijucaBaraoDeItapagipe417Au
     {
       "@context": "https://schema.org",
       "@type": "LegalService",
+      "@id": "https://soaresmartinsadv.com/#legalservice",
       "name": "Soares Martins Advogados - Assessoria em Leilões Judiciais de Imóveis",
       "description": "Assessoria jurídica e auditoria de riscos em leilões judiciais de imóveis no Rio de Janeiro. Análise de editais, due diligence processual e imissão na posse.",
       "url": "https://soaresmartinsadv.com/assessoria-leiloes-judiciais-imoveis-rio-de-janeiro/",
+      "email": "soaresmartinsadv@hotmail.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Rua Visconde de Pirajá, 414, Sala 718",
-        "addressLocality": "Ipanema",
+        "streetAddress": "Rua Visconde de Pirajá, 414 - Sala 718",
+        "addressLocality": "Ipanema, Rio de Janeiro",
         "addressRegion": "RJ",
         "postalCode": "22410-002",
         "addressCountry": "BR"
